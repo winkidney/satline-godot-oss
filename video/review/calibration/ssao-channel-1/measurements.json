@@ -1,0 +1,394 @@
+{
+  "r050-i010-d100": {
+    "magazine_mae_rgb8": 57.877,
+    "weapon_mae_rgb8": 10.241,
+    "sample_rgb8_at_690_480": [
+      159,
+      127,
+      84
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.5,
+      "ssao_intensity": 1,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r050-i020-d100": {
+    "magazine_mae_rgb8": 50.0,
+    "weapon_mae_rgb8": 9.724,
+    "sample_rgb8_at_690_480": [
+      147,
+      118,
+      78
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.5,
+      "ssao_intensity": 2,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r050-i040-d100": {
+    "magazine_mae_rgb8": 34.005,
+    "weapon_mae_rgb8": 8.938,
+    "sample_rgb8_at_690_480": [
+      123,
+      99,
+      66
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.5,
+      "ssao_intensity": 4,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r050-i080-d100": {
+    "magazine_mae_rgb8": 14.391,
+    "weapon_mae_rgb8": 8.477,
+    "sample_rgb8_at_690_480": [
+      78,
+      63,
+      45
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.5,
+      "ssao_intensity": 8,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i010-d100": {
+    "magazine_mae_rgb8": 56.182,
+    "weapon_mae_rgb8": 10.056,
+    "sample_rgb8_at_690_480": [
+      155,
+      124,
+      82
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 1,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i020-d100": {
+    "magazine_mae_rgb8": 46.501,
+    "weapon_mae_rgb8": 9.425,
+    "sample_rgb8_at_690_480": [
+      139,
+      111,
+      74
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 2,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i040-d100": {
+    "magazine_mae_rgb8": 27.331,
+    "weapon_mae_rgb8": 8.681,
+    "sample_rgb8_at_690_480": [
+      106,
+      84,
+      57
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 4,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i080-d100": {
+    "magazine_mae_rgb8": 10.339,
+    "weapon_mae_rgb8": 9.047,
+    "sample_rgb8_at_690_480": [
+      50,
+      42,
+      34
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 8,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r150-i010-d100": {
+    "magazine_mae_rgb8": 55.377,
+    "weapon_mae_rgb8": 9.953,
+    "sample_rgb8_at_690_480": [
+      154,
+      123,
+      81
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 1.5,
+      "ssao_intensity": 1,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r150-i020-d100": {
+    "magazine_mae_rgb8": 44.879,
+    "weapon_mae_rgb8": 9.318,
+    "sample_rgb8_at_690_480": [
+      137,
+      109,
+      73
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 1.5,
+      "ssao_intensity": 2,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r150-i040-d100": {
+    "magazine_mae_rgb8": 24.413,
+    "weapon_mae_rgb8": 8.837,
+    "sample_rgb8_at_690_480": [
+      102,
+      81,
+      55
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 1.5,
+      "ssao_intensity": 4,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r150-i080-d100": {
+    "magazine_mae_rgb8": 10.346,
+    "weapon_mae_rgb8": 10.113,
+    "sample_rgb8_at_690_480": [
+      58,
+      48,
+      37
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 1.5,
+      "ssao_intensity": 8,
+      "ssao_light_affect": 1.0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i040-d000": {
+    "magazine_mae_rgb8": 57.839,
+    "weapon_mae_rgb8": 10.146,
+    "sample_rgb8_at_690_480": [
+      158,
+      127,
+      84
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 4,
+      "ssao_light_affect": 0,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  },
+  "r090-i040-d050": {
+    "magazine_mae_rgb8": 43.783,
+    "weapon_mae_rgb8": 9.239,
+    "sample_rgb8_at_690_480": [
+      134,
+      108,
+      71
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "ssao_radius": 0.9,
+      "ssao_intensity": 4,
+      "ssao_light_affect": 0.5,
+      "ssao_ao_channel_affect": 1.0
+    },
+    "note": "Original screen-space AO depends on exposure; screenshots are separate recordings."
+  }
+}

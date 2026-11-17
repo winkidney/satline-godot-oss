@@ -1,0 +1,59 @@
+{
+  "scene": "level",
+  "query": "q=high&shot=1&noaudio=1&dynres=0&show=level",
+  "html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "time": {
+    "t": 5.057699999988078,
+    "dt": 0.017100000023841856,
+    "frame": 299,
+    "real": 6.813100000023842
+  },
+  "camera": {
+    "position": [
+      -32,
+      1.7,
+      6
+    ],
+    "quaternion": [
+      0.0076835161146157635,
+      -0.7114695923800258,
+      0.007780160317298516,
+      0.7026318038661169
+    ],
+    "fov": 74
+  },
+  "sun": {
+    "position": [
+      181.26947229749686,
+      60.91706470189607,
+      65.22510407256709
+    ],
+    "target": [
+      -2,
+      15.9,
+      -1
+    ],
+    "direction": [
+      0.9163473614874841,
+      0.22508532350948027,
+      0.33112552036283543
+    ],
+    "color": [
+      1,
+      0.72,
+      0.42
+    ],
+    "intensity": 9
+  },
+  "environment_intensity": 2,
+  "exposure": 1,
+  "auto_exposure": true,
+  "adapt": {
+    "lum": 0.2091,
+    "auto": 0.624,
+    "sunVis": 1
+  },
+  "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "fatal": null,
+  "errors": []
+}

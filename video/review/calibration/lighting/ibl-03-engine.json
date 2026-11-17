@@ -1,0 +1,84 @@
+{
+  "approximation": [
+    "Captured static background and lighting panoramas approximate the source dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer",
+    "Native standard materials omit source procedural wetness and triplanar patches"
+  ],
+  "calibration": {
+    "ambient_energy": 1.0,
+    "background_energy": 1.0,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "exposure": 0.722222222222222,
+    "fog_density": 0.0,
+    "saturation": 1.0,
+    "separate_background": 1.0,
+    "sky_index": 1.0,
+    "sky_rotation": 0.0,
+    "source_grade": 1.0,
+    "ssao_intensity": 0.0,
+    "sun_angular_distance": 0.0,
+    "sun_energy": 0.0,
+    "tonemap": "aces",
+    "white": 14.26024
+  },
+  "camera": {
+    "fov": 74.0,
+    "position": [
+      -8.5,
+      1.70000004768372,
+      4.19999980926514
+    ],
+    "quaternion": [
+      -0.00669108796864748,
+      -0.585748910903931,
+      -0.00483594834804535,
+      0.810450553894043
+    ]
+  },
+  "catalog": {
+    "camera": {
+      "far": 900.0,
+      "fov": 74.0,
+      "near": 0.08,
+      "position": [
+        -8.5,
+        1.7,
+        4.2
+      ],
+      "quaternion": [
+        -0.00669108676781583,
+        -0.585748884133079,
+        -0.00483594788930624,
+        0.810450546117855
+      ]
+    },
+    "materials": 23,
+    "nodes": 37,
+    "textures": 12
+  },
+  "diffuse_mode": "lambert",
+  "elapsed_seconds": 1.63507233333333,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 55.0434364065851,
+  "frames": 90,
+  "material_count": 24,
+  "nodes": 37,
+  "rendering_method": "forward_plus",
+  "scene": "render",
+  "screen_space_reflection": false,
+  "texture_count": 17,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}

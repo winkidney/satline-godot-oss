@@ -1,0 +1,61 @@
+{
+  "pixel": [
+    690,
+    480
+  ],
+  "time": 5.000000099999992,
+  "camera": [
+    1.12,
+    1.3,
+    0.11
+  ],
+  "light": {
+    "sun": 9,
+    "environment": 2
+  },
+  "note": "RGBA8 linear target before source post-processing; diffuse/specular terms divided by four.",
+  "pixels": {
+    "marker": [
+      255,
+      0,
+      255,
+      255
+    ],
+    "albedo_linear": [
+      37,
+      27,
+      17,
+      255
+    ],
+    "normal_view_encoded": [
+      127,
+      120,
+      255,
+      255
+    ],
+    "direct_diffuse_div4": [
+      24,
+      13,
+      5,
+      255
+    ],
+    "indirect_diffuse_div4": [
+      10,
+      5,
+      2,
+      255
+    ],
+    "direct_specular_div4": [
+      7,
+      5,
+      3,
+      255
+    ],
+    "indirect_specular_div4": [
+      3,
+      2,
+      1,
+      255
+    ]
+  }
+}

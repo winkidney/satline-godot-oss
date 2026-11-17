@@ -1,0 +1,354 @@
+[
+  {
+    "id": "sun-00",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 1.43,
+      "sun_angular_distance": 0
+    },
+    "equal_region_mae_rgb8": 6.456,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 5.856,
+      "floor_right": 5.173,
+      "metal_smooth": 6.503,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-06",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 2.864789,
+      "sun_angular_distance": 2
+    },
+    "equal_region_mae_rgb8": 6.459,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 5.87,
+      "floor_right": 5.173,
+      "metal_smooth": 6.506,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-01",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 1.43,
+      "sun_angular_distance": 0.5
+    },
+    "equal_region_mae_rgb8": 6.475,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 5.971,
+      "floor_right": 5.173,
+      "metal_smooth": 6.503,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-05",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 2.864789,
+      "sun_angular_distance": 0.5
+    },
+    "equal_region_mae_rgb8": 6.478,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 5.988,
+      "floor_right": 5.173,
+      "metal_smooth": 6.506,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-10",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 4.3,
+      "sun_angular_distance": 2
+    },
+    "equal_region_mae_rgb8": 6.516,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 6.191,
+      "floor_right": 5.173,
+      "metal_smooth": 6.526,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-07",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 2.864789,
+      "sun_angular_distance": 5
+    },
+    "equal_region_mae_rgb8": 6.682,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.204,
+      "floor_right": 5.194,
+      "metal_smooth": 6.497,
+      "metal_rough": 6.339
+    }
+  },
+  {
+    "id": "sun-11",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 4.3,
+      "sun_angular_distance": 5
+    },
+    "equal_region_mae_rgb8": 6.685,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.191,
+      "floor_right": 5.213,
+      "metal_smooth": 6.514,
+      "metal_rough": 6.333
+    }
+  },
+  {
+    "id": "sun-02",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 1.43,
+      "sun_angular_distance": 2
+    },
+    "equal_region_mae_rgb8": 6.692,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.273,
+      "floor_right": 5.173,
+      "metal_smooth": 6.503,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-04",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 2.864789,
+      "sun_angular_distance": 0
+    },
+    "equal_region_mae_rgb8": 6.805,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.947,
+      "floor_right": 5.173,
+      "metal_smooth": 6.506,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-14",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 5.73,
+      "sun_angular_distance": 2
+    },
+    "equal_region_mae_rgb8": 6.811,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.94,
+      "floor_right": 5.173,
+      "metal_smooth": 6.553,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-15",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 5.73,
+      "sun_angular_distance": 5
+    },
+    "equal_region_mae_rgb8": 6.818,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 7.958,
+      "floor_right": 5.23,
+      "metal_smooth": 6.534,
+      "metal_rough": 6.327
+    }
+  },
+  {
+    "id": "sun-03",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 1.43,
+      "sun_angular_distance": 5
+    },
+    "equal_region_mae_rgb8": 6.836,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 8.126,
+      "floor_right": 5.177,
+      "metal_smooth": 6.509,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-09",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 4.3,
+      "sun_angular_distance": 0.5
+    },
+    "equal_region_mae_rgb8": 6.981,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 8.981,
+      "floor_right": 5.173,
+      "metal_smooth": 6.526,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-08",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 4.3,
+      "sun_angular_distance": 0
+    },
+    "equal_region_mae_rgb8": 7.344,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 11.162,
+      "floor_right": 5.173,
+      "metal_smooth": 6.526,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-13",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 5.73,
+      "sun_angular_distance": 0.5
+    },
+    "equal_region_mae_rgb8": 7.49,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 12.013,
+      "floor_right": 5.173,
+      "metal_smooth": 6.553,
+      "metal_rough": 6.343
+    }
+  },
+  {
+    "id": "sun-12",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "background_energy": 0.0,
+      "sun_energy": 5.73,
+      "sun_angular_distance": 0
+    },
+    "equal_region_mae_rgb8": 7.828,
+    "regions": {
+      "wall": 8.555,
+      "cube": 6.305,
+      "floor_left": 14.039,
+      "floor_right": 5.173,
+      "metal_smooth": 6.553,
+      "metal_rough": 6.343
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "triangles": 13724,
+  "size": 2048,
+  "cell": 16,
+  "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "side": "left",
+  "source": "Offline source armSurface and armMicro bake; vertex UV seams and pose are approximate"
+}

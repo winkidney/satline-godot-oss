@@ -1,0 +1,164 @@
+{
+  "vertex": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 9.698,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      143.75,
+      114.56999969482422,
+      74.27999877929688
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 0,
+      "arm_normal": 0,
+      "arm_normal_strength": 1
+    }
+  },
+  "atlas": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 8.987,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      144.16000366210938,
+      115.05000305175781,
+      74.75
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "arm_normal": 0,
+      "arm_normal_strength": 1
+    }
+  },
+  "normal-010": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 9.01,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      144.14999389648438,
+      115.04000091552734,
+      74.73999786376953
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "arm_normal": 1,
+      "arm_normal_strength": 0.1
+    }
+  },
+  "normal-025": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 9.073,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      144.11000061035156,
+      115.01000213623047,
+      74.72000122070312
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "arm_normal": 1,
+      "arm_normal_strength": 0.25
+    }
+  },
+  "normal-050": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 9.229,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      143.99000549316406,
+      114.91000366210938,
+      74.66000366210938
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "arm_normal": 1,
+      "arm_normal_strength": 0.5
+    }
+  },
+  "atlas-normal": {
+    "mask_pixels": 106962,
+    "glove_mae_rgb8": 9.662,
+    "source_mean_rgb8": [
+      133.80999755859375,
+      107.16000366210938,
+      72.19000244140625
+    ],
+    "builtin_mean_rgb8": [
+      143.5800018310547,
+      114.5999984741211,
+      74.47000122070312
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "arm_normal": 1,
+      "arm_normal_strength": 1
+    }
+  }
+}

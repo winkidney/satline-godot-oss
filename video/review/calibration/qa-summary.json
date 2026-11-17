@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-11-17T07:31:51.566865+00:00",
+  "engine": "Godot 4.7.2 stable official ed1daf0bf",
+  "renderer": "Forward+ Vulkan",
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "resolution": [
+    1280,
+    720
+  ],
+  "baseline_commit": "c5376b5",
+  "tests": {
+    "loader": "passed",
+    "baked_albedo": "passed",
+    "baked_ground": "passed",
+    "invalid_calibration": "passed",
+    "gpu_color_probe": {
+      "gray": 0.4627451,
+      "expected_gray": 0.4613561,
+      "hdr": 0.7372549,
+      "expected_hdr": 0.735357,
+      "static_grade_max_error": 0.0018627,
+      "agx_grade_max_error": 0.0068089
+    },
+    "gpu_transparency_changed_samples": {
+      "fx": 12191,
+      "ground": 960
+    },
+    "ten_default_scenes": "passed"
+  },
+  "scene_subject_mae_rgb8": {
+    "mats": {
+      "initial": 53.172,
+      "calibrated": 8.66
+    },
+    "props": {
+      "initial": 61.437,
+      "calibrated": 6.334
+    },
+    "render": {
+      "initial": 29.287,
+      "calibrated": 13.993
+    },
+    "ground": {
+      "initial": 29.986,
+      "calibrated": 12.98
+    },
+    "level": {
+      "initial": 33.656,
+      "calibrated": 12.623
+    },
+    "backdrop": {
+      "initial": 60.019,
+      "calibrated": 14.102
+    },
+    "enemies": {
+      "initial": 82.046,
+      "calibrated": 8.543
+    },
+    "weapon": {
+      "initial": 79.008,
+      "calibrated": 8.477
+    },
+    "hands": {
+      "initial": 84.165,
+      "calibrated": 7.539
+    },
+    "fx": {
+      "initial": 84.373,
+      "calibrated": 12.915
+    }
+  },
+  "review": "Agent inspected ten comparison frames; no user visual approval recorded.",
+  "limitations": [
+    "Separate captures are not time synchronized.",
+    "Ground and hands use fixed-state offline bakes.",
+    "FX, dynamic water, source AO response and sky remain approximate."
+  ]
+}

@@ -13,6 +13,8 @@ saltline-godot/.godot/
 saltline-godot/output/
 artifact-rendering-study/godot/.godot/
 builtin-godot/.godot/
+builtin-godot/assets/baked-arms/*.raw
+video/editor/.render-v4/
 
 __pycache__/
 *.pyc

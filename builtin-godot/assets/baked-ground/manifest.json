@@ -1,0 +1,28 @@
+{
+  "size": [
+    2048,
+    2048
+  ],
+  "x": [
+    -16,
+    30
+  ],
+  "z": [
+    -32,
+    40
+  ],
+  "time": 5.000000099999992,
+  "eye": [
+    -9,
+    1.65,
+    5.6
+  ],
+  "wet": 1,
+  "rain": 0.6,
+  "source": "Source apron albedo, roughness and normals baked offline; view distance and time are fixed",
+  "color-roughness_sha256": "d0bdfade6318f6d1c435b5137840ad4b5bbd2321aec29fc986a5b9bcfdf82a46",
+  "normal_sha256": "b4d109b911a59852827655774c49664880432a9d9b16eecce11758c56eaa729f",
+  "html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "roughness_floor_rgb8": 51,
+  "roughness_sha256": "53295e8ffc4f40d1b94615f3f183e5bffbe5760e1b1716ab2697ea32966dc6e2"
+}

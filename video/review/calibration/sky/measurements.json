@@ -1,0 +1,62 @@
+{
+  "base": {
+    "linear_rgb_multiplier": [
+      1,
+      1,
+      1
+    ],
+    "sky_corner_mae_rgb8": 14.545,
+    "per_scene_mae_rgb8": {
+      "ground": 19.239,
+      "render": 14.259,
+      "props": 10.881,
+      "backdrop": 13.801
+    },
+    "note": "Different cloud times and source bloom remain in the comparison."
+  },
+  "warm-1": {
+    "linear_rgb_multiplier": [
+      1.2,
+      1.05,
+      0.9
+    ],
+    "sky_corner_mae_rgb8": 13.25,
+    "per_scene_mae_rgb8": {
+      "ground": 17.557,
+      "render": 13.559,
+      "props": 8.743,
+      "backdrop": 13.142
+    },
+    "note": "Different cloud times and source bloom remain in the comparison."
+  },
+  "warm-2": {
+    "linear_rgb_multiplier": [
+      1.4,
+      1.1,
+      0.9
+    ],
+    "sky_corner_mae_rgb8": 13.865,
+    "per_scene_mae_rgb8": {
+      "ground": 16.711,
+      "render": 14.79,
+      "props": 9.518,
+      "backdrop": 14.439
+    },
+    "note": "Different cloud times and source bloom remain in the comparison."
+  },
+  "warm-3": {
+    "linear_rgb_multiplier": [
+      1.1,
+      1,
+      0.8
+    ],
+    "sky_corner_mae_rgb8": 15.032,
+    "per_scene_mae_rgb8": {
+      "ground": 19.85,
+      "render": 14.723,
+      "props": 11.119,
+      "backdrop": 14.437
+    },
+    "note": "Different cloud times and source bloom remain in the comparison."
+  }
+}

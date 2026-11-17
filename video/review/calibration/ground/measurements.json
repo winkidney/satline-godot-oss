@@ -1,0 +1,242 @@
+{
+  "flat": {
+    "ground_crop_mae_rgb8": 16.148,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 0,
+      "ground_normal_strength": 0,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "baked": {
+    "ground_crop_mae_rgb8": 22.496,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 0,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "normal-025": {
+    "ground_crop_mae_rgb8": 22.465,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 0.25,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "normal-050": {
+    "ground_crop_mae_rgb8": 22.443,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 0.5,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "normal-100": {
+    "ground_crop_mae_rgb8": 22.296,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "baked-no-ssr": {
+    "ground_crop_mae_rgb8": 27.666,
+    "roughness_floor_rgb8": 0,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 0,
+      "ground_specular": 0.5
+    },
+    "ssr": false,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "floor-025": {
+    "ground_crop_mae_rgb8": 21.643,
+    "roughness_floor_rgb8": 25,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "floor-051": {
+    "ground_crop_mae_rgb8": 21.258,
+    "roughness_floor_rgb8": 51,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "floor-089": {
+    "ground_crop_mae_rgb8": 18.035,
+    "roughness_floor_rgb8": 89,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "floor-128": {
+    "ground_crop_mae_rgb8": 16.818,
+    "roughness_floor_rgb8": 128,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.5
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "spec-010": {
+    "ground_crop_mae_rgb8": 31.055,
+    "roughness_floor_rgb8": 51,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.1
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  },
+  "spec-025": {
+    "ground_crop_mae_rgb8": 16.298,
+    "roughness_floor_rgb8": 51,
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "arm_atlas": 1,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.25
+    },
+    "ssr": true,
+    "note": "Crop includes lighting, rain and geometry; source frames are not synchronized."
+  }
+}

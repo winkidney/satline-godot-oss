@@ -1,0 +1,81 @@
+{
+  "approximation": [
+    "Captured static background and lighting panoramas approximate the source dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer",
+    "Hand uses a source pose and offline-baked surface; dynamic stitch, wetness and rain remain approximate"
+  ],
+  "calibration": {
+    "ambient_energy": 1.0,
+    "arm_atlas": 1,
+    "arm_normal": 0,
+    "arm_normal_strength": 1.0,
+    "background_energy": 1.45,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "exposure": 0.433333333333333,
+    "fog_density": 0.0,
+    "glow_intensity": 0.3,
+    "ground_albedo": 2.0,
+    "ground_atlas": 1,
+    "ground_normal_strength": 1.0,
+    "ground_specular": 0.25,
+    "saturation": 1.0,
+    "separate_background": 1,
+    "sky_blue": 0.9,
+    "sky_green": 1.05,
+    "sky_index": 1,
+    "sky_red": 1.2,
+    "sky_rotation": 0.0,
+    "source_grade": 2,
+    "ssao_ao_channel_affect": 1.0,
+    "ssao_horizon": 0.06,
+    "ssao_intensity": 8.0,
+    "ssao_light_affect": 1.0,
+    "ssao_power": 1.5,
+    "ssao_radius": 0.5,
+    "sun_angular_distance": 2.0,
+    "sun_energy": 2.86478897565412,
+    "tonemap": "aces",
+    "volumetric_anisotropy": 0.2,
+    "volumetric_density": 0.005,
+    "white": 14.26024
+  },
+  "camera": {
+    "fov": 26.0,
+    "position": [
+      0.200000002980232,
+      1.3400000333786,
+      0.779999971389771
+    ],
+    "quaternion": [
+      -0.0551872812211514,
+      0.124978348612785,
+      0.00696267187595367,
+      0.990598976612091
+    ]
+  },
+  "diffuse_mode": "lambert",
+  "elapsed_seconds": 2.16822633333333,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 55.3447756607206,
+  "frames": 120,
+  "material_count": 2,
+  "nodes": 2,
+  "rendering_method": "forward_plus",
+  "scene": "hands",
+  "screen_space_reflection": false,
+  "texture_count": 5,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}

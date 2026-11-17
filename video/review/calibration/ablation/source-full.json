@@ -1,0 +1,13 @@
+{
+  "sun": 9,
+  "environment": 2,
+  "auto_exposure": false,
+  "exposure": 1,
+  "time": {
+    "t": 3.042999999999998,
+    "dt": 0.01680000001192093,
+    "frame": 181,
+    "real": 4.0446999999880795
+  },
+  "errors": []
+}

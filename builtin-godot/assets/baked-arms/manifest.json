@@ -1,0 +1,20 @@
+{
+  "edf7ee6f-3a0f-4f09-a904-2ad0fe9a97a9": {
+    "file": "edf7ee6f-3a0f-4f09-a904-2ad0fe9a97a9.rgba32f",
+    "side": "right",
+    "vertices": 6877,
+    "format": "RGBA32F: linear RGB and roughness",
+    "source": "armSurface at vertices; gD=100; no armMicro or wet beads",
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+    "sha256": "5e6a12154b2918cd1761f882d8c3ef5459872eab04772142200908baabb994f0"
+  },
+  "e6f52c50-50be-462b-b5b0-c3d045784bbd": {
+    "file": "e6f52c50-50be-462b-b5b0-c3d045784bbd.rgba32f",
+    "side": "left",
+    "vertices": 6877,
+    "format": "RGBA32F: linear RGB and roughness",
+    "source": "armSurface at vertices; gD=100; no armMicro or wet beads",
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+    "sha256": "5e6a12154b2918cd1761f882d8c3ef5459872eab04772142200908baabb994f0"
+  }
+}

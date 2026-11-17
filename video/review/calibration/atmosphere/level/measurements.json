@@ -1,0 +1,68 @@
+{
+  "none": {
+    "central_mae_rgb8": 21.624,
+    "full_mae_rgb8": 16.214,
+    "fps": 51.3519409944413,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0,
+      "glow_intensity": 0
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  },
+  "glow-03": {
+    "central_mae_rgb8": 21.073,
+    "full_mae_rgb8": 15.958,
+    "fps": 51.0475018274296,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0,
+      "glow_intensity": 0.3
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  },
+  "glow-07": {
+    "central_mae_rgb8": 20.771,
+    "full_mae_rgb8": 15.817,
+    "fps": 52.2678891932364,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0,
+      "glow_intensity": 0.7
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  },
+  "fog-005": {
+    "central_mae_rgb8": 20.383,
+    "full_mae_rgb8": 15.303,
+    "fps": 51.4962497617703,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0.005,
+      "glow_intensity": 0
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  },
+  "fog-020": {
+    "central_mae_rgb8": 17.626,
+    "full_mae_rgb8": 14.19,
+    "fps": 53.3333333333333,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0.02,
+      "glow_intensity": 0
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  },
+  "fog-005-glow-03": {
+    "central_mae_rgb8": 19.864,
+    "full_mae_rgb8": 15.061,
+    "fps": 52.2111570021398,
+    "settings": {
+      "exposure": 0.45066666666666666,
+      "volumetric_density": 0.005,
+      "glow_intensity": 0.3
+    },
+    "note": "Different cloud and animation states remain in separate captures."
+  }
+}

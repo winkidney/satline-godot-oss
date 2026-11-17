@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ibl-05",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 1.5
+    },
+    "equal_region_mae_rgb8": 7.986,
+    "regions": {
+      "wall": 5.183,
+      "cube": 3.141,
+      "floor_left": 12.082,
+      "floor_right": 13.35,
+      "metal_smooth": 6.274,
+      "metal_rough": 7.883
+    }
+  },
+  {
+    "id": "ibl-04",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 1.25
+    },
+    "equal_region_mae_rgb8": 11.731,
+    "regions": {
+      "wall": 9.219,
+      "cube": 7.422,
+      "floor_left": 7.73,
+      "floor_right": 24.793,
+      "metal_smooth": 13.282,
+      "metal_rough": 7.94
+    }
+  },
+  {
+    "id": "ibl-03",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 1.0
+    },
+    "equal_region_mae_rgb8": 22.597,
+    "regions": {
+      "wall": 12.443,
+      "cube": 11.677,
+      "floor_left": 22.391,
+      "floor_right": 40.979,
+      "metal_smooth": 27.407,
+      "metal_rough": 20.683
+    }
+  },
+  {
+    "id": "ibl-06",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 2.0
+    },
+    "equal_region_mae_rgb8": 29.685,
+    "regions": {
+      "wall": 8.571,
+      "cube": 11.755,
+      "floor_left": 49.934,
+      "floor_right": 33.503,
+      "metal_smooth": 33.752,
+      "metal_rough": 40.595
+    }
+  },
+  {
+    "id": "ibl-02",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 0.75
+    },
+    "equal_region_mae_rgb8": 31.476,
+    "regions": {
+      "wall": 15.152,
+      "cube": 14.804,
+      "floor_left": 35.048,
+      "floor_right": 54.152,
+      "metal_smooth": 39.101,
+      "metal_rough": 30.596
+    }
+  },
+  {
+    "id": "ibl-01",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 0.5
+    },
+    "equal_region_mae_rgb8": 36.908,
+    "regions": {
+      "wall": 15.49,
+      "cube": 16.032,
+      "floor_left": 42.977,
+      "floor_right": 62.813,
+      "metal_smooth": 47.277,
+      "metal_rough": 36.859
+    }
+  },
+  {
+    "id": "ibl-00",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 0.25
+    },
+    "equal_region_mae_rgb8": 38.87,
+    "regions": {
+      "wall": 15.492,
+      "cube": 16.112,
+      "floor_left": 45.827,
+      "floor_right": 65.322,
+      "metal_smooth": 51.075,
+      "metal_rough": 39.393
+    }
+  },
+  {
+    "id": "ibl-07",
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "exposure": 0.7222222222222222,
+      "source_grade": 1,
+      "sun_energy": 0.0,
+      "background_energy": 2.5
+    },
+    "equal_region_mae_rgb8": 56.504,
+    "regions": {
+      "wall": 23.226,
+      "cube": 28.73,
+      "floor_left": 84.839,
+      "floor_right": 67.603,
+      "metal_smooth": 62.357,
+      "metal_rough": 72.271
+    }
+  }
+]

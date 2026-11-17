@@ -1,0 +1,14 @@
+{
+  "separate_background": 1,
+  "sky_index": 1,
+  "white": 14.26024,
+  "source_grade": 2,
+  "sun_energy": 2.864788975654116,
+  "sun_angular_distance": 2.0,
+  "background_energy": 1.45,
+  "exposure": 0.43333333333333335,
+  "arm_atlas": 1,
+  "ground_atlas": 1,
+  "ground_normal_strength": 1,
+  "ground_specular": 0.1
+}

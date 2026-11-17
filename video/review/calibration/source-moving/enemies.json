@@ -1,0 +1,59 @@
+{
+  "scene": "enemies",
+  "query": "q=high&shot=1&noaudio=1&dynres=0&show=enemies&eshow=both",
+  "html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "time": {
+    "t": 5.047299999952324,
+    "dt": 0.01719999998807907,
+    "frame": 300,
+    "real": 5.708599999964237
+  },
+  "camera": {
+    "position": [
+      3,
+      1.45,
+      3.9
+    ],
+    "quaternion": [
+      -0.05156482124847504,
+      0.2807706675430042,
+      0.015108367400844919,
+      0.9582696064738511
+    ],
+    "fov": 74
+  },
+  "sun": {
+    "position": [
+      181.26947229749686,
+      60.91706470189607,
+      65.22510407256709
+    ],
+    "target": [
+      -2,
+      15.9,
+      -1
+    ],
+    "direction": [
+      0.9163473614874841,
+      0.22508532350948027,
+      0.33112552036283543
+    ],
+    "color": [
+      1,
+      0.72,
+      0.42
+    ],
+    "intensity": 9
+  },
+  "environment_intensity": 2,
+  "exposure": 1,
+  "auto_exposure": true,
+  "adapt": {
+    "lum": 0.1956,
+    "auto": 0.66,
+    "sunVis": 0
+  },
+  "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "fatal": null,
+  "errors": []
+}

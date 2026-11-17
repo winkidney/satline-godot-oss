@@ -1,0 +1,7 @@
+*.rgba8 binary
+*.rgba16f binary
+*.rgba32f binary
+*.rgba binary
+*.miprgba binary
+*.r8 binary
+*.bin binary

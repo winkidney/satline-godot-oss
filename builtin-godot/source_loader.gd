@@ -12,12 +12,28 @@ var meshes := {}
 var warnings: Array[String] = []
 var wetness := -1.0
 var diffuse_mode := BaseMaterial3D.DIFFUSE_BURLEY
+var baked_albedo := {}
+var use_arm_atlas := false
+var use_arm_normal := false
+var arm_normal_strength := 1.0
 
 func _init(root: String) -> void:
 	source_root = root
+	var manifest := FileAccess.open("res://assets/baked-albedo/manifest.json", FileAccess.READ)
+	if manifest != null:
+		baked_albedo = JSON.parse_string(manifest.get_as_text())
 
 func file_path(path: String) -> String:
 	return source_root.path_join(path.trim_prefix("res://"))
+
+static func orient_panorama(image: Image) -> void:
+	assert(image.get_width() % 2 == 0, "Panorama width must be even")
+	image.flip_y()
+	image.flip_x()
+	var original := image.duplicate() as Image
+	var half := image.get_width() / 2
+	image.blit_rect(original, Rect2i(0, 0, half, image.get_height()), Vector2i(half, 0))
+	image.blit_rect(original, Rect2i(half, 0, half, image.get_height()), Vector2i.ZERO)
 
 func read_json(path: String) -> Dictionary:
 	var file := FileAccess.open(file_path(path), FileAccess.READ)
@@ -75,30 +91,114 @@ func texture(reference: Variant) -> Texture2D:
 	textures[id] = result
 	return result
 
-func material(id: String, has_vertex_color: bool, priority: int = 0) -> StandardMaterial3D:
-	var key := id + "|" + str(has_vertex_color) + "|" + str(priority)
+func tinted_texture(id: String) -> Texture2D:
+	assert(baked_albedo.has(id), "Missing baked source tint: " + id)
+	var entry: Dictionary = baked_albedo[id]
+	var key := "baked:" + str(entry.file)
+	if textures.has(key):
+		return textures[key]
+	var bytes := FileAccess.get_file_as_bytes("res://assets/baked-albedo/" + str(entry.file))
+	assert(not bytes.is_empty(), "Missing baked albedo texture: " + str(entry.file))
+	var image := Image.create_from_data(int(entry.width), int(entry.height), bool(entry.mipmaps), Image.FORMAT_RGBAH, bytes)
+	var result := ImageTexture.create_from_image(image)
+	textures[key] = result
+	return result
+
+func arm_texture(id: String, kind: String) -> Texture2D:
+	var key := "arm:" + id + ":" + kind
+	if textures.has(key):
+		return textures[key]
+	var bytes := FileAccess.get_file_as_bytes("res://assets/baked-arms/" + id + "-" + kind + ".rgba8")
+	assert(bytes.size() == 2048 * 2048 * 4, "Missing baked arm atlas: " + key)
+	var image := Image.create_from_data(2048, 2048, false, Image.FORMAT_RGBA8, bytes)
+	assert(image.generate_mipmaps(kind == "normal") == OK, "Cannot generate arm atlas mipmaps")
+	var result := ImageTexture.create_from_image(image)
+	textures[key] = result
+	return result
+
+func arm_atlas_mesh(geometry: Dictionary, original: Array, indices: PackedInt32Array, material_id: String, priority: int, receives_shadow: bool) -> ArrayMesh:
+	assert(indices.size() / 3 <= 128 * 128, "Arm atlas capacity exceeded")
+	var vertices := PackedVector3Array()
+	var normals := PackedVector3Array()
+	var uvs := PackedVector2Array()
+	var bones := PackedInt32Array()
+	var weights := PackedFloat32Array()
+	var expanded := PackedInt32Array()
+	for i in indices.size():
+		var source_index := indices[i]
+		vertices.append(original[Mesh.ARRAY_VERTEX][source_index])
+		normals.append(original[Mesh.ARRAY_NORMAL][source_index])
+		var triangle := i / 3
+		var corner := i % 3
+		uvs.append(Vector2(float((triangle % 128) * 16 + (14 if corner == 1 else 2)) / 2048.0,
+			float((triangle / 128) * 16 + (14 if corner == 2 else 2)) / 2048.0))
+		for j in 4:
+			bones.append(original[Mesh.ARRAY_BONES][source_index * 4 + j])
+			weights.append(original[Mesh.ARRAY_WEIGHTS][source_index * 4 + j])
+		expanded.append(i)
+	var arrays := []
+	arrays.resize(Mesh.ARRAY_MAX)
+	arrays[Mesh.ARRAY_VERTEX] = vertices
+	arrays[Mesh.ARRAY_NORMAL] = normals
+	arrays[Mesh.ARRAY_TEX_UV] = uvs
+	arrays[Mesh.ARRAY_BONES] = bones
+	arrays[Mesh.ARRAY_WEIGHTS] = weights
+	arrays[Mesh.ARRAY_INDEX] = expanded
+	var surface := SurfaceTool.new()
+	surface.create_from_arrays(arrays)
+	surface.generate_tangents()
+	var mesh := ArrayMesh.new()
+	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface.commit_to_arrays())
+	var arm := material(material_id, false, priority, receives_shadow).duplicate() as StandardMaterial3D
+	arm.albedo_color = Color.WHITE
+	arm.vertex_color_use_as_albedo = false
+	arm.cull_mode = BaseMaterial3D.CULL_DISABLED
+	arm.albedo_texture = arm_texture(str(geometry.id), "color")
+	arm.roughness = 1.0
+	arm.roughness_texture = arm.albedo_texture
+	arm.roughness_texture_channel = BaseMaterial3D.TEXTURE_CHANNEL_ALPHA
+	if use_arm_normal:
+		arm.normal_enabled = true
+		arm.normal_texture = arm_texture(str(geometry.id), "normal")
+		arm.normal_scale = arm_normal_strength
+	mesh.surface_set_material(0, arm)
+	return mesh
+
+func material(id: String, has_vertex_color: bool, priority: int = 0, receives_shadow: bool = true) -> StandardMaterial3D:
+	var key := id + "|" + str(has_vertex_color) + "|" + str(priority) + "|" + str(receives_shadow)
 	if materials.has(key):
 		return materials[key]
 	assert(material_records.has(id), "Missing source material: " + id)
 	var record: Dictionary = material_records[id]
 	var props: Dictionary = record.get("props", {})
+	var defines: Dictionary = props.get("defines", {})
+	var tint := int(defines.get("SL_TINT", 0))
 	var result := StandardMaterial3D.new()
 	var color: Array = props.get("color", [1.0, 1.0, 1.0])
-	var base_color := Color(color[0], color[1], color[2], float(props.get("opacity", 1.0)))
+	var base_color := Color(1.0, 1.0, 1.0, float(props.get("opacity", 1.0))) if tint in [1, 2] else Color(color[0], color[1], color[2], float(props.get("opacity", 1.0)))
 	result.metallic = float(props.get("metalness", 0.0))
-	result.roughness = float(props.get("roughness", 1.0))
+	var roughness := float(props.get("roughness", 1.0))
 	result.diffuse_mode = diffuse_mode
-	if wetness >= 0.0 and record.get("userData", {}).get("sl", {}).has("uSlWet"):
-		base_color.r *= lerpf(1.0, 0.8, wetness)
-		base_color.g *= lerpf(1.0, 0.8, wetness)
-		base_color.b *= lerpf(1.0, 0.8, wetness)
-		result.roughness *= lerpf(1.0, 0.5, wetness)
+	result.disable_receive_shadows = not receives_shadow
+	result.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+	var sl: Dictionary = record.get("userData", {}).get("sl", {})
+	if sl.has("uSlWet") and sl.has("uSlWetP"):
+		var source_wet := wetness if wetness >= 0.0 else float(sl.uSlWet.value)
+		var params: Array = sl.uSlWetP.value
+		# shortcut: a uniform half-coverage approximates directional wetness; use a shader for spatial puddles and beads.
+		var coverage := clampf(source_wet, 0.0, 1.0) * 0.5
+		var darken := 1.0 - float(params[0]) * coverage
+		base_color.r *= darken
+		base_color.g *= darken
+		base_color.b *= darken
+		roughness *= lerpf(1.0, float(params[1]), coverage)
+	result.roughness = clampf(roughness, 0.0, 1.0)
 	result.albedo_color = base_color.linear_to_srgb()
 	result.vertex_color_use_as_albedo = has_vertex_color and bool(props.get("vertexColors", false))
 	result.vertex_color_is_srgb = false
 	result.render_priority = clampi(priority, -128, 127)
 	result.cull_mode = BaseMaterial3D.CULL_DISABLED if int(props.get("side", 0)) == 2 else BaseMaterial3D.CULL_FRONT if int(props.get("side", 0)) == 1 else BaseMaterial3D.CULL_BACK
-	result.albedo_texture = texture(props.get("map"))
+	result.albedo_texture = tinted_texture(id) if tint in [1, 2] else texture(props.get("map"))
 	var normal := texture(props.get("normalMap"))
 	if normal != null:
 		result.normal_enabled = true
@@ -118,12 +218,29 @@ func material(id: String, has_vertex_color: bool, priority: int = 0) -> Standard
 		result.ao_enabled = true
 		result.ao_texture = ao_map
 		result.ao_texture_channel = BaseMaterial3D.TEXTURE_CHANNEL_RED
-	if props.get("map") is Dictionary:
-		var tex_record: Dictionary = texture_records.get(props.map["$texture"], {})
+	var texture_reference: Variant = props.get("map")
+	if not texture_reference is Dictionary:
+		for name in ["normalMap", "roughnessMap", "metalnessMap", "aoMap"]:
+			if props.get(name) is Dictionary:
+				texture_reference = props[name]
+				break
+	if texture_reference is Dictionary:
+		var tex_record: Dictionary = texture_records.get(texture_reference["$texture"], {})
 		var repeat: Array = tex_record.get("repeat", [1.0, 1.0])
 		var offset: Array = tex_record.get("offset", [0.0, 0.0])
 		result.uv1_scale = Vector3(repeat[0], repeat[1], 1.0)
 		result.uv1_offset = Vector3(offset[0], offset[1], 0.0)
+		var wrap_s := int(tex_record.get("wrapS", 1000))
+		var wrap_t := int(tex_record.get("wrapT", 1000))
+		if wrap_s != wrap_t or wrap_s not in [1000, 1001]:
+			warnings.append("Unsupported native texture wrapping: " + id)
+		else:
+			result.texture_repeat = wrap_s == 1000
+	if defines.has("SL_TRIPLANAR") and sl.has("uSlUv"):
+		var scale := float(sl.uSlUv.value[2])
+		result.uv1_triplanar = true
+		result.uv1_triplanar_sharpness = 6.0
+		result.uv1_scale = Vector3.ONE * scale
 	var alpha_test := float(props.get("alphaTest", 0.0))
 	if alpha_test > 0.0:
 		result.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
@@ -200,18 +317,16 @@ func _source_arrays(record: Dictionary) -> Array:
 		arrays[Mesh.ARRAY_BONES] = bones
 		arrays[Mesh.ARRAY_WEIGHTS] = floats(attributes.skinWeight)
 	if attributes.has("aRest") and attributes.has("aHand"):
-		var rest := floats(attributes.aRest)
-		var hand := floats(attributes.aHand)
+		var baked := FileAccess.get_file_as_bytes("res://assets/baked-arms/" + str(record.id) + ".rgba32f").to_float32_array()
+		assert(baked.size() == int(attributes.aRest.count) * 4, "Missing baked arm colors")
 		var colors := PackedColorArray()
 		for i in int(attributes.aRest.count):
-			var sleeve := rest[i * 4 + 3] > 0.5
-			var palm := hand[i * 4 + 2] < -0.06
-			colors.append(Color(0.046, 0.068, 0.106) if sleeve else Color(0.33, 0.245, 0.14) if palm else Color(0.15, 0.156, 0.094))
+			colors.append(Color(baked[i * 4], baked[i * 4 + 1], baked[i * 4 + 2], 1.0))
 		arrays[Mesh.ARRAY_COLOR] = colors
 	return arrays
 
-func build_mesh(geometry: Dictionary, material_ids: Array, inline: bool, priority: int = 0, already_converted: bool = false) -> ArrayMesh:
-	var key := str(geometry.id) + "|" + str(material_ids) + "|" + str(priority)
+func build_mesh(geometry: Dictionary, material_ids: Array, inline: bool, priority: int = 0, already_converted: bool = false, receives_shadow: bool = true) -> ArrayMesh:
+	var key := str(geometry.id) + "|" + str(material_ids) + "|" + str(priority) + "|" + str(receives_shadow) + "|" + str(use_arm_atlas) + "|" + str(use_arm_normal)
 	if meshes.has(key):
 		return meshes[key]
 	var arrays := _inline_arrays(geometry) if inline else _source_arrays(geometry)
@@ -229,6 +344,33 @@ func build_mesh(geometry: Dictionary, material_ids: Array, inline: bool, priorit
 	if groups.is_empty():
 		groups = [{"start": 0, "count": indices.size(), "materialIndex": 0}]
 	var result := ArrayMesh.new()
+	if geometry.attributes.has("aRest"):
+		assert(groups.size() == 1 and material_ids.size() == 1, "Unexpected arm material layout")
+		if use_arm_atlas:
+			result = arm_atlas_mesh(geometry, arrays, indices, material_ids[0], priority, receives_shadow)
+			meshes[key] = result
+			return result
+		var baked := FileAccess.get_file_as_bytes("res://assets/baked-arms/" + str(geometry.id) + ".rgba32f").to_float32_array()
+		var levels := [0.30, 0.45, 0.60, 0.75, 0.90]
+		var bins := [PackedInt32Array(), PackedInt32Array(), PackedInt32Array(), PackedInt32Array(), PackedInt32Array()]
+		for i in range(0, indices.size(), 3):
+			var value := (baked[indices[i] * 4 + 3] + baked[indices[i + 1] * 4 + 3] + baked[indices[i + 2] * 4 + 3]) / 3.0
+			var closest := 0
+			for j in range(1, levels.size()):
+				if absf(value - levels[j]) < absf(value - levels[closest]): closest = j
+			for j in 3: bins[closest].append(indices[i + j])
+		for i in levels.size():
+			if bins[i].is_empty(): continue
+			arrays[Mesh.ARRAY_INDEX] = bins[i]
+			result.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, arrays)
+			var arm := material(material_ids[0], true, priority, receives_shadow).duplicate() as StandardMaterial3D
+			arm.albedo_color = Color.WHITE
+			arm.vertex_color_use_as_albedo = true
+			arm.cull_mode = BaseMaterial3D.CULL_DISABLED
+			arm.roughness = levels[i]
+			result.surface_set_material(result.get_surface_count() - 1, arm)
+		meshes[key] = result
+		return result
 	for group in groups:
 		arrays[Mesh.ARRAY_INDEX] = indices.slice(int(group.start), int(group.start + group.count))
 		if arrays[Mesh.ARRAY_TEX_UV] != null and arrays[Mesh.ARRAY_NORMAL] != null:
@@ -238,19 +380,14 @@ func build_mesh(geometry: Dictionary, material_ids: Array, inline: bool, priorit
 			arrays = surface.commit_to_arrays()
 		result.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, arrays)
 		var material_id: String = material_ids[int(group.materialIndex)]
-		var built := material(material_id, arrays[Mesh.ARRAY_COLOR] != null, priority)
-		if geometry.attributes.has("aRest"):
-			built = built.duplicate()
-			built.albedo_color = Color.WHITE
-			built.vertex_color_use_as_albedo = true
-			built.cull_mode = BaseMaterial3D.CULL_DISABLED
+		var built := material(material_id, arrays[Mesh.ARRAY_COLOR] != null, priority, receives_shadow)
 		result.surface_set_material(result.get_surface_count() - 1, built)
 	meshes[key] = result
 	return result
 
 func add_mesh(record: Dictionary, geometry: Dictionary, parent: Node3D, inline: bool, pose: Transform3D, converted: bool = false) -> GeometryInstance3D:
 	var ids: Array = record.get("materials", [record.get("material")])
-	var mesh := build_mesh(geometry, ids, inline, int(record.get("renderOrder", 0)), converted)
+	var mesh := build_mesh(geometry, ids, inline, int(record.get("renderOrder", 0)), converted, bool(record.get("receiveShadow", true)))
 	var node: GeometryInstance3D
 	if record.has("instanceCount"):
 		var multi := MultiMeshInstance3D.new()
