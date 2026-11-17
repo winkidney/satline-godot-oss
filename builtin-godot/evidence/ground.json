@@ -1,0 +1,66 @@
+{
+  "approximation": [
+    "Captured static lighting panorama also supplies the visible sky; source uses a separate dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer",
+    "Flat native water, simple wet ground and native particle rain replace the source wave, wetness and rain shaders"
+  ],
+  "camera": {
+    "fov": 74.0,
+    "position": [
+      -9.0,
+      1.64999997615814,
+      5.59999990463257
+    ],
+    "quaternion": [
+      -0.0194356739521027,
+      -0.697568953037262,
+      -0.0189352668821812,
+      0.716003715991974
+    ]
+  },
+  "catalog": {
+    "camera": {
+      "far": 900.0,
+      "fov": 74.0,
+      "near": 0.08,
+      "position": [
+        -9.0,
+        1.65,
+        5.6
+      ],
+      "quaternion": [
+        -0.0194356738370611,
+        -0.697568930873564,
+        -0.0189352684067154,
+        0.71600369892395
+      ]
+    },
+    "materials": 15,
+    "nodes": 15,
+    "textures": 15
+  },
+  "diffuse_mode": "burley",
+  "elapsed_seconds": 1.74429366666667,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 51.5968163617709,
+  "frames": 90,
+  "material_count": 18,
+  "nodes": 18,
+  "rendering_method": "forward_plus",
+  "scene": "ground",
+  "screen_space_reflection": true,
+  "texture_count": 15,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}

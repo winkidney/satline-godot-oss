@@ -1,0 +1,1 @@
+../../saltline-godot/scripts/weapon_arm_pose.gd

@@ -12,6 +12,7 @@ saltline-godot/engine/.venv/
 saltline-godot/.godot/
 saltline-godot/output/
 artifact-rendering-study/godot/.godot/
+builtin-godot/.godot/
 
 __pycache__/
 *.pyc

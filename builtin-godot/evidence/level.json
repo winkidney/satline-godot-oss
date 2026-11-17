@@ -1,0 +1,44 @@
+{
+  "approximation": [
+    "Captured static lighting panorama also supplies the visible sky; source uses a separate dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer"
+  ],
+  "camera": {
+    "fov": 74.0,
+    "position": [
+      -32.0,
+      1.70000004768372,
+      6.0
+    ],
+    "quaternion": [
+      0.00768351601436734,
+      -0.711469650268555,
+      0.00778016075491905,
+      0.702631771564484
+    ]
+  },
+  "diffuse_mode": "burley",
+  "elapsed_seconds": 1.896954,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 47.4444820485895,
+  "frames": 90,
+  "material_count": 113,
+  "nodes": 133,
+  "rendering_method": "forward_plus",
+  "scene": "level",
+  "screen_space_reflection": false,
+  "texture_count": 87,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}
