@@ -54,7 +54,7 @@ AW 默认生成参数为 `temperature=0.8`、`top_k=30`、`top_p=0.8`、`max_tok
 ## 原始来源
 
 - AW 的 `docs/audio.md`：输入、默认参数、重做边界、原始 WAV 与交付规格。
-- AW 的 `src/asset_workbench/audio/media.py`：仅一个音频流、不可含视频/额外流的实际约束。
+- AW 的 `src/asset_workbench/audio/media.py`：仅一个音频流、不可含视频或额外流的实际约束。
 - [Higgs TTS 3 模型说明](https://huggingface.co/bosonai/higgs-tts-3-4b)：准确参考逐字稿可改善克隆保真度。
 - [Boson VoiceOver 介绍](https://www.boson.ai/blog/higgs-voiceover)：约十秒参考的上游示例；不同产品和接口不能直接等同。
 - [Higgs TTS 3 许可](https://huggingface.co/bosonai/higgs-tts-3-4b/blob/main/LICENSE)：真人声音同意、创作者署名及模型再分发限制。

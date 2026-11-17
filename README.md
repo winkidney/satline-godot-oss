@@ -6,13 +6,13 @@ GitHub 仓库保留游戏运行资产、代码、研究文本和制作配方；�
 
 ## 运行游戏
 
-首版面向 Linux x86_64，需要支持 Vulkan Forward+ 的显卡驱动及 X11 / XWayland。项目内包含固定版本的兼容引擎和已准备的导入数据：
+首版面向 Linux x86_64，需要支持 Vulkan Forward+ 的显卡驱动及 X11 / XWayland。仓库包含兼容引擎和游戏源资源；首次启动还需要官方 Godot 4.7.2 编辑器导入资源。安装后在项目根目录执行：
 
 ```sh
 ./run.sh
 ```
 
-若从不含导入缓存的源码包开始，先用官方 Godot 4.7.2 编辑器执行 `godot --headless --editor --path saltline-godot --import --quit`，再运行 `./run.sh`。正式游戏仍使用项目内的定制引擎；官方编辑器用于导入资源。
+脚本会在首次运行时调用 PATH 中的 `godot` 自动导入，再使用项目内的定制引擎启动游戏。若官方编辑器不在 PATH，可使用 `GODOT=/path/to/godot ./run.sh` 指定；编辑器版本可从 [Godot 官方版本归档](https://godotengine.org/download/archive/)获取。导入缓存保存在 `saltline-godot/.godot/`，后续启动会复用。
 
 WASD 移动，鼠标转向，左键射击，右键瞄准，R 换弹，1 / 2 切换武器，E 按住与中继交互，Esc 暂停。设置中的 `MASTER VOLUME` 默认 80%，可保存调整。
 
