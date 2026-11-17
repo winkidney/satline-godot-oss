@@ -63,6 +63,7 @@ __pycache__/
 *.import
 !/saltline-godot/assets/**
 # Recordings and films remain local.
+video/archive/*-revision-*.srt
 *.mp4
 *.webm
 *.mkv

@@ -180,7 +180,7 @@ def shot_source(kind, scene=None):
         return ROOT / 'video/recordings/showcases/replica' / (kind + '.mp4'), .2
     if kind in ('pbr', 'diffuse', 'transparency'):
         return ROOT / 'video/recordings/showcases/lab' / (kind + '.mp4'), .2
-    if kind == 'sea': return ROOT / 'saltline-godot/evidence/native-sea.mp4', .2
+    if kind == 'sea': return ROOT / 'video/recordings/godot/sea-quay-fixed.mp4', .2
     if kind == 'sky': return ROOT / 'saltline-godot/evidence/native-dynamic-sky.mp4', .2
     if kind == 'labwet': return EDITOR / 'public/footage/lab/examples.mp4', 11.5
     if kind == 'lablight': return EDITOR / 'public/footage/lab/examples.mp4', 28
@@ -199,7 +199,7 @@ def label(kind, scene=None):
         return {'backdrop': '官方 Godot · 静态天空 · 固定步进', 'enemies': '官方 Godot · 冻结姿态 · 固定步进',
                 'weapon': '官方 Godot · 冻结姿态 · 固定步进', 'ground': '官方 Godot · 烘焙湿地与 SSR · 固定步进',
                 'hands': '官方 Godot · 烘焙材质 · 固定步进', 'fx': '官方 Godot · 粒子近似 · 固定步进'}.get(scene, '官方 Godot · 内建渲染 · 固定步进')
-    return {'sea': '历史受控画面 · 海面 · 720p', 'sky': '历史受控画面 · 天空 · 720p',
+    return {'sea': 'Godot 复刻 · 海面 · 固定步进', 'sky': '历史受控画面 · 天空 · 720p',
             'labcloth': '独立教学实验 · 织纹过滤', 'ao_compare': '原版遮蔽开关 · 官方内建调校', 'pbr': '官方标准材质实验',
             'labwet': '独立教学实验 · 湿润与反射', 'lablight': '独立教学实验 · 窄窗光照',
             'diffuse': '官方标准材质 · 漫反射对照', 'transparency': '官方标准材质 · 透明叠层',

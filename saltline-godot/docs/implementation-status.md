@@ -207,7 +207,7 @@ Astra Ultra 对照原作发现 `bundle-1.js:85478–85479` 的 `player:rescued` 
 
 新增sea.gdshader及从原导出patch生成shader的port_sea_shader.py。原海面13620顶点网格及两张原detail纹理直接复用，四组Gerstner式竖直/水平位移、四组大波/七组细波解析法线、码头/船体距离场泡沫与污沫、风斑粗糙度、涌浪与太阳方向碎高光、远距haze已接入。片段表面块与原顶点位移块保持原式，72组GPU位移读回通过，最大误差0.001652米（8bit读回容差0.004米）。
 
-当前光照采用Godot自定义GGX/环境反射适配，原作每帧海面公式已经运行，但IBL遮蔽上限、逐光截断与原作汇总截断、最终色调映射和整场景光照仍未完全一致。8秒实机视频见evidence/native-sea.mp4；边界与证据见docs/sea.md。
+当前光照采用Godot自定义GGX/环境反射适配，原作每帧海面公式已经运行，但IBL遮蔽上限、逐光截断与原作汇总截断、最终色调映射和整场景光照仍未完全一致。修复后的8秒固定步进视频见 `../../video/recordings/godot/sea-quay-fixed.mp4`；旧 `evidence/native-sea.mp4` 是修复前历史素材。边界与证据见docs/sea.md。
 
 
 ### 雨线、檐滴与雨冠增量

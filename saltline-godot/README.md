@@ -40,7 +40,7 @@ WASD 移动，Shift 冲刺，Ctrl 蹲伏，Space 跳跃，鼠标转向，右键�
 
 瞄具材质录像：`evidence/native-sight-glass.mp4`，9秒/720p/60fps；原作解析镀膜玻璃与准直红色点/环/刻线已接入，覆盖腰射、ADS、射击与受控反射亮度过渡，见 `docs/sight-glass.md`。
 
-海面实机录像：`evidence/native-sea.mp4`，8秒/720p/60fps；原作波浪、法线细节、近岸泡沫与日光碎高光已接入，光照适配边界见 `docs/sea.md`。
+修复后的海面录像：`../video/recordings/godot/sea-quay-fixed.mp4`，8秒/1080p/60fps，固定步进；旧的 `evidence/native-sea.mp4` 保留为修复前历史素材。原作波浪、法线细节、近岸泡沫与日光碎高光已接入，码头闪烁修复与光照适配边界见 `docs/sea.md`。
 
 雨水实机录像：`evidence/native-rain.mp4`，10秒/720p/60fps；原雨线、檐滴、雨冠和屋顶/天窗遮挡已接入，详见 `docs/rain.md`。默认游戏录像 `native-game-flow.mp4` 已更新为含雨水与当前HUD/瞄具版本。
 

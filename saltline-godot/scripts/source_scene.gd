@@ -30,6 +30,8 @@ var skeletons:Dictionary={}
 var skin_bindings:Array=[]
 var bone_targets:Dictionary={}
 var report:Dictionary={"nodes":0,"meshes":0,"materials":0,"textures":0,"pending_shaders":[],"source_skin_reference_meshes":0}
+# shortcut: fixed exported geometry ID, re-identify the wall after re-export.
+const QUAY_WALL_GEOMETRY="2f646d8b-232d-4329-9355-48f6768c0c27"
 
 func load_source(progress:Callable=Callable()) -> void:
  if progress.is_valid():await progress.call("Mixing paint, rust and rain",.12)
@@ -134,13 +136,27 @@ func _vec3(attr:Dictionary)->PackedVector3Array:
  for i in out.size():out[i]=Vector3(floats[i*attr.itemSize],floats[i*attr.itemSize+1],floats[i*attr.itemSize+2])
  return out
 
+func _separate_quay_wall(vertices:PackedVector3Array)->PackedVector3Array:
+ var corners:Array[int]=[]
+ for i in vertices.size():
+  var p=vertices[i]
+  if is_equal_approx(p.x,30.0) and (is_equal_approx(p.y,-.002) or is_equal_approx(p.y,-.67)) and (is_equal_approx(p.z,-30.97) or is_equal_approx(p.z,19.55)):corners.append(i)
+ if corners.size()!=24:
+  push_error("Unexpected quay wall geometry");return vertices
+ # The quay wall shares its face with the far foundation.
+ for i in corners:
+  var p=vertices[i];p.x+=.005;vertices[i]=p
+ return vertices
+
 func _mesh(id:String,node_record:Dictionary)->ArrayMesh:
  var key=id+"|"+str(node_record.materials)
  # Skin attributes share the original geometry; poses are driven by Skeleton3D.
  if meshes.has(key):return meshes[key]
  var geo:Dictionary=geometry_records[id];var arrays=[];arrays.resize(Mesh.ARRAY_MAX)
  var flags:int=0
- arrays[Mesh.ARRAY_VERTEX]=_vec3(geo.attributes.position)
+ var vertices=_vec3(geo.attributes.position)
+ if id==QUAY_WALL_GEOMETRY:vertices=_separate_quay_wall(vertices)
+ arrays[Mesh.ARRAY_VERTEX]=vertices
  if geo.attributes.has("normal"):arrays[Mesh.ARRAY_NORMAL]=_vec3(geo.attributes.normal)
  if geo.attributes.has("uv"):
   var a:Dictionary=geo.attributes.uv;var f=_floats(a);var uv=PackedVector2Array();uv.resize(int(a.count))

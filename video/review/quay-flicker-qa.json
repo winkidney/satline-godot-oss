@@ -1,0 +1,154 @@
+{
+  "scope": "Four wall patches tracked through the fixed-step sea preview; not a full-scene flicker audit",
+  "frames": [
+    165,
+    319
+  ],
+  "input_fps": 60,
+  "threshold": {
+    "mean_jump_lt": 5,
+    "max_jump_lt": 15
+  },
+  "before_720p": {
+    "near_upper": [
+      22.28,
+      54.71
+    ],
+    "near_lower": [
+      13.07,
+      35.83
+    ],
+    "far_upper": [
+      21.95,
+      56.95
+    ],
+    "far_lower": [
+      0.05,
+      0.21
+    ]
+  },
+  "rejected_2cm_720p": {
+    "near_upper": [
+      0.06,
+      0.47
+    ],
+    "near_lower": [
+      6.08,
+      17.85
+    ],
+    "far_upper": [
+      0.06,
+      0.27
+    ],
+    "far_lower": [
+      10.08,
+      28.59
+    ]
+  },
+  "final_720p": {
+    "near_upper": [
+      0.06,
+      0.74
+    ],
+    "near_lower": [
+      0.08,
+      0.56
+    ],
+    "far_upper": [
+      0.06,
+      0.2
+    ],
+    "far_lower": [
+      0.05,
+      0.2
+    ]
+  },
+  "final_1080p_h264": {
+    "near_upper": [
+      0.05,
+      0.23
+    ],
+    "near_lower": [
+      0.07,
+      0.47
+    ],
+    "far_upper": [
+      0.05,
+      0.2
+    ],
+    "far_lower": [
+      0.05,
+      0.21
+    ]
+  },
+  "geometry": {
+    "wall_vertices_adjusted": 24,
+    "unadjusted_target_vertices": 0,
+    "other_vertices_changed": 0,
+    "offset_metres": 0.005
+  },
+  "lower_wall_mean_rgb8_difference": 0.545,
+  "lower_wall_p95_rgb8_difference": 0.744,
+  "unchanged_sea_frames": [
+    60,
+    380,
+    470
+  ],
+  "unchanged_frame_max_rgb_error": 0,
+  "original_capture": "saltline-godot/evidence/main-paired-high-pier-flicker-source.json",
+  "source_to_opening_shot_rgb8_mae": 1.982,
+  "source_to_opening_shot_frame": 180,
+  "rejected_6cm_720p": {
+    "flicker_check": "PASS",
+    "far_lower_mean_rgb8_difference": 25.329,
+    "reason": "Exposes the lower wall instead of preserving the source appearance"
+  },
+  "capture_provenance": {
+    "engine_sha256": "639baccce7c7c63638da889fba58b3797316b09be1df9da0bd49c839af1a5788",
+    "captured_source_scene_sha256": "ec652b2d81e380b10f527f759cf220080ec476a772b076c34bed8e98bf7f2f02",
+    "repository_source_scene_sha256": "c71438f30650f0578598639a8c068c1ba742b0ba85a0242ff636fedf2cb58f06",
+    "difference": "A single shortcut comment was added after capture; executable code is identical."
+  },
+  "final_film_opening": {
+    "near_upper": [
+      0.06,
+      0.29
+    ],
+    "near_lower": [
+      0.07,
+      0.44
+    ],
+    "far_upper": [
+      0.05,
+      0.21
+    ],
+    "far_lower": [
+      0.04,
+      0.16
+    ],
+    "source_frame_range": [
+      165,
+      319
+    ],
+    "result": "PASS"
+  },
+  "final_film": {
+    "sha256": "74153bc591b6b1608875729fd7c53ab74b8b8eac2a4af3ee946852bd8747886d",
+    "full_av_decode": "PASS",
+    "audio_adts_sha256": "8631aec48a9ac95605702d5c744d26183d47bffaa2b5ff9a570d2354f53b0242",
+    "audio_identical_to_previous_cut": true,
+    "subtitles_identical_to_previous_cut": true,
+    "sea_shot_indices": [
+      2,
+      34,
+      35,
+      36,
+      96
+    ]
+  },
+  "game_smoke": {
+    "result": "PASS",
+    "renderer": "Vulkan Forward+",
+    "warning": "32 ObjectDB instances leaked at automatic exit; normal-exit cause not investigated"
+  }
+}

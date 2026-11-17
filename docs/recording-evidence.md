@@ -25,6 +25,26 @@ Godot 原始录屏为可变时间戳，视频 1920×1080、H.264，音频 48 kHz
 
 各段 JSON 保存实际采集条件；[逐场景对照图](../video/review/comparisons/showcases-01.webp)和[第二组对照图](../video/review/comparisons/showcases-02.webp)使用重新调校后的内建素材。单张截图不能证明动态一致，尤其是雨、烟、爆炸和反射。
 
+## 码头修复后重录
+
+复刻的[海面与码头素材](../video/recordings/godot/sea-quay-fixed.mp4)于 2026-11-17 在隔离 Xvfb、RTX 4070 SUPER 和项目内定制引擎上重录，1920×1080、480 帧、60 fps、8 秒、无音轨。使用 `--sea-preview` 和 Movie Maker 固定步进，实际生成约 51 秒，不能作为实时帧率证据。原始 [Movie Maker 录像](../video/recordings/godot/sea-quay-fixed.raw.avi)和修复前 `saltline-godot/evidence/native-sea.mp4` 均保留在本地；它们不上传到精简仓库。
+
+原始 AVI SHA-256：`cb125c93fa1c625f9ad9e725540fff063be66250f324fe0f7079b84042271538`。剪辑用 MP4 SHA-256：`3d9f12cfd37e520680543bd7acf69fecaa453533dff67a9a126c3a9858845552`。画面边缘重合的原因、调整范围和逐帧检测结果见[码头边缘闪烁修复](../saltline-godot/docs/sea.md#码头边缘闪烁修复)。
+
+在项目根目录复录需要已导入的 Godot 资源、Xvfb、rsync、可用的 Vulkan GPU、带 NVENC 的 FFmpeg 和 NumPy。以下命令把所有中间输出留在新临时目录，不覆盖既有录像；最终剪辑素材要另行放到 `video/recordings/godot/sea-quay-fixed.mp4`：
+
+```sh
+SATLINE_QUAY_SCRATCH=$(mktemp -d)
+mkdir -p "$SATLINE_QUAY_SCRATCH/project/evidence"
+rsync -a --exclude /assets --exclude /engine --exclude /evidence --exclude /docs saltline-godot/ "$SATLINE_QUAY_SCRATCH/project/"
+ln -s "$PWD/saltline-godot/assets" "$SATLINE_QUAY_SCRATCH/project/assets"
+SATLINE_QUAY_PROJECT="$SATLINE_QUAY_SCRATCH/project/project.godot" python3 -c 'import os; from pathlib import Path; p=Path(os.environ["SATLINE_QUAY_PROJECT"]); s=p.read_text(); assert s.count("viewport_width=1280")==1 and s.count("viewport_height=720")==1; p.write_text(s.replace("viewport_width=1280","viewport_width=1920").replace("viewport_height=720","viewport_height=1080"))'
+xvfb-run -a -s '-screen 0 1920x1080x24' env XDG_CONFIG_HOME="$SATLINE_QUAY_SCRATCH/config" XDG_DATA_HOME="$SATLINE_QUAY_SCRATCH/data" XDG_CACHE_HOME="$SATLINE_QUAY_SCRATCH/cache" saltline-godot/engine/godot --audio-driver Dummy --display-driver x11 --rendering-driver vulkan --disable-vsync --fixed-fps 60 --write-movie "$SATLINE_QUAY_SCRATCH/quay.avi" --path "$SATLINE_QUAY_SCRATCH/project" -- --sea-preview
+python3 video/tools/check_quay_flicker.py "$SATLINE_QUAY_SCRATCH/quay.avi"
+ffmpeg -n -i "$SATLINE_QUAY_SCRATCH/quay.avi" -vf 'scale=in_range=pc:out_range=pc:in_color_matrix=bt601:out_color_matrix=bt601,format=yuv420p' -an -c:v h264_nvenc -preset p5 -cq 18 -b:v 0 -g 120 -bf 0 -pix_fmt yuv420p -color_range pc -colorspace bt470bg -color_primaries bt709 -color_trc iec61966-2-1 -r 60 -movflags +faststart "$SATLINE_QUAY_SCRATCH/quay.mp4"
+python3 video/tools/check_quay_flicker.py "$SATLINE_QUAY_SCRATCH/quay.mp4"
+```
+
 ## 音画同步抽查
 
 对原始录屏，按画面枪口附近亮度变化和 10 ms 音频能量窗口估计枪声瞬态：开头约 5.91 秒声音、5.933 秒画面；末尾约 281.91 秒声音、281.939 秒画面。两次音频领先约 23–29 ms，差值约 6 ms。检测阈值、画面亮度和混响都会影响结果，这只是两处自动抽查，仍需人工试听及逐帧确认，不能视为整片同步保证。
@@ -40,3 +60,5 @@ Godot 原始录屏为可变时间戳，视频 1920×1080、H.264，音频 48 kHz
 ## 成片
 
 [当前成片](../video/final.mp4)为 647.533 秒、H.264 1920×1080、60 fps、38,852 帧，AAC 48 kHz 立体声；完整音视频解码通过。此前的[第二版成片](../video/archive/previous-cut-before-v5.mp4)为 541.77 秒，初版成片为 640 秒。输出编码帧数不代表原版或复刻录制时始终达到 60 fps。当前成片的截图、音频与颜色验证见[验证记录](validation.md)；二维码目标仓库尚未公开。
+
+码头修复后，影片中 5 处海面镜头均换成新录素材，旧版成片保留在 `video/archive/previous-cut-before-v5-revision-03.mp4`。新素材使用固定步进，旧片中其他录屏与旁白保留原有条件。

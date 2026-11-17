@@ -1,0 +1,424 @@
+{
+  "lights": [
+    {
+      "name": "viewmodel-key",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 0.9,
+      "color": [
+        0.78,
+        0.86,
+        1
+      ],
+      "position": [
+        33.72206688336537,
+        2.960045682126919,
+        6.100463427518058
+      ],
+      "layers": 2
+    },
+    {
+      "name": "sun",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 9,
+      "color": [
+        1,
+        0.72,
+        0.42
+      ],
+      "position": [
+        181.26947229749686,
+        60.91706470189607,
+        65.22510407256709
+      ],
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 2.571503640922013,
+      "color": [
+        1,
+        0.9,
+        0.75
+      ],
+      "position": [
+        9.3081003048589,
+        4.069101196164989,
+        -11.326372170822886
+      ],
+      "distance": 9,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        -8.5,
+        5.75,
+        -15.4
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        2.6,
+        5.75,
+        -15.4
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        -3.5,
+        5.75,
+        -23.6
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        8.6,
+        5.75,
+        -23.6
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    }
+  ],
+  "no_points": false,
+  "no_sun": false,
+  "rays": [
+    {
+      "pixel": [
+        856,
+        298
+      ],
+      "hits": [
+        {
+          "ordinal": 308,
+          "name": "sea",
+          "material": "sea",
+          "distance": 7.996007821958589,
+          "point": [
+            30.48915902440907,
+            -1.6000000238418575,
+            -0.5919233999843749
+          ]
+        },
+        {
+          "ordinal": 219,
+          "name": "",
+          "material": "concrete_dirty",
+          "distance": 9.155628331797363,
+          "point": [
+            29.979999542236328,
+            -2.1220897911383254,
+            -1.493532308234868
+          ],
+          "uv": [
+            4.216466776237791,
+            0.3279101242866071
+          ]
+        },
+        {
+          "ordinal": 309,
+          "name": "quaySkirt",
+          "material": "",
+          "distance": 9.383381123219706,
+          "point": [
+            29.8799991607666,
+            -2.2246297176625154,
+            -1.6706108816846
+          ],
+          "uv": [
+            0.505220659005382,
+            0.48985689027606444
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        850,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 308,
+          "name": "sea",
+          "material": "sea",
+          "distance": 7.902612215323657,
+          "point": [
+            30.478206091005433,
+            -1.600000023841858,
+            -0.46501209495433304
+          ]
+        },
+        {
+          "ordinal": 219,
+          "name": "",
+          "material": "concrete_dirty",
+          "distance": 9.020546217083853,
+          "point": [
+            29.979999542236328,
+            -2.109269911232569,
+            -1.3265286930835831
+          ],
+          "uv": [
+            4.383470391389077,
+            0.34073000484732713
+          ]
+        },
+        {
+          "ordinal": 309,
+          "name": "quaySkirt",
+          "material": "",
+          "distance": 9.244938744460702,
+          "point": [
+            29.8799991607666,
+            -2.211490934091338,
+            -1.4994529323740489
+          ],
+          "uv": [
+            0.5046857904136087,
+            0.49284297734093085
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        860,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 308,
+          "name": "sea",
+          "material": "sea",
+          "distance": 7.963949591229047,
+          "point": [
+            30.5607471933601,
+            -1.6000000238418575,
+            -0.5907890128281794
+          ]
+        },
+        {
+          "ordinal": 219,
+          "name": "",
+          "material": "concrete_dirty",
+          "distance": 9.308731518816687,
+          "point": [
+            29.979999542236328,
+            -2.2078912361003313,
+            -1.640378872030083
+          ],
+          "uv": [
+            4.069620212442572,
+            0.24210867494103122
+          ]
+        },
+        {
+          "ordinal": 309,
+          "name": "quaySkirt",
+          "material": "",
+          "distance": 9.540292861324291,
+          "point": [
+            29.8799991607666,
+            -2.3125655348259686,
+            -1.8211103585954547
+          ],
+          "uv": [
+            0.5056909698705274,
+            0.46987147802194745
+          ]
+        }
+      ]
+    }
+  ],
+  "time": {
+    "t": 0.05,
+    "dt": 0.016666666666666666,
+    "frame": 3,
+    "real": 13.805700000000186
+  },
+  "camera": {
+    "position": [
+      34,
+      2,
+      5.625
+    ],
+    "quaternion": [
+      -0.27891933424885407,
+      0.4505538341590206,
+      0.1505756347527535,
+      0.834585062007215
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "quality": {
+    "name": "high",
+    "scale": 1,
+    "msaa": 4,
+    "shadow": 4096,
+    "tex": 1024,
+    "volSteps": 24,
+    "ao": true,
+    "planar": 0.5,
+    "bloom": true,
+    "motionBlur": true,
+    "rain": 1
+  },
+  "view_fill": 1.160389342482713,
+  "fade": 0,
+  "exposure": 1,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "surface_diagnostic": "",
+  "instrumented_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "enemy_nav_instrumented": false,
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "errors": [],
+  "scope": "Actual original Main fixed camera and source time, manual exposure1, weapon/HUD hidden,12 zero-dt renders to warm render passes. Diagnostic paired scene, not normal gameplay."
+}
