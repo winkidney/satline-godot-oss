@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """Flag narration segments for listening; automatic recognition is not approval."""
-import difflib
+import argparse
 import ctypes
 import ctypes.util
+import difflib
 import json
 import re
-import sys
 import unicodedata
 from pathlib import Path
 
 import whisper
 
-project = Path(sys.argv[1]).resolve()
-jobs = json.loads((project / 'narration-jobs.json').read_text())
+parser = argparse.ArgumentParser()
+parser.add_argument('project', type=Path)
+parser.add_argument('--manifest', default='narration-jobs.json')
+parser.add_argument('--output', default='production-asr.json')
+args = parser.parse_args()
+project = args.project.resolve()
+jobs = json.loads((project / args.manifest).read_text())
 model = whisper.load_model('base', device='cuda')
 library = ctypes.util.find_library('opencc')
 converter = ctypes.CDLL(library) if library else None
@@ -39,6 +44,6 @@ for job in jobs:
     score = difflib.SequenceMatcher(None, normal(job['text']), normal(heard)).ratio()
     results.append({'id':job['id'],'score':round(score,3),'recognized':heard})
     print(job['id'],round(score,3),flush=True)
-    out = project / 'production-asr.json'
+    out = project / args.output
     out.write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n');out.chmod(0o600)
 print(f"{sum(x['score']<.75 for x in results)} of {len(results)} segments need a closer listen; recognition is only a screening tool.")

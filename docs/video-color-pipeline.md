@@ -17,5 +17,5 @@
 
 - 使用 `video/tools/check_film_color.py --shots-only` 比较同一帧的独立 RGB 解码与新镜头：原版、复刻和官方素材的主体区域 RGB8 平均误差分别约 1.383、1.444 和 1.423/255，包含缩放、4:2:0 与 H.264 编码误差。
 - 两个不同来源的短镜头拼接实测中，镜头到无损拼接图的 RGB8 平均误差为 0；再次编码后分别为 0.138 和 0.951/255。它们用于发现编码链漂移，不证明整段动态逐像素一致。
-- 最终成片完成后，不加 `--shots-only` 可逐项检查源素材到镜头，以及镜头、拼接画面和成片的抽样误差；结果保存在 `video/review/film-v5-color-qc.json`。这一过程检查转码和剪辑，不衡量跨引擎还原率。
+- 最终成片完成后，不加 `--shots-only` 可逐项检查源素材到镜头，以及镜头、拼接画面和成片的抽样误差；当前结果见[版本 6 检查记录](../video/review/film-v6-color-qc.json)。这一过程检查转码和剪辑，不衡量跨引擎还原率。
 - [FFmpeg scale 滤镜](https://ffmpeg.org/ffmpeg-filters.html#scale-1)用于矩阵与范围的实际转换；[setparams](https://ffmpeg.org/ffmpeg-filters.html#setparams)设置帧标记，本身不改变像素。FFmpeg [concat demuxer](https://ffmpeg.org/ffmpeg-formats.html#concat-1)要求输入流兼容，不能只看分辨率与帧率。

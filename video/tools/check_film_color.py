@@ -10,12 +10,17 @@ import numpy as np
 from PIL import Image
 
 root = Path(__file__).resolve().parents[2]
-work = root / 'video/editor/.render-v5'
+version = int(json.loads((root / 'video/editor/src/film-plan.json').read_text())['version'])
+work = root / f'video/editor/.render-v{version}'
 parser = argparse.ArgumentParser()
 parser.add_argument('--shots-only', action='store_true')
-parser.add_argument('--output', type=Path, default=root / 'video/review/film-v5-color-qc.json')
+parser.add_argument('--output', type=Path, default=root / f'video/review/film-v{version}-color-qc.json')
 args = parser.parse_args()
 timeline = json.loads((work / 'timeline.json').read_text())
+
+def shot_index(**fields):
+    return next(i for i, shot in enumerate(timeline['shots'])
+                if all(shot.get(k) == v for k, v in fields.items()) and shot['frames'] > 120)
 
 def frame(path, seconds, filtergraph=None):
     command = ['ffmpeg', '-v', 'error', '-ss', str(seconds), '-i', str(path)]
@@ -30,9 +35,11 @@ def stats(a, b):
             'mean_rgb_drift': [round(float(x), 3) for x in difference.mean(axis=(0, 1))]}
 
 source_dir = root / 'video/recordings/showcases'
-cases = [('original', 'props.webm', 'pc', 'bt709', 'bt709', 10, 8),
-         ('replica', 'props.mp4', 'tv', 'bt601', 'bt470bg', 10, 968),
-         ('builtin-calibrated', 'props.mp4', 'pc', 'bt601', 'bt470bg', 16, 968)]
+original_props = shot_index(scene='props', left='original', right='replica')
+builtin_props = shot_index(scene='props', left='replica', right='builtin')
+cases = [('original', 'props.webm', 'pc', 'bt709', 'bt709', original_props, 8),
+         ('replica', 'props.mp4', 'tv', 'bt601', 'bt470bg', original_props, 968),
+         ('builtin-calibrated', 'props.mp4', 'pc', 'bt601', 'bt470bg', builtin_props, 968)]
 raw = []
 for folder, name, input_range, matrix, space, index, x in cases:
     graph = (f'setparams=range={input_range}:colorspace={space},'
@@ -48,7 +55,10 @@ report = {'method': 'RGB8 crops; source and output decoded separately; not a cro
           'source_to_shot': raw}
 if not args.shots_only:
     stages = []
-    for index in (1, 5, 10, 16, 18, 22, 95, 111):
+    indices = (1, 5, original_props, builtin_props, shot_index(single='pbr'),
+               shot_index(scene='render', left='original', right='replica'), len(timeline['shots']) - 2,
+               len(timeline['shots']) - 1)
+    for index in dict.fromkeys(indices):
         position = (timeline['shots'][index]['start_frame'] + 120) / 60
         shot = frame(work / f'shot-{index:03d}.mp4', 1.999)[150:590, 450:1350]
         picture = frame(work / 'picture.mp4', position - .001)[150:590, 450:1350]

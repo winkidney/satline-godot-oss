@@ -16,6 +16,7 @@ builtin-godot/.godot/
 builtin-godot/assets/baked-arms/*.raw
 video/editor/.render-v4/
 video/editor/.render-v5/
+video/editor/.render-v6/
 
 __pycache__/
 *.pyc
@@ -63,7 +64,7 @@ __pycache__/
 *.import
 !/saltline-godot/assets/**
 # Recordings and films remain local.
-video/archive/*-revision-*.srt
+video/archive/previous-cut-before-v*.srt
 *.mp4
 *.webm
 *.mkv

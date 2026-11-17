@@ -1,0 +1,40 @@
+{
+  "film_version": 6,
+  "film_sha256": "784cbf8870919e16a41ff6337a116c2188875988029a29ca0e9e18509038d627",
+  "extraction": "final frames 558–848, scaled to 1280x720 and encoded losslessly; checker analyzes relative frames 165–290",
+  "film_frame_range": [
+    723,
+    848
+  ],
+  "source_frame_range": [
+    165,
+    290
+  ],
+  "regions": {
+    "near_upper": {
+      "mean_jump": 0.06,
+      "max_jump": 0.2,
+      "status": "PASS"
+    },
+    "near_lower": {
+      "mean_jump": 0.07,
+      "max_jump": 0.3,
+      "status": "PASS"
+    },
+    "far_upper": {
+      "mean_jump": 0.06,
+      "max_jump": 0.27,
+      "status": "PASS"
+    },
+    "far_lower": {
+      "mean_jump": 0.05,
+      "max_jump": 0.21,
+      "status": "PASS"
+    }
+  },
+  "thresholds": {
+    "mean_jump_lt": 5,
+    "max_jump_lt": 15
+  },
+  "result": "PASS"
+}

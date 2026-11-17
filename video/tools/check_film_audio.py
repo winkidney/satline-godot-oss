@@ -10,10 +10,12 @@ import numpy as np
 from scipy.signal import fftconvolve
 
 root = Path(__file__).resolve().parents[2]
+version = int(json.loads((root / 'video/editor/src/film-plan.json').read_text())['version'])
+work = root / f'video/editor/.render-v{version}'
 parser = argparse.ArgumentParser()
-parser.add_argument('--timeline', type=Path, default=root / 'video/editor/.render-v5/timeline.json')
-parser.add_argument('--mix', type=Path, default=root / 'video/editor/.render-v5/mix.m4a')
-parser.add_argument('--output', type=Path, default=root / 'video/review/film-v5-audio-qc.json')
+parser.add_argument('--timeline', type=Path, default=work / 'timeline.json')
+parser.add_argument('--mix', type=Path, default=work / 'mix.m4a')
+parser.add_argument('--output', type=Path, default=root / f'video/review/film-v{version}-audio-qc.json')
 args = parser.parse_args()
 timeline = json.loads(args.timeline.read_text())
 results = []

@@ -20,9 +20,9 @@ WASD 移动，鼠标转向，左键射击，右键瞄准，R 换弹，1 / 2 切�
 
 ## 从哪里开始学习
 
-- [观看完整视频](video/final.mp4)：约 10 分 48 秒，1080p / 60 fps，含原版、定制复刻与调校后的官方 Godot 对照、旁白和中文字幕。
+- [观看完整视频](video/final.mp4)：约 10 分 20 秒，1080p / 60 fps，含原版、定制复刻与调校后的官方 Godot 对照、旁白和中文字幕。
 - [成片画面：片头](video/stills/opening.png)、[光照对照](video/stills/lighting.png)和[项目来源](video/stills/sources.png)；[原始实录](video/recordings/)与[剪辑工程](video/editor/README.md)也保留在本地。
-- [视频旁白与实际分镜](video/storyboard-v5.md)：13 章，包含逐镜头时间、画面来源和技术原理示意。
+- [视频旁白与实际分镜](video/storyboard-v6.md)：13 章，包含逐镜头时间、画面来源和技术原理示意。
 - [官方 Godot 调校与质检](docs/builtin-calibration.md)：十类场景的参数、逐项差异和复现方法；[对照图 1](video/review/comparisons/showcases-01.webp) · [对照图 2](video/review/comparisons/showcases-02.webp)。
 - [原版与复刻的事实、来源和参考图](docs/source-evidence.md)：每个效果的原始实现、对应代码与证据。
 - [三个应用场景与 AI 提示词](docs/scene-and-ai-prompts.md)：雨后地面、室内光束和角色布料。

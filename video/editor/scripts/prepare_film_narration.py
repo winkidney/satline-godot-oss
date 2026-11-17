@@ -18,6 +18,9 @@ editor = Path(__file__).resolve().parent.parent
 plan = json.loads((editor / 'src/film-plan.json').read_text())
 version = int(plan['version'])
 old_jobs = {j['id']: j for j in json.loads((private / 'narration-jobs.json').read_text())}
+for manifest in sorted(private.glob('film-v*-jobs.json')):
+    for job in json.loads(manifest.read_text()):
+        old_jobs[job['id']] = {'text': yaml.safe_load((private / job['input']).read_text())['text']}
 reference = private / old_jobs['00-02']['input']
 template = yaml.safe_load(reference.read_text())
 assert template['mode'] == 'clone' and (private / 'audio-project.yaml').is_file()
@@ -48,9 +51,19 @@ for ci, chapter in enumerate(plan['chapters']):
             raise SystemExit(f'Existing private recipe differs: {identifier}')
         path.write_text(content)
         path.chmod(0o600)
-        new_jobs.append({'id': identifier, 'input': str(path.relative_to(private)),
+        new_jobs.append({'id': identifier, 'text': voice['text'], 'input': str(path.relative_to(private)),
                          'output': f'art/derived/audio/film-v{version}/{identifier}'})
 manifest = private / f'film-v{version}-jobs.json'
+if manifest.is_file():
+    previous = {job['id']: job for job in json.loads(manifest.read_text())}
+    if set(previous) != {job['id'] for job in new_jobs}:
+        raise SystemExit('Existing narration manifest differs; use a new film version')
+    for job in new_jobs:
+        old = previous[job['id']]
+        if any(old.get(key, job[key]) != job[key] for key in ('text', 'input', 'output')):
+            raise SystemExit(f'Existing narration job differs: {job["id"]}')
+        if 'completed_output' in old:
+            job['completed_output'] = old['completed_output']
 manifest.write_text(json.dumps(new_jobs, ensure_ascii=False, indent=2) + '\n')
 manifest.chmod(0o600)
 print(f'Prepared {len(new_jobs)} private AW jobs; existing matching voice clips are reused.', flush=True)
@@ -91,4 +104,7 @@ for job in new_jobs:
         target.chmod(0o600)
         target.with_suffix('.json').write_text(json.dumps({'source_peak': peak, 'gain': gain}, indent=2) + '\n')
         target.with_suffix('.json').chmod(0o600)
+    job['completed_output'] = str(destination.relative_to(private))
+    manifest.write_text(json.dumps(new_jobs, ensure_ascii=False, indent=2) + '\n')
+    manifest.chmod(0o600)
     print(f'Completed {job["id"]}', flush=True)

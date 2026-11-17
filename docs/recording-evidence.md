@@ -59,6 +59,14 @@ python3 video/tools/check_quay_flicker.py "$SATLINE_QUAY_SCRATCH/quay.mp4"
 
 ## 成片
 
-[当前成片](../video/final.mp4)为 647.533 秒、H.264 1920×1080、60 fps、38,852 帧，AAC 48 kHz 立体声；完整音视频解码通过。此前的[第二版成片](../video/archive/previous-cut-before-v5.mp4)为 541.77 秒，初版成片为 640 秒。输出编码帧数不代表原版或复刻录制时始终达到 60 fps。当前成片的截图、音频与颜色验证见[验证记录](validation.md)；二维码目标仓库尚未公开。
+[当前成片](../video/final.mp4)为 619.867 秒、H.264 1920×1080、60 fps、37,192 帧，AAC 48 kHz 立体声；完整音视频解码通过。此前的[版本 5 成片](../video/archive/previous-cut-before-v6.mp4)为 647.533 秒，[第二版成片](../video/archive/previous-cut-before-v5.mp4)为 541.77 秒，初版成片为 640 秒。输出编码帧数不代表原版或复刻录制时始终达到 60 fps。当前成片的截图、音频与颜色验证见[验证记录](validation.md)；二维码目标仓库尚未公开。
 
-码头修复后，影片中 5 处海面镜头均换成新录素材，旧版成片保留在 `video/archive/previous-cut-before-v5-revision-03.mp4`。新素材使用固定步进，旧片中其他录屏与旁白保留原有条件。
+码头修复后，影片中 5 处海面镜头均换成新录素材，修复前成片保留在 `video/archive/previous-cut-before-v5-revision-03.mp4`。新素材使用固定步进，其他录屏保持各自原有的采集条件；版本 6 旁白的更新情况见[配音研究](tts-naturalness.md)。
+
+版本 6 的片头码头镜头位于 00:09.50–00:14.25。[成片逐帧记录](../video/review/film-v6-quay-qc.json)检查其中相当于素材第 165–290 帧的画面：跟踪近远处墙面的上下四个区域，相邻帧平均亮度的最大跳变为 0.30 / 255。以下命令提取无损中间片并复核；提取起点比镜头早 12 帧，用于对齐原素材的帧号，检查范围均在码头镜头内：
+
+```sh
+SATLINE_FILM_QA=$(mktemp -d)
+ffmpeg -i video/final.mp4 -vf 'trim=start_frame=558:end_frame=849,setpts=PTS-STARTPTS,scale=1280:720' -an -c:v ffv1 -level 3 "$SATLINE_FILM_QA/opening.mkv"
+python3 video/tools/check_quay_flicker.py "$SATLINE_FILM_QA/opening.mkv" --end-frame 290
+```

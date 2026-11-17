@@ -116,7 +116,7 @@ def make_timeline():
         samples = [(voice, voice_file(ci, vi, voice), wav_duration(voice_file(ci, vi, voice)))
                    for vi, voice in enumerate(chapter['narration'])]
         spoken = sum(item[2] for item in samples)
-        minimum = 45 if ci == 0 else 15 if ci == 12 else len(LAYOUTS[ci]) * 5.5
+        minimum = 38 if ci == 0 else 15 if ci == 12 else len(LAYOUTS[ci]) * 5.5
         duration = math.ceil(max(minimum, spoken + max(0, len(samples) - 1) * .8 + 2) * FPS) / FPS
         start = cursor / FPS
         count = round(duration * FPS)
@@ -335,7 +335,7 @@ def prepare_graphics(timeline):
                 name = label(shot[side], shot['scene'])
                 ass.append(box(10, a, b, x - 10, 45, min(850, 24 + len(name) * 26), 42, '12100B', '28'))
                 ass.append(event(11, a, b, rf'{{\an7\pos({x},50)\fs25}}{name}'))
-            ass.append(event(11, a, b, r'{\an9\pos(1880,658)\fs22\1c&HC1B49E&}分别采集 · 非同步操作'))
+            ass.append(event(11, a, b, r'{\an9\pos(1880,658)\fs22\1c&HC1B49E&}两侧画面分别录制'))
     for caption in timeline['captions']:
         text = caption['text'].replace('{', '｛').replace('}', '｝').replace('\\', '＼')
         ass.append(event(30, caption['start'], caption['end'], rf'{{\an2\pos(960,910)}}{text}', 'Caption'))
@@ -446,8 +446,8 @@ def make_audio(timeline):
 def write_storyboard(timeline, draft=False):
     timing = '预估时间线' if draft else '实际时间线'
     lines = ['# Saltline 复刻视频：执行分镜与旁白', '',
-             f"版本 {VERSION}，{timing} {timeline['frames']/FPS:.1f} 秒，1920×1080、60 fps。调试场景分别采集，画面标注来源、固定步进和非同步操作；正式游戏画面不做原版并排对比。", '',
-             '原版许多模型按程序参数组合，很多基础贴图由 GPU 生成缓存；复刻使用导出资产重建，动态天空、海面、湿润和动作仍由程序计算。官方 Godot 对照中的灯光、天空和部分动态为近似，不能把差异全部归因于材质。', '',
+             f"版本 {VERSION}，{timing} {timeline['frames']/FPS:.1f} 秒，1920×1080、60 fps。调试场景分别录制，画面标注来源和固定步进；正式游戏使用实录画面。", '',
+             '原版许多模型按程序参数组合，很多基础贴图由 GPU 生成缓存；复刻使用导出资产重建，动态天空、海面、湿润和动作仍由程序计算。官方 Godot 对照中的灯光、天空和部分动态为近似，画面差异受到材质、光照和天空共同影响。', '',
              '字幕去标点并以空格分隔；透明底色的纯色 MG 展示原理，底栏两行展示全部章节并高亮当前章节。原游戏音量不变，仅在成片中压低。末尾仅用简短三连动画。', '']
     for ci, (source, actual) in enumerate(zip(PLAN['chapters'], timeline['chapters'])):
         start, end = round(actual['start']), round(actual['end'])

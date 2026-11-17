@@ -1,0 +1,248 @@
+{
+  "method": "8 kHz mono cross correlation; final AAC mix vs source WAV",
+  "count": 48,
+  "max_abs_offset_ms": 5.38,
+  "min_correlation": 0.98737,
+  "segments": [
+    {
+      "clip": "00-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99504
+    },
+    {
+      "clip": "v6-00-01",
+      "offset_ms": 5.0,
+      "correlation": 0.9963
+    },
+    {
+      "clip": "v5-00-02",
+      "offset_ms": 5.0,
+      "correlation": 0.99671
+    },
+    {
+      "clip": "00-03",
+      "offset_ms": 5.0,
+      "correlation": 0.99592
+    },
+    {
+      "clip": "v6-01-00",
+      "offset_ms": 5.0,
+      "correlation": 0.99604
+    },
+    {
+      "clip": "v5-01-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99591
+    },
+    {
+      "clip": "v6-01-02",
+      "offset_ms": 5.0,
+      "correlation": 0.99585
+    },
+    {
+      "clip": "v5-01-03",
+      "offset_ms": 5.0,
+      "correlation": 0.9966
+    },
+    {
+      "clip": "v5-02-00",
+      "offset_ms": 4.62,
+      "correlation": 0.99513
+    },
+    {
+      "clip": "v5-02-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99618
+    },
+    {
+      "clip": "v5-02-02",
+      "offset_ms": 4.62,
+      "correlation": 0.99572
+    },
+    {
+      "clip": "v6-02-03",
+      "offset_ms": 4.62,
+      "correlation": 0.99739
+    },
+    {
+      "clip": "v6-02-04",
+      "offset_ms": 4.62,
+      "correlation": 0.99595
+    },
+    {
+      "clip": "v5-03-00",
+      "offset_ms": 4.62,
+      "correlation": 0.99652
+    },
+    {
+      "clip": "v5-03-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99687
+    },
+    {
+      "clip": "v5-03-02",
+      "offset_ms": 4.62,
+      "correlation": 0.99638
+    },
+    {
+      "clip": "02-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99685
+    },
+    {
+      "clip": "02-02",
+      "offset_ms": 5.0,
+      "correlation": 0.99643
+    },
+    {
+      "clip": "02-03",
+      "offset_ms": 5.0,
+      "correlation": 0.99773
+    },
+    {
+      "clip": "02-04",
+      "offset_ms": 5.0,
+      "correlation": 0.99721
+    },
+    {
+      "clip": "03-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99559
+    },
+    {
+      "clip": "v6-05-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99642
+    },
+    {
+      "clip": "03-02",
+      "offset_ms": 4.62,
+      "correlation": 0.99657
+    },
+    {
+      "clip": "04-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99595
+    },
+    {
+      "clip": "v5-05-04",
+      "offset_ms": 4.62,
+      "correlation": 0.996
+    },
+    {
+      "clip": "v6-05-05",
+      "offset_ms": 4.62,
+      "correlation": 0.99486
+    },
+    {
+      "clip": "05-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99675
+    },
+    {
+      "clip": "v6-06-01",
+      "offset_ms": 5.0,
+      "correlation": 0.9969
+    },
+    {
+      "clip": "06-02",
+      "offset_ms": 5.0,
+      "correlation": 0.99693
+    },
+    {
+      "clip": "v6-06-03",
+      "offset_ms": 5.0,
+      "correlation": 0.99699
+    },
+    {
+      "clip": "v6-07-00",
+      "offset_ms": 5.0,
+      "correlation": 0.9954
+    },
+    {
+      "clip": "07-02",
+      "offset_ms": 5.0,
+      "correlation": 0.9958
+    },
+    {
+      "clip": "v5-07-02",
+      "offset_ms": 5.0,
+      "correlation": 0.99651
+    },
+    {
+      "clip": "08-01",
+      "offset_ms": 5.25,
+      "correlation": 0.98737
+    },
+    {
+      "clip": "v6-08-01",
+      "offset_ms": 5.38,
+      "correlation": 0.98833
+    },
+    {
+      "clip": "08-03",
+      "offset_ms": 5.38,
+      "correlation": 0.98951
+    },
+    {
+      "clip": "v5-09-00",
+      "offset_ms": 4.62,
+      "correlation": 0.99718
+    },
+    {
+      "clip": "v6-09-01",
+      "offset_ms": 4.62,
+      "correlation": 0.99548
+    },
+    {
+      "clip": "v6-09-02",
+      "offset_ms": 4.62,
+      "correlation": 0.99493
+    },
+    {
+      "clip": "09-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99456
+    },
+    {
+      "clip": "v5-10-01",
+      "offset_ms": 5.0,
+      "correlation": 0.99642
+    },
+    {
+      "clip": "09-02",
+      "offset_ms": 5.0,
+      "correlation": 0.9949
+    },
+    {
+      "clip": "09-03",
+      "offset_ms": 5.0,
+      "correlation": 0.9962
+    },
+    {
+      "clip": "09-04",
+      "offset_ms": 5.0,
+      "correlation": 0.99637
+    },
+    {
+      "clip": "10-01",
+      "offset_ms": 5.38,
+      "correlation": 0.98927
+    },
+    {
+      "clip": "v6-11-01",
+      "offset_ms": 5.38,
+      "correlation": 0.98878
+    },
+    {
+      "clip": "v6-11-02",
+      "offset_ms": 5.38,
+      "correlation": 0.99007
+    },
+    {
+      "clip": "11-01",
+      "offset_ms": 5.38,
+      "correlation": 0.99236
+    }
+  ]
+}

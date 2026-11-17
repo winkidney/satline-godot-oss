@@ -1,0 +1,186 @@
+{
+  "method": "RGB8 crops; source and output decoded separately; not a cross-engine accuracy score",
+  "source_to_shot": [
+    {
+      "source": "original",
+      "mae_rgb8": 1.383,
+      "mean_rgb_drift": [
+        -0.94,
+        -1.029,
+        -0.973
+      ]
+    },
+    {
+      "source": "replica",
+      "mae_rgb8": 1.444,
+      "mean_rgb_drift": [
+        -0.963,
+        -1.274,
+        -1.014
+      ]
+    },
+    {
+      "source": "builtin-calibrated",
+      "mae_rgb8": 1.423,
+      "mean_rgb_drift": [
+        -1.053,
+        -1.383,
+        -0.958
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "shot": 1,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 1.14,
+        "mean_rgb_drift": [
+          -0.019,
+          0.001,
+          0.107
+        ]
+      }
+    },
+    {
+      "shot": 5,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.888,
+        "mean_rgb_drift": [
+          0.018,
+          -0.001,
+          0.037
+        ]
+      }
+    },
+    {
+      "shot": 8,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.138,
+        "mean_rgb_drift": [
+          0.025,
+          0.006,
+          0.041
+        ]
+      }
+    },
+    {
+      "shot": 15,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.947,
+        "mean_rgb_drift": [
+          0.03,
+          0.02,
+          0.078
+        ]
+      }
+    },
+    {
+      "shot": 17,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.406,
+        "mean_rgb_drift": [
+          0.023,
+          -0.002,
+          0.046
+        ]
+      }
+    },
+    {
+      "shot": 19,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.903,
+        "mean_rgb_drift": [
+          0.019,
+          0.017,
+          0.105
+        ]
+      }
+    },
+    {
+      "shot": 106,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.729,
+        "mean_rgb_drift": [
+          0.106,
+          -0.001,
+          0.109
+        ]
+      }
+    },
+    {
+      "shot": 107,
+      "shot_to_concat": {
+        "mae_rgb8": 0.0,
+        "mean_rgb_drift": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "concat_to_final": {
+        "mae_rgb8": 0.088,
+        "mean_rgb_drift": [
+          0.003,
+          -0.01,
+          -0.007
+        ]
+      }
+    }
+  ]
+}
