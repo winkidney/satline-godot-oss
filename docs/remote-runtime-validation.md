@@ -5,6 +5,7 @@
 ## GitHub 干净克隆复验
 
 - 从 GitHub 克隆 `main`，移除本次测试生成的导入缓存，应用首次启动脚本及资源标识改动后执行 `./run.sh`。脚本自动调用官方 Godot 4.7.2 导入资源，随后在隔离 Xvfb、Vulkan Forward+ 会话中启动兼容引擎；日志没有脚本、着色器或资源加载错误。
+- 按 `python3 saltline-godot/engine/build_engine.py --jobs 8` 从固定源码及补丁完整重建引擎，生成文件的 SHA-256 与仓库内引擎完全一致。由于默认 Python 包站点下载超时，固定版本的构建依赖改从镜像下载，并与 PyPI 官方 SHA-256 核对后使用。
 - 菜单加载后通过隔离会话点击 `DEPLOY`，已进入集装箱游戏场景；菜单和游戏截图只保存在本机。场景记录为 729 个节点、292 个网格和 128 张纹理。
 - `node --test tools/tests/run_launcher.test.cjs tools/tests/original_audio.test.cjs` 通过；使用 Dummy 音频驱动运行 Godot 音频检查，核对 79 个声音定义、136 个缓冲和 14 个循环。
 - 引擎自动退出时记录 32 个 ObjectDB 实例泄漏警告；真实音频输出与完整游戏流程未在本次复验中检查。

@@ -30,7 +30,7 @@ D24选项保留R32 storage/resolve早返回，只将真实depth attachment优先
 
 ## 重建
 
-在workspace运行：`rtk proxy python3 saltline-godot/engine/build_engine.py --jobs 8`。脚本校验固定archive/patch及修改文件，使用本地venv固定SCons4.11.1/zstandard0.25.0，不安装系统包。依赖系统g++、pkg-config和X11开发基础；当前构建使用动态libstdc++、wayland=no、lto=none、debug_symbols=no、disable_path_overrides=no。源/补丁不一致时停止，不覆盖开发者改动。
+在仓库根目录运行：`python3 saltline-godot/engine/build_engine.py --jobs 8`。脚本校验固定archive/patch及修改文件，使用本地venv固定SCons4.11.1/zstandard0.25.0，不安装系统包。依赖系统g++、pkg-config和X11开发基础；当前构建使用动态libstdc++、wayland=no、lto=none、debug_symbols=no、disable_path_overrides=no。源/补丁不一致时停止，不覆盖开发者改动。
 
 输出为 `.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64`，当前已构建为可运行项目的debug template，不是editor。D24/bias的本轮完整场景gate已过，总工程仍不是完成品。
 
@@ -44,7 +44,7 @@ D24选项保留R32 storage/resolve早返回，只将真实depth attachment优先
 
 完整原场景120帧水平初始相机无light-culler错误。冻结院子关闭/开启反射，15683个抽样HDR像素变化，四个对象排除与main/reflection/weapon掩码通过，回调顺序为reflection→sun→world→weapon。4秒视频 `evidence/native-planar-reflection.mp4`。此证据不覆盖动态shadow-age、resize/重入、所有投影和整机性能。
 
-当前使用该构建启动时默认开启反射：workspace执行 `rtk proxy saltline-godot/tools/run_native.sh -- --game`。stock Godot继续可运行已有太阳/后处理，但不误开需要此补丁的反射。新启动脚本无音频输出，不安装/替换系统可执行文件。
+当前使用该构建启动时默认开启反射：在仓库根目录执行 `saltline-godot/tools/run_native.sh -- --game`。stock Godot继续可运行已有太阳/后处理，但不误开需要此补丁的反射。新启动脚本无音频输出，不安装/替换系统可执行文件。
 
 后续完整场景生命周期验证已通过非整齐/最小逻辑缩放、高度/显式停用恢复、XR和layer还原、重建顺序。反射现用显式child-of-sun依赖；非周期单caster128图的真实GPU采样证明反射读旧图、主图读更新图，8帧误差0。对应证据见docs/planar-reflection.md，不扩大到全部角色动态PCSS或性能验收。
 
