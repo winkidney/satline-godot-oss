@@ -2,11 +2,11 @@
 
 ## 当前封面
 
-- [16:9 封面](saltline-cover-mg-16x9.png)：1920 × 1080，SHA-256 `9d8bd2adc9d3b080d825f0ceea204811c7585774423bb79dbd33dbf6e1801a4c`。
-- [4:3 封面](saltline-cover-mg-4x3.png)：1440 × 1080，SHA-256 `0f99df96f18acf7668c4e1a496e7b78cf218b8cf757a3523c0c2b75f08c1b93d`。
+- [16:9 封面](saltline-cover-mg-16x9.png)：1920 × 1080，SHA-256 `5684075f3fcfb7f21b8c1e8268ce8adc08f6b41077d04d9884f572f3892b6a70`。
+- [4:3 封面](saltline-cover-mg-4x3.png)：1440 × 1080，SHA-256 `29e8e9594bcb44026e168673e6456ff80dc286c84f9af216a8570141b0d99fd7`。
 - 可编辑图：[16:9 SVG](source/saltline-cover-mg-16x9.svg) · [4:3 SVG](source/saltline-cover-mg-4x3.svg)。PNG 和含截图的 SVG 保存在本机，不上传至 Git 仓库。
 
-使用本地 SVG 和 ImageMagick 排版，字体为 Noto Sans CJK SC Black 黑体。版式参考工作区的 `pixelfx-godot/godot/records/video/out/cover-16x9.png`，配色沿用本片 MG 的深灰、琥珀色和蓝色。标题移除标点，版本号保留 `5.2`。
+使用本地 SVG 和 ImageMagick 排版，字体为 Noto Sans CJK SC Black 黑体。版式参考工作区的 `pixelfx-godot/godot/records/video/out/cover-16x9.png`，配色沿用本片 MG 的深灰、琥珀色和蓝色。文字移除标点，版本号保留 `5.2`；右侧截图放大，与左侧内容上下对齐。
 
 画面直接使用 Godot 项目保存的原始 PNG 截图：`saltline-godot/evidence/main-paired-high-native.png`（集装箱与地面倒影）、`saltline-godot/evidence/sea-060.png`（海面）及 `saltline-godot/evidence/enemies-both-native.png`（机械敌人）。三个 PNG 的字节内容均直接嵌入 SVG，未从视频提帧。导出的图像会根据版式裁切与缩放。
 
