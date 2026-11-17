@@ -2,7 +2,7 @@
 
 本项目将浏览器游戏 Saltline 的渲染研究、Godot 复刻、原版音频迁移和视频制作资料放在一起。原作及衍生素材的授权状态见[第三方来源](THIRD_PARTY_NOTICES.md)；本项目自主代码许可尚未确定。
 
-GitHub 仓库保留游戏运行资产、代码、研究文本和制作配方；视频、录屏以及非运行所需的研究图像和缓存只保留在本机完整项目。以下视频、截图链接仅在本机完整项目中可用。详细范围见[远端资料说明](docs/remote-scope.md)。
+GitHub 仓库保留游戏运行资产、代码、研究文本和制作配方；视频文件、录屏以及非运行所需的研究图像和缓存只保留在本机完整项目。成片可通过下方链接在线观看，本机截图和录屏仅在本机完整项目中可用。详细范围见[远端资料说明](docs/remote-scope.md)。
 
 ## 运行游戏
 
@@ -20,7 +20,7 @@ WASD 移动，鼠标转向，左键射击，右键瞄准，R 换弹，1 / 2 切�
 
 ## 从哪里开始学习
 
-- [观看完整视频](video/final.mp4)：约 10 分 20 秒，1080p / 60 fps，含原版、定制复刻与调校后的官方 Godot 对照、旁白和中文字幕。
+- [观看完整视频（Bilibili）](https://www.bilibili.com/video/BV1ZYs66uE5J/#reply117632258871740)：约 10 分 20 秒，1080p / 60 fps，含原版、定制复刻与调校后的官方 Godot 对照、旁白和中文字幕。
 - [成片画面：片头](video/stills/opening.png)、[光照对照](video/stills/lighting.png)和[项目来源](video/stills/sources.png)；[原始实录](video/recordings/)与[剪辑工程](video/editor/README.md)也保留在本地。
 - [视频旁白与实际分镜](video/storyboard-v6.md)：13 章，包含逐镜头时间、画面来源和技术原理示意。
 - [官方 Godot 调校与质检](docs/builtin-calibration.md)：十类场景的参数、逐项差异和复现方法；[对照图 1](video/review/comparisons/showcases-01.webp) · [对照图 2](video/review/comparisons/showcases-02.webp)。

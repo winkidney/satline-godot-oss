@@ -17,7 +17,7 @@
 ## 视频工程和成片
 
 - 在隔离目录使用锁文件执行 `npm ci --ignore-scripts` 成功；Chromium 的另行准备仍需遵循 [Remotion 工程说明](../video/editor/README.md)。
-- [当前成片](../video/final.mp4)经 `ffprobe` 检查为 H.264、1920×1080、60 fps、37,192 帧、619.867 秒，AAC 48 kHz 立体声；FFmpeg 使用 `-xerror` 完整解码音视频，退出码为 0。SHA-256：`784cbf8870919e16a41ff6337a116c2188875988029a29ca0e9e18509038d627`。
+- 本地成片 `video/final.mp4`（[Bilibili 在线观看](https://www.bilibili.com/video/BV1ZYs66uE5J/#reply117632258871740)）经 `ffprobe` 检查为 H.264、1920×1080、60 fps、37,192 帧、619.867 秒，AAC 48 kHz 立体声；FFmpeg 使用 `-xerror` 完整解码音视频，退出码为 0。SHA-256：`784cbf8870919e16a41ff6337a116c2188875988029a29ca0e9e18509038d627`。
 - 影片包含原版、复刻与内建版本的十类调试场景；透明 MG、字幕和章节栏按时间线编排。片头为 38 秒，片尾的三连为简短动画。已抽查[码头镜头](../video/review/film-v6-quay-shot.webp)和一处内建材质对照；完整成片仍需人工观看。
 - 修复后素材用于全部 5 处海面镜头。[版本 6 片头的逐帧检查](../video/review/film-v6-quay-qc.json)覆盖近、远处墙面的上下四个区域，共检查素材第 165–290 帧；四区域最大相邻亮度跳变为 0.30 / 255。检查方法和复现命令见[录制记录](recording-evidence.md#成片)。
 - [颜色检查](../video/review/film-v6-color-qc.json)：三类源片到镜头的主体区域 RGB8 平均误差约 1.38–1.44 / 255；8 个镜头抽样中，镜头到拼接画面的误差均为 0，再编码至成片的误差为 0.088–1.140 / 255。该检查针对抽样区域的剪辑与编码链路。
