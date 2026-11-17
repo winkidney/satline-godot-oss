@@ -1,0 +1,9 @@
+{
+  "scene": "fx",
+  "kind": "replica",
+  "duration_requested": 12.0,
+  "capture_wall_seconds": 12.282695283007342,
+  "simulation": "real-time",
+  "callback_fps_between_markers": 18.582426333952746,
+  "note": "Separate captures; 60 fps encoded video does not guarantee 60 engine frames per second."
+}

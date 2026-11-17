@@ -1,0 +1,9 @@
+{
+  "scene": "ground",
+  "kind": "replica",
+  "duration_requested": 12.0,
+  "capture_wall_seconds": 12.28267677203985,
+  "simulation": "fixed 1/60 step",
+  "callback_fps_between_markers": 19.08743864751863,
+  "note": "Separate captures; 60 fps encoded video does not guarantee 60 engine frames per second."
+}

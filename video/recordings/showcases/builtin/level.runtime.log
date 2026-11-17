@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+MESA: info: vulkan: No DRI3 support detected - required for presentation
+Note: you can probably enable DRI3 in your Xorg config
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+BUILTIN_READY {"engine":{"build":"official","hash":"ed1daf0bf001b61586d9930840f2f1394092c079","hex":263938,"major":4,"minor":7,"patch":2,"status":"stable","string":"4.7.2-stable (official)","timestamp":0},"nodes":133,"scene":"level"}
+BUILTIN_REPORT {"approximation":["Captured static lighting panorama also supplies the visible sky; source uses a separate dynamic sky","Native lighting, shadows and tone mapping differ from the source renderer"],"camera":{"fov":74.0,"position":[-32.0,1.70000004768372,6.0],"quaternion":[0.00768351601436734,-0.711469650268555,0.00778016075491905,0.702631771564484]},"diffuse_mode":"burley","elapsed_seconds":20.0362326666666,"engine":{"build":"official","hash":"ed1daf0bf001b61586d9930840f2f1394092c079","hex":263938,"major":4,"minor":7,"patch":2,"status":"stable","string":"4.7.2-stable (official)","timestamp":0},"fps":24.4556952473002,"frames":490,"material_count":113,"nodes":133,"rendering_method":"forward_plus","scene":"level","screen_space_reflection":false,"texture_count":87,"video_adapter":"NVIDIA GeForce RTX 4070 SUPER","warnings":[],"wet_approximation":null}

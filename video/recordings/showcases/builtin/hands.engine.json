@@ -1,0 +1,45 @@
+{
+  "approximation": [
+    "Captured static lighting panorama also supplies the visible sky; source uses a separate dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer",
+    "Hand uses source open-palm bone pose and simple vertex color regions; source stitch, fabric and rain are omitted"
+  ],
+  "camera": {
+    "fov": 26.0,
+    "position": [
+      0.200000002980232,
+      1.3400000333786,
+      0.779999971389771
+    ],
+    "quaternion": [
+      -0.0551872812211514,
+      0.124978348612785,
+      0.00696267187595367,
+      0.990598976612091
+    ]
+  },
+  "diffuse_mode": "burley",
+  "elapsed_seconds": 20.0277150370371,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 25.2649889947134,
+  "frames": 506,
+  "material_count": 2,
+  "nodes": 2,
+  "rendering_method": "forward_plus",
+  "scene": "hands",
+  "screen_space_reflection": false,
+  "texture_count": 3,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}

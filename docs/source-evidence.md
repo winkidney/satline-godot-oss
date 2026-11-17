@@ -13,9 +13,9 @@
 | E07 | [光栅方向阶段记录](../saltline-godot/docs/implementation-status.md)；[引擎兼容说明](../saltline-godot/docs/engine-compatibility.md) | 武器局部 MAE 是历史受控样本；旧文档中的引擎版本以当前引擎 README 顶部说明为准。 |
 | E08 | [武器实时手臂](../saltline-godot/docs/source-weapon-live-arms.md)；[手臂 IK](../saltline-godot/docs/source-weapon-arm-ik.md)；[敌人实现](../saltline-godot/docs/enemy-implementation.md) | 这些记录跨多个实施阶段；旧待办以最终验收和最新实现为准。 |
 | E09 | [曝光与后处理](../saltline-godot/docs/post-composite.md)；[原版亮暗适应实测](../artifact-rendering-study/docs/runtime-findings.md)；[96 组后处理对照](../saltline-godot/evidence/post-gpu-verification.json) | 自动曝光数据属于固定场景；96 组使用受控输入，不代表所有动态画面。 |
-| E10 | [当前固定机位对照](../saltline-godot/evidence/main-paired-high-r16-audit-comparison.json)；[历史室内对照](../saltline-godot/evidence/main-paired-high-interior-comparison.json)；[历史室内临时灯光匹配诊断](../saltline-godot/evidence/interior-highlight-origin-matched-pool.json) | 室内图为历史版本；匹配灯光后局部差异缩小，并不证明正常游戏中的灯光历史完全同步。当前差异需在脚本通过后重拍；不能从整图均值推断“还原度百分比”。 |
-| E11 | [最终技术证据索引](../saltline-godot/evidence/final-technical-audit.json)；[r16 运行包验证](../saltline-godot/evidence/runtime-bundle-r16-verification.json) | 当前包内启动和触摸生命周期已验证；现有视频多为历史版本或固定步进，未证明本片实时录制。 |
-| E12 | [原版音频合成器与音色表](../artifact-rendering-study/source/extracted/bundle-1.js#L65486)；[动态音乐调度](../artifact-rendering-study/source/extracted/bundle-1.js#L66212)；[WebAudio 服务](../artifact-rendering-study/source/extracted/bundle-1.js#L66779) | 原始生成器已导出 79 个生成项、136 个缓冲，其中两个是混响脉冲；Godot 事件、动态混音和听感对照仍在实施。 |
+| E10 | [当前固定机位对照](../saltline-godot/evidence/main-paired-high-r16-audit-comparison.json)；[历史室内对照](../saltline-godot/evidence/main-paired-high-interior-comparison.json)；[历史室内临时灯光匹配诊断](../saltline-godot/evidence/interior-highlight-origin-matched-pool.json) | 室内图为历史版本；匹配灯光后局部差异缩小，并不证明正常游戏中的灯光历史完全同步。新采集的十类场景见[调校记录](builtin-calibration.md)；不能从整图均值推断“还原度百分比”。 |
+| E11 | [最终技术证据索引](../saltline-godot/evidence/final-technical-audit.json)；[r16 运行包验证](../saltline-godot/evidence/runtime-bundle-r16-verification.json)；[本片实录条件](recording-evidence.md) | 包内启动和触摸生命周期已验证；本片游戏录屏的帧率与十类调试画面的固定步进条件应分别看待。 |
+| E12 | [原版音频合成器与音色表](../artifact-rendering-study/source/extracted/bundle-1.js#L65486)；[动态音乐调度](../artifact-rendering-study/source/extracted/bundle-1.js#L66212)；[WebAudio 服务](../artifact-rendering-study/source/extracted/bundle-1.js#L66779) | 原始生成器已导出 79 个生成项、136 个缓冲，其中两个是混响脉冲；Godot 事件和混音已接入，完整听感对照仍需人工检查，见[音频记录](audio-port-plan.md)。 |
 | E13 | [原版太阳光与 PCSS 移植](../saltline-godot/docs/source-sun.md)；[PCSS 受控对照](../saltline-godot/evidence/sun-pcss-verification.json) | 高画质表面阴影采用 8 次遮挡物搜索和 16 次过滤；不同于体积光沿视线的 24 步采样。受控 GPU 对照不代表所有设备与场景一致。 |
 
 ## 供审脚本的现有画面
@@ -23,7 +23,7 @@
 - 当前版本室外固定机位：[原版](../saltline-godot/evidence/main-paired-high-source.png) / [Godot r16](../saltline-godot/evidence/main-paired-high-r16-audit-native.png)。条件及误差见 E10；关闭了 HUD 和武器，这是静帧参考，不代表实时帧率。
 - 历史室内固定机位：[原版](../saltline-godot/evidence/main-paired-high-interior-source.png) / [旧版 Godot](../saltline-godot/evidence/main-paired-high-interior-native.png)。用于理解曾出现的局部差异；不能当作当前版本的结论。
 
-以上图片来自旧版本，已并入本地项目，但公开授权尚未核实。本片另行录制实时对照；旧图用于说明历史问题时会标明版本和条件。
+以上图片来自旧版本，已并入本地项目，但公开授权尚未核实。本片另行采集十类调试场景；实时录制与固定步进条件分别标注。旧图用于说明历史问题时标明版本和条件。
 
 ## 原版来源与模型归属
 

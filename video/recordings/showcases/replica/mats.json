@@ -1,0 +1,9 @@
+{
+  "scene": "mats",
+  "kind": "replica",
+  "duration_requested": 12.0,
+  "capture_wall_seconds": 12.333953119989019,
+  "simulation": "fixed 1/60 step",
+  "callback_fps_between_markers": 18.96813353566009,
+  "note": "Separate captures; 60 fps encoded video does not guarantee 60 engine frames per second."
+}

@@ -1,0 +1,9 @@
+{
+  "scene": "transparency",
+  "kind": "lab",
+  "duration_requested": 8.0,
+  "capture_wall_seconds": 8.27661485801218,
+  "simulation": "real-time",
+  "callback_fps_between_markers": null,
+  "note": "Separate captures; 60 fps encoded video does not guarantee 60 engine frames per second."
+}

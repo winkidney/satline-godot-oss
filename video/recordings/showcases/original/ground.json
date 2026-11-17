@@ -1,0 +1,14 @@
+{
+  "scene": "ground",
+  "query": "q=high&shot=1&noaudio=1&dynres=0&show=ground",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "seconds": 12.0015,
+  "frames": 720,
+  "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "fatal": null,
+  "errors": []
+}

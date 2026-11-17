@@ -15,6 +15,7 @@ artifact-rendering-study/godot/.godot/
 builtin-godot/.godot/
 builtin-godot/assets/baked-arms/*.raw
 video/editor/.render-v4/
+video/editor/.render-v5/
 
 __pycache__/
 *.pyc

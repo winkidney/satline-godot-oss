@@ -66,4 +66,4 @@ python3 video/tools/make_calibration_sheets.py
 
 GPU 透明效果检查：将 `test_transparency.gd` 分别以 `--scene=ground`、`--scene=fx` 运行；`color_probe.gd` 检查颜色与 LUT。原版与 Godot 的采样、消融、材质烘焙脚本及记录保留在 `video/tools/` 和 `builtin-godot/tools/`。中间扫描保留当时的设置和结果；之后的天空排序、粒子与默认值修正会影响重跑结果。不同 GPU、浏览器、驱动和录制时刻也可能改变结果。
 
-校准为后续重新录制提供依据；旧版 `video/recordings/showcases/builtin/` 与 `video/review/comparisons/` 是调校前素材，不能代表本次结果。原版及衍生资产的再发布授权尚未核实，本项目保持本地或私有状态。
+调校后录屏位于 `video/recordings/showcases/builtin-calibrated/`，画面以固定步长逐帧输出，并非实时帧率；`video/review/comparisons/` 对照图已使用新版。旧版 `video/recordings/showcases/builtin/` 是调校前素材。原版及衍生资产的再发布授权尚未核实，本项目保持本地或私有状态。

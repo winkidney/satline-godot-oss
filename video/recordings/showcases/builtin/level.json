@@ -1,0 +1,9 @@
+{
+  "scene": "level",
+  "kind": "builtin",
+  "duration_requested": 12.0,
+  "capture_wall_seconds": 12.282988051010761,
+  "simulation": "real-time",
+  "callback_fps_between_markers": null,
+  "note": "Separate captures; 60 fps encoded video does not guarantee 60 engine frames per second."
+}

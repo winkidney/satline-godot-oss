@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+MESA: info: vulkan: No DRI3 support detected - required for presentation
+Note: you can probably enable DRI3 in your Xorg config
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+SOURCE_SCENE_LOADED {"cold_quality_assets":{"quality":"high","texture_replacements":0},"device_quality":{"quality":"high","renderer":"NVIDIA GeForce RTX 4070 SUPER","screen":[1920,1080],"touch_points":0,"touch_points_known":false,"user_agent":"Linux"},"generic_sampler_variants":7,"gpu_texture_variants":128,"materials":195,"meshes":292,"native_skeletons":20,"native_skin_meshes":30,"nodes":729,"pending_shaders":[{"id":"34559a15-d7f9-4fa2-8956-d228e9cc6353","name":"fx_lit","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft","uSun","uSunDir","uAmbLo","uAmbHi"]},{"id":"1a738049-2610-449b-adb3-ac8779c53cd0","name":"fx_add","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft"]}],"skin_reference_max_error_m":0.0000012468096883822,"skin_reference_vertices_checked":732,"source_polygon_offset":{"reason":"supported","requested":true,"supported":true},"source_skin_reference_meshes":30,"source_static_point_lights":4,"textures":128,"triplanar_palette":{"invalid_bindings":[],"meshes":18,"rows":290}}
+SALTLINE_SHOWCASE_READY
+SALTLINE_FRAME 30 10154
+SALTLINE_FRAME 60 11746
+SALTLINE_FRAME 90 13329
+SALTLINE_FRAME 120 14915
+SALTLINE_FRAME 150 16497
+SALTLINE_FRAME 180 18062

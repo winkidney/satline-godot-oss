@@ -1,0 +1,14 @@
+{
+  "scene": "level",
+  "method": "Godot fixed-step movie writer",
+  "simulation_fps": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames": 480,
+  "seconds": 8.0,
+  "wall_seconds": 43.53,
+  "render_speed": 0.207,
+  "note": "Rendered frame by frame on the GPU, then encoded; not realtime playback."
+}
