@@ -1,0 +1,1284 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registering global classes... (426 steps)
+[   0% ] update_scripts_classes |
+[   0% ] update_scripts_classes | SaltlineBolts
+[   0% ] update_scripts_classes |
+[   0% ] update_scripts_classes |
+[   0% ] update_scripts_classes |
+[   1% ] update_scripts_classes |
+[   1% ] update_scripts_classes | SaltlineCombat
+[   1% ] update_scripts_classes | SaltlineCombatFeedback
+[   1% ] update_scripts_classes | SaltlineCombinedDepthBridge
+[   2% ] update_scripts_classes |
+[   2% ] update_scripts_classes |
+[   2% ] update_scripts_classes |
+[   2% ] update_scripts_classes |
+[   3% ] update_scripts_classes | SaltlineDebris
+[   3% ] update_scripts_classes | SaltlineDecals
+[   3% ] update_scripts_classes | SaltlineDepthSamplesBridge
+[   3% ] update_scripts_classes |
+[   3% ] update_scripts_classes |
+[   4% ] update_scripts_classes |
+[   4% ] update_scripts_classes | SaltlineEnemyCoordinator
+[   4% ] update_scripts_classes | SaltlineEnemyHitShapes
+[   4% ] update_scripts_classes | SaltlineEnemyManager
+[   5% ] update_scripts_classes | SaltlineExplosionEffects
+[   5% ] update_scripts_classes | SaltlineExplosives
+[   5% ] update_scripts_classes |
+[   5% ] update_scripts_classes |
+[   6% ] update_scripts_classes |
+[   6% ] update_scripts_classes |
+[   6% ] update_scripts_classes |
+[   6% ] update_scripts_classes |
+[   7% ] update_scripts_classes |
+[   7% ] update_scripts_classes |
+[   7% ] update_scripts_classes | SaltlineGameFlow
+[   7% ] update_scripts_classes | SaltlineGameUI
+[   7% ] update_scripts_classes | SaltlineGroundQueries
+[   8% ] update_scripts_classes | SaltlineGullActor
+[   8% ] update_scripts_classes | SaltlineGullBehavior
+[   8% ] update_scripts_classes | SaltlineGullFlight
+[   8% ] update_scripts_classes | SaltlineGullLife
+[   9% ] update_scripts_classes | SaltlineGullPose
+[   9% ] update_scripts_classes | SaltlineGullScanLight
+[   9% ] update_scripts_classes | SaltlineHalfDepthBridge
+[   9% ] update_scripts_classes |
+[  10% ] update_scripts_classes |
+[  10% ] update_scripts_classes | SaltlineHoundActor
+[  10% ] update_scripts_classes | SaltlineHoundBehavior
+[  10% ] update_scripts_classes | SaltlineHoundLife
+[  11% ] update_scripts_classes | SaltlineHoundLocomotion
+[  11% ] update_scripts_classes | SaltlineHoundPose
+[  11% ] update_scripts_classes | SaltlineHudProjection
+[  11% ] update_scripts_classes | SaltlineImpactEffects
+[  11% ] update_scripts_classes |
+[  12% ] update_scripts_classes |
+[  12% ] update_scripts_classes | SaltlineLightPool
+[  12% ] update_scripts_classes |
+[  12% ] update_scripts_classes |
+[  13% ] update_scripts_classes |
+[  13% ] update_scripts_classes |
+[  13% ] update_scripts_classes | SaltlineMission
+[  13% ] update_scripts_classes |
+[  14% ] update_scripts_classes | SaltlineNavigation
+[  14% ] update_scripts_classes | SaltlineNavigationHud
+[  14% ] update_scripts_classes | SaltlineObjectiveHud
+[  14% ] update_scripts_classes |
+[  14% ] update_scripts_classes |
+[  15% ] update_scripts_classes |
+[  15% ] update_scripts_classes |
+[  15% ] update_scripts_classes | SaltlineParticles
+[  15% ] update_scripts_classes | SaltlinePlanarCamera
+[  16% ] update_scripts_classes |
+[  16% ] update_scripts_classes |
+[  16% ] update_scripts_classes | SaltlinePlayer
+[  16% ] update_scripts_classes | SaltlinePmremTextures
+[  17% ] update_scripts_classes | SaltlinePostPipeline
+[  17% ] update_scripts_classes | SaltlineRadio
+[  17% ] update_scripts_classes |
+[  17% ] update_scripts_classes | SaltlineRain
+[  18% ] update_scripts_classes |
+[  18% ] update_scripts_classes |
+[  18% ] update_scripts_classes | SaltlineRelays
+[  18% ] update_scripts_classes | SaltlineRelayAnimation
+[  18% ] update_scripts_classes |
+[  19% ] update_scripts_classes |
+[  19% ] update_scripts_classes |
+[  19% ] update_scripts_classes |
+[  19% ] update_scripts_classes | SaltlineSession
+[  20% ] update_scripts_classes | SaltlineShells
+[  20% ] update_scripts_classes | SaltlineSightEnvironment
+[  20% ] update_scripts_classes | SaltlineSkyWeather
+[  20% ] update_scripts_classes | SaltlineSolarDepthBridge
+[  21% ] update_scripts_classes | SaltlineSolarProjection
+[  21% ] update_scripts_classes |
+[  21% ] update_scripts_classes |
+[  21% ] update_scripts_classes |
+[  22% ] update_scripts_classes |
+[  22% ] update_scripts_classes |
+[  22% ] update_scripts_classes |
+[  22% ] update_scripts_classes |
+[  22% ] update_scripts_classes | SaltlinePhysics
+[  23% ] update_scripts_classes | SaltlineSourceRng
+[  23% ] update_scripts_classes | SaltlineSourceScene
+[  23% ] update_scripts_classes |
+[  23% ] update_scripts_classes |
+[  24% ] update_scripts_classes |
+[  24% ] update_scripts_classes | SaltlineStatusHud
+[  24% ] update_scripts_classes |
+[  24% ] update_scripts_classes |
+[  25% ] update_scripts_classes | SaltlineSunShadowPass
+[  25% ] update_scripts_classes |
+[  25% ] update_scripts_classes |
+[  25% ] update_scripts_classes |
+[  25% ] update_scripts_classes |
+[  26% ] update_scripts_classes |
+[  26% ] update_scripts_classes |
+[  26% ] update_scripts_classes |
+[  26% ] update_scripts_classes | SaltlineTracers
+[  27% ] update_scripts_classes |
+[  27% ] update_scripts_classes | SaltlineWeapon
+[  27% ] update_scripts_classes | SaltlineWeaponAnimation
+[  27% ] update_scripts_classes |
+[  28% ] update_scripts_classes |
+[  28% ] update_scripts_classes |
+[  28% ] update_scripts_classes |
+[  28% ] update_scripts_classes |
+[  29% ] update_scripts_classes |
+[  29% ] update_scripts_classes |
+[  29% ] update_scripts_classes | SaltlineWeaponEffects
+[  29% ] update_scripts_classes |
+[  29% ] update_scripts_classes |
+[  30% ] update_scripts_classes |
+[  30% ] update_scripts_classes | SaltlineWeaponMotionMath
+[  30% ] update_scripts_classes |
+[  30% ] update_scripts_classes |
+[  31% ] update_scripts_classes |
+[  31% ] update_scripts_classes |
+[  31% ] update_scripts_classes |
+[  31% ] update_scripts_classes |
+[  32% ] update_scripts_classes |
+[  32% ] update_scripts_classes |
+[  32% ] update_scripts_classes |
+[  32% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  34% ] update_scripts_classes |
+[  34% ] update_scripts_classes |
+[  34% ] update_scripts_classes |
+[  34% ] update_scripts_classes |
+[  35% ] update_scripts_classes |
+[  35% ] update_scripts_classes |
+[  35% ] update_scripts_classes |
+[  35% ] update_scripts_classes |
+[  36% ] update_scripts_classes |
+[  36% ] update_scripts_classes |
+[  36% ] update_scripts_classes |
+[  36% ] update_scripts_classes |
+[  37% ] update_scripts_classes |
+[  37% ] update_scripts_classes |
+[  37% ] update_scripts_classes |
+[  37% ] update_scripts_classes |
+[  37% ] update_scripts_classes |
+[  38% ] update_scripts_classes |
+[  38% ] update_scripts_classes |
+[  38% ] update_scripts_classes |
+[  38% ] update_scripts_classes |
+[  39% ] update_scripts_classes |
+[  39% ] update_scripts_classes |
+[  39% ] update_scripts_classes |
+[  39% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  41% ] update_scripts_classes |
+[  41% ] update_scripts_classes |
+[  41% ] update_scripts_classes |
+[  41% ] update_scripts_classes |
+[  42% ] update_scripts_classes |
+[  42% ] update_scripts_classes |
+[  42% ] update_scripts_classes |
+[  42% ] update_scripts_classes |
+[  43% ] update_scripts_classes |
+[  43% ] update_scripts_classes |
+[  43% ] update_scripts_classes |
+[  43% ] update_scripts_classes |
+[  44% ] update_scripts_classes |
+[  44% ] update_scripts_classes |
+[  44% ] update_scripts_classes |
+[  44% ] update_scripts_classes |
+[  44% ] update_scripts_classes |
+[  45% ] update_scripts_classes |
+[  45% ] update_scripts_classes |
+[  45% ] update_scripts_classes |
+[  45% ] update_scripts_classes |
+[  46% ] update_scripts_classes |
+[  46% ] update_scripts_classes |
+[  46% ] update_scripts_classes |
+[  46% ] update_scripts_classes |
+[  47% ] update_scripts_classes |
+[  47% ] update_scripts_classes |
+[  47% ] update_scripts_classes |
+[  47% ] update_scripts_classes |
+[  48% ] update_scripts_classes |
+[  48% ] update_scripts_classes |
+[  48% ] update_scripts_classes |
+[  48% ] update_scripts_classes |
+[  48% ] update_scripts_classes |
+[  49% ] update_scripts_classes |
+[  49% ] update_scripts_classes |
+[  49% ] update_scripts_classes |
+[  49% ] update_scripts_classes |
+[  50% ] update_scripts_classes |
+[  50% ] update_scripts_classes |
+[  50% ] update_scripts_classes |
+[  50% ] update_scripts_classes |
+[  51% ] update_scripts_classes |
+[  51% ] update_scripts_classes |
+[  51% ] update_scripts_classes |
+[  51% ] update_scripts_classes |
+[  51% ] update_scripts_classes |
+[  52% ] update_scripts_classes |
+[  52% ] update_scripts_classes |
+[  52% ] update_scripts_classes |
+[  52% ] update_scripts_classes |
+[  53% ] update_scripts_classes |
+[  53% ] update_scripts_classes |
+[  53% ] update_scripts_classes |
+[  53% ] update_scripts_classes |
+[  54% ] update_scripts_classes |
+[  54% ] update_scripts_classes |
+[  54% ] update_scripts_classes |
+[  54% ] update_scripts_classes |
+[  55% ] update_scripts_classes |
+[  55% ] update_scripts_classes |
+[  55% ] update_scripts_classes |
+[  55% ] update_scripts_classes |
+[  55% ] update_scripts_classes |
+[  56% ] update_scripts_classes |
+[  56% ] update_scripts_classes |
+[  56% ] update_scripts_classes |
+[  56% ] update_scripts_classes |
+[  57% ] update_scripts_classes |
+[  57% ] update_scripts_classes |
+[  57% ] update_scripts_classes |
+[  57% ] update_scripts_classes |
+[  58% ] update_scripts_classes |
+[  58% ] update_scripts_classes |
+[  58% ] update_scripts_classes |
+[  58% ] update_scripts_classes |
+[  59% ] update_scripts_classes |
+[  59% ] update_scripts_classes |
+[  59% ] update_scripts_classes |
+[  59% ] update_scripts_classes |
+[  59% ] update_scripts_classes |
+[  60% ] update_scripts_classes |
+[  60% ] update_scripts_classes |
+[  60% ] update_scripts_classes |
+[  60% ] update_scripts_classes |
+[  61% ] update_scripts_classes |
+[  61% ] update_scripts_classes |
+[  61% ] update_scripts_classes |
+[  61% ] update_scripts_classes |
+[  62% ] update_scripts_classes |
+[  62% ] update_scripts_classes |
+[  62% ] update_scripts_classes |
+[  62% ] update_scripts_classes |
+[  62% ] update_scripts_classes |
+[  63% ] update_scripts_classes |
+[  63% ] update_scripts_classes |
+[  63% ] update_scripts_classes |
+[  63% ] update_scripts_classes |
+[  64% ] update_scripts_classes |
+[  64% ] update_scripts_classes |
+[  64% ] update_scripts_classes |
+[  64% ] update_scripts_classes |
+[  65% ] update_scripts_classes |
+[  65% ] update_scripts_classes |
+[  65% ] update_scripts_classes |
+[  65% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  67% ] update_scripts_classes |
+[  67% ] update_scripts_classes |
+[  67% ] update_scripts_classes |
+[  67% ] update_scripts_classes |
+[  68% ] update_scripts_classes |
+[  68% ] update_scripts_classes |
+[  68% ] update_scripts_classes |
+[  68% ] update_scripts_classes |
+[  69% ] update_scripts_classes |
+[  69% ] update_scripts_classes |
+[  69% ] update_scripts_classes |
+[  69% ] update_scripts_classes |
+[  70% ] update_scripts_classes |
+[  70% ] update_scripts_classes |
+[  70% ] update_scripts_classes |
+[  70% ] update_scripts_classes |
+[  70% ] update_scripts_classes |
+[  71% ] update_scripts_classes |
+[  71% ] update_scripts_classes |
+[  71% ] update_scripts_classes |
+[  71% ] update_scripts_classes |
+[  72% ] update_scripts_classes |
+[  72% ] update_scripts_classes |
+[  72% ] update_scripts_classes |
+[  72% ] update_scripts_classes |
+[  73% ] update_scripts_classes |
+[  73% ] update_scripts_classes |
+[  73% ] update_scripts_classes |
+[  73% ] update_scripts_classes |
+[  74% ] update_scripts_classes |
+[  74% ] update_scripts_classes |
+[  74% ] update_scripts_classes |
+[  74% ] update_scripts_classes |
+[  74% ] update_scripts_classes |
+[  75% ] update_scripts_classes |
+[  75% ] update_scripts_classes |
+[  75% ] update_scripts_classes |
+[  75% ] update_scripts_classes |
+[  76% ] update_scripts_classes |
+[  76% ] update_scripts_classes |
+[  76% ] update_scripts_classes |
+[  76% ] update_scripts_classes |
+[  77% ] update_scripts_classes |
+[  77% ] update_scripts_classes |
+[  77% ] update_scripts_classes |
+[  77% ] update_scripts_classes |
+[  77% ] update_scripts_classes |
+[  78% ] update_scripts_classes |
+[  78% ] update_scripts_classes |
+[  78% ] update_scripts_classes |
+[  78% ] update_scripts_classes |
+[  79% ] update_scripts_classes |
+[  79% ] update_scripts_classes |
+[  79% ] update_scripts_classes |
+[  79% ] update_scripts_classes |
+[  80% ] update_scripts_classes |
+[  80% ] update_scripts_classes |
+[  80% ] update_scripts_classes |
+[  80% ] update_scripts_classes |
+[  81% ] update_scripts_classes |
+[  81% ] update_scripts_classes |
+[  81% ] update_scripts_classes |
+[  81% ] update_scripts_classes |
+[  81% ] update_scripts_classes |
+[  82% ] update_scripts_classes |
+[  82% ] update_scripts_classes |
+[  82% ] update_scripts_classes |
+[  82% ] update_scripts_classes |
+[  83% ] update_scripts_classes |
+[  83% ] update_scripts_classes |
+[  83% ] update_scripts_classes |
+[  83% ] update_scripts_classes |
+[  84% ] update_scripts_classes |
+[  84% ] update_scripts_classes |
+[  84% ] update_scripts_classes |
+[  84% ] update_scripts_classes |
+[  85% ] update_scripts_classes |
+[  85% ] update_scripts_classes |
+[  85% ] update_scripts_classes |
+[  85% ] update_scripts_classes |
+[  85% ] update_scripts_classes |
+[  86% ] update_scripts_classes |
+[  86% ] update_scripts_classes |
+[  86% ] update_scripts_classes |
+[  86% ] update_scripts_classes |
+[  87% ] update_scripts_classes |
+[  87% ] update_scripts_classes |
+[  87% ] update_scripts_classes |
+[  87% ] update_scripts_classes |
+[  88% ] update_scripts_classes |
+[  88% ] update_scripts_classes |
+[  88% ] update_scripts_classes |
+[  88% ] update_scripts_classes |
+[  88% ] update_scripts_classes |
+[  89% ] update_scripts_classes |
+[  89% ] update_scripts_classes |
+[  89% ] update_scripts_classes |
+[  89% ] update_scripts_classes |
+[  90% ] update_scripts_classes |
+[  90% ] update_scripts_classes |
+[  90% ] update_scripts_classes |
+[  90% ] update_scripts_classes |
+[  91% ] update_scripts_classes |
+[  91% ] update_scripts_classes |
+[  91% ] update_scripts_classes |
+[  91% ] update_scripts_classes |
+[  92% ] update_scripts_classes |
+[  92% ] update_scripts_classes |
+[  92% ] update_scripts_classes |
+[  92% ] update_scripts_classes |
+[  92% ] update_scripts_classes |
+[  93% ] update_scripts_classes |
+[  93% ] update_scripts_classes |
+[  93% ] update_scripts_classes |
+[  93% ] update_scripts_classes |
+[  94% ] update_scripts_classes |
+[  94% ] update_scripts_classes |
+[  94% ] update_scripts_classes |
+[  94% ] update_scripts_classes |
+[  95% ] update_scripts_classes |
+[  95% ] update_scripts_classes |
+[  95% ] update_scripts_classes |
+[  95% ] update_scripts_classes |
+[  96% ] update_scripts_classes |
+[  96% ] update_scripts_classes |
+[  96% ] update_scripts_classes |
+[  96% ] update_scripts_classes |
+[  96% ] update_scripts_classes |
+[  97% ] update_scripts_classes |
+[  97% ] update_scripts_classes |
+[  97% ] update_scripts_classes |
+[  97% ] update_scripts_classes |
+[  98% ] update_scripts_classes |
+[  98% ] update_scripts_classes |
+[  98% ] update_scripts_classes |
+[  98% ] update_scripts_classes |
+[  99% ] update_scripts_classes |
+[  99% ] update_scripts_classes |
+[  99% ] update_scripts_classes |
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started Scanning actions... (276 steps)
+[   0% ] _update_scan_actions | alert-0.wav
+[   0% ] _update_scan_actions | alert-1.wav
+[   0% ] _update_scan_actions | complete-0.wav
+[   1% ] _update_scan_actions | container_bang-0.wav
+[   1% ] _update_scan_actions | death-0.wav
+[   1% ] _update_scan_actions | ear_ring-0.wav
+[   2% ] _update_scan_actions | explosion-0.wav
+[   2% ] _update_scan_actions | explosion-1.wav
+[   2% ] _update_scan_actions | explosion_big-0.wav
+[   3% ] _update_scan_actions | explosion_big-1.wav
+[   3% ] _update_scan_actions | foghorn-0.wav
+[   3% ] _update_scan_actions | gear_rustle-0.wav
+[   4% ] _update_scan_actions | gear_rustle-1.wav
+[   4% ] _update_scan_actions | gull_cry-0.wav
+[   5% ] _update_scan_actions | gull_cry-1.wav
+[   5% ] _update_scan_actions | gull_die-0.wav
+[   5% ] _update_scan_actions | gull_fire-0.wav
+[   6% ] _update_scan_actions | gull_fire-1.wav
+[   6% ] _update_scan_actions | gull_fire-2.wav
+[   6% ] _update_scan_actions | gull_rotor-0.wav
+[   7% ] _update_scan_actions | halyard-0.wav
+[   7% ] _update_scan_actions | halyard-1.wav
+[   7% ] _update_scan_actions | hound_die-0.wav
+[   8% ] _update_scan_actions | hound_fire-0.wav
+[   8% ] _update_scan_actions | hound_fire-1.wav
+[   9% ] _update_scan_actions | hound_fire-2.wav
+[   9% ] _update_scan_actions | hound_servo-0.wav
+[   9% ] _update_scan_actions | hound_step-0.wav
+[  10% ] _update_scan_actions | hound_step-1.wav
+[  10% ] _update_scan_actions | hound_step-2.wav
+[  10% ] _update_scan_actions | hurt-0.wav
+[  11% ] _update_scan_actions | impact_concrete-0.wav
+[  11% ] _update_scan_actions | impact_concrete-1.wav
+[  11% ] _update_scan_actions | impact_concrete-2.wav
+[  12% ] _update_scan_actions | impact_enemy-0.wav
+[  12% ] _update_scan_actions | impact_enemy-1.wav
+[  12% ] _update_scan_actions | impact_enemy-2.wav
+[  13% ] _update_scan_actions | impact_glass-0.wav
+[  13% ] _update_scan_actions | impact_metal-0.wav
+[  14% ] _update_scan_actions | impact_metal-1.wav
+[  14% ] _update_scan_actions | impact_metal-2.wav
+[  14% ] _update_scan_actions | impact_water-0.wav
+[  15% ] _update_scan_actions | impact_water-1.wav
+[  15% ] _update_scan_actions | impact_wood-0.wav
+[  15% ] _update_scan_actions | impact_wood-1.wav
+[  16% ] _update_scan_actions | ir_outdoor-0.wav
+[  16% ] _update_scan_actions | ir_shed-0.wav
+[  16% ] _update_scan_actions | jump-0.wav
+[  17% ] _update_scan_actions | land-0.wav
+[  17% ] _update_scan_actions | music_brass-0.wav
+[  18% ] _update_scan_actions | music_drone-0.wav
+[  18% ] _update_scan_actions | music_drums-0.wav
+[  18% ] _update_scan_actions | music_lift-0.wav
+[  19% ] _update_scan_actions | music_pulse-0.wav
+[  19% ] _update_scan_actions | music_strings-0.wav
+[  19% ] _update_scan_actions | music_ticks-0.wav
+[  20% ] _update_scan_actions | mus_cell-0.wav
+[  20% ] _update_scan_actions | mus_cell-1.wav
+[  20% ] _update_scan_actions | mus_cell-2.wav
+[  21% ] _update_scan_actions | mus_cell-3.wav
+[  21% ] _update_scan_actions | mus_fill-0.wav
+[  22% ] _update_scan_actions | mus_fill-1.wav
+[  22% ] _update_scan_actions | mus_fill-2.wav
+[  22% ] _update_scan_actions | mus_hit-0.wav
+[  23% ] _update_scan_actions | mus_hit-1.wav
+[  23% ] _update_scan_actions | mus_horn-0.wav
+[  23% ] _update_scan_actions | mus_horn-1.wav
+[  24% ] _update_scan_actions | mus_horn-2.wav
+[  24% ] _update_scan_actions | mus_horn-3.wav
+[  24% ] _update_scan_actions | mus_impact-0.wav
+[  25% ] _update_scan_actions | mus_riser-0.wav
+[  25% ] _update_scan_actions | objective-0.wav
+[  25% ] _update_scan_actions | pistol_dry-0.wav
+[  26% ] _update_scan_actions | pistol_magin-0.wav
+[  26% ] _update_scan_actions | pistol_maginsert-0.wav
+[  27% ] _update_scan_actions | pistol_magout-0.wav
+[  27% ] _update_scan_actions | pistol_shot-0.wav
+[  27% ] _update_scan_actions | pistol_shot-1.wav
+[  28% ] _update_scan_actions | pistol_shot-2.wav
+[  28% ] _update_scan_actions | pistol_shot-3.wav
+[  28% ] _update_scan_actions | pistol_slide-0.wav
+[  29% ] _update_scan_actions | pistol_tail_in-0.wav
+[  29% ] _update_scan_actions | pistol_tail_out-0.wav
+[  29% ] _update_scan_actions | rain-0.wav
+[  30% ] _update_scan_actions | rain_interior-0.wav
+[  30% ] _update_scan_actions | relay_cut-0.wav
+[  31% ] _update_scan_actions | relay_hum-0.wav
+[  31% ] _update_scan_actions | reload_bolt-0.wav
+[  31% ] _update_scan_actions | reload_boltback-0.wav
+[  32% ] _update_scan_actions | reload_boltback-1.wav
+[  32% ] _update_scan_actions | reload_magin-0.wav
+[  32% ] _update_scan_actions | reload_maginsert-0.wav
+[  33% ] _update_scan_actions | reload_magout-0.wav
+[  33% ] _update_scan_actions | ricochet-0.wav
+[  33% ] _update_scan_actions | ricochet-1.wav
+[  34% ] _update_scan_actions | ricochet-2.wav
+[  34% ] _update_scan_actions | rifle_dry-0.wav
+[  35% ] _update_scan_actions | rifle_shot-0.wav
+[  35% ] _update_scan_actions | rifle_shot-1.wav
+[  35% ] _update_scan_actions | rifle_shot-2.wav
+[  36% ] _update_scan_actions | rifle_shot-3.wav
+[  36% ] _update_scan_actions | rifle_shot-4.wav
+[  36% ] _update_scan_actions | rifle_tail_in-0.wav
+[  37% ] _update_scan_actions | rifle_tail_in-1.wav
+[  37% ] _update_scan_actions | rifle_tail_out-0.wav
+[  37% ] _update_scan_actions | rifle_tail_out-1.wav
+[  38% ] _update_scan_actions | sea-0.wav
+[  38% ] _update_scan_actions | shell_bounce-0.wav
+[  38% ] _update_scan_actions | shell_bounce-1.wav
+[  39% ] _update_scan_actions | shell_bounce-2.wav
+[  39% ] _update_scan_actions | shell_bounce-3.wav
+[  40% ] _update_scan_actions | shell_bounce_metal-0.wav
+[  40% ] _update_scan_actions | shell_bounce_metal-1.wav
+[  40% ] _update_scan_actions | shell_bounce_metal-2.wav
+[  41% ] _update_scan_actions | step_concrete-0.wav
+[  41% ] _update_scan_actions | step_concrete-1.wav
+[  41% ] _update_scan_actions | step_concrete-2.wav
+[  42% ] _update_scan_actions | step_concrete-3.wav
+[  42% ] _update_scan_actions | step_metal-0.wav
+[  42% ] _update_scan_actions | step_metal-1.wav
+[  43% ] _update_scan_actions | step_metal-2.wav
+[  43% ] _update_scan_actions | step_water-0.wav
+[  44% ] _update_scan_actions | step_water-1.wav
+[  44% ] _update_scan_actions | step_water-2.wav
+[  44% ] _update_scan_actions | telegraph-0.wav
+[  45% ] _update_scan_actions | telegraph-1.wav
+[  45% ] _update_scan_actions | thunder-0.wav
+[  45% ] _update_scan_actions | thunder-1.wav
+[  46% ] _update_scan_actions | ui_click-0.wav
+[  46% ] _update_scan_actions | ui_hover-0.wav
+[  46% ] _update_scan_actions | weapon_draw-0.wav
+[  47% ] _update_scan_actions | weapon_holster-0.wav
+[  47% ] _update_scan_actions | whiz-0.wav
+[  48% ] _update_scan_actions | whiz-1.wav
+[  48% ] _update_scan_actions | whiz-2.wav
+[  48% ] _update_scan_actions | wind-0.wav
+[  49% ] _update_scan_actions | barlow-condensed-400.ttf
+[  49% ] _update_scan_actions | barlow-condensed-500.ttf
+[  49% ] _update_scan_actions | barlow-condensed-600.ttf
+[  50% ] _update_scan_actions | big-shoulders-display-500.ttf
+[  50% ] _update_scan_actions | big-shoulders-display-700.ttf
+[  50% ] _update_scan_actions | big-shoulders-display-900.ttf
+[  51% ] _update_scan_actions | ibm-plex-mono-400.ttf
+[  51% ] _update_scan_actions | ibm-plex-mono-500.ttf
+[  51% ] _update_scan_actions | 0a2f10fa-cf15-44ad-a4a4-5b39863d6274.png
+[  52% ] _update_scan_actions | 0a67a71c-4d40-43b4-8e34-881c108651ff.png
+[  52% ] _update_scan_actions | 0c1a4ef6-76a1-429c-a745-5bdd1e297b83.png
+[  53% ] _update_scan_actions | 0ca63b52-27f7-4419-8417-79c5a1ed961f.png
+[  53% ] _update_scan_actions | 0cdf55df-4fea-451d-bf4c-ccbb4f644c06.png
+[  53% ] _update_scan_actions | 0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d.png
+[  54% ] _update_scan_actions | 0fbd836f-da21-47f4-8aba-bb0c006ca406.png
+[  54% ] _update_scan_actions | 1b3b1d9c-9885-46b4-af67-f7818aae26dd.png
+[  54% ] _update_scan_actions | 1b8032b3-be94-40da-8636-81358a7ce57a.png
+[  55% ] _update_scan_actions | 1de862ec-6bcf-45b4-9fcd-3737cc3d303b.png
+[  55% ] _update_scan_actions | 1f8042b7-2c81-47d7-9c47-b84f0552aac0.png
+[  55% ] _update_scan_actions | 2b5d563f-1582-47a7-ad76-57728517f7b3.png
+[  56% ] _update_scan_actions | 2b279672-b2f9-4740-95fc-c04312742729.png
+[  56% ] _update_scan_actions | 2d6f9788-08ca-4ed9-bf05-25fa18e3f814.png
+[  57% ] _update_scan_actions | 2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd.png
+[  57% ] _update_scan_actions | 2edc6d4f-4a45-45ad-97aa-a4696291b1d9.png
+[  57% ] _update_scan_actions | 4a6c4a18-f68a-447b-bb8a-753c8601893c.png
+[  58% ] _update_scan_actions | 4d0ce824-ce96-45e5-81dc-386677cab7e4.png
+[  58% ] _update_scan_actions | 4dacf71c-4094-4821-889b-4222343bb820.png
+[  58% ] _update_scan_actions | 4e97d3c2-d2c1-4d6b-937b-e8fea02121a9.png
+[  59% ] _update_scan_actions | 4f1f032f-30fc-4d2f-ac85-9b591d005322.png
+[  59% ] _update_scan_actions | 4f6b81c7-ad9c-43bc-966a-bebd98ce3f18.png
+[  59% ] _update_scan_actions | 5a565919-3c93-443e-a978-717807c434ab.png
+[  60% ] _update_scan_actions | 5ba237fa-af2d-48c7-a490-70a0f0806ac1.png
+[  60% ] _update_scan_actions | 5f34f084-610b-44a2-8d8c-a46d88784cfc.png
+[  61% ] _update_scan_actions | 6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d.png
+[  61% ] _update_scan_actions | 06fc42d3-ce13-48da-a89e-fe0df7acaa57.png
+[  61% ] _update_scan_actions | 7bb0f74b-744a-4431-b6aa-fc222bcc232d.png
+[  62% ] _update_scan_actions | 7d6e8448-1eab-479a-b4ed-5c923b717088.png
+[  62% ] _update_scan_actions | 8e5d4de7-5f4e-4be3-acf6-260494a68050.png
+[  62% ] _update_scan_actions | 8f3efb14-7cbe-4599-a3c3-334c0bc1c5f3.png
+[  63% ] _update_scan_actions | 9c8b0609-4d91-4aab-8bf9-ff8c50af7220.png
+[  63% ] _update_scan_actions | 9c547b27-0e72-45b1-aac7-ba17f7fd50f0.png
+[  63% ] _update_scan_actions | 9e612342-cce9-45d4-a887-e64af0038258.png
+[  64% ] _update_scan_actions | 9ea5b8ff-9a54-46b6-bcff-ac8405b2c089.png
+[  64% ] _update_scan_actions | 12fc56a5-2a17-4b44-a469-90a0183c6ed1.png
+[  64% ] _update_scan_actions | 13ce461b-ee5c-4fd0-bb78-c2cae1e54072.png
+[  65% ] _update_scan_actions | 19cd0eac-6a27-4604-9e3a-2acb81213f7c.png
+[  65% ] _update_scan_actions | 21f1e9a9-9d8f-4a67-a638-c40e951f0c78.png
+[  66% ] _update_scan_actions | 27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859.png
+[  66% ] _update_scan_actions | 30af1272-771c-4e08-8ad2-82eebec6c9a8.png
+[  66% ] _update_scan_actions | 30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.png
+[  67% ] _update_scan_actions | 35ad4517-a554-4693-821d-c3c2e0712f5e.png
+[  67% ] _update_scan_actions | 41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46.png
+[  67% ] _update_scan_actions | 42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f.png
+[  68% ] _update_scan_actions | 60f9d7c5-dbab-464c-844e-a438d62bfa8c.png
+[  68% ] _update_scan_actions | 66ae3151-1c2f-4b2b-bedd-dc0f651b1676.png
+[  68% ] _update_scan_actions | 67d0842a-5880-49e1-b004-3b6bc57a8f36.png
+[  69% ] _update_scan_actions | 73ddfafc-6cf0-4367-a14f-212182862c83.png
+[  69% ] _update_scan_actions | 74cd51be-6804-42ca-91ef-97d5508f3138.png
+[  70% ] _update_scan_actions | 85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef.png
+[  70% ] _update_scan_actions | 90a07753-cf75-46de-84bb-add386e7baed.png
+[  70% ] _update_scan_actions | 95e29bb1-8d01-4945-8eca-bbc253c89e34.png
+[  71% ] _update_scan_actions | 174dab7f-cc3c-4020-9e21-b614c79ee3d6.png
+[  71% ] _update_scan_actions | 522b3bf0-2a18-412d-9787-46c93ff3c094.png
+[  71% ] _update_scan_actions | 611ab21a-a7f8-472b-a936-c73f8b548040.png
+[  72% ] _update_scan_actions | 759ef96d-f825-47e3-8c42-59b0df77c030.png
+[  72% ] _update_scan_actions | 859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3.png
+[  72% ] _update_scan_actions | 1370c82d-ac74-40f4-9343-b6c4f148effa.png
+[  73% ] _update_scan_actions | 5629e8bf-b798-4860-80e8-da33bdb28a0f.png
+[  73% ] _update_scan_actions | 7813a677-018e-4e32-9f7e-3075d479c943.png
+[  74% ] _update_scan_actions | 7916b3ae-cf09-4dcc-a4f9-a95954bad964.png
+[  74% ] _update_scan_actions | 8211d4df-e31a-40c8-b82e-2da7c416e24c.png
+[  74% ] _update_scan_actions | 9928b3a6-867e-4d40-a481-06cf688c9fd0.png
+[  75% ] _update_scan_actions | 9964b6dd-337e-4e20-abe5-c33599fd9d2f.png
+[  75% ] _update_scan_actions | 51765c08-64ff-411b-8850-3d6cdedc0c97.png
+[  75% ] _update_scan_actions | 78163b74-5e37-4b42-8323-950afb6feb35.png
+[  76% ] _update_scan_actions | 468708b5-7599-458b-8968-ac2abc390a46.png
+[  76% ] _update_scan_actions | 616292bc-b4e3-4d2a-96a1-9ee3b833b265.png
+[  76% ] _update_scan_actions | 888210d4-dc2c-44fd-8da2-03e6b9b20cb6.png
+[  77% ] _update_scan_actions | 21957483-6dee-41ba-b284-66a891f8ca18.png
+[  77% ] _update_scan_actions | 86053182-20a0-4992-a3a0-29585ae538d5.png
+[  77% ] _update_scan_actions | 93744973-0ba5-4ad1-a711-e02f1ef3ceb8.png
+[  78% ] _update_scan_actions | a4a85b1a-ef02-4434-9f00-ce5f85ade9b2.png
+[  78% ] _update_scan_actions | a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c.png
+[  79% ] _update_scan_actions | a6fe31be-e93a-427d-a83f-ea7267a26aa2.png
+[  79% ] _update_scan_actions | a40fada2-80dd-400e-885e-dd36ea0da3e8.png
+[  79% ] _update_scan_actions | a974cd29-4057-4259-b275-799d086555e5.png
+[  80% ] _update_scan_actions | a2220aa0-985a-485f-a415-5d6efc9aefc8.png
+[  80% ] _update_scan_actions | ab6bbc00-a035-424b-8059-b0e484ff6c08.png
+[  80% ] _update_scan_actions | ac8eefd6-5b0a-463d-894e-878de59cae7e.png
+[  81% ] _update_scan_actions | af9a5ec9-8a29-4aea-bb60-feb89d34258b.png
+[  81% ] _update_scan_actions | afc2c3a2-8913-47f5-9abf-dceadb17640c.png
+[  81% ] _update_scan_actions | b3a9dea4-56e0-49a5-b608-4d668de734f4.png
+[  82% ] _update_scan_actions | b13d58be-33e1-4b16-9c50-633e0e459791.png
+[  82% ] _update_scan_actions | b62afdf6-7df7-4829-b798-5e7fb599db93.png
+[  83% ] _update_scan_actions | b9371a06-22a0-44f2-849d-5d096dee95a8.png
+[  83% ] _update_scan_actions | ba4f23e3-ea16-426b-8c7c-f3695ac65955.png
+[  83% ] _update_scan_actions | bc382d59-57a4-4a11-aef5-291e27976518.png
+[  84% ] _update_scan_actions | c0b963f9-2a44-43df-a26b-7e45e4156443.png
+[  84% ] _update_scan_actions | c0e255aa-0a83-44e6-b893-5d9ca6790f59.png
+[  84% ] _update_scan_actions | c6fc84ec-d313-4025-bda4-aeddff7ca091.png
+[  85% ] _update_scan_actions | c8bb15e5-56bc-4c85-bf05-ffc4a3243592.png
+[  85% ] _update_scan_actions | c66a3e2a-a487-4d0d-8c83-94860bc74dab.png
+[  85% ] _update_scan_actions | c5493111-c92c-44ab-bf40-14a00c9b118f.png
+[  86% ] _update_scan_actions | ca557b4b-f20d-4555-ab45-353426b03fde.png
+[  86% ] _update_scan_actions | ca498017-3c35-4d0c-a6d3-7a1a91704c42.png
+[  87% ] _update_scan_actions | cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4.png
+[  87% ] _update_scan_actions | cc504d4f-d4c5-487e-8134-e3c4bb525d53.png
+[  87% ] _update_scan_actions | cd6ade9e-1665-4401-9037-52fcae4c0a7b.png
+[  88% ] _update_scan_actions | d7a95494-2233-4895-aed8-7c3dcaed623b.png
+[  88% ] _update_scan_actions | d9c6b080-0c7e-419b-9df0-9177b5daefe6.png
+[  88% ] _update_scan_actions | d14a3ee1-8e4a-46af-8bbd-58a543eeddab.png
+[  89% ] _update_scan_actions | d22f7a84-7473-47af-9dcd-0e22a8e17337.png
+[  89% ] _update_scan_actions | d59e5a87-517e-42dd-93ea-662aca3dd627.png
+[  89% ] _update_scan_actions | d2121308-5a24-412a-9086-973bb4d142dc.png
+[  90% ] _update_scan_actions | da074854-33d5-4ae1-866a-f6785c7f39f1.png
+[  90% ] _update_scan_actions | db083989-4637-4108-b32c-562d715a92c0.png
+[  90% ] _update_scan_actions | dde07d27-09a0-4308-8c96-0a75476d8781.png
+[  91% ] _update_scan_actions | e1e9501b-4c5f-48eb-91ad-50c00e2a34ad.png
+[  91% ] _update_scan_actions | e2f0c23e-37a8-4c4b-8dbe-e5924d988563.png
+[  92% ] _update_scan_actions | e16b34e7-da4b-4b27-8032-863d26755c23.png
+[  92% ] _update_scan_actions | e951e861-da7a-4f97-9a64-aa2240102ede.png
+[  92% ] _update_scan_actions | e1730a86-53fe-4c71-9dcd-ac5cab1920d9.png
+[  93% ] _update_scan_actions | e06741a4-6903-460b-987e-1a7fa71470a8.png
+[  93% ] _update_scan_actions | e44868bb-2bd3-41d6-978b-02a02fedbdf3.png
+[  93% ] _update_scan_actions | e86129a4-48be-497e-b7d0-13e568c22684.png
+[  94% ] _update_scan_actions | e0865877-907e-4bcc-8025-a18454d63a7f.png
+[  94% ] _update_scan_actions | ed913cfd-599e-41bf-b62c-abd03b8bd246.png
+[  94% ] _update_scan_actions | f1bb75f3-64be-4dda-8583-c8e22f5cdfd4.png
+[  95% ] _update_scan_actions | f2f39fc7-38c9-4da1-8a0e-33b1f00295ea.png
+[  95% ] _update_scan_actions | f2f9114b-1455-4c78-acb4-b7664a831078.png
+[  96% ] _update_scan_actions | f44a66de-900e-4b8c-b14a-e23a18e375b6.png
+[  96% ] _update_scan_actions | f576eaf0-e130-4c30-a3ad-47c376a9a721.png
+[  96% ] _update_scan_actions | facdd055-aadb-40a1-96cc-a54acd4b266e.png
+[  97% ] _update_scan_actions | facf0022-4503-4686-956d-cd6367061578.png
+[  97% ] _update_scan_actions | fd126f27-206b-40a9-a65b-b4fe7e8b78c5.png
+[  97% ] _update_scan_actions | fddb529b-a765-4d83-b3ce-ffe768bca990.png
+[  98% ] _update_scan_actions | fe2f8cbb-23b8-4114-903c-0959e0fc4356.png
+[  98% ] _update_scan_actions | fe95b981-913a-4140-8539-93c09d87dbb6.png
+[  98% ] _update_scan_actions | ff7d0789-741a-4d77-be4b-acee627f9039.png
+[  99% ] _update_scan_actions | ff98c4f0-a79e-4f88-bfd5-6717146c972a.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (276 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   3% ] reimport | Preparing files to reimport...
+[   3% ] reimport | Preparing files to reimport...
+[   3% ] reimport | Preparing files to reimport...
+[   4% ] reimport | Preparing files to reimport...
+[   4% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   7% ] reimport | Preparing files to reimport...
+[   7% ] reimport | Preparing files to reimport...
+[   7% ] reimport | Preparing files to reimport...
+[   8% ] reimport | Preparing files to reimport...
+[   8% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  11% ] reimport | Preparing files to reimport...
+[  11% ] reimport | Preparing files to reimport...
+[  11% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  13% ] reimport | Preparing files to reimport...
+[  13% ] reimport | Preparing files to reimport...
+[  14% ] reimport | Preparing files to reimport...
+[  14% ] reimport | Preparing files to reimport...
+[  14% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  17% ] reimport | Preparing files to reimport...
+[  17% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  19% ] reimport | Preparing files to reimport...
+[  19% ] reimport | Preparing files to reimport...
+[  19% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  21% ] reimport | Preparing files to reimport...
+[  21% ] reimport | Preparing files to reimport...
+[  22% ] reimport | Preparing files to reimport...
+[  22% ] reimport | Preparing files to reimport...
+[  22% ] reimport | Preparing files to reimport...
+[  23% ] reimport | Preparing files to reimport...
+[  23% ] reimport | Preparing files to reimport...
+[  23% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  25% ] reimport | Preparing files to reimport...
+[  25% ] reimport | Preparing files to reimport...
+[  25% ] reimport | Preparing files to reimport...
+[  26% ] reimport | Preparing files to reimport...
+[  26% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  28% ] reimport | Preparing files to reimport...
+[  28% ] reimport | Preparing files to reimport...
+[  28% ] reimport | Preparing files to reimport...
+[  29% ] reimport | Preparing files to reimport...
+[  29% ] reimport | Preparing files to reimport...
+[  29% ] reimport | Preparing files to reimport...
+[  30% ] reimport | Preparing files to reimport...
+[  30% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  33% ] reimport | Preparing files to reimport...
+[  33% ] reimport | Preparing files to reimport...
+[  33% ] reimport | Preparing files to reimport...
+[  34% ] reimport | Preparing files to reimport...
+[  34% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  37% ] reimport | Preparing files to reimport...
+[  37% ] reimport | Preparing files to reimport...
+[  37% ] reimport | Preparing files to reimport...
+[  38% ] reimport | Preparing files to reimport...
+[  38% ] reimport | Preparing files to reimport...
+[  38% ] reimport | Preparing files to reimport...
+[  39% ] reimport | Preparing files to reimport...
+[  39% ] reimport | Preparing files to reimport...
+[  40% ] reimport | Preparing files to reimport...
+[  40% ] reimport | Preparing files to reimport...
+[  40% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  42% ] reimport | Preparing files to reimport...
+[  42% ] reimport | Preparing files to reimport...
+[  42% ] reimport | Preparing files to reimport...
+[  43% ] reimport | Preparing files to reimport...
+[  43% ] reimport | Preparing files to reimport...
+[  44% ] reimport | Preparing files to reimport...
+[  44% ] reimport | Preparing files to reimport...
+[  44% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  47% ] reimport | Preparing files to reimport...
+[  47% ] reimport | Preparing files to reimport...
+[  48% ] reimport | Preparing files to reimport...
+[  48% ] reimport | Preparing files to reimport...
+[  48% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  51% ] reimport | Preparing files to reimport...
+[  51% ] reimport | Preparing files to reimport...
+[  51% ] reimport | Preparing files to reimport...
+[  52% ] reimport | Preparing files to reimport...
+[  52% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  55% ] reimport | Preparing files to reimport...
+[  55% ] reimport | Preparing files to reimport...
+[  55% ] reimport | Preparing files to reimport...
+[  56% ] reimport | Preparing files to reimport...
+[  56% ] reimport | Preparing files to reimport...
+[  57% ] reimport | Preparing files to reimport...
+[  57% ] reimport | Preparing files to reimport...
+[  57% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  59% ] reimport | Preparing files to reimport...
+[  59% ] reimport | Preparing files to reimport...
+[  59% ] reimport | Preparing files to reimport...
+[  60% ] reimport | Preparing files to reimport...
+[  60% ] reimport | Preparing files to reimport...
+[  61% ] reimport | Preparing files to reimport...
+[  61% ] reimport | Preparing files to reimport...
+[  61% ] reimport | Preparing files to reimport...
+[  62% ] reimport | Preparing files to reimport...
+[  62% ] reimport | Preparing files to reimport...
+[  62% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  65% ] reimport | Preparing files to reimport...
+[  65% ] reimport | Preparing files to reimport...
+[  66% ] reimport | Preparing files to reimport...
+[  66% ] reimport | Preparing files to reimport...
+[  66% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  69% ] reimport | Preparing files to reimport...
+[  69% ] reimport | Preparing files to reimport...
+[  70% ] reimport | Preparing files to reimport...
+[  70% ] reimport | Preparing files to reimport...
+[  70% ] reimport | Preparing files to reimport...
+[  71% ] reimport | Preparing files to reimport...
+[  71% ] reimport | Preparing files to reimport...
+[  71% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  73% ] reimport | Preparing files to reimport...
+[  73% ] reimport | Preparing files to reimport...
+[  74% ] reimport | Preparing files to reimport...
+[  74% ] reimport | Preparing files to reimport...
+[  74% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  76% ] reimport | Preparing files to reimport...
+[  76% ] reimport | Preparing files to reimport...
+[  76% ] reimport | Preparing files to reimport...
+[  77% ] reimport | Preparing files to reimport...
+[  77% ] reimport | Preparing files to reimport...
+[  77% ] reimport | Preparing files to reimport...
+[  78% ] reimport | Preparing files to reimport...
+[  78% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  80% ] reimport | Preparing files to reimport...
+[  80% ] reimport | Preparing files to reimport...
+[  80% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[  82% ] reimport | Preparing files to reimport...
+[  82% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  85% ] reimport | Preparing files to reimport...
+[  85% ] reimport | Preparing files to reimport...
+[  85% ] reimport | Preparing files to reimport...
+[  86% ] reimport | Preparing files to reimport...
+[  86% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  88% ] reimport | Preparing files to reimport...
+[  88% ] reimport | Preparing files to reimport...
+[  88% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  90% ] reimport | Preparing files to reimport...
+[  90% ] reimport | Preparing files to reimport...
+[  90% ] reimport | Preparing files to reimport...
+[  91% ] reimport | Preparing files to reimport...
+[  91% ] reimport | Preparing files to reimport...
+[  92% ] reimport | Preparing files to reimport...
+[  92% ] reimport | Preparing files to reimport...
+[  92% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  95% ] reimport | Preparing files to reimport...
+[  95% ] reimport | Preparing files to reimport...
+[  96% ] reimport | Preparing files to reimport...
+[  96% ] reimport | Preparing files to reimport...
+[  96% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  99% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | big-shoulders-display-500.ttf
+[   0% ] reimport | barlow-condensed-600.ttf
+[   0% ] reimport | barlow-condensed-500.ttf
+[   1% ] reimport | barlow-condensed-400.ttf
+[   1% ] reimport | big-shoulders-display-700.ttf
+[   1% ] reimport | big-shoulders-display-900.ttf
+[   2% ] reimport | ibm-plex-mono-400.ttf
+[   2% ] reimport | ibm-plex-mono-500.ttf
+[   2% ] reimport | big-shoulders-display-500.ttf
+[   3% ] reimport | barlow-condensed-600.ttf
+[   3% ] reimport | barlow-condensed-500.ttf
+[   3% ] reimport | barlow-condensed-400.ttf
+[   4% ] reimport | big-shoulders-display-700.ttf
+[   4% ] reimport | big-shoulders-display-900.ttf
+[   5% ] reimport | ibm-plex-mono-400.ttf
+[   5% ] reimport | ibm-plex-mono-500.ttf
+[   5% ] reimport | 60f9d7c5-dbab-464c-844e-a438d62bfa8c.png
+[   6% ] reimport | 42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f.png
+[   6% ] reimport | 41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46.png
+[   6% ] reimport | 35ad4517-a554-4693-821d-c3c2e0712f5e.png
+[   7% ] reimport | 30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.png
+[   7% ] reimport | 30af1272-771c-4e08-8ad2-82eebec6c9a8.png
+[   7% ] reimport | 27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859.png
+[   8% ] reimport | 21f1e9a9-9d8f-4a67-a638-c40e951f0c78.png
+[   8% ] reimport | 19cd0eac-6a27-4604-9e3a-2acb81213f7c.png
+[   9% ] reimport | 13ce461b-ee5c-4fd0-bb78-c2cae1e54072.png
+[   9% ] reimport | 12fc56a5-2a17-4b44-a469-90a0183c6ed1.png
+[   9% ] reimport | 9ea5b8ff-9a54-46b6-bcff-ac8405b2c089.png
+[  10% ] reimport | 9e612342-cce9-45d4-a887-e64af0038258.png
+[  10% ] reimport | 9c547b27-0e72-45b1-aac7-ba17f7fd50f0.png
+[  10% ] reimport | 9c8b0609-4d91-4aab-8bf9-ff8c50af7220.png
+[  11% ] reimport | 66ae3151-1c2f-4b2b-bedd-dc0f651b1676.png
+[  11% ] reimport | 67d0842a-5880-49e1-b004-3b6bc57a8f36.png
+[  11% ] reimport | 73ddfafc-6cf0-4367-a14f-212182862c83.png
+[  12% ] reimport | 74cd51be-6804-42ca-91ef-97d5508f3138.png
+[  12% ] reimport | 85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef.png
+[  12% ] reimport | 90a07753-cf75-46de-84bb-add386e7baed.png
+[  13% ] reimport | 95e29bb1-8d01-4945-8eca-bbc253c89e34.png
+[  13% ] reimport | 174dab7f-cc3c-4020-9e21-b614c79ee3d6.png
+[  14% ] reimport | 522b3bf0-2a18-412d-9787-46c93ff3c094.png
+[  14% ] reimport | 611ab21a-a7f8-472b-a936-c73f8b548040.png
+[  14% ] reimport | 759ef96d-f825-47e3-8c42-59b0df77c030.png
+[  15% ] reimport | 859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3.png
+[  15% ] reimport | 1370c82d-ac74-40f4-9343-b6c4f148effa.png
+[  15% ] reimport | 5629e8bf-b798-4860-80e8-da33bdb28a0f.png
+[  16% ] reimport | 7813a677-018e-4e32-9f7e-3075d479c943.png
+[  16% ] reimport | 7916b3ae-cf09-4dcc-a4f9-a95954bad964.png
+[  16% ] reimport | 0a2f10fa-cf15-44ad-a4a4-5b39863d6274.png
+[  17% ] reimport | 0a67a71c-4d40-43b4-8e34-881c108651ff.png
+[  17% ] reimport | 0c1a4ef6-76a1-429c-a745-5bdd1e297b83.png
+[  18% ] reimport | 0ca63b52-27f7-4419-8417-79c5a1ed961f.png
+[  18% ] reimport | 0cdf55df-4fea-451d-bf4c-ccbb4f644c06.png
+[  18% ] reimport | 0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d.png
+[  19% ] reimport | 0fbd836f-da21-47f4-8aba-bb0c006ca406.png
+[  19% ] reimport | 1b3b1d9c-9885-46b4-af67-f7818aae26dd.png
+[  19% ] reimport | 1b8032b3-be94-40da-8636-81358a7ce57a.png
+[  20% ] reimport | 1de862ec-6bcf-45b4-9fcd-3737cc3d303b.png
+[  20% ] reimport | 1f8042b7-2c81-47d7-9c47-b84f0552aac0.png
+[  20% ] reimport | 2b5d563f-1582-47a7-ad76-57728517f7b3.png
+[  21% ] reimport | 2b279672-b2f9-4740-95fc-c04312742729.png
+[  21% ] reimport | 2d6f9788-08ca-4ed9-bf05-25fa18e3f814.png
+[  22% ] reimport | 2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd.png
+[  22% ] reimport | 2edc6d4f-4a45-45ad-97aa-a4696291b1d9.png
+[  22% ] reimport | 4a6c4a18-f68a-447b-bb8a-753c8601893c.png
+[  23% ] reimport | 4d0ce824-ce96-45e5-81dc-386677cab7e4.png
+[  23% ] reimport | 4dacf71c-4094-4821-889b-4222343bb820.png
+[  23% ] reimport | 4e97d3c2-d2c1-4d6b-937b-e8fea02121a9.png
+[  24% ] reimport | 4f1f032f-30fc-4d2f-ac85-9b591d005322.png
+[  24% ] reimport | 4f6b81c7-ad9c-43bc-966a-bebd98ce3f18.png
+[  24% ] reimport | 5a565919-3c93-443e-a978-717807c434ab.png
+[  25% ] reimport | 5ba237fa-af2d-48c7-a490-70a0f0806ac1.png
+[  25% ] reimport | 5f34f084-610b-44a2-8d8c-a46d88784cfc.png
+[  25% ] reimport | 6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d.png
+[  26% ] reimport | 06fc42d3-ce13-48da-a89e-fe0df7acaa57.png
+[  26% ] reimport | 7bb0f74b-744a-4431-b6aa-fc222bcc232d.png
+[  27% ] reimport | 7d6e8448-1eab-479a-b4ed-5c923b717088.png
+[  27% ] reimport | 8e5d4de7-5f4e-4be3-acf6-260494a68050.png
+[  27% ] reimport | 8f3efb14-7cbe-4599-a3c3-334c0bc1c5f3.png
+[  28% ] reimport | e1730a86-53fe-4c71-9dcd-ac5cab1920d9.png
+[  28% ] reimport | e951e861-da7a-4f97-9a64-aa2240102ede.png
+[  28% ] reimport | e16b34e7-da4b-4b27-8032-863d26755c23.png
+[  29% ] reimport | e2f0c23e-37a8-4c4b-8dbe-e5924d988563.png
+[  29% ] reimport | e1e9501b-4c5f-48eb-91ad-50c00e2a34ad.png
+[  29% ] reimport | dde07d27-09a0-4308-8c96-0a75476d8781.png
+[  30% ] reimport | db083989-4637-4108-b32c-562d715a92c0.png
+[  30% ] reimport | da074854-33d5-4ae1-866a-f6785c7f39f1.png
+[  31% ] reimport | d2121308-5a24-412a-9086-973bb4d142dc.png
+[  31% ] reimport | d59e5a87-517e-42dd-93ea-662aca3dd627.png
+[  31% ] reimport | d22f7a84-7473-47af-9dcd-0e22a8e17337.png
+[  32% ] reimport | d14a3ee1-8e4a-46af-8bbd-58a543eeddab.png
+[  32% ] reimport | d9c6b080-0c7e-419b-9df0-9177b5daefe6.png
+[  32% ] reimport | d7a95494-2233-4895-aed8-7c3dcaed623b.png
+[  33% ] reimport | cd6ade9e-1665-4401-9037-52fcae4c0a7b.png
+[  33% ] reimport | cc504d4f-d4c5-487e-8134-e3c4bb525d53.png
+[  33% ] reimport | cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4.png
+[  34% ] reimport | ff98c4f0-a79e-4f88-bfd5-6717146c972a.png
+[  34% ] reimport | ff7d0789-741a-4d77-be4b-acee627f9039.png
+[  35% ] reimport | fe95b981-913a-4140-8539-93c09d87dbb6.png
+[  35% ] reimport | fe2f8cbb-23b8-4114-903c-0959e0fc4356.png
+[  35% ] reimport | fddb529b-a765-4d83-b3ce-ffe768bca990.png
+[  36% ] reimport | fd126f27-206b-40a9-a65b-b4fe7e8b78c5.png
+[  36% ] reimport | facf0022-4503-4686-956d-cd6367061578.png
+[  36% ] reimport | facdd055-aadb-40a1-96cc-a54acd4b266e.png
+[  37% ] reimport | f576eaf0-e130-4c30-a3ad-47c376a9a721.png
+[  37% ] reimport | f44a66de-900e-4b8c-b14a-e23a18e375b6.png
+[  37% ] reimport | f2f9114b-1455-4c78-acb4-b7664a831078.png
+[  38% ] reimport | f2f39fc7-38c9-4da1-8a0e-33b1f00295ea.png
+[  38% ] reimport | f1bb75f3-64be-4dda-8583-c8e22f5cdfd4.png
+[  38% ] reimport | ed913cfd-599e-41bf-b62c-abd03b8bd246.png
+[  39% ] reimport | e0865877-907e-4bcc-8025-a18454d63a7f.png
+[  39% ] reimport | e86129a4-48be-497e-b7d0-13e568c22684.png
+[  40% ] reimport | e44868bb-2bd3-41d6-978b-02a02fedbdf3.png
+[  40% ] reimport | e06741a4-6903-460b-987e-1a7fa71470a8.png
+[  40% ] reimport | a2220aa0-985a-485f-a415-5d6efc9aefc8.png
+[  41% ] reimport | a974cd29-4057-4259-b275-799d086555e5.png
+[  41% ] reimport | a40fada2-80dd-400e-885e-dd36ea0da3e8.png
+[  41% ] reimport | a6fe31be-e93a-427d-a83f-ea7267a26aa2.png
+[  42% ] reimport | a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c.png
+[  42% ] reimport | a4a85b1a-ef02-4434-9f00-ce5f85ade9b2.png
+[  42% ] reimport | 93744973-0ba5-4ad1-a711-e02f1ef3ceb8.png
+[  43% ] reimport | 86053182-20a0-4992-a3a0-29585ae538d5.png
+[  43% ] reimport | 21957483-6dee-41ba-b284-66a891f8ca18.png
+[  44% ] reimport | 888210d4-dc2c-44fd-8da2-03e6b9b20cb6.png
+[  44% ] reimport | 616292bc-b4e3-4d2a-96a1-9ee3b833b265.png
+[  44% ] reimport | 468708b5-7599-458b-8968-ac2abc390a46.png
+[  45% ] reimport | 78163b74-5e37-4b42-8323-950afb6feb35.png
+[  45% ] reimport | 51765c08-64ff-411b-8850-3d6cdedc0c97.png
+[  45% ] reimport | 9964b6dd-337e-4e20-abe5-c33599fd9d2f.png
+[  46% ] reimport | 9928b3a6-867e-4d40-a481-06cf688c9fd0.png
+[  46% ] reimport | 8211d4df-e31a-40c8-b82e-2da7c416e24c.png
+[  46% ] reimport | ca498017-3c35-4d0c-a6d3-7a1a91704c42.png
+[  47% ] reimport | ca557b4b-f20d-4555-ab45-353426b03fde.png
+[  47% ] reimport | c5493111-c92c-44ab-bf40-14a00c9b118f.png
+[  48% ] reimport | c66a3e2a-a487-4d0d-8c83-94860bc74dab.png
+[  48% ] reimport | c8bb15e5-56bc-4c85-bf05-ffc4a3243592.png
+[  48% ] reimport | c6fc84ec-d313-4025-bda4-aeddff7ca091.png
+[  49% ] reimport | c0e255aa-0a83-44e6-b893-5d9ca6790f59.png
+[  49% ] reimport | c0b963f9-2a44-43df-a26b-7e45e4156443.png
+[  49% ] reimport | bc382d59-57a4-4a11-aef5-291e27976518.png
+[  50% ] reimport | ba4f23e3-ea16-426b-8c7c-f3695ac65955.png
+[  50% ] reimport | big-shoulders-display-500.ttf
+[  50% ] reimport | barlow-condensed-600.ttf
+[  51% ] reimport | barlow-condensed-500.ttf
+[  51% ] reimport | barlow-condensed-400.ttf
+[  51% ] reimport | big-shoulders-display-700.ttf
+[  52% ] reimport | big-shoulders-display-900.ttf
+[  52% ] reimport | ibm-plex-mono-400.ttf
+[  53% ] reimport | ibm-plex-mono-500.ttf
+[  53% ] reimport | 60f9d7c5-dbab-464c-844e-a438d62bfa8c.png
+[  53% ] reimport | 42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f.png
+[  54% ] reimport | 41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46.png
+[  54% ] reimport | 35ad4517-a554-4693-821d-c3c2e0712f5e.png
+[  54% ] reimport | 30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.png
+[  55% ] reimport | 30af1272-771c-4e08-8ad2-82eebec6c9a8.png
+[  55% ] reimport | 27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859.png
+[  55% ] reimport | 21f1e9a9-9d8f-4a67-a638-c40e951f0c78.png
+[  56% ] reimport | 19cd0eac-6a27-4604-9e3a-2acb81213f7c.png
+[  56% ] reimport | 13ce461b-ee5c-4fd0-bb78-c2cae1e54072.png
+[  57% ] reimport | 12fc56a5-2a17-4b44-a469-90a0183c6ed1.png
+[  57% ] reimport | 9ea5b8ff-9a54-46b6-bcff-ac8405b2c089.png
+[  57% ] reimport | 9e612342-cce9-45d4-a887-e64af0038258.png
+[  58% ] reimport | 9c547b27-0e72-45b1-aac7-ba17f7fd50f0.png
+[  58% ] reimport | 9c8b0609-4d91-4aab-8bf9-ff8c50af7220.png
+[  58% ] reimport | 66ae3151-1c2f-4b2b-bedd-dc0f651b1676.png
+[  59% ] reimport | 67d0842a-5880-49e1-b004-3b6bc57a8f36.png
+[  59% ] reimport | 73ddfafc-6cf0-4367-a14f-212182862c83.png
+[  59% ] reimport | 74cd51be-6804-42ca-91ef-97d5508f3138.png
+[  60% ] reimport | 85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef.png
+[  60% ] reimport | 90a07753-cf75-46de-84bb-add386e7baed.png
+[  61% ] reimport | 95e29bb1-8d01-4945-8eca-bbc253c89e34.png
+[  61% ] reimport | 174dab7f-cc3c-4020-9e21-b614c79ee3d6.png
+[  61% ] reimport | 522b3bf0-2a18-412d-9787-46c93ff3c094.png
+[  62% ] reimport | 611ab21a-a7f8-472b-a936-c73f8b548040.png
+[  62% ] reimport | 759ef96d-f825-47e3-8c42-59b0df77c030.png
+[  62% ] reimport | 859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3.png
+[  63% ] reimport | 1370c82d-ac74-40f4-9343-b6c4f148effa.png
+[  63% ] reimport | 5629e8bf-b798-4860-80e8-da33bdb28a0f.png
+[  63% ] reimport | 7813a677-018e-4e32-9f7e-3075d479c943.png
+[  64% ] reimport | 7916b3ae-cf09-4dcc-a4f9-a95954bad964.png
+[  64% ] reimport | 0a2f10fa-cf15-44ad-a4a4-5b39863d6274.png
+[  64% ] reimport | 0a67a71c-4d40-43b4-8e34-881c108651ff.png
+[  65% ] reimport | 0c1a4ef6-76a1-429c-a745-5bdd1e297b83.png
+[  65% ] reimport | 0ca63b52-27f7-4419-8417-79c5a1ed961f.png
+[  66% ] reimport | 0cdf55df-4fea-451d-bf4c-ccbb4f644c06.png
+[  66% ] reimport | 0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d.png
+[  66% ] reimport | 0fbd836f-da21-47f4-8aba-bb0c006ca406.png
+[  67% ] reimport | 1b3b1d9c-9885-46b4-af67-f7818aae26dd.png
+[  67% ] reimport | 1b8032b3-be94-40da-8636-81358a7ce57a.png
+[  67% ] reimport | 1de862ec-6bcf-45b4-9fcd-3737cc3d303b.png
+[  68% ] reimport | 1f8042b7-2c81-47d7-9c47-b84f0552aac0.png
+[  68% ] reimport | 2b5d563f-1582-47a7-ad76-57728517f7b3.png
+[  68% ] reimport | 2b279672-b2f9-4740-95fc-c04312742729.png
+[  69% ] reimport | 2d6f9788-08ca-4ed9-bf05-25fa18e3f814.png
+[  69% ] reimport | 2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd.png
+[  70% ] reimport | 2edc6d4f-4a45-45ad-97aa-a4696291b1d9.png
+[  70% ] reimport | 4a6c4a18-f68a-447b-bb8a-753c8601893c.png
+[  70% ] reimport | 4d0ce824-ce96-45e5-81dc-386677cab7e4.png
+[  71% ] reimport | 4dacf71c-4094-4821-889b-4222343bb820.png
+[  71% ] reimport | 4e97d3c2-d2c1-4d6b-937b-e8fea02121a9.png
+[  71% ] reimport | 4f1f032f-30fc-4d2f-ac85-9b591d005322.png
+[  72% ] reimport | 4f6b81c7-ad9c-43bc-966a-bebd98ce3f18.png
+[  72% ] reimport | 5a565919-3c93-443e-a978-717807c434ab.png
+[  72% ] reimport | 5ba237fa-af2d-48c7-a490-70a0f0806ac1.png
+[  73% ] reimport | 5f34f084-610b-44a2-8d8c-a46d88784cfc.png
+[  73% ] reimport | 6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d.png
+[  74% ] reimport | 06fc42d3-ce13-48da-a89e-fe0df7acaa57.png
+[  74% ] reimport | 7bb0f74b-744a-4431-b6aa-fc222bcc232d.png
+[  74% ] reimport | 7d6e8448-1eab-479a-b4ed-5c923b717088.png
+[  75% ] reimport | 8e5d4de7-5f4e-4be3-acf6-260494a68050.png
+[  75% ] reimport | 8f3efb14-7cbe-4599-a3c3-334c0bc1c5f3.png
+[  75% ] reimport | e1730a86-53fe-4c71-9dcd-ac5cab1920d9.png
+[  76% ] reimport | e951e861-da7a-4f97-9a64-aa2240102ede.png
+[  76% ] reimport | e16b34e7-da4b-4b27-8032-863d26755c23.png
+[  76% ] reimport | e2f0c23e-37a8-4c4b-8dbe-e5924d988563.png
+[  77% ] reimport | e1e9501b-4c5f-48eb-91ad-50c00e2a34ad.png
+[  77% ] reimport | dde07d27-09a0-4308-8c96-0a75476d8781.png
+[  77% ] reimport | db083989-4637-4108-b32c-562d715a92c0.png
+[  78% ] reimport | da074854-33d5-4ae1-866a-f6785c7f39f1.png
+[  78% ] reimport | d2121308-5a24-412a-9086-973bb4d142dc.png
+[  79% ] reimport | d59e5a87-517e-42dd-93ea-662aca3dd627.png
+[  79% ] reimport | d22f7a84-7473-47af-9dcd-0e22a8e17337.png
+[  79% ] reimport | d14a3ee1-8e4a-46af-8bbd-58a543eeddab.png
+[  80% ] reimport | d9c6b080-0c7e-419b-9df0-9177b5daefe6.png
+[  80% ] reimport | d7a95494-2233-4895-aed8-7c3dcaed623b.png
+[  80% ] reimport | cd6ade9e-1665-4401-9037-52fcae4c0a7b.png
+[  81% ] reimport | cc504d4f-d4c5-487e-8134-e3c4bb525d53.png
+[  81% ] reimport | cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4.png
+[  81% ] reimport | ff98c4f0-a79e-4f88-bfd5-6717146c972a.png
+[  82% ] reimport | ff7d0789-741a-4d77-be4b-acee627f9039.png
+[  82% ] reimport | fe95b981-913a-4140-8539-93c09d87dbb6.png
+[  83% ] reimport | fe2f8cbb-23b8-4114-903c-0959e0fc4356.png
+[  83% ] reimport | fddb529b-a765-4d83-b3ce-ffe768bca990.png
+[  83% ] reimport | fd126f27-206b-40a9-a65b-b4fe7e8b78c5.png
+[  84% ] reimport | facf0022-4503-4686-956d-cd6367061578.png
+[  84% ] reimport | facdd055-aadb-40a1-96cc-a54acd4b266e.png
+[  84% ] reimport | f576eaf0-e130-4c30-a3ad-47c376a9a721.png
+[  85% ] reimport | f44a66de-900e-4b8c-b14a-e23a18e375b6.png
+[  85% ] reimport | f2f9114b-1455-4c78-acb4-b7664a831078.png
+[  85% ] reimport | f2f39fc7-38c9-4da1-8a0e-33b1f00295ea.png
+[  86% ] reimport | f1bb75f3-64be-4dda-8583-c8e22f5cdfd4.png
+[  86% ] reimport | ed913cfd-599e-41bf-b62c-abd03b8bd246.png
+[  87% ] reimport | e0865877-907e-4bcc-8025-a18454d63a7f.png
+[  87% ] reimport | e86129a4-48be-497e-b7d0-13e568c22684.png
+[  87% ] reimport | e44868bb-2bd3-41d6-978b-02a02fedbdf3.png
+[  88% ] reimport | e06741a4-6903-460b-987e-1a7fa71470a8.png
+[  88% ] reimport | a2220aa0-985a-485f-a415-5d6efc9aefc8.png
+[  88% ] reimport | a974cd29-4057-4259-b275-799d086555e5.png
+[  89% ] reimport | a40fada2-80dd-400e-885e-dd36ea0da3e8.png
+[  89% ] reimport | a6fe31be-e93a-427d-a83f-ea7267a26aa2.png
+[  89% ] reimport | a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c.png
+[  90% ] reimport | a4a85b1a-ef02-4434-9f00-ce5f85ade9b2.png
+[  90% ] reimport | 93744973-0ba5-4ad1-a711-e02f1ef3ceb8.png
+[  90% ] reimport | 86053182-20a0-4992-a3a0-29585ae538d5.png
+[  91% ] reimport | 21957483-6dee-41ba-b284-66a891f8ca18.png
+[  91% ] reimport | 888210d4-dc2c-44fd-8da2-03e6b9b20cb6.png
+[  92% ] reimport | 616292bc-b4e3-4d2a-96a1-9ee3b833b265.png
+[  92% ] reimport | 468708b5-7599-458b-8968-ac2abc390a46.png
+[  92% ] reimport | 78163b74-5e37-4b42-8323-950afb6feb35.png
+[  93% ] reimport | 51765c08-64ff-411b-8850-3d6cdedc0c97.png
+[  93% ] reimport | 9964b6dd-337e-4e20-abe5-c33599fd9d2f.png
+[  93% ] reimport | 9928b3a6-867e-4d40-a481-06cf688c9fd0.png
+[  94% ] reimport | 8211d4df-e31a-40c8-b82e-2da7c416e24c.png
+[  94% ] reimport | ca498017-3c35-4d0c-a6d3-7a1a91704c42.png
+[  94% ] reimport | ca557b4b-f20d-4555-ab45-353426b03fde.png
+[  95% ] reimport | c5493111-c92c-44ab-bf40-14a00c9b118f.png
+[  95% ] reimport | c66a3e2a-a487-4d0d-8c83-94860bc74dab.png
+[  96% ] reimport | c8bb15e5-56bc-4c85-bf05-ffc4a3243592.png
+[  96% ] reimport | c6fc84ec-d313-4025-bda4-aeddff7ca091.png
+[  96% ] reimport | c0e255aa-0a83-44e6-b893-5d9ca6790f59.png
+[  97% ] reimport | c0b963f9-2a44-43df-a26b-7e45e4156443.png
+[  97% ] reimport | bc382d59-57a4-4a11-aef5-291e27976518.png
+[  97% ] reimport | ba4f23e3-ea16-426b-8c7c-f3695ac65955.png
+[  98% ] reimport | b9371a06-22a0-44f2-849d-5d096dee95a8.png
+[  98% ] reimport | b62afdf6-7df7-4829-b798-5e7fb599db93.png
+[  98% ] reimport | b13d58be-33e1-4b16-9c50-633e0e459791.png
+[  99% ] reimport | b3a9dea4-56e0-49a5-b608-4d668de734f4.png
+[  99% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (276 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
