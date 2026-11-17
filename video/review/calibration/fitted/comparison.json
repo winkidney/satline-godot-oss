@@ -1,0 +1,432 @@
+{
+  "mats": {
+    "source_exposure": 0.755,
+    "subject_rect": [
+      190,
+      210,
+      1040,
+      505
+    ],
+    "source_mean_rgb8": [
+      76.93000030517578,
+      76.33999633789062,
+      74.20999908447266
+    ],
+    "initial": {
+      "full_mae_rgb8": 72.213,
+      "subject_mae_rgb8": 53.172,
+      "subject_mean_rgb8": [
+        122.29000091552734,
+        106.48999786376953,
+        86.63999938964844
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 10.398,
+      "subject_mae_rgb8": 9.843,
+      "subject_mean_rgb8": [
+        74.41000366210938,
+        72.5199966430664,
+        68.72000122070312
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5452777777777778
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "props": {
+    "source_exposure": 0.666,
+    "subject_rect": [
+      80,
+      240,
+      1200,
+      510
+    ],
+    "source_mean_rgb8": [
+      87.5199966430664,
+      82.68000030517578,
+      80.06999969482422
+    ],
+    "initial": {
+      "full_mae_rgb8": 69.232,
+      "subject_mae_rgb8": 61.437,
+      "subject_mean_rgb8": [
+        136.47999572753906,
+        123.88999938964844,
+        109.36000061035156
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 9.834,
+      "subject_mae_rgb8": 9.132,
+      "subject_mean_rgb8": [
+        84.9000015258789,
+        79.52999877929688,
+        77.19000244140625
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.48100000000000004
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "render": {
+    "source_exposure": 0.696,
+    "subject_rect": [
+      260,
+      300,
+      1050,
+      610
+    ],
+    "source_mean_rgb8": [
+      69.80999755859375,
+      68.26000213623047,
+      67.0199966430664
+    ],
+    "initial": {
+      "full_mae_rgb8": 41.092,
+      "subject_mae_rgb8": 29.287,
+      "subject_mean_rgb8": [
+        59.93000030517578,
+        56.130001068115234,
+        53.27000045776367
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 12.013,
+      "subject_mae_rgb8": 14.987,
+      "subject_mean_rgb8": [
+        54.38999938964844,
+        55.189998626708984,
+        57.06999969482422
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5026666666666666
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "ground": {
+    "source_exposure": 0.6,
+    "subject_rect": [
+      50,
+      300,
+      1230,
+      700
+    ],
+    "source_mean_rgb8": [
+      74.30000305175781,
+      69.63999938964844,
+      62.2599983215332
+    ],
+    "initial": {
+      "full_mae_rgb8": 45.04,
+      "subject_mae_rgb8": 29.986,
+      "subject_mean_rgb8": [
+        84.16000366210938,
+        71.87999725341797,
+        61.40999984741211
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 19.642,
+      "subject_mae_rgb8": 18.145,
+      "subject_mean_rgb8": [
+        63.9900016784668,
+        60.97999954223633,
+        57.2400016784668
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "level": {
+    "source_exposure": 0.624,
+    "subject_rect": [
+      40,
+      240,
+      1240,
+      690
+    ],
+    "source_mean_rgb8": [
+      70.93000030517578,
+      68.33999633789062,
+      63.959999084472656
+    ],
+    "initial": {
+      "full_mae_rgb8": 41.127,
+      "subject_mae_rgb8": 33.656,
+      "subject_mean_rgb8": [
+        59.970001220703125,
+        55.189998626708984,
+        51.33000183105469
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 16.925,
+      "subject_mae_rgb8": 16.963,
+      "subject_mean_rgb8": [
+        53.349998474121094,
+        54.08000183105469,
+        53.880001068115234
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.45066666666666666
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "backdrop": {
+    "source_exposure": 0.6,
+    "subject_rect": [
+      60,
+      200,
+      1220,
+      610
+    ],
+    "source_mean_rgb8": [
+      122.5999984741211,
+      115.94999694824219,
+      106.63999938964844
+    ],
+    "initial": {
+      "full_mae_rgb8": 57.993,
+      "subject_mae_rgb8": 60.019,
+      "subject_mean_rgb8": [
+        165.66000366210938,
+        153.1999969482422,
+        139.7899932861328
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 15.917,
+      "subject_mae_rgb8": 18.851,
+      "subject_mean_rgb8": [
+        104.95999908447266,
+        99.63999938964844,
+        92.56999969482422
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "enemies": {
+    "source_exposure": 0.66,
+    "subject_rect": [
+      250,
+      220,
+      1050,
+      570
+    ],
+    "source_mean_rgb8": [
+      78.31999969482422,
+      86.7300033569336,
+      93.36000061035156
+    ],
+    "initial": {
+      "full_mae_rgb8": 71.546,
+      "subject_mae_rgb8": 82.862,
+      "subject_mean_rgb8": [
+        177.3000030517578,
+        165.50999450683594,
+        148.02999877929688
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 9.889,
+      "subject_mae_rgb8": 11.047,
+      "subject_mean_rgb8": [
+        77.56999969482422,
+        84.29000091552734,
+        87.98999786376953
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.4766666666666667
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "weapon": {
+    "source_exposure": 0.706,
+    "subject_rect": [
+      70,
+      210,
+      1210,
+      655
+    ],
+    "source_mean_rgb8": [
+      78.88999938964844,
+      82.41999816894531,
+      82.43000030517578
+    ],
+    "initial": {
+      "full_mae_rgb8": 74.467,
+      "subject_mae_rgb8": 79.006,
+      "subject_mean_rgb8": [
+        171.39999389648438,
+        162.39999389648438,
+        144.52999877929688
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 11.125,
+      "subject_mae_rgb8": 12.058,
+      "subject_mean_rgb8": [
+        87.38999938964844,
+        89.54000091552734,
+        86.33999633789062
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "hands": {
+    "source_exposure": 0.6,
+    "subject_rect": [
+      180,
+      130,
+      1100,
+      690
+    ],
+    "source_mean_rgb8": [
+      84.81999969482422,
+      85.56999969482422,
+      83.52999877929688
+    ],
+    "initial": {
+      "full_mae_rgb8": 89.466,
+      "subject_mae_rgb8": 84.165,
+      "subject_mean_rgb8": [
+        190.39999389648438,
+        171.64999389648438,
+        143.0800018310547
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 8.931,
+      "subject_mae_rgb8": 9.309,
+      "subject_mean_rgb8": [
+        85.9000015258789,
+        83.87000274658203,
+        76.87000274658203
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  },
+  "fx": {
+    "source_exposure": 0.627,
+    "subject_rect": [
+      100,
+      230,
+      1180,
+      670
+    ],
+    "source_mean_rgb8": [
+      80.6500015258789,
+      81.7300033569336,
+      81.51000213623047
+    ],
+    "initial": {
+      "full_mae_rgb8": 77.984,
+      "subject_mae_rgb8": 84.373,
+      "subject_mean_rgb8": [
+        182.91000366210938,
+        163.0,
+        138.5500030517578
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 11.799,
+      "subject_mae_rgb8": 13.506,
+      "subject_mean_rgb8": [
+        82.08999633789062,
+        82.4800033569336,
+        81.80000305175781
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 1,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.45283333333333337
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  }
+}

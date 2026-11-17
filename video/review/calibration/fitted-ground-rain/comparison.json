@@ -1,0 +1,58 @@
+{
+  "ground": {
+    "source_exposure": 0.6,
+    "subject_rect": [
+      50,
+      300,
+      1230,
+      700
+    ],
+    "source_mean_rgb8": [
+      74.30000305175781,
+      69.63999938964844,
+      62.2599983215332
+    ],
+    "initial": {
+      "full_mae_rgb8": 45.04,
+      "subject_mae_rgb8": 29.986,
+      "subject_mean_rgb8": [
+        84.16000366210938,
+        71.87999725341797,
+        61.40999984741211
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 19.746,
+      "subject_mae_rgb8": 18.351,
+      "subject_mean_rgb8": [
+        58.20000076293945,
+        54.27000045776367,
+        49.70000076293945
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.43333333333333335,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "ssao_intensity": 1.0,
+      "ssao_radius": 0.5,
+      "ssao_light_affect": 1,
+      "ssao_ao_channel_affect": 1,
+      "arm_atlas": 1,
+      "arm_normal": 0,
+      "ground_atlas": 1,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.25,
+      "ground_albedo": 2
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  }
+}

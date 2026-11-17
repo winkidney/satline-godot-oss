@@ -1,0 +1,118 @@
+{
+  "cavity-000": {
+    "magazine_crop_mae_rgb8": 65.447,
+    "target_mean_rgb8": [
+      66.5,
+      57.7599983215332,
+      48.7400016784668
+    ],
+    "sample_mean_rgb8": [
+      157.36000061035156,
+      125.01000213623047,
+      85.37000274658203
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "weapon_cavity": 0
+    },
+    "note": "Fixed crop includes edges and neighboring geometry; source pose and capture time may differ."
+  },
+  "cavity-035": {
+    "magazine_crop_mae_rgb8": 65.359,
+    "target_mean_rgb8": [
+      66.5,
+      57.7599983215332,
+      48.7400016784668
+    ],
+    "sample_mean_rgb8": [
+      157.24000549316406,
+      124.91999816894531,
+      85.31999969482422
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "weapon_cavity": 0.35
+    },
+    "note": "Fixed crop includes edges and neighboring geometry; source pose and capture time may differ."
+  },
+  "cavity-070": {
+    "magazine_crop_mae_rgb8": 65.266,
+    "target_mean_rgb8": [
+      66.5,
+      57.7599983215332,
+      48.7400016784668
+    ],
+    "sample_mean_rgb8": [
+      157.1199951171875,
+      124.81999969482422,
+      85.26000213623047
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "weapon_cavity": 0.7
+    },
+    "note": "Fixed crop includes edges and neighboring geometry; source pose and capture time may differ."
+  },
+  "cavity-100": {
+    "magazine_crop_mae_rgb8": 65.182,
+    "target_mean_rgb8": [
+      66.5,
+      57.7599983215332,
+      48.7400016784668
+    ],
+    "sample_mean_rgb8": [
+      157.0,
+      124.73999786376953,
+      85.20999908447266
+    ],
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.5098888888888888,
+      "arm_atlas": 1,
+      "weapon_cavity": 1
+    },
+    "note": "Fixed crop includes edges and neighboring geometry; source pose and capture time may differ."
+  }
+}

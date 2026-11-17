@@ -1,0 +1,58 @@
+{
+  "fx": {
+    "source_exposure": 0.627,
+    "subject_rect": [
+      100,
+      230,
+      1180,
+      670
+    ],
+    "source_mean_rgb8": [
+      80.6500015258789,
+      81.7300033569336,
+      81.51000213623047
+    ],
+    "initial": {
+      "full_mae_rgb8": 77.984,
+      "subject_mae_rgb8": 84.373,
+      "subject_mean_rgb8": [
+        182.91000366210938,
+        163.0,
+        138.5500030517578
+      ]
+    },
+    "fitted": {
+      "full_mae_rgb8": 11.086,
+      "subject_mae_rgb8": 13.196,
+      "subject_mean_rgb8": [
+        84.73999786376953,
+        83.48999786376953,
+        80.75
+      ]
+    },
+    "settings": {
+      "separate_background": 1,
+      "sky_index": 1,
+      "white": 14.26024,
+      "source_grade": 2,
+      "sun_energy": 2.864788975654116,
+      "sun_angular_distance": 2.0,
+      "background_energy": 1.45,
+      "exposure": 0.45283333333333337,
+      "sky_red": 1.2,
+      "sky_green": 1.05,
+      "sky_blue": 0.9,
+      "ssao_intensity": 4.0,
+      "ssao_radius": 0.9,
+      "ssao_light_affect": 1,
+      "ssao_ao_channel_affect": 1,
+      "arm_atlas": 1,
+      "arm_normal": 0,
+      "ground_atlas": 0,
+      "ground_normal_strength": 1,
+      "ground_specular": 0.25,
+      "ground_albedo": 2
+    },
+    "note": "Descriptive image error, not parity: captures differ in time and native effects are approximate."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "approximation": [
+    "Captured static background and lighting panoramas approximate the source dynamic sky",
+    "Native lighting, shadows and tone mapping differ from the source renderer",
+    "Native standard materials omit source procedural wetness and triplanar patches"
+  ],
+  "calibration": {
+    "ambient_energy": 1.0,
+    "arm_atlas": 1.0,
+    "arm_normal": 0.0,
+    "arm_normal_strength": 1.0,
+    "background_energy": 1.45,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "exposure": 0.545277777777778,
+    "fog_density": 0.0,
+    "saturation": 1.0,
+    "separate_background": 1.0,
+    "sky_index": 1.0,
+    "sky_rotation": 0.0,
+    "source_grade": 2.0,
+    "ssao_intensity": 0.0,
+    "sun_angular_distance": 2.0,
+    "sun_energy": 2.86478897565412,
+    "tonemap": "aces",
+    "white": 14.26024
+  },
+  "camera": {
+    "fov": 74.0,
+    "position": [
+      0.0,
+      9.5,
+      12.0
+    ],
+    "quaternion": [
+      -0.229752942919731,
+      0.0,
+      0.0,
+      0.973249018192291
+    ]
+  },
+  "catalog": {
+    "camera": {
+      "far": 900.0,
+      "fov": 74.0,
+      "near": 0.08,
+      "position": [
+        0.0,
+        9.5,
+        12.0
+      ],
+      "quaternion": [
+        -0.229752920547361,
+        0.0,
+        0.0,
+        0.97324898946773
+      ]
+    },
+    "materials": 85,
+    "nodes": 175,
+    "textures": 115
+  },
+  "diffuse_mode": "lambert",
+  "elapsed_seconds": 2.15549733333333,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "fps": 55.6716068001013,
+  "frames": 120,
+  "material_count": 86,
+  "nodes": 175,
+  "rendering_method": "forward_plus",
+  "scene": "mats",
+  "screen_space_reflection": false,
+  "texture_count": 135,
+  "video_adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "warnings": [],
+  "wet_approximation": null
+}

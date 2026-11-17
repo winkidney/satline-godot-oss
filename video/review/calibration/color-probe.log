@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+MESA: info: vulkan: No DRI3 support detected - required for presentation
+Note: you can probably enable DRI3 in your Xorg config
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+COLOR_PROBE {"agx_max_error":0.00680890679359436,"grade_black":[0.0705882385373116,0.0901960805058479,0.105882354080677],"grade_max_error":0.00186267495155334,"gray":0.462745100259781,"gray_expected":0.46135613322258,"hdr":0.737254917621613,"hdr_expected":0.735356986522675}

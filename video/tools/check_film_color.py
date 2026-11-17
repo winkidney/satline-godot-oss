@@ -48,7 +48,7 @@ report = {'method': 'RGB8 crops; source and output decoded separately; not a cro
           'source_to_shot': raw}
 if not args.shots_only:
     stages = []
-    for index in (1, 10, 16, 18, 22, 95, 111):
+    for index in (1, 5, 10, 16, 18, 22, 95, 111):
         position = (timeline['shots'][index]['start_frame'] + 120) / 60
         shot = frame(work / f'shot-{index:03d}.mp4', 1.999)[150:590, 450:1350]
         picture = frame(work / 'picture.mp4', position - .001)[150:590, 450:1350]

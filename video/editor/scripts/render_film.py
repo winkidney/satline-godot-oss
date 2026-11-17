@@ -80,6 +80,16 @@ def run(command):
     subprocess.run([str(x) for x in command], check=True, cwd=EDITOR)
 
 
+def render_input_signature():
+    digest = hashlib.sha256()
+    for path in (Path(__file__), EDITOR / 'src/film-plan.json', WORK / 'timeline.json',
+                 WORK / 'overlay.ass', WORK / 'picture.mp4', WORK / 'mix.m4a'):
+        with path.open('rb') as stream:
+            for block in iter(lambda: stream.read(1024 * 1024), b''):
+                digest.update(block)
+    return digest.hexdigest()
+
+
 def voice_file(index, number, voice):
     identifier = voice.get('reuse', f'v{VERSION}-{index:02d}-{number:02d}')
     return EDITOR / 'public/private-voice' / (identifier + '.wav')
@@ -499,19 +509,28 @@ def main():
         run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', listing,
              '-c', 'copy', '-an', str(WORK / 'picture.mp4')])
         make_audio(timeline)
+        (WORK / 'final-input.sha256').write_text(render_input_signature())
         print('Rendering chapter bar, diagrams, subtitles and audio', flush=True)
         run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', WORK / 'picture.mp4', '-i', WORK / 'mix.m4a',
              '-vf', f'ass=.render-v{VERSION}/overlay.ass', '-map', '0:v:0', '-map', '1:a:0', '-frames:v', str(timeline['frames']),
              '-c:v', 'h264_nvenc', '-preset', 'p4', '-cq', '20', '-b:v', '0', '-g', '120', '-bf', '0', '-pix_fmt', 'yuv420p',
              '-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'iec61966-2-1',
              '-r', '60', '-c:a', 'copy', '-movflags', '+faststart', result])
+    else:
+        signature = WORK / 'final-input.sha256'
+        if not signature.is_file() or signature.read_text() != render_input_signature():
+            raise RuntimeError('Cannot finalize: render inputs changed or their signature is missing')
     probe = json.loads(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries',
-                       'stream=codec_type,width,height,nb_frames,r_frame_rate,pix_fmt,color_range,color_space,color_transfer,color_primaries', '-of', 'json', str(result)]))
+                       'stream=codec_type,codec_name,width,height,nb_frames,r_frame_rate,pix_fmt,color_range,color_space,color_transfer,color_primaries,sample_rate,channels,duration', '-of', 'json', str(result)]))
     video = next(stream for stream in probe['streams'] if stream['codec_type'] == 'video')
     if (video['width'], video['height'], video['r_frame_rate'], int(video['nb_frames']), video.get('pix_fmt'),
         video.get('color_range'), video.get('color_space'), video.get('color_transfer'), video.get('color_primaries')) != (
             1920, 1080, '60/1', timeline['frames'], 'yuv420p', 'tv', 'bt709', 'iec61966-2-1', 'bt709'):
         raise RuntimeError('Final video frame count, format or color properties differ from the timeline')
+    audio = next((stream for stream in probe['streams'] if stream['codec_type'] == 'audio'), None)
+    if (not audio or audio.get('codec_name') != 'aac' or audio.get('sample_rate') != '48000' or audio.get('channels') != 2
+            or abs(float(audio.get('duration', 0)) - timeline['frames'] / FPS) > .05):
+        raise RuntimeError('Final audio format or duration differs from the timeline')
     archive = ROOT / 'video/archive'
     archive.mkdir(exist_ok=True)
     final = ROOT / 'video/final.mp4'
