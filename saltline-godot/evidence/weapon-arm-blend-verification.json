@@ -1,0 +1,10 @@
+{
+  "checks": 37800,
+  "failures": [],
+  "maximum_error": 0.000000152318401114293,
+  "scope": "Literal original vS normal update/blend/snap/attach, original Three math, mocked Fh receivers capture solver inputs. Synthetic gun-local targets/root; no Fh IK, production integration, death-drop or whole image proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "stage_sha256": "59a932b2961067045edcd0f59231361e3910a3c443ff87589c607f981e6a608d",
+  "steps": 540,
+  "tolerance": 0.000002
+}

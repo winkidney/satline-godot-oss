@@ -1,0 +1,2357 @@
+{
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "ir_sample_rate": 48000,
+  "sounds": {
+    "rifle_shot": {
+      "properties": {
+        "n": 5,
+        "sr": 44100,
+        "peak": 0.97,
+        "bus": "gun",
+        "max": 9,
+        "pri": 9,
+        "boot": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 28224,
+          "loop": false,
+          "wav_sha256": "44436ff2a3ec2e074ecdfa85df0e0226cd1fba723dce7d1297d30458d608ecb4",
+          "float32_sha256": "142ce5b92ef2a1c9808c74f68146ab3426b41536bbedbb8d3bbc02357ad3848c",
+          "max_pcm16_error": 0.00001525912194771939
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 28224,
+          "loop": false,
+          "wav_sha256": "6b5ea12f77eb6346ab6d736c0a021d2951c056ac2da55d1948ebcf0083f9abd9",
+          "float32_sha256": "35d7b09f61da63d54ee9894c13c40400a141d0f5c20d6432d647c11e3042ce20",
+          "max_pcm16_error": 0.000015259020898353466
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 28224,
+          "loop": false,
+          "wav_sha256": "2ddbc975d27277ecfcfc1cf68bcedf2308fce9c6e6f14ba8de330518480faabe",
+          "float32_sha256": "74e5cfd0481dff023288562abad2f3c6f1feff8a7174e20266aed506c78b58ad",
+          "max_pcm16_error": 0.000015258662638878429
+        },
+        {
+          "variant": 3,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 28224,
+          "loop": false,
+          "wav_sha256": "f2b2ed0a81edbef069115464e3c32fd7b13e56639dc7f0cd3272dd00c4c086f4",
+          "float32_sha256": "2b8944e5049c2779046d8b17d1cc9b3b2b527aa1f1763520e31a70de8233968f",
+          "max_pcm16_error": 0.000015256170547345294
+        },
+        {
+          "variant": 4,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 28224,
+          "loop": false,
+          "wav_sha256": "efa6213c832b66f6d336061bb3fc4f90b6897b3549634826d093c5b102f0d9ec",
+          "float32_sha256": "794dbb3e1a6ea294f804b5f3ce3ecb989e8a8208c287a62d7e9772d7ab34447b",
+          "max_pcm16_error": 0.000015258797020821502
+        }
+      ]
+    },
+    "pistol_shot": {
+      "properties": {
+        "n": 4,
+        "sr": 44100,
+        "peak": 0.97,
+        "bus": "gun",
+        "max": 6,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 19404,
+          "loop": false,
+          "wav_sha256": "07bbaba6957a08ae2387746ca1917d5d7855b8a58addb21dc8ca8999cd682adb",
+          "float32_sha256": "7d6141fe8b89c268ecab06112f29950d92192377b7e3f6da545c2986c6f9262b",
+          "max_pcm16_error": 0.00001525913700102695
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 19404,
+          "loop": false,
+          "wav_sha256": "fdb63d6381eed2e12f05075e110b0c1d045dc69945d889b5d4f952fda7beae01",
+          "float32_sha256": "46e205aaee5f0f53753c6527108b4fd7f66471e6705e0049a99d728a9ff3f86e",
+          "max_pcm16_error": 0.000015258737333406769
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 19404,
+          "loop": false,
+          "wav_sha256": "84eaecb9607f68ffda2c612eb06e955a62727b90e101471a0378ff7d32ea2b33",
+          "float32_sha256": "3c51b484e77c2de2bb3d3c09c0b0e86c508ed8b287f34c007b5bfb4cbf41be58",
+          "max_pcm16_error": 0.000015258088012537127
+        },
+        {
+          "variant": 3,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 19404,
+          "loop": false,
+          "wav_sha256": "7230bb02d0165c12f9ec39bb30a33ea4393daca89a25dd6cca6cbf3d71a84c98",
+          "float32_sha256": "550bb25b44705533f1da30e3e32504e99878e9330e7f33dfa724b754433edcac",
+          "max_pcm16_error": 0.000015258861878921295
+        }
+      ]
+    },
+    "rifle_tail_out": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.8,
+        "fixed": 1,
+        "bus": "tail",
+        "max": 4,
+        "pri": 8,
+        "soft": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 70400,
+          "loop": false,
+          "wav_sha256": "dbaeeb3899ede130fde4d944b83a80b4c8dbf8e8fd8f55214d94cd6bb69ac919",
+          "float32_sha256": "dc89689c8ddfa14e1f1b821b2b10139bbf0250425e4185bbb70749b81201f21c",
+          "max_pcm16_error": 0.000015259121965983426
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 70400,
+          "loop": false,
+          "wav_sha256": "5916623705748672ea44b0df1d2132d0a417fc5cfec90d5f6dff7865651cb062",
+          "float32_sha256": "c4b84c6d6b9fb0e99cc10be7a9bba33dfe767e7c72f370b3268bf4b821ee09b0",
+          "max_pcm16_error": 0.00001525914376543369
+        }
+      ]
+    },
+    "rifle_tail_in": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.75,
+        "fixed": 1,
+        "bus": "tail",
+        "max": 4,
+        "pri": 8,
+        "soft": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 41600,
+          "loop": false,
+          "wav_sha256": "ab574b9c42d0adb4ec574eb707f59e655d75700c25dd2e76a5c9d0b63833a13e",
+          "float32_sha256": "fe37abdb9cff73d046e2e64e60dbfbc667d94314bad5f2d3a2d81482c7302f1c",
+          "max_pcm16_error": 0.00001525874051673537
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 41600,
+          "loop": false,
+          "wav_sha256": "adb75aa84e582fc52dc7990cd390171cae83a1ac479f43d683fd0eac25c7addc",
+          "float32_sha256": "e41c80a5f2f236d52e1a9be77f7d37d72e580d716f372e8ddf1c995950e5fead",
+          "max_pcm16_error": 0.000015259195777139398
+        }
+      ]
+    },
+    "pistol_tail_out": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.62,
+        "fixed": 1,
+        "bus": "tail",
+        "max": 3,
+        "pri": 8,
+        "soft": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 48000,
+          "loop": false,
+          "wav_sha256": "95b284b7c88c1eed060c516960714dec6558cf8186945122c518192367214046",
+          "float32_sha256": "6cc595a7bcbc1ff6c119fbca43c1070c63c9ca8894f4f841ef298bfc09c9b830",
+          "max_pcm16_error": 0.00001525902317215961
+        }
+      ]
+    },
+    "pistol_tail_in": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.6,
+        "fixed": 1,
+        "bus": "tail",
+        "max": 3,
+        "pri": 8,
+        "soft": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 28800,
+          "loop": false,
+          "wav_sha256": "f5c3c62d884dc30453afa318c4fd30e6b6dfcbf9bce0db0ec76c774823085bd2",
+          "float32_sha256": "ed53ccae71736b490925d50e037db802ab68cb1f46983538573a6fb0bf8034bb",
+          "max_pcm16_error": 0.000015258969147946555
+        }
+      ]
+    },
+    "rifle_dry": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.5,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6,
+        "boot": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 8820,
+          "loop": false,
+          "wav_sha256": "bfc29c430d756dfb3aa253d99855ec79fa047c87e581603995b939e23883d82d",
+          "float32_sha256": "70784bd9b1c6ea550f9d43c94f8ea4d99d87a217d88ac97603498ca65dd439c5",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "pistol_dry": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.42,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 6174,
+          "loop": false,
+          "wav_sha256": "d1268f5be9a6572c71b895b8133ffbd2165dd7f69e83c3b247714f38679b1a5c",
+          "float32_sha256": "0f7c9c861ccc2a36fbe6d9147c1a13a712f8e34f1c326aefdb22352e3ca42e73",
+          "max_pcm16_error": 0.0000152587977598085
+        }
+      ]
+    },
+    "reload_magout": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.45,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 16758,
+          "loop": false,
+          "wav_sha256": "8465e82cfff2ecdc872478a98546ea62a653db37df7ef909c6933f79be373566",
+          "float32_sha256": "83b433bd4834adf468b3608bf648655f7c7daaf2223481e75029c8d84a973377",
+          "max_pcm16_error": 0.000015258329455221549
+        }
+      ]
+    },
+    "reload_maginsert": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.36,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "fed899fd519f4737ec21990b0f40253905b7e7a47e49d3a3fb0d21158de8c118",
+          "float32_sha256": "0bf9b411e9dd9be9face5a640834e290c158b321ca261c9f44de5371e21fa923",
+          "max_pcm16_error": 0.000015257824855001434
+        }
+      ]
+    },
+    "reload_magin": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.64,
+        "bus": "gun",
+        "max": 2,
+        "pri": 7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 9261,
+          "loop": false,
+          "wav_sha256": "0e6cb613a0e69372491282314c4dbfc0c4e4e4070b795b017504b722bf589f3d",
+          "float32_sha256": "fbebf5a607c4874238f6eee1310d095921b82903d34a77cd0ccebf2a4a117c4b",
+          "max_pcm16_error": 0.000015258396388169448
+        }
+      ]
+    },
+    "reload_boltback": {
+      "properties": {
+        "n": 2,
+        "sr": 44100,
+        "peak": 0.48,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "fc6cb05bc32327c021eec6d48805bfc69ed5398342c81245615440942ad66bff",
+          "float32_sha256": "302dbfd53a1ee02f10a7a1f390b45cf143f4a9685095e86d502c1fe948121c3a",
+          "max_pcm16_error": 0.00001525886887310257
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 7056,
+          "loop": false,
+          "wav_sha256": "a156246863bc8d86e4e71a95352ef831cf245e4875246f9753d019b56f8615ac",
+          "float32_sha256": "fb27e83dfdd876bd5d1af336f2be2fda9d407817d434cd7856c82b0609e247c0",
+          "max_pcm16_error": 0.000015256090281981494
+        }
+      ]
+    },
+    "reload_bolt": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.72,
+        "bus": "gun",
+        "max": 2,
+        "pri": 7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 14553,
+          "loop": false,
+          "wav_sha256": "e204389490b199879b873713d174200bc9fa695da09db76eb05d18b7a23b5153",
+          "float32_sha256": "f4f5e27776084d69fb83f2cbd9fb590bf0793e0676239aa5d1925a258c80be13",
+          "max_pcm16_error": 0.000015257867233066033
+        }
+      ]
+    },
+    "pistol_magout": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.38,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11907,
+          "loop": false,
+          "wav_sha256": "11646a8615c7d601639ca667273acee29b95b46e30a7640f80010669c1573196",
+          "float32_sha256": "bbb68cbeb39d75d3c827d0de1645546dd5d4057929c3a18f80bd1c3190d46b0b",
+          "max_pcm16_error": 0.00001525552718810528
+        }
+      ]
+    },
+    "pistol_maginsert": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.3,
+        "bus": "gun",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 8379,
+          "loop": false,
+          "wav_sha256": "c1d631be849c89f949d548e07223f8140986263c378a29c15c4a6eb0da09d50f",
+          "float32_sha256": "07748a878e9b9d4306e93066063e42de03b1a62d42670492bcbbec6d2752de18",
+          "max_pcm16_error": 0.000015257827583568806
+        }
+      ]
+    },
+    "pistol_magin": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.52,
+        "bus": "gun",
+        "max": 2,
+        "pri": 7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 6615,
+          "loop": false,
+          "wav_sha256": "6c23cd6a327c6807ca83d4429f410bc0edeeddf102d3392abeb7f0c194b8ce95",
+          "float32_sha256": "79f2e9e87174e79dbf2987780ae18f3fbf3d342a9ffac1d8786d5e7c23c816d3",
+          "max_pcm16_error": 0.000015251342688444441
+        }
+      ]
+    },
+    "pistol_slide": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.6,
+        "bus": "gun",
+        "max": 2,
+        "pri": 7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 8820,
+          "loop": false,
+          "wav_sha256": "595b384fc2089a95f234a2616927c6e33bf284dfa4a6eb6a51175faa1df16877",
+          "float32_sha256": "b2557fc51b790c8ecf30e55b0ec7cd576546af6e518516dac89ea04a8228072d",
+          "max_pcm16_error": 0.00001525874085780976
+        }
+      ]
+    },
+    "weapon_holster": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.32,
+        "bus": "gun",
+        "max": 2,
+        "pri": 5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9920,
+          "loop": false,
+          "wav_sha256": "da89ae1453da4d1404b43514d11deaf996ece1bbd31a9a13bcb6f73eed2acdee",
+          "float32_sha256": "0e4412877ea5f498f373ca15e74980555da9ee2286103c66128f3735c8e55523",
+          "max_pcm16_error": 0.000015253194334056454
+        }
+      ]
+    },
+    "weapon_draw": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.32,
+        "bus": "gun",
+        "max": 2,
+        "pri": 5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9280,
+          "loop": false,
+          "wav_sha256": "3960b32858bc662c73a7589b35fd42ce29ead1250d79a4bcd7a1fe83889d805c",
+          "float32_sha256": "2ee6ff9fed6448569b0353aeebfb6acc948dabfda00e41ab2c5d0ce581b00e2f",
+          "max_pcm16_error": 0.00001525645677690271
+        }
+      ]
+    },
+    "gear_rustle": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.18,
+        "bus": "gun",
+        "max": 2,
+        "pri": 3
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 6400,
+          "loop": false,
+          "wav_sha256": "f6b86b1940971ba8656920fea1909bedf679fa83097218510e30bff38d4ee691",
+          "float32_sha256": "d1bce5c8661eccc714fc8bf5728ae0f8fcce10206cb788910c6382cd4a16d8f2",
+          "max_pcm16_error": 0.000015258317858810218
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 6400,
+          "loop": false,
+          "wav_sha256": "541787a4e497846f9cc768f38783f7263b6452c89a810251ce914ae0300de35d",
+          "float32_sha256": "4340b4481ac1c4b4387f7cfaeff95fb2cef37c9137932da8e8deba420104a5fe",
+          "max_pcm16_error": 0.000015256031617789934
+        }
+      ]
+    },
+    "shell_bounce": {
+      "properties": {
+        "n": 4,
+        "sr": 44100,
+        "peak": 0.3,
+        "bus": "world",
+        "max": 4,
+        "pri": 1,
+        "ref": 2,
+        "roll": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "07d0c5d55724f985ba95090c4fbc6e58011768eb9882d78ea89aece46e66fd17",
+          "float32_sha256": "e1b2d482e001a78c4aa742276bfd7fd87270f9189ef5d12fea4901f2eaabb584",
+          "max_pcm16_error": 0.00001525902359849826
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "d3b8765c15e5ea4cdcf369a2af3a6ed98643b7ff334411f2933ce6db0d0fcdf7",
+          "float32_sha256": "0592e704330f1cfdf7eea009b77068e0749abb313b7e942903e028093708b051",
+          "max_pcm16_error": 0.000015258745973870114
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "ddae58d119260187877be216a2962abf941379546d07ceceb56d550d7b8d51ac",
+          "float32_sha256": "0bc160ee746b8b2d5d7cc76d869510650ef2504d61afcb706fee6b2557b80110",
+          "max_pcm16_error": 0.000015257041496811487
+        },
+        {
+          "variant": 3,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "fd333bc678912ca8e1d24acf91c05d7b6513000d579bc96638969cea1823e3e4",
+          "float32_sha256": "6b3667a665ed2a23364373ed50288848539e60df1146d02ae667a711ebe8faae",
+          "max_pcm16_error": 0.000015258586238992011
+        }
+      ]
+    },
+    "shell_bounce_metal": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.32,
+        "bus": "world",
+        "max": 4,
+        "pri": 1,
+        "ref": 2,
+        "roll": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 30870,
+          "loop": false,
+          "wav_sha256": "0e8274f50e7c5579cac6852409980455ad672d202b20fdef6b1ff6e3ec3082f0",
+          "float32_sha256": "f1601cd19fbb4cebeb7554c5080372b92e1cfda3d7bb0f943e3581e978561c8f",
+          "max_pcm16_error": 0.000015259203905774316
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 30870,
+          "loop": false,
+          "wav_sha256": "2848815d009cb637e4157ef924bb451d871b4942806e00c04519658fcd9ec79d",
+          "float32_sha256": "0acb2ec7b84073f80b02863a0c5150334b60fc7fff68dcd893eddefb634d316e",
+          "max_pcm16_error": 0.000015258556572927268
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 30870,
+          "loop": false,
+          "wav_sha256": "ff8d9aab745c72a496d25cc76050552442fb5425bf3611bee47f5108eb19fd3e",
+          "float32_sha256": "f19427851e6ef0fc74bb165d850c2d2080b16a874e1313b9e3192dab6dff64ea",
+          "max_pcm16_error": 0.000015258846703489204
+        }
+      ]
+    },
+    "step_concrete": {
+      "properties": {
+        "n": 4,
+        "sr": 32000,
+        "peak": 0.45,
+        "bus": "near",
+        "max": 3,
+        "pri": 3,
+        "boot": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9600,
+          "loop": false,
+          "wav_sha256": "319d7be6a61662dc583f4a1eebc8048c441f67e9b7618564434b46926e0d99db",
+          "float32_sha256": "51b7c76c728d1de62b08c083db7e0b83d0ce07e4bb5284d48f0c248f953e0536",
+          "max_pcm16_error": 0.00001525785813784146
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9600,
+          "loop": false,
+          "wav_sha256": "5d24dcba8f72672a2c3b6dc02f98cd829f42970b8aba2ca241ae6c2cf6e0f5e7",
+          "float32_sha256": "9c3b07f7d83605af7fcbd526286cd0b61b67687f9e8021d42e7b921e9db3260b",
+          "max_pcm16_error": 0.000015253543182327904
+        },
+        {
+          "variant": 2,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9600,
+          "loop": false,
+          "wav_sha256": "205c80ae9514c010956a79a3f208edd2b82744f44495e7b5072c8add8ac2ec67",
+          "float32_sha256": "52552084dafeb8ba87c9e5d0181c91d21174d988d41d12a973463c2230d37655",
+          "max_pcm16_error": 0.000015254145097674462
+        },
+        {
+          "variant": 3,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 9600,
+          "loop": false,
+          "wav_sha256": "ab1a9e176b0b12c671c0d938c2e0e1172c721e801a3c368348c8186bedd2963e",
+          "float32_sha256": "2fcdaf32bf76d79ab5c68e8ac42cf89efc55c7cda08f73bc9a903ec113604be0",
+          "max_pcm16_error": 0.000015252257810150285
+        }
+      ]
+    },
+    "step_water": {
+      "properties": {
+        "n": 3,
+        "sr": 32000,
+        "peak": 0.5,
+        "bus": "near",
+        "max": 3,
+        "pri": 3,
+        "boot": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 14720,
+          "loop": false,
+          "wav_sha256": "ab6355900fbaddf34c9e813af39b973e622576dc2d787d3c382ede558b7067c2",
+          "float32_sha256": "90d5802041f0c96deb1485d86372f989b815c4ad7224756f2d6cc75c3ae99b23",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 14720,
+          "loop": false,
+          "wav_sha256": "488e5b1cdda084ffbf90b96deb6c338b1a38da702591ee7d42caf29148b6ffb3",
+          "float32_sha256": "7314edc709eabc67d1d24353e8ce357ecd2358030819a69deda08e822328fed8",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 2,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 14720,
+          "loop": false,
+          "wav_sha256": "4a5a7432b41fef88c7ac2888d7d7e6f8bc58514689227a2e8fbcca83adcabcdb",
+          "float32_sha256": "969de013b4fc5d2210bb4465ea1ede8b0064eb12320c268dd01ba14454d99b45",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "step_metal": {
+      "properties": {
+        "n": 3,
+        "sr": 32000,
+        "peak": 0.5,
+        "bus": "near",
+        "max": 3,
+        "pri": 3,
+        "boot": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 12160,
+          "loop": false,
+          "wav_sha256": "6d833b385861b6d3f9ae8e3bdbfc03cf8cac03c3b7cb680ef49a72938ea799eb",
+          "float32_sha256": "ec1c7cdf7b2ff07a2c85cdf3e8db0110fdd6b30e893a8beda31e497cf196f9a8",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 12160,
+          "loop": false,
+          "wav_sha256": "3174c6c1f8882add357938870b10634e374beabe79ee9e46200db4037b2c2564",
+          "float32_sha256": "8cf60c8f43aee1c7202c15e7a3e7941b16c899cac12cecaa061210d8c30fc92e",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 2,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 12160,
+          "loop": false,
+          "wav_sha256": "1c26224535111bfb216974fc1d38bf9c234b3a4aa3ab2b5ce0064ee71a99edaa",
+          "float32_sha256": "cb06edaf6cebd1fe38e23f2f5022e64de6d07fa6f326cc5a4438f1ea7719447e",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "land": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.7,
+        "bus": "near",
+        "max": 2,
+        "pri": 4
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 14400,
+          "loop": false,
+          "wav_sha256": "2075af2f35e0987b81d20ff8458bbb5d926a6c9b79d6e8fca9745aea57a020ec",
+          "float32_sha256": "eee3a3ec11e81bcaffe35be34529d3295ec07cebcaf2b714e4ae81864c0c5efe",
+          "max_pcm16_error": 0.000015247640420434916
+        }
+      ]
+    },
+    "jump": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.35,
+        "bus": "near",
+        "max": 2,
+        "pri": 3
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 8320,
+          "loop": false,
+          "wav_sha256": "f50493240a693cab64496ffd608887b2d735c79d7ecd2da541a2241fe4026294",
+          "float32_sha256": "a305c9aa4c83f3e11a029c59765f293e6155503c84bc4606464eb9c83a387aa3",
+          "max_pcm16_error": 0.000015256900041199506
+        }
+      ]
+    },
+    "hurt": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.85,
+        "bus": "dry",
+        "max": 2,
+        "pri": 8
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 16000,
+          "loop": false,
+          "wav_sha256": "bb9bb2b4c751e170638df384a4fbca7741fdab431e131d34866923fb82f3927b",
+          "float32_sha256": "42e8bdda0ae6c54de1e04c512dbc118f6b9f1523bfc06c9d6de08dfc37fb0dc7",
+          "max_pcm16_error": 0.000015253104319754018
+        }
+      ]
+    },
+    "ear_ring": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.2,
+        "bus": "dry",
+        "max": 1,
+        "pri": 5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 52920,
+          "loop": false,
+          "wav_sha256": "be6aeccf85849cae26399756e0e1bcede4325bfaf286f6244272cf59a38d07ad",
+          "float32_sha256": "0295262fc3629aa0bf9a0aed63342f8c24f84ca4d2d349be963fd5bcb8de8076",
+          "max_pcm16_error": 0.00001525925063093625
+        }
+      ]
+    },
+    "impact_metal": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.7,
+        "bus": "world",
+        "max": 4,
+        "pri": 4,
+        "ref": 4,
+        "roll": 0.7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "a8bc1f9c69fa193969de2a11bf0d4970fa86a0c62463d64b86246b283862773a",
+          "float32_sha256": "d708d0b0cecc1b851c7260e822fbab1a8dfa7bf6c065f44b1587a519ea09ba90",
+          "max_pcm16_error": 0.000015257889090028454
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "b1ad9738d54a943ae1655cbe24d4f83e1cc0fd380b47faae4a457f20c1a73405",
+          "float32_sha256": "3c9584a77dc2b915741f03be27eea29b0d6d0d9b3ee96e682181985f6fb22e46",
+          "max_pcm16_error": 0.000015258786646580973
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 22050,
+          "loop": false,
+          "wav_sha256": "f53f4cbefef189e77e4f363a9b85a5ac67f0e0f79ecfed8da2bbc17539765780",
+          "float32_sha256": "a200063da01285be7fe40498d456330e8c2fba591359ea93fa5cb347369c4a38",
+          "max_pcm16_error": 0.0000152569078858307
+        }
+      ]
+    },
+    "impact_concrete": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.7,
+        "bus": "world",
+        "max": 4,
+        "pri": 4,
+        "ref": 4,
+        "roll": 0.7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 15876,
+          "loop": false,
+          "wav_sha256": "e073d69d3e237dce89518a7e25f74ddc9054c5f42f27ac0e5827f0f56e72b846",
+          "float32_sha256": "ffb464d2e7bdfd825bdd76b0c87e2db99095d4954ed47212d18cfe7272576715",
+          "max_pcm16_error": 0.000015255071844213347
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 15876,
+          "loop": false,
+          "wav_sha256": "2cb014738cb64e7968ae4483a4ec28ad1d98a335aa64d8e5248780008c5d30bc",
+          "float32_sha256": "43b2b6580bec2bcd8c532ede65f9ab8981c8f262c096ab47f3b2dcbfbc66f574",
+          "max_pcm16_error": 0.000015258673784081245
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 15876,
+          "loop": false,
+          "wav_sha256": "983a407782d47359067e26de353e37b2443100c46540549f4b94dddcf962f8a5",
+          "float32_sha256": "51bfb585af05ff801a8c8a204d9dbb136d79b60b52b9e53a22454ede57f67000",
+          "max_pcm16_error": 0.000015257945392487676
+        }
+      ]
+    },
+    "impact_wood": {
+      "properties": {
+        "n": 2,
+        "sr": 44100,
+        "peak": 0.7,
+        "bus": "world",
+        "max": 3,
+        "pri": 4,
+        "ref": 4,
+        "roll": 0.7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "8c0f880e53f70e8b61339c9184cd0c16f51075341ea26e0c849c673ce28831c5",
+          "float32_sha256": "25e86f94fe4611d6a59865014ec209f6d6cb43a87a34cf6a4f995f8c538cd642",
+          "max_pcm16_error": 0.000015257687176029044
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "cefbd347d33f323b4762be43473b2038bbb45118c174f609e6247a2a9cf4f641",
+          "float32_sha256": "c65a394ec317c34b0915bd374a96717b77345c296bcc90ba9cb026e1ca97ff98",
+          "max_pcm16_error": 0.000015258826693995142
+        }
+      ]
+    },
+    "impact_water": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.6,
+        "bus": "world",
+        "max": 3,
+        "pri": 4,
+        "ref": 4,
+        "roll": 0.7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 16000,
+          "loop": false,
+          "wav_sha256": "298beb611253a538bd73e16357a10b7d6ea08038158bee38ebad8796d01577e4",
+          "float32_sha256": "f0418230e2fc3a392dec41fa7afbdf272f8bddd6f120083c6b26854d8cf7bed2",
+          "max_pcm16_error": 0.000015257882552834057
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 16000,
+          "loop": false,
+          "wav_sha256": "8d3c18a0bb834d89ecefe1897a45c88ed6a646c2e39389a1ae0747937b9d29d9",
+          "float32_sha256": "a842a0a663efe2709839ff28170870749bed781acd618f486e7ccdd2bdd3bdbb",
+          "max_pcm16_error": 0.00001525704377061763
+        }
+      ]
+    },
+    "impact_enemy": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.75,
+        "bus": "world",
+        "max": 4,
+        "pri": 5,
+        "ref": 5,
+        "roll": 0.6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 13230,
+          "loop": false,
+          "wav_sha256": "d1939ef5ab8e3a0005646340e9b5eec51170a777485a79f23517175d3c35457e",
+          "float32_sha256": "2756146e6410e7f9c68937e7b9256c1e478d89ef1c39e1285725b8d41cbdad81",
+          "max_pcm16_error": 0.000015251570637503375
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 13230,
+          "loop": false,
+          "wav_sha256": "494b28710cd5df72e3b3384ca02d7367c07881e852718cffd49ab9f88ad64b65",
+          "float32_sha256": "e41bc0effd037b32235cbb97d73a6d3f86674ee7d983671aaa41a914de10086f",
+          "max_pcm16_error": 0.000015258316522949109
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 13230,
+          "loop": false,
+          "wav_sha256": "c69fe8783bb23538c751cd6ea854d50fa89e85871d19e2ff2e5097e9206911b4",
+          "float32_sha256": "918cdea41e347c61bb84c9078c9817964df05e9ca6f92af9bb2dbf06ca5aeb4d",
+          "max_pcm16_error": 0.000015259252734206932
+        }
+      ]
+    },
+    "impact_glass": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.6,
+        "bus": "world",
+        "max": 2,
+        "pri": 4,
+        "ref": 4,
+        "roll": 0.7
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 19845,
+          "loop": false,
+          "wav_sha256": "71b78894b07548840994b5d63d2666c1562e3775c22395e5152154131d04057a",
+          "float32_sha256": "a234a72866413d0bc1f31a94cde4f100f0d28ffb37f9eac3536bc06d36f9e470",
+          "max_pcm16_error": 0.000015256038666588978
+        }
+      ]
+    },
+    "whiz": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.5,
+        "bus": "world",
+        "max": 3,
+        "pri": 5,
+        "ref": 2.5,
+        "roll": 0.6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 14112,
+          "loop": false,
+          "wav_sha256": "20a3d7deca43696a3c167e3151670fff35e5d9681a4b147901434874b92e64f7",
+          "float32_sha256": "af2299f5736eb163a1d4e4e17d504fd86dfd63d17c7d1351c20497b5af395e74",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 14112,
+          "loop": false,
+          "wav_sha256": "814bd5e24e2a8ac63573cce804f7142efe597fe9d9ede1f43b30a6a2336478c4",
+          "float32_sha256": "aa6d4a23b60d1392ee72f63e96b80231f642e40119666e7e2c8a8dd31817e2b9",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 14112,
+          "loop": false,
+          "wav_sha256": "1357082b652545e2b7759f6d6ad768ccb756dfcc0908caa541dde5e34a8437c3",
+          "float32_sha256": "8f4ab3535d1f4b20e43891be8aa1c192c4a6e4a59f60a7c8c2e2a7e34aa67b8c",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "ricochet": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.4,
+        "bus": "world",
+        "max": 2,
+        "pri": 3,
+        "ref": 5,
+        "roll": 0.6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 33075,
+          "loop": false,
+          "wav_sha256": "09dcf5487195fbdc0f13b2887ed6c036a6e7d289f88aaa1bc59cb6c632a4fb00",
+          "float32_sha256": "7c74a5ba6ea54b01261b97fc0505ab77e18341bb89eab27498902272ac6c558a",
+          "max_pcm16_error": 0.000015258812084788936
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 33075,
+          "loop": false,
+          "wav_sha256": "57c00644def4633a6354da2e3426575ae3cb6c589a729de8ab90257b43af6a4d",
+          "float32_sha256": "7890329e3d5592181b4e1547834b07db3dc5f5534327d1777c5d4582eef71bc4",
+          "max_pcm16_error": 0.00001525880958360218
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 33075,
+          "loop": false,
+          "wav_sha256": "a06710d21042a258f543418a340e20128ae33450d8d18b95734a4c309bfd3342",
+          "float32_sha256": "aa7e0b00eaacf4ab883de3fdc1906b5c5b39b26f1496c25ca40c02892adbc333",
+          "max_pcm16_error": 0.00001525902121100181
+        }
+      ]
+    },
+    "gull_fire": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.7,
+        "bus": "world",
+        "max": 5,
+        "pri": 7,
+        "ref": 7,
+        "roll": 0.55
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "2c87bb69f7040f89469483e718d85fef89c7f8f70e7a22025b3acc62de0c286c",
+          "float32_sha256": "c4427d7fb5910935a1a2d5f312e159a557a0e57c2d63d82a0424a84339dcf1e8",
+          "max_pcm16_error": 0.00001525238442917718
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "c6227d54f9dc251bdddabe73a1d13dd630d3970f0131c4dc4068b0644dfe9fde",
+          "float32_sha256": "ea387a5406581e52879c7a3a2d4060f8fa88116b466481584012bb5dd5aae065",
+          "max_pcm16_error": 0.00001525925213733282
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 11466,
+          "loop": false,
+          "wav_sha256": "127104af6a08fc46a54ad77dc297f535be06f3cddcc67d70741f44c8251a726e",
+          "float32_sha256": "609dc2e5961efaf2b5b8bbce2b486c0c2d7214d9e5b2b0a7fb201e9381805ab9",
+          "max_pcm16_error": 0.000015258668096013173
+        }
+      ]
+    },
+    "hound_fire": {
+      "properties": {
+        "n": 3,
+        "sr": 44100,
+        "peak": 0.6,
+        "bus": "world",
+        "max": 5,
+        "pri": 7,
+        "ref": 8,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 18522,
+          "loop": false,
+          "wav_sha256": "b392b5e2102f93bc77c21f631053d258d0a28e5bff8f20dda1636adfb96e8424",
+          "float32_sha256": "a97ef5b67d57e5706c9f475e16e360b5f3a9962d66845680f81a2b535c5146ab",
+          "max_pcm16_error": 0.000015258498422111508
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 18522,
+          "loop": false,
+          "wav_sha256": "37b145a0a03aa0b893e3969cfd878a4230d13132a74724c8e789748456403c9d",
+          "float32_sha256": "092b05a8ec2e39868e26d9598dbb10dd504397ff163ff99acf168c48b55a7081",
+          "max_pcm16_error": 0.000015258753704811001
+        },
+        {
+          "variant": 2,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 18522,
+          "loop": false,
+          "wav_sha256": "075bb675cc786264ba038cbfe5037e0ab7c98fd5cff91ae860ca83196b935e8b",
+          "float32_sha256": "e23e60874ea3b094958d5900b772400d395fc4b930778da699164e053e63ba3b",
+          "max_pcm16_error": 0.000015258688105507234
+        }
+      ]
+    },
+    "hound_step": {
+      "properties": {
+        "n": 3,
+        "sr": 32000,
+        "peak": 0.7,
+        "bus": "world",
+        "max": 4,
+        "pri": 3,
+        "ref": 5,
+        "roll": 0.8
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 13440,
+          "loop": false,
+          "wav_sha256": "8250d02111eecf557aa7d38f36469b351c3e14e8cafb8c791687ec95673c0493",
+          "float32_sha256": "52e9cfb7e14b3414be4bea7dbdfc772e82c24e4f3071e03916cef3b57b5138ef",
+          "max_pcm16_error": 0.000015255987108031208
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 13440,
+          "loop": false,
+          "wav_sha256": "501f9220b8592ea54abea71d8c9c8838e2811b43c52bb09c9eb3f9f40e260a2e",
+          "float32_sha256": "cbb0a1829f100f97b11be41cdd4c138b1c79fe9ec03edc815d391f692b6b848f",
+          "max_pcm16_error": 0.000015256608027591767
+        },
+        {
+          "variant": 2,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 13440,
+          "loop": false,
+          "wav_sha256": "ec1b856a9539434fb7c6c124ad25a94fe1d51e62161bbadf5b5911e7e2505ed3",
+          "float32_sha256": "7e1c44c9ddcf6a7a0b55f64bc73f11238109a76bf29cb9f2c82323643aa8fc38",
+          "max_pcm16_error": 0.000015258770530979932
+        }
+      ]
+    },
+    "gull_die": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.85,
+        "bus": "world",
+        "max": 3,
+        "pri": 7,
+        "ref": 7,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 48000,
+          "loop": false,
+          "wav_sha256": "6f94513d08030cca8f86ae0ec606427b56e051db89f8fb9ddb138f89d071f3fe",
+          "float32_sha256": "7cc17f6e373e51b0c94d0d3423b324e27c580adfe113e1e2c3569e702cd05428",
+          "max_pcm16_error": 0.000015258322662225696
+        }
+      ]
+    },
+    "hound_die": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.9,
+        "bus": "world",
+        "max": 3,
+        "pri": 7,
+        "ref": 7,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 60800,
+          "loop": false,
+          "wav_sha256": "967435242f4b7310440b95bf638c6e53bea53d6767abf28c822c3ee5a8137e08",
+          "float32_sha256": "72f38b55a7355ac16e61428ca485b6cf579fb3ca10bfe679a223f59af7f33a14",
+          "max_pcm16_error": 0.000015258792387941485
+        }
+      ]
+    },
+    "telegraph": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.42,
+        "bus": "world",
+        "max": 4,
+        "pri": 6,
+        "ref": 6,
+        "roll": 0.6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 19200,
+          "loop": false,
+          "wav_sha256": "ecbf87172e41d846d449dd9310d2a6eabe8198992ffe23e451fafceaa9012ed2",
+          "float32_sha256": "f007f3a8e3fdabd0bb5f962ba5531c192d117572491cc930647167e51f3574f5",
+          "max_pcm16_error": 0.000015258841814802526
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 19200,
+          "loop": false,
+          "wav_sha256": "b2018107ed89b5f33465e3b00ecd354b1d957070759b464b6f43b1fc064ad27f",
+          "float32_sha256": "18114db09b07828fbf5d2ec5af6b2e8570f4561ce541fb6df8c37e46eac7eaca",
+          "max_pcm16_error": 0.000015258958688452173
+        }
+      ]
+    },
+    "alert": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.5,
+        "bus": "world",
+        "max": 3,
+        "pri": 6,
+        "ref": 8,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 16640,
+          "loop": false,
+          "wav_sha256": "895222da7cee1fce6a8fff4b6f2f3be31aed0f9b88522c2c6e5d2a7098968fe4",
+          "float32_sha256": "06d31a19ab8d410ab14b9d35f9bc157a52b1f22a73ad1e4151f02eb7e8e087de",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 16640,
+          "loop": false,
+          "wav_sha256": "e92d5fb3c4138b2f8d18143063a968da8c3940085850d472da269b34d7b47c8c",
+          "float32_sha256": "5a097ffaa2ac8851295e2fa97a280ab02e1022a9052e6decc484f53c47f70fc8",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "explosion": {
+      "properties": {
+        "n": 2,
+        "sr": 44100,
+        "peak": 0.95,
+        "bus": "world",
+        "max": 3,
+        "pri": 10,
+        "ref": 12,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 97020,
+          "loop": false,
+          "wav_sha256": "b530d3d4a30eda3ec7cb48ac64d92cbb82cfc0439391c1551fd7676d2ce1f267",
+          "float32_sha256": "b12241fd0cae9393d5d89e9dbc0c2163a0888fc634374d1246ad8ce60519edee",
+          "max_pcm16_error": 0.000015259235638054314
+        },
+        {
+          "variant": 1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 97020,
+          "loop": false,
+          "wav_sha256": "34ed6bcddeebbc807b19413be4ced7264de5e2957f1f189be0a9cdd97b9e705d",
+          "float32_sha256": "aa6667885368442089cc2710f90159ce8fb764d1ae814b45b24d06fb5985c223",
+          "max_pcm16_error": 0.000015258819872576712
+        }
+      ]
+    },
+    "explosion_big": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.97,
+        "bus": "world",
+        "max": 2,
+        "pri": 11,
+        "ref": 16,
+        "roll": 0.45
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 134400,
+          "loop": false,
+          "wav_sha256": "63de0cd9f25f3f8ab19c7e70dd6550a12300a763180cd228716ac58e313d2c37",
+          "float32_sha256": "072ea5cf82de37d39de507c107a6c0271a0b5a4e12ec45f0335de5d71c8aa589",
+          "max_pcm16_error": 0.000015258750892145102
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 134400,
+          "loop": false,
+          "wav_sha256": "d9ad6f182b36ee3baeaa2a62c286964fc34201d650e2a6693aae40a2611d52ac",
+          "float32_sha256": "ed4f0596772ffc9109ec802e961d2756870eabce8e4aa7f7f546d393d15a1e4b",
+          "max_pcm16_error": 0.00001525916833339247
+        }
+      ]
+    },
+    "relay_cut": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.75,
+        "bus": "world",
+        "max": 2,
+        "pri": 8,
+        "ref": 6,
+        "roll": 0.5
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 54400,
+          "loop": false,
+          "wav_sha256": "b9ea26313f800156b02804d77af49cf4ffad408aab979ac58d6d312edc5eec74",
+          "float32_sha256": "d6268b4749947dacdbc2c455a1f88cbb5d0dab915a2272a5bd97b49684e95d36",
+          "max_pcm16_error": 0.0000152588509100271
+        }
+      ]
+    },
+    "thunder": {
+      "properties": {
+        "n": 2,
+        "sr": 22050,
+        "peak": 0.8,
+        "bus": "dry",
+        "max": 2,
+        "pri": 6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 143325,
+          "loop": false,
+          "wav_sha256": "af60411570f4a17e28e468d7a9e86f0f463ae8a6b92e6ac671c982362f9b303c",
+          "float32_sha256": "ea27c19161f01e6010149288af6a68186ebf35f42abd98d6029c74eb1e1a5fd6",
+          "max_pcm16_error": 0.00001525894640988512
+        },
+        {
+          "variant": 1,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 143325,
+          "loop": false,
+          "wav_sha256": "c4e1ff60627e0505bce98957e425ba92e489b30cc1a1256ca595228cdfdc5d1e",
+          "float32_sha256": "0cb1bf8f24fe3bc355ee0ec74bb608fbac4645d07a9b4e79a4b1eabd9ed68797",
+          "max_pcm16_error": 0.0000152590114407547
+        }
+      ]
+    },
+    "foghorn": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.5,
+        "bus": "world",
+        "max": 1,
+        "pri": 2
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 110250,
+          "loop": false,
+          "wav_sha256": "1d76bc95a1f328c1eb63f02b5a339739e84ca43982b41d11746ef90355d9432d",
+          "float32_sha256": "7935ea1f351d2f59bf72805828063e7b28fbfa70cbe89699e7d568240aa74f23",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "gull_cry": {
+      "properties": {
+        "n": 2,
+        "sr": 22050,
+        "peak": 0.4,
+        "bus": "world",
+        "max": 2,
+        "pri": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 30870,
+          "loop": false,
+          "wav_sha256": "140ca22c278a52c2fb78568a8ddbb88dbe31e1d46e7f352cd6edb83c279dfe95",
+          "float32_sha256": "ee0a67eed6c1df6335d63598b993b271c34a6dc54b8aff3489757d96e7692b35",
+          "max_pcm16_error": 0.000015258832719577953
+        },
+        {
+          "variant": 1,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 30870,
+          "loop": false,
+          "wav_sha256": "6a46f58c5f4707dd5b036e576e7d9fdfeff52a57f481b76e7ef88e6a28e081cc",
+          "float32_sha256": "abd619ec8ed57967a63b194870acc002d8629f459c22fc7b7e0234696a28371f",
+          "max_pcm16_error": 0.00001525883919992893
+        }
+      ]
+    },
+    "halyard": {
+      "properties": {
+        "n": 2,
+        "sr": 32000,
+        "peak": 0.3,
+        "bus": "world",
+        "max": 2,
+        "pri": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 35200,
+          "loop": false,
+          "wav_sha256": "829528fc209c2dc60d97034adb02898951948ea14b957022430eabd7d9324717",
+          "float32_sha256": "0cef003b20b02f2580dc26dd6ed643c05b2e5a5f578b895ce198cc8943f00852",
+          "max_pcm16_error": 0.000015258781388404266
+        },
+        {
+          "variant": 1,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 35200,
+          "loop": false,
+          "wav_sha256": "431e05f00a54445dbe91306187c8e9b08e5e53e5afc09147497551c0084ffc96",
+          "float32_sha256": "d23a7133b81a3c2bd253d7f9b4d9f2f7a1f413f19971d24fc5af989f8c521406",
+          "max_pcm16_error": 0.00001525924832870753
+        }
+      ]
+    },
+    "container_bang": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.6,
+        "bus": "world",
+        "max": 1,
+        "pri": 2
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 61740,
+          "loop": false,
+          "wav_sha256": "6135c97f6cd6fef769388422ea6e96c1d88a4fdf0927692b174617a0dc9066f5",
+          "float32_sha256": "42ee8ac3c81336cc9d4fb18c33f0fb2c6b77aa1d8b80bf73f96118470f8d5def",
+          "max_pcm16_error": 0.000015258818508293026
+        }
+      ]
+    },
+    "ui_click": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.3,
+        "bus": "dry",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 3969,
+          "loop": false,
+          "wav_sha256": "94e3c7c7a9f74d621d4ae02c4a2e3ae397eef3a6d7014520d57c8c178cf6edac",
+          "float32_sha256": "22e1b36f6967c39ed95eb4faa46ccb4ffdd61430e76d31792e474526a3e51f81",
+          "max_pcm16_error": 0.000015254948323247322
+        }
+      ]
+    },
+    "ui_hover": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.12,
+        "bus": "dry",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "frames": 2646,
+          "loop": false,
+          "wav_sha256": "6c4e6b70374e58ee37c0cbef881a4ec80fd73a4f70b40256b23ad9926cb7d898",
+          "float32_sha256": "3daf29d8d95030831458448bff40785bbbf6142a26decadc03cf632463ce9573",
+          "max_pcm16_error": 0.000015253667697862072
+        }
+      ]
+    },
+    "gull_rotor": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.6,
+        "loop": 1,
+        "ref": 5,
+        "roll": 0.9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 64000,
+          "loop": true,
+          "wav_sha256": "a1f6d8e8efd155e45f8c66b70990b1d5c5cfac0e9ddbaa4dd22f93b916583ad2",
+          "float32_sha256": "ca71c0c2d289a11164c51cf8b89a51e742dffca7acb20841647b09ec66d0ed96",
+          "max_pcm16_error": 0.0000152588355618391
+        }
+      ]
+    },
+    "hound_servo": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.42,
+        "loop": 1,
+        "ref": 4,
+        "roll": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 64000,
+          "loop": true,
+          "wav_sha256": "1f15b1f5853717f0a21b1b4a7105465b65e30b2a9810271c15e51895b04954af",
+          "float32_sha256": "244d5a327668b05c31702a39f0d68473c5099ff8fe829b18b11fb391c111b58c",
+          "max_pcm16_error": 0.000015258665822193151
+        }
+      ]
+    },
+    "relay_hum": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.4,
+        "loop": 1,
+        "ref": 2.5,
+        "roll": 1.4
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 1,
+          "frames": 64000,
+          "loop": true,
+          "wav_sha256": "bc8d81ea24d9a96b40cd12b49901971c47cb42e0e68ebc440c977abfb314ad7b",
+          "float32_sha256": "871601cba9eabd003c05e19c93768fb063d1f5e4081a3c4ecb9da5e62d7dfcf0",
+          "max_pcm16_error": 0.000015258944136092856
+        }
+      ]
+    },
+    "rain": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.5,
+        "loop": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 192000,
+          "loop": true,
+          "wav_sha256": "529eace41e69577a8d907fe8093d5888b2c7f28e641eb1bb72863ea7034b2555",
+          "float32_sha256": "4c1a8354b961131ce34d635e7f3e0d5df2dc4d334864fe150db2b303eb713580",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "rain_interior": {
+      "properties": {
+        "n": 1,
+        "sr": 32000,
+        "peak": 0.7,
+        "loop": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 32000,
+          "channels": 2,
+          "frames": 192000,
+          "loop": true,
+          "wav_sha256": "0fa387fc68adcd01bdd0354fad1f8cac4768ce851b8ed4d7f147951dba37bd29",
+          "float32_sha256": "a62e089b63d3a15d0eae2f3dd97a33e89c3a9314f49944c57e8af0633d4cf9b5",
+          "max_pcm16_error": 0.00001525889024688032
+        }
+      ]
+    },
+    "wind": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.5,
+        "loop": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 176400,
+          "loop": true,
+          "wav_sha256": "dc667b06e5136d885840abe643b568ffc3dd6052695a39d8842b6d5673d29015",
+          "float32_sha256": "20fb7dcb978f76941ac21ef6d35b7a8ad59b2c5d98c1418b650dc60d3929905c",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "sea": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.5,
+        "loop": 1,
+        "ref": 10,
+        "roll": 0.6
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 176400,
+          "loop": true,
+          "wav_sha256": "d8e6585c407ccbbc2cce1b63419e7834a0f9a4f92539fd50a9d2714643e43501",
+          "float32_sha256": "2c4d639a91e97d2d0f6e5f31fff895ff34d5a0b5477c6e7594aeae84ffc5f9a4",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "music_drone": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 2,
+          "frames": 882000,
+          "loop": true,
+          "wav_sha256": "7d8d6713c42b605ad8c7a8617fffae5f481d5fd64a47c97152db5c7dd451ff73",
+          "float32_sha256": "41ec4b83bfcd8567e546e9ff8079a6a327ea77799ee3a5e2c69e4a1de475c8fc",
+          "max_pcm16_error": 0.00001525925381426485
+        }
+      ]
+    },
+    "music_strings": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 2,
+          "frames": 441000,
+          "loop": true,
+          "wav_sha256": "6bc00142b642bcb471819b6c83afde87ebf3c2ba6cad850559867cda0b61ef06",
+          "float32_sha256": "69b462fa7b925e43ccb6a3e0a69dd8564d48eaab73209257b01921df198a5e20",
+          "max_pcm16_error": 0.000015259252791052086
+        }
+      ]
+    },
+    "music_pulse": {
+      "properties": {
+        "n": 1,
+        "sr": 16000,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 640000,
+          "loop": true,
+          "wav_sha256": "a3b1999c40d78ae32aa7415d854b33b8df8a1c1b18f48f7bff3305ad353c67b9",
+          "float32_sha256": "af29e8ba3fa40edcac0cbf72606230e655a5a2f2e21e47b3f565b1e6a17e3ef1",
+          "max_pcm16_error": 0.00001525898824791816
+        }
+      ]
+    },
+    "music_ticks": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 330750,
+          "loop": true,
+          "wav_sha256": "50cb537c75a5c9c214e664a9eac1e37738846867a1f9c65b8b2652118d98864d",
+          "float32_sha256": "117fb135b1095fcd56f65dd8d3fea117e2c336212ec7c094647c7171d6ddeafb",
+          "max_pcm16_error": 0.000015259140127510396
+        }
+      ]
+    },
+    "music_drums": {
+      "properties": {
+        "n": 1,
+        "sr": 16000,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 320000,
+          "loop": true,
+          "wav_sha256": "87b759b62ce3cb8c9cb2d1b22a78f9a80d49c74a7f55ccef65ced47fae7c7edc",
+          "float32_sha256": "521021eb49afd2f59ef7345093454857b4c62e1180c91161b1b75349f59785e1",
+          "max_pcm16_error": 0.000015259031905023868
+        }
+      ]
+    },
+    "music_brass": {
+      "properties": {
+        "n": 1,
+        "sr": 16000,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 320000,
+          "loop": true,
+          "wav_sha256": "f02b94959b63377d0d396934ab9f5b7484c5fa03d60bc2451cc1c1a4559ccf5e",
+          "float32_sha256": "651ec4138263dda4f0eb45fa724b093c0672f5e40f62580be823ed86b9a94d48",
+          "max_pcm16_error": 0.00001525925389953258
+        }
+      ]
+    },
+    "music_lift": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.9,
+        "fixed": 1,
+        "loop": 1,
+        "music": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 441000,
+          "loop": true,
+          "wav_sha256": "d8a7faa5db3cbadec4baa580d7b92ee1f41bf54b2096c8b7c88d37a1129c1076",
+          "float32_sha256": "60e2184cb3f03c0a4975e87023a13a28528c9b606abbf7f6070cd8839d4757aa",
+          "max_pcm16_error": 0.00001525893231230091
+        }
+      ]
+    },
+    "mus_cell": {
+      "properties": {
+        "n": 4,
+        "sr": 22050,
+        "peak": 0.5,
+        "bus": "music",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 119070,
+          "loop": false,
+          "wav_sha256": "eb454571fa214d42a461be6f4819cba5a46d981d565aaa4d53c98ce847c3a809",
+          "float32_sha256": "e0792de35a49040fd674132bfa81e7d7bc3269f2256796c91efc5cbe2fadc783",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 1,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 119070,
+          "loop": false,
+          "wav_sha256": "fb24a0b987abd83cc156366f08ac2c0251a7095efa0b1220d257f2a3bd9846af",
+          "float32_sha256": "bb9ff5a00955c435f5621aef5c21a59a44118060b74cf3a215656556fad4e75d",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 2,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 119070,
+          "loop": false,
+          "wav_sha256": "dc5550faf4ef294ff480f340e8928bd82f001358a7c1aea291855597db54e510",
+          "float32_sha256": "a6af7117f480b6af1fc75e22d776e2331425fea933f625e89bf485e3bd2198c4",
+          "max_pcm16_error": 0.000015259254737998162
+        },
+        {
+          "variant": 3,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 119070,
+          "loop": false,
+          "wav_sha256": "ba6835cd194d3a1fe9c85c74f2aff89216317ac9d5a5a57b16a501293fb492ca",
+          "float32_sha256": "36d0f5129f8e680b77604ea372ce92a44b9ac02f6114941bc4c5e43352d6b892",
+          "max_pcm16_error": 0.000015259254737998162
+        }
+      ]
+    },
+    "mus_horn": {
+      "properties": {
+        "n": 4,
+        "sr": 22050,
+        "peak": 0.6,
+        "bus": "music",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 105840,
+          "loop": false,
+          "wav_sha256": "e3c5dace5a4dcdeb6213a771417433a0f2b8d34e1d9b284f048685f68e9d880b",
+          "float32_sha256": "9e4db40650cb7020da62ecd46f5050437ccfb3e3ec28cb5d786327b3cc0a35f3",
+          "max_pcm16_error": 0.000015259249238229987
+        },
+        {
+          "variant": 1,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 105840,
+          "loop": false,
+          "wav_sha256": "4e33d7131f027acc1979381870f230e28550611a5738e683a2073d0839c40b33",
+          "float32_sha256": "129428d154bdee4e3e2ca8d8010f6b6791280d50e015625fb0adc4ad65ecd4ad",
+          "max_pcm16_error": 0.000015259253046855277
+        },
+        {
+          "variant": 2,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 105840,
+          "loop": false,
+          "wav_sha256": "096bf9f849a735d375eea73d5fb7a0a80c3bf93b16f3b111ce41785a18c7720d",
+          "float32_sha256": "84cea51e4fd95d218948237f571f059383029b5a62d48643dc6555d91937f6a7",
+          "max_pcm16_error": 0.000015259248016059185
+        },
+        {
+          "variant": 3,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 105840,
+          "loop": false,
+          "wav_sha256": "c03dfe2398dd9aab34dd0c942d325d5aad4b76de821fc9b5e060538a8bbac424",
+          "float32_sha256": "7edd16b7d8b8a4135498a0b239b81e1e6caa04b778c25496574b28c7b6e2e960",
+          "max_pcm16_error": 0.000015258900024239797
+        }
+      ]
+    },
+    "mus_fill": {
+      "properties": {
+        "n": 3,
+        "sr": 16000,
+        "peak": 0.6,
+        "bus": "music",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 57600,
+          "loop": false,
+          "wav_sha256": "6842d548ef7c1cf86dfd3ccf3e4c8257149aef2b53ea87761e6b239373cb3ef1",
+          "float32_sha256": "abe776c902dddc5ca4219df26d869420d242bf40cb6ff35d061a7a9e7262e8d8",
+          "max_pcm16_error": 0.000015259232909459186
+        },
+        {
+          "variant": 1,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 57600,
+          "loop": false,
+          "wav_sha256": "72dbccada1a39ee0539376640f8d8421d387d4432a8d27cb85f42f7e4ef48aed",
+          "float32_sha256": "9ca86349c11bc63f3877c05226da7e72844cce7cb46206d26faa8a33aab397fd",
+          "max_pcm16_error": 0.00001525898415508098
+        },
+        {
+          "variant": 2,
+          "sample_rate": 16000,
+          "channels": 1,
+          "frames": 57600,
+          "loop": false,
+          "wav_sha256": "dfaf0b17172f39108fcb7cdaee1d22b38304b2930c8b3275a191bcd3aeed3fd5",
+          "float32_sha256": "885f2e5a499ab5ef9472d4483c1032498059c558fb632f73176e00bc4eb47f9d",
+          "max_pcm16_error": 0.000015258881606416974
+        }
+      ]
+    },
+    "mus_hit": {
+      "properties": {
+        "n": 2,
+        "sr": 22050,
+        "peak": 0.6,
+        "bus": "music",
+        "max": 2,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 101430,
+          "loop": false,
+          "wav_sha256": "f7d60ea879e0e974a93a33d9c3e6628f944ec26a73f7f96857d9c810b1c9e1f3",
+          "float32_sha256": "1c505a9c8cd77af369dcd05219c7309e58a5e0b667cbe6bf7fa631102985d9f0",
+          "max_pcm16_error": 0.000015258907154753858
+        },
+        {
+          "variant": 1,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 101430,
+          "loop": false,
+          "wav_sha256": "69a73c2f4ba546037ed1cb1c221298e8c09d3d7003e01db3e62e3bdabecd101c",
+          "float32_sha256": "fcfc83a77727b0ed49ca7c6fc3cc067f632f41c848c94528881cdaffc58b3982",
+          "max_pcm16_error": 0.000015259138905339593
+        }
+      ]
+    },
+    "mus_riser": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.6,
+        "bus": "music",
+        "max": 1,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 123480,
+          "loop": false,
+          "wav_sha256": "d22aec225b1725592ed52043be19c4952ab81e7d4149ddf4b5570190c1c1f4e1",
+          "float32_sha256": "b0ca32cc793d6a3f15f5ad20740ff815a93307b47c3bb646be9f8a5a249e124f",
+          "max_pcm16_error": 0.000015259139274833092
+        }
+      ]
+    },
+    "mus_impact": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.8,
+        "bus": "music",
+        "max": 1,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 110250,
+          "loop": false,
+          "wav_sha256": "9e481c52f83e8d492526a979dc666e38ff7875fd2f666f00c4f14ddfa04157c6",
+          "float32_sha256": "139d6ff2f04f6e05f3274b7333284dc263cbae569e18617feec02c60f45fde65",
+          "max_pcm16_error": 0.000015259252023642512
+        }
+      ]
+    },
+    "objective": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.7,
+        "bus": "music",
+        "max": 1,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 110250,
+          "loop": false,
+          "wav_sha256": "f7ba12f189b63eab7d5326a56d99ce937f10166c9e39ea4cfd19073f811ca3c8",
+          "float32_sha256": "91becb97c61b20f716c1488b31c3bec33f49fef01d28b9efd4822835918c9f3e",
+          "max_pcm16_error": 0.000015258884334984346
+        }
+      ]
+    },
+    "death": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.85,
+        "bus": "music",
+        "max": 1,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 114660,
+          "loop": false,
+          "wav_sha256": "048886ac3f432138ff1806758b137b5c22bed1401c51de54ef3765d49246e02b",
+          "float32_sha256": "143e6ef469f79797f5e6643221ecd9066ba628b849356bcb101cc11374120212",
+          "max_pcm16_error": 0.00001525902493435937
+        }
+      ]
+    },
+    "complete": {
+      "properties": {
+        "n": 1,
+        "sr": 22050,
+        "peak": 0.8,
+        "bus": "music",
+        "max": 1,
+        "pri": 9
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 22050,
+          "channels": 1,
+          "frames": 275625,
+          "loop": false,
+          "wav_sha256": "6812aa4d73e902fbfa52cf1dc619094960e0281b670f0a154c87c725c1b4babc",
+          "float32_sha256": "f12a0f5ab20a5ade7f5b1943881a454f587118841ac66be5cd66ebc19a8b921c",
+          "max_pcm16_error": 0.000015259251227810362
+        }
+      ]
+    },
+    "ir_outdoor": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.9,
+        "ir": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 48000,
+          "channels": 2,
+          "frames": 67200,
+          "loop": false,
+          "wav_sha256": "82b5e10d219d7a776ed909be2130880e76cc8fa2e035d1cf8633d1e65a5c0e89",
+          "float32_sha256": "b463ed7a1e5b8040563b7274f3c8a88932313fd287017128906bf5e78085e303",
+          "max_pcm16_error": 0.00001525924795921403
+        }
+      ]
+    },
+    "ir_shed": {
+      "properties": {
+        "n": 1,
+        "sr": 44100,
+        "peak": 0.9,
+        "ir": 1
+      },
+      "variants": [
+        {
+          "variant": 0,
+          "sample_rate": 48000,
+          "channels": 2,
+          "frames": 105600,
+          "loop": false,
+          "wav_sha256": "c721f467c891965cfee7e6c3132006b88ffb0829f37d1ce8b72b76daa9d19b0f",
+          "float32_sha256": "14609f1512e6a2da032946e2348ea731386ed5aa70586c4bbaab5d4c368a328b",
+          "max_pcm16_error": 0.0000152592514267684
+        }
+      ]
+    }
+  }
+}

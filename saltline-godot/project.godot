@@ -1,0 +1,17 @@
+config_version=5
+[application]
+config/name="Saltline — Godot replica"
+run/main_scene="res://scenes/boot.tscn"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="disabled"
+window/stretch/aspect="expand"
+[rendering]
+textures/default_filters/anisotropic_filtering_level=3
+renderer/rendering_method="forward_plus"
+saltline/source_depth_24=true
+anti_aliasing/quality/msaa_3d=2
+textures/default_filters/use_nearest_mipmap_filter=false
+[physics]
+common/physics_ticks_per_second=60

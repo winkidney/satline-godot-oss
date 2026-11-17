@@ -1,0 +1,6 @@
+{
+  "scope": "Aligned 695x118 crop on equal ink background; diagnostic difference, not an acceptance threshold or full title parity.",
+  "mean_absolute_rgb_0_255": 3.6026825996829657,
+  "pixels_max_channel_over_16": 0.08884282404584806,
+  "maximum_channel_difference": 250
+}

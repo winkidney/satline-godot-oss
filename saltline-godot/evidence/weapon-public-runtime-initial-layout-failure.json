@@ -1,0 +1,24 @@
+{
+  "checks": 33,
+  "failures": [
+    {
+      "frame": 30,
+      "message": "weapon choice buttons overlap"
+    },
+    {
+      "frame": 60,
+      "message": "weapon choice buttons overlap"
+    },
+    {
+      "frame": 60,
+      "message": "weapon choice buttons overlap"
+    },
+    {
+      "frame": 60,
+      "message": "weapon choice buttons overlap"
+    }
+  ],
+  "frames": 150,
+  "scope": "Actual Main/UI buttons select/persist source three weapon positions, live D, immediate equip/visibility/snap/wetness/ammo. Original public contract separately compared; not whole source lifecycle/image proof.",
+  "view": 3
+}

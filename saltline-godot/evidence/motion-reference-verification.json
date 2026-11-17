@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "name": "stationary"
+    },
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "name": "small"
+    },
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "name": "rotation"
+    },
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.0078125,
+      "mean_error": 0.000145941972732544,
+      "name": "translation"
+    },
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.005859375,
+      "mean_error": 0.000177890062332153,
+      "name": "fast_rotation"
+    },
+    {
+      "camera_matrix_error": 0.0000057220458984375,
+      "failing_channels": 0,
+      "maximum_error": 0.00390625,
+      "mean_error": 0.000144928693771362,
+      "name": "combined"
+    }
+  ],
+  "channels": 49152,
+  "failures": [],
+  "scope": "Actual original Three Z9 HalfFloat output vs native motion shader, same original matrices/depth/colour. Six stationary/threshold/rotation/translation/fast/combined cases. Tolerance max(.004,.3percent). Native camera matrix generation tested separately."
+}

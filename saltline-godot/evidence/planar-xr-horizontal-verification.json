@@ -1,0 +1,59 @@
+{
+  "capture_ready": true,
+  "cases": [
+    {
+      "clipped": false,
+      "counts": {
+        "blue": 96,
+        "green": 137,
+        "red": 111
+      },
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "clipped": true,
+      "counts": {
+        "blue": 96,
+        "green": 137,
+        "red": 0
+      },
+      "size": [
+        256,
+        128
+      ]
+    },
+    {
+      "clipped": false,
+      "counts": {
+        "blue": 96,
+        "green": 137,
+        "red": 111
+      },
+      "size": [
+        256,
+        128
+      ]
+    }
+  ],
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique",
+    "string": "4.7.2-stable.saltline_oblique (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "generated_mips": 8,
+  "horizontal": true,
+  "last_mip_green": 0.0167236328125,
+  "maximum_green_hdr": 4.0,
+  "projection_calls": 18,
+  "scope": "Experimental mono XR projection transport: actual unshaded above/below-plane markers, original oblique matrix, isolated non-XR main viewport byte comparison, switch and restore. POST_TRANSPARENT RGBA16F copy preserves unshaded green4. Includes actual generated HDR mip chain presence/nonzero tail; no PBR/cascade proof."
+}

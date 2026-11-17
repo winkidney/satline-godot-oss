@@ -1,0 +1,10 @@
+{
+  "checks": 13500,
+  "failures": [],
+  "maximum_error": 0.000000269412797404556,
+  "scope": "Literal original vS startDrop/dropUpdate/restore with real relaxed pose and original Three math; mocked Fh records solver inputs. Two drop/restore cycles, dt0/large dt, hide timing and RNG. No Fh bones/production/render proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "stage_sha256": "59a932b2961067045edcd0f59231361e3910a3c443ff87589c607f981e6a608d",
+  "steps": 180,
+  "tolerance": 0.000002
+}

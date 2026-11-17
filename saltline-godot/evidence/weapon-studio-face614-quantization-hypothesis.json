@@ -1,0 +1,58 @@
+{
+  "face": 614,
+  "sample": [
+    660.875,
+    359.625
+  ],
+  "cases": [
+    {
+      "case": "original_cpu_projection",
+      "screen": [
+        [
+          660.6760875592975,
+          359.1443698698686
+        ],
+        [
+          661.4580468428516,
+          361.03313446350285
+        ],
+        [
+          660.6704834003402,
+          359.12346750411814
+        ]
+      ],
+      "barycentric": [
+        0.769127111871644,
+        0.2542097287148507,
+        -0.023336840586494635
+      ],
+      "inside": false,
+      "area_pixel2": 0.002879930965665121
+    },
+    {
+      "case": "candidate_round_1_256",
+      "screen": [
+        [
+          660.67578125,
+          359.14453125
+        ],
+        [
+          661.45703125,
+          361.03125
+        ],
+        [
+          660.671875,
+          359.125
+        ]
+      ],
+      "barycentric": [
+        0.6808510638249363,
+        0.25531914893622876,
+        0.06382978723883483
+      ],
+      "inside": true,
+      "area_pixel2": 0.003944396972656248
+    }
+  ],
+  "scope": "CPU candidate raster quantization hypothesis only. NumPy round-to-nearest-even is not proof of GL/Vulkan hardware quantization rule."
+}

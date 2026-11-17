@@ -1,0 +1,47 @@
+{
+  "arm_groups": 2,
+  "arm_wetness": 0.7,
+  "blend": [],
+  "custom_gun": [],
+  "failures": [],
+  "frames": 12,
+  "grip": [],
+  "grip_inputs": {
+    "l": {
+      "anchor": [
+        0.139458149671555,
+        -0.0926474556326866,
+        -0.456016182899475
+      ],
+      "quaternion": [
+        0.0278258174657822,
+        0.0609480515122414,
+        -0.0367117151618004,
+        0.997077405452728
+      ],
+      "socket": "pistol_support"
+    },
+    "r": {
+      "anchor": [
+        0.139458149671555,
+        -0.0926474556326866,
+        -0.456016182899475
+      ],
+      "quaternion": [
+        0.0278258174657822,
+        0.0609480515122414,
+        -0.0367117151618004,
+        0.997077405452728
+      ],
+      "socket": "pistol_grip"
+    }
+  },
+  "held": "pistol",
+  "pose": "relaxed",
+  "pose_updates": 1,
+  "scope": "Original TD static studio views with live Fh finger/trigger updates, world layer and original straight arm chain. Default TD fp rifle/pistol sockets included; custom hgun/hgrip inputs included; no full-frame original pixel parity claim.",
+  "studio_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+  "trigger": 0.7,
+  "trigger_first": 0.7,
+  "view": "fp"
+}

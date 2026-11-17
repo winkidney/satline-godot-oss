@@ -1,0 +1,14 @@
+${ao}
+uniform sampler2D tSrc; uniform vec2 uDir; uniform float uThreshold;
+${sv}
+void main(){
+  float thr = uThreshold / max(slExposure(), 0.2);
+  vec3 acc = vec3(0.0); float ws = 0.0;
+  for (int i = -7; i <= 7; i++) {
+    float x = float(i); float w = exp(-x * x / 18.0);
+    vec3 c = texture2D(tSrc, vUv + uDir * x).rgb;
+    c = max(c - vec3(thr), vec3(0.0));
+    acc += c * w; ws += w;
+  }
+  gl_FragColor = vec4(acc / ws, 1.0);
+}

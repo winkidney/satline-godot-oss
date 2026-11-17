@@ -1,0 +1,13 @@
+{
+  "actual_script_arg_present": true,
+  "cases": 36,
+  "checks": 82340,
+  "events": 44,
+  "failures": [],
+  "frames": 7494,
+  "maximum_error": 0.000000000000007105427357601,
+  "method_sha256": "c4bbea97f36cc41c8b8df6e83004e52ca9f1a2e3d19ffdb6b241d7f214b62d09",
+  "native_configuration_checks": 5,
+  "scope": "Literal original render R(G), state and direct resize/setQuality/quality:auto calls; settling, disabled/no-post, >1500ms, strict averages, quality floor and recovery. Controlled timings, no performance claim.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

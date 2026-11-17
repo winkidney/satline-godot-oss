@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "calls": 16881,
+      "quality": "test",
+      "state": 471801493,
+      "timer": 36.5674464700278
+    },
+    {
+      "calls": 20841,
+      "quality": "low",
+      "state": 3567625325,
+      "timer": 46.7036868648138
+    },
+    {
+      "calls": 32721,
+      "quality": "medium",
+      "state": 4265162229,
+      "timer": 37.8625086827669
+    },
+    {
+      "calls": 40641,
+      "quality": "high",
+      "state": 1866875301,
+      "timer": 31.2296545917634
+    },
+    {
+      "calls": 40641,
+      "quality": "ultra",
+      "state": 1866875301,
+      "timer": 31.2296545917634
+    }
+  ],
+  "failures": [],
+  "float32_components": 151720,
+  "scope": "Original literal Vw and su, original Gw counts and initial timer. Constructor arrays, not whole-game cold-quality proof."
+}

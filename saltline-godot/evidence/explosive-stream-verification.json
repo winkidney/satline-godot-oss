@@ -1,0 +1,12 @@
+{
+  "checks": 8180,
+  "failures": [],
+  "leak_checks": 40,
+  "maximum_error": 0.00000000116450782350341,
+  "methods_sha256": "43bb282a3409241daa5090a7136d9c6ebaaa550807cbcdf05f04e571df67b232",
+  "rng_comparison": "exact state/count",
+  "scope": "Literal original explosion event callback and explosives.update dt0 leak branch; source positions quantized to native storage before original evaluation. Source su post15 baked yaw draws. FX/light request receivers mocked; no particle random/output proof. Actual Native explosives and actual FX sparks/smoke receivers; FX request order and separate random consumption checked, not FX particle numeric output.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 180,
+  "vector_tolerance": 0.000002
+}

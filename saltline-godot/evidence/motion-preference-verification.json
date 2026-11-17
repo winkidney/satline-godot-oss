@@ -1,0 +1,26 @@
+{
+  "checks": 56,
+  "failures": [],
+  "platform_value": 0,
+  "profiles": [
+    {
+      "cue_alpha": 0.349999994039536,
+      "feed_duration": 0.5,
+      "hit": [
+        1,
+        1.01277862115688
+      ],
+      "reduced": false
+    },
+    {
+      "cue_alpha": 1.0,
+      "feed_duration": 0.00001,
+      "hit": [
+        1,
+        1.01277862115688
+      ],
+      "reduced": true
+    }
+  ],
+  "scope": "Actual GameUI platform wiring and production CSS helpers/components. Both preference responses injected only at policy boundary because Linux backend may return unsupported. Original Chrome CSS dual profiles/live-switch reference, pseudo-element/root exemptions, actual urgent-cue draw and objective GPU color, unchanged lifetimes/typing/WAAPI. No claim of a real OS reduced preference on unsupported backend."
+}

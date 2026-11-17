@@ -1,0 +1,10 @@
+{
+  "bounces": 4,
+  "failures": [],
+  "fields_compared": 8320,
+  "frames": 260,
+  "max_matrix_error": 0.0000000223517418046493,
+  "random_alignment": "Only initial axis, angle and spin aligned to original random values",
+  "remaining": 0,
+  "settled": 2
+}

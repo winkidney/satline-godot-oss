@@ -1,0 +1,25 @@
+{
+  "regions": {
+    "full": {
+      "mae": 0.002553223720043573,
+      "max": 0.13725490196078433
+    },
+    "concrete": {
+      "mae": 0.004077650960881865,
+      "max": 0.050980392156862786
+    },
+    "metal": {
+      "mae": 0.0019648385125723604,
+      "max": 0.13725490196078433
+    },
+    "wood": {
+      "mae": 0.004985597075709716,
+      "max": 0.03529411764705881
+    },
+    "ground": {
+      "mae": 0.00126301949351169,
+      "max": 0.027450980392156876
+    }
+  },
+  "scope": "Final albedo diagnostic after source material color patch, unlit output before normal post. Not direct HDR pixel comparison; edges/debris/post still present."
+}

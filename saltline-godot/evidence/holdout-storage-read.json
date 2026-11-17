@@ -1,0 +1,12 @@
+{
+  "failures": [],
+  "isolated_path": "/tmp/saltline-holdout-process-check-179478.json",
+  "phase": "read",
+  "result": {
+    "best": 2400.5,
+    "kills": 12,
+    "record": false,
+    "score": 900,
+    "waves": 2
+  }
+}

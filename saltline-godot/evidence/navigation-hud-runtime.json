@@ -1,0 +1,336 @@
+{
+  "cut": 3,
+  "frames": 780,
+  "radio_lines": [
+    {
+      "frame": 113,
+      "text": "Breacher, this is Control. The Harbormaster holds the berth. Cut its three uplinks — yard, shed, quay."
+    },
+    {
+      "frame": 472,
+      "text": "It has seen you. Gulls fly, Hounds walk. Put them down."
+    },
+    {
+      "frame": 722,
+      "text": "One relay dark. It felt that — machines inbound."
+    }
+  ],
+  "scope": "Native navigation HUD in real game scene; automated camera sweep/ADS, direct cut_relay calls to verify marker lifecycle, not manual relay interaction acceptance",
+  "snapshots": [
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 170,
+      "heading": 90.0,
+      "markers": [
+        {
+          "compass": 10,
+          "dim": true,
+          "distance": 34,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "A",
+          "x": 661,
+          "y": 357
+        },
+        {
+          "compass": -161,
+          "dim": false,
+          "distance": 39,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "B",
+          "x": 234,
+          "y": 356
+        },
+        {
+          "compass": -25,
+          "dim": true,
+          "distance": 55,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "C",
+          "x": 588,
+          "y": 358
+        }
+      ]
+    },
+    {
+      "ads": 1.0,
+      "crosshair": {
+        "gap": 5.0,
+        "visible": false
+      },
+      "frame": 215,
+      "heading": 90.0,
+      "markers": [
+        {
+          "compass": 10,
+          "dim": true,
+          "distance": 34,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "A",
+          "x": 673,
+          "y": 355
+        },
+        {
+          "compass": -161,
+          "dim": false,
+          "distance": 39,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "B",
+          "x": 64,
+          "y": 354
+        },
+        {
+          "compass": -25,
+          "dim": true,
+          "distance": 55,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "C",
+          "x": 560,
+          "y": 357
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 300,
+      "heading": 124.941459853282,
+      "markers": [
+        {
+          "compass": -130,
+          "dim": false,
+          "distance": 34,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "A",
+          "x": 337,
+          "y": 362
+        },
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 39,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "B",
+          "x": 64,
+          "y": 358
+        },
+        {
+          "compass": -165,
+          "dim": false,
+          "distance": 55,
+          "edge": false,
+          "kind": "relay",
+          "near": false,
+          "offscreen": false,
+          "short": "C",
+          "x": 222,
+          "y": 364
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.5,
+        "visible": true
+      },
+      "frame": 440,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 34,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "A",
+          "x": 64,
+          "y": 351
+        },
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 39,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "B",
+          "x": 64,
+          "y": 320
+        },
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 55,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "C",
+          "x": 64,
+          "y": 349
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 460,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 39,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "B",
+          "x": 64,
+          "y": 326
+        },
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 55,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "C",
+          "x": 64,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 520,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 55,
+          "edge": true,
+          "kind": "relay",
+          "near": false,
+          "offscreen": true,
+          "short": "C",
+          "x": 64,
+          "y": 351
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 590,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 63,
+          "edge": true,
+          "kind": "extract",
+          "near": false,
+          "offscreen": true,
+          "short": "EX",
+          "x": 64,
+          "y": 364
+        }
+      ]
+    },
+    {
+      "ads": 1.0,
+      "crosshair": {
+        "gap": 5.0,
+        "visible": false
+      },
+      "frame": 675,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 63,
+          "edge": true,
+          "kind": "extract",
+          "near": false,
+          "offscreen": true,
+          "short": "EX",
+          "x": 64,
+          "y": 364
+        }
+      ]
+    },
+    {
+      "ads": 0.0,
+      "crosshair": {
+        "gap": 10.0,
+        "visible": true
+      },
+      "frame": 730,
+      "heading": 193.126489341791,
+      "markers": [
+        {
+          "compass": -196,
+          "dim": false,
+          "distance": 63,
+          "edge": true,
+          "kind": "extract",
+          "near": false,
+          "offscreen": true,
+          "short": "EX",
+          "x": 64,
+          "y": 364
+        }
+      ]
+    }
+  ]
+}

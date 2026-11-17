@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><script>
+window.ready=(async()=>{
+ const text=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(text.slice(0,text.indexOf('  var Kn = {'))+'return ut;})()');
+ const spec=await(await fetch('weapon_hash_diagnostic.json')).json(),renderer=new T.WebGLRenderer();renderer.debug.onShaderError=(gl,p,vs,fs)=>{throw Error(gl.getShaderInfoLog(fs)||gl.getProgramInfoLog(p));};renderer.setSize(2,1);
+ const scene=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));scene.add(quad);const target=new T.WebGLRenderTarget(2,1,{type:T.HalfFloatType,depthBuffer:false}),cases=[];
+ const decode=p=>{const bytes=[p[0],p[1],p[2],p[4]].map(x=>Math.round(T.DataUtils.fromHalfFloat(x)));const view=new DataView(new Uint8Array(bytes).buffer);return {bytes,bits:view.getUint32(0,true),value:view.getFloat32(0,true)};};
+ for(const mode of spec.modes){if(mode.native_only)continue;
+  const uniforms={uP:{value:new T.Vector3()},uAngle:{value:0},uGuard:{value:0}};
+  const fragmentShader=spec.common+'\nvoid main(){float value='+mode.expression+';uint bits=floatBitsToUint(value);gl_FragColor=gl_FragCoord.x<1.0?vec4(float(bits&255u),float((bits>>8u)&255u),float((bits>>16u)&255u),1):vec4(float((bits>>24u)&255u),0,0,1);}';
+  quad.material=new T.ShaderMaterial({uniforms,vertexShader:'void main(){gl_Position=vec4(position.xy,0,1);}',fragmentShader,depthTest:false,depthWrite:false,blending:T.NoBlending});
+  for(const sample of spec.cases){uniforms.uP.value.fromArray(sample.point);uniforms.uAngle.value=sample.angle;renderer.setRenderTarget(target);renderer.render(scene,camera);const pixels=new Uint16Array(8);renderer.readRenderTargetPixels(target,0,0,2,1,pixels);cases.push({case:sample.name,mode:mode.name,...decode(pixels)});}
+  quad.material.dispose();
+ }
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {schema:1,cases,backend:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),scope:'Independent literal dot/sin/multiply/fract and runtime-zero-guard variants. Each float encoded into four exact byte channels across two RGBA16F pixels; alpha always1. Uniform integer lattice inputs, uniform angle controls. Diagnostic only; original weapon fixture remains unchanged.'};
+})();</script>

@@ -1,0 +1,10 @@
+{
+  "checks": 352,
+  "css_samples": 14,
+  "failures": [],
+  "maximum_css_error": 0.0000470588235295111,
+  "methods_sha256": "f5aea28015f9aa882d613b20bee344c6823f73a6dfd3232fc90c72112b912f20",
+  "scope": "Browser original CSS warning opacity/spacing, literal original warning/message methods and timer block; HUD gate, zero/negative duration quirks. No glyph pixel comparison.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "timer_steps": 81
+}

@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "changed_shader_outputs": [],
+  "stderr": "",
+  "scope": "Generator executed only in an isolated temporary project with read-only original shader inputs; production shaders untouched."
+}

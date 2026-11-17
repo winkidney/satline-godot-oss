@@ -1,0 +1,45 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r4",
+  "manifest_files": 4141,
+  "bytes": 2195143947,
+  "integrity_failures": [],
+  "logs": {
+    "high": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "low": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "integration": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "catalog": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    }
+  },
+  "integration": {
+    "backdrop_bindings": [
+      "boat",
+      "spreader",
+      "hull",
+      "radar"
+    ],
+    "executable": "<PROJECT_ROOT>/output/linux-runtime-20261116-r4/engine/godot",
+    "failures": [],
+    "project_path": "<PROJECT_ROOT>/output/linux-runtime-20261116-r4/",
+    "quality": "low",
+    "query_resolution": 512,
+    "rain_instances": 4760,
+    "scope": "Packaged actual Main low startup, injected focus-loss pause, backdrop/rain freeze and actual Resume button, GPU capture. Not OS focus delivery, whole pixel parity, full mission or performance.",
+    "splash_instances": 450
+  },
+  "scope": "Linux development bundle launched from /tmp with isolated user data and bundled engine. High/low eight-frame boots, packaged Main pause/resume integration and low dry catalog six GPU mip hashes. External verification script only loads res:// package resources; tools/research are not included. Not PCK release, other-device qualification or complete visual fidelity."
+}

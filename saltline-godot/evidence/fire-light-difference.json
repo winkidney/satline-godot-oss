@@ -1,0 +1,25 @@
+{
+  "scope": "Actual native persistent fire light on/off with FX simulation and world dt frozen; diagnostic image changes, not a browser parity or exact light-isolation gate.",
+  "regions": {
+    "full": {
+      "mean_absolute_rgb_0_255": 5.746593967013889,
+      "pixels_max_channel_over_3": 381690,
+      "pixels": 921600
+    },
+    "container": {
+      "mean_absolute_rgb_0_255": 9.441623106060606,
+      "pixels_max_channel_over_3": 141694,
+      "pixels": 176000
+    },
+    "weapon": {
+      "mean_absolute_rgb_0_255": 16.62554379776602,
+      "pixels_max_channel_over_3": 56686,
+      "pixels": 113400
+    },
+    "ground": {
+      "mean_absolute_rgb_0_255": 12.518571428571429,
+      "pixels_max_channel_over_3": 74537,
+      "pixels": 98000
+    }
+  }
+}

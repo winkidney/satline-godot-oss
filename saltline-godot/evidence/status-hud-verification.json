@@ -1,0 +1,6 @@
+{
+  "cases": 800,
+  "comparisons": 9600,
+  "failures": [],
+  "scope": "Actual original HUD ammo/health block; magazine fallback/clamp, counts/reserve/infinity, cue precedence, low/urgent, keyboard/pad/touch text, ceil health/segments and critical thresholds. Pixel layout/transitions separate."
+}

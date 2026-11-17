@@ -1,0 +1,25 @@
+{
+  "checks": 1732,
+  "maximum_error": 1.907348675445064e-06,
+  "pools": {
+    "fx_lit": {
+      "particles": 55,
+      "attributes": 880,
+      "maximum_error": 5.36441802756471e-07
+    },
+    "fx_add": {
+      "particles": 53,
+      "attributes": 848,
+      "maximum_error": 1.907348675445064e-06
+    }
+  },
+  "source_fx_clock": 0.55,
+  "native_fx_clock": 0.55,
+  "snapshot_draws": 1403,
+  "failures": [],
+  "inputs": {
+    "fx-showcase-source.json": "57b23097e3a42830c90b4a218d9079e15af67f5c56fe87ee197b0b76456c2267",
+    "fx-showcase-native-state.json": "4f391ffef39b2f05ad8eb3685f1f1bbaeb206897b85f318c70de5df76145ebd5"
+  },
+  "scope": "Actual original GPU instance attributes vs native float32 quads at FXclock.55/age.5. Single explosion/tape snapshot; not shader, blending, depth, post or whole-game parity."
+}

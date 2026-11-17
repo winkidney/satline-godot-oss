@@ -1,0 +1,2834 @@
+{
+  "baseline": {
+    "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+    "ready": true,
+    "fatal": null,
+    "errors": [],
+    "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "extensions": [
+      "EXT_clip_control",
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_conservative_depth",
+      "EXT_depth_clamp",
+      "EXT_disjoint_timer_query_webgl2",
+      "EXT_float_blend",
+      "EXT_polygon_offset_clamp",
+      "EXT_render_snorm",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "EXT_texture_mirror_clamp_to_edge",
+      "EXT_texture_norm16",
+      "KHR_parallel_shader_compile",
+      "NV_shader_noperspective_interpolation",
+      "OES_draw_buffers_indexed",
+      "OES_sample_variables",
+      "OES_shader_multisample_interpolation",
+      "OES_texture_float_linear",
+      "WEBGL_blend_func_extended",
+      "WEBGL_clip_cull_distance",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc",
+      "WEBGL_compressed_texture_s3tc_srgb",
+      "WEBGL_debug_renderer_info",
+      "WEBGL_debug_shaders",
+      "WEBGL_lose_context",
+      "WEBGL_multi_draw",
+      "WEBGL_polygon_mode",
+      "WEBGL_stencil_texturing"
+    ],
+    "quality": {
+      "name": "high",
+      "scale": 1,
+      "msaa": 4,
+      "shadow": 4096,
+      "tex": 1024,
+      "volSteps": 24,
+      "ao": true,
+      "planar": 0.5,
+      "bloom": true,
+      "motionBlur": true,
+      "rain": 1
+    },
+    "stats": {
+      "calls": 640,
+      "tris": 3125058,
+      "geos": 259,
+      "tex": 164,
+      "programs": 157,
+      "res": [
+        1280,
+        720
+      ],
+      "scale": 1,
+      "advanced": true,
+      "softShadows": true,
+      "adapt": {
+        "lum": 0.2102,
+        "auto": 0.621,
+        "sunVis": 1
+      },
+      "fps": 42.4,
+      "state": "playing"
+    },
+    "tune": {
+      "volSunScale": 0.85,
+      "volAmbient": 0.2,
+      "volSigma": 0.0034,
+      "volMaxDist": 170,
+      "volFarHaze": 0.42,
+      "volInteriorDust": 6,
+      "aoRadius": 0.9,
+      "aoIntensity": 1.6,
+      "aoStrength": 0.95,
+      "bloom": 0.065,
+      "bloomMix": 0.62,
+      "dirt": 0.1,
+      "streak": 0.03,
+      "streakThreshold": 2.2,
+      "flare": 0.16,
+      "key": 0.12,
+      "minExposure": 0.6,
+      "maxExposure": 2,
+      "adaptTau": 1.5,
+      "agxMix": 0.25,
+      "ca": 0.0013,
+      "vignette": 0.3,
+      "grain": 0,
+      "sharpen": 0.3,
+      "lookPower": 1.18,
+      "lookSat": 1.22
+    },
+    "camera": {
+      "position": [
+        -32,
+        1.68,
+        6
+      ],
+      "matrix": [
+        2.220446049250313e-16,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2.220446049250313e-16,
+        0,
+        -32,
+        1.68,
+        6,
+        1
+      ],
+      "fov": 74
+    },
+    "time": {
+      "t": 0.050000001,
+      "dt": 0.016666667,
+      "frame": 3,
+      "real": 4.826800000011921
+    },
+    "materials": {
+      "sets": 24,
+      "textureMB": 111.6,
+      "genMs": 418,
+      "decalMB": 50.8
+    },
+    "autoExposure": false
+  },
+  "captures": [
+    {
+      "name": "harbor-baseline",
+      "file": "artifact-rendering-study/output/playwright/harbor-baseline.png",
+      "settings": {},
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 157,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2102,
+            "auto": 0.621,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-baseline.png"
+    },
+    {
+      "name": "harbor-no-ao",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-ao.png",
+      "settings": {
+        "quality": {
+          "ao": false
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": false,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 637,
+          "tris": 3125055,
+          "geos": 259,
+          "tex": 164,
+          "programs": 157,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2196,
+            "auto": 0.6,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-ao.png"
+    },
+    {
+      "name": "harbor-no-volume",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-volume.png",
+      "settings": {
+        "quality": {
+          "volSteps": 0
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 0,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 637,
+          "tris": 3125055,
+          "geos": 259,
+          "tex": 164,
+          "programs": 157,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.1768,
+            "auto": 0.72,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-volume.png"
+    },
+    {
+      "name": "harbor-no-planar",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-planar.png",
+      "settings": {
+        "planar": false
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 416,
+          "tris": 2101292,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2502,
+            "auto": 0.6,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-planar.png"
+    },
+    {
+      "name": "harbor-no-bloom",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-bloom.png",
+      "settings": {
+        "quality": {
+          "bloom": false
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": false,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 627,
+          "tris": 3125045,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.1332,
+            "auto": 0.915,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-bloom.png"
+    },
+    {
+      "name": "harbor-no-lens",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-lens.png",
+      "settings": {
+        "tune": {
+          "flare": 0,
+          "dirt": 0,
+          "streak": 0,
+          "ca": 0,
+          "vignette": 0,
+          "sharpen": 0
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2083,
+            "auto": 0.626,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0,
+          "streak": 0,
+          "streakThreshold": 2.2,
+          "flare": 0,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0,
+          "vignette": 0,
+          "grain": 0,
+          "sharpen": 0,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-lens.png"
+    },
+    {
+      "name": "harbor-aces-only",
+      "file": "artifact-rendering-study/output/playwright/harbor-aces-only.png",
+      "settings": {
+        "tune": {
+          "agxMix": 0
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2102,
+            "auto": 0.621,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-aces-only.png"
+    },
+    {
+      "name": "harbor-agx-only",
+      "file": "artifact-rendering-study/output/playwright/harbor-agx-only.png",
+      "settings": {
+        "tune": {
+          "agxMix": 1
+        }
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.2102,
+            "auto": 0.621,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 1,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-agx-only.png"
+    },
+    {
+      "name": "harbor-no-sun",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-sun.png",
+      "settings": {
+        "sun": 0
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.0957,
+            "auto": 1.212,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-sun.png"
+    },
+    {
+      "name": "harbor-no-ibl",
+      "file": "artifact-rendering-study/output/playwright/harbor-no-ibl.png",
+      "settings": {
+        "ibl": 0
+      },
+      "metadata": {
+        "url": "http://127.0.0.1:8793/research/index.html?q=high&shot=1&noaudio=1&step=1&dt=0.016666667",
+        "ready": true,
+        "fatal": null,
+        "errors": [],
+        "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "extensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_astc",
+          "WEBGL_compressed_texture_etc",
+          "WEBGL_compressed_texture_etc1",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_stencil_texturing"
+        ],
+        "quality": {
+          "name": "high",
+          "scale": 1,
+          "msaa": 4,
+          "shadow": 4096,
+          "tex": 1024,
+          "volSteps": 24,
+          "ao": true,
+          "planar": 0.5,
+          "bloom": true,
+          "motionBlur": true,
+          "rain": 1
+        },
+        "stats": {
+          "calls": 640,
+          "tris": 3125058,
+          "geos": 259,
+          "tex": 164,
+          "programs": 160,
+          "res": [
+            1280,
+            720
+          ],
+          "scale": 1,
+          "advanced": true,
+          "softShadows": true,
+          "adapt": {
+            "lum": 0.1461,
+            "auto": 0.846,
+            "sunVis": 1
+          },
+          "fps": 42.4,
+          "state": "playing"
+        },
+        "tune": {
+          "volSunScale": 0.85,
+          "volAmbient": 0.2,
+          "volSigma": 0.0034,
+          "volMaxDist": 170,
+          "volFarHaze": 0.42,
+          "volInteriorDust": 6,
+          "aoRadius": 0.9,
+          "aoIntensity": 1.6,
+          "aoStrength": 0.95,
+          "bloom": 0.065,
+          "bloomMix": 0.62,
+          "dirt": 0.1,
+          "streak": 0.03,
+          "streakThreshold": 2.2,
+          "flare": 0.16,
+          "key": 0.12,
+          "minExposure": 0.6,
+          "maxExposure": 2,
+          "adaptTau": 1.5,
+          "agxMix": 0.25,
+          "ca": 0.0013,
+          "vignette": 0.3,
+          "grain": 0,
+          "sharpen": 0.3,
+          "lookPower": 1.18,
+          "lookSat": 1.22
+        },
+        "camera": {
+          "position": [
+            -32,
+            1.68,
+            6
+          ],
+          "matrix": [
+            2.220446049250313e-16,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            2.220446049250313e-16,
+            0,
+            -32,
+            1.68,
+            6,
+            1
+          ],
+          "fov": 74
+        },
+        "time": {
+          "t": 0.050000001,
+          "dt": 0.016666667,
+          "frame": 3,
+          "real": 4.826800000011921
+        },
+        "materials": {
+          "sets": 24,
+          "textureMB": 111.6,
+          "genMs": 418,
+          "decalMB": 50.8
+        },
+        "autoExposure": false
+      },
+      "archived_file": "captures/harbor-no-ibl.png"
+    }
+  ],
+  "gpu": {
+    "pending": 0,
+    "results": [
+      {
+        "name": "post-depthcopy",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.065536,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthhalf",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.050176,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.021504,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.021504,
+        "disjoint": false
+      },
+      {
+        "name": "post-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.188416,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.022528,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.022528,
+        "disjoint": false
+      },
+      {
+        "name": "post-composite",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.070656,
+        "disjoint": false
+      },
+      {
+        "name": "post-motion",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.055296,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.039936,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.02048,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.012288,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.011264,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          20,
+          11
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.01536,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.034816,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.011264,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-adapt",
+        "size": [
+          1,
+          1
+        ],
+        "ms": 0.011264,
+        "disjoint": false
+      },
+      {
+        "name": "post-grade",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.167936,
+        "disjoint": false
+      },
+      {
+        "name": "post-final",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.068608,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthcopy",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.065536,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthhalf",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.049152,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.021504,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.02048,
+        "disjoint": false
+      },
+      {
+        "name": "post-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.186368,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.022528,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.021504,
+        "disjoint": false
+      },
+      {
+        "name": "post-composite",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.070656,
+        "disjoint": false
+      },
+      {
+        "name": "post-motion",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.05632,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.039936,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.021504,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.012288,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          20,
+          11
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.01536,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.028672,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.011264,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-adapt",
+        "size": [
+          1,
+          1
+        ],
+        "ms": 0.012288,
+        "disjoint": false
+      },
+      {
+        "name": "post-grade",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.167936,
+        "disjoint": false
+      },
+      {
+        "name": "post-final",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.069632,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthcopy",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.055296,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthhalf",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.016384,
+        "disjoint": false
+      },
+      {
+        "name": "post-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.043008,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.019456,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.160768,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.02048,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.019456,
+        "disjoint": false
+      },
+      {
+        "name": "post-composite",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.060416,
+        "disjoint": false
+      },
+      {
+        "name": "post-motion",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.048128,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.034816,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          20,
+          11
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.013312,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.0256,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-adapt",
+        "size": [
+          1,
+          1
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-grade",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.144384,
+        "disjoint": false
+      },
+      {
+        "name": "post-final",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.059392,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthcopy",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.055296,
+        "disjoint": false
+      },
+      {
+        "name": "post-depthhalf",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.017408,
+        "disjoint": false
+      },
+      {
+        "name": "post-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.044032,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.019456,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-ao",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.16896,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.02048,
+        "disjoint": false
+      },
+      {
+        "name": "post-blur-vol",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.019456,
+        "disjoint": false
+      },
+      {
+        "name": "post-composite",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.059392,
+        "disjoint": false
+      },
+      {
+        "name": "post-motion",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.049152,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.034816,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.018432,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-down",
+        "size": [
+          20,
+          11
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          40,
+          22
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          80,
+          45
+        ],
+        "ms": 0.008192,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          320,
+          180
+        ],
+        "ms": 0.013312,
+        "disjoint": false
+      },
+      {
+        "name": "post-up",
+        "size": [
+          640,
+          360
+        ],
+        "ms": 0.0256,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.01024,
+        "disjoint": false
+      },
+      {
+        "name": "post-streak",
+        "size": [
+          160,
+          90
+        ],
+        "ms": 0.009216,
+        "disjoint": false
+      },
+      {
+        "name": "post-adapt",
+        "size": [
+          1,
+          1
+        ],
+        "ms": 0.011264,
+        "disjoint": false
+      },
+      {
+        "name": "post-grade",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.144384,
+        "disjoint": false
+      },
+      {
+        "name": "post-final",
+        "size": [
+          1280,
+          720
+        ],
+        "ms": 0.059392,
+        "disjoint": false
+      }
+    ]
+  },
+  "buffers": {
+    "scene": [
+      1280,
+      720
+    ],
+    "motion": [
+      1280,
+      720
+    ],
+    "ldr": [
+      1280,
+      720
+    ],
+    "depthHalf": [
+      640,
+      360
+    ],
+    "aoA": [
+      640,
+      360
+    ],
+    "aoB": [
+      640,
+      360
+    ],
+    "volA": [
+      640,
+      360
+    ],
+    "volB": [
+      640,
+      360
+    ],
+    "down": [
+      [
+        640,
+        360
+      ],
+      [
+        320,
+        180
+      ],
+      [
+        160,
+        90
+      ],
+      [
+        80,
+        45
+      ],
+      [
+        40,
+        22
+      ],
+      [
+        20,
+        11
+      ]
+    ],
+    "up": [
+      [
+        640,
+        360
+      ],
+      [
+        320,
+        180
+      ],
+      [
+        160,
+        90
+      ],
+      [
+        80,
+        45
+      ],
+      [
+        40,
+        22
+      ]
+    ],
+    "streakA": [
+      160,
+      90
+    ],
+    "streakB": [
+      160,
+      90
+    ],
+    "adapt": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "dirt": [
+      512,
+      288
+    ],
+    "depthCopy": [
+      1280,
+      720
+    ]
+  },
+  "note": "Frozen scene, dt=1/60, fixed manual exposure 0.7, grain disabled. GPU queries cover post passes only; step-mode fps is not performance.",
+  "exported_assets": [
+    {
+      "file": "buffer-scene.png",
+      "width": 1280,
+      "height": 720,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "hdr",
+      "channel": null,
+      "scale": 1
+    },
+    {
+      "file": "buffer-depthHalf.png",
+      "width": 640,
+      "height": 360,
+      "type": 1015,
+      "format": 1028,
+      "channels": 1,
+      "mode": "raw",
+      "channel": 0,
+      "scale": 0.02
+    },
+    {
+      "file": "buffer-aoA.png",
+      "width": 640,
+      "height": 360,
+      "type": 1009,
+      "format": 1023,
+      "channels": 4,
+      "mode": "raw",
+      "channel": 0,
+      "scale": 1
+    },
+    {
+      "file": "buffer-volA.png",
+      "width": 640,
+      "height": 360,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "hdr",
+      "channel": null,
+      "scale": 1
+    },
+    {
+      "file": "buffer-volA-transmittance.png",
+      "width": 640,
+      "height": 360,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "raw",
+      "channel": 3,
+      "scale": 1
+    },
+    {
+      "file": "buffer-down-2.png",
+      "width": 160,
+      "height": 90,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "hdr",
+      "channel": null,
+      "scale": 1
+    },
+    {
+      "file": "buffer-streakB.png",
+      "width": 160,
+      "height": 90,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "hdr",
+      "channel": null,
+      "scale": 1
+    },
+    {
+      "file": "buffer-dirt.png",
+      "width": 512,
+      "height": 288,
+      "type": 1009,
+      "format": 1023,
+      "channels": 4,
+      "mode": "raw",
+      "channel": null,
+      "scale": 1
+    },
+    {
+      "file": "buffer-planar-reflection.png",
+      "width": 640,
+      "height": 360,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "mode": "hdr",
+      "channel": null,
+      "scale": 1
+    }
+  ]
+}

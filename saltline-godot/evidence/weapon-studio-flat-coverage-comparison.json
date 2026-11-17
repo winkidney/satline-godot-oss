@@ -1,0 +1,18 @@
+{
+  "source": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "native": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "quad_max_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scope": "Flat vertex-classified triangle category, same depth/cull/MSAA. Constant category does not distinguish triangles within category."
+}

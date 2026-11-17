@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "id": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40",
+      "runtime_id": "d23db77e-a854-487a-b0f0-1d25c645381e",
+      "width": 768,
+      "height": 1024,
+      "maximum": 6,
+      "channels_above_one": 19363,
+      "file": "saltline-pmrem-30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.rgba32f",
+      "rowOrder": "bottom-to-top",
+      "format": "RGBA32F",
+      "sourceTextureType": 1016,
+      "colorSpace": "srgb-linear"
+    },
+    {
+      "id": "e44868bb-2bd3-41d6-978b-02a02fedbdf3",
+      "runtime_id": "70c8448c-d8b5-46be-96d3-9979ccb1cd9f",
+      "width": 384,
+      "height": 512,
+      "maximum": 355.5,
+      "channels_above_one": 2130,
+      "file": "saltline-pmrem-e44868bb-2bd3-41d6-978b-02a02fedbdf3.rgba32f",
+      "rowOrder": "bottom-to-top",
+      "format": "RGBA32F",
+      "sourceTextureType": 1016,
+      "colorSpace": "srgb-linear"
+    }
+  ],
+  "exported_assets": [
+    {
+      "file": "saltline-pmrem-30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.rgba32f"
+    },
+    {
+      "file": "saltline-pmrem-e44868bb-2bd3-41d6-978b-02a02fedbdf3.rgba32f"
+    },
+    {
+      "file": "saltline-pmrem-hdr-manifest.json"
+    }
+  ]
+}

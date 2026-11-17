@@ -1,0 +1,7 @@
+{
+  "mae_rgb8": 0.5629474103009259,
+  "p95": 2.0,
+  "p99": 8.0,
+  "max": 164.0,
+  "scope": "Rifle side actual original/Godot,3 fixed steps,manual exposure1,12 zero-dt render warmups. Descriptive metric, no full parity passing threshold."
+}

@@ -1,0 +1,8 @@
+{
+  "patch": "patches/0004-saltline-reduced-motion-portal.patch",
+  "patch_sha256": "68ff11125a705a088a9cbec09702b6415e027322f5d8f3f8cc4160b919e02782",
+  "files": 34,
+  "mismatches": [],
+  "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "scope": "Full combined patch applied to exact original archive versions of all modified files in isolated temporary tree; all resulting hashes match current source manifest."
+}

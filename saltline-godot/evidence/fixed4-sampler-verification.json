@@ -1,0 +1,31 @@
+{
+  "comparisons": {
+    "2/0=2/2": {
+      "different_bytes": 0,
+      "maximum_byte_error": 0,
+      "mean_byte_error": 0.0
+    },
+    "2/0=3/0": {
+      "different_bytes": 0,
+      "maximum_byte_error": 0,
+      "mean_byte_error": 0.0
+    },
+    "2/1=2/3": {
+      "different_bytes": 0,
+      "maximum_byte_error": 0,
+      "mean_byte_error": 0.0
+    },
+    "2/1=3/1": {
+      "different_bytes": 0,
+      "maximum_byte_error": 0,
+      "mean_byte_error": 0.0
+    },
+    "3/1=3/3": {
+      "different_bytes": 145837,
+      "maximum_byte_error": 48,
+      "mean_byte_error": 0.626079282407407
+    }
+  },
+  "failures": [],
+  "scope": "Actual GPU same shader/material/texture fixed4 clamp/repeat invariant when viewport4->8; ordinary4 equality and ordinary8 non-equality control. Bias0, no postprocess."
+}

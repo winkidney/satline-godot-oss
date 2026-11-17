@@ -1,0 +1,440 @@
+{
+  "fps": 60,
+  "sourceFrames": 38400,
+  "totalFrames": 32506,
+  "removedFrames": 5894,
+  "removals": [
+    [
+      576,
+      672
+    ],
+    [
+      1638,
+      1826
+    ],
+    [
+      2461,
+      2620
+    ],
+    [
+      3358,
+      3439
+    ],
+    [
+      4438,
+      4559
+    ],
+    [
+      5529,
+      5643
+    ],
+    [
+      6528,
+      6656
+    ],
+    [
+      7227,
+      7289
+    ],
+    [
+      7845,
+      7935
+    ],
+    [
+      9041,
+      9213
+    ],
+    [
+      10542,
+      10874
+    ],
+    [
+      12150,
+      12330
+    ],
+    [
+      13083,
+      13361
+    ],
+    [
+      14276,
+      14358
+    ],
+    [
+      15437,
+      15465
+    ],
+    [
+      16579,
+      17126
+    ],
+    [
+      18610,
+      18883
+    ],
+    [
+      20277,
+      20519
+    ],
+    [
+      21293,
+      21297
+    ],
+    [
+      21967,
+      22042
+    ],
+    [
+      23487,
+      23949
+    ],
+    [
+      24855,
+      24885
+    ],
+    [
+      25791,
+      25797
+    ],
+    [
+      27016,
+      27325
+    ],
+    [
+      28049,
+      28149
+    ],
+    [
+      29100,
+      29220
+    ],
+    [
+      30076,
+      30145
+    ],
+    [
+      31183,
+      31394
+    ],
+    [
+      32148,
+      32316
+    ],
+    [
+      33028,
+      33209
+    ],
+    [
+      34060,
+      34153
+    ],
+    [
+      34688,
+      34962
+    ],
+    [
+      35928,
+      36056
+    ],
+    [
+      37008,
+      37136
+    ],
+    [
+      37737,
+      38100
+    ]
+  ],
+  "sections": [
+    {
+      "sourceStart": 0,
+      "sourceEnd": 576,
+      "outputStart": 0
+    },
+    {
+      "sourceStart": 672,
+      "sourceEnd": 1638,
+      "outputStart": 576
+    },
+    {
+      "sourceStart": 1826,
+      "sourceEnd": 2461,
+      "outputStart": 1542
+    },
+    {
+      "sourceStart": 2620,
+      "sourceEnd": 3358,
+      "outputStart": 2177
+    },
+    {
+      "sourceStart": 3439,
+      "sourceEnd": 4438,
+      "outputStart": 2915
+    },
+    {
+      "sourceStart": 4559,
+      "sourceEnd": 5529,
+      "outputStart": 3914
+    },
+    {
+      "sourceStart": 5643,
+      "sourceEnd": 6528,
+      "outputStart": 4884
+    },
+    {
+      "sourceStart": 6656,
+      "sourceEnd": 7227,
+      "outputStart": 5769
+    },
+    {
+      "sourceStart": 7289,
+      "sourceEnd": 7845,
+      "outputStart": 6340
+    },
+    {
+      "sourceStart": 7935,
+      "sourceEnd": 9041,
+      "outputStart": 6896
+    },
+    {
+      "sourceStart": 9213,
+      "sourceEnd": 10542,
+      "outputStart": 8002
+    },
+    {
+      "sourceStart": 10874,
+      "sourceEnd": 12150,
+      "outputStart": 9331
+    },
+    {
+      "sourceStart": 12330,
+      "sourceEnd": 13083,
+      "outputStart": 10607
+    },
+    {
+      "sourceStart": 13361,
+      "sourceEnd": 14276,
+      "outputStart": 11360
+    },
+    {
+      "sourceStart": 14358,
+      "sourceEnd": 15437,
+      "outputStart": 12275
+    },
+    {
+      "sourceStart": 15465,
+      "sourceEnd": 16579,
+      "outputStart": 13354
+    },
+    {
+      "sourceStart": 17126,
+      "sourceEnd": 18610,
+      "outputStart": 14468
+    },
+    {
+      "sourceStart": 18883,
+      "sourceEnd": 20277,
+      "outputStart": 15952
+    },
+    {
+      "sourceStart": 20519,
+      "sourceEnd": 21293,
+      "outputStart": 17346
+    },
+    {
+      "sourceStart": 21297,
+      "sourceEnd": 21967,
+      "outputStart": 18120
+    },
+    {
+      "sourceStart": 22042,
+      "sourceEnd": 23487,
+      "outputStart": 18790
+    },
+    {
+      "sourceStart": 23949,
+      "sourceEnd": 24855,
+      "outputStart": 20235
+    },
+    {
+      "sourceStart": 24885,
+      "sourceEnd": 25791,
+      "outputStart": 21141
+    },
+    {
+      "sourceStart": 25797,
+      "sourceEnd": 27016,
+      "outputStart": 22047
+    },
+    {
+      "sourceStart": 27325,
+      "sourceEnd": 28049,
+      "outputStart": 23266
+    },
+    {
+      "sourceStart": 28149,
+      "sourceEnd": 29100,
+      "outputStart": 23990
+    },
+    {
+      "sourceStart": 29220,
+      "sourceEnd": 30076,
+      "outputStart": 24941
+    },
+    {
+      "sourceStart": 30145,
+      "sourceEnd": 31183,
+      "outputStart": 25797
+    },
+    {
+      "sourceStart": 31394,
+      "sourceEnd": 32148,
+      "outputStart": 26835
+    },
+    {
+      "sourceStart": 32316,
+      "sourceEnd": 33028,
+      "outputStart": 27589
+    },
+    {
+      "sourceStart": 33209,
+      "sourceEnd": 34060,
+      "outputStart": 28301
+    },
+    {
+      "sourceStart": 34153,
+      "sourceEnd": 34688,
+      "outputStart": 29152
+    },
+    {
+      "sourceStart": 34962,
+      "sourceEnd": 35928,
+      "outputStart": 29687
+    },
+    {
+      "sourceStart": 36056,
+      "sourceEnd": 37008,
+      "outputStart": 30653
+    },
+    {
+      "sourceStart": 37136,
+      "sourceEnd": 37737,
+      "outputStart": 31605
+    },
+    {
+      "sourceStart": 38100,
+      "sourceEnd": 38400,
+      "outputStart": 32206
+    }
+  ],
+  "chapters": [
+    {
+      "title": "复刻效果展示",
+      "lines": [
+        "复刻效果",
+        "展示"
+      ],
+      "startFrame": 0,
+      "endFrame": 2257
+    },
+    {
+      "title": "复刻内容与技术路线",
+      "lines": [
+        "复刻内容",
+        "与技术路线"
+      ],
+      "startFrame": 2257,
+      "endFrame": 4941
+    },
+    {
+      "title": "复刻光照效果",
+      "lines": [
+        "复刻光照",
+        "效果"
+      ],
+      "startFrame": 4941,
+      "endFrame": 8089
+    },
+    {
+      "title": "复刻地面倒影",
+      "lines": [
+        "复刻地面",
+        "倒影"
+      ],
+      "startFrame": 8089,
+      "endFrame": 11499
+    },
+    {
+      "title": "复刻湿润材质",
+      "lines": [
+        "复刻湿润",
+        "材质"
+      ],
+      "startFrame": 11499,
+      "endFrame": 14742
+    },
+    {
+      "title": "复刻布料与枪身材质",
+      "lines": [
+        "复刻布料",
+        "与枪身材质"
+      ],
+      "startFrame": 14742,
+      "endFrame": 18123
+    },
+    {
+      "title": "复刻武器高光",
+      "lines": [
+        "复刻武器",
+        "高光"
+      ],
+      "startFrame": 18123,
+      "endFrame": 21156
+    },
+    {
+      "title": "复刻武器与敌人动作",
+      "lines": [
+        "复刻武器",
+        "与敌人动作"
+      ],
+      "startFrame": 21156,
+      "endFrame": 24041
+    },
+    {
+      "title": "复刻曝光与后处理",
+      "lines": [
+        "复刻曝光",
+        "与后处理"
+      ],
+      "startFrame": 24041,
+      "endFrame": 26941
+    },
+    {
+      "title": "复刻技术的应用",
+      "lines": [
+        "复刻技术",
+        "的应用"
+      ],
+      "startFrame": 26941,
+      "endFrame": 29825
+    },
+    {
+      "title": "复刻差异与不足",
+      "lines": [
+        "复刻差异",
+        "与不足"
+      ],
+      "startFrame": 29825,
+      "endFrame": 31669
+    },
+    {
+      "title": "项目与参考资料",
+      "lines": [
+        "项目与",
+        "参考资料"
+      ],
+      "startFrame": 31669,
+      "endFrame": 32506
+    }
+  ]
+}

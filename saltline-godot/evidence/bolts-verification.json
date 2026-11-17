@@ -1,0 +1,12 @@
+{
+  "comparisons": 232830,
+  "dropped": 8,
+  "emitted": 158,
+  "expired": 18,
+  "failures": [],
+  "frames": 320,
+  "hits": 19,
+  "maximum_error": 0.0000411565332569808,
+  "scope": "Actual original fireBolt/M/jD plus Three setFromUnitVectors/Matrix4.compose; 32-slot saturation, wall occlusion, player crouch/death, reuse and expiry",
+  "world_hits": 117
+}

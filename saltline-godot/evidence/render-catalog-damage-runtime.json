@@ -1,0 +1,40 @@
+{
+  "cold_start_asset_quality": "high",
+  "failures": [],
+  "frames": 6,
+  "gpu_texture_hash_checks": 12,
+  "lighting_ready": 35,
+  "materials": 23,
+  "names": [
+    "",
+    "paint_orange",
+    "steel_worn",
+    "paint_teal",
+    "concrete",
+    "wood_pallet",
+    "concrete_dirty",
+    "steel_dark",
+    "emissive"
+  ],
+  "nodes": 37,
+  "prop_names": [],
+  "render_options": {
+    "auto_exposure": false,
+    "camera": "[X: (0.31375, 0.0, 0.949506), Y: (0.015756, 0.999862, -0.005206), Z: (-0.949375, 0.016593, 0.313706), O: (-8.5, 1.701, 4.2)]",
+    "exposure": 1.0,
+    "fov": 74.0
+  },
+  "render_post": {
+    "uAds": 0.0,
+    "uDamage": 0.8,
+    "uFade": 0.0,
+    "uFlash": 0.0,
+    "uLowHealth": 0.0
+  },
+  "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+  "shadow_casters": 34,
+  "textures": 12,
+  "vertex_color_mesh_checks": 0,
+  "wet_materials": 0,
+  "wet_override": null
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "reference extraction before successful run",
+  "error": "SyntaxError: Unexpected token function at function jC",
+  "cause": "Unscoped function T() extraction selected an earlier renderer function instead of weapon reset.",
+  "resolution": "Anchor T lookup after unique function _(B), regenerate fixture, then verify native state. The dependent verifier had initially been started without a generated fixture and was terminated by its owned session handle 94067; verifier now exits1 for null fixture."
+}

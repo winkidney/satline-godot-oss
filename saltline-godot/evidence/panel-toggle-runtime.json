@@ -1,0 +1,11 @@
+{
+  "active_thumb_pixel": [
+    1.0,
+    0.701960802078247,
+    0.278431385755539
+  ],
+  "failures": [],
+  "final_invert_y": true,
+  "mouse_keyboard_pad": true,
+  "scope": "Actual Main settings toggle: injected native mouse click and Space key, controller navigation/accept methods, live invertY setting, completed visual state and one GPU thumb color. Not physical controller or full-panel pixel parity."
+}

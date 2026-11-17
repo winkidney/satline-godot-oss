@@ -1,0 +1,889 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "cases": [
+    {
+      "width": 1280,
+      "height": 720,
+      "screen": "paused",
+      "mode": "mission",
+      "card": {
+        "x": 425,
+        "y": 160.09375,
+        "width": 430,
+        "height": 399.8125
+      },
+      "heading_pixels": 62,
+      "rating_pixels": null,
+      "scroll_height": 396,
+      "client_height": 396,
+      "button_heights": [
+        52,
+        46,
+        46,
+        46
+      ],
+      "button_widths": [
+        376,
+        376,
+        376,
+        376
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 53.3125,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "P",
+          "cls": "m-line",
+          "height": 16.5,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 220,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "screen": "dead",
+      "mode": "mission",
+      "card": {
+        "x": 425,
+        "y": 218.34375,
+        "width": 430,
+        "height": 283.3125
+      },
+      "heading_pixels": 62,
+      "rating_pixels": null,
+      "scroll_height": 279,
+      "client_height": 279,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        376
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 53.3125,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 68,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "screen": "dead",
+      "mode": "holdout",
+      "card": {
+        "x": 425,
+        "y": 166.84375,
+        "width": 430,
+        "height": 386.3125
+      },
+      "heading_pixels": 62,
+      "rating_pixels": null,
+      "scroll_height": 382,
+      "client_height": 382,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        376
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 53.3125,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 171,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "screen": "complete",
+      "mode": "mission",
+      "card": {
+        "x": 425,
+        "y": 164.890625,
+        "width": 430,
+        "height": 390.21875
+      },
+      "heading_pixels": 44,
+      "rating_pixels": 46,
+      "scroll_height": 386,
+      "client_height": 386,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        376
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 37.828125,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-rating",
+          "height": 41.390625,
+          "margin_top": "4px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 137,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 720,
+      "screen": "paused",
+      "mode": "mission",
+      "card": {
+        "x": 16,
+        "y": 173.5546875,
+        "width": 328,
+        "height": 372.890625
+      },
+      "heading_pixels": 40,
+      "rating_pixels": null,
+      "scroll_height": 369,
+      "client_height": 369,
+      "button_heights": [
+        52,
+        46,
+        46,
+        46
+      ],
+      "button_widths": [
+        286,
+        286,
+        286,
+        286
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.390625,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "P",
+          "cls": "m-line",
+          "height": 16.5,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 220,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 720,
+      "screen": "dead",
+      "mode": "mission",
+      "card": {
+        "x": 16,
+        "y": 231.8046875,
+        "width": 328,
+        "height": 256.390625
+      },
+      "heading_pixels": 40,
+      "rating_pixels": null,
+      "scroll_height": 252,
+      "client_height": 252,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        286
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.390625,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 68,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 720,
+      "screen": "dead",
+      "mode": "holdout",
+      "card": {
+        "x": 16,
+        "y": 180.3046875,
+        "width": 328,
+        "height": 359.390625
+      },
+      "heading_pixels": 40,
+      "rating_pixels": null,
+      "scroll_height": 355,
+      "client_height": 355,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        286
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.390625,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 171,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 720,
+      "screen": "complete",
+      "mode": "mission",
+      "card": {
+        "x": 16,
+        "y": 174.5,
+        "width": 328,
+        "height": 371
+      },
+      "heading_pixels": 30.96,
+      "rating_pixels": 46,
+      "scroll_height": 367,
+      "client_height": 367,
+      "button_heights": [
+        52
+      ],
+      "button_widths": [
+        286
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 26.609375,
+          "margin_top": "10px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-rating",
+          "height": 41.390625,
+          "margin_top": "4px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 137,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 52,
+          "margin_top": "22px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "screen": "paused",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 26.7265625,
+        "width": 430,
+        "height": 306.546875
+      },
+      "heading_pixels": 39.6,
+      "rating_pixels": null,
+      "scroll_height": 303,
+      "client_height": 303,
+      "button_heights": [
+        44,
+        40,
+        40,
+        40
+      ],
+      "button_widths": [
+        388,
+        388,
+        388,
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.046875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "P",
+          "cls": "m-line",
+          "height": 16.5,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 182,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "screen": "dead",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 75.9765625,
+        "width": 430,
+        "height": 208.046875
+      },
+      "heading_pixels": 39.6,
+      "rating_pixels": null,
+      "scroll_height": 204,
+      "client_height": 204,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.046875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 56,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "screen": "dead",
+      "mode": "holdout",
+      "card": {
+        "x": 105,
+        "y": 33.4765625,
+        "width": 430,
+        "height": 293.046875
+      },
+      "heading_pixels": 39.6,
+      "rating_pixels": null,
+      "scroll_height": 289,
+      "client_height": 289,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 34.046875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 141,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "screen": "complete",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 24.2890625,
+        "width": 430,
+        "height": 311.421875
+      },
+      "heading_pixels": 44,
+      "rating_pixels": 34,
+      "scroll_height": 307,
+      "client_height": 307,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 37.828125,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-rating",
+          "height": 30.59375,
+          "margin_top": "4px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 113,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 240,
+      "screen": "paused",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 12,
+        "width": 430,
+        "height": 216
+      },
+      "heading_pixels": 30,
+      "rating_pixels": null,
+      "scroll_height": 294,
+      "client_height": 212,
+      "button_heights": [
+        44,
+        40,
+        40,
+        40
+      ],
+      "button_widths": [
+        388,
+        388,
+        388,
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 25.796875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "P",
+          "cls": "m-line",
+          "height": 16.5,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 182,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 240,
+      "screen": "dead",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 20.1015625,
+        "width": 430,
+        "height": 199.796875
+      },
+      "heading_pixels": 30,
+      "rating_pixels": null,
+      "scroll_height": 196,
+      "client_height": 196,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 25.796875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 56,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 240,
+      "screen": "dead",
+      "mode": "holdout",
+      "card": {
+        "x": 105,
+        "y": 12,
+        "width": 430,
+        "height": 216
+      },
+      "heading_pixels": 30,
+      "rating_pixels": null,
+      "scroll_height": 281,
+      "client_height": 212,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 25.796875,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 141,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 240,
+      "screen": "complete",
+      "mode": "mission",
+      "card": {
+        "x": 105,
+        "y": 12,
+        "width": 430,
+        "height": 216
+      },
+      "heading_pixels": 44,
+      "rating_pixels": 34,
+      "scroll_height": 307,
+      "client_height": 212,
+      "button_heights": [
+        44
+      ],
+      "button_widths": [
+        388
+      ],
+      "content": [
+        {
+          "tag": "DIV",
+          "cls": "m-k",
+          "height": 12,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "H2",
+          "cls": "m-h",
+          "height": 37.828125,
+          "margin_top": "6px",
+          "margin_bottom": "8px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-rating",
+          "height": 30.59375,
+          "margin_top": "4px",
+          "margin_bottom": "12px"
+        },
+        {
+          "tag": "DL",
+          "cls": "m-stats",
+          "height": 113,
+          "margin_top": "0px",
+          "margin_bottom": "0px"
+        },
+        {
+          "tag": "DIV",
+          "cls": "m-actions col",
+          "height": 44,
+          "margin_top": "12px",
+          "margin_bottom": "0px"
+        }
+      ]
+    }
+  ]
+}

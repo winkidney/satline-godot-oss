@@ -1,0 +1,1520 @@
+{
+  "ready": true,
+  "fatal": null,
+  "errors": [],
+  "params": {
+    "q": "high",
+    "noaudio": "1",
+    "step": "1",
+    "dt": "0.016666667"
+  },
+  "time": {
+    "t": 0.050000001,
+    "dt": 0.016666667,
+    "frame": 3,
+    "real": 14.767700000047684
+  },
+  "weapon_parent": {
+    "id": 0,
+    "parent": null,
+    "seed": 4207,
+    "state": 1199734350,
+    "calls": 3
+  },
+  "boot": {
+    "state": {
+      "t": 0,
+      "cooldown": 0,
+      "prevFire": false,
+      "dryDone": false,
+      "fireQ": 0,
+      "autoReload": -1,
+      "reload": null,
+      "burst": 0,
+      "lastShot": -9,
+      "bloom": 0,
+      "heat": 0,
+      "smoke": 0,
+      "smokeTick": 0,
+      "adsLin": 0,
+      "adsE": 0,
+      "sprintT": 0,
+      "reloadW": 0,
+      "rackW": 0,
+      "finger": 0,
+      "flashT": 0,
+      "flashDur": 0.05,
+      "recPhase": 0,
+      "wasGround": true,
+      "lastVy": 0,
+      "spreadS": 0.0125,
+      "idleT": 0,
+      "inspect": -1,
+      "hol": 0,
+      "adsWant": false,
+      "spWant": false,
+      "urgent": false,
+      "antYT": 0,
+      "antRT": 0,
+      "gait": 0,
+      "gOffT": 0,
+      "gOff": {
+        "x": 0,
+        "v": 0,
+        "w": 9,
+        "z": 1
+      },
+      "stride": {
+        "x": 1.55,
+        "v": 0,
+        "w": 14,
+        "z": 1
+      },
+      "spd": 0,
+      "stepEv": 0,
+      "jumpEv": 0,
+      "landEv": -1,
+      "landSide": 1,
+      "lpR": 0,
+      "lpF": 0,
+      "breath": 0,
+      "exert": 0,
+      "wallT": 0,
+      "wallK": 0,
+      "adsV": {
+        "x": 0,
+        "v": 0,
+        "w": 23,
+        "z": 0.75
+      },
+      "adsS": {
+        "x": 0,
+        "v": 0,
+        "w": 9,
+        "z": 1
+      },
+      "spV": {
+        "x": 0,
+        "v": 0,
+        "w": 17,
+        "z": 1
+      },
+      "rwS": {
+        "x": 0,
+        "v": 0,
+        "w": 45,
+        "z": 1
+      },
+      "rkS": {
+        "x": 0,
+        "v": 0,
+        "w": 45,
+        "z": 1
+      },
+      "wall": {
+        "x": 0,
+        "v": 0,
+        "w": 10,
+        "z": 1
+      },
+      "amt": {
+        "x": 0,
+        "v": 0,
+        "w": 13,
+        "z": 1
+      },
+      "kZ": {
+        "x": 0,
+        "v": 0,
+        "w": 44,
+        "z": 0.55
+      },
+      "kP": {
+        "x": 0,
+        "v": 0,
+        "w": 36,
+        "z": 0.5
+      },
+      "kY": {
+        "x": 0,
+        "v": 0,
+        "w": 30,
+        "z": 0.45
+      },
+      "kR": {
+        "x": 0,
+        "v": 0,
+        "w": 31,
+        "z": 0.42
+      },
+      "kX": {
+        "x": 0,
+        "v": 0,
+        "w": 40,
+        "z": 0.5
+      },
+      "kU": {
+        "x": 0,
+        "v": 0,
+        "w": 40,
+        "z": 0.5
+      },
+      "swY": {
+        "x": 0,
+        "v": 0,
+        "w": 13.5,
+        "z": 0.64
+      },
+      "swP": {
+        "x": 0,
+        "v": 0,
+        "w": 13.5,
+        "z": 0.64
+      },
+      "jY": {
+        "x": 0,
+        "v": 0,
+        "w": 20.5,
+        "z": 0.56
+      },
+      "jP": {
+        "x": 0,
+        "v": 0,
+        "w": 20.5,
+        "z": 0.56
+      },
+      "jR": {
+        "x": 0,
+        "v": 0,
+        "w": 20.5,
+        "z": 0.56
+      },
+      "inZ": {
+        "x": 0,
+        "v": 0,
+        "w": 15,
+        "z": 0.48
+      },
+      "inX": {
+        "x": 0,
+        "v": 0,
+        "w": 15,
+        "z": 0.48
+      },
+      "inP": {
+        "x": 0,
+        "v": 0,
+        "w": 15,
+        "z": 0.48
+      },
+      "inR": {
+        "x": 0,
+        "v": 0,
+        "w": 15,
+        "z": 0.48
+      },
+      "stance": {
+        "x": 0,
+        "v": 0,
+        "w": 13,
+        "z": 1
+      },
+      "stance2": {
+        "x": 0,
+        "v": 0,
+        "w": 5.5,
+        "z": 1
+      },
+      "bump": {
+        "x": 0,
+        "v": 0,
+        "w": 24.5,
+        "z": 0.61
+      },
+      "antY": {
+        "x": 0,
+        "v": 0,
+        "w": 50,
+        "z": 0.8
+      },
+      "antR": {
+        "x": 0,
+        "v": 0,
+        "w": 50,
+        "z": 0.8
+      }
+    },
+    "rng": {
+      "id": 113,
+      "parent": 0,
+      "seed": 3554171070,
+      "state": 3554171070,
+      "calls": 0
+    },
+    "parent": {
+      "id": 0,
+      "parent": null,
+      "seed": 4207,
+      "state": 3031300163,
+      "calls": 4
+    }
+  },
+  "construct": {
+    "t": 0,
+    "cooldown": 0,
+    "prevFire": false,
+    "dryDone": false,
+    "fireQ": 0,
+    "autoReload": -1,
+    "reload": null,
+    "burst": 0,
+    "lastShot": -9,
+    "bloom": 0,
+    "heat": 0,
+    "smoke": 0,
+    "smokeTick": 0,
+    "adsLin": 0,
+    "adsE": 0,
+    "sprintT": 0,
+    "reloadW": 0,
+    "rackW": 0,
+    "finger": 0,
+    "flashT": 0,
+    "flashDur": 0.05,
+    "recPhase": 0,
+    "wasGround": true,
+    "lastVy": 0,
+    "spreadS": 0.0125,
+    "idleT": 0,
+    "inspect": -1,
+    "hol": 0,
+    "adsWant": false,
+    "spWant": false,
+    "urgent": false,
+    "antYT": 0,
+    "antRT": 0,
+    "gait": 0,
+    "gOffT": 0,
+    "gOff": {
+      "x": 0,
+      "v": 0,
+      "w": 9,
+      "z": 1
+    },
+    "stride": {
+      "x": 1.55,
+      "v": 0,
+      "w": 14,
+      "z": 1
+    },
+    "spd": 0,
+    "stepEv": 0,
+    "jumpEv": 0,
+    "landEv": -1,
+    "landSide": 1,
+    "lpR": 0,
+    "lpF": 0,
+    "breath": 0,
+    "exert": 0,
+    "wallT": 0,
+    "wallK": 0,
+    "adsV": {
+      "x": 0,
+      "v": 0,
+      "w": 23,
+      "z": 0.75
+    },
+    "adsS": {
+      "x": 0,
+      "v": 0,
+      "w": 9,
+      "z": 1
+    },
+    "spV": {
+      "x": 0,
+      "v": 0,
+      "w": 17,
+      "z": 1
+    },
+    "rwS": {
+      "x": 0,
+      "v": 0,
+      "w": 45,
+      "z": 1
+    },
+    "rkS": {
+      "x": 0,
+      "v": 0,
+      "w": 45,
+      "z": 1
+    },
+    "wall": {
+      "x": 0,
+      "v": 0,
+      "w": 10,
+      "z": 1
+    },
+    "amt": {
+      "x": 0,
+      "v": 0,
+      "w": 13,
+      "z": 1
+    },
+    "kZ": {
+      "x": 0,
+      "v": 0,
+      "w": 44,
+      "z": 0.55
+    },
+    "kP": {
+      "x": 0,
+      "v": 0,
+      "w": 36,
+      "z": 0.5
+    },
+    "kY": {
+      "x": 0,
+      "v": 0,
+      "w": 30,
+      "z": 0.45
+    },
+    "kR": {
+      "x": 0,
+      "v": 0,
+      "w": 31,
+      "z": 0.42
+    },
+    "kX": {
+      "x": 0,
+      "v": 0,
+      "w": 40,
+      "z": 0.5
+    },
+    "kU": {
+      "x": 0,
+      "v": 0,
+      "w": 40,
+      "z": 0.5
+    },
+    "swY": {
+      "x": 0,
+      "v": 0,
+      "w": 13.5,
+      "z": 0.64
+    },
+    "swP": {
+      "x": 0,
+      "v": 0,
+      "w": 13.5,
+      "z": 0.64
+    },
+    "jY": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "jP": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "jR": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "inZ": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inX": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inP": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inR": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "stance": {
+      "x": 0,
+      "v": 0,
+      "w": 13,
+      "z": 1
+    },
+    "stance2": {
+      "x": 0,
+      "v": 0,
+      "w": 5.5,
+      "z": 1
+    },
+    "bump": {
+      "x": 0,
+      "v": 0,
+      "w": 24.5,
+      "z": 0.61
+    },
+    "antY": {
+      "x": 0,
+      "v": 0,
+      "w": 50,
+      "z": 0.8
+    },
+    "antR": {
+      "x": 0,
+      "v": 0,
+      "w": 50,
+      "z": 0.8
+    }
+  },
+  "rng_trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "seed": 4207,
+      "state": 3031300163,
+      "calls": 4
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "seed": 589939774,
+      "state": 759034465,
+      "calls": 183
+    },
+    {
+      "id": 2,
+      "parent": null,
+      "seed": 492026,
+      "state": 3050271379,
+      "calls": 405
+    },
+    {
+      "id": 3,
+      "parent": null,
+      "seed": 500207,
+      "state": 978101559,
+      "calls": 296
+    },
+    {
+      "id": 4,
+      "parent": null,
+      "seed": 507864,
+      "state": 3050287217,
+      "calls": 405
+    },
+    {
+      "id": 5,
+      "parent": null,
+      "seed": 16624,
+      "state": 503969900,
+      "calls": 12
+    },
+    {
+      "id": 6,
+      "parent": null,
+      "seed": 24543,
+      "state": 1767649159,
+      "calls": 8
+    },
+    {
+      "id": 7,
+      "parent": null,
+      "seed": 33248,
+      "state": 1293095082,
+      "calls": 866
+    },
+    {
+      "id": 8,
+      "parent": null,
+      "seed": 41036,
+      "state": 1124008179,
+      "calls": 683
+    },
+    {
+      "id": 9,
+      "parent": null,
+      "seed": 48562,
+      "state": 56413459,
+      "calls": 61
+    },
+    {
+      "id": 10,
+      "parent": null,
+      "seed": 56481,
+      "state": 3655611807,
+      "calls": 70
+    },
+    {
+      "id": 11,
+      "parent": null,
+      "seed": 32462,
+      "state": 3335881803,
+      "calls": 105
+    },
+    {
+      "id": 12,
+      "parent": null,
+      "seed": 72581,
+      "state": 977673933,
+      "calls": 296
+    },
+    {
+      "id": 13,
+      "parent": null,
+      "seed": 111914,
+      "state": 3049891267,
+      "calls": 405
+    },
+    {
+      "id": 14,
+      "parent": null,
+      "seed": 119833,
+      "state": 56484730,
+      "calls": 61
+    },
+    {
+      "id": 15,
+      "parent": null,
+      "seed": 127752,
+      "state": 56492649,
+      "calls": 61
+    },
+    {
+      "id": 16,
+      "parent": null,
+      "seed": 143983,
+      "state": 1124111126,
+      "calls": 683
+    },
+    {
+      "id": 17,
+      "parent": null,
+      "seed": 151771,
+      "state": 977753123,
+      "calls": 296
+    },
+    {
+      "id": 18,
+      "parent": null,
+      "seed": 159952,
+      "state": 1293221786,
+      "calls": 866
+    },
+    {
+      "id": 19,
+      "parent": null,
+      "seed": 167609,
+      "state": 2816911074,
+      "calls": 229
+    },
+    {
+      "id": 20,
+      "parent": null,
+      "seed": 175528,
+      "state": 409882407,
+      "calls": 291
+    },
+    {
+      "id": 21,
+      "parent": null,
+      "seed": 658325,
+      "state": 57023222,
+      "calls": 61
+    },
+    {
+      "id": 22,
+      "parent": null,
+      "seed": 9491,
+      "state": 9491,
+      "calls": 0
+    },
+    {
+      "id": 23,
+      "parent": null,
+      "seed": 17410,
+      "state": 17410,
+      "calls": 0
+    },
+    {
+      "id": 24,
+      "parent": null,
+      "seed": 25329,
+      "state": 25329,
+      "calls": 0
+    },
+    {
+      "id": 25,
+      "parent": null,
+      "seed": 191366,
+      "state": 409898245,
+      "calls": 291
+    },
+    {
+      "id": 26,
+      "parent": null,
+      "seed": 199547,
+      "state": 3692721667,
+      "calls": 872
+    },
+    {
+      "id": 27,
+      "parent": null,
+      "seed": 207204,
+      "state": 4167292106,
+      "calls": 14
+    },
+    {
+      "id": 28,
+      "parent": null,
+      "seed": 24543,
+      "state": 1767649159,
+      "calls": 8
+    },
+    {
+      "id": 29,
+      "parent": null,
+      "seed": 32462,
+      "state": 503985738,
+      "calls": 12
+    },
+    {
+      "id": 30,
+      "parent": null,
+      "seed": 238880,
+      "state": 977840232,
+      "calls": 296
+    },
+    {
+      "id": 31,
+      "parent": null,
+      "seed": 247454,
+      "state": 312377139,
+      "calls": 33
+    },
+    {
+      "id": 32,
+      "parent": null,
+      "seed": 262375,
+      "state": 3050041728,
+      "calls": 405
+    },
+    {
+      "id": 33,
+      "parent": null,
+      "seed": 270294,
+      "state": 3535519526,
+      "calls": 16
+    },
+    {
+      "id": 34,
+      "parent": null,
+      "seed": 286656,
+      "state": 1797301766,
+      "calls": 878
+    },
+    {
+      "id": 35,
+      "parent": null,
+      "seed": 8705,
+      "state": 1767633321,
+      "calls": 8
+    },
+    {
+      "id": 36,
+      "parent": null,
+      "seed": 302232,
+      "state": 2817045697,
+      "calls": 229
+    },
+    {
+      "id": 37,
+      "parent": null,
+      "seed": 333908,
+      "state": 1824323421,
+      "calls": 69
+    },
+    {
+      "id": 38,
+      "parent": null,
+      "seed": 341958,
+      "state": 1124309101,
+      "calls": 683
+    },
+    {
+      "id": 39,
+      "parent": null,
+      "seed": 32462,
+      "state": 503985738,
+      "calls": 12
+    },
+    {
+      "id": 40,
+      "parent": null,
+      "seed": 357403,
+      "state": 3535606635,
+      "calls": 16
+    },
+    {
+      "id": 41,
+      "parent": null,
+      "seed": 365584,
+      "state": 4167450486,
+      "calls": 14
+    },
+    {
+      "id": 42,
+      "parent": null,
+      "seed": 373241,
+      "state": 56738138,
+      "calls": 61
+    },
+    {
+      "id": 43,
+      "parent": null,
+      "seed": 381684,
+      "state": 1293443518,
+      "calls": 866
+    },
+    {
+      "id": 44,
+      "parent": null,
+      "seed": 389341,
+      "state": 410096220,
+      "calls": 291
+    },
+    {
+      "id": 45,
+      "parent": null,
+      "seed": 413098,
+      "state": 4167498000,
+      "calls": 14
+    },
+    {
+      "id": 46,
+      "parent": null,
+      "seed": 421279,
+      "state": 3692943399,
+      "calls": 872
+    },
+    {
+      "id": 47,
+      "parent": null,
+      "seed": 428936,
+      "state": 978030288,
+      "calls": 296
+    },
+    {
+      "id": 48,
+      "parent": null,
+      "seed": 24543,
+      "state": 1767649159,
+      "calls": 8
+    },
+    {
+      "id": 49,
+      "parent": null,
+      "seed": 445429,
+      "state": 312575114,
+      "calls": 33
+    },
+    {
+      "id": 50,
+      "parent": null,
+      "seed": 452693,
+      "state": 1824442206,
+      "calls": 69
+    },
+    {
+      "id": 51,
+      "parent": null,
+      "seed": 460612,
+      "state": 1824450125,
+      "calls": 69
+    },
+    {
+      "id": 52,
+      "parent": null,
+      "seed": 468269,
+      "state": 3535717501,
+      "calls": 16
+    },
+    {
+      "id": 53,
+      "parent": null,
+      "seed": 476450,
+      "state": 410183329,
+      "calls": 291
+    },
+    {
+      "id": 54,
+      "parent": null,
+      "seed": 484369,
+      "state": 410191248,
+      "calls": 291
+    },
+    {
+      "id": 55,
+      "parent": null,
+      "seed": 516045,
+      "state": 2817259510,
+      "calls": 229
+    },
+    {
+      "id": 56,
+      "parent": null,
+      "seed": 523964,
+      "state": 4167608866,
+      "calls": 14
+    },
+    {
+      "id": 57,
+      "parent": null,
+      "seed": 539933,
+      "state": 1124507076,
+      "calls": 683
+    },
+    {
+      "id": 58,
+      "parent": null,
+      "seed": 8705,
+      "state": 1767633321,
+      "calls": 8
+    },
+    {
+      "id": 59,
+      "parent": null,
+      "seed": 571347,
+      "state": 4167656249,
+      "calls": 14
+    },
+    {
+      "id": 60,
+      "parent": null,
+      "seed": 587316,
+      "state": 4167672218,
+      "calls": 14
+    },
+    {
+      "id": 61,
+      "parent": null,
+      "seed": 595235,
+      "state": 4167680137,
+      "calls": 14
+    },
+    {
+      "id": 62,
+      "parent": null,
+      "seed": 602892,
+      "state": 3535852124,
+      "calls": 16
+    },
+    {
+      "id": 63,
+      "parent": null,
+      "seed": 611335,
+      "state": 1797626445,
+      "calls": 878
+    },
+    {
+      "id": 64,
+      "parent": null,
+      "seed": 17017,
+      "state": 17017,
+      "calls": 0
+    },
+    {
+      "id": 65,
+      "parent": null,
+      "seed": 9098,
+      "state": 9098,
+      "calls": 0
+    },
+    {
+      "id": 66,
+      "parent": null,
+      "seed": 634830,
+      "state": 978236182,
+      "calls": 296
+    },
+    {
+      "id": 67,
+      "parent": null,
+      "seed": 642487,
+      "state": 57007384,
+      "calls": 61
+    },
+    {
+      "id": 68,
+      "parent": null,
+      "seed": 16624,
+      "state": 503969900,
+      "calls": 12
+    },
+    {
+      "id": 69,
+      "parent": null,
+      "seed": 120357,
+      "state": 789228915,
+      "calls": 854
+    },
+    {
+      "id": 70,
+      "parent": null,
+      "seed": 334563,
+      "state": 312464248,
+      "calls": 33
+    },
+    {
+      "id": 71,
+      "parent": null,
+      "seed": 33248,
+      "state": 1293095082,
+      "calls": 866
+    },
+    {
+      "id": 72,
+      "parent": null,
+      "seed": 41560,
+      "state": 312171245,
+      "calls": 33
+    },
+    {
+      "id": 73,
+      "parent": null,
+      "seed": 96469,
+      "state": 1124063612,
+      "calls": 683
+    },
+    {
+      "id": 74,
+      "parent": null,
+      "seed": 104257,
+      "state": 977705609,
+      "calls": 296
+    },
+    {
+      "id": 75,
+      "parent": null,
+      "seed": 112438,
+      "state": 3692634558,
+      "calls": 872
+    },
+    {
+      "id": 76,
+      "parent": null,
+      "seed": 119833,
+      "state": 56484730,
+      "calls": 61
+    },
+    {
+      "id": 77,
+      "parent": null,
+      "seed": 143590,
+      "state": 56508487,
+      "calls": 61
+    },
+    {
+      "id": 78,
+      "parent": null,
+      "seed": 32462,
+      "state": 503985738,
+      "calls": 12
+    },
+    {
+      "id": 79,
+      "parent": null,
+      "seed": 167347,
+      "state": 3049946700,
+      "calls": 405
+    },
+    {
+      "id": 80,
+      "parent": null,
+      "seed": 175266,
+      "state": 3655730592,
+      "calls": 70
+    },
+    {
+      "id": 81,
+      "parent": null,
+      "seed": 183709,
+      "state": 504136985,
+      "calls": 12
+    },
+    {
+      "id": 82,
+      "parent": null,
+      "seed": 199285,
+      "state": 409906164,
+      "calls": 291
+    },
+    {
+      "id": 83,
+      "parent": null,
+      "seed": 207204,
+      "state": 4167292106,
+      "calls": 14
+    },
+    {
+      "id": 84,
+      "parent": null,
+      "seed": 215123,
+      "state": 4167300025,
+      "calls": 14
+    },
+    {
+      "id": 85,
+      "parent": null,
+      "seed": 223697,
+      "state": 312353382,
+      "calls": 33
+    },
+    {
+      "id": 86,
+      "parent": null,
+      "seed": 230961,
+      "state": 977832313,
+      "calls": 296
+    },
+    {
+      "id": 87,
+      "parent": null,
+      "seed": 16624,
+      "state": 503969900,
+      "calls": 12
+    },
+    {
+      "id": 88,
+      "parent": null,
+      "seed": 246799,
+      "state": 977848151,
+      "calls": 296
+    },
+    {
+      "id": 89,
+      "parent": null,
+      "seed": 16624,
+      "state": 3335865965,
+      "calls": 105
+    },
+    {
+      "id": 90,
+      "parent": null,
+      "seed": 279130,
+      "state": 312408815,
+      "calls": 33
+    },
+    {
+      "id": 91,
+      "parent": null,
+      "seed": 270294,
+      "state": 3050049647,
+      "calls": 405
+    },
+    {
+      "id": 92,
+      "parent": null,
+      "seed": 333777,
+      "state": 4167418679,
+      "calls": 14
+    },
+    {
+      "id": 93,
+      "parent": null,
+      "seed": 349746,
+      "state": 4167434648,
+      "calls": 14
+    },
+    {
+      "id": 94,
+      "parent": null,
+      "seed": 357665,
+      "state": 4167442567,
+      "calls": 14
+    },
+    {
+      "id": 95,
+      "parent": null,
+      "seed": 365584,
+      "state": 2817109049,
+      "calls": 229
+    },
+    {
+      "id": 96,
+      "parent": null,
+      "seed": 373503,
+      "state": 2817116968,
+      "calls": 229
+    },
+    {
+      "id": 97,
+      "parent": null,
+      "seed": 381684,
+      "state": 1293443518,
+      "calls": 866
+    },
+    {
+      "id": 98,
+      "parent": null,
+      "seed": 389341,
+      "state": 977990693,
+      "calls": 296
+    },
+    {
+      "id": 99,
+      "parent": null,
+      "seed": 429067,
+      "state": 1124396210,
+      "calls": 683
+    },
+    {
+      "id": 100,
+      "parent": null,
+      "seed": 436593,
+      "state": 56801490,
+      "calls": 61
+    },
+    {
+      "id": 101,
+      "parent": null,
+      "seed": 445036,
+      "state": 1293506870,
+      "calls": 866
+    },
+    {
+      "id": 102,
+      "parent": null,
+      "seed": 8705,
+      "state": 1767633321,
+      "calls": 8
+    },
+    {
+      "id": 103,
+      "parent": null,
+      "seed": 16624,
+      "state": 503969900,
+      "calls": 12
+    },
+    {
+      "id": 104,
+      "parent": null,
+      "seed": 476450,
+      "state": 410183329,
+      "calls": 291
+    },
+    {
+      "id": 105,
+      "parent": 0,
+      "seed": 1278876144,
+      "state": 1866875301,
+      "calls": 40641
+    },
+    {
+      "id": 106,
+      "parent": 0,
+      "seed": 1883172587,
+      "state": 3586856006,
+      "calls": 15
+    },
+    {
+      "id": 107,
+      "parent": null,
+      "seed": 8705,
+      "state": 1767633321,
+      "calls": 8
+    },
+    {
+      "id": 108,
+      "parent": null,
+      "seed": 278868,
+      "state": 1448197499,
+      "calls": 43
+    },
+    {
+      "id": 109,
+      "parent": null,
+      "seed": 532276,
+      "state": 1448450907,
+      "calls": 43
+    },
+    {
+      "id": 110,
+      "parent": null,
+      "seed": 191759,
+      "state": 1448110390,
+      "calls": 43
+    },
+    {
+      "id": 111,
+      "parent": null,
+      "seed": 24543,
+      "state": 1767649159,
+      "calls": 8
+    },
+    {
+      "id": 112,
+      "parent": null,
+      "seed": 16624,
+      "state": 503969900,
+      "calls": 12
+    },
+    {
+      "id": 113,
+      "parent": 0,
+      "seed": 3554171070,
+      "state": 3554171070,
+      "calls": 0
+    },
+    {
+      "id": 114,
+      "parent": null,
+      "seed": 9001,
+      "state": 9001,
+      "calls": 0
+    }
+  ],
+  "current_weapon_rng": {
+    "id": 113,
+    "parent": 0,
+    "seed": 3554171070,
+    "state": 3554171070,
+    "calls": 0
+  },
+  "current_state": {
+    "t": 0,
+    "cooldown": 0,
+    "prevFire": false,
+    "dryDone": false,
+    "fireQ": 0,
+    "autoReload": -1,
+    "reload": null,
+    "burst": 0,
+    "lastShot": -9,
+    "bloom": 0,
+    "heat": 0,
+    "smoke": 0,
+    "smokeTick": 0,
+    "adsLin": 0,
+    "adsE": 0,
+    "sprintT": 0,
+    "reloadW": 0,
+    "rackW": 0,
+    "finger": 0,
+    "flashT": 0,
+    "flashDur": 0.05,
+    "recPhase": 0,
+    "wasGround": true,
+    "lastVy": 0,
+    "spreadS": 0.0125,
+    "idleT": 0,
+    "inspect": -1,
+    "hol": 0,
+    "adsWant": false,
+    "spWant": false,
+    "urgent": false,
+    "antYT": 0,
+    "antRT": 0,
+    "gait": 0,
+    "gOffT": 0,
+    "gOff": {
+      "x": 0,
+      "v": 0,
+      "w": 9,
+      "z": 1
+    },
+    "stride": {
+      "x": 1.55,
+      "v": 0,
+      "w": 14,
+      "z": 1
+    },
+    "spd": 0,
+    "stepEv": 0,
+    "jumpEv": 0,
+    "landEv": -1,
+    "landSide": 1,
+    "lpR": 0,
+    "lpF": 0,
+    "breath": 0,
+    "exert": 0,
+    "wallT": 0,
+    "wallK": 0,
+    "adsV": {
+      "x": 0,
+      "v": 0,
+      "w": 23,
+      "z": 0.75
+    },
+    "adsS": {
+      "x": 0,
+      "v": 0,
+      "w": 9,
+      "z": 1
+    },
+    "spV": {
+      "x": 0,
+      "v": 0,
+      "w": 17,
+      "z": 1
+    },
+    "rwS": {
+      "x": 0,
+      "v": 0,
+      "w": 45,
+      "z": 1
+    },
+    "rkS": {
+      "x": 0,
+      "v": 0,
+      "w": 45,
+      "z": 1
+    },
+    "wall": {
+      "x": 0,
+      "v": 0,
+      "w": 10,
+      "z": 1
+    },
+    "amt": {
+      "x": 0,
+      "v": 0,
+      "w": 13,
+      "z": 1
+    },
+    "kZ": {
+      "x": 0,
+      "v": 0,
+      "w": 44,
+      "z": 0.55
+    },
+    "kP": {
+      "x": 0,
+      "v": 0,
+      "w": 36,
+      "z": 0.5
+    },
+    "kY": {
+      "x": 0,
+      "v": 0,
+      "w": 30,
+      "z": 0.45
+    },
+    "kR": {
+      "x": 0,
+      "v": 0,
+      "w": 31,
+      "z": 0.42
+    },
+    "kX": {
+      "x": 0,
+      "v": 0,
+      "w": 40,
+      "z": 0.5
+    },
+    "kU": {
+      "x": 0,
+      "v": 0,
+      "w": 40,
+      "z": 0.5
+    },
+    "swY": {
+      "x": 0,
+      "v": 0,
+      "w": 13.5,
+      "z": 0.64
+    },
+    "swP": {
+      "x": 0,
+      "v": 0,
+      "w": 13.5,
+      "z": 0.64
+    },
+    "jY": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "jP": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "jR": {
+      "x": 0,
+      "v": 0,
+      "w": 20.5,
+      "z": 0.56
+    },
+    "inZ": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inX": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inP": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "inR": {
+      "x": 0,
+      "v": 0,
+      "w": 15,
+      "z": 0.48
+    },
+    "stance": {
+      "x": 0,
+      "v": 0,
+      "w": 13,
+      "z": 1
+    },
+    "stance2": {
+      "x": 0,
+      "v": 0,
+      "w": 5.5,
+      "z": 1
+    },
+    "bump": {
+      "x": 0,
+      "v": 0,
+      "w": 24.5,
+      "z": 0.61
+    },
+    "antY": {
+      "x": 0,
+      "v": 0,
+      "w": 50,
+      "z": 0.8
+    },
+    "antR": {
+      "x": 0,
+      "v": 0,
+      "w": 50,
+      "z": 0.8
+    }
+  }
+}

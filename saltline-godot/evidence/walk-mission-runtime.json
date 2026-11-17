@@ -1,0 +1,63 @@
+{
+  "cut": 3,
+  "distance": 146.921924633905,
+  "failures": [],
+  "frames": 1410,
+  "legs": [
+    {
+      "done": true,
+      "leg": 0,
+      "position": [
+        0.0505134761333466,
+        0.0,
+        6.30717611312866
+      ],
+      "reached_waypoint": 5,
+      "steps": 406,
+      "waypoints": 9
+    },
+    {
+      "done": true,
+      "leg": 1,
+      "position": [
+        -0.79927533864975,
+        0.0299999993294477,
+        -18.0579223632812
+      ],
+      "reached_waypoint": 6,
+      "steps": 398,
+      "waypoints": 8
+    },
+    {
+      "done": true,
+      "leg": 2,
+      "position": [
+        21.534969329834,
+        0.0,
+        -1.20466268062592
+      ],
+      "reached_waypoint": 7,
+      "steps": 391,
+      "waypoints": 10
+    },
+    {
+      "done": true,
+      "leg": 3,
+      "position": [
+        27.9415073394775,
+        0.0,
+        17.9767780303955
+      ],
+      "reached_waypoint": 8,
+      "steps": 215,
+      "waypoints": 9
+    }
+  ],
+  "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Navigation drives movement/look; invulnerable player, no teleports or direct relay cuts. Not human combat acceptance.",
+  "start": [
+    -32.0,
+    0.0,
+    6.0
+  ],
+  "state": "complete"
+}

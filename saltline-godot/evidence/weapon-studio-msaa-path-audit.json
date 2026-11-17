@@ -1,0 +1,12 @@
+{
+  "original_actual_draw_fbo_samples": 4,
+  "original_sample_positions_available": false,
+  "native_config": "high/MSAA_4X from actual runner preset, no no-msaa diagnostic flag",
+  "native_pinned_source": {
+    "varyings": "plain in/out; no centroid/sample qualifiers in scene_forward_clustered.glsl",
+    "sample_shading_default": false,
+    "minimum_sample_shading_default": 0.0
+  },
+  "interpretation": "Both use ordinary interpolation without requested per-sample shading; hardware sample positions not verified. Resolved domain is a coverage-weighted output, not necessarily one fragment coordinate.",
+  "next_experiment": "Identify mesh/triangle contributions with constant coverage masks before changing interpolation or hash."
+}

@@ -1,0 +1,446 @@
+{
+  "frames": 720,
+  "scope": "Native source-style ammo/health/prompt HUD: controlled ammo initialization, actual reload/switch/damage/heal, teleport near real relay then real held-interact cut, retry clean state; not manual game acceptance",
+  "snapshots": [
+    {
+      "cut": 0,
+      "frame": 80,
+      "health_opacity": 0.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.0,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": false,
+        "cue": "",
+        "health": 100,
+        "hurt": false,
+        "low": false,
+        "mag": 30,
+        "reserve": 150,
+        "reserve_text": "150",
+        "segments": 10,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 120,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.651666666666667,
+        "low_health": 0.405914457875702,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 8,
+        "ammo_text": "08",
+        "critical": true,
+        "cue": "Low ammo",
+        "health": 25,
+        "hurt": true,
+        "low": true,
+        "mag": 30,
+        "reserve": 150,
+        "reserve_text": "150",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 170,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.767680245211281,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "reloading",
+      "status": {
+        "ammo": 8,
+        "ammo_text": "08",
+        "critical": true,
+        "cue": "Reloading",
+        "health": 25,
+        "hurt": true,
+        "low": true,
+        "mag": 30,
+        "reserve": 150,
+        "reserve_text": "150",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 290,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.781058813086685,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": true,
+        "cue": "",
+        "health": 25,
+        "hurt": true,
+        "low": false,
+        "mag": 30,
+        "reserve": 128,
+        "reserve_text": "128",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 340,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.246363122508479,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.781063142443337,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 15,
+        "ammo_text": "15",
+        "critical": true,
+        "cue": "",
+        "health": 25,
+        "hurt": true,
+        "low": false,
+        "mag": 15,
+        "reserve": 9999,
+        "reserve_text": "∞",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "pistol"
+    },
+    {
+      "cut": 0,
+      "frame": 354,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 1.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.781063239621266,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 15,
+        "ammo_text": "15",
+        "critical": true,
+        "cue": "",
+        "health": 25,
+        "hurt": true,
+        "low": false,
+        "mag": 15,
+        "reserve": 9999,
+        "reserve_text": "∞",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "pistol"
+    },
+    {
+      "cut": 0,
+      "frame": 430,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.781063302205292,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0.215277777777778,
+      "prompt": true,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": true,
+        "cue": "",
+        "health": 25,
+        "hurt": true,
+        "low": false,
+        "mag": 30,
+        "reserve": 128,
+        "reserve_text": "128",
+        "segments": 3,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 520,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.205291366483435,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0.840277777777776,
+      "prompt": true,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": false,
+        "cue": "",
+        "health": 47,
+        "hurt": true,
+        "low": false,
+        "mag": 30,
+        "reserve": 128,
+        "reserve_text": "128",
+        "segments": 5,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 1,
+      "frame": 560,
+      "health_opacity": 1.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.0231707497554958,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": false,
+        "cue": "",
+        "health": 58,
+        "hurt": true,
+        "low": false,
+        "mag": 30,
+        "reserve": 128,
+        "reserve_text": "128",
+        "segments": 6,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 1,
+      "frame": 620,
+      "health_opacity": 0.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.000424387085302888,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 0,
+        "ammo_text": "00",
+        "critical": false,
+        "cue": "Empty — Q swaps",
+        "health": 100,
+        "hurt": false,
+        "low": true,
+        "mag": 30,
+        "reserve": 0,
+        "reserve_text": "000",
+        "segments": 10,
+        "urgent": true
+      },
+      "weapon": "rifle"
+    },
+    {
+      "cut": 0,
+      "frame": 700,
+      "health_opacity": 0.0,
+      "post": {
+        "ads": 0.0,
+        "auto_exposure": 1.0,
+        "damage": 0.0,
+        "low_health": 0.0,
+        "manual_exposure": 1.0,
+        "weapon_depth_ready": true,
+        "weapon_depth_size": [
+          1280,
+          720
+        ],
+        "world_depth_ready": true,
+        "world_depth_size": [
+          1280,
+          720
+        ]
+      },
+      "progress": 0,
+      "prompt": false,
+      "state": "idle",
+      "status": {
+        "ammo": 30,
+        "ammo_text": "30",
+        "critical": false,
+        "cue": "",
+        "health": 100,
+        "hurt": false,
+        "low": false,
+        "mag": 30,
+        "reserve": 150,
+        "reserve_text": "150",
+        "segments": 10,
+        "urgent": false
+      },
+      "weapon": "rifle"
+    }
+  ]
+}

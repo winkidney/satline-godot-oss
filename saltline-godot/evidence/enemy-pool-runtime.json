@@ -1,0 +1,22 @@
+{
+  "active": 6,
+  "active_ids": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "alive": 2,
+  "frames": 600,
+  "next_id": 10,
+  "pool_hounds": 8,
+  "reused_id": 9,
+  "scope": "eight native Hounds, seven controlled kills, oldest retained-wreck reuse, capped wreck queue and old-wreck sink retirement; Gull and mission spawning pending",
+  "time": 10.0000000000001,
+  "tokens": 0,
+  "wrecks": 4,
+  "runtime_log_errors": 0,
+  "exit_resource_leaks": 0
+}

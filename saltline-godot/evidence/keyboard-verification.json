@@ -1,0 +1,10 @@
+{
+  "bindings": 31,
+  "checks": 435,
+  "failures": [],
+  "maximum_error": 0.00000000000000000346944695195361,
+  "methods_sha256": "068b7be9dd4365efad41ad2213989ae5a40746f1422f807f7c76e3c9b0ec6ee8",
+  "scope": "Original fE bindings, keyboard-only v/y action sets and literal keyboard turn block. Repeat suppression, shared aliases/release, clearing and composed look; no GUI target or hardware layout assertion.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 101
+}

@@ -1,0 +1,9 @@
+{
+  "checks": 3,
+  "declarations": [
+    "uniform sampler2D normal_tex:filter_linear_mipmap,repeat_disable",
+    "uniform sampler2D orm_tex:filter_linear_mipmap,repeat_disable"
+  ],
+  "failures": [],
+  "scope": "Actual generated decal shader sampler hints for source1x normal/ORM;4x color uses private independent sampler, normal/ORM1x."
+}

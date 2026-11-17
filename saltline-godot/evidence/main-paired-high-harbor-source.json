@@ -1,0 +1,44 @@
+{
+  "time": {
+    "t": 0.05,
+    "dt": 0.016666666666666666,
+    "frame": 3,
+    "real": 12.6925
+  },
+  "camera": {
+    "position": [
+      27,
+      1.7,
+      27
+    ],
+    "quaternion": [
+      -0.12326506877229725,
+      -0.313547041096009,
+      -0.041088356257432415,
+      0.9406411232880266
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "quality": {
+    "name": "high",
+    "scale": 1,
+    "msaa": 4,
+    "shadow": 4096,
+    "tex": 1024,
+    "volSteps": 24,
+    "ao": true,
+    "planar": 0.5,
+    "bloom": true,
+    "motionBlur": true,
+    "rain": 1
+  },
+  "view_fill": 1.160389342482713,
+  "fade": 0,
+  "exposure": 1,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "errors": [],
+  "scope": "Actual original Main fixed camera and source time, manual exposure1, weapon/HUD hidden,12 zero-dt renders to warm render passes. Diagnostic paired scene, not normal gameplay."
+}

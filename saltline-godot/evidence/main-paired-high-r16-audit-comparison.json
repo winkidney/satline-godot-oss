@@ -1,0 +1,11 @@
+{
+  "source": "main-paired-high-source.png",
+  "native": "main-paired-high-r16-audit-native.png",
+  "source_sha256": "4b9e218a98f483fa6798eca17fd1f96183c595b36a642f9111dd969a9a23ccdc",
+  "native_sha256": "1b32d004aa9403d9bc7d9f80b09d49ce560e7ca3d5dcf5047d36f19285819807",
+  "mae_rgb8": 0.62828125,
+  "p95": 3.0,
+  "p99": 7.0,
+  "max": 108.0,
+  "scope": "Current source tree matching packaged production scripts; existing original fixed camera/time/manual exposure1, 12 zero-dt rendered warmup frames, HUD and weapon hidden. Descriptive comparison, not whole-game acceptance."
+}

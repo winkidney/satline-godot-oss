@@ -1,0 +1,6 @@
+{
+  "checks": 78,
+  "maximum_scalar_error": 2.3841858043383013e-08,
+  "failures": [],
+  "scope": "Actual source/native scalar material and ready bindings, excludes textures/BRDF/environment image/history and pixel parity."
+}

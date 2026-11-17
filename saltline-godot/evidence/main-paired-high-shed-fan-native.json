@@ -1,0 +1,31 @@
+{
+  "auto": 0.0,
+  "backdrop_time": 0.05,
+  "camera_position": [
+    8.0,
+    8.02000045776367,
+    -19.5
+  ],
+  "camera_quaternion": [
+    0.0,
+    -0.70710676908493,
+    0.0,
+    0.70710676908493
+  ],
+  "exposure": 1.0,
+  "fade": 0,
+  "hdr": {
+    "channels": 3,
+    "dtype": "float16",
+    "file": "main-paired-high-shed-fan-native.world.rgb16f",
+    "format": 14,
+    "height": 720,
+    "row_order": "top-to-bottom",
+    "width": 1280
+  },
+  "matched_snapshot_pool_slots": 6,
+  "rain_time": 0.05,
+  "scope": "Actual Main fixed source camera/time, manual exposure1, title fade0, HUD/weapon hidden,12 zero-dt GPU warmup renders. No whole-frame parity claim.",
+  "surface_diagnostic": "",
+  "time": 0.05
+}

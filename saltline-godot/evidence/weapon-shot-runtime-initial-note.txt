@@ -1,0 +1,1 @@
+Initial probe left flow_preview enabled while manually driving _game_tick and _process, causing an additional built-in flow tick and a deployment reset. It exercised rifle only and failed the both-guns assertion. Production code was not the cause. Corrected probe disables built-in flow_preview after setup and passes 9 rifle +3 pistol shots. Initial failure JSON retained.

@@ -1,0 +1,8 @@
+{
+  "checks": 203,
+  "failures": [],
+  "method_sha256": "3532933bb234d10080ac1de3e80d063546eae4b2c362b1009749a90f5291236f",
+  "scope": "Original setPrompt state, key/label retention on hide, progress quantization, SVG offset rounding and keyboard/pad/touch labels. Native actual device routing and pixels not asserted.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 29
+}

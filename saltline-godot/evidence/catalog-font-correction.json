@@ -1,0 +1,607 @@
+[
+  {
+    "folder": "materials-full",
+    "old_materials": 85,
+    "new_materials": 85,
+    "changed_textures": [
+      {
+        "name": "decal_hazard_flammable",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "98365408674d17d6bac54e9801919b345791cc9a89061352e9db224ed6b40da1",
+        "new_sha256": "f5d5aa708b7da47d1befc1c5cddac7fdbff1c736f80c2690ab95e3e7e290f6e0"
+      },
+      {
+        "name": "decal_logo_a",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d253588f5bb907002b7d60a75dc8deff05068c69310e96745bf59ef3dbc133d7",
+        "new_sha256": "0213ac5dfa16b2a57e8356deafdf031fbde85aa2ad62b752c3817e956e3dfb09"
+      },
+      {
+        "name": "decal_logo_b",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "186957ce5ec3e0a33fa71b4407baa94977d8ae87f026788ad201b9dfd7c34a69",
+        "new_sha256": "61d9ae76e3d9506b6619c5c38f0c5ae85fad6fa269d32c35b1c81e8802c1aa31"
+      },
+      {
+        "name": "decal_logo_c",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "b87732d549c0b036dbee44a308f9af8e5c7e3ff5cc9b757d257d4e53516acc81",
+        "new_sha256": "42a3b35e322eb61d7c6517baa5d039f83e8c014fb43db1c8d6fdb5234888a66b"
+      },
+      {
+        "name": "decal_logo_d",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "dded301c8338fd036f4db4303eac46fb422195bc610389157bb9dcbd5ac9fdeb",
+        "new_sha256": "cb3ecf52b940c476022d616acc917820288e5951143b1dbc01d0225065aede47"
+      },
+      {
+        "name": "decal_berth4",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "37505385dac41e33af7dade30e15f3c5ab7afc0cc23c48e84af39b366d525a88",
+        "new_sha256": "2dd3f64f3127c1dcff1a8f8f26d896f559820887a2aca9d4177957b249d9af82"
+      },
+      {
+        "name": "decal_csc_plate",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d9cc69be2389edb4a41b5c74069cab731eb33ee7ede9672294d0d5f871602687",
+        "new_sha256": "d713994c4287edc4443ed3735bc59f8c32ef79af984376ea0489eb4c630f5697"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "337f03be400788d93e58ed8c66d905b8cf52a0cb17950d1f816faca25c331952",
+        "new_sha256": "4a53c1eab078fb7fb7e85136eb6ade8576dcbca7492b956bb29daf2e62eac81f"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "322e396a55e70b33076d4ae2edd62053d92858af693102bd16c3716e02ccf090",
+        "new_sha256": "98581ce72bb9b2a9e656064b62b4086b11e177cc9c0913ab3f1745c2d683ec72"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "2151334d592f5be40f9ecbf3213ac447531a812de583c2db97ffac8604d5d745",
+        "new_sha256": "374a2587404778778486f5435045d748a92b39d79eca23746a5608ffa75d0933"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a552df448e4f8d923c1911c9b164b9f40703cc01a5c62d6a663a48091c714293",
+        "new_sha256": "adea4031e1d77c8e1e72d42d0af74f086173878bdedc487ce7c6843f93e3f430"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      }
+    ],
+    "identity_problems": []
+  },
+  {
+    "folder": "materials-full-low",
+    "old_materials": 85,
+    "new_materials": 85,
+    "changed_textures": [
+      {
+        "name": "decal_hazard_flammable",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "98365408674d17d6bac54e9801919b345791cc9a89061352e9db224ed6b40da1",
+        "new_sha256": "f5d5aa708b7da47d1befc1c5cddac7fdbff1c736f80c2690ab95e3e7e290f6e0"
+      },
+      {
+        "name": "decal_logo_a",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d253588f5bb907002b7d60a75dc8deff05068c69310e96745bf59ef3dbc133d7",
+        "new_sha256": "0213ac5dfa16b2a57e8356deafdf031fbde85aa2ad62b752c3817e956e3dfb09"
+      },
+      {
+        "name": "decal_logo_b",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "186957ce5ec3e0a33fa71b4407baa94977d8ae87f026788ad201b9dfd7c34a69",
+        "new_sha256": "61d9ae76e3d9506b6619c5c38f0c5ae85fad6fa269d32c35b1c81e8802c1aa31"
+      },
+      {
+        "name": "decal_logo_c",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "b87732d549c0b036dbee44a308f9af8e5c7e3ff5cc9b757d257d4e53516acc81",
+        "new_sha256": "42a3b35e322eb61d7c6517baa5d039f83e8c014fb43db1c8d6fdb5234888a66b"
+      },
+      {
+        "name": "decal_logo_d",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "dded301c8338fd036f4db4303eac46fb422195bc610389157bb9dcbd5ac9fdeb",
+        "new_sha256": "cb3ecf52b940c476022d616acc917820288e5951143b1dbc01d0225065aede47"
+      },
+      {
+        "name": "decal_berth4",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "37505385dac41e33af7dade30e15f3c5ab7afc0cc23c48e84af39b366d525a88",
+        "new_sha256": "2dd3f64f3127c1dcff1a8f8f26d896f559820887a2aca9d4177957b249d9af82"
+      },
+      {
+        "name": "decal_csc_plate",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d9cc69be2389edb4a41b5c74069cab731eb33ee7ede9672294d0d5f871602687",
+        "new_sha256": "d713994c4287edc4443ed3735bc59f8c32ef79af984376ea0489eb4c630f5697"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "337f03be400788d93e58ed8c66d905b8cf52a0cb17950d1f816faca25c331952",
+        "new_sha256": "4a53c1eab078fb7fb7e85136eb6ade8576dcbca7492b956bb29daf2e62eac81f"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "322e396a55e70b33076d4ae2edd62053d92858af693102bd16c3716e02ccf090",
+        "new_sha256": "98581ce72bb9b2a9e656064b62b4086b11e177cc9c0913ab3f1745c2d683ec72"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "2151334d592f5be40f9ecbf3213ac447531a812de583c2db97ffac8604d5d745",
+        "new_sha256": "374a2587404778778486f5435045d748a92b39d79eca23746a5608ffa75d0933"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a552df448e4f8d923c1911c9b164b9f40703cc01a5c62d6a663a48091c714293",
+        "new_sha256": "adea4031e1d77c8e1e72d42d0af74f086173878bdedc487ce7c6843f93e3f430"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      }
+    ],
+    "identity_problems": []
+  },
+  {
+    "folder": "props",
+    "old_materials": 137,
+    "new_materials": 137,
+    "changed_textures": [
+      {
+        "name": "decal_logo_b",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "186957ce5ec3e0a33fa71b4407baa94977d8ae87f026788ad201b9dfd7c34a69",
+        "new_sha256": "227a6b3045c12b7dc20d49d681815ea4032957ca4b34edeb8ea5b7959d819386"
+      },
+      {
+        "name": "decal_csc_plate",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d9cc69be2389edb4a41b5c74069cab731eb33ee7ede9672294d0d5f871602687",
+        "new_sha256": "d713994c4287edc4443ed3735bc59f8c32ef79af984376ea0489eb4c630f5697"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "1ac87d105411464f19490d321d42dd3d4b9587d1abbfadc9c0bd2770c32f7451",
+        "new_sha256": "6fee927bcd29353f2b25773046f1a97d7da2dde005a8468e1efc114720b19818"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "23d6c726d31c1ca93014e86bcb2cb53b3c89715c24d0750f60bbf881998827d1",
+        "new_sha256": "d3b73b12f743a4324f1d7262d2146b5ca38fe9be8697ee640007298ad04804e9"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "3c0d3e963e635949756605f49fbf2d9c7efb89c4184b3bdf9af4d29a4db3300a",
+        "new_sha256": "64df21a876830228951df1ce780c70571d9b985bac2b001caf99ca4959c39a40"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "c0bdeab5306cfa48156c7534e9e69dde2bf8d16e38d7c0116fe1bd48962160fd",
+        "new_sha256": "b09261548a7ffc13fe93af69948ee15d8e0450cbf9779ab0cab571c5ad432473"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "80e37358af0a73ad28d9fdd1a6b186c2d13011ef5bf2ad55ec3426178a47ba6c",
+        "new_sha256": "e8e3eda324905e8cdd7113da3bc2f1f0b94be0c3717845273d0846d81a5660da"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "792dd5db956e19b938f0518049ddf7e26e4b91c53bec06011028cd72f413db75",
+        "new_sha256": "fadf2b8e529e9b7ea9400e3756c30351831f2623d1e8161bc929260941ad2ffc"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "483a2a74758592094d0dc6e616318b483dcb4ceb2e59a5fa6f7ed30a1b7629d5",
+        "new_sha256": "2bdf94d69b6625dcc78eb82a2fb5947a4e17863f212485ff59de06bbcd54270a"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "ba4d2beee0af3411313447f7ba550ce1ccb6da6fa6c2f036d90590e5a34941e1",
+        "new_sha256": "fdef27f56f83a72e7803320c53456b9a180d4d53dd31b3a4a9791ef7f64dd0d1"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "27fa451f4e5cd8624699e3dbaa5f70b558293126e55a7b0cecd965559c0498a1",
+        "new_sha256": "5547be3e7a2ac2050b4fbb5fa39f6c6d4ef36e124dc10fba5f57fd86b72be42d"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a59f7d62ffa5ba00ead1c3e53c774f985fc016417dc15b7351d9e5cd8f14558f",
+        "new_sha256": "9841dd0927dce8a9936af7151380cfbe166bbc1b21e07fbfa19db800cb1f6f32"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "7e09a04c1d92826993417454ea3a831116dc15f99e68e54ffaafad6a5d18a9f3",
+        "new_sha256": "d58ef7f1ca9434ca0c511c2a1aa488095d16209c5aa20bc4bc6918b0ed0c020f"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a127c94c872066466c064ffd1520f1e47267933ea35694e6aa8b6bd2da155406",
+        "new_sha256": "660b5fd00c566da414d3f4288ac7aa05b0d1150e9e1a82f0d46954c2b4bfe645"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "96836c7e7a0e781f996345280af5c36c5d12ab42b1538e6ed2eb347a095bb21b",
+        "new_sha256": "07fabe122df8901bf1a87197f5cd7693161dd29f16a79886a9bcbb9a525dae9b"
+      },
+      {
+        "name": "decal_berth4",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "37505385dac41e33af7dade30e15f3c5ab7afc0cc23c48e84af39b366d525a88",
+        "new_sha256": "2dd3f64f3127c1dcff1a8f8f26d896f559820887a2aca9d4177957b249d9af82"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "7fe8d0252a2f234d22d0cf0387e8bdfaa0d59448ad1635745edd2c8d68a9953b",
+        "new_sha256": "2e3b8d9ef90e12eefebdc34f74aebd0b9c9bdc24e2c47cac494ddbf594545ead"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "d99ee52534c13726d885b016b1b106b738f26789843988e13f5917dd7ed96c19",
+        "new_sha256": "144bc44f0aa7d6167b194366d5e945460ca9c92a1e21c01da2d86b385223489d"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "54b69561e61de58a4eaf3e92673d4a37791b911c170841a6fb346ce892648762",
+        "new_sha256": "2e65202809c7c561b6817de1ee833657d10fbfcc96adf1807c36480f3d08e842"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "2be97a8dd627a573be739d77f5bd4aae583c9a0cbe22ef4db779fa92a4d7810d",
+        "new_sha256": "05f5884a8c841977e0a8f7814b5a4b2615c40819de491409c90121327bdaa77b"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "1e29c017330925b4c03a91e05ca8b3f3a4b1cf4d7ef22761963cffdb17b56e4d",
+        "new_sha256": "3eb61b2b8c30f56c724fd8cc1b57734cfdec9398a5d149419197a7d2888e3405"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "0138755ef3fcfaa0dfd45aff6c8ec08d34c7682bd76e0be82b03cf5f7e8db522",
+        "new_sha256": "a56459d0aaf261550d571bb52c9eb024166b67d9a8b64049ed81f4056145d686"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "2fe06f3f5348046559573496a0ccea14b90925d35fb8457ded47bedd05134a39",
+        "new_sha256": "15e584a84e38c72aa4dab9be0892e6fd593f2a030005f1d711ab4cde49b06864"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "89e16b756774245a4ca8b01038d7ff2196db10cf3336746b56521590cd4507bd",
+        "new_sha256": "15e6413fa8ca24647657d57336ee2afba4c28313600691514a76ced99a829126"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "0a55667b399fedf2213725ae2ee58302ecba9ad5f8a92a5ae5708bacf6be657f",
+        "new_sha256": "0b30d597d11e1347a08973dd817fda7158d56e1cbbfd50ac888e931c18b2c8d4"
+      },
+      {
+        "name": "decal_hazard_flammable",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "98365408674d17d6bac54e9801919b345791cc9a89061352e9db224ed6b40da1",
+        "new_sha256": "f5d5aa708b7da47d1befc1c5cddac7fdbff1c736f80c2690ab95e3e7e290f6e0"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "be487202d09ca358a6bb9c2af134da08378160e48a7d62788a12ef8a4efd9748",
+        "new_sha256": "4022c5f7518b5bbd1f96d0ce0d0bf5aa754f48e738af7c06a8d6a8a5edef28aa"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "fe608c4b08e32c6b1e052465776c523fe39a1b5d53c1cdd34fc94b05835c94ef",
+        "new_sha256": "f990763f96190ea0bb4102bb56e9956bab6e6dd20eac8a83fc78718a93fd01f9"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "e8a1d3ad43887f1476ae755c267ab292909f74e6ccdcc89bbf9099950ee52495",
+        "new_sha256": "b1f92dc57c3d567c92138e80b58115217175fea1986a5904261ba4af276d8646"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "f989df17c9c4f4f74458e160fb64bd55189c0157bafc4b575e5af378f5848559",
+        "new_sha256": "a9ef147201654aa43e514426813bd866adc1d594cdfc58f24e42fa4d2ac0bde3"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "3a8df3b28fef2ae4160adb17af303dc089d29a1849ae98d801d544cccadde5da",
+        "new_sha256": "06b876f13e93aff7d851f3f1601f0ac2a54313235b18175b14f9e8edd8ac9520"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "ab3c66b31baa0f59014bd5a80c4c06c3e78d59af3ed76a9460cf58ce04bae2cc",
+        "new_sha256": "ce421c34aec980346e83c2d74feff23d6ccf9081f14a0e6c7861d38c10f3bd33"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "e5ddb363eb4937b9890ac6e202dcc12b893fb3f57266bc0ae07bde957886753d",
+        "new_sha256": "c95c3abe11a3d204484204eb502f4321553ec71edd53f21ffc450eef84ad5b70"
+      },
+      {
+        "name": "decal_numbers_0_9",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "a64cd08f168a6c3b32c55301bb690d9e7b4547c3613cb983b1fcda16600717be",
+        "new_sha256": "eb803583273d98ed33dc9dd3bd4661b96b28e437ded94199d659fb7f8a30decf"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "ee217e768057466ed6c685d920d399a6a69f3fe62b6a4f6ee332a3f5da116a63",
+        "new_sha256": "0fe2b59953e5f843dca08add41a9523178692bcbc9e8926b32a755bb6229bdaf"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "81f12f3072020135508311664a085f112ee462d6c62122d15d979904ecc41003",
+        "new_sha256": "ecdef073cbbc1989390e408f4f8c305138fbe6aea9b0342ac9928bd393d74618"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "abf7e12f03df3c6be21f1dbeb9739a0ee980dcf68faffa701fdaebbd41887df2",
+        "new_sha256": "a839ed3bb1c0fb018d2844bd154a194181fa848f46523f2e60655e9de70d4f0e"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "2dfa481f6d2d56b4ed1a1a8c74aeb0664d027763e8c565e26d00007242798f9a",
+        "new_sha256": "f726fafd142bab366f0c3a13a6ff3f6caf9d418d15888cfc5079ff7ff3529e11"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "eb5610f816207e8233edbefc97cf9542f950576768a1073de3e4a4533310aa89",
+        "new_sha256": "8d79a47bf987b685519193fd541a3adec6e916d7043c344682506ac3a84304e4"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "af6af2156a0ba57c33951535ad8e8a84d93b37414fac1fa8bbe9cc0967f5d3d6",
+        "new_sha256": "109491855e16d4d3c4204d5c02ba76bce9306ba39cfbb6b8db7bbdebfe098a68"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "e24b0c8d159b5c9126bccc690381f63fb00f8e0c7e0a679a50c3f006fbe3c60e",
+        "new_sha256": "c76898fddf1ecffa5051f44f143e74088a7f573195613617348288f8d5a17d88"
+      },
+      {
+        "name": "decal_logo_c",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "b87732d549c0b036dbee44a308f9af8e5c7e3ff5cc9b757d257d4e53516acc81",
+        "new_sha256": "42a3b35e322eb61d7c6517baa5d039f83e8c014fb43db1c8d6fdb5234888a66b"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "b5de9b4ef0924de7e26138a2657f525fcc51042ed520e6213cd5ce26b1f37472",
+        "new_sha256": "5e7be3797a31e9bd1ac4cd051963301e9d4ee3e393b8d8b57aa3b3a227fd057f"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "9cf4e939bacddec1f335d0cfd7669f0545a042155d5d4b95c0089b69a2571cf1",
+        "new_sha256": "ec68d612b0163a9f72d7462f67e637059010928fcb2a3014f9766871357e4f88"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "5d6574e401e1e730d2bbf38b2526fb0ea38b3a7bd73c6a95cbfefc319a1bef65",
+        "new_sha256": "b447c14fd577f6cacb61c123d051b111671f4897771d51bad9636e63fa68713e"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "7c45d72f1ecd9583e9bfdb8c7da12a906a4a7da71dbbf94e4a90523835eb32a1",
+        "new_sha256": "139bdabed979cd2ea652abd9e730cdb1332908649e2fa57820677c830873dd44"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "f98079167ad5e2640f2c2ec4f9697ff3970f9305026289d7050b0486a20676b7",
+        "new_sha256": "a617a4bde37f4218e3c6750e88646ca578e24e5ffa39c360493bbb887ebc88ee"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "4affb020643bf859e01a60306109e2b0a8841a2f88fe0591c55b768f2282a010",
+        "new_sha256": "c7c2de7d7b7faf8686a1d88187a301086a08d771c629420fd60adf89b450e974"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "99d052128623045800ea24415267b272352d317c6627fe494c1d631eb79024df",
+        "new_sha256": "e270bd4689424a1984d72e0b585e8955cd8372de89afb7c7c7870e74c8b5d0a8"
+      },
+      {
+        "name": "decal_logo_d",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "dded301c8338fd036f4db4303eac46fb422195bc610389157bb9dcbd5ac9fdeb",
+        "new_sha256": "cb3ecf52b940c476022d616acc917820288e5951143b1dbc01d0225065aede47"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "6c2b7f70876826923f98f781bc7d06e88dc3b6facebc017c640ffe0c4ef176f1",
+        "new_sha256": "ea021eb88c548f4289686602c5a15e5b4cf0f0d468eba2387b43654e6e4be0c3"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "e0e41cce69bb3bfda29aefb85841dd35f7f6fe75fa3bece8974c49607198339a",
+        "new_sha256": "64eb6408d6543d763f0f4989a9d294f17e69414b79f9ca8e0c6b62e0d852cb1d"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "97c260386bce3cfdb7db7b2cdd80a86030a7256ca6596255a7ecb5d9a6b46dbf",
+        "new_sha256": "9d9e5e163615987f584cf9f77c270ef44abd56079ba0c36afe02bcb64452b227"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "53f7bdfbc93ade56577a03f0cdceffc3acb37dd651b4344c2c6ac2d0fd009d30",
+        "new_sha256": "b2b1e1273f06f1a3959b7fd005658e840b18d301fe1978c8d0a518ea2c39ffef"
+      },
+      {
+        "name": "label",
+        "key": "map",
+        "procedural_set": null,
+        "old_sha256": "8111d2f6cfb77e071402ba582fc21514ed63b94c2871b37b22d99bfeea944163",
+        "new_sha256": "20ab425a1fdf2a1b5410345692e562e93476b8a92581cf990abbbdc8201dbb9c"
+      }
+    ],
+    "identity_problems": []
+  }
+]

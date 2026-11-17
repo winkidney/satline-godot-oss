@@ -1,0 +1,21 @@
+{
+  "scope": "CPU arithmetic fit to measured full_guard without input barrier; not a driver disassembly",
+  "numpy": "2.4.4",
+  "samples": 336,
+  "sources": {
+    "wet-hash-diagnostic-input.json": "665cd7590c449d33a023070e8b913d439c866e9593232b2bb2137f80bd7c89d9",
+    "wet-canvas-noise-verification.json": "73f9edc1515d1601416ab5174a2721def3aa42a642e0154e0132625961135e98"
+  },
+  "models": [
+    {
+      "name": "original_parenthesized",
+      "max_abs": 0.6439493298530579,
+      "differences_above_1e_6": 75
+    },
+    {
+      "name": "distributed_base_product",
+      "max_abs": 1.1920928955078125e-07,
+      "differences_above_1e_6": 0
+    }
+  ]
+}

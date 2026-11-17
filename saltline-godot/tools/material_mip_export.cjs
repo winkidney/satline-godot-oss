@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8805/saltline-godot/tools/material_mip_export.html');return await page.evaluate(async()=>await window.ready);}

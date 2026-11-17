@@ -1,0 +1,94 @@
+{
+  "files": {
+    "scripts/motion_preference.gd": "92b3d8fd84f906adb096daf6ddb655376fd58190f0a63af27ee870be254b7e8b",
+    "scripts/css_transition_timing.gd": "57c858496665c86943758c0088c2493eb9773239eea8332b10181923c7aec13a",
+    "scripts/css_color_transition.gd": "9bb0c18576972376dc5b32f3141556991518fdd0bed9114944dcd3610cc25e7c",
+    "scripts/panel_toggle.gd": "647744f01bc1e183052daf4ed205601977bfc701448a84fc94ab1ba34c6fcbee",
+    "scripts/game_ui.gd": "83559eb0f2a2ceffeb4da44c00b8dbd4fe7ee19b424994483fecaa7c7997bd45",
+    "scripts/location_hud.gd": "412c3b0247de9e89e3d13c474d114cf85ef84effc72439bcb98d09f3612762b2",
+    "scripts/objective_hud.gd": "5ec94f7b5e107cf6c290e7c60225534367f2e940c52d1063233ddec09c7c5ca1",
+    "scripts/announcements_hud.gd": "2de1bb08b5e4b796b9be30dbabf60fe461bb973f94012f4721108e3d0fe3c981",
+    "scripts/status_hud.gd": "6a4072c43c061092070969f7899661503c2efe72520b9fc632a20c374c128d69",
+    "scripts/navigation_hud.gd": "2e65ef292837393eb616a4e1e4d09b74328a1b3f4c3b0537851f720d7ea31274",
+    "scripts/combat_feedback.gd": "ec5a4d10b9e9bbdf884a5713a0a1fce3773bc90508b99e3c0bf2de990fd80886",
+    "tools/motion_preference_reference.cjs": "371d1566a19bc6dcf35652ec6f10594a8c6212a10ddba4c771df54123c7336d2",
+    "tools/verify_motion_preference.gd": "154545c7c5826f89d78afd3a0b1b8761a2dc229843efcdc8c09f94ed8bf4ef04",
+    "assets/export/fixtures/motion-preference-reference.json": "3971570f5a6e29bb2d8e0afb099cf0d8a9e9df951e4d363019d0ac2433eae0b3"
+  },
+  "launches": {
+    "runtime": {
+      "exit_code": 0,
+      "sha256": "a093d1cd28195fa93cfed91d4b8d15533b1155e572ec798d99b9987905a1d5a9"
+    },
+    "transition_reversal": {
+      "exit_code": 0,
+      "sha256": "35c384b989f0e995657de9c32254649fbb8b33d64aeffb91ad5ac41464de074f"
+    },
+    "hud_opacity_reversal": {
+      "exit_code": 0,
+      "sha256": "f467ec3cb78ec3b3bb303871f5f9ae564125ec0e4b9e2c68cdafd3668226e328"
+    },
+    "button_transition": {
+      "exit_code": 0,
+      "sha256": "2303df698d199293ec4abd06e3dc26979c8b0f1c62bf14c0a268327e307f82d3"
+    },
+    "panel_toggle": {
+      "exit_code": 0,
+      "sha256": "3b78d18dbc904104814bd2ca0bc9922586134278770ee15b601367668e8e8096"
+    },
+    "location_hud": {
+      "exit_code": 0,
+      "sha256": "cefe99e66f54cd32c4b4e84cbbb4832462531b9ff51eb50e19f15eeba614f278"
+    },
+    "navigation_transition": {
+      "exit_code": 0,
+      "sha256": "766c60e68e741d5747d6f6f0ecc3bf4da3bbcebdf4aaedf1d350bc694b40b2ce"
+    },
+    "combat_feedback": {
+      "exit_code": 0,
+      "sha256": "80b2ba74cecda3e882c7e93ce7e5a8bbb18d785e52cad65d552b39cf73245df1"
+    },
+    "radio": {
+      "exit_code": 0,
+      "sha256": "9928bb4db2c98f1d55c6c71529b48a07a3471feb5d422992d8e8ddf415689013"
+    }
+  },
+  "verification": {
+    "checks": 56,
+    "failures": [],
+    "platform_value": -1,
+    "profiles": [
+      {
+        "cue_alpha": 0.349999994039536,
+        "feed_duration": 0.5,
+        "hit": [
+          1,
+          1.01277862115688
+        ],
+        "reduced": false
+      },
+      {
+        "cue_alpha": 1.0,
+        "feed_duration": 1e-05,
+        "hit": [
+          1,
+          1.01277862115688
+        ],
+        "reduced": true
+      }
+    ],
+    "scope": "Actual GameUI platform wiring and production CSS helpers/components. Both preference responses injected only at policy boundary because Linux backend may return unsupported. Original Chrome CSS dual profiles/live-switch reference, pseudo-element/root exemptions, actual urgent-cue draw and objective GPU color, unchanged lifetimes/typing/WAAPI. No claim of a real OS reduced preference on unsupported backend."
+  },
+  "linux_portal_probe": {
+    "method": "org.freedesktop.portal.Settings.ReadOne",
+    "namespace": "org.freedesktop.appearance",
+    "key": "reduced-motion",
+    "exit_code": 0,
+    "value_type": "uint32",
+    "value": 0,
+    "read_only": true,
+    "source": "https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Settings.html"
+  },
+  "remaining": "Current pinned Linux DisplayServer returns -1 although host portal exposes the standard setting. Actual automatic Linux preference tracking still needs an engine-side query/cache adapter; no CLI dependency was added. Reduced branch tested by injecting platform response at policy boundary.",
+  "bundle_status": "Source updates after r13, no new runtime package yet"
+}

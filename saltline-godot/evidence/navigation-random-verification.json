@@ -1,0 +1,9 @@
+{
+  "checks": 9,
+  "draws": 136,
+  "failures": [],
+  "maximum_point_error": 0.0,
+  "navigation_sha256": "d5d600af3ad879dfe529f829b639ad057be49696706207372e05a50b857040d3",
+  "scope": "Actual original Main nav.randomPoint interleaved with actual fx.smoke and direct Math.random; permanent wrapper installed before bundle aliases capture it, tape enabled only after ready. Full original grid/collision; no source file edits. Native actual Navigation/ImpactEffects/Particles share one tape, including24-attempt fallback; normal grid/path construction consumes no random values. Default browser entropy values are not reproducible.",
+  "smoke_particles": 2
+}

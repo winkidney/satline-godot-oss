@@ -1,0 +1,8 @@
+.godot/
+output/
+__pycache__/
+
+engine/.build/
+
+engine/.venv/
+engine/build-result.json

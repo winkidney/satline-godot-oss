@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 2533,
+            "normalized": false,
+            "sha256": "baf7709d21a7d7fcf595573fb6766b57bb24b08f9a0921f5d12edf1eff464592"
+          },
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 2533,
+            "normalized": false,
+            "sha256": "4768335adcea3e71d383769c7fd92b59f8f479620905c482f04397c5e5a0fdca"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 2533,
+            "normalized": false,
+            "sha256": "bdcd1363e9d7f34d99359a2886b23aa7f4c7ac3d0368ef1fc57f16efec0608d9"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 2533,
+            "normalized": false,
+            "sha256": "6986a8bf08f910515597ac625e98d6aa88bb0b42e1f3a2ee66682ec3b3cef143"
+          }
+        },
+        "index": {
+          "dtype": "Uint16Array",
+          "count": 10692,
+          "sha256": "7178e271000862205184a843e7e77ea6f79491d3e18e741d58b7fa335870c9b5"
+        },
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "plastic_grey",
+          "env_map": false,
+          "env_intensity": 1
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": true
+    },
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 5166,
+            "normalized": false,
+            "sha256": "acd00d3e2cf793c33d30f1954b7dacaca8f796a47e1c4ae2adf204a3799604a9"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 5166,
+            "normalized": false,
+            "sha256": "51b053ec3836d46e83c78ac7b72f296baebcb75de2220113432ff4aeacae9003"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 5166,
+            "normalized": false,
+            "sha256": "da60ac44e05e71a2083c3b3555299e93b4c15ff75e426c95d619eb76b79b8c35"
+          }
+        },
+        "index": null,
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "polymer_black",
+          "env_map": false,
+          "env_intensity": 1
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": true
+    },
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 482,
+            "normalized": false,
+            "sha256": "6e7fa2a5696f57122b76ba357083c77a357a4fd0682e6ffeccdc392c0361006b"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 482,
+            "normalized": false,
+            "sha256": "e27831dcd8d738ebfeca9877955765176b9c0f1fd48f49be894bcb6bd87836d0"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 482,
+            "normalized": false,
+            "sha256": "10600bd0faaf2252abc52368848664a2761cdd2fbfc5141da4a93142b5103298"
+          }
+        },
+        "index": {
+          "dtype": "Uint16Array",
+          "count": 1344,
+          "sha256": "8a2d498fb064f7a58c700dba762c1cfe074920e305ab49d4387cb9c6928e71ab"
+        },
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "steel_galv",
+          "env_map": false,
+          "env_intensity": 1
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": true
+    },
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 695,
+            "normalized": false,
+            "sha256": "5de7675fa0e6033baa34d9c4abe4917b9c4732fc78b641aa2e3095edceedf480"
+          },
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 695,
+            "normalized": false,
+            "sha256": "3f4576a79e811ed11856b91133b1cc5af6bd22da033c75dc15f38272d55e1357"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 695,
+            "normalized": false,
+            "sha256": "a661f9e46f84c475db32be167aafb4b9066e6d8b2cb658b60d2c25e8d920c6e9"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 695,
+            "normalized": false,
+            "sha256": "8c17759e833a470748b848325e89935ab4b74df30215c21678e03fcb69a4c044"
+          }
+        },
+        "index": {
+          "dtype": "Uint16Array",
+          "count": 2232,
+          "sha256": "9ac4cbb31305f0d666c8a091b8fa1b7bfda3316edc76fc51df38ae19486dc004"
+        },
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "paint_orange",
+          "env_map": false,
+          "env_intensity": 1
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": true
+    },
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 24,
+            "normalized": false,
+            "sha256": "91d9b1524005c7919ef652ee0b449def98218333bc2d52985b40afb298dabe49"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 24,
+            "normalized": false,
+            "sha256": "1850b751a2b25f2b8f3fb47b5c762af0c2354c841c80e950ba1e97e756592f95"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 24,
+            "normalized": false,
+            "sha256": "67d7441a5b39b52b6564acfb8a6899f9749ce9b5942c6dafaaf7eede2d40b3eb"
+          }
+        },
+        "index": {
+          "dtype": "Uint16Array",
+          "count": 36,
+          "sha256": "7d2c65fffb490f18b89d5d949a36ac6fe37f052789bdc3ad49759abb3ecd0898"
+        },
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "glass",
+          "env_map": false,
+          "env_intensity": 1.4
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false
+    },
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "2acb6d85e61f82d4e257e450167fd76b40efdb075d205631ef3882e2875e2b8e"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "2a61cbd4a41d5faf143e9a5af3d0fe0985ae23c08bb2fbbcda29c570e18675dc"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "631d269991c4e8d3c2c9ca72e9214be08ccdd78f331a8884b65fef90747b1363"
+          }
+        },
+        "index": null,
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "",
+          "env_map": false
+        }
+      ],
+      "matrix": [
+        -0.00040841976178839135,
+        0.01760128669205994,
+        0.9998450019378414,
+        0,
+        -0.02319413202629583,
+        0.9995759401564389,
+        -0.017606024534741103,
+        0,
+        -0.9997308965080778,
+        -0.023197727629124823,
+        2.219848519464835e-16,
+        0,
+        24,
+        0.34,
+        15,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "exported_blink_geometry": {
+        "id": "backdrop-boat-blink-5",
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "2acb6d85e61f82d4e257e450167fd76b40efdb075d205631ef3882e2875e2b8e",
+            "file": "showcase/backdrop-boat/blink-2acb6d85e61f82d4e257e450167fd76b40efdb075d205631ef3882e2875e2b8e.bin"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "2a61cbd4a41d5faf143e9a5af3d0fe0985ae23c08bb2fbbcda29c570e18675dc",
+            "file": "showcase/backdrop-boat/color-2a61cbd4a41d5faf143e9a5af3d0fe0985ae23c08bb2fbbcda29c570e18675dc.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 48,
+            "normalized": false,
+            "sha256": "631d269991c4e8d3c2c9ca72e9214be08ccdd78f331a8884b65fef90747b1363",
+            "file": "showcase/backdrop-boat/position-631d269991c4e8d3c2c9ca72e9214be08ccdd78f331a8884b65fef90747b1363.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-boat/indices-5.bin"
+      }
+    }
+  ],
+  "geometries": 6,
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "scope": "Actual original backdrop geometry attributes/index/world matrices/material environment flags; common floor/global lights separately captured. Backdrop blink buffers also retained for exact selected-lamp reconstruction."
+}

@@ -1,0 +1,30 @@
+{
+  "failures": [],
+  "samples": [
+    {
+      "draw_operations": 292,
+      "headings": 3,
+      "height": 976.0,
+      "key_boxes": 33,
+      "rows": 30,
+      "width": 382
+    },
+    {
+      "draw_operations": 290,
+      "headings": 3,
+      "height": 1011.0,
+      "key_boxes": 33,
+      "rows": 30,
+      "width": 262
+    },
+    {
+      "draw_operations": 285,
+      "headings": 3,
+      "height": 1099.0,
+      "key_boxes": 33,
+      "rows": 30,
+      "width": 200
+    }
+  ],
+  "scope": "Actual controls renderer source rows/key boxes/headings and responsive layout output at three widths. Not source glyph pixel parity or scrollbar interaction."
+}

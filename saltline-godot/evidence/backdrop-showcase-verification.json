@@ -1,0 +1,86 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "variants": [
+    {
+      "part": "all",
+      "nodes": 34,
+      "casters": 20,
+      "frozen": true,
+      "world_time": 0.05,
+      "failures": [],
+      "log_errors": [],
+      "rgb8_descriptive": {
+        "mae": 0.4345413773148148,
+        "p95": 2.0,
+        "p99": 7.0,
+        "max": 76.0
+      }
+    },
+    {
+      "part": "crane",
+      "nodes": 16,
+      "casters": 9,
+      "frozen": true,
+      "world_time": 0.05,
+      "failures": [],
+      "log_errors": [],
+      "rgb8_descriptive": {
+        "mae": 0.4650441261574074,
+        "p95": 2.0,
+        "p99": 7.0,
+        "max": 76.0
+      }
+    },
+    {
+      "part": "ship",
+      "nodes": 12,
+      "casters": 7,
+      "frozen": true,
+      "world_time": 0.05,
+      "failures": [],
+      "log_errors": [],
+      "rgb8_descriptive": {
+        "mae": 0.2514673755787037,
+        "p95": 1.0,
+        "p99": 3.0,
+        "max": 55.0
+      }
+    },
+    {
+      "part": "boat",
+      "nodes": 6,
+      "casters": 4,
+      "frozen": false,
+      "world_time": 0.282629333333333,
+      "failures": [],
+      "log_errors": []
+    },
+    {
+      "part": "sky",
+      "nodes": 3,
+      "casters": 0,
+      "frozen": true,
+      "world_time": 0.05,
+      "failures": [],
+      "log_errors": [],
+      "rgb8_descriptive": {
+        "mae": 1.1593695746527777,
+        "p95": 8.0,
+        "p99": 22.0,
+        "max": 58.0
+      }
+    }
+  ],
+  "level_regression": {
+    "nodes": 133,
+    "casters": 78,
+    "failures": []
+  },
+  "files": {
+    "scripts/source_scene.gd": "643c3eaa03d12aa6de7745082c578fd3a18d222898f860ea2f1a4c4f3db83ffc",
+    "scripts/level_showcase_runner.gd": "07b5a36f2703fc5885cd7879341e345d966e72b88513bb29bed12c965068780c",
+    "tools/capture_main_paired.cjs": "42bcbd9e19538648c469f4fe56c4609217187c12480cfd301610e33d83e61ab3",
+    "tools/build_backdrop_showcase_bindings.py": "4338e1a168de96d4ff929fdc4968f9e4c99269dc5791463f1ec0f8c83814a701"
+  },
+  "scope": "Actual NVIDIA GPU original/native captures, complete original geometry fingerprints and world-matrix matching, exact extra blink/label geometry streams, selected scene counts/shadow membership/stub environment, boat live clock and fixed base. RGB8 metrics descriptive only. Does not prove label texture identity, all animation matrices, all qualities, whole-game parity or realtime performance."
+}

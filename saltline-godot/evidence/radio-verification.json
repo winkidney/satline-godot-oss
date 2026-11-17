@@ -1,0 +1,8 @@
+{
+  "comparisons": 5760,
+  "failures": [],
+  "frames": 720,
+  "maximum_error": 0.000000000000014210854715202,
+  "scope": "Actual original HUD Y function against native queue, clear, typing and hold timing with variable dt; includes queued transitions, zero-duration line and reset replacement",
+  "started_lines": 9
+}

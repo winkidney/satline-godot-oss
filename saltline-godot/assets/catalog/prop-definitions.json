@@ -1,0 +1,295 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "state": {
+    "props": [
+      {
+        "name": "container20",
+        "size": [
+          6.06,
+          2.59,
+          2.44
+        ]
+      },
+      {
+        "name": "container40",
+        "size": [
+          12.19,
+          2.59,
+          2.44
+        ]
+      },
+      {
+        "name": "container40hc",
+        "size": [
+          12.19,
+          2.9,
+          2.44
+        ]
+      },
+      {
+        "name": "jersey_barrier",
+        "size": [
+          3,
+          0.81,
+          0.6
+        ]
+      },
+      {
+        "name": "light_mast",
+        "size": [
+          0.5,
+          14,
+          0.5
+        ]
+      },
+      {
+        "name": "fence_panel",
+        "size": [
+          3,
+          2.4,
+          0.08
+        ]
+      },
+      {
+        "name": "guard_booth",
+        "size": [
+          2.6,
+          2.7,
+          2.2
+        ]
+      },
+      {
+        "name": "gate_arm",
+        "size": [
+          5,
+          1.1,
+          0.3
+        ]
+      },
+      {
+        "name": "bollard_mooring",
+        "size": [
+          0.7,
+          0.6,
+          0.7
+        ]
+      },
+      {
+        "name": "bollard_post",
+        "size": [
+          0.17,
+          1,
+          0.17
+        ]
+      },
+      {
+        "name": "relay_node",
+        "size": [
+          1.2,
+          2.4,
+          0.8
+        ]
+      },
+      {
+        "name": "shelf_rack",
+        "size": [
+          2.7,
+          4.2,
+          1.1
+        ]
+      },
+      {
+        "name": "stairs_metal",
+        "size": [
+          3,
+          2.6,
+          1
+        ]
+      },
+      {
+        "name": "catwalk",
+        "size": [
+          3,
+          1.1,
+          1.2
+        ]
+      },
+      {
+        "name": "reefer_unit",
+        "size": [
+          0.5,
+          2.3,
+          2.3
+        ]
+      },
+      {
+        "name": "barrel",
+        "size": [
+          0.6,
+          0.9,
+          0.6
+        ]
+      },
+      {
+        "name": "pallet",
+        "size": [
+          1.2,
+          0.144,
+          1
+        ]
+      },
+      {
+        "name": "pallet_stack",
+        "size": [
+          1.2,
+          1.152,
+          1
+        ]
+      },
+      {
+        "name": "crate_wood",
+        "size": [
+          1.1,
+          1,
+          0.9
+        ]
+      },
+      {
+        "name": "crate_stack",
+        "size": [
+          1.2,
+          1.9,
+          1
+        ]
+      },
+      {
+        "name": "ibc_tote",
+        "size": [
+          1.2,
+          1.16,
+          1
+        ]
+      },
+      {
+        "name": "forklift",
+        "size": [
+          3.4,
+          2.2,
+          1.25
+        ]
+      },
+      {
+        "name": "cable_reel",
+        "size": [
+          1.3,
+          1.3,
+          0.8
+        ]
+      },
+      {
+        "name": "tire_stack",
+        "size": [
+          0.8,
+          1,
+          0.8
+        ]
+      },
+      {
+        "name": "dumpster",
+        "size": [
+          1.9,
+          1.35,
+          1.1
+        ]
+      },
+      {
+        "name": "generator",
+        "size": [
+          2.2,
+          1.4,
+          1
+        ]
+      },
+      {
+        "name": "jerry_can",
+        "size": [
+          0.35,
+          0.47,
+          0.17
+        ]
+      },
+      {
+        "name": "traffic_cone",
+        "size": [
+          0.36,
+          0.7,
+          0.36
+        ]
+      },
+      {
+        "name": "gas_cylinders",
+        "size": [
+          0.9,
+          1.6,
+          0.5
+        ]
+      },
+      {
+        "name": "tarp_cargo",
+        "size": [
+          2.4,
+          1.5,
+          1.4
+        ]
+      },
+      {
+        "name": "sandbags",
+        "size": [
+          2,
+          0.8999999999999999,
+          0.6
+        ]
+      },
+      {
+        "name": "toolbox_cart",
+        "size": [
+          0.9,
+          0.95,
+          0.5
+        ]
+      },
+      {
+        "name": "floodlight_stand",
+        "size": [
+          1,
+          2.2,
+          1
+        ]
+      },
+      {
+        "name": "cardboard_boxes",
+        "size": [
+          1,
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "name": "pipe_stack",
+        "size": [
+          6,
+          0.9,
+          1.2
+        ]
+      },
+      {
+        "name": "sign_post",
+        "size": [
+          0.6,
+          2.4,
+          0.08
+        ]
+      }
+    ]
+  }
+}

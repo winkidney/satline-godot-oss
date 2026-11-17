@@ -1,0 +1,109 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r10",
+  "engine_sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+  "manifest_sha256": "4e109cce4e0cd1bd7f627ef01dd4e5ce7f57d47777ea2b34b11259e0c779fed3",
+  "file_count": 5556,
+  "total_bytes": 3073741094,
+  "manifest_mismatches": [],
+  "launches": {
+    "main": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "c74e9bad3b4f87aefbf352fbd5e272078c6d5cbcdf17efc84064d369aba3caa0"
+    },
+    "survival": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "73012087eec6cae310daadc3a59323728f0242c13b18b14fa69c6897ba38b6c1"
+    }
+  },
+  "survival": {
+    "combat": {
+      "blasts": 2,
+      "hits": 31,
+      "kills": 13,
+      "shots": 60
+    },
+    "completion_menu": "complete",
+    "controlled_focus_resumes": 0,
+    "cut": 3,
+    "damage_events": [],
+    "debrief": {
+      "accuracy": 0.516666666666667,
+      "kills": 13,
+      "rating": "Surgical",
+      "retries": 0,
+      "time": 47.7333333333332
+    },
+    "difficulty": "standard",
+    "distance": 146.935263400432,
+    "failures": [],
+    "frames": 1457,
+    "health": 100.0,
+    "legs": [
+      {
+        "done": true,
+        "leg": 0,
+        "position": [
+          -0.00479444209486246,
+          0.0,
+          6.32302856445312
+        ],
+        "reached_waypoint": 5,
+        "steps": 406,
+        "waypoints": 9
+      },
+      {
+        "done": true,
+        "leg": 1,
+        "position": [
+          -0.786281585693359,
+          0.0299999993294477,
+          -18.1092128753662
+        ],
+        "reached_waypoint": 6,
+        "steps": 427,
+        "waypoints": 8
+      },
+      {
+        "done": true,
+        "leg": 2,
+        "position": [
+          21.5250225067139,
+          0.0,
+          -1.1827644109726
+        ],
+        "reached_waypoint": 7,
+        "steps": 405,
+        "waypoints": 10
+      },
+      {
+        "done": true,
+        "leg": 3,
+        "position": [
+          27.9423847198486,
+          0.0,
+          17.9828281402588
+        ],
+        "reached_waypoint": 7,
+        "steps": 219,
+        "waypoints": 8
+      }
+    ],
+    "minimum_health": 100.0,
+    "protected_live_frames": 0,
+    "rifle_ammo": 30,
+    "rifle_reserve": 90.0,
+    "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Test-only global seed4207 and controlled resumes after desktop focus loss; production random stream and pause behavior unchanged. Not human play/balance acceptance.",
+    "shared_navigation_fx_random": true,
+    "start": [
+      -32.0,
+      0.0,
+      6.0
+    ],
+    "state": "complete",
+    "test_only_global_seed": 4207
+  },
+  "driver": "Read-only external tools/verify_survival_mission_runtime.gd; all production modules/resources from bundle res paths.",
+  "scope": "Actual NVIDIA standalone Main startup and complete controlled Standard survival mission from cwd /tmp, isolated XDG. Normal health/ammo/AI, no teleports/invulnerability/direct cuts; test-only seed and focus resumes. All original5556 manifest files rehashed after execution. Unpruned development cache includes prior research imports. No full-image or performance acceptance."
+}

@@ -1,0 +1,34 @@
+{
+  "checks": 10,
+  "failures": [],
+  "samples": [
+    {
+      "quality": "high",
+      "updates": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "quality": "ultra",
+      "updates": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "quality": "high",
+      "updates": [
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "scope": "Actual Main, real shadow pass UPDATE_ONCE cadence High/Ultra/High and normalized Start snapshots. GPU frames rendered; does not assert moving-shadow pixel parity or physical controller delivery."
+}

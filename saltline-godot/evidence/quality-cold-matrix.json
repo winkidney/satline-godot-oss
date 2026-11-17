@@ -1,0 +1,105 @@
+{
+  "results": [
+    {
+      "quality": "low",
+      "failures": [],
+      "observations": 8,
+      "first_sample": {
+        "depth": true,
+        "frame": 0,
+        "half_depth": true,
+        "reflection": false,
+        "size": [
+          896,
+          504
+        ],
+        "sun": true,
+        "world_pixels": {
+          "lit_samples": 7056,
+          "maximum": 95.8229166666667,
+          "minimum": 0.0031731923421224,
+          "nonfinite": 0,
+          "sample_count": 7056
+        }
+      },
+      "all_world_pixels_finite": true,
+      "log_errors": []
+    },
+    {
+      "quality": "medium",
+      "failures": [],
+      "observations": 8,
+      "first_sample": {
+        "depth": true,
+        "frame": 0,
+        "half_depth": true,
+        "reflection": true,
+        "size": [
+          1088,
+          612
+        ],
+        "sun": true,
+        "world_pixels": {
+          "lit_samples": 10467,
+          "maximum": 95.09375,
+          "minimum": -0.0631612141927083,
+          "nonfinite": 0,
+          "sample_count": 10472
+        }
+      },
+      "all_world_pixels_finite": true,
+      "log_errors": []
+    },
+    {
+      "quality": "high",
+      "failures": [],
+      "observations": 8,
+      "first_sample": {
+        "depth": true,
+        "frame": 0,
+        "half_depth": true,
+        "reflection": true,
+        "size": [
+          1280,
+          720
+        ],
+        "sun": true,
+        "world_pixels": {
+          "lit_samples": 14392,
+          "maximum": 94.6979166666667,
+          "minimum": -0.09173583984375,
+          "nonfinite": 0,
+          "sample_count": 14400
+        }
+      },
+      "all_world_pixels_finite": true,
+      "log_errors": []
+    },
+    {
+      "quality": "ultra",
+      "failures": [],
+      "observations": 8,
+      "first_sample": {
+        "depth": true,
+        "frame": 0,
+        "half_depth": true,
+        "reflection": true,
+        "size": [
+          1280,
+          720
+        ],
+        "sun": true,
+        "world_pixels": {
+          "lit_samples": 14392,
+          "maximum": 94.6979166666667,
+          "minimum": -0.09173583984375,
+          "nonfinite": 0,
+          "sample_count": 14400
+        }
+      },
+      "all_world_pixels_finite": true,
+      "log_errors": []
+    }
+  ],
+  "scope": "Four independent GPU saved-preset boots; eight UI-free HDR world-buffer pixel observations each. Readiness and nonblank finite world output, not final source pixel parity or exact first draw continuity."
+}

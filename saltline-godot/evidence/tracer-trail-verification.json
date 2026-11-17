@@ -1,0 +1,11 @@
+{
+  "cases": 2,
+  "checks": 169800,
+  "draws": 366,
+  "failures": [],
+  "maximum_error": 0.0000000000000035527136788005,
+  "methods_sha256": "1025c299771261bf7e62a80636e5187e7d9d22c6c2123a2d7d6563175b947a90",
+  "scope": "Literal F/ph/M/u1/Yg with shared tape, emission+tracer update only; trail throttle, capacity48 overwrite, short paths, colors/defaults, pool saturation and clear preserving timer. Renderer quads rounded to original Float32 attribute domain; particle motion and complete le/global loop separate.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps_per_case": 80
+}

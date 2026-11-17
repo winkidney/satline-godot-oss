@@ -1,0 +1,5 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+{ "scene_rect": (64.0, 64.0), "down0_rect": (32.0, 32.0), "down1_rect": (16.0, 16.0), "down0_src": (64.0, 64.0), "down1_src": (32.0, 32.0) }
+{"failures":[],"first":{"bloom":[8.75,0.0999755859375,2.0],"down1":[8.75,0.0999755859375,2.0],"error":0.00703144073486328,"expected":[8.75,0.100000001490116,2.0],"frame":0,"scene":[8.75,0.0999755859375,2.0],"streak":[6.54296875,0.0,0.0]},"maximum_error":0.00703144073486328}

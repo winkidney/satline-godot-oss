@@ -1,0 +1,69 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "files": {
+    "tools/capture_main_paired.cjs": "6ffc58e1e52399bdf54466d02c7656659f4c59236b992e52097b493c16ebfec0",
+    "tools/build_backdrop_showcase_bindings.py": "07718c4fbfeafd9112c9b4936874655915f023ff8d01a098386e1ebf28810e3c",
+    "scripts/level_showcase_runner.gd": "ad81692b9502d67cf6c433d49b2f965f8d2ab75a6a0389afa9c0a6595f1f239f"
+  },
+  "variants": [
+    {
+      "part": "all",
+      "labels": [
+        {
+          "geometry": "backdrop-all-mesh-16",
+          "height": 128,
+          "mipmaps": 9,
+          "sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd",
+          "width": 720
+        },
+        {
+          "geometry": "backdrop-all-mesh-23",
+          "height": 128,
+          "mipmaps": 9,
+          "sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634",
+          "width": 636
+        }
+      ],
+      "exit_code": 0,
+      "failures": [],
+      "nodes": 34,
+      "casters": 20
+    },
+    {
+      "part": "crane",
+      "labels": [
+        {
+          "geometry": "backdrop-crane-mesh-10",
+          "height": 128,
+          "mipmaps": 9,
+          "sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd",
+          "width": 720
+        }
+      ],
+      "exit_code": 0,
+      "failures": [],
+      "nodes": 16,
+      "casters": 9
+    },
+    {
+      "part": "ship",
+      "labels": [
+        {
+          "geometry": "backdrop-ship-mesh-3",
+          "height": 128,
+          "mipmaps": 9,
+          "sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634",
+          "width": 636
+        }
+      ],
+      "exit_code": 0,
+      "failures": [],
+      "nodes": 12,
+      "casters": 7
+    }
+  ],
+  "unique_mip_chains": 2,
+  "initial_failure": "First native command omitted --game; Main game_flow was null, identified process175884 terminated143. Corrected test command uses --game, all final runs exit0 clean. No production initialization change.",
+  "scope": "Original source CanvasTexture pixels, exact existing showcase geometry identity, wrap/repeat/offset/color space, actual NVIDIA WebGL mip readback and Godot GPU mip readback equality. Two source label variants reused across all/crane/ship, Main assets unchanged. Does not claim whole-image parity or explain font initialization history.",
+  "bundle_status": "Source update after r12; r12 preserved unchanged"
+}

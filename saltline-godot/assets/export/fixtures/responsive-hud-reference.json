@@ -1,0 +1,516 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "text": "CUT THE RELAYS AND REACH THE EXTRACTION BOAT",
+  "cases": [
+    {
+      "width": 360,
+      "touch": false,
+      "objective": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "223.2px"
+      },
+      "objective_text": {
+        "top": 95,
+        "pixels": 17,
+        "spacing": 0.85,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH",
+        "THE EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 141.375,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 0,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "none",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 583.203125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 599.203125,
+        "pixels": 56,
+        "spacing": 0.56,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 583.203125,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 653.125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 360,
+      "touch": true,
+      "objective": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "223.2px"
+      },
+      "objective_text": {
+        "top": 95,
+        "pixels": 17,
+        "spacing": 0.85,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH",
+        "THE EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 141.375,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 0,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "none",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 94,
+        "pixels": 44,
+        "spacing": 0.44,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 78,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 150,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 760,
+      "touch": false,
+      "objective": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "471.2px"
+      },
+      "objective_text": {
+        "top": 95,
+        "pixels": 17,
+        "spacing": 0.85,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 126,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 0,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "none",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 583.203125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 599.203125,
+        "pixels": 56,
+        "spacing": 0.56,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 583.203125,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 653.125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 760,
+      "touch": true,
+      "objective": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "471.2px"
+      },
+      "objective_text": {
+        "top": 95,
+        "pixels": 17,
+        "spacing": 0.85,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 126,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 0,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "none",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 78,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 94,
+        "pixels": 44,
+        "spacing": 0.44,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 78,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 150,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 761,
+      "touch": false,
+      "objective": {
+        "top": 16,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "300px"
+      },
+      "objective_text": {
+        "top": 33,
+        "pixels": 20,
+        "spacing": 1,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 86,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 21,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 567.203125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 583.203125,
+        "pixels": 76,
+        "spacing": 0.76,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 567.203125,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 653.125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 761,
+      "touch": true,
+      "objective": {
+        "top": 16,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "300px"
+      },
+      "objective_text": {
+        "top": 33,
+        "pixels": 20,
+        "spacing": 1,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 86,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 21,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 64,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 80,
+        "pixels": 44,
+        "spacing": 0.44,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 64,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 128,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 1280,
+      "touch": false,
+      "objective": {
+        "top": 16,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "300px"
+      },
+      "objective_text": {
+        "top": 33,
+        "pixels": 20,
+        "spacing": 1,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 86,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 21,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 567.203125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 583.203125,
+        "pixels": 76,
+        "spacing": 0.76,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 567.203125,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 653.125,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    },
+    {
+      "width": 1280,
+      "touch": true,
+      "objective": {
+        "top": 16,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "300px"
+      },
+      "objective_text": {
+        "top": 33,
+        "pixels": 20,
+        "spacing": 1,
+        "display": "block",
+        "max_width": "none"
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "relays": {
+        "top": 86,
+        "pixels": 11,
+        "spacing": 2.42,
+        "display": "flex",
+        "max_width": "none"
+      },
+      "heading": {
+        "top": 21,
+        "pixels": 11,
+        "spacing": 0.66,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo": {
+        "top": 64,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      },
+      "ammo_text": {
+        "top": 80,
+        "pixels": 44,
+        "spacing": 0.44,
+        "display": "block",
+        "max_width": "none"
+      },
+      "cue": {
+        "top": 64,
+        "pixels": 12,
+        "spacing": 3.12,
+        "display": "block",
+        "max_width": "none"
+      },
+      "health": {
+        "top": 128,
+        "pixels": 16,
+        "spacing": null,
+        "display": "block",
+        "max_width": "none"
+      }
+    }
+  ]
+}

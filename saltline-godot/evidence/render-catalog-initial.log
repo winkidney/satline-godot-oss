@@ -1,0 +1,75 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+SOURCE_SCENE_LOADED {"cold_quality_assets":{"quality":"high","texture_replacements":0},"device_quality":{"quality":"high","renderer":"NVIDIA GeForce RTX 4070 SUPER","screen":[3840,2160],"touch_points":0,"touch_points_known":false,"user_agent":"Linux"},"generic_sampler_variants":7,"gpu_texture_variants":128,"materials":195,"meshes":292,"native_skeletons":20,"native_skin_meshes":30,"nodes":729,"pending_shaders":[{"id":"34559a15-d7f9-4fa2-8956-d228e9cc6353","name":"fx_lit","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft","uSun","uSunDir","uAmbLo","uAmbHi"]},{"id":"1a738049-2610-449b-adb3-ac8779c53cd0","name":"fx_add","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft"]}],"skin_reference_max_error_m":0.0000012468096883822,"skin_reference_vertices_checked":732,"source_polygon_offset":{"reason":"supported","requested":true,"supported":true},"source_skin_reference_meshes":30,"source_static_point_lights":4,"textures":128,"triplanar_palette":{"invalid_bindings":[],"meshes":18,"rows":290}}
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] attach (res://scripts/material_catalog.gd:35)
+       [1] setup (res://scripts/material_catalog_runner.gd:61)
+{"cold_start_asset_quality":"high","failures":[],"frames":12,"gpu_texture_hash_checks":12,"lighting_ready":35,"materials":23,"names":["","paint_orange","steel_worn","paint_teal","concrete","wood_pallet","concrete_dirty","steel_dark","emissive"],"nodes":37,"prop_names":[],"render_options":{"auto_exposure":false,"camera":"[X: (0.31375, 0.0, 0.949506), Y: (0.015677, 0.999864, -0.00518), Z: (-0.949376, 0.016511, 0.313707), O: (-8.5, 1.7, 4.2)]","exposure":1.0,"fov":74.0},"render_post":{"uAds":0.0,"uDamage":0.0,"uFade":0.0,"uFlash":0.0,"uLowHealth":0.0},"scope":"Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.","shadow_casters":34,"textures":12,"vertex_color_mesh_checks":0,"wet_materials":0,"wet_override":null}

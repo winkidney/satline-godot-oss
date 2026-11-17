@@ -1,0 +1,48 @@
+{
+  "source_snapshot_draws": 1403,
+  "native_snapshot_draws": 1403,
+  "source_counts": {
+    "lit": 55,
+    "add": 53,
+    "tracers": 0,
+    "debris": 20,
+    "drawCalls": 5
+  },
+  "native_counts": {
+    "lit": 55,
+    "add": 53
+  },
+  "light_differences": [
+    {
+      "intensity_error": 5.684341886080802e-14,
+      "ttl_error": 1.0408340855860843e-17,
+      "radiance_error": 2.8420431377185196e-06
+    },
+    {
+      "intensity_error": 2.842170943040401e-14,
+      "ttl_error": 0.0,
+      "radiance_error": 2.911423049312134e-07
+    },
+    {
+      "intensity_error": 0.0,
+      "ttl_error": 0.0,
+      "radiance_error": 0.0
+    },
+    {
+      "intensity_error": 0.0,
+      "ttl_error": 0.0,
+      "radiance_error": 0.0
+    },
+    {
+      "intensity_error": 0.0,
+      "ttl_error": 0.0,
+      "radiance_error": 0.0
+    },
+    {
+      "intensity_error": 0.0,
+      "ttl_error": 0.0,
+      "radiance_error": 0.0
+    }
+  ],
+  "scope": "Actual original/native three render frames at exact1/60 after frozen .5s FX snapshot; light state/radiance only, not BRDF/IBL/post pixel parity."
+}

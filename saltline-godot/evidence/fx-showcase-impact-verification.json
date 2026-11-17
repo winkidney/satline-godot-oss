@@ -1,0 +1,7 @@
+{
+  "checks": 2278,
+  "failures": [],
+  "maximum_error": 0.000000490603814462531,
+  "scope": "Literal KP I vs native target selection, alternating origins, eight kinds, raycast misses, water/dirt overrides, enemy bypass; mock raycast at distance3, no actual physics/render.",
+  "steps": 64
+}

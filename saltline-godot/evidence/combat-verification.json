@@ -1,0 +1,15 @@
+{
+  "cases": 240,
+  "enemy_events": 58,
+  "failures": [],
+  "fields": 2160,
+  "impacts": 130,
+  "maximum_error": 0.000000605080856530549,
+  "scope": "Original ey and enemy manager raycast; controlled wall/LOS and actor shapes, including weak multiplier, nearest hit, enemyShot and radial damage",
+  "stats": {
+    "blasts": 80,
+    "hits": 58,
+    "kills": 41,
+    "shots": 80
+  }
+}

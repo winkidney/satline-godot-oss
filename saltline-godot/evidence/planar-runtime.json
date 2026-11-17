@@ -1,0 +1,102 @@
+{
+  "changed_samples": 15859,
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique_source_bias",
+    "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "frames": 240,
+  "scope": "Actual original scene frozen yard off/on planar reflection, source oblique/halfresolution/HDRmips/RP, original four excluded nodes, callback order trace. Does not yet prove pertexel previous shadow age, dynamic motion, resize, or complete original image parity.",
+  "snapshots": [
+    {
+      "capture_ready": false,
+      "enabled": false,
+      "excluded_layers": [
+        {
+          "layers": 4,
+          "name": "apron"
+        },
+        {
+          "layers": 4,
+          "name": "sea"
+        },
+        {
+          "layers": 786436,
+          "name": "rain"
+        },
+        {
+          "layers": 786436,
+          "name": "rainSplash"
+        }
+      ],
+      "frame": 100,
+      "layer_failures": [],
+      "order": {
+        "events": [
+          "world",
+          "weapon"
+        ],
+        "frame": 100
+      },
+      "pass": {
+        "active": false
+      }
+    },
+    {
+      "capture_ready": true,
+      "enabled": true,
+      "excluded_layers": [
+        {
+          "layers": 4,
+          "name": "apron"
+        },
+        {
+          "layers": 4,
+          "name": "sea"
+        },
+        {
+          "layers": 786436,
+          "name": "rain"
+        },
+        {
+          "layers": 786436,
+          "name": "rainSplash"
+        }
+      ],
+      "frame": 221,
+      "layer_failures": [],
+      "order": {
+        "events": [
+          "reflection",
+          "sun",
+          "world",
+          "weapon"
+        ],
+        "frame": 221
+      },
+      "pass": {
+        "active": true,
+        "excluded": [
+          "apron",
+          "sea",
+          "rain",
+          "rainSplash"
+        ],
+        "lod": 0.415037499278844,
+        "ready": true,
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sum_rgb_difference": 6314.98726654053
+}

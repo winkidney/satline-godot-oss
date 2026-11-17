@@ -1,0 +1,8 @@
+{
+  "channels": 480,
+  "failures": [],
+  "levels": 2,
+  "maximum_error": 0.0155525207519531,
+  "pixels": 160,
+  "scope": "Actual original j9 Three Float32 GPU reference vs native HDR RGBA16F two-level GPU output; nonuniform HDR gradient and 300-radiance point, first partial-Karis then ordinary13-tap. Original sampling/weights retained, tolerance max(.003,.3percent radiance)."
+}

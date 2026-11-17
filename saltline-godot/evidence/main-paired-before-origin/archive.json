@@ -1,0 +1,53 @@
+{
+  "scope": "Native paired scene files saved before source raster origin recaptures; original source fixtures unchanged.",
+  "files": [
+    {
+      "file": "main-paired-high-comparison.json",
+      "sha256": "15b6c0781bc6e7da8ea340b4cc07f0ad80390e45ad7dd34184711b86e2281dff"
+    },
+    {
+      "file": "main-paired-high-harbor-comparison.json",
+      "sha256": "21348246bba6de1a99c4b92391c2593ad7d98388a5ede31b2749ede337f40dd5"
+    },
+    {
+      "file": "main-paired-high-harbor-native.json",
+      "sha256": "ff39b76d4b23fc20a075b92971a5cfe9780d19130240f949cc6e6becca3dfad6"
+    },
+    {
+      "file": "main-paired-high-harbor-native.png",
+      "sha256": "3d061165d9bc760c86c51781252ba31d14445891af071ff1c44d53584b1758f9"
+    },
+    {
+      "file": "main-paired-high-interior-comparison.json",
+      "sha256": "aeb0b47c4b7abe0ab4df7cb37264ce3419f5322020639d59051901568557b3d1"
+    },
+    {
+      "file": "main-paired-high-interior-native.json",
+      "sha256": "7ad883351237aaa5cb674ba4628f48fe4517c0dfa7d47caf6e09baaa55ed46e7"
+    },
+    {
+      "file": "main-paired-high-interior-native.png",
+      "sha256": "82d2595edd89cc3f5c84b840434ba21fdaab027ca65028eedc66717ab184c2f9"
+    },
+    {
+      "file": "main-paired-high-interior-spec-matched-native.json",
+      "sha256": "bd6d733fdfa67db2c4951115624355a81f5be98482dff100abb87320541ce556"
+    },
+    {
+      "file": "main-paired-high-interior-spec-matched-native.png",
+      "sha256": "b9531d9600ce19fd39248560c18d18e45fb1149ae2a865e2c0bda0489222fc2d"
+    },
+    {
+      "file": "main-paired-high-interior-spec-matched-native.world.rgb16f",
+      "sha256": "74c0421f18d276c696af0d3290b2edbdf8188cc76c63f93d7c2a6417f83bb526"
+    },
+    {
+      "file": "main-paired-high-native.json",
+      "sha256": "517cb7ab7e9dcaeaab2fcd23c56a3aec3ed2f6d79ae7c1b26a338001e8ce8ced"
+    },
+    {
+      "file": "main-paired-high-native.png",
+      "sha256": "23dce214fc0bff4f5345ebe72f64aad52960c22c540374bc629636bfa2bc3c91"
+    }
+  ]
+}

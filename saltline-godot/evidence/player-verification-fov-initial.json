@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "ground support",
+    "jump and landing",
+    "crouch eye",
+    "ADS field of view",
+    "sprint acceleration"
+  ],
+  "failures": [
+    "ADS field of view"
+  ],
+  "jump_apex_m": 0.999317169189453,
+  "sprint_speed_m_s": 6.40000009536743
+}

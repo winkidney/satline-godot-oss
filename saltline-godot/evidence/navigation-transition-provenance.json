@@ -1,0 +1,71 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "css_sha256": "10991647f67f27c0687c2c2e505a872649c0e9df3e5490b258414731686341ef",
+  "files": {
+    "scripts/navigation_hud.gd": "736c73ec9a0f292b30d7409c8d457843966d8ca28c8288d4736513500911b808",
+    "scripts/game_ui.gd": "1eb35cf532ba38fef4ee270c5d496e616aaa8915c4eec989df7c3de0db548de7",
+    "tools/navigation_transition_reference.cjs": "4eee8a66a068d05461d6766d5836ca95e8b78af2c77d3f87ba47f032e73a65e1",
+    "tools/verify_navigation_transition.gd": "629f4c5c2d2fe434bd34e4692cbb313a95ad79f3620c2c9ae01df0bd3875f582",
+    "assets/export/fixtures/navigation-transition-css.json": "2086f403ded21d1e2c437363b12516a71c6be032cc33a79bd3b18f63dced6b9e"
+  },
+  "logic": {
+    "comparisons": 120,
+    "failures": [],
+    "initial_marker_cases": 4,
+    "marker_reset_checks": 3,
+    "maximum_alpha_error": 4.62207296880734e-07,
+    "maximum_gap_error": 3.33356931800921e-05,
+    "scope": "Actual original CSS in Chrome; cross .1s ease/gap .06s linear, marker parent .15s ease and child .25s ease, exact interrupted/reversed animation sampling. Fixed projection inputs; no complete HUD pixel proof. Native actual NavigationHud.update_frame; projection and drawing unchanged except animated alpha/gap. Marker transition removal checked.",
+    "stages": 10
+  },
+  "runtime": {
+    "captures": [
+      {
+        "path": "res://evidence/navigation-transition-runtime-00.png",
+        "sample": {
+          "cross_alpha": 1.0,
+          "gap": 4.74999999834108,
+          "marker_alpha": 0.78,
+          "marks_alpha": 1.0
+        }
+      },
+      {
+        "path": "res://evidence/navigation-transition-runtime-03.png",
+        "sample": {
+          "cross_alpha": 0.814543462207297,
+          "gap": 9.5,
+          "marker_alpha": 0.726914068442814,
+          "marks_alpha": 0.905203693647882
+        }
+      },
+      {
+        "path": "res://evidence/navigation-transition-runtime-05.png",
+        "sample": {
+          "cross_alpha": 0.627111191022724,
+          "gap": 9.5,
+          "marker_alpha": 0.649865382016626,
+          "marks_alpha": 0.823800262417782
+        }
+      },
+      {
+        "path": "res://evidence/navigation-transition-runtime-06.png",
+        "sample": {
+          "cross_alpha": 1.0,
+          "gap": 28.5,
+          "marker_alpha": 0.761835774078578,
+          "marks_alpha": 1.0
+        }
+      }
+    ],
+    "comparisons": 120,
+    "failures": [],
+    "game_ui_sha256": "1eb35cf532ba38fef4ee270c5d496e616aaa8915c4eec989df7c3de0db548de7",
+    "maximum_alpha_error": 4.62207296880734e-07,
+    "maximum_gap_error": 3.33356931800921e-05,
+    "navigation_sha256": "736c73ec9a0f292b30d7409c8d457843966d8ca28c8288d4736513500911b808",
+    "scope": "Actual Main/GameUI/NavigationHud calls against original Chrome CSS samples and4 real GPU captures, controlled gameplay data and CSS-initial fixture state. Full HUD pixels, physical ADS input and world gameplay remain separate.",
+    "stages": 10
+  },
+  "initial_attempt": "First headless attempt passed numeric checks but default user log directory was not writable; clean final checks use isolated XDG and explicit /tmp logs.",
+  "scope": "Original Chrome CSS paused/seeked to precise times,10 interrupted/reversed stages/30samples/120fields. Actual NavigationHud and Main/GameUI integration checked,4 initial marker styles plus list/reset cleanup,4 real GPU captures. No whole-image parity or physical input claim."
+}

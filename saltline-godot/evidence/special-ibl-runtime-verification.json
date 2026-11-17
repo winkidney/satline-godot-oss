@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "changed_hdr_samples": 13651,
+      "material": "apron_wet",
+      "maximum_rgb_difference": 8.41016006469727,
+      "ready": true,
+      "sum_rgb_difference": 1828.54408109188
+    },
+    {
+      "changed_hdr_samples": 22543,
+      "material": "sea",
+      "maximum_rgb_difference": 0.362349510192871,
+      "ready": true,
+      "sum_rgb_difference": 881.631551623344
+    },
+    {
+      "changed_hdr_samples": 743,
+      "material": "saltline_arm",
+      "maximum_rgb_difference": 0.44873046875,
+      "ready": true,
+      "sum_rgb_difference": 127.528511047363
+    }
+  ],
+  "failures": [],
+  "scope": "Actual frozen game camera profiles,each dedicated ground/sea/arms material sourceIBL individually disabled/enabled afterservice update;othermaterials heldon,rawHDR contribution. Not full original image parity,haze exactness or multi-lighttotalclamp."
+}

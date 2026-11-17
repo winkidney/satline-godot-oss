@@ -1,0 +1,20 @@
+# Local-only voice references, cloned voice data and workbench state.
+video/private-voice/
+video/editor/public/private-voice/
+video/editor/node_modules/
+video/editor/.render/
+.asset-workbench/
+**/.asset-workbench/
+
+# Rebuildable engine and import caches; packaged releases are decided separately.
+saltline-godot/engine/.build/
+saltline-godot/engine/.venv/
+saltline-godot/.godot/
+saltline-godot/output/
+artifact-rendering-study/godot/.godot/
+
+__pycache__/
+*.pyc
+
+# Local browser automation state.
+.playwright-cli/

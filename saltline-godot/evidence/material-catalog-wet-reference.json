@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "wet": 0,
+      "state": {
+        "shared_wet": 0,
+        "material_values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "time": {
+          "t": 0.19999999999999998,
+          "dt": 0.016666666666666666,
+          "frame": 12,
+          "real": 1.1310999999642373
+        }
+      }
+    },
+    {
+      "wet": 1,
+      "state": {
+        "shared_wet": 1,
+        "material_values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "time": {
+          "t": 0.19999999999999998,
+          "dt": 0.016666666666666666,
+          "frame": 12,
+          "real": 0.8048999999761581
+        }
+      }
+    }
+  ],
+  "scope": "Actual original known-name catalog with wet query; original shared uniform and per-material binding checks, screenshots. Not cross-renderer pixel acceptance."
+}

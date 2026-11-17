@@ -1,0 +1,80 @@
+{
+  "images": [
+    {
+      "file": "fx-showcase-source-explosion.png",
+      "sha256": "1039ea449c783a7c510086e943e040d248cdd4887c21677f5f88446f750294b7"
+    },
+    {
+      "file": "fx-showcase-native-tape.png",
+      "sha256": "a0dfd55d7fd93a487038b97b711e6502677ce581ba404ae49a89c85246af6f3d"
+    }
+  ],
+  "regions": {
+    "full": {
+      "bounds": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "mae": 0.009856638922930282,
+      "p99": 0.0392156862745098,
+      "maximum": 0.22352941176470592,
+      "source_mean_luma": 0.35677881481396373,
+      "native_mean_luma": 0.3579151721643518
+    },
+    "ground": {
+      "bounds": [
+        430,
+        455,
+        850,
+        700
+      ],
+      "mae": 0.007793580924433266,
+      "p99": 0.027450980392156876,
+      "maximum": 0.0431372549019608,
+      "source_mean_luma": 0.448999108572953,
+      "native_mean_luma": 0.44984307199451207
+    },
+    "highlight": {
+      "bounds": [
+        590,
+        480,
+        690,
+        650
+      ],
+      "mae": 0.004362937331795463,
+      "p99": 0.019607843137254832,
+      "maximum": 0.027450980392156876,
+      "source_mean_luma": 0.7526673751326411,
+      "native_mean_luma": 0.7533722864590542
+    },
+    "sky": {
+      "bounds": [
+        0,
+        0,
+        1280,
+        220
+      ],
+      "mae": 0.00907943404634581,
+      "p99": 0.027450980392156876,
+      "maximum": 0.22352941176470592,
+      "source_mean_luma": 0.3447294454545455,
+      "native_mean_luma": 0.3449216484709225
+    },
+    "effect": {
+      "bounds": [
+        530,
+        235,
+        730,
+        460
+      ],
+      "mae": 0.018319419026870006,
+      "p99": 0.06274509803921569,
+      "maximum": 0.19215686274509805,
+      "source_mean_luma": 0.37684567454466233,
+      "native_mean_luma": 0.38311008618736375
+    }
+  },
+  "scope": "Fixed FX tape/age, fixed3 renderer frames at1/60 and matching cameras. Encoded RGB diagnostic only; not a full-game visual acceptance threshold."
+}

@@ -1,0 +1,250 @@
+{
+  "cases": [
+    {
+      "capture": "res://evidence/radio-layout-360-desktop.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "Control to Saltline. Cross the berth, cut the three"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "relays and reach the extraction boat. Stay clear of"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "the water."
+        }
+      ],
+      "source_line_widths": [
+        302.34,
+        313.34,
+        63.4
+      ],
+      "touch": false,
+      "width": 360.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-360-touch.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "Control to Saltline. Cross the berth, cut the three"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "relays and reach the extraction boat. Stay clear of"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "the water."
+        }
+      ],
+      "source_line_widths": [
+        302.34,
+        313.34,
+        63.4
+      ],
+      "touch": true,
+      "width": 360.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-760-desktop.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "of the water."
+        }
+      ],
+      "source_line_widths": [
+        602.0,
+        80.42
+      ],
+      "touch": false,
+      "width": 760.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-760-touch.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "of the water."
+        }
+      ],
+      "source_line_widths": [
+        602.0,
+        80.42
+      ],
+      "touch": true,
+      "width": 760.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-761-desktop.png",
+      "draws": [
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+        },
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Stay clear of the water."
+        }
+      ],
+      "source_line_widths": [
+        598.82,
+        163.12
+      ],
+      "touch": false,
+      "width": 761.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-761-touch.png",
+      "draws": [
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+        },
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Stay clear of the water."
+        }
+      ],
+      "source_line_widths": [
+        598.82,
+        163.12
+      ],
+      "touch": true,
+      "width": 761.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-1280-desktop.png",
+      "draws": [
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+        },
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Stay clear of the water."
+        }
+      ],
+      "source_line_widths": [
+        598.82,
+        163.12
+      ],
+      "touch": false,
+      "width": 1280.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-1280-touch.png",
+      "draws": [
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+        },
+        {
+          "line_height": 24.7,
+          "pixels": 19,
+          "spacing": 0.38,
+          "text": "Stay clear of the water."
+        }
+      ],
+      "source_line_widths": [
+        598.82,
+        163.12
+      ],
+      "touch": true,
+      "width": 1280.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-360-desktop-final-fragment.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "relays and reach the extraction boat. Stay clear"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "of"
+        }
+      ],
+      "source_line_widths": [
+        296.32,
+        13.68
+      ],
+      "touch": false,
+      "width": 360.0
+    },
+    {
+      "capture": "res://evidence/radio-layout-360-touch-final-fragment.png",
+      "draws": [
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "relays and reach the extraction boat. Stay clear"
+        },
+        {
+          "line_height": 22.1,
+          "pixels": 17,
+          "spacing": 0.34,
+          "text": "of"
+        }
+      ],
+      "source_line_widths": [
+        296.32,
+        13.68
+      ],
+      "touch": true,
+      "width": 360.0
+    }
+  ],
+  "failures": [],
+  "scope": "Actual RadioHud draw calls and GPU screenshots at four window widths in desktop/touch layouts, compared with original CSS computed typography and text line wrapping. No whole-image pixel equivalence claim."
+}

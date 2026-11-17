@@ -1,0 +1,21 @@
+{
+  "manual_exposure": 0.7,
+  "regions": {
+    "full": {
+      "mae": 0.017004936002178648,
+      "p99": 0.14117647058823535,
+      "max": 0.25098039215686274
+    },
+    "ground": {
+      "mae": 0.0740363192896206,
+      "p99": 0.1568627450980392,
+      "max": 0.1725490196078432
+    },
+    "effect": {
+      "mae": 0.03973859114015976,
+      "p99": 0.1764705882352941,
+      "max": 0.25098039215686274
+    }
+  },
+  "scope": "Matched manual exposure, FX tape and warmupCPUtime; remaining shader/particle-clock/history differences not yet isolated."
+}

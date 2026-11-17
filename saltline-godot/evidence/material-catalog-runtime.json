@@ -1,0 +1,31 @@
+{
+  "failures": [],
+  "frames": 12,
+  "gpu_texture_hash_checks": 18,
+  "lighting_ready": 18,
+  "materials": 9,
+  "names": [
+    "asphalt",
+    "@MeshInstance3D@1482",
+    "@MeshInstance3D@1483",
+    "brick",
+    "@MeshInstance3D@1484",
+    "@MeshInstance3D@1485",
+    "anodized_black",
+    "@MeshInstance3D@1486",
+    "@MeshInstance3D@1487",
+    "carbon",
+    "@MeshInstance3D@1488",
+    "@MeshInstance3D@1489",
+    "armor_orange",
+    "@MeshInstance3D@1490",
+    "@MeshInstance3D@1491",
+    "water_dark",
+    "@MeshInstance3D@1492",
+    "@MeshInstance3D@1493"
+  ],
+  "nodes": 18,
+  "scope": "Original six previously uninstantiated catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full catalog/decal/props entry and original pixel parity remain open.",
+  "shadow_casters": 18,
+  "textures": 18
+}

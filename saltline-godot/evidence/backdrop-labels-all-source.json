@@ -1,0 +1,141 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "labels": [
+    {
+      "maps": {
+        "map": {
+          "width": 720,
+          "height": 128,
+          "levels": [
+            {
+              "width": 720,
+              "height": 128
+            },
+            {
+              "width": 360,
+              "height": 64
+            },
+            {
+              "width": 180,
+              "height": 32
+            },
+            {
+              "width": 90,
+              "height": 16
+            },
+            {
+              "width": 45,
+              "height": 8
+            },
+            {
+              "width": 22,
+              "height": 4
+            },
+            {
+              "width": 11,
+              "height": 2
+            },
+            {
+              "width": 5,
+              "height": 1
+            },
+            {
+              "width": 2,
+              "height": 1
+            },
+            {
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "wrapS": 1001,
+          "wrapT": 1001,
+          "repeat": [
+            1,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "flipY": true,
+          "colorSpace": "srgb",
+          "sha256": "347d303cc3e43a3229ebf6bc8aa986895388232ebf37a267d2745934053e4db2",
+          "file": "backdrop-labels-all-0-map-source.png",
+          "mip_file": "backdrop-labels-all-0-map-source.source-miprgba",
+          "mip_sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd"
+        }
+      },
+      "position_sha256": "b6e3e0441de1d88509f9289332b60cb9ab115e5307c8c45ee8ac8396f8060712"
+    },
+    {
+      "maps": {
+        "map": {
+          "width": 636,
+          "height": 128,
+          "levels": [
+            {
+              "width": 636,
+              "height": 128
+            },
+            {
+              "width": 318,
+              "height": 64
+            },
+            {
+              "width": 159,
+              "height": 32
+            },
+            {
+              "width": 79,
+              "height": 16
+            },
+            {
+              "width": 39,
+              "height": 8
+            },
+            {
+              "width": 19,
+              "height": 4
+            },
+            {
+              "width": 9,
+              "height": 2
+            },
+            {
+              "width": 4,
+              "height": 1
+            },
+            {
+              "width": 2,
+              "height": 1
+            },
+            {
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "wrapS": 1001,
+          "wrapT": 1001,
+          "repeat": [
+            1,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "flipY": true,
+          "colorSpace": "srgb",
+          "sha256": "781adc229dfe08f2b33320bf3d64d3bbe40a90261a08cc044e092c979de16c5f",
+          "file": "backdrop-labels-all-1-map-source.png",
+          "mip_file": "backdrop-labels-all-1-map-source.source-miprgba",
+          "mip_sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634"
+        }
+      },
+      "position_sha256": "7639efab326dfc6393bc757c1b29e2b679a77240bc2da0f88bd9f1880fb4676c"
+    }
+  ],
+  "errors": [],
+  "scope": "Actual original backdrop label CanvasTexture RGBA8 pixels and sampler transforms; local original font faces, no source HTML edits."
+}

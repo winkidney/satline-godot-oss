@@ -1,0 +1,143 @@
+{
+  "aSurf_channels": 674256,
+  "changed_hdr_samples": 15501,
+  "failures": [],
+  "materials": [
+    {
+      "kind": 0,
+      "name": "pac9_anodised"
+    },
+    {
+      "kind": 1,
+      "name": "pac9_phosphate"
+    },
+    {
+      "kind": 2,
+      "name": "pac9_polymer"
+    },
+    {
+      "kind": 4,
+      "name": "pac9_matte"
+    },
+    {
+      "kind": 2,
+      "name": "pac9_polymer_tan"
+    },
+    {
+      "kind": 3,
+      "name": "pac4_nitride"
+    }
+  ],
+  "maximum_rgb_difference": 3.90028381347656,
+  "objects": [
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "b761d3bf-4f92-4dd0-8789-91b46396761c",
+      "vertices": 50550.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "011ef7cb-e33a-4efd-a2cf-b934a063bd44",
+      "vertices": 40308.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "8dce8cc0-5d17-412b-87ac-3713da6c7c98",
+      "vertices": 14946.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "0a586350-e83c-4929-ac29-c1fe577e6461",
+      "vertices": 8838.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "45e9e907-f174-4b7a-8d42-691f1c7f2d5e",
+      "vertices": 4332.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "1d3695f4-797f-48c4-9d71-2cb83c5d0fb7",
+      "vertices": 8052.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "f797c69c-758d-4c8c-834c-d0eb1c77099c",
+      "vertices": 12012.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "a3f00446-b9d7-4617-b16c-a61ffea720e9",
+      "vertices": 6666.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "7f2e118b-dcdb-4aa2-80ee-8cd7c2cb9c23",
+      "vertices": 324.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "fc7c3715-aedc-4c41-ad12-61a990d98fbd",
+      "vertices": 1512.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "1283d4b6-d9f6-4ae4-beba-b5b35cd955d9",
+      "vertices": 15600.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "2c8962dd-008c-4c93-954a-7a688aa0bad5",
+      "vertices": 1908.0
+    },
+    {
+      "gpu_aSurf_exact": true,
+      "gpu_normal_exact": true,
+      "id": "316d55f2-bafb-4771-9d18-38081ae61eba",
+      "vertices": 3516.0
+    }
+  ],
+  "scope": "Actual six original PAC material bindings, all13 aSurf andunquantized normal mesh GPU byte audits, asymmetric inside .3/.25 andoutside1/.6 wetness with .05 dtcap andpaused updates applied to allsix+arms, actual weapon on/off HDR. Noise/core numerical profiles andbump derivative have separate originalGPU tests; full original material visual parity not claimed.",
+  "wetness": [
+    {
+      "actual": 0.99125,
+      "expected": 0.99125,
+      "inside": true,
+      "maximum_uniform_error": 0.0,
+      "state": "playing"
+    },
+    {
+      "actual": 0.982609375,
+      "expected": 0.982609375,
+      "inside": true,
+      "maximum_uniform_error": 0.0,
+      "state": "paused"
+    },
+    {
+      "actual": 0.979196328125,
+      "expected": 0.979196328125,
+      "inside": true,
+      "maximum_uniform_error": 0.0,
+      "state": "paused"
+    },
+    {
+      "actual": 0.97982043828125,
+      "expected": 0.97982043828125,
+      "inside": false,
+      "maximum_uniform_error": 0.0,
+      "state": "playing"
+    }
+  ]
+}

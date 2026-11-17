@@ -1,0 +1,524 @@
+{
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Keyboard · Mouse"
+    },
+    {
+      "kind": "table",
+      "rows": [
+        {
+          "label": "Move",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "W"
+            },
+            {
+              "kind": "key",
+              "text": "A"
+            },
+            {
+              "kind": "key",
+              "text": "S"
+            },
+            {
+              "kind": "key",
+              "text": "D"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Look",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Mouse"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Fire",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Left button"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Aim",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Right button"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Reload",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "R"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Swap weapon",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Q"
+            },
+            {
+              "kind": "text",
+              "text": ", wheel, or "
+            },
+            {
+              "kind": "key",
+              "text": "1"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "key",
+              "text": "2"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Cut relay",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Hold "
+            },
+            {
+              "kind": "key",
+              "text": "E"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Jump",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Space"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Sprint",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Shift"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Crouch",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "C"
+            },
+            {
+              "kind": "text",
+              "text": " or "
+            },
+            {
+              "kind": "key",
+              "text": "Ctrl"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Melee",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "F"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Pause",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Esc"
+            },
+            {
+              "kind": "text",
+              "text": " or "
+            },
+            {
+              "kind": "key",
+              "text": "P"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        }
+      ]
+    },
+    {
+      "kind": "note",
+      "spans": [
+        {
+          "kind": "text",
+          "text": "If the browser will not capture the mouse, hold a mouse button and drag to look (left also fires, right also aims). Arrow keys or "
+        },
+        {
+          "kind": "key",
+          "text": "I"
+        },
+        {
+          "kind": "key",
+          "text": "J"
+        },
+        {
+          "kind": "key",
+          "text": "K"
+        },
+        {
+          "kind": "key",
+          "text": "L"
+        },
+        {
+          "kind": "text",
+          "text": " turn, "
+        },
+        {
+          "kind": "key",
+          "text": "Enter"
+        },
+        {
+          "kind": "text",
+          "text": " fires."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Touch"
+    },
+    {
+      "kind": "table",
+      "rows": [
+        {
+          "label": "Move",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Left thumb, anywhere"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Look",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Drag the right side"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Fire",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Hold FIRE, drag to track"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Aim",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "AIM toggles"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Reload",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "RLD"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Jump",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "JUMP"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Cut relay",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Hold USE at a relay"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Sprint",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Push the stick fully forward"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Controller"
+    },
+    {
+      "kind": "table",
+      "rows": [
+        {
+          "label": "Move · Look",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Left stick · Right stick"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Fire · Aim",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "RT"
+            },
+            {
+              "kind": "text",
+              "text": " · "
+            },
+            {
+              "kind": "key",
+              "text": "LT"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Reload",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "X"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Cut relay",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Hold "
+            },
+            {
+              "kind": "key",
+              "text": "X"
+            },
+            {
+              "kind": "text",
+              "text": " at a relay"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Swap weapon",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Y"
+            },
+            {
+              "kind": "text",
+              "text": " or D-pad"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Jump",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "A"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        },
+        {
+          "label": "Crouch",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "B"
+            },
+            {
+              "kind": "text",
+              "text": " or "
+            },
+            {
+              "kind": "key",
+              "text": "LB"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Sprint",
+          "spans": [
+            {
+              "kind": "text",
+              "text": "Click the left stick"
+            }
+          ],
+          "binding_line_height": 16.890625,
+          "label_offset": 4
+        },
+        {
+          "label": "Melee",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "RB"
+            },
+            {
+              "kind": "text",
+              "text": " or click the right stick"
+            }
+          ],
+          "binding_line_height": 18,
+          "label_offset": 4
+        },
+        {
+          "label": "Pause",
+          "spans": [
+            {
+              "kind": "key",
+              "text": "Start"
+            }
+          ],
+          "binding_line_height": 17,
+          "label_offset": 3
+        }
+      ]
+    },
+    {
+      "kind": "note",
+      "spans": [
+        {
+          "kind": "text",
+          "text": "In menus the D-pad or left stick moves the selection, "
+        },
+        {
+          "kind": "key",
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "text": " accepts and "
+        },
+        {
+          "kind": "key",
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "text": " goes back."
+        }
+      ]
+    }
+  ],
+  "pane_metrics": {
+    "width": 440,
+    "client_width": 440,
+    "padding_left": "22px",
+    "padding_right": "20px"
+  },
+  "row_metrics": {
+    "height": 23,
+    "label_top": 3,
+    "binding_top": 3,
+    "binding_height": 17
+  },
+  "headings": [
+    "Keyboard · Mouse",
+    "Touch",
+    "Controller"
+  ],
+  "row_count": 30,
+  "key_count": 33,
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "scope": "Literal original controls-pane template and keyboard/touch/controller HTML, bundled fonts; sound-unlock sentence intentionally omitted for no-audio scope."
+}

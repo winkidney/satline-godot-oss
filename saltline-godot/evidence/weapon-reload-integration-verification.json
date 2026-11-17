@@ -1,0 +1,9 @@
+{
+  "active_steps": 2456,
+  "cases": 12,
+  "comparisons": 119266,
+  "failures": [],
+  "maximum_error": 0.00000000000000221350715534641,
+  "scope": "Production SaltlineWeapon.update with actual delegated reload event owner, original literal f/h plus reload state-segment reference. Per-step source event/slot/velocity-before-impulse traces, completion and cancellation. Explicit synthetic reload.t sampling, dt0; no D/root transform/IK or OS input proof.",
+  "tolerance": 0.000000000001
+}

@@ -1,0 +1,7 @@
+{
+  "cases": 4,
+  "comparisons": 464,
+  "failures": [],
+  "maximum_error": 0.000000991821288209849,
+  "scope": "Actual original generic fx.H emission configuration; randomized lifetime/velocity compared as ranges, deterministic layers and axial/light fields compared numerically"
+}

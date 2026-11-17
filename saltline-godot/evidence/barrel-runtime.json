@@ -1,0 +1,17 @@
+{
+  "alive_after_reset": 21,
+  "blasts_before_reset": 1,
+  "collision_boxes_after_reset": 595,
+  "fps": 30,
+  "frames": 390,
+  "hidden_gpu_slots_before_reset": 4,
+  "remaining_debris": 0,
+  "remaining_particles": 0,
+  "restored_gpu_slots_after_reset": 4,
+  "shots": 5,
+  "source_barrel_slots": 4,
+  "source_explosive_assets": 21,
+  "runtime_errors": [],
+  "recording_complete": true,
+  "trigger": "native weapon raycast damage, not direct visual spawn"
+}

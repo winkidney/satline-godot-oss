@@ -1,0 +1,9 @@
+{
+  "regeneration_idempotent": {
+    "ground": true,
+    "sea": true,
+    "arms": true
+  },
+  "ground_planar_present": true,
+  "all_ibl_present": true
+}

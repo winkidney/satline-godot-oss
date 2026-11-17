@@ -1,0 +1,10 @@
+{
+  "fps": 60,
+  "frames": 240,
+  "native_skeletons": 20,
+  "scope": "controlled movement with native world-foot stepping and IK, not full AI",
+  "steps": 14,
+  "runtime_errors": [],
+  "recording_complete": true,
+  "source_pose_comparison": "hound-pose-verification.json"
+}

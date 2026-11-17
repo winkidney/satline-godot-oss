@@ -1,0 +1,195 @@
+{
+  "cases": [
+    {
+      "case": "baseline",
+      "gain": 1.0,
+      "logical_size": [
+        1280,
+        720
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 8
+      },
+      "ready": true,
+      "reflection_size": [
+        640.0,
+        360.0
+      ]
+    },
+    {
+      "case": "odd_resize",
+      "gain": 1.0,
+      "logical_size": [
+        961,
+        541
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 16
+      },
+      "ready": true,
+      "reflection_size": [
+        480.0,
+        272.0
+      ]
+    },
+    {
+      "case": "below_plane",
+      "gain": 0.0,
+      "logical_size": [
+        961,
+        541
+      ],
+      "order": {
+        "events": [
+          "world",
+          "weapon"
+        ],
+        "frame": 24
+      },
+      "ready": true,
+      "reflection_size": [
+        480.0,
+        272.0
+      ]
+    },
+    {
+      "case": "height_recover",
+      "gain": 1.0,
+      "logical_size": [
+        961,
+        541
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 32
+      },
+      "ready": true,
+      "reflection_size": [
+        480.0,
+        272.0
+      ]
+    },
+    {
+      "case": "disabled",
+      "gain": 0.0,
+      "logical_size": [
+        961,
+        541
+      ],
+      "order": {
+        "events": [
+          "world",
+          "weapon"
+        ],
+        "frame": 40
+      },
+      "ready": true,
+      "reflection_size": [
+        480.0,
+        272.0
+      ]
+    },
+    {
+      "case": "enabled",
+      "gain": 1.0,
+      "logical_size": [
+        961,
+        541
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 48
+      },
+      "ready": true,
+      "reflection_size": [
+        480.0,
+        272.0
+      ]
+    },
+    {
+      "case": "minimum",
+      "gain": 1.0,
+      "logical_size": [
+        128,
+        64
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 56
+      },
+      "ready": true,
+      "reflection_size": [
+        64.0,
+        32.0
+      ]
+    },
+    {
+      "case": "full_restore",
+      "gain": 1.0,
+      "logical_size": [
+        1280,
+        720
+      ],
+      "order": {
+        "events": [
+          "reflection",
+          "world",
+          "weapon"
+        ],
+        "frame": 64
+      },
+      "ready": true,
+      "reflection_size": [
+        640.0,
+        360.0
+      ]
+    }
+  ],
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique_source_bias",
+    "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "reentry": {
+    "order": {
+      "events": [
+        "reflection",
+        "sun",
+        "world",
+        "weapon"
+      ],
+      "frame": 73
+    },
+    "ready": true
+  },
+  "scope": "Actual original scene complete graph, real logical1280x720→961x541→128x64→restore, original halfsize rounding, height .02 stop/recover, explicit disable/re-enable, XR registry and layer restore, reentry and sourceproducer callback order. No pertexel shadow-age or memory/performance proof."
+}

@@ -1,0 +1,24 @@
+{
+  "failures": [],
+  "meshes": [
+    {
+      "changed_hdr_pixels": 884,
+      "id": "6ca41558-8785-49c4-8763-bcace44ff4c4",
+      "maximum_rgb_difference": 0.0146484375,
+      "occupied_pixels": 1170
+    },
+    {
+      "changed_hdr_pixels": 2193,
+      "id": "de6f4a8d-c0a7-4dee-9b6f-3c4e4545d03e",
+      "maximum_rgb_difference": 0.0458984375,
+      "occupied_pixels": 2327
+    },
+    {
+      "changed_hdr_pixels": 5105,
+      "id": "526c8f88-14fa-4a26-a5b9-8245f1579911",
+      "maximum_rgb_difference": 0.2088623046875,
+      "occupied_pixels": 5242
+    }
+  ],
+  "scope": "Actual original markings factory binding andthree original geometry+UV+texture meshes, production alpha shader with original PMREM IBL, isolated orthographic side view. Toggle original -alpha*50micron height, HDR contribution. Bump core mathematical proof is separate32case test; polygon offset andfull source perspective composite not claimed."
+}

@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><title>Original Saltline compositor GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const ao=await(await fetch('../../artifact-rendering-study/source/shaders/35619-ao.glsl')).text(),sv=await(await fetch('../../artifact-rendering-study/source/shaders/35625-sv.glsl')).text();
+ const tk=(await(await fetch('../../artifact-rendering-study/source/shaders/35891-tk.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const renderer=new T.WebGLRenderer({antialias:false});renderer.setSize(16,16);document.body.append(renderer.domElement);const world=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));world.add(quad);
+
+ const depthCode=(await(await fetch('../../artifact-rendering-study/source/shaders/35632-q9.glsl.template')).text()).replace('${ao}',ao).replace('${sg}','0.05');
+ const aoCode=(await(await fetch('../../artifact-rendering-study/source/shaders/35641-X9.glsl.template')).text()).replace('${ao}',ao).replace('${e_}','0.05');
+ const blurCode=(await(await fetch('../../artifact-rendering-study/source/shaders/35731-QM.glsl.template')).text()).replace('${ao}',ao);
+ const compositeCode=(await(await fetch('../../artifact-rendering-study/source/shaders/35745-$9.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv).replace('${sg}','0.05');
+ const vertex='varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.0,1.0);}';const cases=[];
+ for(const [width,height]of [[64,32],[65,33],[17,9],[8,8]]){
+  const near=.08,far=900,worldInput=new Float32Array(width*height),mask=new Float32Array(width*height),combined=new Float32Array(width*height*4);
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){const k=y*width+x,z=x<width*.5?3+y/height*2:4+y/height*4;let d=(far-near*far/z)/(far-near);if(x===width-1)d=1;if(x===0&&y<3)d=.02;worldInput[k]=d;mask[k]=x>width*.3&&x<width*.45&&y>height*.3&&y<height*.6?0:1;combined[k*4]=mask[k]===0?.03:worldInput[k];combined[k*4+3]=1}
+  const input=new T.DataTexture(combined,width,height,T.RGBAFormat,T.FloatType);input.minFilter=input.magFilter=T.NearestFilter;input.needsUpdate=true;
+  const hw=Math.max(4,Math.ceil(width/2)),hh=Math.max(4,Math.ceil(height/2));
+  const render=(fragment,uniforms,type,defines={})=>{quad.material=new T.ShaderMaterial({uniforms,defines,vertexShader:vertex,fragmentShader:fragment,depthTest:false,depthWrite:false});const rt=new T.WebGLRenderTarget(hw,hh,{type,depthBuffer:false,minFilter:T.NearestFilter,magFilter:T.NearestFilter});renderer.setRenderTarget(rt);renderer.render(world,camera);const pixels=type===T.FloatType?new Float32Array(hw*hh*4):new Uint8Array(hw*hh*4);renderer.readRenderTargetPixels(rt,0,0,hw,hh,pixels);return {rt,color:Array.from(pixels)}};
+  const depth=render(depthCode,{tDepth:{value:input},uNear:{value:near},uFar:{value:far}},T.FloatType);
+  const tan=new T.Vector2(16/9*Math.tan(74*Math.PI/360),Math.tan(74*Math.PI/360));const aoPass=render(aoCode,{tDepthHalf:{value:depth.rt.texture},uTanHalf:{value:tan},uTexel:{value:new T.Vector2(1/hw,1/hh)},uRadius:{value:.9},uIntensity:{value:1.6},uAspect:{value:16/9}},T.UnsignedByteType,{AO_TAPS:12});
+  const blurX=render(blurCode,{tDepthHalf:{value:depth.rt.texture},tSrc:{value:aoPass.rt.texture},uDir:{value:new T.Vector2(1/hw,0)}},T.UnsignedByteType,{BLUR_TOL:'0.04'});
+  const blurY=render(blurCode,{tDepthHalf:{value:depth.rt.texture},tSrc:{value:blurX.rt.texture},uDir:{value:new T.Vector2(0,1/hh)}},T.UnsignedByteType,{BLUR_TOL:'0.04'});
+  const colorInput=new Float32Array(width*height*4);for(let y=0;y<height;y++)for(let x=0;x<width;x++){const k=(y*width+x)*4;colorInput[k]=.04+x/width*2;colorInput[k+1]=.03+y/height*.4;colorInput[k+2]=.1;colorInput[k+3]=1}
+  const colorTexture=new T.DataTexture(colorInput,width,height,T.RGBAFormat,T.FloatType);colorTexture.minFilter=colorTexture.magFilter=T.LinearFilter;colorTexture.needsUpdate=true;
+  const constant=(c)=>{const t=new T.DataTexture(new Float32Array(c),1,1,T.RGBAFormat,T.FloatType);t.needsUpdate=true;return t};const values={uNear:near,uFar:far,uAoOn:1,uVolOn:0,uAoStrength:.95,uExposure:1,uKey:.12,uMinE:.6,uMaxE:2,uAuto:1};const uniforms={tColor:{value:colorTexture},tDepth:{value:input},tDepthHalf:{value:depth.rt.texture},tAO:{value:blurY.rt.texture},tVol:{value:constant([0,0,0,1])},tAdapt:{value:constant([.12,0,0,1])},uHalfRes:{value:new T.Vector2(hw,hh)}};for(const[key,value]of Object.entries(values))uniforms[key]={value};
+  quad.material=new T.ShaderMaterial({uniforms,vertexShader:vertex,fragmentShader:compositeCode,depthTest:false,depthWrite:false});const compositeTarget=new T.WebGLRenderTarget(width,height,{type:T.FloatType,depthBuffer:false});renderer.setRenderTarget(compositeTarget);renderer.render(world,camera);const composite=new Float32Array(width*height*4);renderer.readRenderTargetPixels(compositeTarget,0,0,width,height,composite);
+  cases.push({width,height,near,far,colorInput:Array.from(colorInput),fullDepth:Array.from(combined),composite:Array.from(composite),compositeUniforms:values,world:Array.from(worldInput),weapon:Array.from(mask),halfSize:[hw,hh],depth:depth.color,ao:aoPass.color,blurX:blurX.color,blurY:blurY.color});
+ }
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {three:T.REVISION,renderer:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),cases,scope:'Actual originalq9 Float32 depthhalf, X9 AO12 and QM bilateral blur eachRGBA8/nearest; controlled forward world depth plus weapon bypass, even/odd sizes. Synthetic noMSAA input, not original scene depthresolve comparison.'};
+})();</script>

@@ -1,0 +1,18 @@
+[
+  {"name":"01-outdoor-action","duration":55,"pos":[-32,0,6],"yaw":-1.5707963268,"pitch":0,"actions":[
+    {"at":4,"kind":"down","key":"w"},{"at":9,"kind":"up","key":"w"},
+    {"at":12,"kind":"fire-down"},{"at":13,"kind":"fire-up"},{"at":16,"kind":"press","key":"r"},
+    {"at":25,"kind":"press","key":"q"},{"at":28,"kind":"fire-down"},{"at":29,"kind":"fire-up"},
+    {"at":34,"kind":"press","key":"r"},{"at":42,"kind":"press","key":"q"}]},
+  {"name":"02-warehouse-light","duration":60,"pos":[-10,0,-20],"yaw":-1.5707963268,"pitch":0,"actions":[
+    {"at":10,"kind":"down","key":"w"},{"at":13,"kind":"up","key":"w"},
+    {"at":25,"kind":"fire-down"},{"at":26,"kind":"fire-up"},{"at":30,"kind":"press","key":"r"}]},
+  {"name":"03-wet-reflection","duration":60,"pos":[-20,0,0],"yaw":-1.5707963268,"pitch":-0.24,"actions":[
+    {"at":10,"kind":"down","key":"w"},{"at":14,"kind":"up","key":"w"},
+    {"at":28,"kind":"down","key":"a"},{"at":30,"kind":"up","key":"a"}]},
+  {"name":"04-weapons-enemies","duration":60,"pos":[-27,0,6],"yaw":-1.5707963268,"pitch":0,"actions":[
+    {"at":5,"kind":"fire-down"},{"at":7,"kind":"fire-up"},{"at":9,"kind":"press","key":"r"},
+    {"at":18,"kind":"press","key":"q"},{"at":21,"kind":"fire-down"},{"at":22,"kind":"fire-up"},
+    {"at":25,"kind":"press","key":"r"},{"at":32,"kind":"press","key":"q"},
+    {"at":40,"kind":"down","key":"w"},{"at":43,"kind":"up","key":"w"}]}
+]

@@ -1,0 +1,8 @@
+{
+  "checks": 3264,
+  "failures": [],
+  "final_time": 10.0166666666667,
+  "maximum_error": 0.000000762939453835543,
+  "samples": 51,
+  "scope": "Literal original kw.y with actual bundled THREE groups and source snapshot rest transforms; source outer paused gate and dt cap. Local matrices and shared shader time, not world pixels."
+}

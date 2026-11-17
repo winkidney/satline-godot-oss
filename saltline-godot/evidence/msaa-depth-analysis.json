@@ -1,0 +1,55 @@
+{
+  "source_backend": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "source_samples": 4,
+  "source_subpixel_bits": 4,
+  "source_multisampled_render_to_texture": false,
+  "native": {
+    "device": "NVIDIA GeForce RTX 4070 SUPER",
+    "subPixelPrecisionBits": 8,
+    "measurement": "vulkaninfo live read-only output on2026-11-15; originalGL bits read in actual reference metadata"
+  },
+  "variants": {
+    "native": {
+      "capture_failures": [],
+      "cases": 165,
+      "partial_pixels": 90,
+      "coverage_mismatches": 27,
+      "sample_depth_mismatches": [
+        54,
+        51,
+        33,
+        26
+      ],
+      "GPU_combined_vs_original_mismatches": 54,
+      "sha256": "2a3fa5acca1d8cab6457f85698d00eef5cb0999dc2abb90f8489addfeacf4871"
+    },
+    "mirrored": {
+      "capture_failures": [],
+      "cases": 165,
+      "partial_pixels": 96,
+      "coverage_mismatches": 6,
+      "sample_depth_mismatches": [
+        2,
+        52,
+        49,
+        54
+      ],
+      "GPU_combined_vs_original_mismatches": 2,
+      "sha256": "8e0b0ce3fe33959a2eaa3cde39206e0ff207e3b244a0cb0ec26af96015834b6b"
+    },
+    "mirrored_quantized4": {
+      "capture_failures": [],
+      "cases": 165,
+      "partial_pixels": 96,
+      "coverage_mismatches": 0,
+      "sample_depth_mismatches": [
+        0,
+        53,
+        51,
+        55
+      ],
+      "GPU_combined_vs_original_mismatches": 0,
+      "sha256": "6147990e8303444bac29f12439c9d76e9ed9c80ceb73190c79f6c0e568849902"
+    }
+  }
+}

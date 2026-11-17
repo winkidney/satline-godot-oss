@@ -1,0 +1,105 @@
+{
+  "cases": [
+    {
+      "case": "baseline",
+      "render_post": {
+        "uAds": 0.0,
+        "uDamage": 0.0,
+        "uFade": 0.0,
+        "uFlash": 0.0,
+        "uLowHealth": 0.0
+      },
+      "report_sha256": "82a101d44457acb7eb5d4496c56e72996ccbd80943a3ee1de18d463c8503ebf4"
+    },
+    {
+      "case": "damage",
+      "render_post": {
+        "uAds": 0.0,
+        "uDamage": 0.8,
+        "uFade": 0.0,
+        "uFlash": 0.0,
+        "uLowHealth": 0.0
+      },
+      "report_sha256": "5c6afe35f0104021c7a612aefabf5f43591942a57e2a20b6de8ffbdb28327669"
+    },
+    {
+      "case": "low-health",
+      "render_post": {
+        "uAds": 0.0,
+        "uDamage": 0.0,
+        "uFade": 0.0,
+        "uFlash": 0.0,
+        "uLowHealth": 0.85
+      },
+      "report_sha256": "ea9214636120b1bf606742407aefd7f7e0d766070e9c87c97668e078150edf18"
+    },
+    {
+      "case": "ads",
+      "render_post": {
+        "uAds": 1.0,
+        "uDamage": 0.0,
+        "uFade": 0.0,
+        "uFlash": 0.0,
+        "uLowHealth": 0.0
+      },
+      "report_sha256": "13ee91e2980575c90532740e270adac809d9fd7804062f9698c8d73aa42fcbbf"
+    },
+    {
+      "case": "flash",
+      "render_post": {
+        "uAds": 0.0,
+        "uDamage": 0.0,
+        "uFade": 0.0,
+        "uFlash": 0.35,
+        "uLowHealth": 0.0
+      },
+      "report_sha256": "f30fbd0cb4b695392482936ddf6af4f2a15d756b448edafcc7fffbf7ad422d54"
+    },
+    {
+      "case": "fade",
+      "render_post": {
+        "uAds": 0.0,
+        "uDamage": 0.0,
+        "uFade": 0.5,
+        "uFlash": 0.0,
+        "uLowHealth": 0.0
+      },
+      "report_sha256": "a0cbcf2582aab6a29d64153d1fab03be318e7426e802bdf378310978bcfd3e2e"
+    }
+  ],
+  "inventory": {
+    "nodes": 37,
+    "materials": 23,
+    "textures": 12,
+    "lighting_ready": 35,
+    "shadow_casters": 34
+  },
+  "existing_catalog_regression": {
+    "cold_start_asset_quality": "high",
+    "failures": [],
+    "frames": 6,
+    "gpu_texture_hash_checks": 3,
+    "lighting_ready": 4,
+    "materials": 1,
+    "names": [
+      "concrete"
+    ],
+    "nodes": 4,
+    "prop_names": [],
+    "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+    "shadow_casters": 3,
+    "textures": 3,
+    "vertex_color_mesh_checks": 0,
+    "wet_materials": 0,
+    "wet_override": null
+  },
+  "files_sha256": {
+    "tools/export_material_catalog.cjs": "2c8cf7021c4a423bc2c75ccb775be429a6d75ef6cdb4122e45a20c4132ad46d0",
+    "scripts/material_catalog_runner.gd": "c1e47be9cc50add4a1c145eab2ed2ac520f222750d24baaead6edc4be07ef50f",
+    "scripts/material_catalog.gd": "6a9b147fffccfb3e06b50b3a614b6d1eb46dc11c9d6026103e07657b9233c6a5",
+    "assets/catalog/render/catalog.json": "aaffa8b2e60d8ffbe5dc75f5d2ec3498dc0ef11c1143be6b4054351ad2cb548c"
+  },
+  "source_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "failures": [],
+  "scope": "Actual original render showcase export; six native GPU post modes, complete catalog node/material/lighting/caster bindings and all12GPU mip hashes; existing concrete selection regression. Not full image parity or a packaged r7 feature."
+}

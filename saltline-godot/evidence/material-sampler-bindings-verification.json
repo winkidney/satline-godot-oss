@@ -1,0 +1,8 @@
+{
+  "clamped_bindings": 50,
+  "failures": [],
+  "materials": 183,
+  "sampler_bindings": 284,
+  "scope": "All actual generic shader material sampler hints independently checked against source texture wrap/minFilter records; excludes dedicated sea/ground/arms/FX shaders and does not prove hardware filtering parity.",
+  "shader_variants": 6
+}

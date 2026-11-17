@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "add": 8,
+      "lit": 7,
+      "size": 0.4
+    },
+    {
+      "add": 16,
+      "lit": 7,
+      "size": 1.0
+    },
+    {
+      "add": 24,
+      "lit": 7,
+      "size": 2.0
+    }
+  ],
+  "failures": [],
+  "source": "Active source k splash function lines 59090-59195; existing particle-core source reference covers motion"
+}

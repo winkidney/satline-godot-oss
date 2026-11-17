@@ -1,0 +1,64 @@
+{
+  "note": "Typed GPU readback bytes, no tone mapping or 8bit preview quantization. See dtype/endian/channels per asset. Adapt entry is buffer index0, not necessarily newest ping-pong.",
+  "exported_assets": [
+    {
+      "file": "numeric-depthHalf.bin",
+      "width": 640,
+      "height": 360,
+      "type": 1015,
+      "format": 1028,
+      "channels": 1,
+      "dtype": "Float32Array",
+      "endian": "little",
+      "numpy_dtype": "<f4",
+      "row_order": "bottom-to-top"
+    },
+    {
+      "file": "numeric-volA.bin",
+      "width": 640,
+      "height": 360,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "dtype": "Uint16Array",
+      "endian": "little",
+      "numpy_dtype": "<f2",
+      "row_order": "bottom-to-top"
+    },
+    {
+      "file": "numeric-adapt.bin",
+      "width": 1,
+      "height": 1,
+      "type": 1016,
+      "format": 1023,
+      "channels": 4,
+      "dtype": "Uint16Array",
+      "endian": "little",
+      "numpy_dtype": "<f2",
+      "row_order": "bottom-to-top"
+    },
+    {
+      "file": "numeric-fabric-height-packed.bin",
+      "width": 256,
+      "height": 256,
+      "type": 1009,
+      "format": 1023,
+      "channels": 4,
+      "dtype": "Uint8Array",
+      "endian": "little",
+      "numpy_dtype": "u1",
+      "row_order": "bottom-to-top"
+    },
+    {
+      "file": "texture-fabric-height-packed.png",
+      "width": 256,
+      "height": 256,
+      "type": 1009,
+      "format": 1023,
+      "channels": 4,
+      "mode": "raw",
+      "channel": null,
+      "scale": 1
+    }
+  ]
+}

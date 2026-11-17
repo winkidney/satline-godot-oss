@@ -1,0 +1,4 @@
+Godot Engine v4.7.2.stable.saltline_oblique.custom_build - https://godotengine.org
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+{"cases":224,"channels":3584,"failures":[],"hdr_uploads":[{"rgba32f_roundtrip_matches":true,"texture":"30c27fd2-4d7a-42ce-8e91-2cd36adb3c40"},{"rgba32f_roundtrip_matches":true,"texture":"e44868bb-2bd3-41d6-978b-02a02fedbdf3"}]}

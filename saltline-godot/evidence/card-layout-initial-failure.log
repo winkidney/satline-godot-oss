@@ -1,0 +1,89 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+SOURCE_SCENE_LOADED {"cold_quality_assets":{"quality":"high","texture_replacements":0},"device_quality":{"quality":"high","renderer":"NVIDIA GeForce RTX 4070 SUPER","screen":[3840,2160],"touch_points":0,"touch_points_known":false,"user_agent":"Linux"},"generic_sampler_variants":7,"gpu_texture_variants":128,"materials":195,"meshes":292,"native_skeletons":20,"native_skin_meshes":30,"nodes":729,"pending_shaders":[{"id":"34559a15-d7f9-4fa2-8956-d228e9cc6353","name":"fx_lit","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft","uSun","uSunDir","uAmbLo","uAmbHi"]},{"id":"1a738049-2610-449b-adb3-ac8779c53cd0","name":"fx_add","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft"]}],"skin_reference_max_error_m":0.0000012468096883822,"skin_reference_vertices_checked":732,"source_polygon_offset":{"reason":"supported","requested":true,"supported":true},"source_skin_reference_meshes":30,"source_static_point_lights":4,"textures":128,"triplanar_palette":{"invalid_bindings":[],"meshes":18,"rows":290}}
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:62)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:62)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:62)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:62)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:62)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:62)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+SCRIPT ERROR: Invalid assignment of property or key 'position' with value of type 'Vector2' on a base object of type 'previously freed'.
+   at: update_layout (res://scripts/title_layout.gd:55)
+   GDScript backtrace (most recent call first):
+       [0] update_layout (res://scripts/title_layout.gd:55)
+       [1] update_frame (res://scripts/game_ui.gd:369)
+       [2] run (res://tools/verify_card_layout.gd:21)
+       [3] settle (res://tools/verify_card_layout.gd:7)
+{"cases":[{"actions":[{"rect":[452.0,315.0,376.0,52.0],"scroll":0,"text":"RESUME"},{"rect":[452.0,377.0,376.0,46.0],"scroll":0,"text":"SETTINGS"},{"rect":[452.0,433.0,376.0,46.0],"scroll":0,"text":"CONTROLS"},{"rect":[452.0,489.0,376.0,46.0],"scroll":0,"text":"RESTART MISSION"}],"card":[425.0,160.0,430.0,400.0],"heading_pixels":62.0,"mode":"mission","screen":"paused","window":[1280.0,720.0]},{"actions":[{"rect":[452.0,425.5,376.0,52.0],"scroll":0,"text":"RETRY"}],"card":[425.0,217.5,430.0,285.0],"heading_pixels":62.0,"mode":"mission","screen":"dead","window":[1280.0,720.0]},{"actions":[{"rect":[452.0,476.5,376.0,52.0],"scroll":0,"text":"RETRY"}],"card":[425.0,166.5,430.0,387.0],"heading_pixels":62.0,"mode":"holdout","screen":"dead","window":[1280.0,720.0]},{"actions":[{"rect":[452.0,480.5,376.0,52.0],"scroll":0,"text":"REDEPLOY"}],"card":[425.0,162.5,430.0,395.0],"heading_pixels":44.0,"mode":"mission","screen":"complete","window":[1280.0,720.0]},{"actions":[{"rect":[37.0,305.5,286.0,52.0],"scroll":0,"text":"RESUME"},{"rect":[53.0,579.339965820312,159.0,46.0],"scroll":0,"text":"SETTINGS"},{"rect":[222.0,579.339965820312,159.0,46.0],"scroll":0,"text":"CONTROLS"},{"rect":[37.0,479.5,286.0,46.0],"scroll":0,"text":"RESTART MISSION"}],"card":[16.0,173.5,328.0,373.0],"heading_pixels":40.0,"mode":"mission","screen":"paused","window":[360.0,720.0]},{"actions":[{"rect":[37.0,416.0,286.0,52.0],"scroll":0,"text":"RETRY"}],"card":[16.0,231.0,328.0,258.0],"heading_pixels":40.0,"mode":"mission","screen":"dead","window":[360.0,720.0]},{"actions":[{"rect":[37.0,467.0,286.0,52.0],"scroll":0,"text":"RETRY"}],"card":[16.0,180.0,328.0,360.0],"heading_pixels":40.0,"mode":"holdout","screen":"dead","window":[360.0,720.0]},{"actions":[{"rect":[37.0,475.0,286.0,52.0],"scroll":0,"text":"REDEPLOY"}],"card":[16.0,172.0,328.0,376.0],"heading_pixels":30.96,"mode":"mission","screen":"complete","window":[360.0,720.0]},{"actions":[{"rect":[126.0,134.5,388.0,44.0],"scroll":0,"text":"RESUME"},{"rect":[142.0,331.200012207031,299.0,40.0],"scroll":0,"text":"SETTINGS"},{"rect":[451.0,331.200012207031,299.0,40.0],"scroll":0,"text":"CONTROLS"},{"rect":[126.0,276.5,388.0,40.0],"scroll":0,"text":"RESTART MISSION"}],"card":[105.0,26.5,430.0,307.0],"heading_pixels":39.6,"mode":"mission","screen":"paused","window":[640.0,360.0]},{"actions":[{"rect":[126.0,224.0,388.0,44.0],"scroll":0,"text":"RETRY"}],"card":[105.0,75.0,430.0,210.0],"heading_pixels":39.6,"mode":"mission","screen":"dead","window":[640.0,360.0]},{"actions":[{"rect":[126.0,266.0,388.0,44.0],"scroll":0,"text":"RETRY"}],"card":[105.0,33.0,430.0,294.0],"heading_pixels":39.6,"mode":"holdout","screen":"dead","window":[640.0,360.0]},{"actions":[{"rect":[126.0,277.0,388.0,44.0],"scroll":0,"text":"REDEPLOY"}],"card":[105.0,22.0,430.0,316.0],"heading_pixels":44.0,"mode":"mission","screen":"complete","window":[640.0,360.0]},{"actions":[{"rect":[126.0,112.0,380.0,44.0],"scroll":0,"text":"RESUME"},{"rect":[142.0,206.5,299.0,40.0],"scroll":83,"text":"SETTINGS"},{"rect":[451.0,206.5,299.0,40.0],"scroll":83,"text":"CONTROLS"},{"rect":[126.0,171.0,380.0,40.0],"scroll":83,"text":"RESTART MISSION"}],"card":[105.0,12.0,430.0,216.0],"heading_pixels":30.0,"mode":"mission","screen":"paused","window":[640.0,240.0]},{"actions":[{"rect":[126.0,159.5,388.0,44.0],"scroll":0,"text":"RETRY"}],"card":[105.0,19.5,430.0,201.0],"heading_pixels":30.0,"mode":"mission","screen":"dead","window":[640.0,240.0]},{"actions":[{"rect":[126.0,183.0,380.0,44.0],"scroll":53,"text":"RETRY"}],"card":[105.0,12.0,430.0,216.0],"heading_pixels":30.0,"mode":"holdout","screen":"dead","window":[640.0,240.0]},{"actions":[{"rect":[126.0,183.0,380.0,44.0],"scroll":84,"text":"REDEPLOY"}],"card":[105.0,12.0,430.0,216.0],"heading_pixels":44.0,"mode":"mission","screen":"complete","window":[640.0,240.0]}],"failures":["1280x720 paused mission card rectangle [400.0, 399.8125]","1280x720 dead mission card rectangle [217.5, 235.34375]","1280x720 dead mission card rectangle [285.0, 249.3125]","1280x720 dead holdout card rectangle [166.5, 235.34375]","1280x720 dead holdout card rectangle [387.0, 249.3125]","1280x720 complete mission card rectangle [162.5, 164.890625]","1280x720 complete mission card rectangle [395.0, 390.21875]","360x720 paused mission focused action not reachable SETTINGS","360x720 paused mission focused action not reachable CONTROLS","360x720 paused mission action clipped horizontally","360x720 dead mission card rectangle [231.0, 248.8046875]","360x720 dead mission card rectangle [258.0, 222.390625]","360x720 dead holdout card rectangle [180.0, 248.8046875]","360x720 dead holdout card rectangle [360.0, 222.390625]","360x720 complete mission card rectangle [172.0, 174.5]","360x720 complete mission card rectangle [376.0, 371.0]","640x360 paused mission card rectangle [26.5, 26.7265625]","640x360 paused mission card rectangle [307.0, 306.546875]","640x360 paused mission focused action not reachable SETTINGS","640x360 paused mission focused action not reachable CONTROLS","640x360 paused mission action clipped horizontally","640x360 dead mission card rectangle [75.0, 89.9765625]","640x360 dead mission card rectangle [210.0, 180.046875]","640x360 dead holdout card rectangle [33.0, 89.9765625]","640x360 dead holdout card rectangle [294.0, 180.046875]","640x360 complete mission card rectangle [22.0, 24.2890625]","640x360 complete mission card rectangle [316.0, 311.421875]","640x240 paused mission focused action not reachable SETTINGS","640x240 paused mission focused action not reachable CONTROLS","640x240 paused mission action clipped horizontally","640x240 dead mission card rectangle [19.5, 34.1015625]","640x240 dead mission card rectangle [201.0, 171.796875]","640x240 dead holdout card rectangle [12.0, 34.1015625]","640x240 dead holdout card rectangle [216.0, 171.796875]"],"scope":"Actual Main GameUI pause/death/complete cards vs original DOM/CSS across four window sizes, mission/holdout rows, typography, button sizes, viewport containment and focus-follow scrolling. No fixture scale override. Not full raster text parity or HiDPI.","scroll_cases":2}

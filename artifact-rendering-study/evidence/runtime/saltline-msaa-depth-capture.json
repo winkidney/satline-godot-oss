@@ -1,0 +1,10 @@
+{
+  "cases": 165,
+  "three": "180",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "exported_assets": [
+    {
+      "file": "saltline-msaa-depth-reference.json"
+    }
+  ]
+}

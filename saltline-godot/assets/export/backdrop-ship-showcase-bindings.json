@@ -1,0 +1,196 @@
+{
+  "part": "ship",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "source_time": 0.05,
+  "camera": {
+    "position": [
+      24,
+      1.7,
+      -2
+    ],
+    "quaternion": [
+      0.13062846018788968,
+      -0.2769878755557093,
+      0.038039097374690176,
+      0.9511923828831865
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "nodes": [
+    {
+      "id": "97d4bb61-1463-46db-a50f-8bb576f4cf5e",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "712fc79d-9607-43a7-a8e6-5041eae3104d",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "745d2c42-11c8-4423-a5df-27ac88533290",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "62074bdc-e0dd-403c-a3de-bf3165cfbf24",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "7f7dcf4f-a6d4-49d1-bdac-a7c164fcff1b",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "6b058a30-12ff-454a-a2b7-84bb9681bce6",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "2eb31ad7-9cb1-45c6-98f6-89d7a9b37ae2",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "9714c000-c5b4-466c-a3e6-732ae5b0d357",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "48c17db0-c07f-440a-bc10-18bdb727c7d2",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "0025c490-0cc9-4bf9-b770-d6e808d64a68",
+      "cast_shadow": false,
+      "maximum_matrix_error": 1.891432691025763e-09
+    }
+  ],
+  "extras": [
+    {
+      "geometry": {
+        "id": "backdrop-ship-mesh-3",
+        "attributes": {
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 44,
+            "normalized": false,
+            "sha256": "7b36a7d42a1bbd62e60270bdec0eccc4fde29d7f609edf35fde5233ae7a4861d",
+            "file": "showcase/backdrop-ship/normal-7b36a7d42a1bbd62e60270bdec0eccc4fde29d7f609edf35fde5233ae7a4861d.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 44,
+            "normalized": false,
+            "sha256": "7639efab326dfc6393bc757c1b29e2b679a77240bc2da0f88bd9f1880fb4676c",
+            "file": "showcase/backdrop-ship/position-7639efab326dfc6393bc757c1b29e2b679a77240bc2da0f88bd9f1880fb4676c.bin"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 44,
+            "normalized": false,
+            "sha256": "37186be6598b5ca5fa99cf54e71315349fefca5d34fb2eee6349b8318601b93f",
+            "file": "showcase/backdrop-ship/uv-37186be6598b5ca5fa99cf54e71315349fefca5d34fb2eee6349b8318601b93f.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-ship/indices-3.bin"
+      },
+      "materials": [
+        "93dd57f1-62a2-41dd-9dfb-e9a5fd42527b"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "cast_shadow": false,
+      "label_texture": {
+        "width": 636,
+        "height": 128,
+        "sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634",
+        "file": "res://assets/export/showcase/backdrop-labels/c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634.source-miprgba"
+      }
+    },
+    {
+      "geometry": {
+        "id": "backdrop-ship-mesh-11",
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 864,
+            "normalized": false,
+            "sha256": "1ca7af1407a0d349cabef9f5c25633dbcd896c2290bc1e83625efbdc7f449111",
+            "file": "showcase/backdrop-ship/blink-1ca7af1407a0d349cabef9f5c25633dbcd896c2290bc1e83625efbdc7f449111.bin"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 864,
+            "normalized": false,
+            "sha256": "9983d9c81d7f3513ab8be6560b43abb98f46fc5b05111cab2ab5bc014eafc1d3",
+            "file": "showcase/backdrop-ship/color-9983d9c81d7f3513ab8be6560b43abb98f46fc5b05111cab2ab5bc014eafc1d3.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 864,
+            "normalized": false,
+            "sha256": "55f94aaef6570bda7c47ccb2ddf2af7b56874f1cccbe85cdbcb3d605989df5a1",
+            "file": "showcase/backdrop-ship/position-55f94aaef6570bda7c47ccb2ddf2af7b56874f1cccbe85cdbcb3d605989df5a1.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-ship/indices-11.bin"
+      },
+      "materials": [
+        "db871cda-c173-49c9-b20a-06fee33ee052"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "cast_shadow": false
+    }
+  ],
+  "casters": 7,
+  "original_meshes": 12,
+  "errors": []
+}

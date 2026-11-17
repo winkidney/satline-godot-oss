@@ -1,0 +1,14 @@
+{
+  "checks": 4,
+  "failures": [
+    "actual long-tracer smoke trail not reached",
+    "actual heated weapon smoke not reached"
+  ],
+  "frames": 480,
+  "remaining_add": 0,
+  "remaining_lit": 0,
+  "remaining_tracers": 0,
+  "scope": "Actual Main continuous rifle burst: synchronous impact before tracer/shell, trail reached, heated smoke before root update and heat decay, and particle/tracer clear. Controlled player pose/input; no original whole-frame tape or paired pixels.",
+  "shots": [],
+  "smoke": []
+}

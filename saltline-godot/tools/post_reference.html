@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><title>Original Saltline compositor GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const ao=await(await fetch('../../artifact-rendering-study/source/shaders/35619-ao.glsl')).text(),sv=await(await fetch('../../artifact-rendering-study/source/shaders/35625-sv.glsl')).text();
+ const tk=(await(await fetch('../../artifact-rendering-study/source/shaders/35891-tk.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const renderer=new T.WebGLRenderer({antialias:false});renderer.setSize(16,16);document.body.append(renderer.domElement);const world=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));world.add(quad);
+ const texture=(color)=>{const t=new T.DataTexture(new Float32Array([...color,1]),1,1,T.RGBAFormat,T.FloatType);t.needsUpdate=true;return t};
+ const uniforms={};for(const k of ['tScene','tBloom','tBlur','tStreak','tDirt','tAdapt'])uniforms[k]={value:texture([0,0,0])};
+ const keys=['uExposure','uKey','uMinE','uMaxE','uAuto','uTime','uAspect','uBloom','uDirt','uStreak','uFlare','uCA','uVignette','uDamage','uLowHealth','uAds','uFlash','uFade','uSaturation','uSunOn','uThunder','uAgxMix'];for(const k of keys)uniforms[k]={value:0};uniforms.uSunCol={value:new T.Vector3(1,.72,.42)};uniforms.uSunUv={value:new T.Vector2(.72,.61)};uniforms.probeUv={value:new T.Vector2()};
+ quad.material=new T.ShaderMaterial({uniforms,defines:{LOOK_POWER:'1.180',LOOK_SAT:'1.220'},vertexShader:'uniform vec2 probeUv;varying vec2 vUv;void main(){vUv=probeUv;gl_Position=vec4(position.xy,0.0,1.0);}',fragmentShader:tk,depthTest:false,depthWrite:false});
+ const target=new T.WebGLRenderTarget(1,1,{type:T.FloatType,depthBuffer:false});const pixels=new Float32Array(4),cases=[];
+ for(let i=0;i<96;i++){
+  const level=[0,.004,.02,.12,.5,1,4,20,140][i%9];const textures={tScene:[level,level*(.35+i%5*.2),level*.6],tBlur:[level*.5+.01,level*.7+.02,level*.9+.01],tBloom:[.3,.7,1.2],tStreak:[.1,.2,.3],tDirt:[.3,.2,.1],tAdapt:[i%4===0?.03:.12,i%3===0?.8:0,0]};
+  const values={uExposure:.5+(i%4)*.5,uKey:.12,uMinE:.6,uMaxE:2,uAuto:i%5===0?1:0,uTime:i*.13,uAspect:i%2?16/9:4/3,uBloom:i%2?.065:0,uDirt:i%2?.1:0,uStreak:i%2?.03:0,uFlare:.16,uCA:.0013,uVignette:.3,uDamage:[0,.35,.8,1][i%4],uLowHealth:[0,.3,.9][i%3],uAds:i%3===0?.9:0,uFlash:i%11===0?.1:0,uFade:i%7===0?.3:0,uSaturation:i%6===0?.12:1,uSunOn:1,uThunder:0,uAgxMix:.25};
+  for(const[k,v]of Object.entries(values))uniforms[k].value=v;for(const[k,v]of Object.entries(textures)){uniforms[k].value.dispose();uniforms[k].value=texture(v)}
+  const uv=[(i%8)/7,Math.floor(i/8)%8/7];uniforms.probeUv.value.set(...uv);renderer.setRenderTarget(target);renderer.render(world,camera);renderer.readRenderTargetPixels(target,0,0,1,1,pixels);
+  cases.push({uv,values,textures,color:Array.from(pixels.slice(0,3))});
+ }
+ const width=32,height=16,input=new Float32Array(width*height*4);
+ for(let y=0;y<height;y++)for(let x=0;x<width;x++){const k=(y*width+x)*4;input[k]=x/31*4;input[k+1]=y/15*2;input[k+2]=(x+y)%5*.2;input[k+3]=1;if(x===16&&y===8){input[k]=300;input[k+1]=150;input[k+2]=50}}
+ const sourceTexture=new T.DataTexture(input,width,height,T.RGBAFormat,T.FloatType);sourceTexture.minFilter=sourceTexture.magFilter=T.LinearFilter;sourceTexture.needsUpdate=true;
+ const downCode=(await(await fetch('../../artifact-rendering-study/source/shaders/35800-j9.glsl.template')).text()).replace('${ao}',ao);
+ const downUniforms={tSrc:{value:sourceTexture},uTexel:{value:new T.Vector2(1/width,1/height)},uFirst:{value:1}};
+ quad.material=new T.ShaderMaterial({uniforms:downUniforms,vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.0,1.0);}',fragmentShader:downCode,depthTest:false,depthWrite:false});
+ const down_reference={width,height,input:Array.from(input),levels:[]};let previous=sourceTexture,pw=width,ph=height;
+ for(let i=0;i<2;i++){const w=pw/2,h=ph/2,rt=new T.WebGLRenderTarget(w,h,{type:T.FloatType,depthBuffer:false,minFilter:T.LinearFilter,magFilter:T.LinearFilter});downUniforms.tSrc.value=previous;downUniforms.uTexel.value.set(1/pw,1/ph);downUniforms.uFirst.value=i===0?1:0;renderer.setRenderTarget(rt);renderer.render(world,camera);const output=new Float32Array(w*h*4);renderer.readRenderTargetPixels(rt,0,0,w,h,output);down_reference.levels.push({width:w,height:h,color:Array.from(output)});previous=rt.texture;pw=w;ph=h}
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {three:T.REVISION,renderer:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),cases,down_reference,scope:'Actual original tk+ao+sv in Three r180 Float32 GPU target; constant HDR textures, varied UV/exposure/grade/health/ADS/flare branches. CA spatial sampling needs separate image input test.'};
+})();</script>

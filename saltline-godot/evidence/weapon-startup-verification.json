@@ -1,0 +1,31 @@
+{
+  "checks": 233,
+  "failures": [],
+  "forks": [
+    {
+      "name": "level",
+      "seed": 589939774.0
+    },
+    {
+      "name": "rain",
+      "seed": 1278876144.0
+    },
+    {
+      "name": "explosives",
+      "seed": 1883172587.0
+    },
+    {
+      "name": "weapon",
+      "seed": 3554171070.0
+    }
+  ],
+  "initial_state_sha256": "e5ad183127f49eed090ca3c2025ba5988f19bed07ad82ef8147ef9c399765cd4",
+  "scope": "Literal I5 initial S equals observed cold-browser pre/post T state. Original su fourth global fork matches normal noaudio seed4207 browser trace; no weapon draws before I5 return. Full global FX/AI streams not yet migrated. Actual default Weapon constructor, first64 RNG samples, reset preserves RNG, explicit snapshot/seed injection.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "startup": {
+    "mode": "canonical",
+    "seed_mode": "canonical_fork",
+    "weapon_seed": 3554171070,
+    "world_seed": 4207
+  }
+}

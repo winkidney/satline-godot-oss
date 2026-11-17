@@ -1,0 +1,252 @@
+{
+  "channels": [
+    "pac9_anodised dP.x>=-.03",
+    "pac9_anodised dP.x<-.03",
+    "other patched surfaces"
+  ],
+  "target": [
+    660,
+    359
+  ],
+  "source": [
+    0.75,
+    0.25,
+    0.0
+  ],
+  "native": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "source_quad": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.75,
+        0.25,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "native_quad": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "hits": [
+    {
+      "name": "",
+      "material": "pac9_anodised",
+      "type": "MeshStandardMaterial",
+      "object_uuid": "b60a1ca9-fbaa-4433-9565-e8a5973290e8",
+      "geometry_uuid": "83ff5246-a434-4f55-bea3-bacd5c47ca06",
+      "point": [
+        0.017393667095999755,
+        1.2364211638480873,
+        0.09314824759000301
+      ]
+    },
+    {
+      "name": "",
+      "material": "pac9_anodised",
+      "type": "MeshStandardMaterial",
+      "object_uuid": "b60a1ca9-fbaa-4433-9565-e8a5973290e8",
+      "geometry_uuid": "83ff5246-a434-4f55-bea3-bacd5c47ca06",
+      "point": [
+        0.016499999910593022,
+        1.236369632927341,
+        0.09313458917203822
+      ]
+    },
+    {
+      "name": "",
+      "material": "brass",
+      "type": "MeshStandardMaterial",
+      "object_uuid": "82675ae3-6167-4c7c-92fe-ced6064531cc",
+      "geometry_uuid": "0398d88c-6b76-474c-8879-3cd5a7e2cbc1",
+      "point": [
+        0.0004182876282612266,
+        1.2354423241320545,
+        0.0928888033229792
+      ]
+    },
+    {
+      "name": "",
+      "material": "pac9_anodised",
+      "type": "MeshStandardMaterial",
+      "object_uuid": "b60a1ca9-fbaa-4433-9565-e8a5973290e8",
+      "geometry_uuid": "83ff5246-a434-4f55-bea3-bacd5c47ca06",
+      "point": [
+        2.3748991389546988e-11,
+        1.2354182046995081,
+        0.09288241039838131
+      ]
+    }
+  ],
+  "scope": "Actual resolved linear HDR constant front/back surface partition, original MSAA4 retained, default depth/cull retained. Not a complete per-primitive ID buffer."
+}

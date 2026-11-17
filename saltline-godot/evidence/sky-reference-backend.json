@@ -1,0 +1,7 @@
+{
+  "reference": "Original Three r180 fragment Float32 GPU target",
+  "reference_backend": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "native_backend": "NVIDIA GeForce RTX 4070 SUPER, Vulkan 1.4.312, Godot 4.7.2 Forward+",
+  "method": "WEBGL_debug_renderer_info via separate WebGL2 context in the same Playwright salt-sky session; native Godot tool log",
+  "scope": "Backends differ; comparison checks shader math, not identical-driver bitwise output"
+}

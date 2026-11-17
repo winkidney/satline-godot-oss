@@ -1,0 +1,25 @@
+{
+  "draws": 46,
+  "failures": [],
+  "falls": 6,
+  "frames": 360,
+  "moved_frame": 51,
+  "ripples": 2,
+  "samples": [
+    {
+      "frame": 123,
+      "kind": "ripple",
+      "x": -19.4888572692871,
+      "z": -3.21295475959778
+    },
+    {
+      "frame": 170,
+      "kind": "ripple",
+      "x": -19.4888572692871,
+      "z": -3.21295475959778
+    }
+  ],
+  "scope": "Actual Main FX/render paths, public double-position drip, in-flight setPos, ring height, three splashes and TTL. Controlled seeded FX tape, physics/AI frozen; no source browser trajectory/pixel or production entropy/performance proof.",
+  "seed": 4207,
+  "splashes": 6
+}

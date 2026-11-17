@@ -1,0 +1,391 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_error": 0.00000000000000000039048218868423
+    },
+    {
+      "case": 1,
+      "maximum_error": 0.00000000000000000484375790887372
+    },
+    {
+      "case": 2,
+      "maximum_error": 0.00000000000000000203287907341032
+    },
+    {
+      "case": 3,
+      "maximum_error": 0.0000000000000000057809998650106
+    },
+    {
+      "case": 4,
+      "maximum_error": 0.00000000000000000445285220371586
+    },
+    {
+      "case": 5,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 6,
+      "maximum_error": 0.00000000000000000296885048012632
+    },
+    {
+      "case": 7,
+      "maximum_error": 0.00000000000000000249366499671666
+    },
+    {
+      "case": 8,
+      "maximum_error": 0.00000000000000000734377565269478
+    },
+    {
+      "case": 9,
+      "maximum_error": 0.00000000000000000312555157536837
+    },
+    {
+      "case": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 12,
+      "maximum_error": 0.00000000000000000062511031507367
+    },
+    {
+      "case": 13,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 14,
+      "maximum_error": 0.00000000000000000015627757876842
+    },
+    {
+      "case": 15,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 16,
+      "maximum_error": 0.00000000000000000703122049515795
+    },
+    {
+      "case": 17,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 18,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 19,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 20,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 21,
+      "maximum_error": 0.00000000000000000187490742874739
+    },
+    {
+      "case": 22,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 23,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 24,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 25,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 26,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 27,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 28,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 29,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 30,
+      "maximum_error": 0.00000000000000000796888596776846
+    },
+    {
+      "case": 31,
+      "maximum_error": 0.00000000000000000484375790887372
+    },
+    {
+      "case": 32,
+      "maximum_error": 0.00000000000000000742339674973669
+    },
+    {
+      "case": 33,
+      "maximum_error": 0.00000000000000000273422235373688
+    },
+    {
+      "case": 34,
+      "maximum_error": 0.0000000000000000092970336290632
+    },
+    {
+      "case": 35,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 36,
+      "maximum_error": 0.00000000000000000101559250375791
+    },
+    {
+      "case": 37,
+      "maximum_error": 0.00000000000000000867022924809502
+    },
+    {
+      "case": 38,
+      "maximum_error": 0.00000000000000000874985034513692
+    },
+    {
+      "case": 39,
+      "maximum_error": 0.00000000000000000296885048012632
+    },
+    {
+      "case": 40,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 41,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 42,
+      "maximum_error": 0.00000000000000000507796251878953
+    },
+    {
+      "case": 43,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 44,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 45,
+      "maximum_error": 0.00000000000000000359480782814725
+    },
+    {
+      "case": 46,
+      "maximum_error": 0.00000000000000000320305509004214
+    },
+    {
+      "case": 47,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 48,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 49,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 50,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 51,
+      "maximum_error": 0.00000000000000000320305509004214
+    },
+    {
+      "case": 52,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 53,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 54,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 55,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 56,
+      "maximum_error": 0.00000000000000000726415455565288
+    },
+    {
+      "case": 57,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 58,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 59,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 60,
+      "maximum_error": 0.0000000596046447709378
+    },
+    {
+      "case": 61,
+      "maximum_error": 0.0000000000000000082035140941579
+    },
+    {
+      "case": 62,
+      "maximum_error": 0.00000000000000000311708124589583
+    },
+    {
+      "case": 63,
+      "maximum_error": 0.00000000000000000500003548764213
+    },
+    {
+      "case": 64,
+      "maximum_error": 0.0000000000000000009374537143737
+    },
+    {
+      "case": 65,
+      "maximum_error": 0.00000000000000000898447847152636
+    },
+    {
+      "case": 66,
+      "maximum_error": 0.00000000000000000796888596776846
+    },
+    {
+      "case": 67,
+      "maximum_error": 0.00000000000000000289346454782069
+    },
+    {
+      "case": 68,
+      "maximum_error": 0.00000000000000000398444298388423
+    },
+    {
+      "case": 69,
+      "maximum_error": 0.00000000000000000492168494002111
+    },
+    {
+      "case": 70,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 71,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 72,
+      "maximum_error": 0.00000000000000000125022063014735
+    },
+    {
+      "case": 73,
+      "maximum_error": 0.00000000000000000596311194867027
+    },
+    {
+      "case": 74,
+      "maximum_error": 0.00000000000000000703122049515795
+    },
+    {
+      "case": 75,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 76,
+      "maximum_error": 0.00000000000000000859378452460532
+    },
+    {
+      "case": 77,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 78,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 79,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 80,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 81,
+      "maximum_error": 0.00000000000000000789053542014743
+    },
+    {
+      "case": 82,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 83,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 84,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 85,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 86,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 87,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 88,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 89,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 90,
+      "maximum_error": 0.0000000000000000017969803976
+    },
+    {
+      "case": 91,
+      "maximum_error": 0.00000000000000000367188782634739
+    },
+    {
+      "case": 92,
+      "maximum_error": 0.00000000000000000625110315073674
+    },
+    {
+      "case": 93,
+      "maximum_error": 0.00000000000000000195325797636842
+    },
+    {
+      "case": 94,
+      "maximum_error": 0.00000000000000000562514580271581
+    },
+    {
+      "case": 95,
+      "maximum_error": 0.00000000000000000718749807392637
+    }
+  ],
+  "channels": 1536,
+  "failures": [],
+  "scope": "Production mechanical weapon detail kernel vs independent original NVIDIA Three GLSL,96 positions/attributes/rain/pixelwidth; allfive kinds; four RGBA16F outputs include albedo/rough/metal/height/cavity and noise/drop diagnostics;abs.001 orrel.0015. Not bump derivative or actual vertex attribute proof."
+}

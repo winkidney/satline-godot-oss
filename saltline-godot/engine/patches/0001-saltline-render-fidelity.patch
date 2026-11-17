@@ -1,0 +1,259 @@
+--- a/servers/rendering/renderer_scene_render.h
++++ b/servers/rendering/renderer_scene_render.h
+@@ -312,6 +312,10 @@
+ 		// Main/center projection
+ 		Transform3D main_transform;
+ 		Projection main_projection;
++		// Saltline mono oblique: finite reference for light bounds, never for drawing.
++		bool has_reference_projection = false;
++		Projection reference_projection;
++		const Projection &get_reference_projection() const { return has_reference_projection ? reference_projection : main_projection; }
+ 
+ 		Transform3D view_offset[RendererSceneRender::MAX_RENDER_VIEWS];
+ 		Projection view_projection[RendererSceneRender::MAX_RENDER_VIEWS];
+--- a/servers/rendering/renderer_scene_render.cpp
++++ b/servers/rendering/renderer_scene_render.cpp
+@@ -36,6 +36,7 @@
+ // CameraData
+ 
+ void RendererSceneRender::CameraData::set_camera(const Transform3D p_transform, const Projection p_projection, bool p_is_orthogonal, bool p_vaspect, const Vector2 &p_taa_jitter, float p_taa_frame_count, uint32_t p_visible_layers) {
++	has_reference_projection = false;
+ 	view_count = 1;
+ 	is_orthogonal = p_is_orthogonal;
+ 	vaspect = p_vaspect;
+@@ -54,6 +55,7 @@
+ 	ERR_FAIL_COND_MSG(p_view_count != 2, "Incorrect view count for stereoscopic view");
+ 
+ 	visible_layers = p_visible_layers;
++	has_reference_projection = false;
+ 	view_count = p_view_count;
+ 	is_orthogonal = p_is_orthogonal;
+ 	vaspect = p_vaspect;
+--- a/servers/rendering/renderer_scene_cull.cpp
++++ b/servers/rendering/renderer_scene_cull.cpp
+@@ -2765,6 +2765,19 @@
+ 
+ 		if (view_count == 1) {
+ 			camera_data.set_camera(transforms[0], projections[0], false, camera->vaspect, jitter, p_jitter_phase_count, camera->visible_layers);
++			// This private mono protocol is canonical perspective before its oblique depth row.
++			// Preserve the exact XY/off-center projection; camera near/far are its reference.
++			if (p_xr_interface->get_name() == StringName("SaltlinePlanarProjectionProbe")) {
++				Projection reference = projections[0];
++				const real_t n = camera->znear;
++				const real_t f = camera->zfar;
++				reference[0][2] = 0;
++				reference[1][2] = 0;
++				reference[2][2] = -(f + n) / (f - n);
++				reference[3][2] = -2 * f * n / (f - n);
++				camera_data.reference_projection = reference;
++				camera_data.has_reference_projection = true;
++			}
+ 		} else if (view_count == 2) {
+ 			camera_data.set_multiview_camera(view_count, transforms, projections, false, camera->vaspect, camera->visible_layers);
+ 		} else {
+@@ -3298,7 +3311,7 @@
+ 	Instance *render_reflection_probe = instance_owner.get_or_null(p_reflection_probe); //if null, not rendering to it
+ 
+ 	// Prepare the light - camera volume culling system.
+-	light_culler->prepare_camera(p_camera_data->main_transform, p_camera_data->main_projection);
++	light_culler->prepare_camera(p_camera_data->main_transform, p_camera_data->get_reference_projection());
+ 
+ 	Scenario *scenario = scenario_owner.get_or_null(p_scenario);
+ 	Vector3 camera_position = p_camera_data->main_transform.origin;
+@@ -3384,7 +3397,7 @@
+ 		RSG::light_storage->set_directional_shadow_count(lights_with_shadow.size());
+ 
+ 		for (int i = 0; i < lights_with_shadow.size(); i++) {
+-			_light_instance_setup_directional_shadow(i, lights_with_shadow[i], p_camera_data->main_transform, p_camera_data->main_projection, p_camera_data->is_orthogonal, p_camera_data->vaspect);
++			_light_instance_setup_directional_shadow(i, lights_with_shadow[i], p_camera_data->main_transform, p_camera_data->get_reference_projection(), p_camera_data->is_orthogonal, p_camera_data->vaspect);
+ 		}
+ 	}
+ 
+@@ -3511,11 +3524,11 @@
+ 			{ //compute coverage
+ 
+ 				Transform3D cam_xf = p_camera_data->main_transform;
+-				float zn = p_camera_data->main_projection.get_z_near();
++				float zn = p_camera_data->get_reference_projection().get_z_near();
+ 				Plane p(-cam_xf.basis.get_column(2), cam_xf.origin + cam_xf.basis.get_column(2) * -zn); //camera near plane
+ 
+ 				// near plane half width and height
+-				Vector2 vp_half_extents = p_camera_data->main_projection.get_viewport_half_extents();
++				Vector2 vp_half_extents = p_camera_data->get_reference_projection().get_viewport_half_extents();
+ 
+ 				switch (RSG::light_storage->light_get_type(ins->base)) {
+ 					case RSE::LIGHT_OMNI: {
+@@ -3632,7 +3645,7 @@
+ 			if (redraw && max_shadows_used < MAX_UPDATE_SHADOWS) {
+ 				//must redraw!
+ 				RENDER_TIMESTAMP("> Render Light3D " + itos(i));
+-				if (_light_instance_update_shadow(ins, p_camera_data->main_transform, p_camera_data->main_projection, p_camera_data->is_orthogonal, p_camera_data->vaspect, p_shadow_atlas, scenario, p_screen_mesh_lod_threshold, p_visible_layers)) {
++				if (_light_instance_update_shadow(ins, p_camera_data->main_transform, p_camera_data->get_reference_projection(), p_camera_data->is_orthogonal, p_camera_data->vaspect, p_shadow_atlas, scenario, p_screen_mesh_lod_threshold, p_visible_layers)) {
+ 					light->make_shadow_dirty();
+ 				}
+ 				RENDER_TIMESTAMP("< Render Light3D " + itos(i));
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h
+@@ -44,6 +44,9 @@
+ 
+ 	Transform3D cam_transform;
+ 	Projection cam_projection;
++	bool has_reference_projection = false;
++	Projection reference_projection;
++	const Projection &get_reference_projection() const { return has_reference_projection ? reference_projection : cam_projection; }
+ 	Vector2 taa_jitter;
+ 	float taa_frame_count = 0.0f;
+ 	uint32_t camera_visible_layers;
+--- a/servers/rendering/renderer_rd/renderer_scene_render_rd.cpp
++++ b/servers/rendering/renderer_rd/renderer_scene_render_rd.cpp
+@@ -1371,6 +1371,8 @@
+ 		// Our first camera is used by default
+ 		scene_data.cam_transform = p_camera_data->main_transform;
+ 		scene_data.cam_projection = p_camera_data->main_projection;
++		scene_data.has_reference_projection = p_camera_data->has_reference_projection;
++		scene_data.reference_projection = p_camera_data->get_reference_projection();
+ 		scene_data.cam_orthogonal = p_camera_data->is_orthogonal;
+ 		scene_data.camera_visible_layers = p_camera_data->visible_layers;
+ 		scene_data.taa_jitter = p_camera_data->taa_jitter;
+@@ -1392,11 +1394,11 @@
+ 			scene_data.prev_view_projection[v] = p_prev_camera_data->view_projection[v];
+ 		}
+ 
+-		scene_data.z_near = p_camera_data->main_projection.get_z_near();
+-		scene_data.z_far = p_camera_data->main_projection.get_z_far();
++		scene_data.z_near = p_camera_data->get_reference_projection().get_z_near();
++		scene_data.z_far = p_camera_data->get_reference_projection().get_z_far();
+ 
+ 		// this should be the same for all cameras..
+-		const float lod_distance_multiplier = p_camera_data->main_projection.get_lod_multiplier();
++		const float lod_distance_multiplier = p_camera_data->get_reference_projection().get_lod_multiplier();
+ 
+ 		// Also, take into account resolution scaling for the multiplier, since we have more leeway with quality
+ 		// degradation visibility. Conversely, allow upwards scaling, too, for increased mesh detail at high res.
+--- a/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp
++++ b/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp
+@@ -933,8 +933,8 @@
+ 	uint32_t lightmap_captures_used = 0;
+ 
+ 	Plane near_plane = Plane(-p_render_data->scene_data->cam_transform.basis.get_column(Vector3::AXIS_Z), p_render_data->scene_data->cam_transform.origin);
+-	near_plane.d += p_render_data->scene_data->cam_projection.get_z_near();
+-	float z_max = p_render_data->scene_data->cam_projection.get_z_far() - p_render_data->scene_data->cam_projection.get_z_near();
++	near_plane.d += p_render_data->scene_data->get_reference_projection().get_z_near();
++	float z_max = p_render_data->scene_data->get_reference_projection().get_z_far() - p_render_data->scene_data->get_reference_projection().get_z_near();
+ 
+ 	RenderList *rl = &render_list[p_render_list];
+ 	_update_dirty_geometry_instances();
+@@ -1649,7 +1649,7 @@
+ 		// This only works as we don't filter our cluster by depth buffer.
+ 		// If we ever make this optimization we should make it optional and only use it in mono.
+ 		// What we win by filtering out a few lights, we loose by having to do the work double for stereo.
+-		current_cluster_builder->begin(p_render_data->scene_data->cam_transform, p_render_data->scene_data->cam_projection, !p_render_data->reflection_probe.is_valid());
++		current_cluster_builder->begin(p_render_data->scene_data->cam_transform, p_render_data->scene_data->get_reference_projection(), !p_render_data->reflection_probe.is_valid());
+ 	}
+ 
+ 	bool using_shadows = true;
+--- a/version.py
++++ b/version.py
+@@ -3,7 +3,7 @@
+ major = 4
+ minor = 7
+ patch = 2
+-status = "stable"
++status = "stable.saltline_oblique_source_bias"
+ module_config = ""
+ website = "https://godotengine.org"
+ docs = "4.7"
+--- a/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h
++++ b/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h
+@@ -232,6 +232,9 @@
+ 
+ 		DepthDraw depth_draw = DEPTH_DRAW_OPAQUE;
+ 		DepthTest depth_test = DEPTH_TEST_ENABLED;
++		// Private Saltline raster modes. All coefficients are reverse-Z signs.
++		enum SourcePolygonOffset { SOURCE_OFFSET_NONE, SOURCE_OFFSET_WORLD_2, SOURCE_OFFSET_WORLD_3, SOURCE_OFFSET_WORLD_4, SOURCE_OFFSET_WEAPON_3 };
++		int source_polygon_offset = SOURCE_OFFSET_NONE;
+ 
+ 		int blend_mode = BLEND_MODE_MIX;
+ 		int depth_test_disabledi = 0;
+@@ -297,7 +300,7 @@
+ 
+ 		_FORCE_INLINE_ bool uses_shared_shadow_material() const {
+ 			bool backface_culling = cull_mode == RSE::CULL_MODE_BACK;
+-			return !uses_particle_trails && !writes_modelview_or_projection && !uses_vertex && !uses_position && !uses_discard && !uses_depth_prepass_alpha && !uses_alpha_clip && !uses_alpha_antialiasing && backface_culling && !uses_point_size && !uses_world_coordinates && !wireframe && !uses_z_clip_scale && !stencil_enabled;
++			return source_polygon_offset == SOURCE_OFFSET_NONE && !uses_particle_trails && !writes_modelview_or_projection && !uses_vertex && !uses_position && !uses_discard && !uses_depth_prepass_alpha && !uses_alpha_clip && !uses_alpha_antialiasing && backface_culling && !uses_point_size && !uses_world_coordinates && !wireframe && !uses_z_clip_scale && !stencil_enabled;
+ 		}
+ 
+ 		virtual void set_code(const String &p_Code);
+--- a/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp
++++ b/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp
+@@ -56,6 +56,7 @@
+ 	depth_test_disabledi = 0;
+ 	depth_test_invertedi = 0;
+ 	alpha_antialiasing_mode = ALPHA_ANTIALIASING_OFF;
++	source_polygon_offset = SOURCE_OFFSET_NONE;
+ 	int cull_modei = RSE::CULL_MODE_BACK;
+ 
+ 	uses_point_size = false;
+@@ -109,6 +110,10 @@
+ 	actions.render_mode_values["depth_draw_never"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_DISABLED);
+ 	actions.render_mode_values["depth_draw_opaque"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_OPAQUE);
+ 	actions.render_mode_values["depth_draw_always"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_ALWAYS);
++	actions.render_mode_values["saltline_bias_world_2"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_2);
++	actions.render_mode_values["saltline_bias_world_3"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_3);
++	actions.render_mode_values["saltline_bias_world_4"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_4);
++	actions.render_mode_values["saltline_bias_weapon_3"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WEAPON_3);
+ 
+ 	actions.render_mode_values["depth_test_disabled"] = Pair<int *, int>(&depth_test_disabledi, 1);
+ 	actions.render_mode_values["depth_test_inverted"] = Pair<int *, int>(&depth_test_invertedi, 1);
+@@ -427,6 +432,15 @@
+ 	RD::PipelineRasterizationState raster_state;
+ 	raster_state.cull_mode = p_pipeline_key.cull_mode;
+ 	raster_state.wireframe = wireframe || p_pipeline_key.wireframe;
++	if (source_polygon_offset != SOURCE_OFFSET_NONE) {
++		// Original negative GL coefficients move toward the viewer. Vulkan uses
++		// reverse Z. The independent weapon viewport expands source range .05
++		// back to 1, so only its constant term needs the factor of twenty.
++		raster_state.depth_bias_enabled = true;
++		const float factor = source_polygon_offset == SOURCE_OFFSET_WORLD_2 ? 2.0f : source_polygon_offset == SOURCE_OFFSET_WORLD_4 ? 4.0f : 3.0f;
++		raster_state.depth_bias_slope_factor = factor;
++		raster_state.depth_bias_constant_factor = source_polygon_offset == SOURCE_OFFSET_WEAPON_3 ? 60.0f : factor;
++	}
+ 
+ 	RD::PipelineMultisampleState multisample_state;
+ 	multisample_state.sample_count = RD::get_singleton()->framebuffer_format_get_texture_samples(p_pipeline_key.framebuffer_format_id, 0);
+--- a/servers/rendering/shader_types.cpp
++++ b/servers/rendering/shader_types.cpp
+@@ -237,6 +237,10 @@
+ 	{
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("blend"), "mix", "add", "sub", "mul", "premul_alpha" });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_draw"), "opaque", "always", "never" });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_2") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_3") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_4") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_weapon_3") });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_prepass_alpha") });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_test"), { "default", "disabled", "inverted" } });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("sss_mode_skin") });
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp
+@@ -31,6 +31,7 @@
+ #include "render_scene_buffers_rd.h"
+ #include "render_scene_buffers_rd.compat.inc"
+ 
++#include "core/config/project_settings.h"
+ #include "core/object/class_db.h"
+ #include "servers/rendering/renderer_rd/storage_rd/texture_storage.h"
+ #include "servers/rendering/rendering_device_binds.h"
+@@ -812,9 +813,10 @@
+ 		// Use R32 for resolve on Forward+ (p_storage == true), or if we don't support depth resolve.
+ 		return RD::DATA_FORMAT_R32_SFLOAT;
+ 	} else {
++		const bool prefer_float_depth = p_storage && !bool(ProjectSettings::get_singleton()->get_setting("rendering/saltline/source_depth_24", false));
+ 		const RenderingDeviceCommons::DataFormat preferred_formats[2] = {
+-			p_storage ? RD::DATA_FORMAT_D32_SFLOAT_S8_UINT : RD::DATA_FORMAT_D24_UNORM_S8_UINT,
+-			p_storage ? RD::DATA_FORMAT_D24_UNORM_S8_UINT : RD::DATA_FORMAT_D32_SFLOAT_S8_UINT
++			prefer_float_depth ? RD::DATA_FORMAT_D32_SFLOAT_S8_UINT : RD::DATA_FORMAT_D24_UNORM_S8_UINT,
++			prefer_float_depth ? RD::DATA_FORMAT_D24_UNORM_S8_UINT : RD::DATA_FORMAT_D32_SFLOAT_S8_UINT
+ 		};
+ 
+ 		return RD::get_singleton()->texture_is_format_supported_for_usage(preferred_formats[0], get_depth_usage_bits(p_resolve, p_msaa, p_storage)) ? preferred_formats[0] : preferred_formats[1];

@@ -1,0 +1,6 @@
+{
+  "checks": 12,
+  "failures": [],
+  "maximum_error": 0.0,
+  "scope": "Real RenderingDevice MultiMesh custom-data API readback against CPU tint driving debris write, four colors. No shaded-pixel comparison."
+}

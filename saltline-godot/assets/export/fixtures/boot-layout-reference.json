@@ -1,0 +1,155 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "stages": [
+    {
+      "message": "Waking the renderer",
+      "progress": 0.04
+    },
+    {
+      "message": "Mixing paint, rust and rain",
+      "progress": 0.12
+    },
+    {
+      "message": "Stacking containers",
+      "progress": 0.34
+    },
+    {
+      "message": "Raising the cranes",
+      "progress": 0.5
+    },
+    {
+      "message": "Flooding the apron",
+      "progress": 0.58
+    },
+    {
+      "message": "Loading tracers and smoke",
+      "progress": 0.66
+    },
+    {
+      "message": "Checking the rifle",
+      "progress": 0.74
+    },
+    {
+      "message": "Waking the Harbormaster",
+      "progress": 0.82
+    },
+    {
+      "message": "Waiting for first light",
+      "progress": 0.92
+    },
+    {
+      "message": "Ready",
+      "progress": 1
+    }
+  ],
+  "cases": [
+    {
+      "width": 1280,
+      "reduced": false,
+      "mark": {
+        "x": 428.75,
+        "y": 289.5,
+        "width": 437.859375,
+        "height": 96,
+        "pixels": 96
+      },
+      "subtitle": {
+        "x": 546.390625,
+        "y": 399.5,
+        "width": 187.203125,
+        "height": 15,
+        "pixels": 12
+      },
+      "bar": {
+        "x": 480,
+        "y": 428.5,
+        "width": 320,
+        "height": 2,
+        "pixels": 16
+      },
+      "fade_duration": 0.6,
+      "bar_duration": 0.25
+    },
+    {
+      "width": 1280,
+      "reduced": true,
+      "mark": {
+        "x": 428.75,
+        "y": 289.5,
+        "width": 437.859375,
+        "height": 96,
+        "pixels": 96
+      },
+      "subtitle": {
+        "x": 546.390625,
+        "y": 399.5,
+        "width": 187.203125,
+        "height": 15,
+        "pixels": 12
+      },
+      "bar": {
+        "x": 480,
+        "y": 428.5,
+        "width": 320,
+        "height": 2,
+        "pixels": 16
+      },
+      "fade_duration": 0.00001,
+      "bar_duration": 0.25
+    },
+    {
+      "width": 360,
+      "reduced": false,
+      "mark": {
+        "x": 91.96875,
+        "y": 317.5,
+        "width": 182.453125,
+        "height": 40,
+        "pixels": 40
+      },
+      "subtitle": {
+        "x": 86.390625,
+        "y": 371.5,
+        "width": 187.203125,
+        "height": 15,
+        "pixels": 12
+      },
+      "bar": {
+        "x": 54,
+        "y": 400.5,
+        "width": 252,
+        "height": 2,
+        "pixels": 16
+      },
+      "fade_duration": 0.6,
+      "bar_duration": 0.25
+    },
+    {
+      "width": 360,
+      "reduced": true,
+      "mark": {
+        "x": 91.96875,
+        "y": 317.5,
+        "width": 182.453125,
+        "height": 40,
+        "pixels": 40
+      },
+      "subtitle": {
+        "x": 86.390625,
+        "y": 371.5,
+        "width": 187.203125,
+        "height": 15,
+        "pixels": 12
+      },
+      "bar": {
+        "x": 54,
+        "y": 400.5,
+        "width": 252,
+        "height": 2,
+        "pixels": 16
+      },
+      "fade_duration": 0.00001,
+      "bar_duration": 0.25
+    }
+  ]
+}

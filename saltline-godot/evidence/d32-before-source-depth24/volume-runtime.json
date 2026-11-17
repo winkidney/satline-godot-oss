@@ -1,0 +1,48 @@
+{
+  "differences": [
+    {
+      "changed_samples": 37494,
+      "from": 0,
+      "sum_rgb_difference": 4623.54150676727,
+      "to": 1
+    },
+    {
+      "changed_samples": 51700,
+      "from": 1,
+      "sum_rgb_difference": 39626.3215005398,
+      "to": 2
+    }
+  ],
+  "failures": [],
+  "frames": 360,
+  "scope": "Frozen native warehouse: first120 volumeoff, next120 original24step shadowedvolume, last120 diagnostic unshadowedvolume. Original4096 shadowinput and RGBA16F scattering/transmittance. Controlled camera, not full gameplay acceptance.",
+  "snapshots": [
+    {
+      "enabled": false,
+      "force_unshadowed": false,
+      "frame": 100,
+      "maximum_scattering": 2.041015625,
+      "minimum_transmittance": 0.56689453125,
+      "shadow_ready": true,
+      "shadow_resolution": "(4096, 4096)"
+    },
+    {
+      "enabled": true,
+      "force_unshadowed": false,
+      "frame": 220,
+      "maximum_scattering": 2.041015625,
+      "minimum_transmittance": 0.56689453125,
+      "shadow_ready": true,
+      "shadow_resolution": "(4096, 4096)"
+    },
+    {
+      "enabled": true,
+      "force_unshadowed": true,
+      "frame": 340,
+      "maximum_scattering": 5.56640625,
+      "minimum_transmittance": 0.56689453125,
+      "shadow_ready": true,
+      "shadow_resolution": "(4096, 4096)"
+    }
+  ]
+}

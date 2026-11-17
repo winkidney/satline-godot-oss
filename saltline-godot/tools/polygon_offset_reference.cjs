@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8805/saltline-godot/tools/polygon_offset_reference.html');const result=await page.evaluate(async()=>await window.ready);return {exports:[{name:'polygon-offset-gl-reference.json',base64:btoa(unescape(encodeURIComponent(JSON.stringify(result))))}],cases:result.cases.length,backend:result.backend,attachment:result.attachment};}

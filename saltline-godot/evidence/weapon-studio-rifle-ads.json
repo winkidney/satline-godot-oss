@@ -1,0 +1,15 @@
+{
+  "ads": 1.0,
+  "arm_groups": 2,
+  "attached": false,
+  "camera": "[X: (-0.962964, 0.0, 0.26963), Y: (0.002596, 0.999954, 0.009273), Z: (-0.269617, 0.009629, -0.962919), O: (0.0, 1.68, 4.0)]",
+  "flash": false,
+  "fov": 52.0,
+  "frames": 12,
+  "gun": "rifle",
+  "live_steps": 12,
+  "reload_time": -1,
+  "scope": "BD closeups and hip/ADS/sprint/debug fire/fixed reload/empty/locked entries with live roots and Fh bones. Switch and configurable wlook/wview still pending; no source full-frame pixel claim.",
+  "sprint": 0.0,
+  "view": "ads"
+}

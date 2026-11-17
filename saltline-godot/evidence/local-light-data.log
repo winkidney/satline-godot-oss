@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.saltline_oblique.custom_build - https://godotengine.org
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 SUPER
+
+SOURCE_SCENE_LOADED {"generic_sampler_variants":6,"gpu_texture_variants":128,"materials":195,"meshes":292,"native_skeletons":20,"native_skin_meshes":30,"nodes":729,"pending_shaders":[{"id":"34559a15-d7f9-4fa2-8956-d228e9cc6353","name":"fx_lit","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft","uSun","uSunDir","uAmbLo","uAmbHi"]},{"id":"1a738049-2610-449b-adb3-ac8779c53cd0","name":"fx_add","uniforms":["uTex","uAtlas","uPx","uDepth","uRes","uNearFar","uSoft"]}],"skin_reference_max_error_m":0.0000012468096883822,"skin_reference_vertices_checked":732,"source_skin_reference_meshes":30,"source_static_point_lights":4,"textures":128,"triplanar_palette":{"invalid_bindings":[],"meshes":18,"rows":290}}
+LOCAL_LIGHT_DATA waiting initial draw
+LOCAL_LIGHT_DATA initial draw ready
+LOCAL_LIGHT_DATA process playing
+LOCAL_LIGHT_DATA draw playing
+LOCAL_LIGHT_DATA process paused
+LOCAL_LIGHT_DATA draw paused
+{"failures":[],"key_indoor_intensity":0.495000004768372,"phases":[{"gpu_bytes_exact":true,"phase":"playing","radiance_r":95.0,"source_intensity":95.0,"source_mask":3.0,"uploads":1},{"gpu_bytes_exact":true,"phase":"paused","radiance_r":93.0,"source_intensity":93.0,"source_mask":3.0,"uploads":1}],"scope":"Actual Main uploads once after pool decay, playing and paused. 4x11 RGBA32F full GPU byte roundtrip; dynamic flash source units, hidden flag, fallback high masks excluded, four original ordered static rows, indoor key. Data atlas is staged; production BRDF does not consume it yet.","static_rows":["1db7f8ea-5cd6-481c-8330-8ce1b8f8ae13","c3147dc4-4a4d-426e-add8-0f3d138ff422","539e99a0-8373-49b1-8001-380622fb3087","768d52db-0cc5-4965-8672-dd3f2c87a053"]}

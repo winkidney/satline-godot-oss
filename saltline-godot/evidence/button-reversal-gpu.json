@@ -1,0 +1,223 @@
+{
+  "failures": [],
+  "maximum_error": 0.00320392102003098,
+  "samples": [
+    {
+      "error": 0.00000000372529029846191,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00168627500534058,
+      "ms": 15.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00320392102003098,
+      "ms": 30.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00320392102003098,
+      "ms": 0.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.00194510072469711,
+      "ms": 6.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.00252941250801086,
+      "ms": 12.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.00252941250801086,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00186274945735931,
+      "ms": 4.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00172548741102219,
+      "ms": 8.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00172548741102219,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.000392161309719086,
+      "ms": 10.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.00178823620080948,
+      "ms": 20.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.00178823620080948,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00188235193490982,
+      "ms": 7.5,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00141177326440811,
+      "ms": 15.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.00141177326440811,
+      "ms": 0.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.00179608166217804,
+      "ms": 60.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.00000000372529029846191,
+      "ms": 120.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 15.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 30.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 6.0,
+      "primary": true,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 12.0,
+      "primary": true,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 4.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 8.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.0,
+      "ms": 10.0,
+      "primary": true,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.0,
+      "ms": 20.0,
+      "primary": true,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 7.5,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 15.0,
+      "primary": true,
+      "state": "probe-hover"
+    },
+    {
+      "error": 0.0,
+      "ms": 0.0,
+      "primary": true,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 60.0,
+      "primary": true,
+      "state": ""
+    },
+    {
+      "error": 0.0,
+      "ms": 120.0,
+      "primary": true,
+      "state": ""
+    }
+  ],
+  "scope": "Actual production title_button process/color transition/draw path with injected clock and forced CSS-equivalent target states.36 fill pixels versus Chrome reversal/active interruption fixture on ink. Not physical pointer timing or border/text pixel proof."
+}

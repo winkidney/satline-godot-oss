@@ -1,0 +1,8 @@
+{
+  "Q_sha256": "ec64c6c1e07939e96d26c1cd725342a29a656f6eb4efdefefed796d570af00ac",
+  "comparisons": 2424,
+  "failures": [],
+  "maximum_error": 0.000000116974115282886,
+  "scope": "Literal original full Q with original su and literal rig recoil. Explicit historical seed4207 and cold-start seed3554171070/state, identity camera/root, no impact, mocked combat/FX receivers. Compare native production parameter/recoil/flash methods, not whole Main world transform or original startup RNG fork.",
+  "shots": 96
+}

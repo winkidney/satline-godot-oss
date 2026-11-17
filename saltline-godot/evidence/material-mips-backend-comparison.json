@@ -1,0 +1,655 @@
+{
+  "old_backend": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "new_backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "changed_textures": [
+    {
+      "id": "8211d4df-e31a-40c8-b82e-2da7c416e24c",
+      "changed_channels": 33771,
+      "maximum_byte_difference": 4
+    },
+    {
+      "id": "b62afdf6-7df7-4829-b798-5e7fb599db93",
+      "changed_channels": 14726,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "468708b5-7599-458b-8968-ac2abc390a46",
+      "changed_channels": 44153,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d",
+      "changed_channels": 39917,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "7d6e8448-1eab-479a-b4ed-5c923b717088",
+      "changed_channels": 373047,
+      "maximum_byte_difference": 8
+    },
+    {
+      "id": "0a67a71c-4d40-43b4-8e34-881c108651ff",
+      "changed_channels": 72400,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "35ad4517-a554-4693-821d-c3c2e0712f5e",
+      "changed_channels": 130626,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "b9371a06-22a0-44f2-849d-5d096dee95a8",
+      "changed_channels": 25871,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ba4f23e3-ea16-426b-8c7c-f3695ac65955",
+      "changed_channels": 20934,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "9e612342-cce9-45d4-a887-e64af0038258",
+      "changed_channels": 51646,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ac8eefd6-5b0a-463d-894e-878de59cae7e",
+      "changed_channels": 7398,
+      "maximum_byte_difference": 60
+    },
+    {
+      "id": "b13d58be-33e1-4b16-9c50-633e0e459791",
+      "changed_channels": 9746,
+      "maximum_byte_difference": 17
+    },
+    {
+      "id": "90a07753-cf75-46de-84bb-add386e7baed",
+      "changed_channels": 201656,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "1b3b1d9c-9885-46b4-af67-f7818aae26dd",
+      "changed_channels": 3035,
+      "maximum_byte_difference": 5
+    },
+    {
+      "id": "ed913cfd-599e-41bf-b62c-abd03b8bd246",
+      "changed_channels": 3682,
+      "maximum_byte_difference": 5
+    },
+    {
+      "id": "616292bc-b4e3-4d2a-96a1-9ee3b833b265",
+      "changed_channels": 7135,
+      "maximum_byte_difference": 44
+    },
+    {
+      "id": "cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4",
+      "changed_channels": 59117,
+      "maximum_byte_difference": 8
+    },
+    {
+      "id": "a6fe31be-e93a-427d-a83f-ea7267a26aa2",
+      "changed_channels": 20037,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "cd6ade9e-1665-4401-9037-52fcae4c0a7b",
+      "changed_channels": 69469,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "21f1e9a9-9d8f-4a67-a638-c40e951f0c78",
+      "changed_channels": 4204,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "dde07d27-09a0-4308-8c96-0a75476d8781",
+      "changed_channels": 12018,
+      "maximum_byte_difference": 5
+    },
+    {
+      "id": "d59e5a87-517e-42dd-93ea-662aca3dd627",
+      "changed_channels": 7360,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "a40fada2-80dd-400e-885e-dd36ea0da3e8",
+      "changed_channels": 10414,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "95e29bb1-8d01-4945-8eca-bbc253c89e34",
+      "changed_channels": 32476,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ab6bbc00-a035-424b-8059-b0e484ff6c08",
+      "changed_channels": 19638,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "4e97d3c2-d2c1-4d6b-937b-e8fea02121a9",
+      "changed_channels": 50149,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "d14a3ee1-8e4a-46af-8bbd-58a543eeddab",
+      "changed_channels": 6509,
+      "maximum_byte_difference": 54
+    },
+    {
+      "id": "facf0022-4503-4686-956d-cd6367061578",
+      "changed_channels": 7627,
+      "maximum_byte_difference": 64
+    },
+    {
+      "id": "4f1f032f-30fc-4d2f-ac85-9b591d005322",
+      "changed_channels": 42927,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "2b5d563f-1582-47a7-ad76-57728517f7b3",
+      "changed_channels": 27697,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "db083989-4637-4108-b32c-562d715a92c0",
+      "changed_channels": 34894,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "2d6f9788-08ca-4ed9-bf05-25fa18e3f814",
+      "changed_channels": 7217,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "5ba237fa-af2d-48c7-a490-70a0f0806ac1",
+      "changed_channels": 3925,
+      "maximum_byte_difference": 1
+    },
+    {
+      "id": "5f34f084-610b-44a2-8d8c-a46d88784cfc",
+      "changed_channels": 10404,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "9c547b27-0e72-45b1-aac7-ba17f7fd50f0",
+      "changed_channels": 1900,
+      "maximum_byte_difference": 128
+    },
+    {
+      "id": "f2f9114b-1455-4c78-acb4-b7664a831078",
+      "changed_channels": 4438,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "12fc56a5-2a17-4b44-a469-90a0183c6ed1",
+      "changed_channels": 193323,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ff7d0789-741a-4d77-be4b-acee627f9039",
+      "changed_channels": 75043,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "0a2f10fa-cf15-44ad-a4a4-5b39863d6274",
+      "changed_channels": 120014,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "fe2f8cbb-23b8-4114-903c-0959e0fc4356",
+      "changed_channels": 29625,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "1370c82d-ac74-40f4-9343-b6c4f148effa",
+      "changed_channels": 19726,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "13ce461b-ee5c-4fd0-bb78-c2cae1e54072",
+      "changed_channels": 32037,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "a2220aa0-985a-485f-a415-5d6efc9aefc8",
+      "changed_channels": 4292,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "78163b74-5e37-4b42-8323-950afb6feb35",
+      "changed_channels": 87246,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "e1e9501b-4c5f-48eb-91ad-50c00e2a34ad",
+      "changed_channels": 13619,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "fddb529b-a765-4d83-b3ce-ffe768bca990",
+      "changed_channels": 34976,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "2b279672-b2f9-4740-95fc-c04312742729",
+      "changed_channels": 3306,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "d2121308-5a24-412a-9086-973bb4d142dc",
+      "changed_channels": 5105,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "9964b6dd-337e-4e20-abe5-c33599fd9d2f",
+      "changed_channels": 6673,
+      "maximum_byte_difference": 62
+    },
+    {
+      "id": "ff98c4f0-a79e-4f88-bfd5-6717146c972a",
+      "changed_channels": 21831,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "c66a3e2a-a487-4d0d-8c83-94860bc74dab",
+      "changed_channels": 15888,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "f44a66de-900e-4b8c-b14a-e23a18e375b6",
+      "changed_channels": 38730,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "c8bb15e5-56bc-4c85-bf05-ffc4a3243592",
+      "changed_channels": 56261,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d",
+      "changed_channels": 17560,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "af9a5ec9-8a29-4aea-bb60-feb89d34258b",
+      "changed_channels": 33268,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "d7a95494-2233-4895-aed8-7c3dcaed623b",
+      "changed_channels": 86994,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "a4a85b1a-ef02-4434-9f00-ce5f85ade9b2",
+      "changed_channels": 23885,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "f576eaf0-e130-4c30-a3ad-47c376a9a721",
+      "changed_channels": 33596,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "8e5d4de7-5f4e-4be3-acf6-260494a68050",
+      "changed_channels": 11782,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "e1730a86-53fe-4c71-9dcd-ac5cab1920d9",
+      "changed_channels": 53,
+      "maximum_byte_difference": 1
+    },
+    {
+      "id": "30af1272-771c-4e08-8ad2-82eebec6c9a8",
+      "changed_channels": 10601,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "67d0842a-5880-49e1-b004-3b6bc57a8f36",
+      "changed_channels": 39572,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "611ab21a-a7f8-472b-a936-c73f8b548040",
+      "changed_channels": 15136,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "e2f0c23e-37a8-4c4b-8dbe-e5924d988563",
+      "changed_channels": 31283,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "2edc6d4f-4a45-45ad-97aa-a4696291b1d9",
+      "changed_channels": 39910,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "86053182-20a0-4992-a3a0-29585ae538d5",
+      "changed_channels": 16397,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ca557b4b-f20d-4555-ab45-353426b03fde",
+      "changed_channels": 15089,
+      "maximum_byte_difference": 1
+    },
+    {
+      "id": "06fc42d3-ce13-48da-a89e-fe0df7acaa57",
+      "changed_channels": 15912,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "522b3bf0-2a18-412d-9787-46c93ff3c094",
+      "changed_channels": 7694,
+      "maximum_byte_difference": 33
+    },
+    {
+      "id": "c0b963f9-2a44-43df-a26b-7e45e4156443",
+      "changed_channels": 59458,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "4f6b81c7-ad9c-43bc-966a-bebd98ce3f18",
+      "changed_channels": 11783,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "19cd0eac-6a27-4604-9e3a-2acb81213f7c",
+      "changed_channels": 27517,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef",
+      "changed_channels": 44425,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd",
+      "changed_channels": 14563,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "c6fc84ec-d313-4025-bda4-aeddff7ca091",
+      "changed_channels": 51105,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "5a565919-3c93-443e-a978-717807c434ab",
+      "changed_channels": 4206,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "0ca63b52-27f7-4419-8417-79c5a1ed961f",
+      "changed_channels": 58425,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "e951e861-da7a-4f97-9a64-aa2240102ede",
+      "changed_channels": 48671,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "174dab7f-cc3c-4020-9e21-b614c79ee3d6",
+      "changed_channels": 57538,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "4dacf71c-4094-4821-889b-4222343bb820",
+      "changed_channels": 146195,
+      "maximum_byte_difference": 9
+    },
+    {
+      "id": "888210d4-dc2c-44fd-8da2-03e6b9b20cb6",
+      "changed_channels": 15767,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "d9c6b080-0c7e-419b-9df0-9177b5daefe6",
+      "changed_channels": 40712,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "66ae3151-1c2f-4b2b-bedd-dc0f651b1676",
+      "changed_channels": 69370,
+      "maximum_byte_difference": 3
+    },
+    {
+      "id": "7813a677-018e-4e32-9f7e-3075d479c943",
+      "changed_channels": 11239,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "51765c08-64ff-411b-8850-3d6cdedc0c97",
+      "changed_channels": 27783,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "74cd51be-6804-42ca-91ef-97d5508f3138",
+      "changed_channels": 3680,
+      "maximum_byte_difference": 4
+    },
+    {
+      "id": "9ea5b8ff-9a54-46b6-bcff-ac8405b2c089",
+      "changed_channels": 11177,
+      "maximum_byte_difference": 83
+    },
+    {
+      "id": "a974cd29-4057-4259-b275-799d086555e5",
+      "changed_channels": 34013,
+      "maximum_byte_difference": 196
+    },
+    {
+      "id": "73ddfafc-6cf0-4367-a14f-212182862c83",
+      "changed_channels": 17568,
+      "maximum_byte_difference": 203
+    },
+    {
+      "id": "d22f7a84-7473-47af-9dcd-0e22a8e17337",
+      "changed_channels": 77844,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "7bb0f74b-744a-4431-b6aa-fc222bcc232d",
+      "changed_channels": 19184,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "c0e255aa-0a83-44e6-b893-5d9ca6790f59",
+      "changed_channels": 30526,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "f1bb75f3-64be-4dda-8583-c8e22f5cdfd4",
+      "changed_channels": 12259,
+      "maximum_byte_difference": 196
+    },
+    {
+      "id": "fd126f27-206b-40a9-a65b-b4fe7e8b78c5",
+      "changed_channels": 204712,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "759ef96d-f825-47e3-8c42-59b0df77c030",
+      "changed_channels": 46317,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "f2f39fc7-38c9-4da1-8a0e-33b1f00295ea",
+      "changed_channels": 62011,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "1b8032b3-be94-40da-8636-81358a7ce57a",
+      "changed_channels": 54606,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "4d0ce824-ce96-45e5-81dc-386677cab7e4",
+      "changed_channels": 68566,
+      "maximum_byte_difference": 62
+    },
+    {
+      "id": "27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859",
+      "changed_channels": 56894,
+      "maximum_byte_difference": 7
+    },
+    {
+      "id": "e16b34e7-da4b-4b27-8032-863d26755c23",
+      "changed_channels": 5242,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "ca498017-3c35-4d0c-a6d3-7a1a91704c42",
+      "changed_channels": 600,
+      "maximum_byte_difference": 1
+    },
+    {
+      "id": "859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3",
+      "changed_channels": 12096,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "9c8b0609-4d91-4aab-8bf9-ff8c50af7220",
+      "changed_channels": 10266,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "5629e8bf-b798-4860-80e8-da33bdb28a0f",
+      "changed_channels": 10936,
+      "maximum_byte_difference": 204
+    },
+    {
+      "id": "bc382d59-57a4-4a11-aef5-291e27976518",
+      "changed_channels": 10302,
+      "maximum_byte_difference": 78
+    },
+    {
+      "id": "0cdf55df-4fea-451d-bf4c-ccbb4f644c06",
+      "changed_channels": 6563,
+      "maximum_byte_difference": 109
+    },
+    {
+      "id": "c5493111-c92c-44ab-bf40-14a00c9b118f",
+      "changed_channels": 5957,
+      "maximum_byte_difference": 152
+    },
+    {
+      "id": "21957483-6dee-41ba-b284-66a891f8ca18",
+      "changed_channels": 13371,
+      "maximum_byte_difference": 190
+    },
+    {
+      "id": "60f9d7c5-dbab-464c-844e-a438d62bfa8c",
+      "changed_channels": 58142,
+      "maximum_byte_difference": 8
+    },
+    {
+      "id": "fe95b981-913a-4140-8539-93c09d87dbb6",
+      "changed_channels": 22237,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "1f8042b7-2c81-47d7-9c47-b84f0552aac0",
+      "changed_channels": 31774,
+      "maximum_byte_difference": 2
+    },
+    {
+      "id": "a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c",
+      "changed_channels": 1900,
+      "maximum_byte_difference": 58
+    },
+    {
+      "id": "e0865877-907e-4bcc-8025-a18454d63a7f",
+      "changed_channels": 4403,
+      "maximum_byte_difference": 134
+    },
+    {
+      "id": "42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f",
+      "changed_channels": 2715,
+      "maximum_byte_difference": 131
+    },
+    {
+      "id": "afc2c3a2-8913-47f5-9abf-dceadb17640c",
+      "changed_channels": 4850,
+      "maximum_byte_difference": 190
+    },
+    {
+      "id": "facdd055-aadb-40a1-96cc-a54acd4b266e",
+      "changed_channels": 5218,
+      "maximum_byte_difference": 190
+    },
+    {
+      "id": "0fbd836f-da21-47f4-8aba-bb0c006ca406",
+      "changed_channels": 2685,
+      "maximum_byte_difference": 131
+    },
+    {
+      "id": "1de862ec-6bcf-45b4-9fcd-3737cc3d303b",
+      "changed_channels": 4056,
+      "maximum_byte_difference": 132
+    },
+    {
+      "id": "cc504d4f-d4c5-487e-8134-e3c4bb525d53",
+      "changed_channels": 2876,
+      "maximum_byte_difference": 131
+    },
+    {
+      "id": "da074854-33d5-4ae1-866a-f6785c7f39f1",
+      "changed_channels": 2730,
+      "maximum_byte_difference": 131
+    },
+    {
+      "id": "0c1a4ef6-76a1-429c-a745-5bdd1e297b83",
+      "changed_channels": 3903,
+      "maximum_byte_difference": 75
+    },
+    {
+      "id": "7916b3ae-cf09-4dcc-a4f9-a95954bad964",
+      "changed_channels": 5253,
+      "maximum_byte_difference": 131
+    },
+    {
+      "id": "e06741a4-6903-460b-987e-1a7fa71470a8",
+      "changed_channels": 2049,
+      "maximum_byte_difference": 85
+    },
+    {
+      "id": "b3a9dea4-56e0-49a5-b608-4d668de734f4",
+      "changed_channels": 2325,
+      "maximum_byte_difference": 81
+    },
+    {
+      "id": "41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46",
+      "changed_channels": 2505,
+      "maximum_byte_difference": 85
+    },
+    {
+      "id": "9928b3a6-867e-4d40-a481-06cf688c9fd0",
+      "changed_channels": 1599,
+      "maximum_byte_difference": 65
+    },
+    {
+      "id": "4a6c4a18-f68a-447b-bb8a-753c8601893c",
+      "changed_channels": 2490,
+      "maximum_byte_difference": 85
+    },
+    {
+      "id": "e86129a4-48be-497e-b7d0-13e568c22684",
+      "changed_channels": 2730,
+      "maximum_byte_difference": 85
+    },
+    {
+      "id": "93744973-0ba5-4ad1-a711-e02f1ef3ceb8",
+      "changed_channels": 5051,
+      "maximum_byte_difference": 190
+    }
+  ],
+  "total_changed_channels": 4263528,
+  "maximum_byte_difference": 204,
+  "old_changed_data_archive": "saltline-godot/evidence/material-mips-swiftshader-changed.zip",
+  "scope": "Same originalRGBA8base verified by both exporters; fullGPU-generated mipchains compare. Does not recover original HDR for3 historical float records."
+}

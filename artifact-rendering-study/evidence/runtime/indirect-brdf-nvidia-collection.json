@@ -1,0 +1,9 @@
+{
+  "cases": 96,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "exported_assets": [
+    {
+      "file": "saltline-indirect-brdf-reference.json"
+    }
+  ]
+}

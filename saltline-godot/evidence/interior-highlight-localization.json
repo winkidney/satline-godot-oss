@@ -1,0 +1,39 @@
+{
+  "roi": [
+    835,
+    282,
+    878,
+    318
+  ],
+  "rows": {
+    "beauty": {
+      "mae": 39.91085271317829,
+      "source_max": 254.0,
+      "native_max": 211.0,
+      "source_mean": 77.34689922480621,
+      "native_mean": 37.619078380706284
+    },
+    "-direct-specular": {
+      "mae": 31.63975021533161,
+      "source_max": 254.0,
+      "native_max": 185.0,
+      "source_mean": 58.76119724375538,
+      "native_mean": 27.357450473729543
+    },
+    "-roughness": {
+      "mae": 4.981696813092162,
+      "source_max": 210.0,
+      "native_max": 215.0,
+      "source_mean": 152.49483204134367,
+      "native_mean": 148.9748062015504
+    },
+    "-normal": {
+      "mae": 6.1828165374677,
+      "source_max": 194.0,
+      "native_max": 196.0,
+      "source_mean": 100.27842377260981,
+      "native_mean": 96.82127476313522
+    }
+  },
+  "scope": "Display-space ROI diagnostics. Replacing only corrugated_roof output; full post chain retained. No root cause proven yet."
+}

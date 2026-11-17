@@ -1,0 +1,10 @@
+{
+  "backdrop_time": 5.99999999999998,
+  "frames": 360,
+  "scope": "Actual native Main rendering, fixed60Hz offline movie; three inspection cameras and hidden HUD/viewmodel, title state so backdrop advances without gameplay. Not original camera parity or real-time performance.",
+  "takes": [
+    "boat",
+    "spreader",
+    "radar"
+  ]
+}

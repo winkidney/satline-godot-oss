@@ -1,0 +1,7 @@
+{
+  "checks": 168,
+  "css_sha256": "10991647f67f27c0687c2c2e505a872649c0e9df3e5490b258414731686341ef",
+  "failures": [],
+  "maximum_channel_error": 0.00196849870681762,
+  "scope": "Two original CSS hover transitions, 14 browser time samples, three colors/four channels. Legacy alpha quantization and premultiplied sRGB interpolation/default ease; tolerance covers computed CSS rounding. No reversal-shortening, active interruption or whole-frame pixels."
+}

@@ -1,0 +1,10 @@
+{
+  "checks": 36169,
+  "drop_sha256": "258c384bff223138c09d6b6945a5f9d55e3ca5b5e46e1c5319080eba30bba5ad",
+  "failures": [],
+  "maximum_error": 0.00000000000000222044604925031,
+  "scope": "Literal original oe/le/xe/j and vS.startDrop RNG; camera/root Three objects, explicit physics callbacks and no-op audio preserving bounce RNG. Arm dropUpdate receiver mocked. No native expected, no production layer/render proof. Native double numeric stage and all physics/splash query arguments plus shared RNG state/count. Six arm-start RNG draws explicit adapter; arm trajectory separately pending.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 1140,
+  "tolerance": 0.0000000001
+}

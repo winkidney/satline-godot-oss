@@ -1,0 +1,6 @@
+{
+  "registered_showcase_shadow_casters": 3,
+  "full_mae": 0.0026734494144880177,
+  "effect_mae": 0.014362033405954974,
+  "scope": "Three dedicated showcase objects now registered in actual source sun shadow pass; source GLES/native Vulkan snapshot, shadow-camera fidelity still separate."
+}

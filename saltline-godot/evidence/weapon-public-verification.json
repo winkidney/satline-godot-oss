@@ -1,0 +1,10 @@
+{
+  "checks": 22786,
+  "failures": [],
+  "maximum_error": 0.0,
+  "methods_sha256": "8aebae20e8f4402998a0d12ae8005cd5d00eb46418f39967a91b28302d746b84",
+  "scope": "Literal source public equip/setVisible/addAmmo/setWetness/snap/setView plus private equip and original math; explicit dirty S. Mock node/arms side-effect receivers. Public/state contract only; scene writes separately required. Actual Weapon API, weak presentation receiver, private motion and arm participation. No actual GPU nodes in this verifier.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 128,
+  "tolerance": 0.000000000001
+}

@@ -1,0 +1,251 @@
+{
+  "cases": 48,
+  "checks": 122052,
+  "draws": 68808,
+  "failures": [
+    {
+      "actual": 27.6408596038818,
+      "error": 0.000003814697265625,
+      "expected": 27.6408634185791,
+      "label": "1.9/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 35.9844665527344,
+      "error": 0.000003814697265625,
+      "expected": 35.9844627380371,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 43.2277526855469,
+      "error": 0.000003814697265625,
+      "expected": 43.2277565002441,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 40.9180068969727,
+      "error": 0.000003814697265625,
+      "expected": 40.9180030822754,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 41.0132904052734,
+      "error": 0.000003814697265625,
+      "expected": 41.0132942199707,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 36.2727355957031,
+      "error": 0.000003814697265625,
+      "expected": 36.2727394104004,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 34.0305786132812,
+      "error": 0.000003814697265625,
+      "expected": 34.030574798584,
+      "label": "4.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 38.6994552612305,
+      "error": 0.000003814697265625,
+      "expected": 38.6994590759277,
+      "label": "4.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 38.9862976074219,
+      "error": 0.000003814697265625,
+      "expected": 38.9862937927246,
+      "label": "4.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 39.0818748474121,
+      "error": 0.000003814697265625,
+      "expected": 39.0818786621094,
+      "label": "4.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 41.493335723877,
+      "error": 0.000003814697265625,
+      "expected": 41.4933319091797,
+      "label": "4.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 36.7604942321777,
+      "error": 0.000003814697265625,
+      "expected": 36.760498046875,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 39.1812629699707,
+      "error": 0.000003814697265625,
+      "expected": 39.181266784668,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 34.4244842529297,
+      "error": 0.000003814697265625,
+      "expected": 34.424488067627,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 32.0700759887695,
+      "error": 0.000003814697265625,
+      "expected": 32.0700721740723,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 39.3723564147949,
+      "error": 0.000003814697265625,
+      "expected": 39.3723526000977,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 39.4678764343262,
+      "error": 0.000003814697265625,
+      "expected": 39.4678726196289,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 41.8778800964355,
+      "error": 0.000003814697265625,
+      "expected": 41.8778762817383,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 41.9730224609375,
+      "error": 0.000003814697265625,
+      "expected": 41.9730262756348,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 32.3628273010254,
+      "error": 0.000003814697265625,
+      "expected": 32.3628311157227,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 39.6588745117188,
+      "error": 0.00000381469725851957,
+      "expected": 39.6588706970215,
+      "label": "4.0/256.0/true/1.0/velocity"
+    },
+    {
+      "actual": 34.1889724731445,
+      "error": 0.000003814697265625,
+      "expected": 34.1889686584473,
+      "label": "4.0/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 39.043643951416,
+      "error": 0.000003814697265625,
+      "expected": 39.0436477661133,
+      "label": "4.0/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 36.7182731628418,
+      "error": 0.000003814697265625,
+      "expected": 36.7182693481445,
+      "label": "4.0/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 41.6456565856934,
+      "error": 0.000003814697265625,
+      "expected": 41.6456527709961,
+      "label": "4.0/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 34.4785194396973,
+      "error": 0.000003814697265625,
+      "expected": 34.478515625,
+      "label": "4.0/256.0/true/0.2/velocity"
+    },
+    {
+      "actual": 40.8417663574219,
+      "error": 0.000003814697265625,
+      "expected": 40.8417625427246,
+      "label": "6.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 38.5234603881836,
+      "error": 0.000003814697265625,
+      "expected": 38.5234642028809,
+      "label": "6.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 33.7599487304688,
+      "error": 0.000003814697265625,
+      "expected": 33.7599449157715,
+      "label": "6.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 33.856632232666,
+      "error": 0.000003814697265625,
+      "expected": 33.8566284179688,
+      "label": "6.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 36.4840278625488,
+      "error": 0.000003814697265625,
+      "expected": 36.4840316772461,
+      "label": "6.0/256.0/false/1.0/velocity"
+    },
+    {
+      "actual": 38.9098205566406,
+      "error": 0.000003814697265625,
+      "expected": 38.9098167419434,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 34.1503410339355,
+      "error": 0.000003814697265625,
+      "expected": 34.1503448486328,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 36.5838813781738,
+      "error": 0.000003814697265625,
+      "expected": 36.5838851928711,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 41.512378692627,
+      "error": 0.000003814697265625,
+      "expected": 41.5123748779297,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 41.6075744628906,
+      "error": 0.000003814697265625,
+      "expected": 41.6075782775879,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 34.4399223327637,
+      "error": 0.000003814697265625,
+      "expected": 34.4399261474609,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 29.44118309021,
+      "error": 0.000003814697265625,
+      "expected": 29.4411869049072,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 39.3876419067383,
+      "error": 0.000003814697265625,
+      "expected": 39.387638092041,
+      "label": "6.0/256.0/false/0.2/velocity"
+    },
+    {
+      "actual": 37.0636749267578,
+      "error": 0.000003814697265625,
+      "expected": 37.0636711120605,
+      "label": "6.0/256.0/false/0.2/velocity"
+    }
+  ],
+  "maximum_error": 0.00000381469727273043,
+  "methods_sha256": "6631ce8fdd69669354a5ef8d22515402c01d527d6d2330ea4591714470432ff5",
+  "scope": "Literal original Q/helpers and jg.add; six sizes with clamp endpoints, capacities2/256, floor0/-50, shade1/.2. Actual Native debris and decal consumer. Source decal receiver consumes fixed3 draws, geometry excluded. Initial generation only; no emitter update, full physics queries or pixels.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

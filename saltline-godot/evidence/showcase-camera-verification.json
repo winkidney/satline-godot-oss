@@ -1,0 +1,6 @@
+{
+  "checks": 72,
+  "failures": [],
+  "maximum_pixel_error": 0.0000363324116960939,
+  "scope": "Bundled THREE74deg showcase cameras vs Godot unprojection of36 world markers at1280x720; no lighting or full image test."
+}

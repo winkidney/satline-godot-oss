@@ -1,0 +1,46 @@
+{
+  "cold_start_asset_quality": "high",
+  "failures": [],
+  "frames": 3,
+  "gpu_texture_hash_checks": 15,
+  "lighting_ready": 10,
+  "materials": 15,
+  "names": [
+    "paint_red",
+    "paint_blue",
+    "paint_teal",
+    "paint_yellow",
+    "paint_white",
+    "paint_orange",
+    "plastic_blue",
+    "steel_rust",
+    "steel_galv",
+    "emissive",
+    "steel_dark"
+  ],
+  "nodes": 15,
+  "planar_ready": true,
+  "prop_names": [],
+  "rain_drip": 0,
+  "rain_seed": 589939774,
+  "rain_seed_hashes": {
+    "rain": "c13a22be3fa5b5b27b04d4b322024fe09e587edf7d6a6e4c9d4f1b6cfc628651",
+    "splash": "383d3e3a9ede3289aeead158ad05954158974e8b12795fae88e3130c50b97af1"
+  },
+  "rain_time": 0.05,
+  "render_options": {
+    "auto_exposure": true,
+    "camera": "[X: (0.026078, 0.0, 0.99966), Y: (0.054231, 0.998527, -0.001415), Z: (-0.998188, 0.054249, 0.02604), O: (-9.0, 1.65, 5.6)]",
+    "exposure": 1.0,
+    "fov": 74.0
+  },
+  "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+  "shadow_casters": 15,
+  "skylight_openings": 0,
+  "skylight_slots": 8,
+  "stub_interiors": 0,
+  "textures": 15,
+  "vertex_color_mesh_checks": 0,
+  "wet_materials": 0,
+  "wet_override": null
+}

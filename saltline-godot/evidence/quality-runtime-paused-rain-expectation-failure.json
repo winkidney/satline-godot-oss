@@ -1,0 +1,163 @@
+{
+  "failures": [
+    "rain pixel width low",
+    "rain pixel width medium"
+  ],
+  "frames": 460,
+  "scope": "Actual settings button signals across low/medium/ultra/high, native render size, depth readiness/MSAA samples, shadow size, AO/motion flags, planar gate, resume. No source pixel/performance/DRS/boot asset quality parity.",
+  "snapshots": [
+    {
+      "ao": false,
+      "ao_taps": 8,
+      "depth_ready": true,
+      "frame": 90,
+      "half_ready": true,
+      "motion": false,
+      "quality": "low",
+      "rain_pixel_width": 0.00224940009220835,
+      "reflection": {
+        "active": false
+      },
+      "shadow_size": 2048,
+      "volume_steps": 12,
+      "weapon_samples": 1,
+      "world_samples": 1,
+      "world_size": [
+        896,
+        504
+      ]
+    },
+    {
+      "ao": true,
+      "ao_taps": 12,
+      "depth_ready": true,
+      "frame": 165,
+      "half_ready": true,
+      "motion": false,
+      "quality": "medium",
+      "rain_pixel_width": 0.00224940009220835,
+      "reflection": {
+        "active": true,
+        "excluded": [
+          "apron",
+          "sea",
+          "rain",
+          "rainSplash"
+        ],
+        "lod": 0.171111916392755,
+        "ready": true,
+        "size": [
+          544,
+          304
+        ]
+      },
+      "shadow_size": 2048,
+      "volume_steps": 16,
+      "weapon_samples": 2,
+      "world_samples": 2,
+      "world_size": [
+        1088,
+        612
+      ]
+    },
+    {
+      "ao": true,
+      "ao_taps": 16,
+      "depth_ready": true,
+      "frame": 240,
+      "half_ready": true,
+      "motion": true,
+      "quality": "ultra",
+      "rain_pixel_width": 0.00224940009220835,
+      "reflection": {
+        "active": true,
+        "excluded": [
+          "apron",
+          "sea",
+          "rain",
+          "rainSplash"
+        ],
+        "lod": 1.41503749927884,
+        "ready": true,
+        "size": [
+          1280,
+          720
+        ]
+      },
+      "shadow_size": 4096,
+      "volume_steps": 40,
+      "weapon_samples": 4,
+      "world_samples": 4,
+      "world_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "ao": true,
+      "ao_taps": 12,
+      "depth_ready": true,
+      "frame": 315,
+      "half_ready": true,
+      "motion": true,
+      "quality": "high",
+      "rain_pixel_width": 0.00224940009220835,
+      "reflection": {
+        "active": true,
+        "excluded": [
+          "apron",
+          "sea",
+          "rain",
+          "rainSplash"
+        ],
+        "lod": 0.415037499278844,
+        "ready": true,
+        "size": [
+          640,
+          360
+        ]
+      },
+      "shadow_size": 4096,
+      "volume_steps": 24,
+      "weapon_samples": 4,
+      "world_samples": 4,
+      "world_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "ao": true,
+      "ao_taps": 12,
+      "depth_ready": true,
+      "frame": 395,
+      "half_ready": true,
+      "motion": false,
+      "quality": "medium",
+      "rain_pixel_width": 0.00264635304965689,
+      "reflection": {
+        "active": true,
+        "excluded": [
+          "apron",
+          "sea",
+          "rain",
+          "rainSplash"
+        ],
+        "lod": 0.171111916392755,
+        "ready": true,
+        "size": [
+          544,
+          304
+        ]
+      },
+      "shadow_size": 2048,
+      "volume_steps": 16,
+      "weapon_samples": 2,
+      "world_samples": 2,
+      "world_size": [
+        1088,
+        612
+      ]
+    }
+  ]
+}

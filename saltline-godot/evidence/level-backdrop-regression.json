@@ -1,0 +1,27 @@
+{
+  "backdrop_part": "all",
+  "explicit_room_materials": 0,
+  "failures": [],
+  "frames": 12,
+  "frozen": true,
+  "hdr": {
+    "file": "res://evidence/level-backdrop-regression.rgb16f",
+    "format": 14,
+    "height": 720,
+    "row_order": "top-to-bottom",
+    "width": 1280
+  },
+  "motion_time": 0.05,
+  "nodes": 133,
+  "render_options": {
+    "auto_exposure": false,
+    "camera": "[X: (-0.012499, 0.0, 0.999922), Y: (-0.021866, 0.999761, -0.000273), Z: (-0.999683, -0.021868, -0.012496), O: (-32.0, 1.7, 6.0)]",
+    "exposure": 1.0,
+    "fov": 74.0
+  },
+  "scope": "Original scene showcase geometry, common80m concrete floor, stub environment and live source animation. No whole-image parity or original texture hash claim.",
+  "shadow_casters": 78,
+  "showcase": "level",
+  "warehouse_lights": 4,
+  "world_time": 0.05
+}

@@ -1,0 +1,164 @@
+{
+  "checks": 87,
+  "controlled_focus_resumes": 1,
+  "failures": [],
+  "frames": 480,
+  "remaining_add": 0,
+  "remaining_lit": 0,
+  "remaining_tracers": 0,
+  "scope": "Actual Main continuous rifle burst: synchronous impact before tracer/shell, trail reached, heated smoke before root update and heat decay, and particle/tracer clear. Controlled player pose/input; no original whole-frame tape or paired pixels.",
+  "shots": [
+    {
+      "frame": 30,
+      "shell": 1,
+      "tracer": 1,
+      "trail": true
+    },
+    {
+      "frame": 34,
+      "shell": 2,
+      "tracer": 2,
+      "trail": false
+    },
+    {
+      "frame": 39,
+      "shell": 3,
+      "tracer": 3,
+      "trail": true
+    },
+    {
+      "frame": 44,
+      "shell": 4,
+      "tracer": 4,
+      "trail": true
+    },
+    {
+      "frame": 49,
+      "shell": 5,
+      "tracer": 5,
+      "trail": true
+    },
+    {
+      "frame": 54,
+      "shell": 6,
+      "tracer": 6,
+      "trail": true
+    },
+    {
+      "frame": 59,
+      "shell": 7,
+      "tracer": 7,
+      "trail": true
+    },
+    {
+      "frame": 64,
+      "shell": 8,
+      "tracer": 8,
+      "trail": true
+    },
+    {
+      "frame": 69,
+      "shell": 9,
+      "tracer": 9,
+      "trail": true
+    },
+    {
+      "frame": 74,
+      "shell": 10,
+      "tracer": 10,
+      "trail": true
+    },
+    {
+      "frame": 79,
+      "shell": 11,
+      "tracer": 11,
+      "trail": true
+    },
+    {
+      "frame": 84,
+      "shell": 12,
+      "tracer": 12,
+      "trail": true
+    },
+    {
+      "frame": 89,
+      "shell": 13,
+      "tracer": 13,
+      "trail": true
+    }
+  ],
+  "smoke": [
+    {
+      "frame": 96,
+      "heat": 0.429999999999999,
+      "lit": 87,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.13254
+      }
+    },
+    {
+      "frame": 102,
+      "heat": 0.409999999999999,
+      "lit": 88,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.12728
+      }
+    },
+    {
+      "frame": 108,
+      "heat": 0.389999999999999,
+      "lit": 89,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.12128
+      }
+    },
+    {
+      "frame": 114,
+      "heat": 0.369999999999999,
+      "lit": 90,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.11528
+      }
+    },
+    {
+      "frame": 120,
+      "heat": 0.349999999999999,
+      "lit": 91,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.10928
+      }
+    },
+    {
+      "frame": 126,
+      "heat": 0.329999999999999,
+      "lit": 92,
+      "options": {
+        "alpha": 0.22,
+        "count": 1,
+        "life": 1.3,
+        "rise": 0.5,
+        "size": 0.10328
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "failures": [
+    {
+      "alpha": 0.8,
+      "error": 0.00784313678741455,
+      "point": [
+        640,
+        680
+      ],
+      "screen": "title"
+    },
+    {
+      "alpha": 0.8,
+      "error": 0.00784313678741455,
+      "point": [
+        1216,
+        680
+      ],
+      "screen": "title"
+    }
+  ],
+  "maximum_alpha_error": 0.000000434195699949846,
+  "maximum_pixel_error": 0.00784313678741455,
+  "pixel_checks": 144,
+  "scalar_checks": 18,
+  "scope": "Actual Main GameUI veil methods and GPU draws versus original CSS backgrounds at16 states on white plus18 interrupted-opacity samples. Other UI/world hidden; no whole title typography or input acceptance."
+}

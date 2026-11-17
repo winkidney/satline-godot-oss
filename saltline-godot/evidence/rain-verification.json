@@ -1,0 +1,13 @@
+{
+  "canonical": false,
+  "comparisons": 98000,
+  "failures": [],
+  "frames": 1000,
+  "maximum_error": 0.00000041961669872137,
+  "maximum_scalar_error": 0.000000000000007105427357601,
+  "rng_checks": 2000,
+  "scope": "Literal original Gw.update closure; historical1337/explicit state or default canonical post40641 stream/timer, same dt, rain fade/visibility/resolution/boxes/skylights and thunder events. Exact RNG state/count; scalar1e-10/vector1e-5. No full rendered storm/source timeline proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "thunder": 1,
+  "update_sha256": "7238574fc745406116523c03559b42bb5bc90487ea5b78eec292b325a7b5f747"
+}

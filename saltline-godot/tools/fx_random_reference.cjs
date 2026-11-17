@@ -1,0 +1,20 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const {T}=require('./weapon_magazine_reference.cjs');const root=path.resolve(__dirname,'..'),s=fs.readFileSync(path.join(root,'../artifact-rendering-study/source/extracted/bundle-1.js'),'utf8');
+const begin=s.indexOf('u1 = class {',s.indexOf('var c1 = 4')),end=s.indexOf('\n    Yg = class {',begin),particle=s.slice(begin,end).trim().replace(/^u1 = /,'').replace(/,$/,'');
+const at=s.indexOf('(G) => {',s.indexOf('n.events.on("thunder", (G) => {'));let brace=s.indexOf('{',at),depth=1,last=brace+1;while(depth){if(s[last]==='{')depth++;if(s[last]==='}')depth--;last++}const thunder=s.slice(at,last);
+const su=Function(s.slice(s.indexOf('  function su(n = 1337)'),s.indexOf('  var Hn = '))+'return su;')(),generator=su(9007),tape=[0,1-Number.EPSILON/2,.5,.25,.75];for(let j=0;j<2048;j++)tape.push((generator()+2**-45)%1);
+let calls=0;const M=Object.create(Math);M.random=()=>{if(calls>=tape.length)throw Error('tape exhausted');return tape[calls++]};
+const Class=Function('Math','const hh=1,dh=2,GP=4;return ('+particle+');')(M),pools={a:new Class(2,false),b:new Class(3,true)},w={t:99,power:0,value:0},u={material:{uniforms:{uFlashDir:{value:new T.Vector3(-.5,.5,-.7).normalize()}}}};
+const trigger=Function('Math','w','u','return ('+thunder+');')(M,w,u),lt=Function('Math','return (n,e)=>n+(e-n)*Math.random();')(M);
+const mapping={position:['px','py','pz'],velocity:['vx','vy','vz'],age:'age',life:'life',s0:'s0',s1:'s1',seed:'seed',rotation:'rot',rotation_speed:'rotv',color:['r','g','b'],alpha:'a',gravity:'grav',drag:'drag',wind:'wind',turbulence:'turb',fade_in:'fin',fade_out:'fout',sk:'sk',stretch:'stretch',shade:'shade',floor:'gy',frame:'frame',mode:'mode',flags:'flags',ramp:'ramp'};
+function snapshot(pool){return Array.from(pool.order.slice(0,pool.n),id=>Object.fromEntries(Object.entries(mapping).map(([key,field])=>[key,Array.isArray(field)?field.map(f=>pool[f][id]):pool[field][id]])))}
+const rows=[],pattern=['emitA','emitA','emitA','sky','emitB','emitB','emitB','emitB','range','integer','clearA','emitA','sky','clearB'];
+for(let j=0;j<196;j++){
+ const kind=pattern[j%pattern.length];let input={kind},result=null;
+ if(kind.startsWith('emit')){const pool=pools[kind.endsWith('A')?'a':'b'];input={kind,pool:kind.endsWith('A')?'a':'b',position:[j*.017,.03,-2],velocity:[.2,-.1,.3],life:.7,s0:.1,s1:.3,options:j%11===0?{seed:24.25,rotation_speed:1.2,color:[.3,.4,.5]}:{}};const id=pool.emit(...input.position,...input.velocity,input.life,input.s0,input.s1);result=id>=0;if(result)for(const [key,value]of Object.entries(input.options)){const field=mapping[key];if(Array.isArray(field))field.forEach((f,k)=>pool[f][id]=value[k]);else pool[field][id]=value;}}
+ else if(kind==='sky'){input.intensity=[.4,0,.9,1.2][j%4];trigger({intensity:input.intensity});}
+ else if(kind==='range')result=lt(-2,3);
+ else if(kind==='integer')result=Math.floor(M.random()*2);
+ else pools[kind.endsWith('A')?'a':'b'].clear();
+ rows.push({input,expected:{result,calls,pools:{a:snapshot(pools.a),b:snapshot(pools.b)},sky:{time:w.t,power:w.power,direction:u.material.uniforms.uFlashDir.value.toArray()}}});
+}
+const result={source_sha256:crypto.createHash('sha256').update(s).digest('hex'),methods_sha256:crypto.createHash('sha256').update(particle+thunder).digest('hex'),nonzero_integer_upper:{u53:"1fffffffffffff",minimum:1,maximum:2,expected:1+Math.floor(2*(1-Number.EPSILON/2))},tape,tape_u53:tape.map(v=>BigInt(Math.round(v*9007199254740992)).toString(16)),rows,scope:'Literal original u1 particle emit/clear and render thunder callback share one injected Math.random tape. Interleaved pools, saturation, clear, explicit seed overrides and scalar/range mappings. No browser entropy equivalence or complete FX event sequence proof.'};fs.writeFileSync(path.join(root,'assets/export/fixtures/fx-random-reference.json'),JSON.stringify(result));console.log(JSON.stringify({steps:rows.length,draws:calls,methods_sha256:result.methods_sha256}));

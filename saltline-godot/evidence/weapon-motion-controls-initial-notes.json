@@ -1,0 +1,8 @@
+{
+  "reference_scaffold_errors": [
+    "Initial block wrapper omitted prior ze=X.speed||0 local.",
+    "Full O extraction initially used wrong end anchor new Js instead of original new St."
+  ],
+  "verifier_correction": "String fields initially fell through float conversion; changed to exact String comparison and reran all comparisons. Earlier result is not used to prove state/dry.weapon equality.",
+  "dependent_missing_fixture": "First verifier was launched before successful generation and stopped through its owned session39094. Null fixture guard now exits1."
+}

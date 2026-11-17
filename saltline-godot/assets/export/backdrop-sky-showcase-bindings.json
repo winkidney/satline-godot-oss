@@ -1,0 +1,94 @@
+{
+  "part": "sky",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "source_time": 0.05,
+  "camera": {
+    "position": [
+      -32,
+      1.7,
+      6
+    ],
+    "quaternion": [
+      0.043162704558108105,
+      -0.6710456445931214,
+      0.039187312264393724,
+      0.7391204762184068
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "nodes": [
+    {
+      "id": "8552b223-6a17-4af7-a5cd-f0909cf299c5",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "ad39e462-8683-4f55-820f-e849d85f05b9",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    }
+  ],
+  "extras": [
+    {
+      "geometry": {
+        "id": "backdrop-sky-blink-2",
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "db406f19a7de3a621c4d3dd8999ca1b281cb3916abf19a8c334a3aab49504c39",
+            "file": "showcase/backdrop-sky/blink-db406f19a7de3a621c4d3dd8999ca1b281cb3916abf19a8c334a3aab49504c39.bin"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "087afaf8094361af0a90569f285fca6c5ccff87291aad60718eaddfe3531c803",
+            "file": "showcase/backdrop-sky/color-087afaf8094361af0a90569f285fca6c5ccff87291aad60718eaddfe3531c803.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "2f7a9073cc20dbcd116a7cdb13214a7508400d8e8cac49b434864fca363e67d9",
+            "file": "showcase/backdrop-sky/position-2f7a9073cc20dbcd116a7cdb13214a7508400d8e8cac49b434864fca363e67d9.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-sky/indices-2.bin"
+      },
+      "materials": [
+        "db871cda-c173-49c9-b20a-06fee33ee052"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "cast_shadow": false
+    }
+  ],
+  "casters": 0,
+  "original_meshes": 3,
+  "errors": []
+}

@@ -1,0 +1,103 @@
+{
+  "variants": [
+    {
+      "variant": "production",
+      "failed_cases": [
+        39
+      ],
+      "case39": {
+        "case": 39,
+        "maximum_error": 0.027587890625
+      },
+      "maximum_error": 0.027587890625
+    },
+    {
+      "variant": "split",
+      "failed_cases": [
+        39
+      ],
+      "case39": {
+        "case": 39,
+        "maximum_error": 0.027587890625
+      },
+      "maximum_error": 0.027587890625
+    },
+    {
+      "variant": "fused",
+      "failed_cases": [
+        39
+      ],
+      "case39": {
+        "case": 39,
+        "maximum_error": 0.027587890625
+      },
+      "maximum_error": 0.027587890625
+    },
+    {
+      "variant": "hash-tail",
+      "failed_cases": [
+        7,
+        31,
+        39
+      ],
+      "case39": {
+        "case": 39,
+        "maximum_error": 0.02880859375,
+        "native": [
+          0.505859375,
+          0.1180419921875,
+          0.273681640625,
+          0.2178955078125
+        ],
+        "reference": [
+          0.505859375,
+          0.1180419921875,
+          0.302490234375,
+          0.2178955078125
+        ]
+      },
+      "maximum_error": 0.02880859375
+    },
+    {
+      "variant": "hash-entry",
+      "failed_cases": [
+        39
+      ],
+      "case39": {
+        "case": 39,
+        "maximum_error": 0.027587890625,
+        "native": [
+          0.505859375,
+          0.1180419921875,
+          0.27490234375,
+          0.2178955078125
+        ],
+        "reference": [
+          0.505859375,
+          0.1180419921875,
+          0.302490234375,
+          0.2178955078125
+        ]
+      },
+      "maximum_error": 0.027587890625
+    }
+  ],
+  "components_case39": {
+    "case": 39,
+    "maximum_error": 0.027587890625,
+    "native": [
+      0.7529296875,
+      0.475341796875,
+      0.27490234375,
+      0.505859375
+    ],
+    "reference": [
+      0.7578125,
+      0.475341796875,
+      0.302490234375,
+      0.505859375
+    ]
+  },
+  "conclusion": "Mismatch localized to noise170; noise410 and wet match at half precision. No tested local variant fixes it. No production shader changed in this stage.",
+  "scope": "Controlled original 48-case wet fixture and derived component probe, unchanged .001 threshold. Not exact corner hash causation or full game parity."
+}

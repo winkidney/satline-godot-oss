@@ -1,0 +1,40 @@
+{
+  "failures": [],
+  "frames": 12,
+  "gpu_texture_hash_checks": 47,
+  "lighting_ready": 32,
+  "materials": 33,
+  "names": [
+    "tire",
+    "paint_yellow",
+    "steel_dark",
+    "steel_galv",
+    "diamond_plate",
+    "rubber",
+    "hazard_stripes",
+    "label",
+    "emissive",
+    "steel_worn",
+    "decal_csc_plate",
+    "plastic_red",
+    "steel_bare",
+    "decal_hazard_flammable",
+    "decal_hazard_general",
+    "paint_orange",
+    "wood_pallet",
+    "decal_logo_b",
+    "decal_grime_streak",
+    "paint_blue",
+    "concrete"
+  ],
+  "nodes": 36,
+  "prop_names": [
+    "forklift",
+    "container20",
+    "barrel"
+  ],
+  "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+  "shadow_casters": 18,
+  "textures": 47,
+  "vertex_color_mesh_checks": 14
+}

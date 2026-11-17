@@ -1,0 +1,5 @@
+{
+  "generator_idempotent": true,
+  "shader_sha256": "450df08bd13e727b446a9e1e656bffbdbaa138ea451a4dbe11b2c5af9d35cfc1",
+  "canonical_backend": "NVIDIA RTX4070SUPER original OpenGL / native Vulkan"
+}

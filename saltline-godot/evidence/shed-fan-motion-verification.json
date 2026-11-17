@@ -1,0 +1,22 @@
+{
+  "binding": "f91a4d97-05f6-4f6b-9eab-d156700b99ee",
+  "position": [
+    11.95,
+    8.02,
+    -19.5
+  ],
+  "axis": "X",
+  "radians_per_second": 1.7,
+  "checks": {
+    "checks": 4080,
+    "failures": [],
+    "final_time": 10.0166666666667,
+    "maximum_error": 7.62939453835543e-07,
+    "samples": 51,
+    "scope": "Literal original kw.y and dw fan update with actual bundled THREE groups and source snapshot rest transforms; source outer paused gate and dt cap. Local matrices and shared shader time, not world pixels."
+  },
+  "source_bundle_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "literal_update_sha256": "cef8f381e07fa84151a76fa107402f78860e2bf732404cdf1bc6783ccacf9b71",
+  "production_sha256": "4e8e54c6b1a7348edd33272974c88cd4113c69bdd2063a35bec21816d5ae0fe5",
+  "scope": "Literal original dw fan update plus existing backdrop motions under actual Main clock/pause/start/retry; GPU scene loaded. Group has original5blades+hub; not whole-game visual fidelity."
+}

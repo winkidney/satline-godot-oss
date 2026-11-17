@@ -1,0 +1,126 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "reuse_audit": {
+    "source_nodes": 133,
+    "main_nodes": 133,
+    "exact_geometry_matches": 133,
+    "source_unmatched": 0,
+    "main_unmatched": 0,
+    "source_explicit_environment_material_slots": 0,
+    "scope": "Actual source show=level vs prepared Main level subtree, multiset of complete original attribute/index/groups fingerprints. No transform/material texture or animated world matrix equivalence implied."
+  },
+  "maximum_original_matrix_error": 1.693862453078232e-09,
+  "paired": {
+    "explicit_room_materials": 0,
+    "failures": [],
+    "frames": 12,
+    "frozen": true,
+    "hdr": {
+      "file": "res://evidence/main-paired-high-level-native.rgb16f",
+      "format": 14,
+      "height": 720,
+      "row_order": "top-to-bottom",
+      "width": 1280
+    },
+    "motion_time": 0.05,
+    "nodes": 133,
+    "render_options": {
+      "auto_exposure": false,
+      "camera": "[X: (-0.012499, 0.0, 0.999922), Y: (-0.021866, 0.999761, -0.000273), Z: (-0.999683, -0.021868, -0.012496), O: (-32.0, 1.7, 6.0)]",
+      "exposure": 1.0,
+      "fov": 74.0
+    },
+    "scope": "Original133-mesh level assets and4lights reused after byte/matrix/instance matching, common80m concrete floor, stub environment and live fan/relays. No whole-image parity or original texture hash claim.",
+    "shadow_casters": 78,
+    "warehouse_lights": 4,
+    "world_time": 0.05
+  },
+  "live": {
+    "explicit_room_materials": 0,
+    "failures": [],
+    "frames": 12,
+    "frozen": false,
+    "hdr": {
+      "file": "res://evidence/level-showcase-live.rgb16f",
+      "format": 14,
+      "height": 720,
+      "row_order": "top-to-bottom",
+      "width": 1280
+    },
+    "motion_time": 0.347352666666667,
+    "nodes": 133,
+    "render_options": {
+      "auto_exposure": true,
+      "camera": "[X: (-0.012499, 0.0, 0.999922), Y: (-0.021866, 0.999761, -0.000273), Z: (-0.999683, -0.021868, -0.012496), O: (-32.0, 1.7, 6.0)]",
+      "exposure": 1.0,
+      "fov": 74.0
+    },
+    "scope": "Original133-mesh level assets and4lights reused after byte/matrix/instance matching, common80m concrete floor, stub environment and live fan/relays. No whole-image parity or original texture hash claim.",
+    "shadow_casters": 78,
+    "warehouse_lights": 4,
+    "world_time": 0.347352666666667
+  },
+  "image_comparison": {
+    "regions": {
+      "full": {
+        "rect": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "mae_rgb8": 0.26871238425925925,
+        "p50": 0.0,
+        "p95": 1.0,
+        "p99": 4.0,
+        "max": 84.0,
+        "signed_bias_rgb8": [
+          0.05475043402777778,
+          0.05028428819444444,
+          0.037925347222222225
+        ]
+      }
+    },
+    "source_png_sha256": "2381e1cab0fb3baa6eb8b8572f6ed8c285a284f2bb78d07fa8557bcfad363113",
+    "native_png_sha256": "d3b1170aa82d704b9dc36a8df6d0b1c9bedafd77ee400962f4d743ef672bdd37",
+    "scope": "Descriptive display RGB8 comparison at identical source camera/time and manual exposure1. No acceptance threshold or whole-render parity claim; dynamic grain, rasterization, rain and texture details may differ."
+  },
+  "source_env_map_intensities": [
+    1,
+    1.4
+  ],
+  "files_sha256": {
+    "scripts/level_showcase_runner.gd": "240fe232abd663af67963cab4032677a59181e7a6dd84fb1fd4408654333c66b",
+    "scripts/source_scene.gd": "4e8e54c6b1a7348edd33272974c88cd4113c69bdd2063a35bec21816d5ae0fe5",
+    "assets/export/level-showcase-bindings.json": "f215337016a6baac7fa58db71483360cc141237b40faf4f497951fad5cb9db71",
+    "tools/capture_main_paired.cjs": "8c888972f6b2be86199ebc0941598be892e8b25a41d46c96ee15776e16464e0d"
+  },
+  "failures": [],
+  "scope": "Original show=level geometry/instance/matrix matching; actual frozen/live GPU launches and final frozen rerun. No full texture byte/all-quality/all-device qualification.",
+  "final_frozen_run": {
+    "explicit_room_materials": 0,
+    "failures": [],
+    "frames": 12,
+    "frozen": true,
+    "hdr": {
+      "file": "res://evidence/level-showcase-final.rgb16f",
+      "format": 14,
+      "height": 720,
+      "row_order": "top-to-bottom",
+      "width": 1280
+    },
+    "motion_time": 0.05,
+    "nodes": 133,
+    "render_options": {
+      "auto_exposure": false,
+      "camera": "[X: (-0.012499, 0.0, 0.999922), Y: (-0.021866, 0.999761, -0.000273), Z: (-0.999683, -0.021868, -0.012496), O: (-32.0, 1.7, 6.0)]",
+      "exposure": 1.0,
+      "fov": 74.0
+    },
+    "scope": "Original133-mesh level assets and4lights reused after byte/matrix/instance matching, common80m concrete floor, stub environment and live fan/relays. No whole-image parity or original texture hash claim.",
+    "shadow_casters": 78,
+    "warehouse_lights": 4,
+    "world_time": 0.05
+  },
+  "final_png_byte_identity": true
+}

@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "name": "fx_lit",
+      "source_runtime_sha256": "99e1ef1b43fadece7ef1a96b391671ba336cb1dc09e00370fa8c02d6b39ff442",
+      "exported_base_sha256": "99e1ef1b43fadece7ef1a96b391671ba336cb1dc09e00370fa8c02d6b39ff442",
+      "native_base_unflipped_sha256": "99e1ef1b43fadece7ef1a96b391671ba336cb1dc09e00370fa8c02d6b39ff442",
+      "all_match": true
+    },
+    {
+      "name": "fx_add",
+      "source_runtime_sha256": "ddc9cf422d06eae064bc2118bfee5a03e24f25c13fe2d6c3d31da8675b689042",
+      "exported_base_sha256": "ddc9cf422d06eae064bc2118bfee5a03e24f25c13fe2d6c3d31da8675b689042",
+      "native_base_unflipped_sha256": "ddc9cf422d06eae064bc2118bfee5a03e24f25c13fe2d6c3d31da8675b689042",
+      "all_match": true
+    }
+  ],
+  "scope": "Actual original DataTexture base pixels versus exported and native loaded mip0 bytes after documented row flip. No GPU mip/LOD/filtering equivalence claim."
+}

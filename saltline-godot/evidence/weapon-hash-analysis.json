@@ -1,0 +1,518 @@
+{
+  "schema": 1,
+  "source_backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "native_backend": "NVIDIA GeForce RTX 4070 SUPER",
+  "original_extraction_matches_bundle": {
+    "helpers": true,
+    "body": true
+  },
+  "common_operations": 300,
+  "literal_bit_mismatches": 44,
+  "literal_mismatches_by_mode": {
+    "dot_literal": 5,
+    "dot_guarded": 5,
+    "sin_literal_dot": 5,
+    "sin_guarded_dot": 5,
+    "product_literal": 5,
+    "product_fullguard": 5,
+    "hash_literal": 5,
+    "hash_fullguard": 5,
+    "cycles_after_dot": 4
+  },
+  "same_uniform_angle_sine": {
+    "cases": 15,
+    "bit_mismatches": 0
+  },
+  "explicit_fma": {
+    "comparisons": [
+      {
+        "case": "zero",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 0,
+        "native_bits": 0,
+        "equal": true
+      },
+      {
+        "case": "unit_x",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 1123955507,
+        "native_bits": 1123955507,
+        "equal": true
+      },
+      {
+        "case": "case2_grain",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3340012876,
+        "native_bits": 3340012876,
+        "equal": true
+      },
+      {
+        "case": "case2_alternate_angle",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3340012876,
+        "native_bits": 3340012876,
+        "equal": true
+      },
+      {
+        "case": "case0_grain",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3347588851,
+        "native_bits": 3347588851,
+        "equal": true
+      },
+      {
+        "case": "case3_grain",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3333215692,
+        "native_bits": 3333215692,
+        "equal": true
+      },
+      {
+        "case": "case4_grain",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3330407781,
+        "native_bits": 3330407781,
+        "equal": true
+      },
+      {
+        "case": "case0_lo000",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3305892250,
+        "native_bits": 3305892250,
+        "equal": true
+      },
+      {
+        "case": "case0_lo100",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3305371648,
+        "native_bits": 3305371648,
+        "equal": true
+      },
+      {
+        "case": "case0_lo010",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3304119502,
+        "native_bits": 3304119502,
+        "equal": true
+      },
+      {
+        "case": "case0_lo110",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3303078298,
+        "native_bits": 3303078298,
+        "equal": true
+      },
+      {
+        "case": "case0_lo001",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3305586279,
+        "native_bits": 3305586279,
+        "equal": true
+      },
+      {
+        "case": "case0_lo101",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3305019802,
+        "native_bits": 3305019802,
+        "equal": true
+      },
+      {
+        "case": "case0_lo011",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3303507559,
+        "native_bits": 3303507559,
+        "equal": true
+      },
+      {
+        "case": "case0_lo111",
+        "source_mode": "dot_literal",
+        "native_mode": "dot_fma_xyz",
+        "source_bits": 3302466355,
+        "native_bits": 3302466355,
+        "equal": true
+      },
+      {
+        "case": "zero",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 0,
+        "native_bits": 0,
+        "equal": true
+      },
+      {
+        "case": "unit_x",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1065201667,
+        "native_bits": 1065201667,
+        "equal": true
+      },
+      {
+        "case": "case2_grain",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1050615005,
+        "native_bits": 1050615005,
+        "equal": true
+      },
+      {
+        "case": "case2_alternate_angle",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1050615005,
+        "native_bits": 1050615005,
+        "equal": true
+      },
+      {
+        "case": "case0_grain",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1063468123,
+        "native_bits": 1063468123,
+        "equal": true
+      },
+      {
+        "case": "case3_grain",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1045092932,
+        "native_bits": 1045092932,
+        "equal": true
+      },
+      {
+        "case": "case4_grain",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3208334017,
+        "native_bits": 3208334017,
+        "equal": true
+      },
+      {
+        "case": "case0_lo000",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3212450088,
+        "native_bits": 3212450088,
+        "equal": true
+      },
+      {
+        "case": "case0_lo100",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3199162783,
+        "native_bits": 3199162783,
+        "equal": true
+      },
+      {
+        "case": "case0_lo010",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1063556027,
+        "native_bits": 1063556027,
+        "equal": true
+      },
+      {
+        "case": "case0_lo110",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3198629212,
+        "native_bits": 3198629212,
+        "equal": true
+      },
+      {
+        "case": "case0_lo001",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3206310358,
+        "native_bits": 3206310358,
+        "equal": true
+      },
+      {
+        "case": "case0_lo101",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 3210595037,
+        "native_bits": 3210595037,
+        "equal": true
+      },
+      {
+        "case": "case0_lo011",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1064907364,
+        "native_bits": 1064907364,
+        "equal": true
+      },
+      {
+        "case": "case0_lo111",
+        "source_mode": "sin_literal_dot",
+        "native_mode": "sin_fma_xyz",
+        "source_bits": 1052179379,
+        "native_bits": 1052179379,
+        "equal": true
+      },
+      {
+        "case": "zero",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 0,
+        "native_bits": 0,
+        "equal": true
+      },
+      {
+        "case": "unit_x",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1049362432,
+        "native_bits": 1049362432,
+        "equal": true
+      },
+      {
+        "case": "case2_grain",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1060585472,
+        "native_bits": 1060585472,
+        "equal": true
+      },
+      {
+        "case": "case2_alternate_angle",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1060585472,
+        "native_bits": 1060585472,
+        "equal": true
+      },
+      {
+        "case": "case0_grain",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1062404096,
+        "native_bits": 1062404096,
+        "equal": true
+      },
+      {
+        "case": "case3_grain",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1056669696,
+        "native_bits": 1056669696,
+        "equal": true
+      },
+      {
+        "case": "case4_grain",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1062600704,
+        "native_bits": 1062600704,
+        "equal": true
+      },
+      {
+        "case": "case0_lo000",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1048313856,
+        "native_bits": 1048313856,
+        "equal": true
+      },
+      {
+        "case": "case0_lo100",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1057718272,
+        "native_bits": 1057718272,
+        "equal": true
+      },
+      {
+        "case": "case0_lo010",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1036517376,
+        "native_bits": 1036517376,
+        "equal": true
+      },
+      {
+        "case": "case0_lo110",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1052901376,
+        "native_bits": 1052901376,
+        "equal": true
+      },
+      {
+        "case": "case0_lo001",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1064828928,
+        "native_bits": 1064828928,
+        "equal": true
+      },
+      {
+        "case": "case0_lo101",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1058865152,
+        "native_bits": 1058865152,
+        "equal": true
+      },
+      {
+        "case": "case0_lo011",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1059848192,
+        "native_bits": 1059848192,
+        "equal": true
+      },
+      {
+        "case": "case0_lo111",
+        "source_mode": "hash_literal",
+        "native_mode": "hash_fma_xyz",
+        "source_bits": 1062436864,
+        "native_bits": 1062436864,
+        "equal": true
+      }
+    ],
+    "total": 45,
+    "bit_mismatches": 0
+  },
+  "case2_trace": [
+    {
+      "mode": "dot_literal",
+      "gl": {
+        "case": "case2_grain",
+        "mode": "dot_literal",
+        "bytes": [
+          76,
+          141,
+          20,
+          199
+        ],
+        "bits": 3340012876,
+        "value": -38029.296875
+      },
+      "vulkan_literal": {
+        "bits": 3340012877,
+        "bytes": [
+          77,
+          141,
+          20,
+          199
+        ],
+        "case": "case2_grain",
+        "mode": "dot_literal",
+        "value": -38029.30078125
+      }
+    },
+    {
+      "mode": "sin_literal_dot",
+      "gl": {
+        "case": "case2_grain",
+        "mode": "sin_literal_dot",
+        "bytes": [
+          221,
+          28,
+          159,
+          62
+        ],
+        "bits": 1050615005,
+        "value": 0.3107670843601227
+      },
+      "vulkan_literal": {
+        "bits": 1050712805,
+        "bytes": [
+          229,
+          154,
+          160,
+          62
+        ],
+        "case": "case2_grain",
+        "mode": "sin_literal_dot",
+        "value": 0.313681751489639
+      }
+    },
+    {
+      "mode": "product_literal",
+      "gl": {
+        "case": "case2_grain",
+        "mode": "product_literal",
+        "bytes": [
+          221,
+          122,
+          84,
+          70
+        ],
+        "bits": 1179941597,
+        "value": 13598.7158203125
+      },
+      "vulkan_literal": {
+        "bits": 1180072200,
+        "bytes": [
+          8,
+          121,
+          86,
+          70
+        ],
+        "case": "case2_grain",
+        "mode": "product_literal",
+        "value": 13726.2578125
+      }
+    },
+    {
+      "mode": "hash_literal",
+      "gl": {
+        "case": "case2_grain",
+        "mode": "hash_literal",
+        "bytes": [
+          0,
+          64,
+          55,
+          63
+        ],
+        "bits": 1060585472,
+        "value": 0.7158203125
+      },
+      "vulkan_literal": {
+        "bits": 1048838144,
+        "bytes": [
+          0,
+          0,
+          132,
+          62
+        ],
+        "case": "case2_grain",
+        "mode": "hash_literal",
+        "value": 0.2578125
+      }
+    }
+  ],
+  "surface_diagnostic": {
+    "cases": 96,
+    "channels": 1536,
+    "failures": [],
+    "maximum_absolute_error": 5.96046447709378e-08
+  },
+  "sha256": {
+    "evidence/weapon-hash-gl-diagnostic.json": "75f22827899d55df3f1ffa5e5489c8708dc558f2f5b2ad3f977bea0c87b9d044",
+    "evidence/weapon-hash-native-diagnostic.json": "ee4bc2aa5e99903500c32bb338b4728ca86ab87937f23648e919e8896b86264b",
+    "tools/weapon_hash_diagnostic.json": "e3ca568f2d588b52793c60050b7d585c2371f843e43a6bacd4f39e3f39128ae1",
+    "assets/export/fixtures/weapon-detail-helpers-original.glsl": "4d401fd29686db139e5c21cc1b20cd0df31430bab1ad62ec7f10fa9760529584",
+    "assets/export/fixtures/weapon-detail-body-original.glsl": "5bcb9a65f2ca2024a09ef34c2b86816e932354ae092229936d4b1b77e2a61228",
+    "assets/export/fixtures/weapon-detail-reference.json": "e9f01eab0be478b5fd423995042677ebb2fed7d2f88301734b854b4177651e28",
+    "evidence/weapon-detail-fma-diagnostic.json": "12ce0e4820f79f9faa16d8e7d580f604013d74eb74a1df1a74108f3080be51e4"
+  },
+  "scope": "Diagnostic-only evidence. Source literal dot contracts x multiplication, then y FMA, then z FMA. Explicit native FMA matches sampled source bits. Uniform-angle sine equality is established for these 15 controls, not every float32 angle. Original material fixture and tolerance unchanged; no claim about arbitrary GPU vendors or complete surface integration."
+}

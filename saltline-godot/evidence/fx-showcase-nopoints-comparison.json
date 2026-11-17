@@ -1,0 +1,10 @@
+{
+  "pixel_mae": {
+    "full": 0.0024290591525962233,
+    "effect_roi": 0.01318306463326071,
+    "concrete": 0.004661908767907603,
+    "metal": 0.002164144057974761,
+    "wood": 0.006541229286327325
+  },
+  "scope": "No pointlights and particle batches, manual exposure.7. Current native dynamic sky preserved; previous points-on pair predates sky fix, so do not treat all image change as local light isolation."
+}

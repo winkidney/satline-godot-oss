@@ -1,0 +1,16 @@
+{
+  "cut": 1,
+  "failures": [
+    "RLD completion / reserve accounting"
+  ],
+  "frames": 760,
+  "reload_checks": {
+    "completed": false,
+    "reserve": true,
+    "started": true
+  },
+  "scope": "Actual Main with injected native ScreenTouch/ScreenDrag: stick/look, sprint, ADS, fire drag/release, swap, pause/clear/resume, jump, USE relay, RLD start/complete/reserve and three-finger cancellation. No physical touchscreen, safe-area or full source HUD pixel parity.",
+  "shots": 12,
+  "state": "paused",
+  "weapon": "rifle"
+}

@@ -1,0 +1,29 @@
+{
+  "failures": [],
+  "key_indoor_intensity": 0.495000004768372,
+  "phases": [
+    {
+      "gpu_bytes_exact": true,
+      "phase": "playing",
+      "radiance_r": 95.0,
+      "source_intensity": 95.0,
+      "source_mask": 3.0,
+      "uploads": 1
+    },
+    {
+      "gpu_bytes_exact": true,
+      "phase": "paused",
+      "radiance_r": 93.0,
+      "source_intensity": 93.0,
+      "source_mask": 3.0,
+      "uploads": 1
+    }
+  ],
+  "scope": "Actual Main uploads once after pool decay, playing and paused. 4x11 RGBA32F full GPU byte roundtrip; dynamic flash source units, hidden flag, fallback high masks excluded, four original ordered static rows, indoor key. Data atlas is staged; production BRDF does not consume it yet.",
+  "static_rows": [
+    "1db7f8ea-5cd6-481c-8330-8ce1b8f8ae13",
+    "c3147dc4-4a4d-426e-add8-0f3d138ff422",
+    "539e99a0-8373-49b1-8001-380622fb3087",
+    "768d52db-0cc5-4965-8672-dd3f2c87a053"
+  ]
+}

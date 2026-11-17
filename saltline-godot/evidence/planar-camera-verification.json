@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "active": true,
+      "case": 0,
+      "errors": {
+        "lod": 0.0000000000000000555111512312578,
+        "projection": 0.00000095367431640625,
+        "sampling": 0.0000019073486328125,
+        "scale": 0.0,
+        "world": 0.000000119209289550781
+      },
+      "size": "(640, 360)"
+    },
+    {
+      "active": true,
+      "case": 1,
+      "errors": {
+        "lod": 0.0,
+        "projection": 0.00000095367431640625,
+        "sampling": 0.0000019073486328125,
+        "scale": 0.0,
+        "world": 0.0000000596046447753906
+      },
+      "size": "(960, 544)"
+    },
+    {
+      "active": true,
+      "case": 2,
+      "errors": {
+        "lod": 0.0,
+        "projection": 0.000000476837158203125,
+        "sampling": 0.000003814697265625,
+        "scale": 0.0,
+        "world": 0.0000000596046447753906
+      },
+      "size": "(960, 544)"
+    },
+    {
+      "active": true,
+      "case": 3,
+      "errors": {
+        "lod": 0.0,
+        "projection": 0.00000000372529029846191,
+        "sampling": 0.0000000596046447753906,
+        "scale": 0.0,
+        "world": 0.0
+      },
+      "size": "(400, 304)"
+    },
+    {
+      "active": false,
+      "case": 4
+    },
+    {
+      "active": false,
+      "case": 5
+    },
+    {
+      "active": true,
+      "case": 6,
+      "errors": {
+        "lod": 0.0,
+        "projection": 0.000000238418579101562,
+        "sampling": 0.0000000596046447753906,
+        "scale": 0.0,
+        "world": 0.000000119209289550781
+      },
+      "size": "(64, 32)"
+    },
+    {
+      "active": true,
+      "case": 7,
+      "errors": {
+        "lod": 0.0,
+        "projection": 0.000041961669921875,
+        "sampling": 0.00000095367431640625,
+        "scale": 0.0,
+        "world": 0.0000000596046447753906
+      },
+      "size": "(512, 384)"
+    }
+  ],
+  "failures": [],
+  "scope": "Actual original Uw against native reflected camera, preclip sampling matrix, oblique clip matrix, resolution and quality/height gates. CPU math only, no reflected scene or mip/radiance proof. All matrix components and scalar absolute tolerance1e-4; source perspective q.w uses algebraic1/far to avoid cancellation."
+}

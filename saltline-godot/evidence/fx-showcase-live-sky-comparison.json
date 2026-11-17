@@ -1,0 +1,6 @@
+{
+  "full_mae": 0.002487816017610748,
+  "effect_roi_mae": 0.014346143790849673,
+  "sky_mae": 0.0010941538547237077,
+  "scope": "Restored original dynamic sky mesh vs sourceGLES capture, same tape and clocks. Residual raster/sampling/post differences remain."
+}

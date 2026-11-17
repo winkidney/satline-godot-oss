@@ -1,0 +1,13 @@
+{
+  "duration": 65,
+  "actions": [
+    {"at":0.2,"lab":1,"wetness":0,"planar":false},
+    {"at":7,"wetness":0.9},
+    {"at":14,"planar":true},
+    {"at":22,"lab":3,"fog":false},
+    {"at":30,"fog":true},
+    {"at":42,"lab":0,"filtering":false,"pitch_mm":4,"camera":"close"},
+    {"at":52,"filtering":true},
+    {"at":59,"camera":"wide"}
+  ]
+}

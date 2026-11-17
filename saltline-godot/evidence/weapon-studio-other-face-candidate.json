@@ -1,0 +1,6 @@
+{
+  "resolved_face_id_sum": 153.5,
+  "known_unclassified_weight": 0.25,
+  "candidate_face_id": 614.0,
+  "scope": "One uncovered sample based on independent one-hot count; candidate needs explicit one-hot verification before treating as exact ID."
+}

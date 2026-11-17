@@ -1,0 +1,72 @@
+{
+  "failures": [],
+  "samples": [
+    {
+      "action": "resume",
+      "hover_fill": [
+        1.0,
+        0.788235306739807,
+        0.466666668653488,
+        1.0
+      ],
+      "primary": true,
+      "screen": "paused"
+    },
+    {
+      "action": "settings",
+      "hover_fill": [
+        0.909803926944733,
+        0.894117653369904,
+        0.854901969432831,
+        0.119999997317791
+      ],
+      "primary": false,
+      "screen": "paused"
+    },
+    {
+      "action": "controls",
+      "hover_fill": [
+        0.909803926944733,
+        0.894117653369904,
+        0.854901969432831,
+        0.119999997317791
+      ],
+      "primary": false,
+      "screen": "paused"
+    },
+    {
+      "action": "restart",
+      "hover_fill": [
+        0.909803926944733,
+        0.894117653369904,
+        0.854901969432831,
+        0.119999997317791
+      ],
+      "primary": false,
+      "screen": "paused"
+    },
+    {
+      "action": "retry",
+      "hover_fill": [
+        1.0,
+        0.788235306739807,
+        0.466666668653488,
+        1.0
+      ],
+      "primary": true,
+      "screen": "dead"
+    },
+    {
+      "action": "redeploy",
+      "hover_fill": [
+        1.0,
+        0.788235306739807,
+        0.466666668653488,
+        1.0
+      ],
+      "primary": true,
+      "screen": "complete"
+    }
+  ],
+  "scope": "Actual Main pause/death/complete action buttons share original CSS button draw/transition implementation and receive native hover. Existing GPU color fixtures cover renderer; this checks real screen wiring, not whole menu typography/layout parity."
+}

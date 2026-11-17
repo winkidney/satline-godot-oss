@@ -1,0 +1,6 @@
+{
+  "mae": 0.016508727362472764,
+  "p99": 0.14509803921568631,
+  "max": 0.2784313725490196,
+  "scope": "Fast-auto3warmup vs original, diagnostic only; actual feedback pass count not proven."
+}

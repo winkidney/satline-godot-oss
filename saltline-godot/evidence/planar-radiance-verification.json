@@ -1,0 +1,17 @@
+{
+  "diagnostic_args": [],
+  "failures": [],
+  "samples": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.14509804546833,
+      1.0,
+      0.211764708161354
+    ]
+  ],
+  "scope": "Actual ground RP shader branch with synthetic HDR green mip texture, no lights/ambient, off/on native RADIANCE response. Not real reflection camera, mip generator, or original BRDF parity."
+}

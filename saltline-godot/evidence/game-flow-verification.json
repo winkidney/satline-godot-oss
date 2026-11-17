@@ -1,0 +1,9 @@
+{
+  "best_score": 1235,
+  "comparisons": 11030,
+  "failures": [],
+  "frames": 500,
+  "maximum_error": 0.00000602744245270515,
+  "resets": 5,
+  "scope": "Actual original full pT, controlled input/reset/player/HUD; title spline, intro pause/debounce/resume, death/retry, complete/redeploy, mode retention and Holdout best score"
+}

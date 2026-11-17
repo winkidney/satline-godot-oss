@@ -1,0 +1,6 @@
+{
+  "failures": [],
+  "material": "fce6cd56-3237-4bcd-af66-86f908942da2",
+  "shader_sha256": "31e6cb07c9776f7de3da50e5695ce31fc75980c2942cd737690add1180d209ef",
+  "scope": "Original exported fragment equations match verbatim after camera/output API rename and removal of source tone/color includes; Godot supplies its current post pipeline. Does not assert cross-engine tone mapping or pixel parity."
+}

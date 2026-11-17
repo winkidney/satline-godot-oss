@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "case": "mats",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "props",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "render",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "ground",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "level",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "backdrop",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "weapon",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "hands",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "enemies",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    },
+    {
+      "case": "fx",
+      "failures": [],
+      "stages": [
+        {
+          "message": "Waking the renderer",
+          "progress": 0.04
+        },
+        {
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12
+        },
+        {
+          "message": "Waiting for first light",
+          "progress": 0.92
+        },
+        {
+          "message": "Ready",
+          "progress": 1.0
+        }
+      ]
+    }
+  ],
+  "scope": "Ten actual interactive runner setups; source four stage labels and weights, depth readiness, pointer release and fade removal, GPU screenshots. All terminal exits0. FX cleanup fixture initially left its exposure callback alive, corrected and FX alone re-run successfully."
+}

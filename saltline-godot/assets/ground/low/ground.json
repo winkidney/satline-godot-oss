@@ -1,0 +1,314 @@
+{
+  "quality": {
+    "name": "low",
+    "scale": 0.7,
+    "msaa": 0,
+    "shadow": 2048,
+    "tex": 512,
+    "volSteps": 12,
+    "ao": false,
+    "planar": 0,
+    "bloom": true,
+    "motionBlur": false,
+    "rain": 0.5
+  },
+  "textures": [
+    {
+      "name": "uMask",
+      "width": 512,
+      "height": 512,
+      "flipY": false,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 2,
+      "colorSpace": "",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "id": "ground-low-uMask",
+      "godot_file": "res://assets/ground/low/uMask.source-miprgba",
+      "godot_source_mip_file": "res://assets/ground/low/uMask.source-miprgba",
+      "godot_mip_file": "res://assets/ground/low/uMask.miprgba",
+      "godot_has_mipmaps": true,
+      "source_sha256": "9c8cd34a720a0168f0339e039d50a2c09e5e96f8c727eb04f424600f055bc542",
+      "cpu_file": "res://assets/ground/low/uMask.cpu-rgba",
+      "cpu_sha256": "576ec82eb26df709172c64319c6a017d9b8b2fc953fb1f6109b07cb642f1c83f"
+    },
+    {
+      "name": "uDetail",
+      "width": 256,
+      "height": 256,
+      "flipY": false,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 8,
+      "colorSpace": "",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "id": "ground-low-uDetail",
+      "godot_file": "res://assets/ground/low/uDetail.source-miprgba",
+      "godot_source_mip_file": "res://assets/ground/low/uDetail.source-miprgba",
+      "godot_mip_file": "res://assets/ground/low/uDetail.miprgba",
+      "godot_has_mipmaps": true,
+      "source_sha256": "ad46f055dc423a9325155745d954f62d75dbb92ade8d65b27efe252f5cdee0f6",
+      "cpu_file": "res://assets/ground/low/uDetail.cpu-rgba",
+      "cpu_sha256": "06957f24c5e0f9f6b12c65dfcb1a9543730d6408abeae281b387639b7fbbad94"
+    },
+    {
+      "name": "uDetailN",
+      "width": 256,
+      "height": 256,
+      "flipY": false,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 8,
+      "colorSpace": "",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "id": "ground-low-uDetailN",
+      "godot_file": "res://assets/ground/low/uDetailN.source-miprgba",
+      "godot_source_mip_file": "res://assets/ground/low/uDetailN.source-miprgba",
+      "godot_mip_file": "res://assets/ground/low/uDetailN.miprgba",
+      "godot_has_mipmaps": true,
+      "source_sha256": "cec754a8ef82449825fb62a58397e42c197f08dacb18c7e1cbbcf89c8b97128a",
+      "cpu_file": "res://assets/ground/low/uDetailN.cpu-rgba",
+      "cpu_sha256": "2c6bfd328f5ae577f1b30a9494f0f886201965fb88291114bc47cdec07186c09"
+    },
+    {
+      "name": "uMarks",
+      "width": 1024,
+      "height": 1024,
+      "flipY": false,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 8,
+      "colorSpace": "",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "cpu": null,
+      "id": "ground-low-uMarks",
+      "godot_file": "res://assets/ground/low/uMarks.source-miprgba",
+      "godot_source_mip_file": "res://assets/ground/low/uMarks.source-miprgba",
+      "godot_mip_file": "res://assets/ground/low/uMarks.miprgba",
+      "godot_has_mipmaps": true,
+      "source_sha256": "942963f53cabd8129e7e3b43f813469e0a73132be24d3703b9ca43b581be2974"
+    }
+  ],
+  "mark_resolution": 1024,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "local_fonts": true,
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "errors": [],
+  "local_font_files_sha256": {
+    "ibm-plex-mono-400.ttf": "5cbc4288c3489acb668caf9bb59fcab8767f961575ad74c1366c40bc43a8cde3",
+    "barlow-condensed-500.ttf": "cc9fb2539cf27df48255982e896d28f544483537cdb41f9fabd741af8992d719",
+    "big-shoulders-display-900.ttf": "23ce8d950bbbc0f13fbe3fc11047ec0c2babddd95243de26c85c855ede537c30",
+    "big-shoulders-display-500.ttf": "a9b588db952ce332791924195f09d10805aea45d78ffef316b70f2b0194f5e9e",
+    "ibm-plex-mono-500.ttf": "249a8ba4a836742e86a7465dcfa30ea433a8c50b5d1ec7eaeecab28403409760",
+    "barlow-condensed-400.ttf": "c82d65280835cb3cd1b499863cf68cae8c6193c45ffae9495d28d01f749a9ae2",
+    "barlow-condensed-600.ttf": "0d85af813fc3ed87db0c6265515689b2eef5cbaf7aab17922528dfc95a2cd73f",
+    "big-shoulders-display-700.ttf": "677d6cfbd0e22c58948e917b53bfbaf14324280aebda4b156cc41e3649ee1d81"
+  }
+}

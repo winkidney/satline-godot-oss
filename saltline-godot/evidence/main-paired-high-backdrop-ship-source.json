@@ -1,0 +1,273 @@
+{
+  "lights": [
+    {
+      "name": "viewmodel-key",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 0.9,
+      "color": [
+        0.78,
+        0.86,
+        1
+      ],
+      "position": [
+        23.117238960328557,
+        2.2604868505837667,
+        -1.6372501727624345
+      ],
+      "layers": 2
+    },
+    {
+      "name": "sun",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 9,
+      "color": [
+        1,
+        0.72,
+        0.42
+      ],
+      "position": [
+        181.26947229749686,
+        60.91706470189607,
+        65.22510407256709
+      ],
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    }
+  ],
+  "no_points": false,
+  "no_sun": false,
+  "rays": [
+    {
+      "pixel": [
+        856,
+        298
+      ],
+      "hits": [
+        {
+          "ordinal": 23,
+          "name": "",
+          "material": "hull_paint",
+          "distance": 19.141513658828572,
+          "point": [
+            39.23658398109842,
+            8.534014090091965,
+            -11.356297620024725
+          ],
+          "uv": [
+            0.8049964053642342,
+            8.534014090091965
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        850,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 23,
+          "name": "",
+          "material": "hull_paint",
+          "distance": 19.042242296333384,
+          "point": [
+            39.061268264812725,
+            8.463161202313165,
+            -11.488142098384655
+          ],
+          "uv": [
+            0.9314038277129675,
+            8.463161202313167
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        860,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 23,
+          "name": "",
+          "material": "hull_paint",
+          "distance": 19.189904967880253,
+          "point": [
+            39.36699255059156,
+            8.463113022582359,
+            -11.293454409965946
+          ],
+          "uv": [
+            0.7204003797400441,
+            8.463113022582359
+          ]
+        }
+      ]
+    }
+  ],
+  "time": {
+    "t": 0.05,
+    "dt": 0.016666666666666666,
+    "frame": 3,
+    "real": 0.8432000000476837
+  },
+  "camera": {
+    "position": [
+      24,
+      1.7,
+      -2
+    ],
+    "quaternion": [
+      0.13062846018788968,
+      -0.2769878755557093,
+      0.038039097374690176,
+      0.9511923828831865
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "quality": {
+    "name": "high",
+    "scale": 1,
+    "msaa": 4,
+    "shadow": 4096,
+    "tex": 1024,
+    "volSteps": 24,
+    "ao": true,
+    "planar": 0.5,
+    "bloom": true,
+    "motionBlur": true,
+    "rain": 1
+  },
+  "fade": 0,
+  "exposure": 1,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "hdr": {
+    "width": 1280,
+    "height": 720,
+    "file": "main-paired-high-backdrop-ship-source.world.rgba16f",
+    "row_order": "bottom-to-top"
+  },
+  "surface_diagnostic": "",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "errors": [],
+  "scope": "Actual original Main fixed camera and source time, manual exposure1, weapon/HUD hidden,12 zero-dt renders to warm render passes. Diagnostic paired scene, not normal gameplay."
+}

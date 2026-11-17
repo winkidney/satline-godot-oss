@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+{"cases":2,"checks":31594,"draws":3947,"failures":[],"maximum_error":0.000000238418579101562,"methods_sha256":"7dea761f8111a890218a6e5a0c221a3142578c1a40c13ac02bba46a6c11eb87e","scope":"Original G/oe/S/go/M/u1/W for drip plus mixed emitters, particle2/256; strict accumulator/drop zero, minimum/negative height, fractional double positions, moving drop target, overflow/reuse/clear. Generation/drop timer only, no motion or GPU/source pixel proof.","source_sha256":"756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8","steps_per_case":54}

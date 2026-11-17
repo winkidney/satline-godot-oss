@@ -1,0 +1,8 @@
+{
+  "source_backend": "ANGLE NVIDIA OpenGL ES3.2",
+  "native_backend": "Godot Vulkan",
+  "full_mae": 0.0028487952183188087,
+  "effect_mae": 0.015186840958605664,
+  "max": 0.2313725490196079,
+  "scope": "Source screenshot uses same OpenGL backend as native atlas mip export. Fixed FX tape snapshot; cross-backend raster/sampling differences remain."
+}

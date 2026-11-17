@@ -1,0 +1,155 @@
+{
+  "failures": [],
+  "luma_range": [
+    0.0,
+    0.886274516582489
+  ],
+  "quality": "medium",
+  "samples": [
+    {
+      "depth": true,
+      "frame": 0,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10467,
+        "maximum": 95.09375,
+        "minimum": -0.0631612141927083,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 1,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10468,
+        "maximum": 95.09375,
+        "minimum": -0.0509033203125,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 2,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10469,
+        "maximum": 95.09375,
+        "minimum": -0.0419972737630208,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 3,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10470,
+        "maximum": 95.09375,
+        "minimum": -0.102752685546875,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 4,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10471,
+        "maximum": 95.09375,
+        "minimum": -0.0067291259765625,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 5,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10467,
+        "maximum": 95.09375,
+        "minimum": -0.1109619140625,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 6,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10470,
+        "maximum": 95.09375,
+        "minimum": -0.00388590494791667,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    },
+    {
+      "depth": true,
+      "frame": 7,
+      "half_depth": true,
+      "reflection": true,
+      "size": [
+        1088,
+        612
+      ],
+      "sun": true,
+      "world_pixels": {
+        "lit_samples": 10468,
+        "maximum": 95.09375,
+        "minimum": -0.09539794921875,
+        "nonfinite": 0,
+        "sample_count": 10472
+      }
+    }
+  ],
+  "scope": "Separate-process saved-quality cold boot, real GPU draws, render/depth/shadow/planar readiness by frame 2, UI-free HDR world pixel finite/range/nonblank checks at all eight observations and post gates. Not original pixel parity, first-draw visual continuity, performance, or device auto selection. World PNGs clamp HDR to RGB8 for inspection; statistics use original HDR pixels."
+}

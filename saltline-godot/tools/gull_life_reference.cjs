@@ -1,0 +1,30 @@
+const fs=require('fs'),text=fs.readFileSync('artifact-rendering-study/source/extracted/bundle-1.js','utf8'),data=JSON.parse(fs.readFileSync('saltline-godot/assets/prepared/scene.json'));
+class Vec{constructor(x=0,y=0,z=0){this.set(x,y,z)}set(x,y,z){this.x=x;this.y=y;this.z=z;return this}copy(v){return this.set(v.x,v.y,v.z)}add(v){this.x+=v.x;this.y+=v.y;this.z+=v.z;return this}addScaledVector(v,t){this.x+=v.x*t;this.y+=v.y*t;this.z+=v.z*t;return this}multiplyScalar(v){this.x*=v;this.y*=v;this.z*=v;return this}sub(v){this.x-=v.x;this.y-=v.y;this.z-=v.z;return this}normalize(){return this.multiplyScalar(1/(this.length()||1))}distanceTo(v){return Math.hypot(this.x-v.x,this.y-v.y,this.z-v.z)}length(){return Math.hypot(this.x,this.y,this.z)}setComponent(i,v){this[['x','y','z'][i]]=v;return this}getComponent(i){return this[['x','y','z'][i]]}applyAxisAngle(axis,a){let x=this.x,z=this.z;this.x=x*Math.cos(a)+z*Math.sin(a);this.z=-x*Math.sin(a)+z*Math.cos(a);return this}toJSON(){return [this.x,this.y,this.z]}}
+let at=text.indexOf('function su(n = 1337)'),o=eval('('+text.slice(at,text.indexOf('\n  var Hn =',at)).trim()+')')(9001);
+const input=JSON.parse(JSON.stringify(data.modules.enemies.debug.gulls[0]));delete input.rig;delete input.lens;delete input.loop;
+Object.assign(input,{pos:[0,4,0],home:[0,4,0],vel:[0,0,0],avoid:[0,0,0],yaw:0,pitch:0,roll:0,phase:.37,orbitA:.5,orbitR:16,orbitDir:1,patrolR:6,alt:5,mode:'patrol',atk:'idle',feeler:0,ceil:1e9,ceilT:0,thr:1,flipT:.1,lastKnown:[4,0,3]});
+const d=JSON.parse(JSON.stringify(input));for(const key of ['pos','vel','home','lastKnown','sensor','fwd','muzzle','avoid'])d[key]=new Vec(...d[key]);
+const Bo=new Vec(),Qs=new Vec(),W1=new Vec(0,1,0),GS=new Vec(0,-1,0),Ou=(v,a,b)=>Math.max(a,Math.min(b,v)),qS=(a,b)=>{let v=(a-b)%(Math.PI*2);return v>Math.PI?v-Math.PI*2:v< -Math.PI?v+Math.PI*2:v};
+const gn=data.modules.enemies.TUNE.gull,n={t:0,think:()=>{}};
+function raycast(origin,dir,limit){let best=null;for(const [axis,bound,normal] of [[0,12,[-1,0,0]],[0,-12,[1,0,0]],[1,0,[0,1,0]],[1,9,[0,-1,0]],[2,12,[0,0,-1]],[2,-12,[0,0,1]]]){let v=dir.getComponent(axis);if(Math.abs(v)<1e-9)continue;let distance=(bound-origin.getComponent(axis))/v;if(distance<0||distance>limit||(best&&distance>=best.dist))continue;best={dist:distance,normal:new Vec(...normal)}}return best}
+const s={player:{pos:new Vec(-4,0,6),vel:new Vec(1,0,-.5),alive:true},physics:{raycast,groundHeight:()=>0}},a={group:{rotation:{set:()=>{}}}},l={body:{position:{y:0}}};for(let i=0;i<4;i++)l['rotor'+i]={rotation:{y:0}};
+const Wh=new Vec(),rr=new Vec(),U5=[8,4,.7],XD=[14,1,.35];let lens=[0,0,0],telegraphs=0,effects=[],bolts=[];
+const r={color:{setRGB:(...values)=>lens=values}};const bone=()=>({rotation:{x:0,y:0,z:0},scale:{value:1,setScalar(v){this.value=v}}});for(const name of ['strobeR','strobeG','strobeW','gimbalYaw','ball','gun'])l[name]=bone();
+s.fx={muzzleFlash:()=>{},smoke:(position,options)=>effects.push({kind:'smoke',position:position.toJSON(),options}),sparks:(position,normal,count)=>effects.push({kind:'sparks',position:position.toJSON(),options:{normal:normal.toJSON(),count}})};
+s.events={emit:(kind)=>{if(kind==='enemy:telegraph')telegraphs++}};
+n.playerSpeed=1.7;n.requestToken=()=>{d.hasToken=true;return true};n.releaseToken=()=>d.hasToken=false;n.fireBolt=(position,direction)=>bolts.push({position:position.toJSON(),direction:direction.toJSON()});
+d.los=true;d.cool=0;d.sweep=0;d.gy=0;d.gp=0;d.lensC=[8,4,.7];d.flare=0;d.smokeT=0;
+Object.assign(input,{los:true,cool:0,sweep:0,gy:0,gp:0,lensC:[8,4,.7],flare:0,smokeT:0});
+const N5={rotors:[[.33,.035,.3],[-.33,.035,.3],[.33,.035,-.3],[-.33,.035,-.3]]};
+for(let i=0;i<4;i++)l['rotor'+i].scale={value:1,setScalar(value){this.value=value}};l.lamp=bone();
+let killed=0,retired=0,explosions=[];n.provoke=()=>{};n.retire=()=>{retired++;d.active=false};s.combat={explode:(position,radius,damage,source)=>explosions.push({position:position.toJSON(),radius,damage,source})};s.fx.debris=(position,options)=>effects.push({kind:'debris',position:position.toJSON(),options});s.fx.explosion=(position,size)=>effects.push({kind:'explosion',position:position.toJSON(),options:{size}});s.events.emit=(kind)=>{if(kind==='enemy:killed')killed++};
+s.physics.raycast=(origin,dir,limit)=>{if(dir.y>=0)return null;const dist=-origin.y/dir.y;if(dist<0||dist>limit)return null;return {point:new Vec(origin.x+dir.x*dist,0,origin.z+dir.z*dist),normal:new Vec(0,1,0),dist}};
+Object.assign(input,{pos:[0,4,0],vel:[.2,.1,.3],yaw:.7,pitch:.1,roll:-.1,smokeT:0,hasToken:true});Object.assign(d,{pos:new Vec(0,4,0),vel:new Vec(.2,.1,.3),yaw:.7,pitch:.1,roll:-.1,smokeT:0,hasToken:true});
+const begin=text.indexOf('function XS('),take=(from,to)=>{const a=text.indexOf(from,begin);return text.slice(a,text.indexOf(to,a)).trim()};
+const m=eval('('+take('function m(y) {','function x(y) {')+')'),x=eval('('+take('function x(y) {','function v(y) {')+')');
+let ds=text.indexOf('damage(y, b, g, E) {',begin),de=text.indexOf('_activate(y, b = {})',ds);const damage=eval('(function '+text.slice(ds,de).trim().replace(/,\s*$/,'')+')');
+const damageCases=[{amount:10,direction:[1,0,0]},{amount:100,direction:[.5,0,-.5]}],damageResults=[];
+function snapshot(){let row={killed,retired,rotors:[0,1,2,3].map(i=>l['rotor'+i].rotation.y),lens:[...lens],rotorScales:[0,1,2,3].map(i=>l['rotor'+i].scale.value)};for(const key of ['pos','vel','hp','alive','active','yaw','pitch','roll','dieT','spin','lostRotor','smokeT','hasToken'])row[key]=d[key];return JSON.parse(JSON.stringify(row))}
+for(const c of damageCases)damageResults.push(damage(c.amount,d.pos,new Vec(...c.direction),'body'));
+const death=snapshot(),frames=[];for(let frame=0;frame<400&&d.active;frame++){x(1/60);frames.push(snapshot())}
+fs.writeFileSync('saltline-godot/assets/export/fixtures/gull-life-reference.json',JSON.stringify({input,damageCases,damageResults,death,frames,effects,explosions,nextRandom:o(),scope:'Actual Gull damage/m/x with flat crash ray, rotor loss/spin, death smoke RNG, impact explosion and retirement'}));console.log({frames:frames.length,effects:effects.length,killed,retired});

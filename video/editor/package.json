@@ -1,0 +1,20 @@
+{
+  "name": "saltline-video-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx --public-dir=public",
+    "render": "remotion render src/index.jsx SaltlineFilm ../final.mp4 --public-dir=public",
+    "render-fast": "python3 scripts/render_fast.py --resume --prepare-only && python3 scripts/render_revised.py",
+    "prepare-silent": "python3 scripts/prepare_silent.py"
+  },
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.484"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "active": true,
+  "alive": false,
+  "body_height": -0.505,
+  "combat_stats": {
+    "hits": 3,
+    "kills": 1,
+    "shots": 3
+  },
+  "die_time": 11.8666666666668,
+  "frames": 900,
+  "impacts": 3,
+  "particles": 0,
+  "player_alive": true,
+  "player_damage_events": [
+    {
+      "amount": 8.0,
+      "frame": 123,
+      "health": 92.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 144,
+      "health": 84.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 151,
+      "health": 76.0
+    }
+  ],
+  "player_health": 100.0,
+  "player_hits": 3,
+  "player_min_health": 76.0,
+  "scope": "native Hound actor with real combat damage; full enemy manager, Gull, missions and UI pending",
+  "shots": 5,
+  "states": [
+    "move",
+    "aim",
+    "tele",
+    "burst",
+    "cool"
+  ],
+  "steps": 11,
+  "wreck": true,
+  "runtime_log_errors": 0,
+  "exit_resource_leaks": 0,
+  "manager_integrated": true
+}

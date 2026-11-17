@@ -1,0 +1,679 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 1,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000500003548764213
+      ]
+    },
+    {
+      "case": 2,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000843729518760009
+      ]
+    },
+    {
+      "case": 3,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 4,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000968666878480018
+      ]
+    },
+    {
+      "case": 5,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 6,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 7,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000906240550267376
+      ]
+    },
+    {
+      "case": 8,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000905308814025396
+      ]
+    },
+    {
+      "case": 9,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000804681299891585
+      ]
+    },
+    {
+      "case": 10,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 11,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000737257477290143
+      ]
+    },
+    {
+      "case": 12,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000737257477290143
+      ]
+    },
+    {
+      "case": 13,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 14,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 15,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 16,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 17,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 18,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 19,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 20,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 21,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000710935928454216
+      ]
+    },
+    {
+      "case": 22,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000671866533762111
+      ]
+    },
+    {
+      "case": 23,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000710935928454216
+      ]
+    },
+    {
+      "case": 24,
+      "maximum_errors": [
+        0.0,
+        0.0000000000000000095342028542944
+      ]
+    },
+    {
+      "case": 25,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 26,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000945288769135799
+      ]
+    },
+    {
+      "case": 27,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000890739847332622
+      ]
+    },
+    {
+      "case": 28,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000905308814025396
+      ]
+    },
+    {
+      "case": 29,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 30,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 31,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000189735380184963
+      ]
+    },
+    {
+      "case": 32,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000748099499014998
+      ]
+    },
+    {
+      "case": 33,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000737257477290143
+      ]
+    },
+    {
+      "case": 34,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000628837260041593
+      ]
+    },
+    {
+      "case": 35,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 36,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 37,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 38,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000520417042793042
+      ]
+    },
+    {
+      "case": 39,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 40,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 41,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 42,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000921571846612679
+      ]
+    },
+    {
+      "case": 43,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000498732999343332
+      ]
+    },
+    {
+      "case": 44,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000867361737988404
+      ]
+    },
+    {
+      "case": 45,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 46,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 47,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000867361737988404
+      ]
+    },
+    {
+      "case": 48,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000433680868994202
+      ]
+    },
+    {
+      "case": 49,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000688468379528295
+      ]
+    },
+    {
+      "case": 50,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 51,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000859230221694762
+      ]
+    },
+    {
+      "case": 52,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000758941520739853
+      ]
+    },
+    {
+      "case": 53,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000813151629364128
+      ]
+    },
+    {
+      "case": 54,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000520417042793042
+      ]
+    },
+    {
+      "case": 55,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 56,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000520417042793042
+      ]
+    },
+    {
+      "case": 57,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000520417042793042
+      ]
+    },
+    {
+      "case": 58,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000520417042793042
+      ]
+    },
+    {
+      "case": 59,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 60,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 61,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 62,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 63,
+      "maximum_errors": [
+        0.0,
+        0.00000000000000000737257477290143
+      ]
+    },
+    {
+      "case": 64,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 65,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 66,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 67,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 68,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 69,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 70,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 71,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 72,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 73,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 74,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 75,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 76,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 77,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 78,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 79,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 80,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 81,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 82,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 83,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 84,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 85,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 86,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 87,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 88,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 89,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 90,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 91,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 92,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 93,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 94,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": 95,
+      "maximum_errors": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "channels": 768,
+  "failures": [],
+  "scope": "Original Three Standard direct Lambert/GGX vs native same extracted functions, 96inputs, diffuse/specular separatelyRGBA16F, metallic0/.35/1,roughfloor/grazing/geometryroughscalar,wetF0.075,visibility1/.6/0. Tolerance max(.002,.3percent). No PCSS or true perfragment geometry derivative proof."
+}

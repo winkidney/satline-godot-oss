@@ -1,0 +1,11 @@
+{
+  "checks": 35952,
+  "failures": [],
+  "maximum_error": 0.000000201444465108835,
+  "production_integration": false,
+  "reload_sha256": "e3cb26df295a6439bfff3b1e12d59e0b29b2045f33ed7eac71aefa2113fc0491",
+  "scope": "Original full reload closures with actual source relaxed/open/mag-pinch poses and exported holds. Dense sequential time and reset; independent native left targets. Production mode additionally uses actual Weapon.update reload event/lifecycle owner and shared magazine. No vS/Fh/whole image proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 1284,
+  "tolerance": 0.000002
+}

@@ -1,0 +1,9 @@
+{
+  "source_nodes": 133,
+  "main_nodes": 133,
+  "exact_geometry_matches": 133,
+  "source_unmatched": 0,
+  "main_unmatched": 0,
+  "source_explicit_environment_material_slots": 0,
+  "scope": "Actual source show=level vs prepared Main level subtree, multiset of complete original attribute/index/groups fingerprints. No transform/material texture or animated world matrix equivalence implied."
+}

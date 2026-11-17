@@ -1,0 +1,434 @@
+{
+  "source_count": 70,
+  "native_count": 70,
+  "missing": [],
+  "extra": [],
+  "max_position_m": 3.330436588870712e-08,
+  "max_quaternion_component_l2": 1.1836487498955341e-07,
+  "position_tolerance_m": 1e-06,
+  "quaternion_component_tolerance": 2e-06,
+  "rows": [
+    {
+      "side": "arm-left",
+      "name": "forearm",
+      "position_m": 1.1920929021691506e-08,
+      "quaternion_component_l2": 7.919080714720198e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "forearmTwist1",
+      "position_m": 3.5762787037318944e-09,
+      "quaternion_component_l2": 5.455320370017662e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "forearmTwist2",
+      "position_m": 2.9802319778671205e-09,
+      "quaternion_component_l2": 3.166449332716294e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "hand",
+      "position_m": 1.0728835986295593e-08,
+      "quaternion_component_l2": 6.196752984244432e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "index1",
+      "position_m": 1.1801837423794647e-09,
+      "quaternion_component_l2": 8.592836989132836e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "index2",
+      "position_m": 1.1920930215181258e-10,
+      "quaternion_component_l2": 5.639980637848417e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "index3",
+      "position_m": 8.046627010538376e-10,
+      "quaternion_component_l2": 1.0464955655637985e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "indexHelper1",
+      "position_m": 1.9959823962381616e-09,
+      "quaternion_component_l2": 4.723722319054328e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "indexHelper2",
+      "position_m": 1.6765069538900068e-09,
+      "quaternion_component_l2": 7.736790853317944e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "indexHelper3",
+      "position_m": 6.858888866960022e-10,
+      "quaternion_component_l2": 5.491409817336048e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "little1",
+      "position_m": 1.5290773643131797e-09,
+      "quaternion_component_l2": 6.647712265157313e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "little2",
+      "position_m": 1.1920929035569294e-09,
+      "quaternion_component_l2": 3.925645029330339e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "little3",
+      "position_m": 2.7120109977185614e-10,
+      "quaternion_component_l2": 3.95020118994531e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "littleHelper1",
+      "position_m": 7.677103671154579e-10,
+      "quaternion_component_l2": 8.508738889670321e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "littleHelper2",
+      "position_m": 5.12276434239232e-10,
+      "quaternion_component_l2": 2.615314647967025e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "littleHelper3",
+      "position_m": 7.489354984578259e-11,
+      "quaternion_component_l2": 3.299885727549697e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "middle1",
+      "position_m": 3.518837862964218e-09,
+      "quaternion_component_l2": 7.402407076361819e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "middle2",
+      "position_m": 2.3841859736473126e-10,
+      "quaternion_component_l2": 1.574382466364443e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "middle3",
+      "position_m": 1.9669529893739934e-10,
+      "quaternion_component_l2": 1.066463912017402e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "middleHelper1",
+      "position_m": 1.9980062534596257e-09,
+      "quaternion_component_l2": 3.949782613314755e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "middleHelper2",
+      "position_m": 4.43543576022022e-10,
+      "quaternion_component_l2": 1.1424564391268533e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "middleHelper3",
+      "position_m": 4.598591976750656e-10,
+      "quaternion_component_l2": 5.3497314742329595e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "ring1",
+      "position_m": 1.8555919366996335e-09,
+      "quaternion_component_l2": 8.97074727186121e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "ring2",
+      "position_m": 7.927418027575683e-10,
+      "quaternion_component_l2": 8.484323714919338e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "ring3",
+      "position_m": 6.407499010541162e-10,
+      "quaternion_component_l2": 2.368420333026918e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "ringHelper1",
+      "position_m": 3.9882751978883467e-10,
+      "quaternion_component_l2": 3.5730129025272705e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "ringHelper2",
+      "position_m": 1.7376887155263313e-09,
+      "quaternion_component_l2": 6.392843806325985e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "ringHelper3",
+      "position_m": 4.906230562108904e-10,
+      "quaternion_component_l2": 1.5804916220272838e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "thumb1",
+      "position_m": 9.47249815639685e-10,
+      "quaternion_component_l2": 2.3618416111195455e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "thumb2",
+      "position_m": 2.3841859736473126e-10,
+      "quaternion_component_l2": 4.1682270539562215e-10
+    },
+    {
+      "side": "arm-left",
+      "name": "thumb3",
+      "position_m": 1.788139011860146e-10,
+      "quaternion_component_l2": 2.8485671472167838e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "thumbHelper1",
+      "position_m": 9.47249815639685e-10,
+      "quaternion_component_l2": 7.575594276520892e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "thumbHelper2",
+      "position_m": 2.3841859736473126e-10,
+      "quaternion_component_l2": 2.7191193964697944e-09
+    },
+    {
+      "side": "arm-left",
+      "name": "thumbHelper3",
+      "position_m": 1.4382076784908292e-09,
+      "quaternion_component_l2": 1.530492814291914e-08
+    },
+    {
+      "side": "arm-left",
+      "name": "upperArm",
+      "position_m": 7.440819776802079e-09,
+      "quaternion_component_l2": 5.1113757468637153e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "forearm",
+      "position_m": 1.1920929021691506e-08,
+      "quaternion_component_l2": 1.1836487498955341e-07
+    },
+    {
+      "side": "arm-right",
+      "name": "forearmTwist1",
+      "position_m": 3.5762787037318944e-09,
+      "quaternion_component_l2": 1.7444717438669856e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "forearmTwist2",
+      "position_m": 2.9802319778671205e-09,
+      "quaternion_component_l2": 2.7075900738422447e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "hand",
+      "position_m": 1.0728835986295593e-08,
+      "quaternion_component_l2": 3.025115260867137e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "index1",
+      "position_m": 1.1801837423794647e-09,
+      "quaternion_component_l2": 3.0809620119083655e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "index2",
+      "position_m": 1.1920930215181258e-10,
+      "quaternion_component_l2": 3.5656485020929566e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "index3",
+      "position_m": 8.046627010538376e-10,
+      "quaternion_component_l2": 3.193172854665489e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "indexHelper1",
+      "position_m": 1.1801837423794647e-09,
+      "quaternion_component_l2": 4.526087704934636e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "indexHelper2",
+      "position_m": 1.7590012749185482e-09,
+      "quaternion_component_l2": 5.823100752754625e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "indexHelper3",
+      "position_m": 2.650491959370261e-10,
+      "quaternion_component_l2": 2.1078852053039604e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "little1",
+      "position_m": 1.5290773643131797e-09,
+      "quaternion_component_l2": 2.0806152166780245e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "little2",
+      "position_m": 1.1920929035569294e-09,
+      "quaternion_component_l2": 2.113800755737647e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "little3",
+      "position_m": 2.7120109977185614e-10,
+      "quaternion_component_l2": 3.2291379350777916e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "littleHelper1",
+      "position_m": 2.0580706934344672e-09,
+      "quaternion_component_l2": 2.0166129445242228e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "littleHelper2",
+      "position_m": 1.1307283342450112e-09,
+      "quaternion_component_l2": 2.2749689548386033e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "littleHelper3",
+      "position_m": 8.51121350258102e-10,
+      "quaternion_component_l2": 2.724547395784767e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "middle1",
+      "position_m": 3.518837862964218e-09,
+      "quaternion_component_l2": 7.0719744268668094e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "middle2",
+      "position_m": 2.3841859736473126e-10,
+      "quaternion_component_l2": 2.2173238587568785e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "middle3",
+      "position_m": 1.9669529893739934e-10,
+      "quaternion_component_l2": 1.0020563924138364e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "middleHelper1",
+      "position_m": 9.91954875543439e-10,
+      "quaternion_component_l2": 1.494373238174328e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "middleHelper2",
+      "position_m": 4.5477865818168696e-10,
+      "quaternion_component_l2": 2.2710337417037477e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "middleHelper3",
+      "position_m": 7.429746802091121e-10,
+      "quaternion_component_l2": 3.649067672732663e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ring1",
+      "position_m": 1.8555919366996335e-09,
+      "quaternion_component_l2": 4.9947763749926244e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ring2",
+      "position_m": 7.927418027575683e-10,
+      "quaternion_component_l2": 3.91713450543814e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ring3",
+      "position_m": 6.407499010541162e-10,
+      "quaternion_component_l2": 3.1717100495300144e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ringHelper1",
+      "position_m": 3.357456286128447e-10,
+      "quaternion_component_l2": 1.4715063880134103e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ringHelper2",
+      "position_m": 1.3723881975948465e-09,
+      "quaternion_component_l2": 8.407682051558121e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "ringHelper3",
+      "position_m": 8.138955236829116e-10,
+      "quaternion_component_l2": 5.756738369942044e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "thumb1",
+      "position_m": 9.47249815639685e-10,
+      "quaternion_component_l2": 1.4133803399400666e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "thumb2",
+      "position_m": 2.3841859736473126e-10,
+      "quaternion_component_l2": 5.508915047779759e-09
+    },
+    {
+      "side": "arm-right",
+      "name": "thumb3",
+      "position_m": 1.788139011860146e-10,
+      "quaternion_component_l2": 5.878729019453284e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "thumbHelper1",
+      "position_m": 9.47249815639685e-10,
+      "quaternion_component_l2": 5.0861287530381304e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "thumbHelper2",
+      "position_m": 3.203975647772787e-10,
+      "quaternion_component_l2": 1.1484217422066772e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "thumbHelper3",
+      "position_m": 1.6976775124003627e-09,
+      "quaternion_component_l2": 1.009341979081669e-08
+    },
+    {
+      "side": "arm-right",
+      "name": "upperArm",
+      "position_m": 3.330436588870712e-08,
+      "quaternion_component_l2": 4.210027128908764e-08
+    }
+  ],
+  "scope": "Actual source and native source-node local transforms at rifle side initial .016 plus 3 fixed steps. Quaternion sign normalized; not full skin vertex or arbitrary pose proof.",
+  "passed": true
+}

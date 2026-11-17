@@ -1,0 +1,13 @@
+{
+  "checks": 90,
+  "controls": [
+    "h-prompt",
+    "comms",
+    "loc-card",
+    "h-msg",
+    "h-health"
+  ],
+  "failures": [],
+  "maximum_error": 0.00000041920859239486,
+  "scope": "Five actual HUD controls against Chrome original opacity transitions, six interruptions each, including asymmetric health .12/.6 durations. Stub gameplay data for status only; no text/layout/GPU pixel or physical input proof."
+}

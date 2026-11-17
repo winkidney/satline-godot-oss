@@ -1,0 +1,31 @@
+{
+  "before": {
+    "full": 0.002485851545479303,
+    "concrete": 0.005135727018079959,
+    "metal": 0.0025616557734204795,
+    "wood": 0.007808737530099758,
+    "effects": 0.006152685635657771
+  },
+  "after": {
+    "full": 0.0022753792778685547,
+    "concrete": 0.0027338935574229696,
+    "metal": 0.0025276688453159044,
+    "wood": 0.00658140449162121,
+    "effects": 0.005873482726423902
+  },
+  "inputs": [
+    {
+      "file": "fx-showcase-source-explosion-noise-full.png",
+      "sha256": "6bf90087bd7ff92b9f4ed835759bc38d83b2ee95bb037fd61e84a923b8abb80b"
+    },
+    {
+      "file": "fx-showcase-native-noise-full-before.png",
+      "sha256": "c3a79314e8464f50c66df242d0efdf13ef21b1d4d36c7e04b4f79b825304fba5"
+    },
+    {
+      "file": "fx-showcase-native-noise-full-after.png",
+      "sha256": "68628cab04c838b1ef8a19407cf2d0f37d02e8982c563c79149efd85fcbe9567"
+    }
+  ],
+  "scope": "Default full FX, auto exposure, real point lights and particles, same tape age .5 size1.2. Original NVIDIA GL vs native Vulkan, display RGB MAE; board interior rectangles, not whole-game pixel parity."
+}

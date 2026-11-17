@@ -1,0 +1,588 @@
+{
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique_source_bias",
+    "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.1,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -4.0,
+      "depth": 0.1,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -6.0,
+      "depth": 0.1,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -8.0,
+      "depth": 0.1,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -120.0,
+      "depth": 0.1,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.5,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -3.0,
+      "depth": 0.5,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -5.0,
+      "depth": 0.5,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -7.0,
+      "depth": 0.5,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -119.0,
+      "depth": 0.5,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.9,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -4.0,
+      "depth": 0.9,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -6.0,
+      "depth": 0.9,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -8.0,
+      "depth": 0.9,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -120.0,
+      "depth": 0.9,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0
+    },
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.1,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -4.0,
+      "depth": 0.1,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -6.0,
+      "depth": 0.1,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -8.0,
+      "depth": 0.1,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -120.0,
+      "depth": 0.1,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.5,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -3.0,
+      "depth": 0.5,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -5.0,
+      "depth": 0.5,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -7.0,
+      "depth": 0.5,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -119.0,
+      "depth": 0.5,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": 0.0,
+      "depth": 0.9,
+      "expected_q24": 0.0,
+      "format": 8,
+      "mode": "",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -4.0,
+      "depth": 0.9,
+      "expected_q24": -4.0,
+      "format": 8,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -6.0,
+      "depth": 0.9,
+      "expected_q24": -6.0,
+      "format": 8,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -8.0,
+      "depth": 0.9,
+      "expected_q24": -8.0,
+      "format": 8,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2
+    },
+    {
+      "color": 1.0,
+      "delta_q24": -120.0,
+      "depth": 0.9,
+      "expected_q24": -120.0,
+      "format": 8,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2
+    }
+  ],
+  "profiles": [
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 0,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.100000023841858
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -4.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999997854232788
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -6.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999996662139893
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -8.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999995470046997
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -120.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999928712844849
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 0,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999940395355
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -3.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999761581421
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -5.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999642372131
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -7.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999523162842
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -119.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499992847442627
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 0,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999976158142
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -4.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999737739563
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -6.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999618530273
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -8.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999499320984
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -120.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899992823600769
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 2,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.100000023841858
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -4.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999997854232788
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -6.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999996662139893
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -8.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999995470046997
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -120.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.1,
+      "source_depth": 0.0999928712844849
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 2,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999940395355
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -3.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999761581421
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -5.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999642372131
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -7.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499999523162842
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -119.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.5,
+      "source_depth": 0.499992847442627
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": 0.0,
+      "depth_format": 8,
+      "expected_q24": 0.0,
+      "mode": "",
+      "msaa": 2,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999976158142
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -4.0,
+      "depth_format": 8,
+      "expected_q24": -4.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999737739563
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -6.0,
+      "depth_format": 8,
+      "expected_q24": -6.0,
+      "mode": "saltline_bias_world_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999618530273
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -8.0,
+      "depth_format": 8,
+      "expected_q24": -8.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899999499320984
+    },
+    {
+      "center_color": 1.0,
+      "delta_q24": -120.0,
+      "depth_format": 8,
+      "expected_q24": -120.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "nominal_source_depth": 0.9,
+      "source_depth": 0.899992823600769
+    }
+  ],
+  "scope": "Opt-in D24S8 actual Forward+ reverseZ,private four hardwarebias modes,opaque default material tests shareddepth/prepass preservation andcolor EQUAL consistency;0/4xMSAA,three depths. Constant term sign andweaponx20 tested;delta tolerance2q24 for inverse/UNORM float conversions. Not source slope/transparent visibility/full scene or weapon quantization proof."
+}

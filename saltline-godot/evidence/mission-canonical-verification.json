@@ -1,0 +1,12 @@
+{
+  "canonical": true,
+  "comparisons": 480866,
+  "failed_spawn_attempts": 12,
+  "failures": [],
+  "holdout_frames": 1100,
+  "maximum_error": 0.00000189188867949497,
+  "mission_frames": 260,
+  "scope": "Actual full original pT with controlled enemy spawn/LOS/nav/HUD/input; difficulty, relay interruption/cuts, failure retries, extraction and Holdout waves/resupply/score",
+  "score": 7180.0,
+  "waves": 3
+}

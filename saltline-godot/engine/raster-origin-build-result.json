@@ -1,0 +1,20 @@
+{
+  "binary": "<PROJECT_ROOT>/engine/.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64",
+  "sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+  "bytes": 80338024,
+  "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "patch_sha256": "819fa712cdd09f78b4fad085864a64d5aef7ef0b7e30e76dc24cdbca57b7ae5c",
+  "build_command": [
+    "<PROJECT_ROOT>/engine/.venv/bin/scons",
+    "platform=linuxbsd",
+    "target=template_debug",
+    "arch=x86_64",
+    "wayland=no",
+    "use_static_cpp=no",
+    "debug_symbols=no",
+    "lto=none",
+    "disable_path_overrides=no",
+    "import_env_vars=CCACHE_DIR",
+    "-j8"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "cases": 21,
+  "checks": 25419,
+  "directed_scatter_cases": 15,
+  "draws": 10115,
+  "failures": [
+    {
+      "actual": 0,
+      "error": 4.0,
+      "expected": 4.0,
+      "label": "scatter calls"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": -0.277862043407876,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": 0.919557159542787,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": -0.277862043407876,
+      "label": "scatter directed"
+    },
+    {
+      "actual": 0,
+      "error": 4.0,
+      "expected": 4.0,
+      "label": "scatter calls"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": -0.577350269189626,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": 0.577350269189626,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": -0.577350269189626,
+      "label": "scatter directed"
+    },
+    {
+      "actual": 0,
+      "error": 4.0,
+      "expected": 4.0,
+      "label": "scatter calls"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": 0.133541585516874,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": 0.573043299013798,
+      "label": "scatter directed"
+    },
+    {
+      "actual": null,
+      "error": null,
+      "expected": -0.808571593857355,
+      "label": "scatter directed"
+    }
+  ],
+  "maximum_error": 0.0000000147832041053064,
+  "methods_sha256": "10ad9ebcf1b56ad78d5bc13477367090ff91e1d10d9039d34e9642f7d5d2dacf",
+  "scope": "Original go/M/S/k/u1, emission state only; 3 sizes, 7 capacities, repeat saturation then clear; same tape across cases. No motion/pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

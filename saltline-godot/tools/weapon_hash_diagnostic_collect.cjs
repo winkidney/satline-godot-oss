@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8805/saltline-godot/tools/weapon_hash_diagnostic.html');const result=await page.evaluate(async()=>await window.ready);return {exports:[{name:'weapon-hash-gl-diagnostic.json',base64:btoa(unescape(encodeURIComponent(JSON.stringify(result))))}],cases:result.cases.length,backend:result.backend};}

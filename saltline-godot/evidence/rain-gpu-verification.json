@@ -1,0 +1,61 @@
+{
+  "cases": 9,
+  "failures": [],
+  "samples": [
+    {
+      "actual_kill": false,
+      "expected_kill": false,
+      "name": "outdoor",
+      "red": 0.0
+    },
+    {
+      "actual_kill": true,
+      "expected_kill": true,
+      "name": "roof blocks",
+      "red": 1.0
+    },
+    {
+      "actual_kill": false,
+      "expected_kill": false,
+      "name": "skylight passes",
+      "red": 0.0
+    },
+    {
+      "actual_kill": true,
+      "expected_kill": true,
+      "name": "below dry ground",
+      "red": 1.0
+    },
+    {
+      "actual_kill": false,
+      "expected_kill": false,
+      "name": "above water",
+      "red": 0.0
+    },
+    {
+      "actual_kill": true,
+      "expected_kill": true,
+      "name": "below water",
+      "red": 1.0
+    },
+    {
+      "actual_kill": false,
+      "expected_kill": false,
+      "name": "above roof",
+      "red": 0.0
+    },
+    {
+      "actual_kill": true,
+      "expected_kill": true,
+      "name": "drip disabled",
+      "red": 1.0
+    },
+    {
+      "actual_kill": false,
+      "expected_kill": false,
+      "name": "drip enabled",
+      "red": 0.0
+    }
+  ],
+  "scope": "Actual native rain vertex shader via INSTANCE_CUSTOM and original box/skylight uniforms; controlled positions/time, capture kill flag with forced probe clip geometry. Verifies outdoor/roof/skylight/ground/sea and negative-seed eave branch on GPU, not whole weather parity."
+}

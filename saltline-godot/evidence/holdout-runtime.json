@@ -1,0 +1,34 @@
+{
+  "checks": 12,
+  "failures": [],
+  "frames": 538,
+  "kills": 16,
+  "scope": "Actual Main, enemy actor damage/death signals, spawning queue, rifle reserve, explosive prop reset, player heal, two wave transitions. Controlled lethal damage and invulnerable player; not human combat or rendering acceptance.",
+  "score": 3820.0,
+  "supplies": [
+    {
+      "amount": 90.0,
+      "cap": 240.0,
+      "explosive_alive": false,
+      "reserve": 100.0,
+      "reset": false
+    },
+    {
+      "amount": 90.0,
+      "cap": 240.0,
+      "explosive_alive": true,
+      "reserve": 240.0,
+      "reset": true
+    }
+  ],
+  "waves": [
+    {
+      "count": 7,
+      "wave": 1
+    },
+    {
+      "count": 9,
+      "wave": 2
+    }
+  ]
+}

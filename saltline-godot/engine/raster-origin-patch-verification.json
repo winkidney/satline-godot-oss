@@ -1,0 +1,7 @@
+{
+  "patch": "patches/0003-saltline-source-raster-origin.patch",
+  "sha256": "819fa712cdd09f78b4fad085864a64d5aef7ef0b7e30e76dc24cdbca57b7ae5c",
+  "files": 28,
+  "failures": [],
+  "scope": "Combined patch reapplied to pristine pinned archive files; not compilation or GPU evidence."
+}

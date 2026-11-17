@@ -1,0 +1,216 @@
+{
+  "part": "crane",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "source_time": 0.05,
+  "camera": {
+    "position": [
+      0,
+      1.7,
+      27
+    ],
+    "quaternion": [
+      0.11672799943026989,
+      -0.4246426259703678,
+      0.05531496253599913,
+      0.8960990287226286
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "nodes": [
+    {
+      "id": "c35ba148-c389-48d8-a48c-595ed92d8a47",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "a53d0a57-cea5-40d4-b627-ac522eb66a67",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "35aa56ec-0aa0-4589-a588-612fc5f59ca0",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "fcf25dec-4970-4c8b-ac1b-f81ec8048e9a",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "d414b4b2-fc7e-4917-90cd-3a1fd3a26886",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "d2458962-e1e6-4f61-8994-2fd63e2a7803",
+      "cast_shadow": true,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "cd6eb793-6f58-4ce6-bcaa-18fbe523a1de",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "27fc8315-eeb0-4637-9ef7-f50d7841fa3e",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "6226a7cd-288b-4130-9254-e0901788f9ed",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "30e2ccb0-80cc-4478-9f86-81c028565f88",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    },
+    {
+      "id": "cfae5cad-a0f9-4576-9084-5731c2820a8b",
+      "cast_shadow": true,
+      "maximum_matrix_error": 8.774336292260987e-12
+    },
+    {
+      "id": "d0634400-6982-45bb-96b7-8e53b4f1f96a",
+      "cast_shadow": true,
+      "maximum_matrix_error": 8.774336292260987e-12
+    },
+    {
+      "id": "cbf2e8ce-b29f-4643-9dbb-e712a1b7f2f8",
+      "cast_shadow": true,
+      "maximum_matrix_error": 8.774336292260987e-12
+    },
+    {
+      "id": "ad39e462-8683-4f55-820f-e849d85f05b9",
+      "cast_shadow": false,
+      "maximum_matrix_error": 0
+    }
+  ],
+  "extras": [
+    {
+      "geometry": {
+        "id": "backdrop-crane-mesh-10",
+        "attributes": {
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 12,
+            "normalized": false,
+            "sha256": "fcc006cb7dbe629695e5e9eb639f9f7b7e0ec5f9952b9dd0b0af4848975b8d70",
+            "file": "showcase/backdrop-crane/normal-fcc006cb7dbe629695e5e9eb639f9f7b7e0ec5f9952b9dd0b0af4848975b8d70.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 12,
+            "normalized": false,
+            "sha256": "b6e3e0441de1d88509f9289332b60cb9ab115e5307c8c45ee8ac8396f8060712",
+            "file": "showcase/backdrop-crane/position-b6e3e0441de1d88509f9289332b60cb9ab115e5307c8c45ee8ac8396f8060712.bin"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 12,
+            "normalized": false,
+            "sha256": "6a953536708ca7d724d72b21d1bf1fd3df4beb176c573efe04b11b417780b1a5",
+            "file": "showcase/backdrop-crane/uv-6a953536708ca7d724d72b21d1bf1fd3df4beb176c573efe04b11b417780b1a5.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-crane/indices-10.bin"
+      },
+      "materials": [
+        "9679ee48-d1bd-4488-9d5d-540c49b87c5a"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "cast_shadow": false,
+      "label_texture": {
+        "width": 720,
+        "height": 128,
+        "sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd",
+        "file": "res://assets/export/showcase/backdrop-labels/32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd.source-miprgba"
+      }
+    },
+    {
+      "geometry": {
+        "id": "backdrop-crane-mesh-15",
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 204,
+            "normalized": false,
+            "sha256": "b0a7f8d29d78b3c60622c19e850f8955ed05a06ed2a7e6c695f9111170e3e1d1",
+            "file": "showcase/backdrop-crane/blink-b0a7f8d29d78b3c60622c19e850f8955ed05a06ed2a7e6c695f9111170e3e1d1.bin"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 204,
+            "normalized": false,
+            "sha256": "30e35f7e24e30e90a0763494ce7634a1bc36a1a0fe5f722d9ce1c6b2a280c0b9",
+            "file": "showcase/backdrop-crane/color-30e35f7e24e30e90a0763494ce7634a1bc36a1a0fe5f722d9ce1c6b2a280c0b9.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 204,
+            "normalized": false,
+            "sha256": "6c661e157b5f01bd15f6e237c0edc4979841e61b4d2dae3ad5ead2b522cc056d",
+            "file": "showcase/backdrop-crane/position-6c661e157b5f01bd15f6e237c0edc4979841e61b4d2dae3ad5ead2b522cc056d.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-crane/indices-15.bin"
+      },
+      "materials": [
+        "db871cda-c173-49c9-b20a-06fee33ee052"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "cast_shadow": false
+    }
+  ],
+  "casters": 9,
+  "original_meshes": 16,
+  "errors": []
+}

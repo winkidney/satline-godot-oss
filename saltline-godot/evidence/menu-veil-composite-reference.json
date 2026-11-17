@@ -1,0 +1,73 @@
+{
+  "mae": 0.0,
+  "max": 0.0,
+  "points": [
+    {
+      "xy": [
+        640,
+        680
+      ],
+      "direct_css": [
+        106.0,
+        108.0,
+        110.0
+      ],
+      "rgba_image": [
+        106.0,
+        108.0,
+        110.0
+      ],
+      "original_rgba": [
+        4,
+        7,
+        9,
+        189
+      ]
+    },
+    {
+      "xy": [
+        1216,
+        680
+      ],
+      "direct_css": [
+        130.0,
+        131.0,
+        133.0
+      ],
+      "rgba_image": [
+        130.0,
+        131.0,
+        133.0
+      ],
+      "original_rgba": [
+        5,
+        6,
+        10,
+        158
+      ]
+    },
+    {
+      "xy": [
+        640,
+        64
+      ],
+      "direct_css": [
+        190.0,
+        190.0,
+        191.0
+      ],
+      "rgba_image": [
+        190.0,
+        190.0,
+        191.0
+      ],
+      "original_rgba": [
+        6,
+        6,
+        9,
+        83
+      ]
+    }
+  ],
+  "scope": "Same Chrome process: original CSS gradient with opacity.8 vs original transparent RGBA capture composited as image with opacity.8, on white. Diagnostic only."
+}

@@ -1,0 +1,12 @@
+{
+  "aim_frames": 180,
+  "failures": [],
+  "fields_compared": 24660,
+  "frames": 900,
+  "maximum_error": 0.0000000363357051114122,
+  "melee": 2,
+  "scope": "Actual original w and S decision block with controlled nav, LOS, perception, token grant and fixed body position; shot callback counted, not ballistic simulation",
+  "selections": 30,
+  "shots": 10,
+  "telegraphs": 4
+}

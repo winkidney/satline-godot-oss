@@ -1,0 +1,10 @@
+{
+  "comparisons": 2992,
+  "effects": 36,
+  "failures": [],
+  "frames": 64,
+  "killed": 1,
+  "maximum_error": 0.00000133514403799495,
+  "retired": 1,
+  "scope": "Actual Gull damage/m/x with flat crash ray, rotor loss/spin, death smoke RNG, impact explosion and retirement"
+}

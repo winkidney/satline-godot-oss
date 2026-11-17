@@ -1,0 +1,7 @@
+{
+  "comparisons": 4047,
+  "failures": [],
+  "maximum_error": 0.0000000238418578213384,
+  "operations": 26,
+  "scope": "Actual original spawn/addWreck/retire/clear/alert/update with controlled actor pools, excluding bolt and scan light callbacks"
+}

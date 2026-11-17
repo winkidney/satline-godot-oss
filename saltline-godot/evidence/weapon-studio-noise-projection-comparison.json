@@ -1,0 +1,18 @@
+{
+  "source": [
+    0.5732421875,
+    0.324951171875,
+    0.0
+  ],
+  "native_projection": [
+    0.5732421875,
+    0.324951171875,
+    0.0
+  ],
+  "quad_max_error": [
+    0.0,
+    0.0,
+    7.152557373046875e-07
+  ],
+  "scope": "Actual scene temporary projection Y/facing flip with readback flip, linear HDR noise inputs. Does not validate post/depth/SSAO/planar or all surfaces."
+}

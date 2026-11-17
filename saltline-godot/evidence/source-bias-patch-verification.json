@@ -1,0 +1,17 @@
+{
+  "all_match": true,
+  "files": {
+    "servers/rendering/renderer_scene_render.h": true,
+    "servers/rendering/renderer_scene_render.cpp": true,
+    "servers/rendering/renderer_scene_cull.cpp": true,
+    "servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h": true,
+    "servers/rendering/renderer_rd/renderer_scene_render_rd.cpp": true,
+    "servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp": true,
+    "version.py": true,
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h": true,
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp": true,
+    "servers/rendering/shader_types.cpp": true,
+    "servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp": true
+  },
+  "patch_sha256": "1e64ef6f80050c37922e44f8c221533cf26431ef64877e12666591553222f665"
+}

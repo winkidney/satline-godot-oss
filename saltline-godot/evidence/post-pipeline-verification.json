@@ -1,0 +1,463 @@
+{
+  "failures": [],
+  "frames": 12,
+  "maximum_error": 0.00703144073486328,
+  "resize": {
+    "half": [
+      480,
+      270
+    ],
+    "passed": true,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "samples": [
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 0,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 1,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 2,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 3,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 4,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 5,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 6,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 7,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 8,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 9,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "down1": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "error": 0.00703144073486328,
+      "expected": [
+        8.75,
+        0.100000001490116,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 10,
+      "ldr": [
+        1.0,
+        0.796078443527222,
+        0.890196084976196,
+        0.866666674613953
+      ],
+      "luminance_alpha_error": 0.00111372542381294,
+      "scene": [
+        8.75,
+        0.0999755859375,
+        2.0
+      ],
+      "streak": [
+        6.54296875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bloom": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "down1": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "error": 0.00312519073486328,
+      "expected": [
+        8.0,
+        0.850000023841858,
+        2.0
+      ],
+      "final_display_error": 0.0,
+      "frame": 11,
+      "ldr": [
+        1.0,
+        0.882352948188782,
+        0.886274516582489,
+        0.917647063732147
+      ],
+      "luminance_alpha_error": 0.000329411745071284,
+      "scene": [
+        8.0,
+        0.85009765625,
+        2.0
+      ],
+      "streak": [
+        5.796875,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scope": "Actual independent HDR world/transparent weapon to premultiplied scene, six down levels, five up levels and two streak passes. Alternating red/green with full-frame radiance8 weapon verifies same-frame producer ordering through the complete graph; constant-field bloom energy and exposure threshold2.2 tested. Also verifies tk RGBA8 intermediate stores luminance alpha and nk diagnostic identity preserves RGB with opaque display output; filtering/noise disabled only in this identity probe. This does not prove nonuniform spatial kernels or dirt fidelity. Camera transform assertion executed in setup; now includes originalAO composite before down and actualroot-window resize of combinedR32F/halfR32F/AO/scene. Constant weapon bypass field is not nonuniform AO equivalence proof."
+}

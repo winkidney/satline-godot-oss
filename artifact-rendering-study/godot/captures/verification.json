@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-14",
+  "gpu_run": "runtime.log",
+  "capture_states": 42,
+  "preserved_failure_images": [
+    "diagnostic-invalid-iso.png"
+  ],
+  "reflection_trace_checks": {
+    "held_frames": 11,
+    "refresh_frames": 4,
+    "published_matrices_stable_between_texture_updates": true
+  },
+  "wetness_formula_endpoint_ranges": {
+    "0.0": [
+      0,
+      0
+    ],
+    "1.0": [
+      1,
+      1
+    ]
+  },
+  "reflection_webp": {
+    "frames": 16,
+    "lossless": true,
+    "decoded_frame_pixel_equality": true
+  },
+  "comparison_roi": [
+    320,
+    0,
+    1280,
+    800
+  ],
+  "comparisons": {
+    "micro-filtered vs micro-unfiltered": {
+      "mean_absolute_rgb_difference_0_255": 2.7757274305555555,
+      "changed_pixel_fraction": 0.12838671874999996
+    },
+    "wet-planar vs wet-no-planar": {
+      "mean_absolute_rgb_difference_0_255": 3.8339244791666665,
+      "changed_pixel_fraction": 0.46534374999999994
+    },
+    "wet-planar vs dry": {
+      "mean_absolute_rgb_difference_0_255": 19.585953559027775,
+      "changed_pixel_fraction": 0.4853046875
+    },
+    "lens-clean vs lens-styled": {
+      "mean_absolute_rgb_difference_0_255": 10.018419270833332,
+      "changed_pixel_fraction": 0.9434270833333334
+    },
+    "lens-styled vs lens-auto-exposure": {
+      "mean_absolute_rgb_difference_0_255": 8.20452126736111,
+      "changed_pixel_fraction": 0.99819140625
+    }
+  },
+  "pngs": {
+    "diagnostic-invalid-iso.png": {
+      "bytes": 147921,
+      "sha256": "50557fc173741e3ff6c9bce7cb24f5d61eabd9092283d386e0bdf84f4a483e22"
+    },
+    "dry-endpoint.png": {
+      "bytes": 476299,
+      "sha256": "a607597cfe7844499f37ebd31e9c4af21dfaf8505c936918f984dee707a08624"
+    },
+    "dry.png": {
+      "bytes": 476098,
+      "sha256": "3e8feee81ec4ab83401da6ba78f4e3a4080627cc3c2e270f34f4f784e48007dd"
+    },
+    "lens-auto-exposure.png": {
+      "bytes": 291772,
+      "sha256": "bf6daeeb5e945353e4f237b54a9799cce4de49352860247ba1070439e602bbc0"
+    },
+    "lens-clean.png": {
+      "bytes": 193903,
+      "sha256": "2c33117a14765ab5e7f900eee24f925e2b556f92306b6dd9ab4ea268e53c7a50"
+    },
+    "lens-styled.png": {
+      "bytes": 279861,
+      "sha256": "588fe68b0d03f34e9e47b5303ecf8675a1299e072d57f80d9c2a12426a487d6b"
+    },
+    "micro-close.png": {
+      "bytes": 1275694,
+      "sha256": "6397af727c222088aa849914e86e7431181ad2ce6e8808e4a511f5ee4283a13c"
+    },
+    "micro-filtered.png": {
+      "bytes": 142431,
+      "sha256": "7733df3c5eb44f9e57243d1482add418c04fd523a3ede6d03577c4c1ee3884a4"
+    },
+    "micro-unfiltered.png": {
+      "bytes": 358641,
+      "sha256": "636e1a5b7d329f57175822b037435c2770522adcbbec23143f8aa35664d083cb"
+    },
+    "motion-00.png": {
+      "bytes": 151875,
+      "sha256": "8d44cf19c5dc882c9fc8348f51935aa85d8c16449b9f90b8bd3f0d0f83ccdaee"
+    },
+    "motion-01.png": {
+      "bytes": 151313,
+      "sha256": "90857ffa3d545f05edc2f944bafe74768c8a1a67063dc64ed9610827dc277a82"
+    },
+    "motion-02.png": {
+      "bytes": 151333,
+      "sha256": "996567738423535c9b0767ec5709ee792297d0e7023e7dfac4e40a24da54775c"
+    },
+    "motion-03.png": {
+      "bytes": 151099,
+      "sha256": "7d75005884cd419c196d7996695783e1c684aa3f2721414cee66b0f886461fcb"
+    },
+    "motion-04.png": {
+      "bytes": 150634,
+      "sha256": "e253b3b6a907e278dd74f7e2dcd214a5dc52db38957c6d2ba299fff98139304a"
+    },
+    "motion-05.png": {
+      "bytes": 150485,
+      "sha256": "56c62ddbc838b746cffd13d637b1aed6f79c6cf562cb407d5f38a07f5126f5c8"
+    },
+    "motion-06.png": {
+      "bytes": 150225,
+      "sha256": "b13ac50695d91df36b5c5786d284a490b18907fb99b184a0c05cdd6056772062"
+    },
+    "motion-07.png": {
+      "bytes": 149901,
+      "sha256": "8e9e8aa67887b600140d951b22d974a05c8b1d552fa0898b17d12e69c40667de"
+    },
+    "motion-08.png": {
+      "bytes": 149537,
+      "sha256": "eeb67b816dd88baf03b0eb271d9c28ee56fd071bbbae7c8f4f8b0ef778a3d45d"
+    },
+    "motion-09.png": {
+      "bytes": 149325,
+      "sha256": "6384028bad8025ac50f9cfde85c407a3fa314b0a7e38ca19a5303bc683b6e2c0"
+    },
+    "motion-10.png": {
+      "bytes": 148914,
+      "sha256": "a22881e8309954bf3d2e4a09bfdf28472b357cef4040041e1e6288fc8a2d5530"
+    },
+    "motion-11.png": {
+      "bytes": 148570,
+      "sha256": "beabcd0e1eb9e1525b9fb22eb6fb0d91679d2a2118ad643937748d318cf51217"
+    },
+    "reflection-motion-00.png": {
+      "bytes": 440642,
+      "sha256": "a2d921ab23ec18880d7bca02180ca8a4d645bab1fc4bc21d197cffc69d26e66a"
+    },
+    "reflection-motion-01.png": {
+      "bytes": 438786,
+      "sha256": "176a30a3a381511c8d5b5240a96d8bf397536274af44ce4485978c33bbca1979"
+    },
+    "reflection-motion-02.png": {
+      "bytes": 439369,
+      "sha256": "30e8151b1ea0271a6352d4bbd50ad9b89efd774e52f9de12933a46014ca9a2cd"
+    },
+    "reflection-motion-03.png": {
+      "bytes": 439546,
+      "sha256": "f9630ce00b5c0a5d8cc391ba3fbaf7fb6b7c085b40cae5e5e141532ef284df3d"
+    },
+    "reflection-motion-04.png": {
+      "bytes": 440208,
+      "sha256": "30ab61368f6dd624df7c7297fe514f3f3864d8637a8d872e220295974d566a62"
+    },
+    "reflection-motion-05.png": {
+      "bytes": 436701,
+      "sha256": "4255cf7b36fcd86daa6f2bcc3b86c437479c73126fb64723a33e0e14d1a36e6b"
+    },
+    "reflection-motion-06.png": {
+      "bytes": 436595,
+      "sha256": "0f0b7599f523970358f8a6e5d265b207df81d5e3b7d545e685e74e5213bfefcd"
+    },
+    "reflection-motion-07.png": {
+      "bytes": 437275,
+      "sha256": "f3aa4dcc22d469fce18788c3b3c452a682487d59d9e81e66b7d4157b9ff24d93"
+    },
+    "reflection-motion-08.png": {
+      "bytes": 436996,
+      "sha256": "33cbb2ba7f0b0c0299a07fb97022e619caea00d1d8f7d9b16f2a04c4789b5626"
+    },
+    "reflection-motion-09.png": {
+      "bytes": 433477,
+      "sha256": "ba7216e86f9a37bc20fa5f36c30b7e3f78fc2963476a8c49118aae1c1c2ba472"
+    },
+    "reflection-motion-10.png": {
+      "bytes": 433636,
+      "sha256": "444aa17b255a5921576f7c2b19f2d336dd302df61eeaa7f369fa381b9e5121de"
+    },
+    "reflection-motion-11.png": {
+      "bytes": 434306,
+      "sha256": "96014fe54e67fab6a63c04e24d9c2a1c1f1a6d0b2eac5988d1fa52bb7c85cbad"
+    },
+    "reflection-motion-12.png": {
+      "bytes": 433960,
+      "sha256": "0293b74de9a646d6eef21c41e2175bece548eb64d0b67edb366d40c6c173498d"
+    },
+    "reflection-motion-13.png": {
+      "bytes": 430841,
+      "sha256": "9958a4c0b93fb1c1a5d8a7f387aeeecbdbb148950c86ad2a776306b5bb4f137b"
+    },
+    "reflection-motion-14.png": {
+      "bytes": 431544,
+      "sha256": "7b3b7fa2e601d729212c8a98546feb75c79ae6b6b09cbfd37f40de45f3df0855"
+    },
+    "reflection-motion-15.png": {
+      "bytes": 431800,
+      "sha256": "6d0567336a2555a80287b5ee19c0cf374e5080447aa7d204754bd485e9c35755"
+    },
+    "wet-angle-00.png": {
+      "bytes": 446111,
+      "sha256": "6854d9f24e23e8cab4fb59bc6ba7fbc8c59c145e51cde0c19bea397a2416b14d"
+    },
+    "wet-angle-01.png": {
+      "bytes": 463011,
+      "sha256": "7be9576dff538ea86f3002cfd9b65af346a9b483c1f4e3ea20ff68744f8cf4d6"
+    },
+    "wet-angle-02.png": {
+      "bytes": 475499,
+      "sha256": "9bf5b34c7fb7bd5db7b803b644fb32a2f262666cc69b50235ac66a94f3bbb312"
+    },
+    "wet-endpoint.png": {
+      "bytes": 430492,
+      "sha256": "7559b27fcdfe10cd879f545055dfb597f029ff90f5da9f0301abe6526fbc968d"
+    },
+    "wet-no-planar.png": {
+      "bytes": 426295,
+      "sha256": "5809065d371f41ef0d89fa337f303746fac0ab81e06920b593532c897475eece"
+    },
+    "wet-planar.png": {
+      "bytes": 434186,
+      "sha256": "a93619ece04ced6577fd09721bfe43cc340eb5715beaeb9d0706b53d481ab988"
+    }
+  },
+  "webp": {
+    "frames": 12,
+    "lossless": true,
+    "decoded_frame_pixel_equality": true,
+    "frame_duration_ms": 120
+  },
+  "note": "Framebuffer difference confirms effect toggles, not physical correctness or real-time frame-rate measurement."
+}

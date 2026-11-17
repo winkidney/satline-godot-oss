@@ -1,0 +1,25 @@
+{
+  "ads": 0.0,
+  "arm_groups": 2,
+  "attached": false,
+  "camera": "[X: (-0.242536, 0.0, 0.970143), Y: (0.0, 1.0, 0.0), Z: (-0.970143, 0.0, -0.242536), O: (0.0, 1.68, 4.0)]",
+  "failures": [],
+  "flash": false,
+  "fov": 74.0,
+  "frames": 12,
+  "frozen": true,
+  "gun": "rifle",
+  "live_steps": 29,
+  "look": "east",
+  "reload_time": -1,
+  "scope": "BD closeups and hip/ADS/sprint/debug fire/fixed reload/empty/locked entries with live roots and Fh bones. Switch uses original .005 stepping and frozen pose; wlook/wview included. No source full-frame pixel claim.",
+  "sprint": 0.0,
+  "switch_state": {
+    "fresh": false,
+    "from": "rifle",
+    "phase": "holster",
+    "t": 0.135
+  },
+  "view": "switch",
+  "weapon_view": 2
+}

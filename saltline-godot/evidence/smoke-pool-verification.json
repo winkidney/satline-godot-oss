@@ -1,0 +1,8 @@
+{
+  "checks": 7640,
+  "draws": 616,
+  "failures": [],
+  "maximum_error": 0.0000000000000035527136788005,
+  "scope": "Literal I/ph/M/u1 smoke generation, real native particle pool, 2/64 saturation, clear/reuse; no particle motion or render.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

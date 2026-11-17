@@ -1,0 +1,95 @@
+{
+  "status": "technical_implementation_complete",
+  "date": "2026-11-16",
+  "objective": "Native Godot reproduction of the original HTML game assets and rendering/gameplay effects, excluding audio.",
+  "environment": "Linux X11, RTX 4070 SUPER, pinned Godot 4.7.2 Forward+ compatibility build",
+  "bundle": "output/linux-runtime-20261116-r16",
+  "evidence": [
+    {
+      "file": "asset-inventory-verification.json",
+      "sha256": "73d992594a78709f5211565b1d7b05a94ec9ec40a1218fb7ba7c78a35e85017b"
+    },
+    {
+      "file": "material-catalog-full-runtime.json",
+      "sha256": "bca2ff7d56d37b1ff15ff75d1c07c34ea8dfd13f27b096cfadb260d8a3928b8c"
+    },
+    {
+      "file": "prop-catalog-runtime.json",
+      "sha256": "d4f05cf7cea30726a0ee366c1202b50c07b0a3809aebce0b053499b92c5855b5"
+    },
+    {
+      "file": "point-light-verification.json",
+      "sha256": "d89f364e402557fc04bef8437aac13887610430e4a43ab9d5e75fca3e7269f70"
+    },
+    {
+      "file": "post-gpu-verification.json",
+      "sha256": "79429d51012d23f753610a849330942b36c798e9d826f3698a38675cd93be50e"
+    },
+    {
+      "file": "volume-gpu-verification.json",
+      "sha256": "f73d6bf31567021dba2aad540919bb3043ba40a84278ccafb31c19ebb23b86cd"
+    },
+    {
+      "file": "motion-reference-verification.json",
+      "sha256": "85691da925c1fd28226635a306a874fb1d08a2ce4ad75e4a6a59b07a367012f3"
+    },
+    {
+      "file": "sky-gpu-verification.json",
+      "sha256": "8416018ab67a97e61b5a2ae64c04e5f8c26eb0cd224567336a2d492c0d07247d"
+    },
+    {
+      "file": "special-ibl-gpu-verification.json",
+      "sha256": "2a1ce52764dd5c2dd3582333bb92f50d1878ab9852e43980551e2d740a8c8783"
+    },
+    {
+      "file": "planar-lifecycle-verification.json",
+      "sha256": "503af31e34c4be6d9d032c108b3fa1baafee6c543a62b6a5943ec4b5b34e8895"
+    },
+    {
+      "file": "weapon-motion-lifecycle-verification.json",
+      "sha256": "bfae4dac5ccaaeac746ef2f3e9af0f86bef9ed0b702b1f489e610e7a32c46562"
+    },
+    {
+      "file": "holdout-survival.json",
+      "sha256": "7b91391d4891a8905ebd2dcd10cca5424ed136b9dc1c6ceff8b8c1f408f1c8c5"
+    },
+    {
+      "file": "survival-mission-runtime.json",
+      "sha256": "b7fdff0e8165abc5bc3d722d5cb2ba4104652a38b39f587cf87e1400622db9c0"
+    },
+    {
+      "file": "card-layout-verification.json",
+      "sha256": "c51ba89e77c12aa9fc1226712329913fb56a89f1abc006f0147f8505e123953e"
+    },
+    {
+      "file": "touch-capture-verification.json",
+      "sha256": "f94874203cb8a9b8977169ec2b3b37da53d84f44b4f9d6e294828280fed6216f"
+    },
+    {
+      "file": "runtime-bundle-r16-verification.json",
+      "sha256": "a45ceee69075f3d08521386f05f1b3f58025003ae6e667de0597f678b6e681cf"
+    },
+    {
+      "file": "showcase-boot-verification.json",
+      "sha256": "a2d82620ea3a316d68cec25cfbaca78fa579c6fc17e13577d6b5bfe348a07697"
+    },
+    {
+      "file": "main-paired-high-r16-audit-comparison.json",
+      "sha256": "c19154827c654f2c8525c7ffbfcba0972244b1455890c69d34bb7b4bbda6dec5"
+    }
+  ],
+  "fresh_checks": [
+    "Current original identity/assets inventory",
+    "Current matched-camera yard GPU image identical to historical native output",
+    "r16 actual boot and touch/desktop lifecycle; complete packaged manifest verification"
+  ],
+  "adviser": "Astra Ultra read-only current source/evidence audit: no remaining confirmed production omission",
+  "limits": [
+    "Not a claim of per-pixel equality across WebGL and Vulkan; measured residuals retained",
+    "Human visual preference and play feel not approved by user",
+    "Physical touchscreen/gamepad devices, Wayland and HiDPI not qualified",
+    "No audio as requested",
+    "No commit, push or deployment performed"
+  ],
+  "excluded_historical_failure": "local-light-verification.json retains six Spot cone boundary mismatches; actual original game has no Spot lights and its point-only GPU gate passes."
+}

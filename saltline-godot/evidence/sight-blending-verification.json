@@ -1,0 +1,42 @@
+{
+  "failures": [],
+  "samples": [
+    {
+      "background": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linear_actual": [
+        0.201556235551834,
+        0.0998987257480621,
+        0.0
+      ],
+      "linear_expected": [
+        0.200000002980232,
+        0.100000001490116,
+        0.0
+      ],
+      "maximum_error": 0.00155623257160187
+    },
+    {
+      "background": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "linear_actual": [
+        0.947306573390961,
+        0.846873164176941,
+        0.752942204475403
+      ],
+      "linear_expected": [
+        0.949999988079071,
+        0.850000023841858,
+        0.75
+      ],
+      "maximum_error": 0.00312685966491699
+    }
+  ],
+  "scope": "Actual Godot sight shader vertex/render_mode with constant fragment radiance (.2,.1,0), alpha .25 over black/white, linear tonemap; checks ONE + ONE_MINUS_SRC_ALPHA without multiplying radiance by alpha. 8bit sRGB readback tolerance .025."
+}

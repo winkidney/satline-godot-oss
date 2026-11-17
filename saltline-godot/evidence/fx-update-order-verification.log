@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+{"checks":115,"failures":[],"impact_callback_sha256":"f541d2a69d34ba6f0206af47355ddb1fdceb5ca574687f12445be27da4b1d870","impact_cases":4,"methods_sha256":"5408d0f5115a503963c7d0e9d527fb14a8c622056d6a923bfd2055fd96fbb5c8","scope":"Actual Main._advance_effects and ImpactEffects.update order versus literal original le with traced receivers; clock and nonpositive dt. Actual Main._combat_impact order and player/enemy/fallback damage versus original yE callback. Numeric receiver internals proven separately; no full global frame/physics proof.","source_sha256":"756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8","steps":5}

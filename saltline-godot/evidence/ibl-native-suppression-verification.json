@@ -1,0 +1,16 @@
+{
+  "failures": [],
+  "results": [
+    {
+      "changed_pixels": 0,
+      "maximum_rgb_difference": 0.0,
+      "source_ibl_ready": true
+    },
+    {
+      "changed_pixels": 256,
+      "maximum_rgb_difference": 20.2421875,
+      "source_ibl_ready": false
+    }
+  ],
+  "scope": "Actual generic Standard factory,sourceIBL service and spatialQuad;vary native ambient and native proceduralSky reflection energy0to10. Source-ready path must be invariant,readyfalse proves native control effective. NoGI/probe/SSIL/SSR in this scene."
+}

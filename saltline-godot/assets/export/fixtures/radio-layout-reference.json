@@ -1,0 +1,84 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear of the water.",
+  "cases": [
+    {
+      "width": 360,
+      "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear of the water.",
+      "pixels": 17,
+      "spacing": 0.34,
+      "line_height": 22.1,
+      "lines": [
+        "Control to Saltline. Cross the berth, cut the three",
+        "relays and reach the extraction boat. Stay clear of",
+        "the water."
+      ],
+      "line_widths": [
+        301.6875,
+        312.5,
+        63.125
+      ]
+    },
+    {
+      "width": 760,
+      "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear of the water.",
+      "pixels": 17,
+      "spacing": 0.34,
+      "line_height": 22.1,
+      "lines": [
+        "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear",
+        "of the water."
+      ],
+      "line_widths": [
+        601.46875,
+        79.609375
+      ]
+    },
+    {
+      "width": 761,
+      "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear of the water.",
+      "pixels": 19,
+      "spacing": 0.38,
+      "line_height": 24.7,
+      "lines": [
+        "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat.",
+        "Stay clear of the water."
+      ],
+      "line_widths": [
+        598.71875,
+        162.484375
+      ]
+    },
+    {
+      "width": 1280,
+      "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear of the water.",
+      "pixels": 19,
+      "spacing": 0.38,
+      "line_height": 24.7,
+      "lines": [
+        "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat.",
+        "Stay clear of the water."
+      ],
+      "line_widths": [
+        598.71875,
+        162.484375
+      ]
+    },
+    {
+      "width": 360,
+      "text": "relays and reach the extraction boat. Stay clear of",
+      "pixels": 17,
+      "spacing": 0.34,
+      "line_height": 22.1,
+      "lines": [
+        "relays and reach the extraction boat. Stay clear",
+        "of"
+      ],
+      "line_widths": [
+        296.03125,
+        12.734375
+      ]
+    }
+  ],
+  "scope": "Original HTML CSS and original local font in Chrome; actual computed typography and character-range line wrapping."
+}

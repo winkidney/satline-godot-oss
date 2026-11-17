@@ -1,0 +1,642 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r13",
+  "engine_sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+  "manifest_sha256": "c26ea114672f7a7c8c6ad1419df6ef8ec7095e5690b3c62971f8ec33f3f6c96e",
+  "file_count": 5560,
+  "total_bytes": 3074684433,
+  "manifest_mismatches": [],
+  "launches": {
+    "responsive": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "2ecc84df5648c353a9461e23b7014e7354221037c62ec4b4af7cb7709bfc15e1"
+    },
+    "radio": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "c5c97066523d9808a4b3b15e751316b8d3e30398ddfaff54b0feb9b3691f6e97"
+    },
+    "backdrop-final": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "6f6e7727501af1457dd41377b5d0287be1196aa209ffb91e6bc100fa2bbf06bb"
+    },
+    "survival": {
+      "exit_code": 0,
+      "errors": [],
+      "log_sha256": "46a964b17a7a4152b7a3a3a9b030c2d6a253fc8c8a9e1deb379e300c79ea5a79"
+    }
+  },
+  "responsive": {
+    "cases": [
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 56,
+          "text": "01",
+          "y": 644.0
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 590.0
+        },
+        "headings": 0,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 655.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH",
+          "THE EXTRACTION BOAT"
+        ],
+        "objective_y": 78.0,
+        "touch": false,
+        "width": 360.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 44,
+          "text": "01",
+          "y": 128.6
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 90.0
+        },
+        "headings": 0,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 161.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH",
+          "THE EXTRACTION BOAT"
+        ],
+        "objective_y": 78.0,
+        "touch": true,
+        "width": 360.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 56,
+          "text": "01",
+          "y": 644.0
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 590.0
+        },
+        "headings": 0,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 655.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+        ],
+        "objective_y": 78.0,
+        "touch": false,
+        "width": 760.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 44,
+          "text": "01",
+          "y": 128.6
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 90.0
+        },
+        "headings": 0,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 161.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+        ],
+        "objective_y": 78.0,
+        "touch": true,
+        "width": 760.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 76,
+          "text": "01",
+          "y": 644.0
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 574.0
+        },
+        "headings": 1,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 655.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE",
+          "EXTRACTION BOAT"
+        ],
+        "objective_y": 16.0,
+        "touch": false,
+        "width": 761.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 44,
+          "text": "01",
+          "y": 114.6
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 76.0
+        },
+        "headings": 1,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 139.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE",
+          "EXTRACTION BOAT"
+        ],
+        "objective_y": 16.0,
+        "touch": true,
+        "width": 761.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 76,
+          "text": "01",
+          "y": 644.0
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 574.0
+        },
+        "headings": 1,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 655.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE",
+          "EXTRACTION BOAT"
+        ],
+        "objective_y": 16.0,
+        "touch": false,
+        "width": 1280.0
+      },
+      {
+        "ammo": {
+          "ammo": true,
+          "pixels": 44,
+          "text": "01",
+          "y": 114.6
+        },
+        "cue": {
+          "ammo": false,
+          "pixels": 12,
+          "text": "LOW AMMO",
+          "y": 76.0
+        },
+        "headings": 1,
+        "health": {
+          "ammo": false,
+          "pixels": 11,
+          "text": "VITALS",
+          "y": 139.0
+        },
+        "objective_lines": [
+          "CUT THE RELAYS AND REACH THE",
+          "EXTRACTION BOAT"
+        ],
+        "objective_y": 16.0,
+        "touch": true,
+        "width": 1280.0
+      }
+    ],
+    "controlled_focus_resumes": 1,
+    "failures": [],
+    "main_capture": "responsive-hud-main-360-touch.png",
+    "scope": "Production HUD draw methods, actual Main mission/weapon and production stretch configuration. Four widths desktop/touch vs original CSS objective top/font/wrap/relay row, heading visibility, ammo font and breakpoint movements. Final capture uses actual GameUI after removing observers. Not whole-image pixels or HiDPI."
+  },
+  "radio": {
+    "cases": [
+      {
+        "capture": "res://evidence/radio-layout-360-desktop.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "Control to Saltline. Cross the berth, cut the three"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "relays and reach the extraction boat. Stay clear of"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "the water."
+          }
+        ],
+        "source_line_widths": [
+          302.34,
+          313.34,
+          63.4
+        ],
+        "touch": false,
+        "width": 360.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-360-touch.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "Control to Saltline. Cross the berth, cut the three"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "relays and reach the extraction boat. Stay clear of"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "the water."
+          }
+        ],
+        "source_line_widths": [
+          302.34,
+          313.34,
+          63.4
+        ],
+        "touch": true,
+        "width": 360.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-760-desktop.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "of the water."
+          }
+        ],
+        "source_line_widths": [
+          602.0,
+          80.42
+        ],
+        "touch": false,
+        "width": 760.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-760-touch.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat. Stay clear"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "of the water."
+          }
+        ],
+        "source_line_widths": [
+          602.0,
+          80.42
+        ],
+        "touch": true,
+        "width": 760.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-761-desktop.png",
+        "draws": [
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+          },
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Stay clear of the water."
+          }
+        ],
+        "source_line_widths": [
+          598.82,
+          163.12
+        ],
+        "touch": false,
+        "width": 761.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-761-touch.png",
+        "draws": [
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+          },
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Stay clear of the water."
+          }
+        ],
+        "source_line_widths": [
+          598.82,
+          163.12
+        ],
+        "touch": true,
+        "width": 761.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-1280-desktop.png",
+        "draws": [
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+          },
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Stay clear of the water."
+          }
+        ],
+        "source_line_widths": [
+          598.82,
+          163.12
+        ],
+        "touch": false,
+        "width": 1280.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-1280-touch.png",
+        "draws": [
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Control to Saltline. Cross the berth, cut the three relays and reach the extraction boat."
+          },
+          {
+            "line_height": 24.7,
+            "pixels": 19,
+            "spacing": 0.38,
+            "text": "Stay clear of the water."
+          }
+        ],
+        "source_line_widths": [
+          598.82,
+          163.12
+        ],
+        "touch": true,
+        "width": 1280.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-360-desktop-final-fragment.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "relays and reach the extraction boat. Stay clear"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "of"
+          }
+        ],
+        "source_line_widths": [
+          296.32,
+          13.68
+        ],
+        "touch": false,
+        "width": 360.0
+      },
+      {
+        "capture": "res://evidence/radio-layout-360-touch-final-fragment.png",
+        "draws": [
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "relays and reach the extraction boat. Stay clear"
+          },
+          {
+            "line_height": 22.1,
+            "pixels": 17,
+            "spacing": 0.34,
+            "text": "of"
+          }
+        ],
+        "source_line_widths": [
+          296.32,
+          13.68
+        ],
+        "touch": true,
+        "width": 360.0
+      }
+    ],
+    "failures": [],
+    "scope": "Actual RadioHud draw calls and GPU screenshots at four window widths in desktop/touch layouts, compared with original CSS computed typography and text line wrapping. No whole-image pixel equivalence claim."
+  },
+  "backdrop": {
+    "backdrop_part": "all",
+    "explicit_room_materials": 0,
+    "failures": [],
+    "frames": 3,
+    "frozen": true,
+    "hdr": {
+      "file": "res://evidence/backdrop-r13.rgb16f",
+      "format": 14,
+      "height": 720,
+      "row_order": "top-to-bottom",
+      "width": 1280
+    },
+    "label_textures": [
+      {
+        "geometry": "backdrop-all-mesh-16",
+        "height": 128,
+        "mipmaps": 9,
+        "sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd",
+        "width": 720
+      },
+      {
+        "geometry": "backdrop-all-mesh-23",
+        "height": 128,
+        "mipmaps": 9,
+        "sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634",
+        "width": 636
+      }
+    ],
+    "motion_time": 0.05,
+    "nodes": 34,
+    "render_options": {
+      "auto_exposure": true,
+      "camera": "[X: (0.633238, 0.0, 0.773957), Y: (-0.198271, 0.96663, 0.162222), Z: (-0.74813, -0.256178, 0.612107), O: (0.0, 1.7, 27.0)]",
+      "exposure": 1.0,
+      "fov": 74.0
+    },
+    "scope": "Original scene showcase geometry, common80m concrete floor, stub environment and live source animation. No whole-image parity or original texture hash claim.",
+    "shadow_casters": 20,
+    "showcase": "backdrop",
+    "warehouse_lights": 0,
+    "world_time": 0.05
+  },
+  "survival": {
+    "combat": {
+      "blasts": 2,
+      "hits": 31,
+      "kills": 13,
+      "shots": 60
+    },
+    "completion_menu": "complete",
+    "controlled_focus_resumes": 1,
+    "cut": 3,
+    "damage_events": [],
+    "debrief": {
+      "accuracy": 0.516666666666667,
+      "kills": 13,
+      "rating": "Surgical",
+      "retries": 0,
+      "time": 47.7333333333332
+    },
+    "difficulty": "standard",
+    "distance": 146.935263400432,
+    "failures": [],
+    "frames": 1457,
+    "health": 100.0,
+    "legs": [
+      {
+        "done": true,
+        "leg": 0,
+        "position": [
+          -0.00479444209486246,
+          0.0,
+          6.32302856445312
+        ],
+        "reached_waypoint": 5,
+        "steps": 406,
+        "waypoints": 9
+      },
+      {
+        "done": true,
+        "leg": 1,
+        "position": [
+          -0.786281585693359,
+          0.0299999993294477,
+          -18.1092128753662
+        ],
+        "reached_waypoint": 6,
+        "steps": 427,
+        "waypoints": 8
+      },
+      {
+        "done": true,
+        "leg": 2,
+        "position": [
+          21.5250225067139,
+          0.0,
+          -1.1827644109726
+        ],
+        "reached_waypoint": 7,
+        "steps": 405,
+        "waypoints": 10
+      },
+      {
+        "done": true,
+        "leg": 3,
+        "position": [
+          27.9423847198486,
+          0.0,
+          17.9828281402588
+        ],
+        "reached_waypoint": 7,
+        "steps": 219,
+        "waypoints": 8
+      }
+    ],
+    "minimum_health": 100.0,
+    "protected_live_frames": 0,
+    "rifle_ammo": 30,
+    "rifle_reserve": 90.0,
+    "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Test-only global seed4207 and controlled resumes after desktop focus loss; production random stream and pause behavior unchanged. Not human play/balance acceptance.",
+    "shared_navigation_fx_random": true,
+    "start": [
+      -32.0,
+      0.0,
+      6.0
+    ],
+    "state": "complete",
+    "test_only_global_seed": 4207
+  },
+  "initial_invocation_correction": "First backdrop command mistakenly used HTML URL-style --show=backdrop, which is not the documented native CLI. That test process192603 was identified and terminated143, then the documented package scripts/level_showcase_runner.gd --game --showcase=backdrop entry passed. No launcher or production change.",
+  "scope": "Four actual NVIDIA GPU launches from cwd /tmp, isolated XDG, production modules/assets loaded from bundle. Eight responsive HUD cases, ten radio cases, backdrop original label GPU mip identities and normal Standard mission completion. All original manifest files rehashed after runs; not HiDPI, whole-image pixels or all-parameter acceptance."
+}

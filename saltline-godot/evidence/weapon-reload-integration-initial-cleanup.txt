@@ -1,0 +1,1 @@
+Initial numeric comparisons passed, but shutdown reported 42 ObjectDB instances leaked and 4 resources in use. Production event-owner strong reference and test signal self capture were replaced by weak ownership before accepting this verification.

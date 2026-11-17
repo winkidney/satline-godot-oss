@@ -1,0 +1,7 @@
+### Result
+{"rows":[{"seconds":0,"clip":"inset(0px 100% 0px 0px)"},{"seconds":0.001,"clip":"inset(0px 100% 0px 0px)"},{"seconds":0.02,"clip":"inset(0px 100% 0px 0px)"},{"seconds":0.039,"clip":"inset(0px 100% 0px 0px)"},{"seconds":0.04,"clip":"inset(0px 96.3571% 0px 0px)"},{"seconds":0.1,"clip":"inset(0px 92.7143% 0px 0px)"},{"seconds":0.25,"clip":"inset(0px 78.1429% 0px 0px)"},{"seconds":0.5,"clip":"inset(0px 56.2857% 0px 0px)"},{"seconds":0.55,"clip":"inset(0px 49% 0px 0px)"},{"seconds":0.7,"clip":"inset(0px 38.0714% 0px 0px)"},{"seconds":1,"clip":"inset(0px 8.92857% 0px 0px)"},{"seconds":1.099,"clip":"inset(0px 1.64286% 0px 0px)"},{"seconds":1.1,"clip":"inset(0px -2% 0px 0px)"},{"seconds":1.2,"clip":"inset(0px -2% 0px 0px)"}],"scope":"Exact original CSS locin animation sampled through browser Web Animations; no game logic or font-layout assertion"}
+### Ran Playwright code
+```js
+await (async(page)=>{return await page.evaluate(async()=>{const card=document.querySelector('.loc-card');card.classList.add('on');await new Promise(requestAnimationFrame);const animation=card.querySelector('b').getAnimations().find(a=>a.animationName==='locin');if(!animation)throw Error('locin missing');animation.pause();const rows=[];for(const seconds of [0,.001,.02,.039,.04,.1,.25,.5,.55,.7,1,1.099,1.1,1.2]){animation.currentTime=seconds*1000;rows.push({seconds,clip:getComputedStyle(card.querySelector('b')).clipPath});}return {rows,scope:'Exact original CSS locin animation sampled through browser Web Animations; no game logic or font-layout assertion'};});}
+)(page);
+```

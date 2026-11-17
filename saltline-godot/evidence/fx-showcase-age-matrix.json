@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "case": "age010",
+      "age": 0.1,
+      "checks": 1794,
+      "maximum_quad_error": 1.907348675445064e-06,
+      "source_draws": 1367,
+      "native_draws": 1367,
+      "pixel_mae": 0.002981077239923747,
+      "pixel_p99": 0.03529411764705881,
+      "failures": [],
+      "capture_hash_matches": true
+    },
+    {
+      "case": "age150",
+      "age": 1.5,
+      "checks": 722,
+      "maximum_quad_error": 7.15255734196063e-07,
+      "source_draws": 1451,
+      "native_draws": 1451,
+      "pixel_mae": 0.0027269312817719683,
+      "pixel_p99": 0.0392156862745098,
+      "failures": [],
+      "capture_hash_matches": true
+    }
+  ],
+  "scope": "Two additional fixed-tape explosion ages; quad tolerance1e-5 and diagnostic pixel metrics, no broad visual acceptance."
+}

@@ -1,0 +1,143 @@
+{
+  "casters": {
+    "eligible": 2,
+    "mesh": 1,
+    "multimesh": 1,
+    "skin": 1,
+    "unsupported": [],
+    "visible": 2
+  },
+  "failures": [],
+  "scope": "Actual independentShadow World3D proxy shares live Skin/Skeleton3D acrossworlds and live MultiMesh instancebuffer. Nonperiodic bone/instance offsets, original every-other-renderframe update with oddframes holding previousGPU map; pixelcentroid tolerance1/128. Controlled onebone plane/twoinstances, not fullsource148caster fidelity.",
+  "snapshots": [
+    {
+      "centroids": [
+        0.25,
+        0.615364583333333
+      ],
+      "expected": [
+        0.25,
+        0.61
+      ],
+      "frame": 0,
+      "pixels": [
+        130,
+        195
+      ],
+      "updated": true
+    },
+    {
+      "centroids": [
+        0.25,
+        0.615364583333333
+      ],
+      "expected": [
+        0.25,
+        0.61
+      ],
+      "frame": 1,
+      "pixels": [
+        130,
+        195
+      ],
+      "updated": false
+    },
+    {
+      "centroids": [
+        0.2109375,
+        0.76953125
+      ],
+      "expected": [
+        0.21,
+        0.77
+      ],
+      "frame": 2,
+      "pixels": [
+        130,
+        208
+      ],
+      "updated": true
+    },
+    {
+      "centroids": [
+        0.2109375,
+        0.76953125
+      ],
+      "expected": [
+        0.21,
+        0.77
+      ],
+      "frame": 3,
+      "pixels": [
+        130,
+        208
+      ],
+      "updated": false
+    },
+    {
+      "centroids": [
+        0.26953125,
+        0.806510416666667
+      ],
+      "expected": [
+        0.27,
+        0.81
+      ],
+      "frame": 4,
+      "pixels": [
+        143,
+        195
+      ],
+      "updated": true
+    },
+    {
+      "centroids": [
+        0.26953125,
+        0.806510416666667
+      ],
+      "expected": [
+        0.27,
+        0.81
+      ],
+      "frame": 5,
+      "pixels": [
+        143,
+        195
+      ],
+      "updated": false
+    },
+    {
+      "centroids": [
+        0.2890625,
+        0.66015625
+      ],
+      "expected": [
+        0.29,
+        0.66
+      ],
+      "frame": 6,
+      "pixels": [
+        130,
+        208
+      ],
+      "updated": true
+    },
+    {
+      "centroids": [
+        0.2890625,
+        0.66015625
+      ],
+      "expected": [
+        0.29,
+        0.66
+      ],
+      "frame": 7,
+      "pixels": [
+        130,
+        208
+      ],
+      "updated": false
+    }
+  ],
+  "updates": 4
+}

@@ -1,0 +1,349 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "css_sha256": "10991647f67f27c0687c2c2e505a872649c0e9df3e5490b258414731686341ef",
+  "stages": [
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.012,
+        "marker": "normal",
+        "ms": 60
+      },
+      "gap_target": 9.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 1,
+          "gap": 0,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 30,
+          "cross_alpha": 1,
+          "gap": 4.75,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 60,
+          "cross_alpha": 1,
+          "gap": 9.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.06,
+        "marker": "normal",
+        "ms": 20
+      },
+      "gap_target": 32.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 1,
+          "gap": 9.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 10,
+          "cross_alpha": 1,
+          "gap": 13.3333,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 20,
+          "cross_alpha": 1,
+          "gap": 17.1667,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.012,
+        "marker": "dim",
+        "ms": 10
+      },
+      "gap_target": 9.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 1,
+          "gap": 17.1667,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 5,
+          "cross_alpha": 1,
+          "gap": 15.25,
+          "marks_alpha": 1,
+          "marker_alpha": 0.77441
+        },
+        {
+          "ms": 10,
+          "cross_alpha": 1,
+          "gap": 13.3333,
+          "marks_alpha": 1,
+          "marker_alpha": 0.766463
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0.8,
+        "spread": 0.06,
+        "marker": "dim",
+        "ms": 30
+      },
+      "gap_target": 9.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 1,
+          "gap": 13.3333,
+          "marks_alpha": 1,
+          "marker_alpha": 0.766463
+        },
+        {
+          "ms": 15,
+          "cross_alpha": 0.814543,
+          "gap": 9.5,
+          "marks_alpha": 0.905204,
+          "marker_alpha": 0.726914
+        },
+        {
+          "ms": 30,
+          "cross_alpha": 0.486685,
+          "gap": 9.5,
+          "marks_alpha": 0.704756,
+          "marker_alpha": 0.664438
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.012,
+        "marker": "offscreen",
+        "ms": 15
+      },
+      "gap_target": 9.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 0.486685,
+          "gap": 9.5,
+          "marks_alpha": 0.704756,
+          "marker_alpha": 0.664438
+        },
+        {
+          "ms": 7.5,
+          "cross_alpha": 0.577813,
+          "gap": 9.5,
+          "marks_alpha": 0.771632,
+          "marker_alpha": 0.665025
+        },
+        {
+          "ms": 15,
+          "cross_alpha": 0.742226,
+          "gap": 9.5,
+          "marks_alpha": 0.877578,
+          "marker_alpha": 0.665963
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0.8,
+        "spread": 0.03,
+        "sprinting": true,
+        "marker": "near",
+        "ms": 20
+      },
+      "gap_target": 9.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 0.742226,
+          "gap": 9.5,
+          "marks_alpha": 0.877578,
+          "marker_alpha": 0.665963
+        },
+        {
+          "ms": 10,
+          "cross_alpha": 0.627111,
+          "gap": 9.5,
+          "marks_alpha": 0.8238,
+          "marker_alpha": 0.649865
+        },
+        {
+          "ms": 20,
+          "cross_alpha": 0.407695,
+          "gap": 9.5,
+          "marks_alpha": 0.711329,
+          "marker_alpha": 0.621735
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.03,
+        "sprinting": true,
+        "marker": "normal",
+        "ms": 300
+      },
+      "gap_target": 28.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 0.407695,
+          "gap": 9.5,
+          "marks_alpha": 0.711329,
+          "marker_alpha": 0.621735
+        },
+        {
+          "ms": 150,
+          "cross_alpha": 1,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.761836
+        },
+        {
+          "ms": 300,
+          "cross_alpha": 1,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.03,
+        "alive": false,
+        "marker": "normal",
+        "ms": 100
+      },
+      "gap_target": 28.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 1,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 50,
+          "cross_alpha": 0.197597,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 100,
+          "cross_alpha": 0,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.03,
+        "state": "reloading_hidden",
+        "marker": "normal",
+        "ms": 30
+      },
+      "gap_target": 28.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 0,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 15,
+          "cross_alpha": 0,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 30,
+          "cross_alpha": 0,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    },
+    {
+      "input": {
+        "ads": 0,
+        "spread": 0.03,
+        "marker": "normal",
+        "ms": 100
+      },
+      "gap_target": 18.5,
+      "samples": [
+        {
+          "ms": 0,
+          "cross_alpha": 0,
+          "gap": 28.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 50,
+          "cross_alpha": 0.802403,
+          "gap": 20.1667,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        },
+        {
+          "ms": 100,
+          "cross_alpha": 1,
+          "gap": 18.5,
+          "marks_alpha": 1,
+          "marker_alpha": 0.78
+        }
+      ]
+    }
+  ],
+  "initial_markers": {
+    "normal": {
+      "alpha": 0.78,
+      "animations": 0
+    },
+    "dim": {
+      "alpha": 0.22,
+      "animations": 0
+    },
+    "offscreen": {
+      "alpha": 0.7,
+      "animations": 0
+    },
+    "near": {
+      "alpha": 0,
+      "animations": 0
+    }
+  },
+  "scope": "Actual original CSS in Chrome; cross .1s ease/gap .06s linear, marker parent .15s ease and child .25s ease, exact interrupted/reversed animation sampling. Fixed projection inputs; no complete HUD pixel proof."
+}

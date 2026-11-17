@@ -1,0 +1,479 @@
+{
+  "cases": [
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 0,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.69921875
+      ],
+      "case": 1,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 2,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.50390625,
+        0.5,
+        0.69921875
+      ],
+      "case": 3,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 4,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.69921875
+      ],
+      "case": 5,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 6,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.421875,
+        0.30078125,
+        0.69921875
+      ],
+      "case": 7,
+      "maximum_error": 0.001953125
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 8,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 9,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 11,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 12,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 13,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 14,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.66015625,
+        0.30078125,
+        0.1015625
+      ],
+      "case": 15,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "case": 16,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "case": 17,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "case": 18,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "case": 19,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "case": 20,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "case": 21,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "case": 22,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.50390625,
+        0.30078125,
+        0.5
+      ],
+      "case": 23,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "case": 24,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.30078125
+      ],
+      "case": 25,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "case": 26,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.50390625,
+        0.5,
+        0.30078125
+      ],
+      "case": 27,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "case": 28,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.30078125
+      ],
+      "case": 29,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "case": 30,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.578125,
+        0.30078125,
+        0.30078125
+      ],
+      "case": 31,
+      "maximum_error": 0.001953125
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 32,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.69921875
+      ],
+      "case": 33,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 34,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.50390625,
+        0.5,
+        0.69921875
+      ],
+      "case": 35,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 36,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.49609375,
+        0.5,
+        0.69921875
+      ],
+      "case": 37,
+      "maximum_error": 0.00390625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 38,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.421875,
+        0.30078125,
+        0.69921875
+      ],
+      "case": 39,
+      "maximum_error": 0.001953125
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 40,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 41,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "case": 42,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 43,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 44,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.5,
+        0.5,
+        0.1015625
+      ],
+      "case": 45,
+      "maximum_error": 0.0015869140625
+    },
+    {
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "case": 46,
+      "maximum_error": 0.0
+    },
+    {
+      "actual": [
+        0.66015625,
+        0.30078125,
+        0.1015625
+      ],
+      "case": 47,
+      "maximum_error": 0.0015869140625
+    }
+  ],
+  "failures": [
+    {
+      "case": 1,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 3,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 5,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 23,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 25,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 27,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 29,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 33,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 35,
+      "maximum_error": 0.00390625
+    },
+    {
+      "case": 37,
+      "maximum_error": 0.00390625
+    }
+  ],
+  "scope": "Actual generic MeshBasic material factory and spatial sampler vs originalThree,48 linear-filter RGBA8 primary-color texels wrap/clamp UV cases,absolute.002. No mip/anisotropic or arbitrarySRGB gradients proof."
+}

@@ -1,0 +1,7 @@
+{
+  "checks": 11604,
+  "cold_failures": 0,
+  "failures": [],
+  "maximum_error": 0.0000000286102295188329,
+  "scope": "Actual Main cold pool before first activation vs original unactivated same-type record and local bone/group/material witness. Per-instance rig/lens identities, native Skeleton3D poses and18 pool members checked; first activation and dirty-state reuse checked. Reuse preserves gp/gy/rotor history instead of cold-resetting each spawn."
+}

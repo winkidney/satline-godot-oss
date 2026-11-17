@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path');const base=require('./weapon_magazine_reference.cjs');
+const root=path.resolve(__dirname,'..'),s=fs.readFileSync(path.join(root,'../artifact-rendering-study/source/extracted/bundle-1.js'),'utf8');
+const d0=s.slice(s.indexOf('  function d0('),s.indexOf('  function tn('));
+const poses=s.slice(s.indexOf('  var jl = d0('),s.indexOf('  function Za('));
+const pinch=s.slice(s.indexOf('from: d0({',s.indexOf('    nn.mag_pinch = {'))+6,s.indexOf('        to: d0(',s.indexOf('    nn.mag_pinch = {'))).trim().replace(/,$/,'');
+const poseData=Function('const Un=20,Eh=["thumb","index","middle","ring","little"];'+d0+poses+'return {relaxed:Array.from(di.relaxed),open:Array.from(di.open),pinch:Array.from('+pinch+')};')();
+fs.writeFileSync(path.join(root,'assets/export/weapon-reload-hand-poses.json'),JSON.stringify(poseData,null,2));
+const sourceFixture=JSON.parse(fs.readFileSync(path.join(root,'assets/export/fixtures/weapon-magazine-reference.json'),'utf8'));
+const cases=sourceFixture.cases.map(c=>{const original=base.make(base.T,c.gun,base.data.modules.weapon.rigs[c.gun].holds,base.timings,poseData);return {...c,rows:c.rows.map(row=>({input:row.input,expected:original.step(row.input).left}))};});
+fs.writeFileSync(path.join(root,'assets/export/fixtures/weapon-reload-hand-reference.json'),JSON.stringify({source_sha256:base.source_sha256,reload_sha256:base.reload_sha256,cases}));console.log(JSON.stringify({cases:cases.length,steps:cases.reduce((n,c)=>n+c.rows.length,0)}));

@@ -1,0 +1,42 @@
+{
+  "failures": [
+    "holding did not advance ring",
+    "completed relay did not clear prompt"
+  ],
+  "frames": 360,
+  "observed": [
+    {
+      "active": true,
+      "alpha": 1.0,
+      "cut": 0,
+      "dash_offset": 119.38,
+      "frame": 30,
+      "progress": 0.0
+    },
+    {
+      "active": true,
+      "alpha": 1.0,
+      "cut": 0,
+      "dash_offset": 119.38,
+      "frame": 100,
+      "progress": 0.0
+    },
+    {
+      "active": true,
+      "alpha": 1.0,
+      "cut": 0,
+      "dash_offset": 119.38,
+      "frame": 180,
+      "progress": 0.0
+    },
+    {
+      "active": true,
+      "alpha": 1.0,
+      "cut": 0,
+      "dash_offset": 119.38,
+      "frame": 330,
+      "progress": 0.0
+    }
+  ],
+  "scope": "Actual Main player at relay A, proximity prompt, held interaction progress, actual relay completion and prompt fade. Controlled starting pose; not navigation/gamepad/touch/pixel parity."
+}

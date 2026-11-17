@@ -1,0 +1,8 @@
+{
+  "bone_fields_compared": 57600,
+  "failures": [],
+  "frames": 240,
+  "max_transform_or_foot_error": 0.0000622895677224733,
+  "scope": "Original procedural step and IK, flat ground and controlled turning/acceleration; not complete AI",
+  "steps": 14
+}

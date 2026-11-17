@@ -1,0 +1,10 @@
+{
+  "cases": 480,
+  "failures": [],
+  "hits": 324,
+  "maximum_error": 0.00000234739695770259,
+  "numeric_tolerance": 0.0001,
+  "precision_note": "Vector3 inputs are float32; hit and part decisions must match",
+  "scope": "Actual original Gull _raycast ellipsoid with 2.3 y scaling, prior nearest hit and range bounds; no weak part",
+  "weak": 0
+}

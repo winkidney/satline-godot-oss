@@ -1,0 +1,27 @@
+{
+  "local_links": 196,
+  "line_anchors": 106,
+  "original_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "original_matches_user_file": true,
+  "extracted_scripts": 2,
+  "shader_text_fragments": 77,
+  "shader_templates_with_unevaluated_interpolation": 21,
+  "svg_xml_parsed": 2,
+  "reference_images": {
+    "godot-alpha-blend-vs-scissor.png": [
+      664,
+      402
+    ],
+    "khronos-sheen-cushion.png": [
+      400,
+      300
+    ]
+  },
+  "game_or_godot_runtime_executed": false,
+  "gpu_compilation_or_performance_verified": false,
+  "errors": [],
+  "target_source_files_hashed": 11,
+  "formatted_js_parse": "Prettier/Babel static parse and format check passed",
+  "authored_diagrams": "SVG XML parsed; rasterized to /tmp with ImageMagick for visual inspection; no game rendering",
+  "phase": "initial-static-verification; superseded for runtime status by runtime-verification.json"
+}

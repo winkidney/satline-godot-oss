@@ -1,0 +1,151 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r15",
+  "file_count": 5566,
+  "total_bytes": 3074723633,
+  "engine_sha256": "639baccce7c7c63638da889fba58b3797316b09be1df9da0bd49c839af1a5788",
+  "manifest_mismatches": [],
+  "boot": {
+    "entry_scene": "res://scenes/boot.tscn",
+    "failures": [],
+    "profile": "normal",
+    "scope": "Actual project startup scene, visible GPU boot snapshots, real asset milestones, Main disabled during initialization, ready after depth producer, source stage labels/weights, CSS layout/durations, pointer release, 700ms removal and actual title. No artificial policy override; reduced run requires private Portal1 fixture.",
+    "stages": [
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Raising the terminal",
+        "progress": 0.0,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Waking the renderer",
+        "progress": 0.04,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Mixing paint, rust and rain",
+        "progress": 0.12,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Stacking containers",
+        "progress": 0.34,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Raising the cranes",
+        "progress": 0.5,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Flooding the apron",
+        "progress": 0.58,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Loading tracers and smoke",
+        "progress": 0.66,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Checking the rifle",
+        "progress": 0.74,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Waking the Harbormaster",
+        "progress": 0.82,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Waiting for first light",
+        "progress": 0.92,
+        "subtitle_y": 399.5
+      },
+      {
+        "bar_width": 320.0,
+        "bar_y": 428.5,
+        "mark_pixels": 96.0,
+        "message": "Ready",
+        "progress": 1.0,
+        "subtitle_y": 399.5
+      }
+    ]
+  },
+  "scope": "Actual packaged boot from /tmp with isolated XDG, external test driver only; res resources and engine come from bundle. Manifest covers original packaged files, not later evidence. Showcase source runs are separately recorded; full game completion is not re-tested in r15.",
+  "backdrop_diagnostic": {
+    "backdrop_part": "all",
+    "explicit_room_materials": 0,
+    "failures": [],
+    "frames": 4,
+    "frozen": false,
+    "hdr": {
+      "file": "res://evidence/level-showcase.rgb16f",
+      "format": 14,
+      "height": 720,
+      "row_order": "top-to-bottom",
+      "width": 1280
+    },
+    "label_textures": [
+      {
+        "geometry": "backdrop-all-mesh-16",
+        "height": 128,
+        "mipmaps": 9,
+        "sha256": "32b30975202f26ed81f9f7912f9a21cc8132e93ed3409745203717206f438bdd",
+        "width": 720
+      },
+      {
+        "geometry": "backdrop-all-mesh-23",
+        "height": 128,
+        "mipmaps": 9,
+        "sha256": "c04c3e6bac4c9fbcb8aa7913c64539836fefca7f2e9fa27c281b7a8cb089f634",
+        "width": 636
+      }
+    ],
+    "motion_time": 0.16385,
+    "nodes": 34,
+    "render_options": {
+      "auto_exposure": true,
+      "camera": "[X: (0.633238, 0.0, 0.773957), Y: (-0.198271, 0.96663, 0.162222), Z: (-0.74813, -0.256178, 0.612107), O: (0.0, 1.7, 27.0)]",
+      "exposure": 1.0,
+      "fov": 74.0
+    },
+    "scope": "Original scene showcase geometry, common80m concrete floor, stub environment and live source animation. No whole-image parity or original texture hash claim.",
+    "shadow_casters": 20,
+    "showcase": "backdrop",
+    "warehouse_lights": 0,
+    "world_time": 0.16385
+  },
+  "terminal_exit_codes": {
+    "boot": 0,
+    "backdrop_diagnostic": 0
+  }
+}

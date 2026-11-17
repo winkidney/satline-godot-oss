@@ -1,0 +1,163 @@
+{
+  "files": {
+    "engine/source-manifest.json": "4d0274f190fe0b90ae6ee2a04efb09658939c5bee71c1250e4d79d7f26d43c34",
+    "engine/build-result.json": "5a108f3334abb2bfc0b18a3dcfe98aea509e2f381df914ab7d97beaf7a17e5e8",
+    "engine/patches/0004-saltline-reduced-motion-portal.patch": "68ff11125a705a088a9cbec09702b6415e027322f5d8f3f8cc4160b919e02782",
+    "tools/portal_motion_mock.py": "0648a89fcd2285099e9ad7c303abc81d36237e359e0bb6ca3af001abead206af",
+    "tools/verify_portal_motion.gd": "e966a82c5925ad6faa55b55cfcc6d252e577f8838e190b3c4e3431a1b2e3ebd8"
+  },
+  "build": {
+    "binary": "<PROJECT_ROOT>/engine/.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64",
+    "sha256": "639baccce7c7c63638da889fba58b3797316b09be1df9da0bd49c839af1a5788",
+    "bytes": 80338024,
+    "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "patch_sha256": "68ff11125a705a088a9cbec09702b6415e027322f5d8f3f8cc4160b919e02782",
+    "build_command": [
+      "<PROJECT_ROOT>/engine/.venv/bin/scons",
+      "platform=linuxbsd",
+      "target=template_debug",
+      "arch=x86_64",
+      "wayland=no",
+      "use_static_cpp=no",
+      "debug_symbols=no",
+      "lto=none",
+      "disable_path_overrides=no",
+      "import_env_vars=CCACHE_DIR",
+      "-j8"
+    ]
+  },
+  "patch_verification": {
+    "patch": "patches/0004-saltline-reduced-motion-portal.patch",
+    "patch_sha256": "68ff11125a705a088a9cbec09702b6415e027322f5d8f3f8cc4160b919e02782",
+    "files": 34,
+    "mismatches": [],
+    "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "scope": "Full combined patch applied to exact original archive versions of all modified files in isolated temporary tree; all resulting hashes match current source manifest."
+  },
+  "launches": {
+    "host": {
+      "exit_code": 0,
+      "sha256": "bfd0f24cd466cd5d5cf228808cbdc380986b27c6bd51f5a112572edfd9d0b1b4"
+    },
+    "render": {
+      "exit_code": 0,
+      "sha256": "4590525bb7a1d64bcb6a0f655d91862ed0b0a1cfcc979fa630d9b17eac4485a5"
+    },
+    "0": {
+      "exit_code": 0,
+      "sha256": "dc618a1a69b8d8e7d9d1dd5ef5d75087e6529a0199d78f58e80f733769ebd817"
+    },
+    "1": {
+      "exit_code": 0,
+      "sha256": "07a2b7bc9cd56fa7a33e478f2097cc8867463296cf683daa05d8e9d1d12eadbf"
+    },
+    "missing": {
+      "exit_code": 0,
+      "sha256": "cd0dfe08625016175c09d0f2729937ad6fb626ebbd7d189511c0f9070097f7ea"
+    }
+  },
+  "profiles": {
+    "0": {
+      "cached_getter_calls": 6000,
+      "failures": [],
+      "initial": 0,
+      "main_wiring": true,
+      "reads_after": [
+        "(uint32 1,)\n"
+      ],
+      "reads_before": [
+        "(uint32 1,)\n"
+      ],
+      "samples": [
+        {
+          "signal": 1,
+          "value": 1
+        },
+        {
+          "signal": 0,
+          "value": 0
+        },
+        {
+          "signal": 17,
+          "value": 0
+        },
+        {
+          "signal": 1,
+          "value": 1
+        }
+      ],
+      "scope": "Actual X11 engine API against private DBus portal mock. Initial normal/reduced/unsupported, notifications, unknown uint normalization, malformed/unrelated signal rejection and no per-query/signal DBus reads. Initial0 also checks actual Main startup and GameUI live updates without policy injection. Host desktop settings untouched."
+    },
+    "1": {
+      "cached_getter_calls": 6000,
+      "failures": [],
+      "initial": 1,
+      "main_wiring": false,
+      "reads_after": [
+        "(uint32 1,)\n"
+      ],
+      "reads_before": [
+        "(uint32 1,)\n"
+      ],
+      "samples": [
+        {
+          "signal": 1,
+          "value": 1
+        },
+        {
+          "signal": 0,
+          "value": 0
+        },
+        {
+          "signal": 17,
+          "value": 0
+        },
+        {
+          "signal": 1,
+          "value": 1
+        }
+      ],
+      "scope": "Actual X11 engine API against private DBus portal mock. Initial normal/reduced/unsupported, notifications, unknown uint normalization, malformed/unrelated signal rejection and no per-query/signal DBus reads. Initial0 also checks actual Main startup and GameUI live updates without policy injection. Host desktop settings untouched."
+    },
+    "missing": {
+      "cached_getter_calls": 6000,
+      "failures": [],
+      "initial": -1,
+      "main_wiring": false,
+      "reads_after": [
+        "(uint32 1,)\n"
+      ],
+      "reads_before": [
+        "(uint32 1,)\n"
+      ],
+      "samples": [
+        {
+          "signal": 1,
+          "value": 1
+        },
+        {
+          "signal": 0,
+          "value": 0
+        },
+        {
+          "signal": 17,
+          "value": 0
+        },
+        {
+          "signal": 1,
+          "value": 1
+        }
+      ],
+      "scope": "Actual X11 engine API against private DBus portal mock. Initial normal/reduced/unsupported, notifications, unknown uint normalization, malformed/unrelated signal rejection and no per-query/signal DBus reads. Initial0 also checks actual Main startup and GameUI live updates without policy injection. Host desktop settings untouched."
+    }
+  },
+  "cached_getter_calls": 18000,
+  "host_api_value": 0,
+  "effect_checks": 56,
+  "render_lifecycle": "planar-lifecycle-verification.json",
+  "scope": "New isolated engine X11 runtime, actual host standard portal read0 and private-DBus initial0/1/missing, setting notifications, type/namespace guards, cache-only access and actual Main/GameUI live policy tracking. Full inherited patch verified from original archive. Wayland delegation included but wayland=no build, not runtime-tested. No real desktop preference writes.",
+  "fixture_notes": "Initial private-session runs attempted unrelated accessibility-service activation and logged permission-denied from the private dbus-daemon. Final mock owns that unavailable service name to avoid host service activation. PyGObject register_object deprecation warning is fixture-only. Godot runtime logs are clean.",
+  "bundle_status": "New engine/source after r13, old runtime bundles untouched; no r14 yet",
+  "render_cases": 8,
+  "render_reentry_ready": true
+}

@@ -1,0 +1,7901 @@
+{
+  "nodes": 729,
+  "identity_checks": 5854,
+  "bindings": [
+    {
+      "id": "5c74965b-428c-49f5-93a5-c9cb92418034",
+      "name": "",
+      "type": "Scene",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0f9081ee-89b0-43f4-9705-94fecf967cce",
+      "name": "",
+      "type": "PerspectiveCamera",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e28dbe12-f69e-465c-91fe-111b12903f32",
+      "name": "viewmodel-key",
+      "type": "DirectionalLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f47bea71-002f-411a-9ef8-06a353c15508",
+      "name": "",
+      "type": "Object3D",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2dc9c0b8-9a47-4baa-91af-1bab16a7986e",
+      "name": "arm-right",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1036745c-046a-47a9-a305-686f38088cc2",
+      "name": "upperArm",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8dd93de5-7d66-4c3e-8387-3b12c47da995",
+      "name": "forearm",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a6cbfab8-b92c-4e12-8dba-3046cf4e8052",
+      "name": "forearmTwist1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "613785ea-a758-4185-b464-2bec07eae2da",
+      "name": "forearmTwist2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "27769949-6e17-4472-9340-503dbd7f08a2",
+      "name": "hand",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "04e8055f-f64e-499b-9fa2-9932239dbe12",
+      "name": "thumb1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1e9f0550-e634-474b-8eb0-920afd0c803c",
+      "name": "thumb2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0232dafa-9c25-4f3d-a966-503e375bc1ae",
+      "name": "thumb3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1c178992-3bfe-4f0a-832f-4e04ebc76618",
+      "name": "thumbHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4c6c944f-e7ed-4015-bfb9-29e7697e0bbe",
+      "name": "thumbHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1d69ccb9-3b3a-4f1b-927e-74d047cb59d7",
+      "name": "thumbHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3f6e62bb-eccc-4978-a48e-a49dc612079b",
+      "name": "index1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bd58ea0e-bf6e-4956-8628-2fa799432e30",
+      "name": "index2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c8560f46-01df-40dc-8851-c477bbc7ec19",
+      "name": "index3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3a81efe3-f0e8-47f9-8749-f4669ab5d2e6",
+      "name": "indexHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e58a1955-67aa-42b5-8420-6ed54c98b4d3",
+      "name": "indexHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "39772ad6-a278-4bb3-a5fb-b03a5552aeaa",
+      "name": "indexHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "655b8425-2f15-486f-8d26-f9f64e19d0ff",
+      "name": "middle1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "373aaac1-59d3-4e19-8b9e-7e7cba8c4aae",
+      "name": "middle2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "36a8004b-e7ab-477b-a7af-7b0bf06e4674",
+      "name": "middle3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "26d7e1b5-0202-4472-8c3f-c950648b2ede",
+      "name": "middleHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fe3b4baf-9a0f-4cbc-866d-5e0eca7f7c29",
+      "name": "middleHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3b10a2cc-9155-41af-9767-e6851d435001",
+      "name": "middleHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fefc90dc-f204-4af1-94d9-1693d5ca7f1e",
+      "name": "ring1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e88cc37e-cdde-43f3-9214-edd77749b74d",
+      "name": "ring2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c1797d90-e45a-4766-b6e2-cff4981ed821",
+      "name": "ring3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "96966351-cce1-4740-8052-bc232ac22f86",
+      "name": "ringHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2cb3d5bf-e50d-4646-9923-795ed5b3d124",
+      "name": "ringHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f3c27d27-4fef-4835-9a04-c987fcc51b7a",
+      "name": "ringHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a71adf70-06e8-4f02-9d1d-e0e45f6f88e1",
+      "name": "little1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3a1e786f-effb-433e-8008-862ea6f9ea17",
+      "name": "little2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a3232ae9-ed02-429c-8124-38294636ea03",
+      "name": "little3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "29fa943d-0baf-4136-9cea-e407e056ec4b",
+      "name": "littleHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4f8935ed-2a0e-45cc-8a31-7f76ea166698",
+      "name": "littleHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "24cd3282-c216-40e2-a040-93d15c250c4f",
+      "name": "littleHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cb35d305-7262-46af-89ff-3180013a7197",
+      "name": "arm-mesh-right",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "saltline_arm"
+      ]
+    },
+    {
+      "id": "4bd869f4-944c-405c-ac60-e0817f3401d8",
+      "name": "arm-left",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9171ceef-6ef4-4fd8-a4b0-daae7b716ca1",
+      "name": "upperArm",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "08eed67b-4858-481a-8e9c-7093671f5c9b",
+      "name": "forearm",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "23713e1f-667e-4e0f-82af-727ef655fe41",
+      "name": "forearmTwist1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1694ee85-82d7-4a40-ad5b-5badd703c82f",
+      "name": "forearmTwist2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f39c232b-d789-4fef-8ec5-c13dd40df65d",
+      "name": "hand",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c5299ce8-94fe-45bf-bde3-87f5bd601381",
+      "name": "thumb1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "32618eca-094f-462a-ae20-51bb843dbc05",
+      "name": "thumb2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d2db6102-8ac0-4a3b-aac0-495dca2fc15e",
+      "name": "thumb3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fe80cd4f-5aaf-49b8-9dc9-38e94ae256bf",
+      "name": "thumbHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d0edaa2b-9272-4a3c-af08-f72ac943ca92",
+      "name": "thumbHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "46bb96c0-29e8-4dfd-ba49-e7e0bffb860e",
+      "name": "thumbHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e744c38a-9b4f-4e2d-8db6-aa2e5b5820cf",
+      "name": "index1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e80fb2d7-8b3d-4c59-8445-b779152adf49",
+      "name": "index2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e192c60e-52a1-45bf-b690-70c1e3b3dc5b",
+      "name": "index3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "15d3a0ad-2c93-48ce-a74c-1af6537c84a0",
+      "name": "indexHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cd67b2d4-513e-4245-85f6-5e17369546fa",
+      "name": "indexHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2e64a585-fec3-466c-a202-4aaf52059441",
+      "name": "indexHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "411893b6-e0ff-434c-8374-c2b669bd6c79",
+      "name": "middle1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "96e77764-137a-44a0-a09c-d667357d54cd",
+      "name": "middle2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d91a2a75-6131-4906-81f0-8c1e5c22b2a8",
+      "name": "middle3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5a13b8e1-0eb0-4d44-b81c-b130062759f3",
+      "name": "middleHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7eeb63fe-cf94-4dcb-b0ce-5f8ffe319e9c",
+      "name": "middleHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b31d5a16-555e-4c1f-905a-69efc94a17c6",
+      "name": "middleHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "62d8d5ca-3763-4e50-96cc-7fb439cbc23e",
+      "name": "ring1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ad524781-9d5a-4fa6-a30c-6c7c29532885",
+      "name": "ring2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cba8c81a-bf07-4f26-b04a-dc753f661574",
+      "name": "ring3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3a67e0d5-5757-48d1-b886-4bdd1a04c1a8",
+      "name": "ringHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f4a7f796-7675-4e25-975e-7c87a36c82a6",
+      "name": "ringHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "61b89b5e-56f2-409e-ba55-fd9152ca8cc7",
+      "name": "ringHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d4d5acc5-3310-4331-a72f-bc64c85ea8cc",
+      "name": "little1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "61f5e84b-d288-4ef2-90c5-8bd55df1ed44",
+      "name": "little2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "361b89f0-3473-4cdb-bc45-8506fd297dc4",
+      "name": "little3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9d36d699-9aae-4353-bcd5-fd0aecb6d503",
+      "name": "littleHelper3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3ae701f3-e869-468b-a23e-c7b1a6e5681a",
+      "name": "littleHelper2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "74f16c40-0e6a-4e89-a5e1-878dc85a530b",
+      "name": "littleHelper1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "20228bdb-bd52-4c39-b32b-6cce3732423c",
+      "name": "arm-mesh-left",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "saltline_arm"
+      ]
+    },
+    {
+      "id": "e5cde543-1f51-4173-abad-79665b9b6763",
+      "name": "viewmodel-pac9",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b761d3bf-4f92-4dd0-8789-91b46396761c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_anodised"
+      ]
+    },
+    {
+      "id": "011ef7cb-e33a-4efd-a2cf-b934a063bd44",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "8dce8cc0-5d17-412b-87ac-3713da6c7c98",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_polymer"
+      ]
+    },
+    {
+      "id": "0a586350-e83c-4929-ac29-c1fe577e6461",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_matte"
+      ]
+    },
+    {
+      "id": "45e9e907-f174-4b7a-8d42-691f1c7f2d5e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "204a0c28-2315-417c-afaa-0a44a37bd015",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1d3695f4-797f-48c4-9d71-2cb83c5d0fb7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_polymer_tan"
+      ]
+    },
+    {
+      "id": "01f07e3e-d98b-4ed9-975d-569ae21a47e3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "brass"
+      ]
+    },
+    {
+      "id": "6ca41558-8785-49c4-8763-bcace44ff4c4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 2,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "weapon_markings"
+      ]
+    },
+    {
+      "id": "8e7f44cc-264c-4925-894f-d51f18a4ffe7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "a34a614a-eff8-43f6-aed8-027ed2458b1f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 10,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "a4c3ea4a-9e03-4d03-82f2-9206de0b9447",
+      "name": "viewmodel-pac4",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f797c69c-758d-4c8c-834c-d0eb1c77099c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_polymer"
+      ]
+    },
+    {
+      "id": "a3f00446-b9d7-4617-b16c-a61ffea720e9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "7f2e118b-dcdb-4aa2-80ee-8cd7c2cb9c23",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_matte"
+      ]
+    },
+    {
+      "id": "9c99f70c-e7b3-4507-8d9f-ae4cb7f22a38",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fc7c3715-aedc-4c41-ad12-61a990d98fbd",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "5b77f9f8-e25a-4972-8715-6da3298e58be",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1283d4b6-d9f6-4ae4-beba-b5b35cd955d9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac4_nitride"
+      ]
+    },
+    {
+      "id": "2cb17305-72dd-407a-bd4b-7b0b3f2e69ea",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac4_tritium"
+      ]
+    },
+    {
+      "id": "de6f4a8d-c0a7-4dee-9b6f-3c4e4545d03e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 2,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "weapon_markings"
+      ]
+    },
+    {
+      "id": "2c8962dd-008c-4c93-954a-7a688aa0bad5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "ac170198-c7b8-438c-8350-85245759702b",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "316d55f2-bafb-4771-9d18-38081ae61eba",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "pac9_phosphate"
+      ]
+    },
+    {
+      "id": "bc350031-8d08-4939-beec-8b269228bc37",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "brass"
+      ]
+    },
+    {
+      "id": "526c8f88-14fa-4a26-a5b9-8245f1579911",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 2,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "weapon_markings"
+      ]
+    },
+    {
+      "id": "0076bcc6-4870-4605-9fdf-c23d83615c9c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 10,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "0717faa7-a67e-430d-8f59-c2e012566e26",
+      "name": "sky",
+      "type": "Mesh",
+      "renderOrder": -1000,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "saltline-sky"
+      ]
+    },
+    {
+      "id": "df79adcd-16fb-41b0-a246-73d3dc2336ad",
+      "name": "sun",
+      "type": "DirectionalLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "781b4a8a-87fd-470b-91c4-f4bce21c6673",
+      "name": "",
+      "type": "Object3D",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "46c2f1fe-e20b-4bd6-bfa1-3103998d5a3e",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9cc91719-8d24-4ec0-8ad7-1e585f5f6a50",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d54607ea-13f0-41c4-9073-86758f1390ca",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d9cf6794-edc4-44d7-bb5d-5e50586cc6e1",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "18e2b1eb-2ac5-4254-8cd2-7b7ae9972a9b",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5bf21157-ae2c-4fa9-b404-d67fca54237f",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2918712d-7ff2-481b-8666-e6d231e48c77",
+      "name": "level",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a8978d19-3e9a-48cf-9c2d-b202c1627310",
+      "name": "level-merged",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "21b35d3f-0fa1-4394-971f-83ec4514d8df",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_green"
+      ]
+    },
+    {
+      "id": "99fd30a3-3568-4dca-9872-d7f866d0bd40",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "2484d30b-c6cf-4811-8033-16d8cae53633",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_a"
+      ]
+    },
+    {
+      "id": "663494fc-11cd-47e1-9c98-6ef0e7c5ed83",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_csc_plate"
+      ]
+    },
+    {
+      "id": "1bb637be-8515-41fd-8032-f530d20f9df2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label_atlas"
+      ]
+    },
+    {
+      "id": "9e2a37d5-66c0-4cef-833d-0e6aa03367ae",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_rust_run"
+      ]
+    },
+    {
+      "id": "aab80b89-a35d-4bc0-8097-17e5fe66edf5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_grime_streak"
+      ]
+    },
+    {
+      "id": "20d80c36-31b4-43ff-aad1-5cb94908d730",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "6ddd0cb4-6c04-4f82-9998-16172e8f754c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_orange"
+      ]
+    },
+    {
+      "id": "b6e7d295-e920-40db-a165-97711687543b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_c"
+      ]
+    },
+    {
+      "id": "58a908d6-c365-4af4-8589-fe8adedb65b0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "4d4fb33c-422b-4db6-8f2b-4c9136486d3b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "b3946288-89b5-409d-91eb-627a2791a511",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "bf82bd99-907c-4382-81f3-8488a1d04fcf",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "brass"
+      ]
+    },
+    {
+      "id": "aa2ff95c-e35f-4a89-9413-9663a68282ef",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "a1ee8470-1529-4488-a017-3df7e70781f9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "510f0d24-ab19-4d6a-972f-6daddf292759",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "8159d561-7a38-46f9-9eed-dcd46d1b1bd5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_voltage"
+      ]
+    },
+    {
+      "id": "3d64b5d9-7fff-4c5e-9cf6-48249a5a3d86",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rubber"
+      ]
+    },
+    {
+      "id": "f186c877-bc1b-4f56-90ea-bf57623a2fe3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_blue"
+      ]
+    },
+    {
+      "id": "48cd573c-25a0-47ed-b258-b4d56b5a2aff",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "wood_pallet"
+      ]
+    },
+    {
+      "id": "8eda9598-3e07-496b-ab95-4e9bdac9bad0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_teal"
+      ]
+    },
+    {
+      "id": "1084510e-631a-422e-96a4-0028e4f1f017",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_b"
+      ]
+    },
+    {
+      "id": "2833e2ea-bb39-439e-8c81-0d29c679036c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_d"
+      ]
+    },
+    {
+      "id": "cb8b9a26-890c-4541-a922-e838f12a5634",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "8c992919-4620-4efa-b8be-9c2f67e7b2d8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "diamond_plate"
+      ]
+    },
+    {
+      "id": "570e8369-d8df-4043-b28e-682516166bf4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glove_fabric"
+      ]
+    },
+    {
+      "id": "b13bf5ab-40ad-48ee-962e-615be43edb03",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "wood_dark"
+      ]
+    },
+    {
+      "id": "1cd4fca8-4cf1-4b6b-a217-7974adaa3f41",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_arrow"
+      ]
+    },
+    {
+      "id": "355024ae-5e43-4748-94c6-9eb5628d693c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_caution_stripes"
+      ]
+    },
+    {
+      "id": "5dfeee22-f3fa-40b6-9f7f-1202fd0686e5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "concrete"
+      ]
+    },
+    {
+      "id": "104937c8-6dca-4c9d-b329-da22fa044e4e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "6545a67c-fe19-4cda-8cf2-b1aeae6162d7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_rust"
+      ]
+    },
+    {
+      "id": "17b5adc3-87f9-4389-8d98-99496166387c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "32ca311f-fb85-4ce9-a4c3-bae058140ff8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "d66e434e-a52a-4ee0-8a7a-3127ee72502a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_grey"
+      ]
+    },
+    {
+      "id": "3f02d4c1-8087-4519-a85c-b5f7d0885c1e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_red"
+      ]
+    },
+    {
+      "id": "37bfef22-cf68-48c7-9207-a288d7e4a065",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "13ce4126-1dd4-44b4-9074-6eac8fc919eb",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_numbers_0_9"
+      ]
+    },
+    {
+      "id": "f0bb2d13-b3b8-4f43-878f-71477e534f3a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_leak_stain"
+      ]
+    },
+    {
+      "id": "d8a4a108-61ef-4ae4-88da-f8d1993cab4f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_black"
+      ]
+    },
+    {
+      "id": "81d51f74-8d08-4b4b-bfc2-4a96d09f40b2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "tire"
+      ]
+    },
+    {
+      "id": "2272acaa-3469-42aa-85e4-21f2cf13edb0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "hazard_stripes"
+      ]
+    },
+    {
+      "id": "fb818072-64c5-467a-b1e0-fb0c5d8701c6",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "9e8d4ebd-4c1d-41af-a2a2-8cc1685ddbe7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "62a5c147-aec0-40b9-9c4e-871c6d89b4ca",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_bare"
+      ]
+    },
+    {
+      "id": "f4707ec6-9493-4f51-9105-3b03b3b1f3f7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "807ad53a-80ac-4da0-84b2-9c252a811f46",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "c9c06de1-4b6d-4640-a1ec-3b067314592b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "tarp"
+      ]
+    },
+    {
+      "id": "2d7b092b-b8fa-4475-9957-4ee47f8426e9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rope"
+      ]
+    },
+    {
+      "id": "e02d68de-988e-407a-91a2-02af7fd74f82",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_red"
+      ]
+    },
+    {
+      "id": "1aff3034-7ecf-4762-8300-5c9d021e10fa",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_grey"
+      ]
+    },
+    {
+      "id": "743b1cf9-70f7-493a-89dd-f6f9b7ae8b07",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "cardboard"
+      ]
+    },
+    {
+      "id": "b97350bd-5c9f-433b-b97f-1c5a9061ae8c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_tan"
+      ]
+    },
+    {
+      "id": "f79a3948-c5fc-49a4-bc62-b3d88804d891",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "chainlink"
+      ]
+    },
+    {
+      "id": "ca736137-520d-4678-9b60-972c3e437c73",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_grey"
+      ]
+    },
+    {
+      "id": "607861ac-8c29-4913-8d7d-d1153ad91d50",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "cf620c9d-73c2-409a-83f8-3165ec69a388",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "5700222c-383c-432a-aad3-bf2aeaf8295c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_blue"
+      ]
+    },
+    {
+      "id": "d8edb3f4-d96e-4eee-a9f8-6bef415d7e73",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_scorch"
+      ]
+    },
+    {
+      "id": "34840969-21bf-4aa3-97d4-3f5c87d800f0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "764c1a0e-af0c-474f-ad3b-de8608e724df",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_berth4"
+      ]
+    },
+    {
+      "id": "d6772eb8-3dde-4828-8ca4-71457224ccfe",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "chainlink"
+      ]
+    },
+    {
+      "id": "bd52bf5a-4ffc-4c81-b06c-b2c701dc2f0e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glass"
+      ]
+    },
+    {
+      "id": "acc28d44-5a25-401f-9070-0a84ee0e79b0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "floor_epoxy"
+      ]
+    },
+    {
+      "id": "02c2ed95-13ca-48a1-915a-770deed2c685",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "41b342b4-013b-43c7-bfab-478295a8e735",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "cd4960f6-4609-4aa4-a8b9-7bd5d131efcc",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_no_entry"
+      ]
+    },
+    {
+      "id": "c51d86b3-e5be-4b3c-b6e5-889b3c5146a3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "1b5a3399-96df-43fc-b04b-d052e412b9e1",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "0eec8a83-d9a4-443e-869f-5bb2e3130882",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "floor_epoxy"
+      ]
+    },
+    {
+      "id": "ca9d056e-c86d-4d76-8e5b-37ef3cefea74",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "concrete_painted"
+      ]
+    },
+    {
+      "id": "e0da08b6-53b0-4347-a86c-98221fa9b1f6",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "corrugated_roof"
+      ]
+    },
+    {
+      "id": "d9fa505f-e6e0-411b-a117-6e97dea78b4a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "corrugated_roof"
+      ]
+    },
+    {
+      "id": "cc201d36-66dc-428d-87d6-44d534fd2c0a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "a5217759-cb4e-4c3f-bf78-33931d134bb9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "f68dd4e9-e91a-41e4-967a-7ff6d9470ac8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "eac43601-3d20-43b7-bfde-6c31453b83d8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "848f8042-a31e-4c6c-99fe-75e8f9dbc5a9",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "9bb1bc08-7cb8-401e-9478-ffcb64a9086f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "diamond_plate"
+      ]
+    },
+    {
+      "id": "ce904792-898c-4649-af83-6e0e69066281",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "armor_white"
+      ]
+    },
+    {
+      "id": "36dd8020-2d11-4729-946b-aea4a8d04512",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_grey"
+      ]
+    },
+    {
+      "id": "f98dde64-2dd5-4092-ad30-a81ca1da44c3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glass"
+      ]
+    },
+    {
+      "id": "c8526bdc-059b-44a0-a6d6-4a1fcfa579fb",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rubber"
+      ]
+    },
+    {
+      "id": "3a2d802c-4fc8-4316-869d-c98c57c755ae",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_teal"
+      ]
+    },
+    {
+      "id": "5222a1dc-ac55-427f-94e4-1778034ad331",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "7813ec29-b218-4350-9b1d-4aeba9d0b243",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "b245bd2a-93c9-4e10-a8bd-c9b011812c5a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "wood_pallet"
+      ]
+    },
+    {
+      "id": "2ba796a7-2376-4d0f-9964-d5f1be3206b4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "851bc92f-ee1b-4396-a9df-6ea6f1f67264",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "wood_dark"
+      ]
+    },
+    {
+      "id": "68c089f8-7881-4ce1-af2e-1bf076fea451",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "3faf905b-b7e9-4ec4-a323-07491334baa8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "b41490eb-3ec9-425f-b99c-b5d6c76e8c18",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "3ede1c38-96b3-4f74-976b-665dd621b9b4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "5e012cbc-2bbe-43d7-91c9-124bd779b81d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "367759c9-fecb-4339-9dc8-e3c9b8fe9d85",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "cardboard"
+      ]
+    },
+    {
+      "id": "9b21f290-8672-4752-bf2a-4f7747232ce8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_green"
+      ]
+    },
+    {
+      "id": "32422ab4-2bbc-45d5-a4fb-3d3c664d964f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "863a6588-d5df-4dbe-b165-2873a2c5229f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_bare"
+      ]
+    },
+    {
+      "id": "8ded3af6-1d9b-4a1d-a47c-d1dfd4e7c332",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glass_dirty"
+      ]
+    },
+    {
+      "id": "09d778df-53d0-428b-b20b-402f873792bd",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glove_fabric"
+      ]
+    },
+    {
+      "id": "0a155ae1-b188-4aff-a515-a99c881ec802",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_oil_stain"
+      ]
+    },
+    {
+      "id": "5ffcebc0-72a3-48e0-a138-12700fe08335",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "concrete_dirty"
+      ]
+    },
+    {
+      "id": "65192656-a536-4133-a40e-6a94a5f7ae35",
+      "name": "level-dynamic",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f91a4d97-05f6-4f6b-9eab-d156700b99ee",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "74ddf5f5-28c5-4a30-a38a-abffe5afa53b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "e9580f1a-d1bf-4a62-899b-b2cd646ca981",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "9f6b81bd-bbe8-4a13-ae5d-ab0637314451",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "45c6fa8a-052c-4edf-8690-ac71e1296495",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "e5df862a-d0a6-402d-b879-6cf866fbc071",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_worn"
+      ]
+    },
+    {
+      "id": "1a7fccb2-49b7-49e5-a0c1-b9a14325b554",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "1db7f8ea-5cd6-481c-8330-8ce1b8f8ae13",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c3147dc4-4a4d-426e-add8-0f3d138ff422",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "539e99a0-8373-49b1-8001-380622fb3087",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "768d52db-0cc5-4965-8672-dd3f2c87a053",
+      "name": "",
+      "type": "PointLight",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "17e37b4b-7b10-4b54-bd0b-ba941496ff06",
+      "name": "relay_dynamic",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8d7ba969-7848-43bb-83f9-73f88afaf001",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "b52ec665-8d00-4196-bc7f-580bda57ae2d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "fbe2c102-0dbe-4ee2-9019-865da458feb3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "8460317e-6dd0-466a-a0a1-40c467a55c92",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "758ace1c-5a1b-4ede-9261-c90450f05c7c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "eb6598be-48c5-4728-aad2-2a4ad114488d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "4b31defb-7633-495d-86e7-27c74410ec2e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "e6260eb7-6f3c-4d02-8624-0cdfb46ba624",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "79074e08-0c28-4a64-bf86-7f3966925cce",
+      "name": "relay_dynamic",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "49bce78c-9272-40b2-9d63-b84ccd7d5ff0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "a5e06efc-1598-41f0-9de8-ce6226dcaa24",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "c3658834-1fa6-4a26-8609-30d4ce3a68bd",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "ee3b68ac-6e51-4250-9c30-31cda30a3a6c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "e54adcf7-68b8-4439-86d3-82b64305e2b8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "6367db80-c0b0-4526-b000-dd76804835b0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "30d8dfc1-93a8-4451-b2b9-f9b39e466df0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "518213a0-4434-4386-afa6-76af46bb51a5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "91f5c230-7b56-4dcc-9e35-c872689b8064",
+      "name": "relay_dynamic",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "40f9fd22-538e-4335-aab9-d6b64a0ddeba",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "60bc9bcc-aa48-4585-a5f8-f588ffe5759b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "52882b87-66ec-46eb-8112-288b061fbf6d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "7c88e8a1-d8df-49b7-ad36-4456d7237d8b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "885e58ee-9595-4a56-92d5-38337757a293",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "9d2623d8-d068-4708-88ac-e5bf4eca354f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "32f779ac-bc4c-43c4-9c72-217fdb49f061",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "b7d4318d-c003-431d-9ad7-f0eb52e686ee",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "0fbe0323-456f-410b-90cf-5fe042dee472",
+      "name": "relay_node",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "497f7a24-95d4-47e7-9b15-125e57a995ab",
+      "name": "relay_node",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b4085f0b-14e1-4729-bebc-ff7fab4fc5cb",
+      "name": "relay_node",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "354b6a35-3e54-4767-b433-64c55bb521be",
+      "name": "backdrop",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "006f90bf-5e89-47bc-95be-e97b9d531410",
+      "name": "boat",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c5833361-c328-4881-8e8e-283d0e4b1cda",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b13407d4-9279-4bd9-8509-9f5f37e766bc",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "plastic_grey"
+      ]
+    },
+    {
+      "id": "0de96a78-2467-4bbe-ad5b-71bad1d8d662",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_black"
+      ]
+    },
+    {
+      "id": "ca0065a5-13cd-4cc4-b352-b240e854e3f6",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "febf1457-b3b6-447e-a4cc-8027e9558093",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_orange"
+      ]
+    },
+    {
+      "id": "d53cf1de-0b6a-42b6-9744-0efbcce72a48",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glass"
+      ]
+    },
+    {
+      "id": "b64bdc53-358a-4ced-9aee-497d21458c72",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "1794abfc-6453-4211-8352-75df2cdf679a",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "601b745c-04f8-4887-ad07-217b55c036f6",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rope"
+      ]
+    },
+    {
+      "id": "e087e238-624f-4edf-b58c-60b3542779aa",
+      "name": "crane",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c35ba148-c389-48d8-a48c-595ed92d8a47",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "a53d0a57-cea5-40d4-b627-ac522eb66a67",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "35aa56ec-0aa0-4589-a588-612fc5f59ca0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "fcf25dec-4970-4c8b-ac1b-f81ec8048e9a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "d414b4b2-fc7e-4917-90cd-3a1fd3a26886",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "hazard_stripes"
+      ]
+    },
+    {
+      "id": "d2458962-e1e6-4f61-8994-2fd63e2a7803",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "cd6eb793-6f58-4ce6-bcaa-18fbe523a1de",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_voltage"
+      ]
+    },
+    {
+      "id": "27fc8315-eeb0-4637-9ef7-f50d7841fa3e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_a"
+      ]
+    },
+    {
+      "id": "6226a7cd-288b-4130-9254-e0901788f9ed",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    },
+    {
+      "id": "30e2ccb0-80cc-4478-9f86-81c028565f88",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "glass"
+      ]
+    },
+    {
+      "id": "ec022ba7-a743-4943-bd02-893383936ec4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "9ebc45ba-549e-43eb-b234-5b5fcaf19686",
+      "name": "crane-spreader",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cfae5cad-a0f9-4576-9084-5731c2820a8b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "d0634400-6982-45bb-96b7-8e53b4f1f96a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "cbf2e8ce-b29f-4643-9dbb-e712a1b7f2f8",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "42738e33-6831-495f-af83-3b4b293c8b20",
+      "name": "ship",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "97d4bb61-1463-46db-a50f-8bb576f4cf5e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "hull_red"
+      ]
+    },
+    {
+      "id": "712fc79d-9607-43a7-a8e6-5041eae3104d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "hull_paint"
+      ]
+    },
+    {
+      "id": "745d2c42-11c8-4423-a5df-27ac88533290",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "af20ce04-9eb0-4e06-b8e2-b3991e73a404",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "62074bdc-e0dd-403c-a3de-bf3165cfbf24",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_rust_run"
+      ]
+    },
+    {
+      "id": "7f7dcf4f-a6d4-49d1-bdac-a7c164fcff1b",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "6b058a30-12ff-454a-a2b7-84bb9681bce6",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "2eb31ad7-9cb1-45c6-98f6-89d7a9b37ae2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_logo_b"
+      ]
+    },
+    {
+      "id": "9714c000-c5b4-466c-a3e6-732ae5b0d357",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rope"
+      ]
+    },
+    {
+      "id": "48c17db0-c07f-440a-bc10-18bdb727c7d2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "rubber"
+      ]
+    },
+    {
+      "id": "3d5b6fde-4b74-4b42-9818-85c8637398a4",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0025c490-0cc9-4bf9-b770-d6e808d64a68",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "ea209d43-326c-40cf-ab7d-ba7853419fa0",
+      "name": "skyline",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8552b223-6a17-4af7-a5cd-f0909cf299c5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "ad39e462-8683-4f55-820f-e849d85f05b9",
+      "name": "gulls",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "daa737f2-f5ce-4104-9eb6-0d44845bf2bc",
+      "name": "backdrop-lamps",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "4ca576c0-a2eb-4951-afe5-4d4a6e044baa",
+      "name": "ground",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "62af5632-10fa-41db-93e4-0d6b899504a9",
+      "name": "apron",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "apron_wet"
+      ]
+    },
+    {
+      "id": "b7bbc842-ab5d-46a7-af1b-8e491392b8b7",
+      "name": "sea",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "sea"
+      ]
+    },
+    {
+      "id": "5e3e35a2-2e38-4c23-8253-a890347f6a98",
+      "name": "quaySkirt",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "f609f4b4-0327-4db3-9231-f0011fba99d0",
+      "name": "rain",
+      "type": "Mesh",
+      "renderOrder": 900,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "47399caf-924b-4583-ae57-9177776ec41b",
+      "name": "rainSplash",
+      "type": "Mesh",
+      "renderOrder": 890,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        ""
+      ]
+    },
+    {
+      "id": "a751aa21-49e5-40f8-bae5-2a0c5ad20136",
+      "name": "fx",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c01e4f9c-bdc9-4834-8df3-fab81630aa23",
+      "name": "fx_decals",
+      "type": "Mesh",
+      "renderOrder": -5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "fx_decals"
+      ]
+    },
+    {
+      "id": "69675b0d-4151-490d-b71b-5d637641b9f6",
+      "name": "fx_debris",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "fx_debris"
+      ]
+    },
+    {
+      "id": "81c63c39-45e9-40a8-b686-3e3017da6566",
+      "name": "fx_shells",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "brass"
+      ]
+    },
+    {
+      "id": "e9eda133-48bd-4059-ac61-b51a0a70d265",
+      "name": "fx_lit",
+      "type": "Mesh",
+      "renderOrder": 10,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "fx_lit"
+      ]
+    },
+    {
+      "id": "4b08f030-e90a-433d-9039-e2624811c969",
+      "name": "fx_add",
+      "type": "Mesh",
+      "renderOrder": 20,
+      "groupOrder": 0,
+      "material_types": [
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "fx_add"
+      ]
+    },
+    {
+      "id": "1dad77d4-5019-49bb-9fd2-3b5856d0d022",
+      "name": "explosives",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e6a8ae92-57fa-48c9-b17d-8163b74a64c5",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1c5609fc-0fc2-420a-a870-8e1be9858209",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "diamond_plate"
+      ]
+    },
+    {
+      "id": "a5aeb2d9-6496-489b-874d-fe8efd5092e2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "015f2ef3-44a3-44cd-ba76-9f5a2997f777",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "205ffd45-af48-48dc-81e4-5f258af1f431",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "0abf8aef-c710-41fa-8835-3e8407a6fc0d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "1cadad5d-d326-4d17-8f8d-a26ab140c1b0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "35dfccd8-eb21-4bd0-bc69-217cafad3bbe",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "0d57b5be-c1b2-4a8e-b2f3-dc5881a1ce38",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_black"
+      ]
+    },
+    {
+      "id": "c569d974-087f-4a69-aa75-fe029635b015",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "2bcb8b96-6047-479f-85d4-23b3c8f3e7e0",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_blue"
+      ]
+    },
+    {
+      "id": "cecb89a6-fde2-4b47-a9b7-52499857ba80",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "26deffcb-05a8-4346-85f8-8b6a4ce3d723",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "cf7168d4-d105-4b07-8f24-935b50168cba",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "ef5e7ee8-9a82-4535-814f-1ac49c888e59",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "87a1ebf9-b04d-4561-96ee-5ecbbaca3211",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c7786f54-f3f0-429e-935e-ada5000b1379",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "diamond_plate"
+      ]
+    },
+    {
+      "id": "b1d109dd-3419-4424-b1b2-b0f68afed95d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "805b25fe-9a6f-4443-8690-9904f08289eb",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "0d5bbcf6-f887-40d8-ae7f-fe4cff49a771",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "dd7fe77b-4eae-467b-bda5-cd08b2e67eb3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "0904ccc7-4e1a-4703-bd97-9b441abfaa29",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "ffc5dbcf-ecd6-4c61-bd91-be9181fe8d96",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_white"
+      ]
+    },
+    {
+      "id": "27a64925-f475-4943-91e9-d3929396cb39",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_black"
+      ]
+    },
+    {
+      "id": "c10d1bef-297f-4393-b854-6a834df87242",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "ae41ca35-809c-4f56-956e-327c9b001fe5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_blue"
+      ]
+    },
+    {
+      "id": "74288dcf-eae0-4416-ba02-fdff41902975",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "f302920a-4d47-44fd-9be3-bd78a37bc4e2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "0e22ae2c-c594-4db7-8e1d-96d23835107a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "5018c606-43bf-452e-80c3-87df9c4d404f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "aec314f1-f7b7-4b7e-b7b8-f6b46c29a24a",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e3168de7-a3d3-4d35-ad39-8dbef3fd1c37",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "diamond_plate"
+      ]
+    },
+    {
+      "id": "2e53571e-f1a4-4f9b-bb59-d3e61933be04",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_dark"
+      ]
+    },
+    {
+      "id": "031dce4e-1573-411d-8c78-6054b79136b4",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "fa582e43-b44b-4474-b37a-ebb9cb70fb1e",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_yellow"
+      ]
+    },
+    {
+      "id": "0e665bab-d6fe-476c-bb09-a5ca5141f0f3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "25161b07-0af6-4fda-b1cf-5f027f9d642d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_blue"
+      ]
+    },
+    {
+      "id": "bde6c54a-a65e-480d-a8c0-10a17fa6c776",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "polymer_black"
+      ]
+    },
+    {
+      "id": "77be55e2-a62e-43cf-aada-ef285cf0e2b5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "3ea2e976-65da-492a-9e8f-97d2dd8fed53",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_grey"
+      ]
+    },
+    {
+      "id": "eda544c7-a74a-4f9c-bf9d-971cceaa372c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "eafbc155-fb95-4841-a660-07f486a54cad",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "33e8e714-e6b1-4d0c-a360-a7d5191c70bc",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_general"
+      ]
+    },
+    {
+      "id": "68a2c342-cf9e-489a-acc2-839d1883825a",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "a6d26b13-2bc4-4c45-9f7e-3f4d4206fbed",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "6a26d6d0-4e9f-46c1-bdcc-1b3a0b091f51",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "736a0d76-234e-438a-ad1a-e4ceb2b2944d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "d63f9de7-e2bf-44ef-bcb1-eefb15026f02",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "e7e8ce24-4bd3-4230-9359-6577760f32a1",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "dd5bbf13-2692-49af-a0f5-488ae8d269e7",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "e14e684d-357e-4e11-be98-677308e49186",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "563a97d5-9388-4859-a07a-9f2f15f0f2eb",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "paint_red"
+      ]
+    },
+    {
+      "id": "7ccafa2b-a0e5-488c-a6ee-a120410a57c2",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "steel_galv"
+      ]
+    },
+    {
+      "id": "6df41c8f-3cd6-48ed-9927-ec27c61126db",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "decal_hazard_flammable"
+      ]
+    },
+    {
+      "id": "5f3d656e-eb52-4c14-ad6e-2956e1e954b8",
+      "name": "enemies",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "56cb5711-ebc7-43e4-b682-135e9ffb8c46",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f2b0d73f-56c5-4da9-a8fd-b6ee3f5c3f92",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "05b4b7d6-8e5e-4459-8166-3a8866315dd7",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f33fe1bf-d655-43b4-adbd-29ef233ab92c",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e99fcf44-6d83-4a0a-8caf-e2cfe5225a8f",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "770a08ba-fd7b-4193-ae5f-66157a304382",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "83625574-9a67-4d3b-945e-e38492b4987d",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "98fb3acb-18d0-4755-89e0-11fa72f5b293",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "14ea791e-0c97-484e-a586-3f453299f75d",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a094ab9d-f036-40e9-9a2d-c97a6206704a",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "11bd01bd-9b9d-4420-bbbb-bf1ae3d9e277",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0dfa034f-d210-4905-9ce8-5bc3a61f73d3",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "186c3f41-19f8-4d18-a862-a9aa2e9f40bf",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6282279f-46b9-4007-9d3f-0337e34929da",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ecd83134-c243-4548-af8d-77cdc443cba6",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "09af4e7a-4a88-4dec-9495-b7f7393b5ed5",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "5a38c87d-a5bd-49cc-8f50-15a1f7188cbf",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "afcbed85-91fa-47ba-a9c6-49ec9ee1f8f0",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "73609fcd-636d-4fad-8a38-869920bc073e",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "9102b273-1d0c-465f-9322-f322523281ae",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "458de224-a452-43dd-8424-35574596ff0c",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "868d64b5-e203-4287-b01a-7f95c73cdddf",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a4a01833-7aa7-4c6f-9190-abcaf3759087",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "65632723-fd28-4099-a605-95b2d23f1398",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0b10f391-b61c-4703-8d25-773356b031c5",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e32b7d2e-d5ac-40bc-8dcc-35a0fe1ab538",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6d40d941-1722-4588-b9fe-5400e021346c",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d3dfc3a7-b313-458c-8b7c-f9594eebb4b7",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "38f55137-ea69-4727-a122-f1935ed0fc6e",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9ac5fe8b-b3b7-4435-995f-bb6cd19018f9",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e3565399-b378-4128-91d5-4bf1d9642780",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c6227e05-8d27-4812-a49a-616e4da2baa0",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "08057062-39d0-4c27-ac67-e74f07d3328c",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "b6887929-1595-45ed-a12e-b71f8a4f26e5",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "fe630e96-28f7-4394-a347-6cfe47626dd5",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f639d771-2644-4670-8669-0803d7d9e57e",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "03ebabf1-3cc5-4af4-9373-f28461233c2f",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b272f35f-32cc-44c0-85b3-d9060d06691f",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "53069055-df8d-4733-93b3-74234dae6a20",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4f2cefd2-235a-4809-ae81-651e90407dc2",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0a00bd5a-da4b-4050-bde7-e8ef7c4649b3",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f6241986-904f-4b90-a000-f5ad47ee38d5",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3973c996-3607-4cdd-89de-97b12bd6c95c",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bf994110-dbbb-457d-a4dc-b58bf00436fa",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8b37e65f-8b4f-40ec-9050-ea72a631cf5f",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "33627064-e982-43f8-907e-86291f0d43bc",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e702a0ca-3a01-435d-85d8-fc1ed183035e",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1320003c-117e-4484-acb8-d93e40e7f7b2",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "10aac289-8e16-4d6a-8f77-e3aa8ab61359",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c489cd5e-4661-47ce-82c6-0251f965159d",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "d50f3d41-08f6-40f9-9728-75abeca3acba",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "564d4b7b-49c8-41cd-bbbe-a050964f62e0",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f622bc11-1002-457d-9755-00effdd94d69",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "fd7e3a2b-a22e-430f-835b-d363d71828fa",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "818f3e00-2304-4c9a-84fc-81db60e5d152",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8b47c079-e075-4377-bd58-c327bed477a0",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5c4a1f9b-26a0-47d9-97d4-8e6f11be1784",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c4fe66c0-64bf-4631-9faf-052f3b8e6630",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "516c7c51-b040-435f-a604-b12225ed106c",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2417483e-83f9-4e43-a675-d97c26ae827f",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "38f23f16-3ba0-4eab-8a44-1e79a10535af",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6e524b3b-040e-4a5d-8d38-651d92667bc7",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "954d1d21-570b-41d3-a90b-adbcb15f1ab5",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2dc875cd-7f6a-4f1f-b1b6-f7faa03a8d9b",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "384f55d5-2951-44aa-9530-7261e9491ce0",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "92ed7013-e993-402e-a099-206414910e30",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "795c012f-87ee-4979-ad2b-631de8c9b567",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "b8dd31d3-f929-48b6-8a95-ea08310d1157",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "1006dfc0-2593-44cf-adab-79060cf081c5",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7957668b-e168-4ec6-bcf4-f8efa4eb3e98",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "9166378c-b0fb-42d0-b469-475b8e045cf2",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0e4cfaed-c1f2-4993-ad92-5dbde712634a",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "10d91f84-2232-48cd-8943-bbe3481afb03",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "30ccec62-d769-4382-84d9-6605308b6b76",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5ad4ceda-40cb-4ffd-905b-25f1551eef93",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "041ae229-21d1-45b6-b8d8-a68a809ca2e8",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b8f01d12-af87-4469-a9e1-74bbf15f1d2a",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6b17cc25-8e50-43ff-a415-e81e04cab797",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "29c63776-84ec-42f2-be84-af294584d6a3",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2ad4659b-0b6c-4c1a-8d77-359531411661",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "db6af152-900c-4e86-aa74-eb953e666a76",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e264e355-d70c-48ff-9f51-59387b62809c",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "24f41b54-b885-4871-9b92-5b0f19cc00e2",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1c46c2ed-747c-4966-a0aa-b868ea3638cd",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "6ae0a234-7d03-4c4a-aa6f-685f402c8dd3",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "080fd6d7-c305-4466-b081-ba1907747f15",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "94166492-75ca-4480-81b1-0da095384264",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "f4974c0c-cdec-4676-a020-b2a37feca595",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "75378365-269b-450f-a80a-3bf580f2df49",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f9b11dec-60e9-40e2-ac95-28f1f239e35f",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c4549518-8224-47af-a116-9d14695ff937",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c4df7652-e34a-438d-b2e8-c3554eb53852",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2ec22457-b8ce-490d-9b9a-8bc85c295e1f",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8a47c668-c1ab-4e56-bbe0-5b3639e3d07c",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d90747e4-a848-4b02-8c18-16492bf4008b",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a85dbef3-4735-455a-bcb5-b9cb7ded92c4",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e8658bb7-333d-45b3-90d5-06a02628f551",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b20e5e39-0893-4fca-9d81-a798cd38ab4a",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "35230f03-d82c-4450-8244-4a952a7aa8af",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2921def9-27a1-4f21-99f3-63d0ce36071b",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b61ca204-21af-499d-9817-52ff76cd8bd3",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "1a61d8d9-e92a-474e-9fe8-e5e172ca2422",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "8f2fafdd-2e38-42c2-a7a3-9d9e936666d3",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "244f3062-dd8c-4948-a02d-22398978737f",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "e114e159-dff9-45e1-8588-83187543c847",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3bd7a39c-3799-4891-be37-4b97fd7236a2",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e8766cab-3cb7-4d8b-8b14-2794c150b592",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cf38b5e3-752f-482f-9e3f-18642e6b4971",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0c8aaffd-3b51-44e4-a42d-dbdf7d6fd21c",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2a6cd32f-a094-41d3-8460-5aae5579eeac",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7f901de2-abf5-4bd1-85a4-d72f496ec887",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b719ea44-3a60-4796-ba77-e93c865d4185",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a6ea7e54-599d-4e92-bbee-35118a4909fb",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "95fcdb63-7343-4a2b-a446-92149556e992",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d658fc93-73b1-4c5d-a3a2-78369275a8a2",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a624bd5d-978b-4775-b353-a6cc37298762",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "74c6fa4f-2e88-4191-8db0-ed031e107c4b",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bdc96ddc-554e-4a7e-87b1-a47e3e35bb29",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "d812d921-3ebb-4906-8b91-0a8883673df2",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "f314c76c-5480-4dd0-ba0c-2f8ab25c729f",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6762a163-17dd-482e-a9b7-12ffa63bc344",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "96f9642f-5b9f-46aa-b42f-f12626108210",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b14764ce-ef8a-424a-a37a-57479aad2075",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ade7b9db-a472-4931-808c-8e7e1d1ee3f6",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bee53fd8-8e43-4af1-b5f6-717b910636d0",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a4671e7a-1a63-4f34-a094-83c89aecf628",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7ff50ff0-342f-4379-8208-37c91fd55328",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a218e550-2829-4bd8-a603-f8f49de12a9e",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0b3e0655-555d-4da5-bd8b-d056b3e22683",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "803d464d-c887-4164-9ce6-32d68d34905d",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "26f20016-d4b8-4141-aef3-7c960c9ae1be",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8ceb4233-4183-497e-a52e-f6806b6e9263",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6f808735-5cf6-4c87-9902-5b19f5ecf1c3",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3a96dd7d-acf3-4c36-992d-5c154d8e27b5",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7406c45a-3d6e-46dc-9510-6b4f8ce17915",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "26cc1309-628f-4229-8c7a-743132fb44b6",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "d1137aeb-79f3-4b2e-85c5-a0d9d857e53d",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "584bedc4-40da-4d92-ba9e-b2f9bed62847",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "be9c6499-3397-40e4-9a63-56eaaaf42050",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6105a753-7e47-4965-89b4-bb2074723d7b",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ca212e4b-a6e4-4516-91e4-79e62a1df538",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f1782beb-c831-4355-a5bd-3ae19c8f5067",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "12220411-eb14-4b59-bb37-5d311df2a24d",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ffb241ba-0c8d-4c59-858a-271ddbdfe338",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c697fb3e-37d3-4118-8908-85f59e1a8381",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "10c2d321-fcac-4f0f-a15b-0ce6f6b5c454",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6072ab05-2d0f-40ad-b45f-26d9892301c7",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "984e6ce7-1f16-4eeb-b660-6b5668cbf67a",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "39bc181f-b26d-4318-bb8d-58dd59eef42d",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "62a82d4e-5807-4453-9a08-9e351dd9c8be",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "55f302d6-42c1-4868-9ae6-62e746f25ea0",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9a45461c-60bd-4b50-90ad-49067ee91909",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "d41b2120-56cc-449a-8032-dd54a805aa46",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "1927b711-08ab-49d8-aa2d-c44b83ec93f7",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e8a84925-68ce-445f-97f5-1fc709ed8da4",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "a6d897b5-a02b-4e77-8cfc-3d15f5b06eef",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f86373d8-1a8e-4f7e-bb7c-fda4aae23d17",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1ee03d34-eba3-49c2-9bba-187d822675c8",
+      "name": "rotor0",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "32df3e5c-cef3-4051-8a51-e2404a0bfb85",
+      "name": "rotor1",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9c1ecacb-cb07-4561-a50d-74460d20307b",
+      "name": "rotor2",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2640116a-c2fc-41f7-98ec-3329bb13c68f",
+      "name": "rotor3",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e272427b-83a9-410d-a49c-41f4aa94272d",
+      "name": "gimbalYaw",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0390777c-2c4f-45f2-aef1-5b790929c0f1",
+      "name": "ball",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9f58a523-5c1c-41b6-aa09-01e4b25d773e",
+      "name": "lamp",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d766c7af-b6db-4417-bcf8-d5db261fd498",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8986dbdb-2965-434f-9dd9-53ceeafe96ab",
+      "name": "strobeG",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fdf91866-f37f-4e14-9935-acacec34d199",
+      "name": "strobeR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4349b6ba-48e1-4ba7-97fa-ddca1e0d92c8",
+      "name": "strobeW",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "aed94643-58ba-433f-9832-67a5b687ec99",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "ec4722f6-3525-4a62-bfce-ca7a6d353991",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 5,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial",
+        "ShaderMaterial"
+      ],
+      "material_names": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "365c5f18-b293-45fd-8fe5-b7c19a6f916e",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c4f47a04-27f7-42c0-bdfe-acdebc10a189",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "6e78454c-77d1-4280-9f8d-4bfdc00633b9",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d89f2fac-5fe0-4b53-95d3-b6b3e8f81ab0",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2c0d2b31-f6fa-466e-ade6-cbd19c9c810c",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ef3a6911-97a0-4cd9-82fd-a13fc472ca99",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bc5d7b39-4c64-4eb2-acd2-ca1615abfe6a",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e77202ea-f93d-4dcb-89f5-c2554832bf74",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f252dd63-8cf2-4012-ba17-b91773b33d4e",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4f99e07b-f45b-456b-9faf-7b9728b1ae26",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c61e485f-bdfe-4964-8e2c-ab60ef16125b",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3e63cef0-e3ed-493c-93e8-2cab31b69e64",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3e676e17-cad0-46bb-b48b-86053ece33b8",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "454b2c95-a070-457c-bd9b-074a5f0f49fc",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "949026b3-51d5-4087-9e0a-f75647ffa914",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "460a332d-3479-49ac-a04b-2994b7b11586",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a63371c2-0a0c-43e0-93ce-77c90ef16fef",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0bf41dbc-a865-4b54-bea8-e690715dac85",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d3e24bb6-e65f-45e3-82c6-38d7de62b33f",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "34866d46-1066-429a-afbe-722dd045c79a",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "89656f65-7601-46b6-b164-2797fef3fc1c",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f6e0dfce-c984-42b9-8ce3-9e5ebb0977fc",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "da8fb608-75a1-4f7a-99ea-099f3d2e5267",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "71dd19a8-c3b9-4349-afaa-f179c195f652",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4b4d2061-34f4-4eef-88c9-ff23c1fc5552",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "76af7a44-530b-4302-bce8-a9f930a45940",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "effc9ec5-9ebe-4f9c-acae-4d4f3373c242",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2b6bad61-01b5-45c8-ba62-08417a3daaf5",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "98122874-72e0-4dc0-82b3-727f0ed6fd84",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "181e5948-b969-41cb-9606-d6877b7448f9",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "04774b56-bdd2-4813-9dc2-323b1692e747",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "20f073db-f75a-41be-b76e-80d0c849928e",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "926c0f82-ae8c-4f16-af28-2ed713303a17",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5c140278-7276-4a67-a59d-d8016ee60b65",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "07fd3d76-1eec-43b9-9a8f-45d15af80126",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fa16edba-7b38-4cef-9daf-87b64591b7fc",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "91f13f95-688f-44be-b03d-a1e3dc170eb2",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f5dea179-0e79-46b8-bfff-f6b10e033e82",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1675740f-108f-4a06-a3d7-277e714d56ef",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7b6ac2bb-49b1-4095-854d-449451c8dc61",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fa3dce52-fb10-4a99-9dbd-8c45923aa929",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "49d50713-9edb-479f-9a5c-2b2812620358",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2b1f5532-2899-46c4-9a8b-4424cc1734b3",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b3d3e31b-f675-443a-96d8-28c8cf258581",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f98abfac-23b3-49c3-bec5-9a97ba974142",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "86bca823-c48e-4e8e-a69d-2247c8916844",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "a43e14e4-795c-44ca-9d5f-5c3c2a1c60ac",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "462bfff8-1029-4142-abba-70aedebc10d2",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "868eb93e-e416-408e-b77a-5b2d1cbe616d",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0989d03b-bac3-49df-ab73-981e7b85e324",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f54a7bc8-b335-4264-9599-4917ab77b708",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "773d34a4-e4c4-41c5-981b-0bedf48403db",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f6c75f5f-76a6-4e07-bb7d-b0ab1f1d97df",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b899d436-3894-46c7-9784-6865fcdbad7a",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "bf5a72b9-70f3-4636-836b-711c8035b2ed",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8eddfe12-8872-44e2-bf81-0407f5b6e2ef",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "beae80c8-bbd7-4a4c-82cd-7663fb164a38",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f2872e6e-2ccc-4ab7-baaa-44404abde571",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d6a9b830-fd05-4358-80cf-87cb831e2974",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fe1c1528-f363-42f1-8359-fc4a6a7c0953",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "dac604ea-0a99-49d5-8855-3e9ab7a60252",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "498f5f93-460e-49dc-9e0f-5ae6bb76b6f5",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "23bbbbfe-5165-46a6-8563-591ae861b21c",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c2de60a5-40de-4c7c-9489-416caec86f10",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3940abfa-1451-40a1-b22f-a84bc6f7f61c",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "57b70f8a-645f-4790-a2e4-7839dddc6a85",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "42e6b5fd-1719-42e5-a1d4-4988ff5a1337",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5bfbdddf-4cd6-4d29-b50d-b1987ddcd657",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3d5a920a-a453-4022-aaa0-17375fc879cf",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "262f154e-b921-486a-bdb6-1f99ce00aa8f",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a2742f18-c15e-4d71-b37b-87a51a6c8117",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "249bde9c-e0b5-401a-bbc6-a42e04351e03",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7c2ac48e-dc0a-4c09-b54d-b5489d2e44c1",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "4a52d69f-eb44-454d-936e-8004853a9b6c",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "95885699-a5a8-45ed-b570-b924a6184361",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a7d37195-c942-4a7f-ac43-3d16ade697f9",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "99bfec31-102d-4f80-ad34-27809e1a6a76",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "25381411-1170-4c69-97c8-586b27614a07",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c0e71dad-c171-4232-ba14-9064f2e67a0f",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cfc675ec-5cf9-4f66-975a-eebe47d19a26",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1a15c5ab-c1f0-49e1-a7c7-ada05e7eb91f",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5d53388b-21fb-441a-9f2d-75e079335275",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "12e71c4a-b82c-4494-9df3-4bd88c71d3a7",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c13dd562-c0d0-49f1-ab7d-97ab60ef08da",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "f06e2b54-48aa-4489-8b8d-abad54bd1248",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "62ee9444-134a-43a9-9289-468f929d33dc",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ef2f1724-2a48-490e-afb8-ac12e450d707",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "736618ed-5ce0-4d59-8f7e-969f21867698",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "84571841-5954-4495-8d15-e59699d27926",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "61778ef4-bd04-4319-9c2c-7875332545f9",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7b6a4850-c7a0-49e1-98b5-0ccd0701a067",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a5ab801c-62a2-4608-bfaf-d438d2503a83",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "83cef7a8-8b41-4825-9bb8-bb7383521f24",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "417038a3-f9a7-4045-b755-da02871094bf",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "63067fa0-8c73-43bf-92a9-2e6d05a0b5e3",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "17f3175d-8c12-407c-b7f4-c4aa215452f4",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d312a1c5-f546-4e42-8c0b-23130cd74056",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3aa43711-688d-4855-b3fd-50a146463c98",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2ae0fd0c-0eab-4051-b85b-b1982837747e",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "84996106-4714-43f0-8ced-2a2c36fb9b6f",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7dd62e7a-fb86-495f-8e3c-d627f59f974a",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "006f0d8a-5f3c-4f38-9563-022ff99bc166",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "102fc300-be9a-459c-8e25-cd2585beb7e9",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "395f330b-f319-4ae4-8832-8e7639b0db8b",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7450ec48-be2d-4c59-8cce-d6ca8d0fa60f",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a247791e-dcde-4757-875c-070bb5496a6b",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0cd11b6c-aded-4edd-bfe9-88ea43b17054",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "edee456a-1122-442f-8fff-762ea9c449f9",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "869e7cf2-6b6c-4ac6-b662-5607328357f9",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "555260dd-23c3-4b85-9fd7-fa8c05685c95",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "11044b38-9c4a-449f-8774-d09e3600ae74",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "96f1ca29-4141-40d9-8008-41a3f3b63a60",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "933e711c-f189-4042-bcb0-d84f5a1b1b14",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ee9bbda2-a14b-461e-b032-5482dfe31c94",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e6f26348-6be7-43f3-98de-60164b8eb479",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "a465124b-bc68-4912-8186-48d928133ea5",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2f8b08c5-30f5-4ab5-8729-76c8c434abeb",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "a182b382-d0bf-4393-9819-cbe1b4728f26",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2ea51c39-71c2-40a8-b369-76fab4acc01a",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5dfde01a-ffe0-455a-ba9f-d150699e9f76",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "eb599241-ec39-4318-b229-96d0747c03c3",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6335ccda-b145-4151-8403-1029e5023cf0",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "a8e67f45-332d-4658-b5fe-63ce416edb00",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "019fa4d7-3f30-4bf7-b592-7f9fca9c62c8",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "45fbb29d-5875-4c37-9fba-8c7c5e68cf91",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "41f76f25-77fc-41a2-8b5d-4422e9a7643b",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "8dea19cb-8b46-4f94-8979-d3105e40dbd3",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "456f03b6-5e37-4a16-8e64-8d7fcf8b38b9",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e2140ddf-bf55-48fd-8b1c-84b075e974d3",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "801c1f69-798d-492c-a957-1f84760f5d9a",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e7a7f9ac-155a-4e7e-bf99-dedd97a6ef53",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "e3184355-6c07-4c4d-a463-367e0533057a",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ed395b89-1e49-4c8a-9afd-250aab25960f",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7143c0d7-5b66-43f2-aec3-bb519ed3daad",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fd16b183-0ebf-4505-8b3b-6a01f1b3f073",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "225ef2fc-10c3-4486-9de9-895ba89e184e",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "5c9cb1a7-16e3-4b06-8887-732ff7e4f8b4",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ada247cc-66ef-411e-b220-4dbe3d256a6f",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "77c80ac3-96b9-461a-b853-8f135d3c9055",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3e04e8ad-1a00-43a9-a1ec-151b4b0ba06e",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "316ba3af-8b11-4bf7-8457-bb601f5e7ba3",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d5054aa1-79b2-46cd-be46-d87f0f7aad73",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ce743473-f34f-4fe7-b6b9-2eddfd197cf0",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "fc206c37-0352-4c4a-b910-db91ac740125",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "06405330-5ce4-4555-bdb1-3b318d021d0a",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ee9b1f16-9ea9-45d1-8172-95b2257bf1f1",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "726109de-a9a9-495c-95d5-4f397a2cd6f9",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "847c9ae9-a7c3-43a2-b121-05ff12df4588",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "eecc489f-933a-4950-9c45-ab39b8a3e93a",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "217901d3-cb74-4a43-9927-99dfc9caee74",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1d17afe2-daf4-4916-85d8-a5a2ae425ad4",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7e49453c-81f0-438f-a01c-bd92b3cee7bb",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "112d9e18-63d9-47b6-920a-d3020e825479",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "3ba8200e-f281-4c89-941e-3859e7c07fca",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d66be019-c79c-42a3-998c-aa65c4e92217",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0f327002-16f2-49d1-902b-adc657e7a9e0",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d8e276d2-efed-4f9d-9167-179f2f171f09",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c596e89a-14b1-4fe9-8470-dfaf6f412b5b",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "20c8e2aa-bd3f-47f7-85ac-f335c6fbf0de",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "9a130ea8-bbeb-47a5-8c7f-a9afff7f33a8",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "005c2e3b-3c4b-4df3-a34a-02b93e619728",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "e9b7e80f-23bc-45d4-839a-5fd987b71bb2",
+      "name": "",
+      "type": "Group",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "2cd78c12-9cf1-4ca4-99b8-60c895913c53",
+      "name": "",
+      "type": "SkinnedMesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial",
+        "MeshStandardMaterial",
+        "MeshBasicMaterial",
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "armor_white",
+        "gunmetal",
+        "emissive",
+        "emissive"
+      ]
+    },
+    {
+      "id": "5d705d65-e457-40c1-8735-1fad95c2ac1d",
+      "name": "root",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "84b864a4-5761-4252-bf4f-ac11f543a60b",
+      "name": "body",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "402827f9-4da7-4be0-b539-a789e573d04f",
+      "name": "neck",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "d33c89a9-5e21-4d4c-a2e6-9315d1a81df6",
+      "name": "head",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "c0b5ee8e-9dce-4e11-959f-a56192d268ff",
+      "name": "turret",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "67909c12-151c-42cd-8cfd-72eef0a716ee",
+      "name": "gun",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "93e35229-70ff-4f40-985c-36cdea089b44",
+      "name": "antenna",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "280db0d3-73d5-4002-85d5-00a2914f38ea",
+      "name": "beacon",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7c97deec-d699-4ac8-9b4f-219de8472ff0",
+      "name": "abdFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0b385685-2a26-40a6-9001-871f9807aa66",
+      "name": "thighFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "6968368f-8f16-4cf5-a875-c61da9ae69df",
+      "name": "shinFL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "7c8af96d-c01f-425d-9186-43ae995a8c23",
+      "name": "abdFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "98462aa5-4c11-4fd2-9001-477c19f7ef52",
+      "name": "thighFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "b059f9af-748b-47f0-a155-978771440e0a",
+      "name": "shinFR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "34018ff5-d3e0-449e-bc13-be4b78a63823",
+      "name": "abdRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "0ef1c291-1eb7-4f2a-a14b-da2e635a8e91",
+      "name": "thighRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "1a0cc9b3-647f-4150-95f0-cdaf8e1a3c91",
+      "name": "shinRL",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "cc9d6178-a81b-44b2-95b3-e4cfd9f76668",
+      "name": "abdRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "ec8226ab-4f22-4f2d-9208-58efc75c9399",
+      "name": "thighRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "25808eeb-3646-4bb6-a162-89db0036d13a",
+      "name": "shinRR",
+      "type": "Bone",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [],
+      "material_names": []
+    },
+    {
+      "id": "62cab94a-1d39-4b3b-88a0-0a41e1ba1279",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshStandardMaterial"
+      ],
+      "material_names": [
+        "label"
+      ]
+    },
+    {
+      "id": "5461277e-4312-4221-b9c2-43af39030aec",
+      "name": "",
+      "type": "Mesh",
+      "renderOrder": 0,
+      "groupOrder": 0,
+      "material_types": [
+        "MeshBasicMaterial"
+      ],
+      "material_names": [
+        "emissive"
+      ]
+    }
+  ],
+  "scope": "Actual original node order and parent/type/name/material-slot/geometry-shape identity verified before mapping to immutable exported node IDs; no UUID stability assumption.",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb"
+}

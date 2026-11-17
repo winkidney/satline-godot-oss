@@ -1,0 +1,380 @@
+{
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "method": "UM literal; browser environment stubs",
+  "cases": [
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA RTX 4070",
+      "expected": "high"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA RTX 4070",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Windows",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Intel UHD 620",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Windows",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Intel UHD 620",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Windows",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Intel Arc A770",
+      "expected": "high"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Windows",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Intel Arc A770",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "llvmpipe",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "llvmpipe",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "SwiftShader",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "SwiftShader",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Software",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Software",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Mali",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Mali",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Adreno",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "Adreno",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "PowerVR",
+      "expected": "medium"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "PowerVR",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "",
+      "expected": "high"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Android",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "low"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Android",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "iPhone",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "low"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "iPhone",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "iPad",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "low"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "iPad",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Mobile",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "low"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Mobile",
+      "touch_points": 0,
+      "screen": [
+        1920,
+        1080
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 2,
+      "screen": [
+        899,
+        1200
+      ],
+      "renderer": "NVIDIA",
+      "expected": "low"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 2,
+      "screen": [
+        899,
+        1200
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 2,
+      "screen": [
+        900,
+        1200
+      ],
+      "renderer": "NVIDIA",
+      "expected": "high"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 2,
+      "screen": [
+        900,
+        1200
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    },
+    {
+      "requested": "",
+      "user_agent": "Linux",
+      "touch_points": 1,
+      "screen": [
+        400,
+        600
+      ],
+      "renderer": "NVIDIA",
+      "expected": "high"
+    },
+    {
+      "requested": "ultra",
+      "user_agent": "Linux",
+      "touch_points": 1,
+      "screen": [
+        400,
+        600
+      ],
+      "renderer": "NVIDIA",
+      "expected": "ultra"
+    }
+  ]
+}

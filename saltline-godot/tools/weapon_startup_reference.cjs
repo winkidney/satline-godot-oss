@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=path.resolve(__dirname,'..'),source=fs.readFileSync(path.join(root,'../artifact-rendering-study/source/extracted/bundle-1.js'),'utf8');
+const offset=source.indexOf('  async function I5(n)'),a=source.indexOf('      a = {',offset),b=source.indexOf('    n.events &&',a),literal=source.slice(a+10,b).trim().replace(/;$/,'');
+const math=source.slice(source.indexOf('  var RE = St,'),source.indexOf('  function Ru(')),state=Function('const St=function(){};'+math+'return ('+literal+');')();
+const su=Function(source.slice(source.indexOf('  function su(n = 1337)'),source.indexOf('  var Hn = '))+'return su;')();
+const observed=JSON.parse(fs.readFileSync(path.join(root,'assets/export/fixtures/weapon-startup-observed.json'),'utf8'));
+if(JSON.stringify(state)!==JSON.stringify(observed.construct)||JSON.stringify(state)!==JSON.stringify(observed.boot.state))throw Error('literal/cold-browser state differ');
+const parent=su(4207),names=['level','rain','explosives','weapon'],forks=names.map(name=>{let value=parent();return {name,seed:Math.floor(value*4294967296)}});
+if(observed.ready!==true||observed.fatal!==null||!Array.isArray(observed.errors)||observed.errors.length||observed.boot.parent.calls!==4||observed.weapon_parent.seed!==4207)throw Error('cold browser bootstrap health/root gate');
+const children=observed.rng_trace.filter(r=>r.parent===0);if(children.length!==4||children.some((r,j)=>r.seed!==forks[j].seed)||observed.rng_trace[0].calls!==4||observed.rng_trace[0].state!==observed.boot.parent.state)throw Error('all fork observations mismatch');
+if(forks[3].seed!==observed.boot.rng.seed||observed.weapon_parent.calls!==3||observed.boot.rng.calls!==0)throw Error('browser fork/order mismatch');
+const weapon=su(forks[3].seed),sequence=Array.from({length:64},()=>weapon());
+const result={source_sha256:crypto.createHash('sha256').update(source).digest('hex'),initial_state_sha256:crypto.createHash('sha256').update(literal).digest('hex'),world_seed:4207,forks,weapon_seed:forks[3].seed,state,sequence,scope:'Literal I5 initial S equals observed cold-browser pre/post T state. Original su fourth global fork matches normal noaudio seed4207 browser trace; no weapon draws before I5 return. Full global FX/AI streams not yet migrated.'};
+fs.writeFileSync(path.join(root,'assets/export/weapon-startup.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({weapon_seed:result.weapon_seed,fields:Object.keys(state).length,forks}));

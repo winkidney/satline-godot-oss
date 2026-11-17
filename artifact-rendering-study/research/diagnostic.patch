@@ -1,0 +1,52 @@
+--- source/extracted/bundle-1.js
++++ research/game.js
+@@ -36053,7 +36053,10 @@
+         return r.push(D), D;
+       };
+     function l(me, ge) {
+-      (s.material = me), n.setRenderTarget(ge), n.render(s, o);
++      const timer = window.__studyGpu;
++      timer && timer.begin(me.name, ge);
++      try { (s.material = me), n.setRenderTarget(ge), n.render(s, o); }
++      finally { timer && timer.end(); }
+     }
+     let c = ro,
+       u = wi,
+@@ -36639,6 +36642,7 @@
+       quad: s,
+       fsCam: o,
+     };
++    e.researchPost = fe;
+     return fe;
+   }
+   var n_ = 2,
+@@ -36718,7 +36722,7 @@
+       f.layers.enable(Ro);
+     let d = !1;
+     try {
+-      d = jM(h, { taps: n.quality.name === "low" ? 10 : 16, searchTaps: 8 });
++      d = e.soft === "0" ? (KM(), false) : jM(h, { taps: n.quality.name === "low" ? 10 : 16, searchTaps: 8 });
+     } catch (G) {
+       console.warn("[render] soft shadows unavailable: " + G);
+     }
+@@ -39592,9 +39596,9 @@
+       let L = Math.round(s * I.size);
+       return I.hero && i >= 2048 && (L = 2048), Math.max(32, L);
+     }
+-    function E(I) {
++    function E(I, force = false) {
+       let L = p.get(I);
+-      if (L) return L;
++      if (L && !force) return L;
+       let U = p_[I],
+         k = performance.now(),
+         C = g(U),
+@@ -39771,6 +39775,8 @@
+     }
+     let R = d_(n, o);
+     return {
++      researchSet: E,
++      researchHeightTargets: f,
+       get: w,
+       emissive: S,
+       decal: R.decal,

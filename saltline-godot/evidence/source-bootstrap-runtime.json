@@ -1,0 +1,12 @@
+{
+  "explosive_calls": 15,
+  "explosive_seed": 1883172587,
+  "failures": [],
+  "frames": 470,
+  "root_calls": 115,
+  "root_seed": 4207,
+  "scope": "Actual Main ownership of post-build shared root/weapon/explosives and independent AI seed;470-frame existing arms/mechanical/magazine path. Does not prove exact full-source stochastic event schedule or Math.random FX.",
+  "shared_checks": 4,
+  "weapon_calls": 37,
+  "weapon_seed": 3554171070
+}

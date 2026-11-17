@@ -1,0 +1,7568 @@
+{
+  "three": "180",
+  "records": [
+    {
+      "id": "8211d4df-e31a-40c8-b82e-2da7c416e24c",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "8211d4df-e31a-40c8-b82e-2da7c416e24c.rgba",
+      "sha256": "a451f43233ff7b7c5c12c0a79f2f22efd74c5f79eda98260fd9085612d40c649"
+    },
+    {
+      "id": "b62afdf6-7df7-4829-b798-5e7fb599db93",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "b62afdf6-7df7-4829-b798-5e7fb599db93.rgba",
+      "sha256": "9db7af8cf9bb15496e79651173e5e8182f16c6f1b8be1b0f3136ee01e1ad5e60"
+    },
+    {
+      "id": "468708b5-7599-458b-8968-ac2abc390a46",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "468708b5-7599-458b-8968-ac2abc390a46.rgba",
+      "sha256": "5758955652a3b5cf2b4043d143e3c407abf5a724f5620895edfebcf93d243c4a"
+    },
+    {
+      "id": "6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d",
+      "levels": [
+        {
+          "width": 2048,
+          "height": 1024,
+          "bytes": 8388608
+        },
+        {
+          "width": 1024,
+          "height": 512,
+          "bytes": 2097152
+        },
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 11184812,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "6bb7febf-6ddc-45bc-ab6b-8cc2c333b23d.rgba",
+      "sha256": "33a0788887f434815dd3596a9ffc2bcb1a599cb6d8b15e5a44a77874171db986"
+    },
+    {
+      "id": "8f3efb14-7cbe-4599-a3c3-334c0bc1c5f3",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        }
+      ],
+      "bytes": 262144,
+      "mipmaps": false,
+      "colorSpace": "",
+      "file": "8f3efb14-7cbe-4599-a3c3-334c0bc1c5f3.rgba",
+      "sha256": "e08d7a77f14996406fcd20dfae063ecf3ecacd812ba19160629adcf279859ac2"
+    },
+    {
+      "id": "7d6e8448-1eab-479a-b4ed-5c923b717088",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "7d6e8448-1eab-479a-b4ed-5c923b717088.rgba",
+      "sha256": "1703eac8d78197dfe24f87678b8d6ce5a3295b60869eb784d0bbf134842181ee"
+    },
+    {
+      "id": "0a67a71c-4d40-43b4-8e34-881c108651ff",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "0a67a71c-4d40-43b4-8e34-881c108651ff.rgba",
+      "sha256": "0e7d58d32254b7a41eacf4c8025034afc546c52f667ac63d97354e464d9c508f"
+    },
+    {
+      "id": "35ad4517-a554-4693-821d-c3c2e0712f5e",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "35ad4517-a554-4693-821d-c3c2e0712f5e.rgba",
+      "sha256": "816ecac8cd03352c87b2f58bfc0112f953762b8d068cd4eef1e09914f24a53dc"
+    },
+    {
+      "id": "b9371a06-22a0-44f2-849d-5d096dee95a8",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "b9371a06-22a0-44f2-849d-5d096dee95a8.rgba",
+      "sha256": "9b98f815968795890b2ffb8a7e2ea50e918c2a8ed4f48a3f39e9be7674ca3621"
+    },
+    {
+      "id": "ba4f23e3-ea16-426b-8c7c-f3695ac65955",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "ba4f23e3-ea16-426b-8c7c-f3695ac65955.rgba",
+      "sha256": "8cdd357afd7b5582a4c273d40cd6e4f5178cb624fc845974d2c82651c2cc69f9"
+    },
+    {
+      "id": "9e612342-cce9-45d4-a887-e64af0038258",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "9e612342-cce9-45d4-a887-e64af0038258.rgba",
+      "sha256": "dbc4644a239294e79e77e6f2504397caedec8a523dee9f3c3828ecf90e41dfa6"
+    },
+    {
+      "id": "ac8eefd6-5b0a-463d-894e-878de59cae7e",
+      "levels": [
+        {
+          "width": 640,
+          "height": 192,
+          "bytes": 491520
+        },
+        {
+          "width": 320,
+          "height": 96,
+          "bytes": 122880
+        },
+        {
+          "width": 160,
+          "height": 48,
+          "bytes": 30720
+        },
+        {
+          "width": 80,
+          "height": 24,
+          "bytes": 7680
+        },
+        {
+          "width": 40,
+          "height": 12,
+          "bytes": 1920
+        },
+        {
+          "width": 20,
+          "height": 6,
+          "bytes": 480
+        },
+        {
+          "width": 10,
+          "height": 3,
+          "bytes": 120
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 655352,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "ac8eefd6-5b0a-463d-894e-878de59cae7e.rgba",
+      "sha256": "357381196150720a84423239518cdfe5d57ea803b772550aea2a1f311d3447d5"
+    },
+    {
+      "id": "b13d58be-33e1-4b16-9c50-633e0e459791",
+      "levels": [
+        {
+          "width": 288,
+          "height": 200,
+          "bytes": 230400
+        },
+        {
+          "width": 144,
+          "height": 100,
+          "bytes": 57600
+        },
+        {
+          "width": 72,
+          "height": 50,
+          "bytes": 14400
+        },
+        {
+          "width": 36,
+          "height": 25,
+          "bytes": 3600
+        },
+        {
+          "width": 18,
+          "height": 12,
+          "bytes": 864
+        },
+        {
+          "width": 9,
+          "height": 6,
+          "bytes": 216
+        },
+        {
+          "width": 4,
+          "height": 3,
+          "bytes": 48
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 307140,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "b13d58be-33e1-4b16-9c50-633e0e459791.rgba",
+      "sha256": "a1ae99420419104a6ee5bec2de77e9aa771e68aaeef3619e8c5b0a88f2d478b6"
+    },
+    {
+      "id": "90a07753-cf75-46de-84bb-add386e7baed",
+      "levels": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "bytes": 16777216
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 22369620,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "90a07753-cf75-46de-84bb-add386e7baed.rgba",
+      "sha256": "76c3defa5a80575e709bcada0eeeca0a9d74ba21f873b5ab9cbe558e1ddc6d1a"
+    },
+    {
+      "id": "1b3b1d9c-9885-46b4-af67-f7818aae26dd",
+      "levels": [
+        {
+          "width": 128,
+          "height": 256,
+          "bytes": 131072
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "bytes": 32768
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "bytes": 8192
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "bytes": 2048
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "bytes": 512
+        },
+        {
+          "width": 4,
+          "height": 8,
+          "bytes": 128
+        },
+        {
+          "width": 2,
+          "height": 4,
+          "bytes": 32
+        },
+        {
+          "width": 1,
+          "height": 2,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 174764,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "1b3b1d9c-9885-46b4-af67-f7818aae26dd.rgba",
+      "sha256": "dca2e962434c68e599ae3ead4597c3ecc7ef2f1e71075222e170ed5e0f86738c"
+    },
+    {
+      "id": "ed913cfd-599e-41bf-b62c-abd03b8bd246",
+      "levels": [
+        {
+          "width": 128,
+          "height": 256,
+          "bytes": 131072
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "bytes": 32768
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "bytes": 8192
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "bytes": 2048
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "bytes": 512
+        },
+        {
+          "width": 4,
+          "height": 8,
+          "bytes": 128
+        },
+        {
+          "width": 2,
+          "height": 4,
+          "bytes": 32
+        },
+        {
+          "width": 1,
+          "height": 2,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 174764,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "ed913cfd-599e-41bf-b62c-abd03b8bd246.rgba",
+      "sha256": "3c9834df34395996344742839b84811946202ba6e5438d424371cdf431849d7b"
+    },
+    {
+      "id": "616292bc-b4e3-4d2a-96a1-9ee3b833b265",
+      "levels": [
+        {
+          "width": 640,
+          "height": 192,
+          "bytes": 491520
+        },
+        {
+          "width": 320,
+          "height": 96,
+          "bytes": 122880
+        },
+        {
+          "width": 160,
+          "height": 48,
+          "bytes": 30720
+        },
+        {
+          "width": 80,
+          "height": 24,
+          "bytes": 7680
+        },
+        {
+          "width": 40,
+          "height": 12,
+          "bytes": 1920
+        },
+        {
+          "width": 20,
+          "height": 6,
+          "bytes": 480
+        },
+        {
+          "width": 10,
+          "height": 3,
+          "bytes": 120
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 655352,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "616292bc-b4e3-4d2a-96a1-9ee3b833b265.rgba",
+      "sha256": "a5b2383f8827774b4dae08d50a9fd487a088ab31a23d3eda115388cd6bbc563a"
+    },
+    {
+      "id": "cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "cc05e4d5-96d9-4e80-84e2-b0c1d946a9f4.rgba",
+      "sha256": "07e80b26b1ee896402df03033383638efc041d39f03fd1399f35985b6f1d69fe"
+    },
+    {
+      "id": "a6fe31be-e93a-427d-a83f-ea7267a26aa2",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "a6fe31be-e93a-427d-a83f-ea7267a26aa2.rgba",
+      "sha256": "331837398c3bb29dfd6538ef18af3a147129cc5db74c0a6e04fbf2ea0bf9ce0f"
+    },
+    {
+      "id": "cd6ade9e-1665-4401-9037-52fcae4c0a7b",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "cd6ade9e-1665-4401-9037-52fcae4c0a7b.rgba",
+      "sha256": "41aa634824df28d2e9a724933ad07b19b87033882bc7ac9e8bf813c49b415203"
+    },
+    {
+      "id": "21f1e9a9-9d8f-4a67-a638-c40e951f0c78",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "21f1e9a9-9d8f-4a67-a638-c40e951f0c78.rgba",
+      "sha256": "79d6201b1d134d0789240daf345e5e0d60c3e24a5034c06ac9ce631d90a3652d"
+    },
+    {
+      "id": "dde07d27-09a0-4308-8c96-0a75476d8781",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "dde07d27-09a0-4308-8c96-0a75476d8781.rgba",
+      "sha256": "b846a3f0c3fae7bdfa76e24a868e75ab7579516afab1f79ebec5cc0ec9abc8d5"
+    },
+    {
+      "id": "d59e5a87-517e-42dd-93ea-662aca3dd627",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "d59e5a87-517e-42dd-93ea-662aca3dd627.rgba",
+      "sha256": "79ad22d290c347b26013ac80d6931dffa649fe8b1e827c65656db890a031a4b8"
+    },
+    {
+      "id": "a40fada2-80dd-400e-885e-dd36ea0da3e8",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "a40fada2-80dd-400e-885e-dd36ea0da3e8.rgba",
+      "sha256": "e4b9db1f38da19b9f5a24bbe41f38731895b8fd0ab0d032d5bcaeaea0186aa89"
+    },
+    {
+      "id": "95e29bb1-8d01-4945-8eca-bbc253c89e34",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "95e29bb1-8d01-4945-8eca-bbc253c89e34.rgba",
+      "sha256": "fa656de4896eed1a89b526bbb30f6e92e3746bd690d632583e33c18b96acb3ac"
+    },
+    {
+      "id": "ab6bbc00-a035-424b-8059-b0e484ff6c08",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "ab6bbc00-a035-424b-8059-b0e484ff6c08.rgba",
+      "sha256": "26022dbcf736bf4593bd99934244b7422622b8cf76c62550b1c2f999eb8a602e"
+    },
+    {
+      "id": "4e97d3c2-d2c1-4d6b-937b-e8fea02121a9",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "4e97d3c2-d2c1-4d6b-937b-e8fea02121a9.rgba",
+      "sha256": "814bbaa1d48d8207ba6b0a94c56c62acce9ef5aaa0c6e8850eff59028f2c274e"
+    },
+    {
+      "id": "d14a3ee1-8e4a-46af-8bbd-58a543eeddab",
+      "levels": [
+        {
+          "width": 640,
+          "height": 192,
+          "bytes": 491520
+        },
+        {
+          "width": 320,
+          "height": 96,
+          "bytes": 122880
+        },
+        {
+          "width": 160,
+          "height": 48,
+          "bytes": 30720
+        },
+        {
+          "width": 80,
+          "height": 24,
+          "bytes": 7680
+        },
+        {
+          "width": 40,
+          "height": 12,
+          "bytes": 1920
+        },
+        {
+          "width": 20,
+          "height": 6,
+          "bytes": 480
+        },
+        {
+          "width": 10,
+          "height": 3,
+          "bytes": 120
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 655352,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "d14a3ee1-8e4a-46af-8bbd-58a543eeddab.rgba",
+      "sha256": "2e021d5276d6af973227ab625ca5e92f34cde97d012c2d7c7bb265354945fbbe"
+    },
+    {
+      "id": "facf0022-4503-4686-956d-cd6367061578",
+      "levels": [
+        {
+          "width": 640,
+          "height": 192,
+          "bytes": 491520
+        },
+        {
+          "width": 320,
+          "height": 96,
+          "bytes": 122880
+        },
+        {
+          "width": 160,
+          "height": 48,
+          "bytes": 30720
+        },
+        {
+          "width": 80,
+          "height": 24,
+          "bytes": 7680
+        },
+        {
+          "width": 40,
+          "height": 12,
+          "bytes": 1920
+        },
+        {
+          "width": 20,
+          "height": 6,
+          "bytes": 480
+        },
+        {
+          "width": 10,
+          "height": 3,
+          "bytes": 120
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 655352,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "facf0022-4503-4686-956d-cd6367061578.rgba",
+      "sha256": "a42f2ccf7166eb063ead76e8c6db12f2a8c21f704bf5fac8d9adbe557e02f8db"
+    },
+    {
+      "id": "4f1f032f-30fc-4d2f-ac85-9b591d005322",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "4f1f032f-30fc-4d2f-ac85-9b591d005322.rgba",
+      "sha256": "4d74e26a6ee1bc02f194fb9baa1b10521dbfdd8e65b42749d4616d1dfc3dccd1"
+    },
+    {
+      "id": "2b5d563f-1582-47a7-ad76-57728517f7b3",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "2b5d563f-1582-47a7-ad76-57728517f7b3.rgba",
+      "sha256": "93782321f3d47e4e8864b080b2a96801bc93edcf8d24fb9fe87a083fda8063f0"
+    },
+    {
+      "id": "db083989-4637-4108-b32c-562d715a92c0",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "db083989-4637-4108-b32c-562d715a92c0.rgba",
+      "sha256": "b8ecb34f88a800d0a6b06dfe211c042f54910d75345043d915c9cc0bea99d99e"
+    },
+    {
+      "id": "2d6f9788-08ca-4ed9-bf05-25fa18e3f814",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "2d6f9788-08ca-4ed9-bf05-25fa18e3f814.rgba",
+      "sha256": "aec3be0b858cde1571b2d061dd22bc5acc3a0021d7c9ee744f2bb0eb16302992"
+    },
+    {
+      "id": "5ba237fa-af2d-48c7-a490-70a0f0806ac1",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "5ba237fa-af2d-48c7-a490-70a0f0806ac1.rgba",
+      "sha256": "3467b329c8423609ae5d297aef915811f8ccb2c2d3da3ce2742297e604a64ff1"
+    },
+    {
+      "id": "5f34f084-610b-44a2-8d8c-a46d88784cfc",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "5f34f084-610b-44a2-8d8c-a46d88784cfc.rgba",
+      "sha256": "b478adae26b825f3b766195726ef3b66d7e1b8e6c7e5ca7d0aea94fed00d6859"
+    },
+    {
+      "id": "9c547b27-0e72-45b1-aac7-ba17f7fd50f0",
+      "levels": [
+        {
+          "width": 384,
+          "height": 192,
+          "bytes": 294912
+        },
+        {
+          "width": 192,
+          "height": 96,
+          "bytes": 73728
+        },
+        {
+          "width": 96,
+          "height": 48,
+          "bytes": 18432
+        },
+        {
+          "width": 48,
+          "height": 24,
+          "bytes": 4608
+        },
+        {
+          "width": 24,
+          "height": 12,
+          "bytes": 1152
+        },
+        {
+          "width": 12,
+          "height": 6,
+          "bytes": 288
+        },
+        {
+          "width": 6,
+          "height": 3,
+          "bytes": 72
+        },
+        {
+          "width": 3,
+          "height": 1,
+          "bytes": 12
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 393208,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "9c547b27-0e72-45b1-aac7-ba17f7fd50f0.rgba",
+      "sha256": "3bc3d773967a29c8a7c2e95999fa64e7f8dcd0658a0de7c11b84cb0372f0105a"
+    },
+    {
+      "id": "f2f9114b-1455-4c78-acb4-b7664a831078",
+      "levels": [
+        {
+          "width": 512,
+          "height": 128,
+          "bytes": 262144
+        },
+        {
+          "width": 256,
+          "height": 64,
+          "bytes": 65536
+        },
+        {
+          "width": 128,
+          "height": 32,
+          "bytes": 16384
+        },
+        {
+          "width": 64,
+          "height": 16,
+          "bytes": 4096
+        },
+        {
+          "width": 32,
+          "height": 8,
+          "bytes": 1024
+        },
+        {
+          "width": 16,
+          "height": 4,
+          "bytes": 256
+        },
+        {
+          "width": 8,
+          "height": 2,
+          "bytes": 64
+        },
+        {
+          "width": 4,
+          "height": 1,
+          "bytes": 16
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349532,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "f2f9114b-1455-4c78-acb4-b7664a831078.rgba",
+      "sha256": "a662f69996cd31614b62968c8d1eb808f5d0807b96b019935f9d88e509a1e8e9"
+    },
+    {
+      "id": "12fc56a5-2a17-4b44-a469-90a0183c6ed1",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "12fc56a5-2a17-4b44-a469-90a0183c6ed1.rgba",
+      "sha256": "479fbcd1c2b659489d91c6e3e8d2b2e8d0a7abc17e52d3657e1d18d96b17e4fc"
+    },
+    {
+      "id": "ff7d0789-741a-4d77-be4b-acee627f9039",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "ff7d0789-741a-4d77-be4b-acee627f9039.rgba",
+      "sha256": "06abed45c84d4f8292098775adde26953fae03b08957a5d5a66868eb1c921495"
+    },
+    {
+      "id": "0a2f10fa-cf15-44ad-a4a4-5b39863d6274",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "0a2f10fa-cf15-44ad-a4a4-5b39863d6274.rgba",
+      "sha256": "5b1350e238c497ccb50375f24a7d140da21bac715e06f4d43aedc41079312dd4"
+    },
+    {
+      "id": "fe2f8cbb-23b8-4114-903c-0959e0fc4356",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "fe2f8cbb-23b8-4114-903c-0959e0fc4356.rgba",
+      "sha256": "bb81eaab4e3fb7940e3b0664deae71c3395fddd9df6636b6ab409b2c85064368"
+    },
+    {
+      "id": "1370c82d-ac74-40f4-9343-b6c4f148effa",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "1370c82d-ac74-40f4-9343-b6c4f148effa.rgba",
+      "sha256": "253236d3e9b416c6297ac5b1d671cb5dded139abbff0edb75d3c2113fbc26f3f"
+    },
+    {
+      "id": "13ce461b-ee5c-4fd0-bb78-c2cae1e54072",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "13ce461b-ee5c-4fd0-bb78-c2cae1e54072.rgba",
+      "sha256": "dd95e16abbd4c1e2cf3a0f0c40f4a800595805b650e5398222a755050a3c478c"
+    },
+    {
+      "id": "a2220aa0-985a-485f-a415-5d6efc9aefc8",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "a2220aa0-985a-485f-a415-5d6efc9aefc8.rgba",
+      "sha256": "acd955064b6c5c86cededeae56fd0935d37f996ef6e0107c73cf2fc773288e4a"
+    },
+    {
+      "id": "78163b74-5e37-4b42-8323-950afb6feb35",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "78163b74-5e37-4b42-8323-950afb6feb35.rgba",
+      "sha256": "c3762c35d513b6b78e6ea4daa2cd5f95405e2845ca8a32811232a116034a397c"
+    },
+    {
+      "id": "e1e9501b-4c5f-48eb-91ad-50c00e2a34ad",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "e1e9501b-4c5f-48eb-91ad-50c00e2a34ad.rgba",
+      "sha256": "f586c604a75705b17db0dbcf2c84b1ad6b9bd53624fd35383ae1e531e42077eb"
+    },
+    {
+      "id": "fddb529b-a765-4d83-b3ce-ffe768bca990",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "fddb529b-a765-4d83-b3ce-ffe768bca990.rgba",
+      "sha256": "f469037e49cf8ad72b9f50cbcce0f1fad7f3bbd926671d14deee378ac95d15d2"
+    },
+    {
+      "id": "2b279672-b2f9-4740-95fc-c04312742729",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "2b279672-b2f9-4740-95fc-c04312742729.rgba",
+      "sha256": "1a45546e776279a472817e6532ca50f391d045aa6e9df58ff9299da99b4d8b1d"
+    },
+    {
+      "id": "d2121308-5a24-412a-9086-973bb4d142dc",
+      "levels": [
+        {
+          "width": 640,
+          "height": 128,
+          "bytes": 327680
+        },
+        {
+          "width": 320,
+          "height": 64,
+          "bytes": 81920
+        },
+        {
+          "width": 160,
+          "height": 32,
+          "bytes": 20480
+        },
+        {
+          "width": 80,
+          "height": 16,
+          "bytes": 5120
+        },
+        {
+          "width": 40,
+          "height": 8,
+          "bytes": 1280
+        },
+        {
+          "width": 20,
+          "height": 4,
+          "bytes": 320
+        },
+        {
+          "width": 10,
+          "height": 2,
+          "bytes": 80
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 436912,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "d2121308-5a24-412a-9086-973bb4d142dc.rgba",
+      "sha256": "7f977d3fff6d7e1b94087b3b82f9a1d168425abcad482a50e899d078ae628290"
+    },
+    {
+      "id": "9964b6dd-337e-4e20-abe5-c33599fd9d2f",
+      "levels": [
+        {
+          "width": 192,
+          "height": 256,
+          "bytes": 196608
+        },
+        {
+          "width": 96,
+          "height": 128,
+          "bytes": 49152
+        },
+        {
+          "width": 48,
+          "height": 64,
+          "bytes": 12288
+        },
+        {
+          "width": 24,
+          "height": 32,
+          "bytes": 3072
+        },
+        {
+          "width": 12,
+          "height": 16,
+          "bytes": 768
+        },
+        {
+          "width": 6,
+          "height": 8,
+          "bytes": 192
+        },
+        {
+          "width": 3,
+          "height": 4,
+          "bytes": 48
+        },
+        {
+          "width": 1,
+          "height": 2,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 262140,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "9964b6dd-337e-4e20-abe5-c33599fd9d2f.rgba",
+      "sha256": "7b0526ca930eb7972c76bc7c0d506e89b2922977f97f238843d44f7f996c4239"
+    },
+    {
+      "id": "ff98c4f0-a79e-4f88-bfd5-6717146c972a",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "ff98c4f0-a79e-4f88-bfd5-6717146c972a.rgba",
+      "sha256": "b6542c9b53a928c7604de9375066fd56efe840d7885c0bdfd201b7f4a4f91822"
+    },
+    {
+      "id": "c66a3e2a-a487-4d0d-8c83-94860bc74dab",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "c66a3e2a-a487-4d0d-8c83-94860bc74dab.rgba",
+      "sha256": "b4dd63736f69010c68c236d1325c83793111ea1ab3789be4f2bb5434c564a564"
+    },
+    {
+      "id": "f44a66de-900e-4b8c-b14a-e23a18e375b6",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "f44a66de-900e-4b8c-b14a-e23a18e375b6.rgba",
+      "sha256": "e4b863ba081c76b1d80d5b0f5d3c9566a5c20a43c66afa2e835f0c4f39ad55d8"
+    },
+    {
+      "id": "c8bb15e5-56bc-4c85-bf05-ffc4a3243592",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "c8bb15e5-56bc-4c85-bf05-ffc4a3243592.rgba",
+      "sha256": "74b2e7518ec4c800084bd7b528c10a3bf9f94098fecd451807d6712cc49bb637"
+    },
+    {
+      "id": "0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "0cf27f44-d6b8-4dfb-b53e-54bdc46ffe4d.rgba",
+      "sha256": "36273212c23719152f4c4a57a1355776f8fed5b7fcc09c3226efd196a5d7c9e2"
+    },
+    {
+      "id": "af9a5ec9-8a29-4aea-bb60-feb89d34258b",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "af9a5ec9-8a29-4aea-bb60-feb89d34258b.rgba",
+      "sha256": "681ce37830eef39e074d6bcd842357a0ed6394261ce4e645e15af916627e7daf"
+    },
+    {
+      "id": "d7a95494-2233-4895-aed8-7c3dcaed623b",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "d7a95494-2233-4895-aed8-7c3dcaed623b.rgba",
+      "sha256": "4bfb4af0696e8d575474d845c2cdcf84686423d45cd2821f1eaab0635cf4aaf0"
+    },
+    {
+      "id": "a4a85b1a-ef02-4434-9f00-ce5f85ade9b2",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "a4a85b1a-ef02-4434-9f00-ce5f85ade9b2.rgba",
+      "sha256": "66c2e53083572ebe75dea65c66e9e2c4f48e31880fe4c538996d6513f2f8f490"
+    },
+    {
+      "id": "f576eaf0-e130-4c30-a3ad-47c376a9a721",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "f576eaf0-e130-4c30-a3ad-47c376a9a721.rgba",
+      "sha256": "a5afeaa212f802f6848972d029954b14dc49236b7bf8d881a6091a08476f2386"
+    },
+    {
+      "id": "8e5d4de7-5f4e-4be3-acf6-260494a68050",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "8e5d4de7-5f4e-4be3-acf6-260494a68050.rgba",
+      "sha256": "d16fc28882b4d06ea32a69d331fae74ec500b5255cd450d3a078e4e95c9da937"
+    },
+    {
+      "id": "e1730a86-53fe-4c71-9dcd-ac5cab1920d9",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "e1730a86-53fe-4c71-9dcd-ac5cab1920d9.rgba",
+      "sha256": "225e184241a1a5ebdc53cb14c8789fd2816a0413b35ae2f2b138aef1f75c6129"
+    },
+    {
+      "id": "30af1272-771c-4e08-8ad2-82eebec6c9a8",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "30af1272-771c-4e08-8ad2-82eebec6c9a8.rgba",
+      "sha256": "ec96c1fa6603e2fde57bb68e825c1d325dcd73a9647bbbb7cf77fc30665ee31f"
+    },
+    {
+      "id": "67d0842a-5880-49e1-b004-3b6bc57a8f36",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "67d0842a-5880-49e1-b004-3b6bc57a8f36.rgba",
+      "sha256": "fca3cc48900deebb53245b4613a50514ba841a9678bdcbdf676979646b8fcfba"
+    },
+    {
+      "id": "611ab21a-a7f8-472b-a936-c73f8b548040",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "611ab21a-a7f8-472b-a936-c73f8b548040.rgba",
+      "sha256": "0111a95f0aad6cd9ff5ee996867369d76bd7077220799484881afbf5828d65b1"
+    },
+    {
+      "id": "e2f0c23e-37a8-4c4b-8dbe-e5924d988563",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "e2f0c23e-37a8-4c4b-8dbe-e5924d988563.rgba",
+      "sha256": "6cd541cc1de5f7c5fc03286b84d91e7a2e365da9f5e6f3a8ecc191bec14f9fa0"
+    },
+    {
+      "id": "2edc6d4f-4a45-45ad-97aa-a4696291b1d9",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "2edc6d4f-4a45-45ad-97aa-a4696291b1d9.rgba",
+      "sha256": "5f0023f5ccc0271cea055fa3bede3a5e4674bd4971ad28251b1a181f10124a8c"
+    },
+    {
+      "id": "86053182-20a0-4992-a3a0-29585ae538d5",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "86053182-20a0-4992-a3a0-29585ae538d5.rgba",
+      "sha256": "c8ee2d81e2a339022fed10a319f6340babbd94e7e0578ee2b631024a106981ef"
+    },
+    {
+      "id": "ca557b4b-f20d-4555-ab45-353426b03fde",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "ca557b4b-f20d-4555-ab45-353426b03fde.rgba",
+      "sha256": "6448eaa591bf9d7ea65789aa24d129390ca4346df6789933a77b8caecd7500df"
+    },
+    {
+      "id": "06fc42d3-ce13-48da-a89e-fe0df7acaa57",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "06fc42d3-ce13-48da-a89e-fe0df7acaa57.rgba",
+      "sha256": "9ebf13512e10583003b9450671480e0b8b40e58d5cb6c19e2349165aa9166b3d"
+    },
+    {
+      "id": "522b3bf0-2a18-412d-9787-46c93ff3c094",
+      "levels": [
+        {
+          "width": 640,
+          "height": 224,
+          "bytes": 573440
+        },
+        {
+          "width": 320,
+          "height": 112,
+          "bytes": 143360
+        },
+        {
+          "width": 160,
+          "height": 56,
+          "bytes": 35840
+        },
+        {
+          "width": 80,
+          "height": 28,
+          "bytes": 8960
+        },
+        {
+          "width": 40,
+          "height": 14,
+          "bytes": 2240
+        },
+        {
+          "width": 20,
+          "height": 7,
+          "bytes": 560
+        },
+        {
+          "width": 10,
+          "height": 3,
+          "bytes": 120
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 764552,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "522b3bf0-2a18-412d-9787-46c93ff3c094.rgba",
+      "sha256": "3e7fe8e291d94dbb9a1137b860d0cbdfccdde5d1c251d4fda931506a7f0d5134"
+    },
+    {
+      "id": "c0b963f9-2a44-43df-a26b-7e45e4156443",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "c0b963f9-2a44-43df-a26b-7e45e4156443.rgba",
+      "sha256": "08b92a70c0d1e91751d975d25d6df02871884bd68ad2bd559ff01230872eacfc"
+    },
+    {
+      "id": "4f6b81c7-ad9c-43bc-966a-bebd98ce3f18",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "4f6b81c7-ad9c-43bc-966a-bebd98ce3f18.rgba",
+      "sha256": "965d3d59d29fd94c3c0e5ec493adae2ebfe53ab2139985d277e628523e46870a"
+    },
+    {
+      "id": "19cd0eac-6a27-4604-9e3a-2acb81213f7c",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "19cd0eac-6a27-4604-9e3a-2acb81213f7c.rgba",
+      "sha256": "c34014bfdb835f767655ee9bf9cb69376fd6dcf27c60ba3ce21528c70b6d48b2"
+    },
+    {
+      "id": "85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "85efc7a0-a4c6-4ded-a2c3-d88f7fa8f9ef.rgba",
+      "sha256": "ddb0a17336c82928a24d31e9ea23239e0d3deeacc55a3ec5a575b7a25f730fbd"
+    },
+    {
+      "id": "2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "2e4d17bb-3f54-499e-a8f7-ef7b552fc4bd.rgba",
+      "sha256": "81fad10f83be7a46ef49d73c8859cb51d280a0efbbe3be4f99946447979f27b7"
+    },
+    {
+      "id": "c6fc84ec-d313-4025-bda4-aeddff7ca091",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "c6fc84ec-d313-4025-bda4-aeddff7ca091.rgba",
+      "sha256": "89a4046f637cde286aa55d3fbc6e36b74ebb59646a1539cf6ef316c1c7269443"
+    },
+    {
+      "id": "5a565919-3c93-443e-a978-717807c434ab",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "5a565919-3c93-443e-a978-717807c434ab.rgba",
+      "sha256": "6d35f0b9ab5ab23f241b034a5a668e8810e1e84cd86f2de7da316c68b020ed37"
+    },
+    {
+      "id": "e44868bb-2bd3-41d6-978b-02a02fedbdf3",
+      "levels": [
+        {
+          "width": 384,
+          "height": 512,
+          "bytes": 786432
+        }
+      ],
+      "bytes": 786432,
+      "mipmaps": false,
+      "colorSpace": "srgb-linear",
+      "file": "e44868bb-2bd3-41d6-978b-02a02fedbdf3.rgba",
+      "sha256": "310ecf9182c9a4abfd77bc8d1d959e9078e2a323018b77f8001369d39fa89b51"
+    },
+    {
+      "id": "0ca63b52-27f7-4419-8417-79c5a1ed961f",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "0ca63b52-27f7-4419-8417-79c5a1ed961f.rgba",
+      "sha256": "cc668511dba4240d052897209ae391bce53b64e66dce7078ff405b40be502199"
+    },
+    {
+      "id": "e951e861-da7a-4f97-9a64-aa2240102ede",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "e951e861-da7a-4f97-9a64-aa2240102ede.rgba",
+      "sha256": "e7490599d46f44907a20171597f8b0043140691a926191eb1b84c84f3d35f2f0"
+    },
+    {
+      "id": "174dab7f-cc3c-4020-9e21-b614c79ee3d6",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "174dab7f-cc3c-4020-9e21-b614c79ee3d6.rgba",
+      "sha256": "ded46b55c7e5a229beaae6f8c49013c931d2bebc3a3573576920d60a5fd6a750"
+    },
+    {
+      "id": "4dacf71c-4094-4821-889b-4222343bb820",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "4dacf71c-4094-4821-889b-4222343bb820.rgba",
+      "sha256": "942b73af36802043e52da7f30ba5f7b51da78702beac6cf080ba7d595fc93a11"
+    },
+    {
+      "id": "888210d4-dc2c-44fd-8da2-03e6b9b20cb6",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "888210d4-dc2c-44fd-8da2-03e6b9b20cb6.rgba",
+      "sha256": "b7a6547479886a419e911f725262580d06adcd18121eae01f4f91d1c2ff6cdfb"
+    },
+    {
+      "id": "d9c6b080-0c7e-419b-9df0-9177b5daefe6",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "d9c6b080-0c7e-419b-9df0-9177b5daefe6.rgba",
+      "sha256": "95153278b59da947f0cd42ea4f7e07579c4aa000dcf9ea2f7de6c6842c7721b1"
+    },
+    {
+      "id": "66ae3151-1c2f-4b2b-bedd-dc0f651b1676",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "66ae3151-1c2f-4b2b-bedd-dc0f651b1676.rgba",
+      "sha256": "97289d7a18e9cbd4ef664aa5e66cbcb95f2e9ab699aa0ba022bdac62d57569a8"
+    },
+    {
+      "id": "7813a677-018e-4e32-9f7e-3075d479c943",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "7813a677-018e-4e32-9f7e-3075d479c943.rgba",
+      "sha256": "5f08051534279b130768f12629e37a43d393d7167d26f9764c6b3e8feb16196a"
+    },
+    {
+      "id": "51765c08-64ff-411b-8850-3d6cdedc0c97",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "51765c08-64ff-411b-8850-3d6cdedc0c97.rgba",
+      "sha256": "dc4f740537e15c0fc44943b493349c52cc159fd11d97f48962a289c51af9f41e"
+    },
+    {
+      "id": "74cd51be-6804-42ca-91ef-97d5508f3138",
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 349524,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "74cd51be-6804-42ca-91ef-97d5508f3138.rgba",
+      "sha256": "1d52cf4da21e5ada44852317a46151face3f1f3b6eaff0b0253507bebdf8980a"
+    },
+    {
+      "id": "9ea5b8ff-9a54-46b6-bcff-ac8405b2c089",
+      "levels": [
+        {
+          "width": 1442,
+          "height": 128,
+          "bytes": 738304
+        },
+        {
+          "width": 721,
+          "height": 64,
+          "bytes": 184576
+        },
+        {
+          "width": 360,
+          "height": 32,
+          "bytes": 46080
+        },
+        {
+          "width": 180,
+          "height": 16,
+          "bytes": 11520
+        },
+        {
+          "width": 90,
+          "height": 8,
+          "bytes": 2880
+        },
+        {
+          "width": 45,
+          "height": 4,
+          "bytes": 720
+        },
+        {
+          "width": 22,
+          "height": 2,
+          "bytes": 176
+        },
+        {
+          "width": 11,
+          "height": 1,
+          "bytes": 44
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 984332,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "9ea5b8ff-9a54-46b6-bcff-ac8405b2c089.rgba",
+      "sha256": "4aaa8ef7a2048470cb8ae03b9dc71c0c577e923a238e7afc5f9f896c0d98af1b"
+    },
+    {
+      "id": "a974cd29-4057-4259-b275-799d086555e5",
+      "levels": [
+        {
+          "width": 1503,
+          "height": 128,
+          "bytes": 769536
+        },
+        {
+          "width": 751,
+          "height": 64,
+          "bytes": 192256
+        },
+        {
+          "width": 375,
+          "height": 32,
+          "bytes": 48000
+        },
+        {
+          "width": 187,
+          "height": 16,
+          "bytes": 11968
+        },
+        {
+          "width": 93,
+          "height": 8,
+          "bytes": 2976
+        },
+        {
+          "width": 46,
+          "height": 4,
+          "bytes": 736
+        },
+        {
+          "width": 23,
+          "height": 2,
+          "bytes": 184
+        },
+        {
+          "width": 11,
+          "height": 1,
+          "bytes": 44
+        },
+        {
+          "width": 5,
+          "height": 1,
+          "bytes": 20
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1025732,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "a974cd29-4057-4259-b275-799d086555e5.rgba",
+      "sha256": "b61ba0ef140799bd8ff96dda0b2c5902e3b7318698c2ac8c609ae2eb9c739c9f"
+    },
+    {
+      "id": "73ddfafc-6cf0-4367-a14f-212182862c83",
+      "levels": [
+        {
+          "width": 491,
+          "height": 128,
+          "bytes": 251392
+        },
+        {
+          "width": 245,
+          "height": 64,
+          "bytes": 62720
+        },
+        {
+          "width": 122,
+          "height": 32,
+          "bytes": 15616
+        },
+        {
+          "width": 61,
+          "height": 16,
+          "bytes": 3904
+        },
+        {
+          "width": 30,
+          "height": 8,
+          "bytes": 960
+        },
+        {
+          "width": 15,
+          "height": 4,
+          "bytes": 240
+        },
+        {
+          "width": 7,
+          "height": 2,
+          "bytes": 56
+        },
+        {
+          "width": 3,
+          "height": 1,
+          "bytes": 12
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 334904,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "73ddfafc-6cf0-4367-a14f-212182862c83.rgba",
+      "sha256": "0397b0066fd8776b4c0a7e84993fcca9f0b1d3b3fea961d734b020eb4ffada51"
+    },
+    {
+      "id": "d22f7a84-7473-47af-9dcd-0e22a8e17337",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "d22f7a84-7473-47af-9dcd-0e22a8e17337.rgba",
+      "sha256": "e08afebf2e24c9404bb36b0f50429af234a68becfeaf6eb934ea5d7aa29f0944"
+    },
+    {
+      "id": "7bb0f74b-744a-4431-b6aa-fc222bcc232d",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "7bb0f74b-744a-4431-b6aa-fc222bcc232d.rgba",
+      "sha256": "20784befb36c45660951547a753538f574675729806e9844bbe0c3e521358159"
+    },
+    {
+      "id": "c0e255aa-0a83-44e6-b893-5d9ca6790f59",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "c0e255aa-0a83-44e6-b893-5d9ca6790f59.rgba",
+      "sha256": "e4acb7de751c8ff38ba5b4f93f15bab6eed8730742b4f03e6bdc2a1029e65a73"
+    },
+    {
+      "id": "f1bb75f3-64be-4dda-8583-c8e22f5cdfd4",
+      "levels": [
+        {
+          "width": 467,
+          "height": 128,
+          "bytes": 239104
+        },
+        {
+          "width": 233,
+          "height": 64,
+          "bytes": 59648
+        },
+        {
+          "width": 116,
+          "height": 32,
+          "bytes": 14848
+        },
+        {
+          "width": 58,
+          "height": 16,
+          "bytes": 3712
+        },
+        {
+          "width": 29,
+          "height": 8,
+          "bytes": 928
+        },
+        {
+          "width": 14,
+          "height": 4,
+          "bytes": 224
+        },
+        {
+          "width": 7,
+          "height": 2,
+          "bytes": 56
+        },
+        {
+          "width": 3,
+          "height": 1,
+          "bytes": 12
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 318536,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "f1bb75f3-64be-4dda-8583-c8e22f5cdfd4.rgba",
+      "sha256": "313dedb9f3c9c5adc5dddbd2733e9cbcc49527fdd5c1b28f58b46dc73a724634"
+    },
+    {
+      "id": "fd126f27-206b-40a9-a65b-b4fe7e8b78c5",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 5592404,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "fd126f27-206b-40a9-a65b-b4fe7e8b78c5.rgba",
+      "sha256": "b87864fc7f9072e42bba2210461d0245e38e578dc91fc661252e7d8a4a4cf842"
+    },
+    {
+      "id": "759ef96d-f825-47e3-8c42-59b0df77c030",
+      "levels": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "bytes": 16777216
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "bytes": 4194304
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 22369620,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "759ef96d-f825-47e3-8c42-59b0df77c030.rgba",
+      "sha256": "a22b808adea8bbabe423ea94156df8ea65a2049ecff7f43fbc3a9cd1674d9325"
+    },
+    {
+      "id": "f2f39fc7-38c9-4da1-8a0e-33b1f00295ea",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "f2f39fc7-38c9-4da1-8a0e-33b1f00295ea.rgba",
+      "sha256": "ce55f869267836795329f8855dbab04cf9e637a5ec42d6f7e7cc8cc6217091e0"
+    },
+    {
+      "id": "1b8032b3-be94-40da-8636-81358a7ce57a",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "1b8032b3-be94-40da-8636-81358a7ce57a.rgba",
+      "sha256": "fa14527f351312d833b30f80765c5b4ffc02c7e1410c10a0eebe1a345f0c0d20"
+    },
+    {
+      "id": "4d0ce824-ce96-45e5-81dc-386677cab7e4",
+      "levels": [
+        {
+          "width": 736,
+          "height": 776,
+          "bytes": 2284544
+        },
+        {
+          "width": 368,
+          "height": 388,
+          "bytes": 571136
+        },
+        {
+          "width": 184,
+          "height": 194,
+          "bytes": 142784
+        },
+        {
+          "width": 92,
+          "height": 97,
+          "bytes": 35696
+        },
+        {
+          "width": 46,
+          "height": 48,
+          "bytes": 8832
+        },
+        {
+          "width": 23,
+          "height": 24,
+          "bytes": 2208
+        },
+        {
+          "width": 11,
+          "height": 12,
+          "bytes": 528
+        },
+        {
+          "width": 5,
+          "height": 6,
+          "bytes": 120
+        },
+        {
+          "width": 2,
+          "height": 3,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 3045876,
+      "mipmaps": true,
+      "colorSpace": "srgb-linear",
+      "file": "4d0ce824-ce96-45e5-81dc-386677cab7e4.rgba",
+      "sha256": "b4049c7364b80ae135f7c3ca170ef825ae2e541c08b35f3604564eb814c93373"
+    },
+    {
+      "id": "27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 512,
+          "bytes": 2097152
+        },
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 2796204,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "27d3f7b0-d6d4-4b3e-a1d6-21fc3425d859.rgba",
+      "sha256": "b76378d771ab7c15173c056479c021bdbec1ecdaecae0d3cff1978064fcdbd4a"
+    },
+    {
+      "id": "e16b34e7-da4b-4b27-8032-863d26755c23",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 512,
+          "bytes": 2097152
+        },
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 2796204,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "e16b34e7-da4b-4b27-8032-863d26755c23.rgba",
+      "sha256": "c50ce19c2326bd7fcedf77fea0ac8a1522691c1eca899cd93fac20f9725e1639"
+    },
+    {
+      "id": "ca498017-3c35-4d0c-a6d3-7a1a91704c42",
+      "levels": [
+        {
+          "width": 1024,
+          "height": 512,
+          "bytes": 2097152
+        },
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 2796204,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "ca498017-3c35-4d0c-a6d3-7a1a91704c42.rgba",
+      "sha256": "2865bd063f66d1a23ab8dcfa421145a822914f279af19adb1a150f5f1de2f86f"
+    },
+    {
+      "id": "859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3",
+      "levels": [
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 699052,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "859fc8a6-ae5f-466b-9d5d-5a0777d2e2d3.rgba",
+      "sha256": "0da1ffcd8f57bcc1136db447cf97e6c5ed57d60adf74ff3f440ce5545377c5f5"
+    },
+    {
+      "id": "9c8b0609-4d91-4aab-8bf9-ff8c50af7220",
+      "levels": [
+        {
+          "width": 512,
+          "height": 256,
+          "bytes": 524288
+        },
+        {
+          "width": 256,
+          "height": 128,
+          "bytes": 131072
+        },
+        {
+          "width": 128,
+          "height": 64,
+          "bytes": 32768
+        },
+        {
+          "width": 64,
+          "height": 32,
+          "bytes": 8192
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "bytes": 2048
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 699052,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "9c8b0609-4d91-4aab-8bf9-ff8c50af7220.rgba",
+      "sha256": "02894dd48e923b37f45dd4481630cb2bb00dc9ddcda8661c09f841b40265114c"
+    },
+    {
+      "id": "5629e8bf-b798-4860-80e8-da33bdb28a0f",
+      "levels": [
+        {
+          "width": 271,
+          "height": 128,
+          "bytes": 138752
+        },
+        {
+          "width": 135,
+          "height": 64,
+          "bytes": 34560
+        },
+        {
+          "width": 67,
+          "height": 32,
+          "bytes": 8576
+        },
+        {
+          "width": 33,
+          "height": 16,
+          "bytes": 2112
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "bytes": 512
+        },
+        {
+          "width": 8,
+          "height": 4,
+          "bytes": 128
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 184684,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "5629e8bf-b798-4860-80e8-da33bdb28a0f.rgba",
+      "sha256": "7f2dd05f5e2a8209ef8ec26947b9913399427d621740256106e8a98cdbee16d8"
+    },
+    {
+      "id": "bc382d59-57a4-4a11-aef5-291e27976518",
+      "levels": [
+        {
+          "width": 357,
+          "height": 128,
+          "bytes": 182784
+        },
+        {
+          "width": 178,
+          "height": 64,
+          "bytes": 45568
+        },
+        {
+          "width": 89,
+          "height": 32,
+          "bytes": 11392
+        },
+        {
+          "width": 44,
+          "height": 16,
+          "bytes": 2816
+        },
+        {
+          "width": 22,
+          "height": 8,
+          "bytes": 704
+        },
+        {
+          "width": 11,
+          "height": 4,
+          "bytes": 176
+        },
+        {
+          "width": 5,
+          "height": 2,
+          "bytes": 40
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 243492,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "bc382d59-57a4-4a11-aef5-291e27976518.rgba",
+      "sha256": "e4af1a0c726cb3f878bfc3491dc3c27d87a1eaeb1b4b22980a7a591dcbcb0bbc"
+    },
+    {
+      "id": "0cdf55df-4fea-451d-bf4c-ccbb4f644c06",
+      "levels": [
+        {
+          "width": 426,
+          "height": 128,
+          "bytes": 218112
+        },
+        {
+          "width": 213,
+          "height": 64,
+          "bytes": 54528
+        },
+        {
+          "width": 106,
+          "height": 32,
+          "bytes": 13568
+        },
+        {
+          "width": 53,
+          "height": 16,
+          "bytes": 3392
+        },
+        {
+          "width": 26,
+          "height": 8,
+          "bytes": 832
+        },
+        {
+          "width": 13,
+          "height": 4,
+          "bytes": 208
+        },
+        {
+          "width": 6,
+          "height": 2,
+          "bytes": 48
+        },
+        {
+          "width": 3,
+          "height": 1,
+          "bytes": 12
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 290704,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "0cdf55df-4fea-451d-bf4c-ccbb4f644c06.rgba",
+      "sha256": "4b923ea29e1980d317910ec968d9c2e6c217fa052ba4f5bb627d44b395d70a94"
+    },
+    {
+      "id": "c5493111-c92c-44ab-bf40-14a00c9b118f",
+      "levels": [
+        {
+          "width": 310,
+          "height": 128,
+          "bytes": 158720
+        },
+        {
+          "width": 155,
+          "height": 64,
+          "bytes": 39680
+        },
+        {
+          "width": 77,
+          "height": 32,
+          "bytes": 9856
+        },
+        {
+          "width": 38,
+          "height": 16,
+          "bytes": 2432
+        },
+        {
+          "width": 19,
+          "height": 8,
+          "bytes": 608
+        },
+        {
+          "width": 9,
+          "height": 4,
+          "bytes": 144
+        },
+        {
+          "width": 4,
+          "height": 2,
+          "bytes": 32
+        },
+        {
+          "width": 2,
+          "height": 1,
+          "bytes": 8
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 211484,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "c5493111-c92c-44ab-bf40-14a00c9b118f.rgba",
+      "sha256": "678e772195a92facf09f593b2e8fb33efa6894e3d9cfbf67ad6b8e007a07c415"
+    },
+    {
+      "id": "21957483-6dee-41ba-b284-66a891f8ca18",
+      "levels": [
+        {
+          "width": 463,
+          "height": 128,
+          "bytes": 237056
+        },
+        {
+          "width": 231,
+          "height": 64,
+          "bytes": 59136
+        },
+        {
+          "width": 115,
+          "height": 32,
+          "bytes": 14720
+        },
+        {
+          "width": 57,
+          "height": 16,
+          "bytes": 3648
+        },
+        {
+          "width": 28,
+          "height": 8,
+          "bytes": 896
+        },
+        {
+          "width": 14,
+          "height": 4,
+          "bytes": 224
+        },
+        {
+          "width": 7,
+          "height": 2,
+          "bytes": 56
+        },
+        {
+          "width": 3,
+          "height": 1,
+          "bytes": 12
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 315752,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "21957483-6dee-41ba-b284-66a891f8ca18.rgba",
+      "sha256": "48a6ea8fa74a6d75fb56184900dc1ac58dfa15047e1d77574c5d7ed6ed14c4b8"
+    },
+    {
+      "id": "60f9d7c5-dbab-464c-844e-a438d62bfa8c",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "60f9d7c5-dbab-464c-844e-a438d62bfa8c.rgba",
+      "sha256": "3c5266cc9693f71bdebd0d986f76deb92cb361e89e0c90217337ca0140328722"
+    },
+    {
+      "id": "fe95b981-913a-4140-8539-93c09d87dbb6",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "fe95b981-913a-4140-8539-93c09d87dbb6.rgba",
+      "sha256": "4ba4c4cc8a4f7ecc13ec6a86e3d6c8af3acce73617b8d2bb9d6176d1b381e79a"
+    },
+    {
+      "id": "1f8042b7-2c81-47d7-9c47-b84f0552aac0",
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "bytes": 1048576
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "bytes": 262144
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "bytes": 65536
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "bytes": 16384
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bytes": 4096
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "bytes": 1024
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "bytes": 256
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "bytes": 64
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 1398100,
+      "mipmaps": true,
+      "colorSpace": "",
+      "file": "1f8042b7-2c81-47d7-9c47-b84f0552aac0.rgba",
+      "sha256": "ef57dec3ebd2e0cda5c4d5d761e7d97449e42e4105f6414066ffc31170fd09d9"
+    },
+    {
+      "id": "a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c",
+      "levels": [
+        {
+          "width": 178,
+          "height": 128,
+          "bytes": 91136
+        },
+        {
+          "width": 89,
+          "height": 64,
+          "bytes": 22784
+        },
+        {
+          "width": 44,
+          "height": 32,
+          "bytes": 5632
+        },
+        {
+          "width": 22,
+          "height": 16,
+          "bytes": 1408
+        },
+        {
+          "width": 11,
+          "height": 8,
+          "bytes": 352
+        },
+        {
+          "width": 5,
+          "height": 4,
+          "bytes": 80
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 121412,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "a6a6d0d6-9a77-4d8b-9e6c-f98602548f4c.rgba",
+      "sha256": "d00cf4cdfa166066d7284bc5174bf7f1ed581d07a82cd52d0f4335c526a1e03e"
+    },
+    {
+      "id": "e0865877-907e-4bcc-8025-a18454d63a7f",
+      "levels": [
+        {
+          "width": 197,
+          "height": 128,
+          "bytes": 100864
+        },
+        {
+          "width": 98,
+          "height": 64,
+          "bytes": 25088
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 134268,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "e0865877-907e-4bcc-8025-a18454d63a7f.rgba",
+      "sha256": "ad9bc75c4496fe6b091a093c09434242bd14e782322c80cfd02e2bac5dad76b8"
+    },
+    {
+      "id": "42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f",
+      "levels": [
+        {
+          "width": 198,
+          "height": 128,
+          "bytes": 101376
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135036,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "42db6b7b-2b7b-46b2-ab50-d297b8dc4c5f.rgba",
+      "sha256": "a33b05b9e9a3b099f0c393966cf75433af23f0f2731155a11a6c7561edc02eb2"
+    },
+    {
+      "id": "afc2c3a2-8913-47f5-9abf-dceadb17640c",
+      "levels": [
+        {
+          "width": 199,
+          "height": 128,
+          "bytes": 101888
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135548,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "afc2c3a2-8913-47f5-9abf-dceadb17640c.rgba",
+      "sha256": "e40011c5cc8a9622845ebeae44e37ac01f0febd2685f88595ac7640f8d80c122"
+    },
+    {
+      "id": "facdd055-aadb-40a1-96cc-a54acd4b266e",
+      "levels": [
+        {
+          "width": 199,
+          "height": 128,
+          "bytes": 101888
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135548,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "facdd055-aadb-40a1-96cc-a54acd4b266e.rgba",
+      "sha256": "aa52a71cc3ea79d624e4bc6e4b4e85a60cee3459e26226a06915eb2ef164a1be"
+    },
+    {
+      "id": "0fbd836f-da21-47f4-8aba-bb0c006ca406",
+      "levels": [
+        {
+          "width": 198,
+          "height": 128,
+          "bytes": 101376
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135036,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "0fbd836f-da21-47f4-8aba-bb0c006ca406.rgba",
+      "sha256": "6bc741d2e967219a0bdffb7f408573efb98ddd3e9af87eeeeb5edfd276140363"
+    },
+    {
+      "id": "1de862ec-6bcf-45b4-9fcd-3737cc3d303b",
+      "levels": [
+        {
+          "width": 195,
+          "height": 128,
+          "bytes": 99840
+        },
+        {
+          "width": 97,
+          "height": 64,
+          "bytes": 24832
+        },
+        {
+          "width": 48,
+          "height": 32,
+          "bytes": 6144
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 132860,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "1de862ec-6bcf-45b4-9fcd-3737cc3d303b.rgba",
+      "sha256": "39c7ab987c046b06d663ab0a7243ffed04f4a8e1ce0c376619a90b651b61b94b"
+    },
+    {
+      "id": "cc504d4f-d4c5-487e-8134-e3c4bb525d53",
+      "levels": [
+        {
+          "width": 198,
+          "height": 128,
+          "bytes": 101376
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135036,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "cc504d4f-d4c5-487e-8134-e3c4bb525d53.rgba",
+      "sha256": "470d5f2af78e5e8972bc293a022d0f4993f3e879e4bb19f9365d5a624a77034a"
+    },
+    {
+      "id": "da074854-33d5-4ae1-866a-f6785c7f39f1",
+      "levels": [
+        {
+          "width": 198,
+          "height": 128,
+          "bytes": 101376
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135036,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "da074854-33d5-4ae1-866a-f6785c7f39f1.rgba",
+      "sha256": "7f14c408a3e7c073df34e67437bc61cd1ed654df4681fe6518343a9fa9cfd140"
+    },
+    {
+      "id": "0c1a4ef6-76a1-429c-a745-5bdd1e297b83",
+      "levels": [
+        {
+          "width": 217,
+          "height": 128,
+          "bytes": 111104
+        },
+        {
+          "width": 108,
+          "height": 64,
+          "bytes": 27648
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 147932,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "0c1a4ef6-76a1-429c-a745-5bdd1e297b83.rgba",
+      "sha256": "89aac8d82e1cf2587a1748cbcdb19e09242e5d8ac3cae839793ceb2b26bdd3a0"
+    },
+    {
+      "id": "7916b3ae-cf09-4dcc-a4f9-a95954bad964",
+      "levels": [
+        {
+          "width": 219,
+          "height": 128,
+          "bytes": 112128
+        },
+        {
+          "width": 109,
+          "height": 64,
+          "bytes": 27904
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 149212,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "7916b3ae-cf09-4dcc-a4f9-a95954bad964.rgba",
+      "sha256": "04721beb6e742b854d948a85d7ea8473ab42b2bd182934f2d8f238f2a3a46639"
+    },
+    {
+      "id": "e06741a4-6903-460b-987e-1a7fa71470a8",
+      "levels": [
+        {
+          "width": 220,
+          "height": 128,
+          "bytes": 112640
+        },
+        {
+          "width": 110,
+          "height": 64,
+          "bytes": 28160
+        },
+        {
+          "width": 55,
+          "height": 32,
+          "bytes": 7040
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 150108,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "e06741a4-6903-460b-987e-1a7fa71470a8.rgba",
+      "sha256": "c6d74acf2616a160b04fa3b468c5dbd11212dde9adf28d7d3aa719161c11573f"
+    },
+    {
+      "id": "b3a9dea4-56e0-49a5-b608-4d668de734f4",
+      "levels": [
+        {
+          "width": 220,
+          "height": 128,
+          "bytes": 112640
+        },
+        {
+          "width": 110,
+          "height": 64,
+          "bytes": 28160
+        },
+        {
+          "width": 55,
+          "height": 32,
+          "bytes": 7040
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 150108,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "b3a9dea4-56e0-49a5-b608-4d668de734f4.rgba",
+      "sha256": "6d8110607fc90cedf530d6a3f0e59995abe16ec92031f7b4a1f66dddb8fe4d18"
+    },
+    {
+      "id": "41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46",
+      "levels": [
+        {
+          "width": 218,
+          "height": 128,
+          "bytes": 111616
+        },
+        {
+          "width": 109,
+          "height": 64,
+          "bytes": 27904
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 148700,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "41ca3af6-2f88-4c6c-b0c7-de9bd1f3fe46.rgba",
+      "sha256": "b72ed9a1512e269c65aca7f88a00bd92d79661e80dfc0df957b2e4d2a02c18e4"
+    },
+    {
+      "id": "9928b3a6-867e-4d40-a481-06cf688c9fd0",
+      "levels": [
+        {
+          "width": 216,
+          "height": 128,
+          "bytes": 110592
+        },
+        {
+          "width": 108,
+          "height": 64,
+          "bytes": 27648
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 147420,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "9928b3a6-867e-4d40-a481-06cf688c9fd0.rgba",
+      "sha256": "8d3d59a040091403037256fde2cda1fd4559adf755c684623aaf7ff1358587d4"
+    },
+    {
+      "id": "4a6c4a18-f68a-447b-bb8a-753c8601893c",
+      "levels": [
+        {
+          "width": 218,
+          "height": 128,
+          "bytes": 111616
+        },
+        {
+          "width": 109,
+          "height": 64,
+          "bytes": 27904
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 148700,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "4a6c4a18-f68a-447b-bb8a-753c8601893c.rgba",
+      "sha256": "a14c2b2c981d83af0ba404d826dfff3dfd13e95fb015a1f4b315ddcb6343d74f"
+    },
+    {
+      "id": "e86129a4-48be-497e-b7d0-13e568c22684",
+      "levels": [
+        {
+          "width": 218,
+          "height": 128,
+          "bytes": 111616
+        },
+        {
+          "width": 109,
+          "height": 64,
+          "bytes": 27904
+        },
+        {
+          "width": 54,
+          "height": 32,
+          "bytes": 6912
+        },
+        {
+          "width": 27,
+          "height": 16,
+          "bytes": 1728
+        },
+        {
+          "width": 13,
+          "height": 8,
+          "bytes": 416
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 148700,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "e86129a4-48be-497e-b7d0-13e568c22684.rgba",
+      "sha256": "6940a5799ac4ddab0c009133261ae4963321dfa63df300cd88bf71cdeca9508b"
+    },
+    {
+      "id": "93744973-0ba5-4ad1-a711-e02f1ef3ceb8",
+      "levels": [
+        {
+          "width": 199,
+          "height": 128,
+          "bytes": 101888
+        },
+        {
+          "width": 99,
+          "height": 64,
+          "bytes": 25344
+        },
+        {
+          "width": 49,
+          "height": 32,
+          "bytes": 6272
+        },
+        {
+          "width": 24,
+          "height": 16,
+          "bytes": 1536
+        },
+        {
+          "width": 12,
+          "height": 8,
+          "bytes": 384
+        },
+        {
+          "width": 6,
+          "height": 4,
+          "bytes": 96
+        },
+        {
+          "width": 3,
+          "height": 2,
+          "bytes": 24
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "bytes": 4
+        }
+      ],
+      "bytes": 135548,
+      "mipmaps": true,
+      "colorSpace": "srgb",
+      "file": "93744973-0ba5-4ad1-a711-e02f1ef3ceb8.rgba",
+      "sha256": "64cea31fdd91d990b1545a8ab9504434d981a614a5ee7d792217cca18bffa862"
+    },
+    {
+      "id": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40",
+      "levels": [
+        {
+          "width": 768,
+          "height": 1024,
+          "bytes": 3145728
+        }
+      ],
+      "bytes": 3145728,
+      "mipmaps": false,
+      "colorSpace": "srgb-linear",
+      "file": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.rgba",
+      "sha256": "b35272fbf4ceb51536c41bb7571bfe414125dd60979fb284e6c49b4c8fd4cada"
+    }
+  ],
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "scope": "Original Three upload+glGenerateMipmap from originalGPU RGBA8 base readbacks. Base verified unchanged; each mip read as encodedRGBA8 and rows flipped for Godot Image.",
+  "preferred_backend": "NVIDIA same hardware as historical source capture"
+}

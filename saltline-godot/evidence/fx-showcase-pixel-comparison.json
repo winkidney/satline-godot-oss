@@ -1,0 +1,84 @@
+{
+  "images": [
+    {
+      "file": "fx-showcase-source-explosion.png",
+      "sha256": "1039ea449c783a7c510086e943e040d248cdd4887c21677f5f88446f750294b7"
+    },
+    {
+      "file": "fx-showcase-native-tape.png",
+      "sha256": "86ed93b3606368c198af17a71c0f215f93c413634eec64aed8320f3500ac0332"
+    }
+  ],
+  "states": {
+    "fx-showcase-source.json": "57b23097e3a42830c90b4a218d9079e15af67f5c56fe87ee197b0b76456c2267",
+    "fx-showcase-native-state.json": "4f391ffef39b2f05ad8eb3685f1f1bbaeb206897b85f318c70de5df76145ebd5"
+  },
+  "regions": {
+    "full": {
+      "bounds": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "mae": 0.002536483864379085,
+      "p99": 0.03529411764705881,
+      "maximum": 0.2196078431372549,
+      "source_mean_luma": 0.35677881481396373,
+      "native_mean_luma": 0.35791188259463513
+    },
+    "ground": {
+      "bounds": [
+        430,
+        455,
+        850,
+        700
+      ],
+      "mae": 0.0012265096514796395,
+      "p99": 0.007843137254901988,
+      "maximum": 0.02352941176470591,
+      "source_mean_luma": 0.448999108572953,
+      "native_mean_luma": 0.44985746409039806
+    },
+    "highlight": {
+      "bounds": [
+        590,
+        480,
+        690,
+        650
+      ],
+      "mae": 0.0009757785467128027,
+      "p99": 0.007843137254901933,
+      "maximum": 0.01176470588235301,
+      "source_mean_luma": 0.7526673751326411,
+      "native_mean_luma": 0.7533771385005767
+    },
+    "sky": {
+      "bounds": [
+        0,
+        0,
+        1280,
+        220
+      ],
+      "mae": 0.001006670565953654,
+      "p99": 0.007843137254901988,
+      "maximum": 0.2196078431372549,
+      "source_mean_luma": 0.3447294454545455,
+      "native_mean_luma": 0.3449254905748663
+    },
+    "effect": {
+      "bounds": [
+        530,
+        235,
+        730,
+        460
+      ],
+      "mae": 0.015221989832970226,
+      "p99": 0.054901960784313725,
+      "maximum": 0.13725490196078433,
+      "source_mean_luma": 0.37684567454466233,
+      "native_mean_luma": 0.38319424001742913
+    }
+  },
+  "scope": "Fixed FX tape/age, fixed3 renderer frames at1/60 and matching cameras. Encoded RGB diagnostic only; not a full-game visual acceptance threshold."
+}

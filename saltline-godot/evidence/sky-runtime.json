@@ -1,0 +1,103 @@
+{
+  "frames": 480,
+  "rain_thunder_events": [
+    {
+      "frame": 300,
+      "intensity": 0.867330394568853
+    }
+  ],
+  "scope": "Original analytic dynamic sky in source cube geometry, retained original static PMREM panorama for lighting; controlled thunder triggers and real rain thunder event wiring. Full post thunder and world indoor adaptation pending",
+  "snapshots": [
+    {
+      "flash": 0.0,
+      "flash_direction": [
+        -0.502518892288208,
+        0.502518892288208,
+        -0.703526437282562
+      ],
+      "frame": 60,
+      "world_time": 1.050000001
+    },
+    {
+      "flash": 0.273016546622085,
+      "flash_direction": [
+        -0.525731086730957,
+        0.447213590145111,
+        -0.723606765270233
+      ],
+      "frame": 121,
+      "world_time": 2.06666666766666
+    },
+    {
+      "flash": 0.0455264596299636,
+      "flash_direction": [
+        -0.525731086730957,
+        0.447213590145111,
+        -0.723606765270233
+      ],
+      "frame": 126,
+      "world_time": 2.150000001
+    },
+    {
+      "flash": 0.0353596725507341,
+      "flash_direction": [
+        -0.525731086730957,
+        0.447213590145111,
+        -0.723606765270233
+      ],
+      "frame": 140,
+      "world_time": 2.38333333433333
+    },
+    {
+      "flash": 0.0,
+      "flash_direction": [
+        -0.525731086730957,
+        0.447213590145111,
+        -0.723606765270233
+      ],
+      "frame": 180,
+      "world_time": 3.05000000099999
+    },
+    {
+      "flash": 0.236795549105558,
+      "flash_direction": [
+        -0.207752585411072,
+        0.531411230564117,
+        0.821243524551392
+      ],
+      "frame": 301,
+      "world_time": 5.06666666766665
+    },
+    {
+      "flash": 0.0394864821941793,
+      "flash_direction": [
+        -0.207752585411072,
+        0.531411230564117,
+        0.821243524551392
+      ],
+      "frame": 306,
+      "world_time": 5.15000000099999
+    },
+    {
+      "flash": 0.0,
+      "flash_direction": [
+        -0.207752585411072,
+        0.531411230564117,
+        0.821243524551392
+      ],
+      "frame": 360,
+      "world_time": 6.05000000099998
+    },
+    {
+      "flash": 0.0,
+      "flash_direction": [
+        -0.207752585411072,
+        0.531411230564117,
+        0.821243524551392
+      ],
+      "frame": 470,
+      "world_time": 7.88333333433331
+    }
+  ],
+  "time": 8.05000000099998
+}

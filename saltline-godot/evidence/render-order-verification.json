@@ -1,0 +1,193 @@
+{
+  "checks": 365,
+  "failures": [],
+  "nonzero": [
+    {
+      "materials": [
+        "weapon_markings"
+      ],
+      "name": "",
+      "native": 2,
+      "source": 2.0
+    },
+    {
+      "materials": [
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        ""
+      ],
+      "name": "",
+      "native": 10,
+      "source": 10.0
+    },
+    {
+      "materials": [
+        "weapon_markings"
+      ],
+      "name": "",
+      "native": 2,
+      "source": 2.0
+    },
+    {
+      "materials": [
+        "weapon_markings"
+      ],
+      "name": "",
+      "native": 2,
+      "source": 2.0
+    },
+    {
+      "materials": [
+        ""
+      ],
+      "name": "",
+      "native": 10,
+      "source": 10.0
+    },
+    {
+      "materials": [
+        "saltline-sky"
+      ],
+      "name": "sky",
+      "native": -128,
+      "source": -1000.0
+    },
+    {
+      "materials": [
+        ""
+      ],
+      "name": "rain",
+      "native": 100,
+      "source": 900.0
+    },
+    {
+      "materials": [
+        ""
+      ],
+      "name": "rainSplash",
+      "native": 99,
+      "source": 890.0
+    },
+    {
+      "materials": [
+        "fx_decals"
+      ],
+      "name": "fx_decals",
+      "native": -5,
+      "source": -5.0
+    },
+    {
+      "materials": [
+        "fx_lit"
+      ],
+      "name": "fx_lit",
+      "native": 10,
+      "source": 10.0
+    },
+    {
+      "materials": [
+        "fx_add"
+      ],
+      "name": "fx_add",
+      "native": 20,
+      "source": 20.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    },
+    {
+      "materials": [
+        "",
+        ""
+      ],
+      "name": "",
+      "native": 5,
+      "source": 5.0
+    }
+  ],
+  "scope": "Actual Main geometry material priorities vs structurally verified original node order. Extreme sky/rain values preserve relative order through existing native compression. Not full overlap-pixel/sorting parity or unsupported nonzero groupOrder."
+}

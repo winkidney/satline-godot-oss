@@ -1,0 +1,9 @@
+{
+  "frames": 480,
+  "material_time": 8.05000000099998,
+  "scope": "Native original sea vertex displacement, analytic slopes, original detail textures, foam/scum, wind roughness and haze; Godot PBR/IBL bridge, exact source lighting and post calibration pending",
+  "sea_mesh": "b7bbc842-ab5d-46a7-af1b-8e491392b8b7",
+  "shader": "res://shaders/sea.gdshader",
+  "time": 8.05000000099998,
+  "vertices": 13620
+}

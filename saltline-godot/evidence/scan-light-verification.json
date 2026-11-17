@@ -1,0 +1,8 @@
+{
+  "comparisons": 4680,
+  "failed_acquire_attempts": 1,
+  "failures": [],
+  "frames": 360,
+  "maximum_error": 0.00000124154411018651,
+  "scope": "Original shared Gull z with controlled ground ray, moving camera, nearest live selection, 60m cutoff, no-hit dimming and clear preserving sample state"
+}

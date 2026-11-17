@@ -1,0 +1,33 @@
+{
+  "pixel_860_300": {
+    "source": [
+      249.0,
+      242.0,
+      231.0
+    ],
+    "native": [
+      249.0,
+      242.0,
+      230.0
+    ]
+  },
+  "roi_mae": 3.3290267011197243,
+  "full_mae": 1.1826768663194445,
+  "hdr": {
+    "source_pixel": [
+      4.62109375,
+      4.5390625,
+      4.10546875
+    ],
+    "native_pixel": [
+      4.6015625,
+      4.51953125,
+      4.09375
+    ],
+    "roi_rgb_mae": 0.02735964908977709,
+    "source_channels": 4,
+    "native_channels": 3,
+    "dtype": "float16"
+  },
+  "scope": "Diagnostic with all six source snapshot pooled point inputs copied to native persistent test slots. Production unchanged; does not prove normal-game FX history alignment."
+}

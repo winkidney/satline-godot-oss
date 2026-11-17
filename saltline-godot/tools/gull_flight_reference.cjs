@@ -1,0 +1,17 @@
+const fs=require('fs'),text=fs.readFileSync('artifact-rendering-study/source/extracted/bundle-1.js','utf8'),data=JSON.parse(fs.readFileSync('saltline-godot/assets/prepared/scene.json'));
+class Vec{constructor(x=0,y=0,z=0){this.set(x,y,z)}set(x,y,z){this.x=x;this.y=y;this.z=z;return this}copy(v){return this.set(v.x,v.y,v.z)}add(v){this.x+=v.x;this.y+=v.y;this.z+=v.z;return this}addScaledVector(v,t){this.x+=v.x*t;this.y+=v.y*t;this.z+=v.z*t;return this}multiplyScalar(v){this.x*=v;this.y*=v;this.z*=v;return this}length(){return Math.hypot(this.x,this.y,this.z)}setComponent(i,v){this[['x','y','z'][i]]=v;return this}getComponent(i){return this[['x','y','z'][i]]}applyAxisAngle(axis,a){let x=this.x,z=this.z;this.x=x*Math.cos(a)+z*Math.sin(a);this.z=-x*Math.sin(a)+z*Math.cos(a);return this}toJSON(){return [this.x,this.y,this.z]}}
+let at=text.indexOf('function su(n = 1337)'),o=eval('('+text.slice(at,text.indexOf('\n  var Hn =',at)).trim()+')')(9001);
+const input=JSON.parse(JSON.stringify(data.modules.enemies.debug.gulls[0]));delete input.rig;delete input.lens;delete input.loop;
+Object.assign(input,{pos:[0,4,0],home:[0,4,0],vel:[0,0,0],avoid:[0,0,0],yaw:0,pitch:0,roll:0,phase:.37,orbitA:.5,orbitR:16,orbitDir:1,patrolR:6,alt:5,mode:'patrol',atk:'idle',feeler:0,ceil:1e9,ceilT:0,thr:1,flipT:.1,lastKnown:[4,0,3]});
+const d=JSON.parse(JSON.stringify(input));for(const key of ['pos','vel','home','lastKnown','sensor','fwd','muzzle','avoid'])d[key]=new Vec(...d[key]);
+const Bo=new Vec(),Qs=new Vec(),W1=new Vec(0,1,0),GS=new Vec(0,-1,0),Ou=(v,a,b)=>Math.max(a,Math.min(b,v)),qS=(a,b)=>{let v=(a-b)%(Math.PI*2);return v>Math.PI?v-Math.PI*2:v< -Math.PI?v+Math.PI*2:v};
+const gn=data.modules.enemies.TUNE.gull,n={t:0,think:()=>{}};
+function raycast(origin,dir,limit){let best=null;for(const [axis,bound,normal] of [[0,12,[-1,0,0]],[0,-12,[1,0,0]],[1,0,[0,1,0]],[1,9,[0,-1,0]],[2,12,[0,0,-1]],[2,-12,[0,0,1]]]){let v=dir.getComponent(axis);if(Math.abs(v)<1e-9)continue;let distance=(bound-origin.getComponent(axis))/v;if(distance<0||distance>limit||(best&&distance>=best.dist))continue;best={dist:distance,normal:new Vec(...normal)}}return best}
+const s={player:{pos:new Vec(-4,0,6)},physics:{raycast,groundHeight:()=>0}},a={group:{rotation:{set:()=>{}}}},l={body:{position:{y:0}}};for(let i=0;i<4;i++)l['rotor'+i]={rotation:{y:0}};
+at=text.indexOf('function v(y) {',text.indexOf('function XS('));let end=text.indexOf('let W = (g * 0.9',at);const update=eval('('+text.slice(at,end)+'return {heading:U,horizontal:R,acceleration:Bo.toJSON()};})');
+const frames=[];for(let frame=0;frame<1200;frame++){
+ if(frame===240)d.mode='investigate';if(frame===480){d.mode='engage';d.noSeeT=0}if(frame===600)d.hp=20;if(frame===720)d.atk='tele';if(frame===840)d.noSeeT=2;if(frame===960){d.mode='patrol';d.hoverFixed=true;d.alt=1.6}if(frame===1080){d.mode='search';d.hoverFixed=false}
+ n.t=(frame+1)/60;const output=update(1/60),row={...output,bodyY:l.body.position.y,rotors:[0,1,2,3].map(i=>l['rotor'+i].rotation.y)};
+ for(const key of ['pos','vel','sensor','fwd','avoid','yaw','pitch','roll','orbitA','orbitR','orbitDir','flipT','ceil','ceilT','feeler','thr'])row[key]=d[key];frames.push(JSON.parse(JSON.stringify(row)));
+}
+fs.writeFileSync('saltline-godot/assets/export/fixtures/gull-flight-reference.json',JSON.stringify({input,frames,nextRandom:o(),scope:'Original Gull v movement/body/rotor phase; controlled box planes and perception, modes, damage wobble, ceiling and fixed hover'}));console.log({frames:frames.length,last:frames.at(-1).pos});

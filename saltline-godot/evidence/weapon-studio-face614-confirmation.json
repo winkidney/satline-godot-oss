@@ -1,0 +1,7 @@
+{
+  "face": 614,
+  "source_weight": 0.25,
+  "expected_unclassified_weight": 0.25,
+  "passed": true,
+  "scope": "Explicit independent one-hot face614 confirmation on original actual 4xMSAA target."
+}

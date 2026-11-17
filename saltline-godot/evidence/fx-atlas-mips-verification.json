@@ -1,0 +1,188 @@
+{
+  "levels": [
+    {
+      "name": "fx_lit",
+      "level": 0,
+      "bytes": 524288,
+      "max_byte_error": 0,
+      "different_bytes": 0,
+      "source_sha256": "99e1ef1b43fadece7ef1a96b391671ba336cb1dc09e00370fa8c02d6b39ff442",
+      "native_unflipped_sha256": "99e1ef1b43fadece7ef1a96b391671ba336cb1dc09e00370fa8c02d6b39ff442"
+    },
+    {
+      "name": "fx_lit",
+      "level": 1,
+      "bytes": 131072,
+      "max_byte_error": 0,
+      "different_bytes": 0,
+      "source_sha256": "b100aec60ccf97f0f05e7cdeba57021cb6d7c2f91dcda93a82f6e73dced0de82",
+      "native_unflipped_sha256": "b100aec60ccf97f0f05e7cdeba57021cb6d7c2f91dcda93a82f6e73dced0de82"
+    },
+    {
+      "name": "fx_lit",
+      "level": 2,
+      "bytes": 32768,
+      "max_byte_error": 1,
+      "different_bytes": 3366,
+      "source_sha256": "dabea573c817fa33c04761c43a570cd9c3ae2583a57502867b593c124290343f",
+      "native_unflipped_sha256": "213c227afb7f81a5d17f65a3a54961d6152e358d4df089cde9ea05bb8cb97ad7"
+    },
+    {
+      "name": "fx_lit",
+      "level": 3,
+      "bytes": 8192,
+      "max_byte_error": 1,
+      "different_bytes": 1284,
+      "source_sha256": "0f769ae7c4f0f7ab845f60ec4731601637cf2b2a9d2af5a240fd947ae3077f8c",
+      "native_unflipped_sha256": "f8bbcabea3134e3275f9db2e6226a05c6baa2a08970804d14bae8957ec05e2d2"
+    },
+    {
+      "name": "fx_lit",
+      "level": 4,
+      "bytes": 2048,
+      "max_byte_error": 1,
+      "different_bytes": 457,
+      "source_sha256": "deb1fc3ef6d2b3214fda6726f99b3383127ef3a78dd4aa3481d06f83f8375869",
+      "native_unflipped_sha256": "2bd2753ed46a9e524bb69f3ffc0357687a4b86e48b8c0b33ec9c585cb2952bb5"
+    },
+    {
+      "name": "fx_lit",
+      "level": 5,
+      "bytes": 512,
+      "max_byte_error": 1,
+      "different_bytes": 153,
+      "source_sha256": "64057c8cb92e7900f0d200ec1899d9ba016fd52c5e13b7dd2fb7f4041874908a",
+      "native_unflipped_sha256": "7ed1cad341b1403009c20d26d9a875a6550b744b983ad37a8f01c44b59db5c4a"
+    },
+    {
+      "name": "fx_lit",
+      "level": 6,
+      "bytes": 128,
+      "max_byte_error": 1,
+      "different_bytes": 57,
+      "source_sha256": "1ba9aaefe838d263cc7c7ba1bfddf25f37ba10d2dd918101ae9ce40ed5eef38b",
+      "native_unflipped_sha256": "8bbd56d4fb3bd73a4e59e46c60177422a217dd770cc49d8ed545f438fdedfbec"
+    },
+    {
+      "name": "fx_lit",
+      "level": 7,
+      "bytes": 32,
+      "max_byte_error": 1,
+      "different_bytes": 14,
+      "source_sha256": "32b514248ae297a2425b09d0a011e9847d33ea142f40e2e108805fd90c5762bf",
+      "native_unflipped_sha256": "a78373928bf77214553aa897470d40a3c40bdadc1503267da3a667a2062f1bef"
+    },
+    {
+      "name": "fx_lit",
+      "level": 8,
+      "bytes": 8,
+      "max_byte_error": 1,
+      "different_bytes": 4,
+      "source_sha256": "7d9ef1a3bfbc2728ee2c316c16019affb6bd53ba73a8d33d7b32e56f27efc763",
+      "native_unflipped_sha256": "1adcd1d3e3676f1ef33e01e74a3b6d75d4e4d56c15365b8abe08cbe033500822"
+    },
+    {
+      "name": "fx_lit",
+      "level": 9,
+      "bytes": 4,
+      "max_byte_error": 8,
+      "different_bytes": 3,
+      "source_sha256": "b5c92d4b34872b839c0c21aee6f8fa4b26d6660068d2308d3e14948d83bd645d",
+      "native_unflipped_sha256": "f78a94bedc4959fcd9e6dcffe2040eeb6d45ca696d64f385f0343ba1a716dc51"
+    },
+    {
+      "name": "fx_add",
+      "level": 0,
+      "bytes": 524288,
+      "max_byte_error": 0,
+      "different_bytes": 0,
+      "source_sha256": "ddc9cf422d06eae064bc2118bfee5a03e24f25c13fe2d6c3d31da8675b689042",
+      "native_unflipped_sha256": "ddc9cf422d06eae064bc2118bfee5a03e24f25c13fe2d6c3d31da8675b689042"
+    },
+    {
+      "name": "fx_add",
+      "level": 1,
+      "bytes": 131072,
+      "max_byte_error": 0,
+      "different_bytes": 0,
+      "source_sha256": "5673d82ff8ebd6bd52af216720b10366e04f64f96f04f5ac106bd92964a12899",
+      "native_unflipped_sha256": "5673d82ff8ebd6bd52af216720b10366e04f64f96f04f5ac106bd92964a12899"
+    },
+    {
+      "name": "fx_add",
+      "level": 2,
+      "bytes": 32768,
+      "max_byte_error": 1,
+      "different_bytes": 2550,
+      "source_sha256": "2947a528449e62f6112358e8e443888025129fbed5be447f2872f781efd2e6ea",
+      "native_unflipped_sha256": "3e78aad8a19f6c9f4bb9233d25ac49a208372e10d4c3ebc294747d0af2d6d498"
+    },
+    {
+      "name": "fx_add",
+      "level": 3,
+      "bytes": 8192,
+      "max_byte_error": 1,
+      "different_bytes": 1011,
+      "source_sha256": "73dec301939cc50e80b7f873c4e58c39a1cf8d1ba7492237c7f573127815d57e",
+      "native_unflipped_sha256": "68bff3b3559025f9a2d1d849734be2eaf270cb416140baccfa8c95474699b417"
+    },
+    {
+      "name": "fx_add",
+      "level": 4,
+      "bytes": 2048,
+      "max_byte_error": 1,
+      "different_bytes": 327,
+      "source_sha256": "d70dd3ffceb1cebd024ea4dbf2501210b8d6e351b04cd033dd4a3f9d80d17ea8",
+      "native_unflipped_sha256": "3c0ef140b91e62b27f54e126b9f77acf7771e25019860baa5612855a21a93dfd"
+    },
+    {
+      "name": "fx_add",
+      "level": 5,
+      "bytes": 512,
+      "max_byte_error": 1,
+      "different_bytes": 132,
+      "source_sha256": "6e691e38115ecf773e00cba8483c4b51ab31c3c201cef9d05f6564712fddb787",
+      "native_unflipped_sha256": "476be3834e6680a1af630824386099ef1d89776c57d908038555df6925590e0a"
+    },
+    {
+      "name": "fx_add",
+      "level": 6,
+      "bytes": 128,
+      "max_byte_error": 1,
+      "different_bytes": 39,
+      "source_sha256": "0eb6b053c9603b8b02e4a6b7094cbe8510e37cf080316fcb0d10c21e2851bb1b",
+      "native_unflipped_sha256": "b1be2b2b5b689bb358224117e04c9a094e58b414f2544928395fe6ec33df79c2"
+    },
+    {
+      "name": "fx_add",
+      "level": 7,
+      "bytes": 32,
+      "max_byte_error": 1,
+      "different_bytes": 6,
+      "source_sha256": "5ed502cc3981a11a7178fe48616faccea45be1dfbfeb6f396108636f18e517ee",
+      "native_unflipped_sha256": "3a4c0e4a9f4eaf714eaa4519290cc96abe5cb112270ad73bfe5539acbf32c532"
+    },
+    {
+      "name": "fx_add",
+      "level": 8,
+      "bytes": 8,
+      "max_byte_error": 1,
+      "different_bytes": 6,
+      "source_sha256": "158e65fe3b98b3ae6d4d423ec8c49bfb31b7be886df630959f2440b4aad16852",
+      "native_unflipped_sha256": "ab64424714312533a7d74381bc50636c08e02d042a1760c98ffe3018a8967a2a"
+    },
+    {
+      "name": "fx_add",
+      "level": 9,
+      "bytes": 4,
+      "max_byte_error": 5,
+      "different_bytes": 3,
+      "source_sha256": "89f021d09c59a50f101b40c0bffbca6cbcb43ac834f4135c5622457b731b6f71",
+      "native_unflipped_sha256": "ca76848dea21564eed461b806608fb10c87ad04a02647c37df53b2873c3154d9"
+    }
+  ],
+  "total_bytes": 1398104,
+  "max_error": 8,
+  "different_bytes": 9412,
+  "scope": "Original live GPU texelFetch at integer mip levels vs native loaded atlas image bytes with row orientation undone. Does not compare implicit LOD or bilinear/trilinear hardware interpolation."
+}

@@ -1,0 +1,22 @@
+{
+  "changes": [],
+  "failures": [],
+  "last_frame_ms": 6.825,
+  "measured_samples": 420,
+  "observed_frames": 420,
+  "quality": "high",
+  "render_size": [
+    1280,
+    720
+  ],
+  "scope": "Engine-driven Main update and physics with real Time.get_ticks_usec frame intervals, --dynres=1 override for script harness. Title scene, 420-frame smoke observation, not performance target or gameplay benchmark.",
+  "state": {
+    "acc": 0.0,
+    "enabled": true,
+    "n": 0,
+    "scale": 1.0,
+    "settle": 0.428431000000003,
+    "upDelay": 4.0,
+    "upWait": 0.928430999999999
+  }
+}

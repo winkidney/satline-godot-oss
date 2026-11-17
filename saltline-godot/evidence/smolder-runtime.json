@@ -1,0 +1,14 @@
+{
+  "additive_particles": 93,
+  "debris": 24,
+  "explosions": 1,
+  "fps": 30,
+  "frames": 330,
+  "light_flashes": 2,
+  "lit_particles": 70,
+  "remaining_additive": 0,
+  "remaining_debris": 0,
+  "remaining_lit": 0,
+  "scorches": 1,
+  "smolder_emitters": 0
+}

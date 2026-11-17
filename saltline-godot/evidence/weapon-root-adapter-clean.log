@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+{"failures":[],"maximum_matrix_error":0.000000233474381272636,"maximum_state_error":0.0000000000000113242748511766,"scope":"Production Weapon.step_root adapter vs literal original D, inputs quantized to Native Player Vector3 before original evaluation; exact null/empty ray bridge and same shared S/RNG. Explicit external inputs, no whole O/Main or arm/IK proof.","steps":1200}

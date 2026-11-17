@@ -1,0 +1,1313 @@
+{
+  "mode": "recorded",
+  "chapters": {
+    "0": {
+      "original": [
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 9
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 9
+        },
+        {
+          "src": "footage/original/03-wet-reflection.mp4",
+          "start": 0,
+          "duration": 9
+        },
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 9
+        },
+        {
+          "src": "footage/original/05-exposure-shift.mp4",
+          "start": 0,
+          "duration": 9
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 9
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 9
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 119.97395634651184,
+          "duration": 9
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 179.97395634651184,
+          "duration": 9
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 239.97395634651184,
+          "duration": 9
+        }
+      ],
+      "non_sync": true
+    },
+    "1": {
+      "original": [
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 10
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 10
+        },
+        {
+          "src": "footage/original/03-wet-reflection.mp4",
+          "start": 0,
+          "duration": 10
+        },
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 10
+        },
+        {
+          "src": "footage/original/05-exposure-shift.mp4",
+          "start": 0,
+          "duration": 10
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 10
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 10
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 119.97395634651184,
+          "duration": 10
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 179.97395634651184,
+          "duration": 10
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 239.97395634651184,
+          "duration": 10
+        }
+      ],
+      "non_sync": true
+    },
+    "2": {
+      "original": [
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 60
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 60
+        }
+      ],
+      "non_sync": true
+    },
+    "3": {
+      "original": [
+        {
+          "src": "footage/original/03-wet-reflection.mp4",
+          "start": 0,
+          "duration": 55
+        },
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 15
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 119.97395634651184,
+          "duration": 55
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 15
+        }
+      ],
+      "non_sync": true
+    },
+    "4": {
+      "original": [
+        {
+          "src": "footage/original/03-wet-reflection.mp4",
+          "start": 0,
+          "duration": 55
+        },
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 10
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 119.97395634651184,
+          "duration": 55
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 10
+        }
+      ],
+      "non_sync": true
+    },
+    "5": {
+      "original": [
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 35
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 30
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 179.97395634651184,
+          "duration": 35
+        },
+        {
+          "src": "footage/lab/examples.mp4",
+          "start": 42.975874185562134,
+          "duration": 20,
+          "audio": false,
+          "label": "独立教学实验"
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 10
+        }
+      ],
+      "non_sync": true
+    },
+    "6": {
+      "original": [
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 55
+        },
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 5
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 179.97395634651184,
+          "duration": 55
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 5
+        }
+      ],
+      "non_sync": true
+    },
+    "7": {
+      "original": [
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 55
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 179.97395634651184,
+          "duration": 55
+        }
+      ],
+      "non_sync": true
+    },
+    "8": {
+      "original": [
+        {
+          "src": "footage/original/05-exposure-shift.mp4",
+          "start": 0,
+          "duration": 45
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 10
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 239.97395634651184,
+          "duration": 45
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 10
+        }
+      ],
+      "non_sync": true
+    },
+    "9": {
+      "original": [
+        {
+          "src": "footage/original/03-wet-reflection.mp4",
+          "start": 0,
+          "duration": 15
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 15
+        },
+        {
+          "src": "footage/original/04-weapons-enemies.mp4",
+          "start": 0,
+          "duration": 15
+        },
+        {
+          "src": "footage/original/01-outdoor-action.mp4",
+          "start": 0,
+          "duration": 15
+        }
+      ],
+      "godot": [
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 119.97395634651184,
+          "duration": 5
+        },
+        {
+          "src": "footage/lab/examples.mp4",
+          "start": 4.975874185562134,
+          "duration": 10,
+          "audio": false,
+          "label": "湿润 / 独立教学实验"
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 15
+        },
+        {
+          "src": "footage/lab/examples.mp4",
+          "start": 42.975874185562134,
+          "duration": 15,
+          "audio": false,
+          "label": "织纹 / 独立教学实验"
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 4.973956346511841,
+          "duration": 15
+        }
+      ],
+      "non_sync": true
+    },
+    "10": {
+      "original": [
+        {
+          "src": "preview/historical-original.png",
+          "start": 0,
+          "duration": 12,
+          "audio": false,
+          "image": true,
+          "label": "原版 · 历史固定机位"
+        },
+        {
+          "src": "footage/original/02-warehouse-light.mp4",
+          "start": 0,
+          "duration": 23
+        }
+      ],
+      "godot": [
+        {
+          "src": "preview/historical-godot.png",
+          "start": 0,
+          "duration": 12,
+          "audio": false,
+          "image": true,
+          "label": "旧版 Godot · 历史固定机位"
+        },
+        {
+          "src": "footage/godot/gameplay.mp4",
+          "start": 59.97395634651184,
+          "duration": 23
+        }
+      ],
+      "non_sync": true
+    }
+  },
+  "narration": [
+    {
+      "id": "00-01",
+      "start": 0,
+      "end": 8.8,
+      "src": "private-voice/00-01.wav"
+    },
+    {
+      "id": "00-02",
+      "start": 12,
+      "end": 25.72,
+      "src": "private-voice/00-02.wav"
+    },
+    {
+      "id": "00-03",
+      "start": 32,
+      "end": 39.68,
+      "src": "private-voice/00-03.wav"
+    },
+    {
+      "id": "01-01",
+      "start": 45,
+      "end": 55.28,
+      "src": "private-voice/01-01.wav"
+    },
+    {
+      "id": "01-02",
+      "start": 58,
+      "end": 72.96000000000001,
+      "src": "private-voice/01-02.wav"
+    },
+    {
+      "id": "01-03",
+      "start": 77,
+      "end": 91.2,
+      "src": "private-voice/01-03.wav"
+    },
+    {
+      "id": "02-01",
+      "start": 95,
+      "end": 107.72,
+      "src": "private-voice/02-01.wav"
+    },
+    {
+      "id": "02-02",
+      "start": 112,
+      "end": 119.92,
+      "src": "private-voice/02-02.wav"
+    },
+    {
+      "id": "02-03",
+      "start": 122,
+      "end": 130.0,
+      "src": "private-voice/02-03.wav"
+    },
+    {
+      "id": "02-04",
+      "start": 133,
+      "end": 149.24,
+      "src": "private-voice/02-04.wav"
+    },
+    {
+      "id": "03-01",
+      "start": 155,
+      "end": 172.92000000000002,
+      "src": "private-voice/03-01.wav"
+    },
+    {
+      "id": "03-02",
+      "start": 184,
+      "end": 201.0,
+      "src": "private-voice/03-02.wav"
+    },
+    {
+      "id": "03-03",
+      "start": 207,
+      "end": 215.72,
+      "src": "private-voice/03-03.wav"
+    },
+    {
+      "id": "04-01",
+      "start": 225,
+      "end": 237.24,
+      "src": "private-voice/04-01.wav"
+    },
+    {
+      "id": "04-02",
+      "start": 240,
+      "end": 257.04,
+      "src": "private-voice/04-02.wav"
+    },
+    {
+      "id": "04-03",
+      "start": 258,
+      "end": 271.76,
+      "src": "private-voice/04-03.wav"
+    },
+    {
+      "id": "05-01",
+      "start": 290,
+      "end": 307.88,
+      "src": "private-voice/05-01.wav"
+    },
+    {
+      "id": "05-02",
+      "start": 317,
+      "end": 335.92,
+      "src": "private-voice/05-02.wav"
+    },
+    {
+      "id": "05-03",
+      "start": 344,
+      "end": 354.84,
+      "src": "private-voice/05-03.wav"
+    },
+    {
+      "id": "06-01",
+      "start": 355,
+      "end": 365.48,
+      "src": "private-voice/06-01.wav"
+    },
+    {
+      "id": "06-02",
+      "start": 368,
+      "end": 387.6,
+      "src": "private-voice/06-02.wav"
+    },
+    {
+      "id": "06-03",
+      "start": 403,
+      "end": 414.0,
+      "src": "private-voice/06-03.wav"
+    },
+    {
+      "id": "07-01",
+      "start": 415,
+      "end": 429.8,
+      "src": "private-voice/07-01.wav"
+    },
+    {
+      "id": "07-02",
+      "start": 430,
+      "end": 447.68,
+      "src": "private-voice/07-02.wav"
+    },
+    {
+      "id": "07-03",
+      "start": 458,
+      "end": 466.64,
+      "src": "private-voice/07-03.wav"
+    },
+    {
+      "id": "08-01",
+      "start": 470,
+      "end": 484.0,
+      "src": "private-voice/08-01.wav"
+    },
+    {
+      "id": "08-02",
+      "start": 488,
+      "end": 500.68,
+      "src": "private-voice/08-02.wav"
+    },
+    {
+      "id": "08-03",
+      "start": 503,
+      "end": 517.96,
+      "src": "private-voice/08-03.wav"
+    },
+    {
+      "id": "09-01",
+      "start": 525,
+      "end": 534.4,
+      "src": "private-voice/09-01.wav"
+    },
+    {
+      "id": "09-02",
+      "start": 540,
+      "end": 548.96,
+      "src": "private-voice/09-02.wav"
+    },
+    {
+      "id": "09-03",
+      "start": 555,
+      "end": 566.88,
+      "src": "private-voice/09-03.wav"
+    },
+    {
+      "id": "09-04",
+      "start": 570,
+      "end": 575.84,
+      "src": "private-voice/09-04.wav"
+    },
+    {
+      "id": "10-01",
+      "start": 585,
+      "end": 597.72,
+      "src": "private-voice/10-01.wav"
+    },
+    {
+      "id": "10-02",
+      "start": 602,
+      "end": 615.72,
+      "src": "private-voice/10-02.wav"
+    },
+    {
+      "id": "11-01",
+      "start": 620,
+      "end": 627.88,
+      "src": "private-voice/11-01.wav"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 4.777,
+      "text": "《Saltline》是一款由 Claude Fable 5.2 制作的 HTML 游戏。"
+    },
+    {
+      "start": 4.777,
+      "end": 6.411,
+      "text": "本次使用 Godot 复刻它，"
+    },
+    {
+      "start": 6.411,
+      "end": 8.8,
+      "text": "目的是看看 Godot 的能力边界在哪里。"
+    },
+    {
+      "start": 12,
+      "end": 14.474,
+      "text": "雨中的港口映着集装箱，"
+    },
+    {
+      "start": 14.474,
+      "end": 16.498,
+      "text": "阳光穿过仓库的雾，"
+    },
+    {
+      "start": 16.498,
+      "end": 21.222,
+      "text": "手臂、弹匣、枪口光和机械敌人都在实时运动。"
+    },
+    {
+      "start": 21.222,
+      "end": 25.72,
+      "text": "画中画展示同一效果在浏览器原版中的表现。"
+    },
+    {
+      "start": 32,
+      "end": 36.529,
+      "text": "接下来的对照将拆解原版做法、Godot 的实现，"
+    },
+    {
+      "start": 36.529,
+      "end": 39.68,
+      "text": "以及迁移时遇到的问题和解决方法。"
+    },
+    {
+      "start": 45,
+      "end": 50.997,
+      "text": "复刻的重点包括体积光、雨后湿润材质、地面倒影和动态曝光，"
+    },
+    {
+      "start": 50.997,
+      "end": 55.28,
+      "text": "也包括换弹手臂、枪械以及敌人的实时动作。"
+    },
+    {
+      "start": 58,
+      "end": 62.274,
+      "text": "原版在浏览器里使用 Three.js 和 WebGL。"
+    },
+    {
+      "start": 62.274,
+      "end": 67.439,
+      "text": "Three.js 能直接调整相机投影、插入材质 shader，"
+    },
+    {
+      "start": 67.439,
+      "end": 69.398,
+      "text": "并组织自定义渲染流程；"
+    },
+    {
+      "start": 69.398,
+      "end": 72.96,
+      "text": "原作利用这些入口实现特殊倒影和材质效果。"
+    },
+    {
+      "start": 77,
+      "end": 79.951,
+      "text": "Godot 也有雾、反射和后处理，"
+    },
+    {
+      "start": 79.951,
+      "end": 85.668,
+      "text": "但原版的斜裁剪镜像相机、阴影与采样顺序无法完全靠现成开关照搬。"
+    },
+    {
+      "start": 85.668,
+      "end": 91.2,
+      "text": "复刻因此组合使用独立视口、自定义 shader 和定制引擎补丁。"
+    },
+    {
+      "start": 95,
+      "end": 97.423,
+      "text": "仓库里的光束来自体积光。"
+    },
+    {
+      "start": 97.423,
+      "end": 99.644,
+      "text": "原版在半分辨率画面上，"
+    },
+    {
+      "start": 99.644,
+      "end": 101.865,
+      "text": "沿着视线取二十四个点；"
+    },
+    {
+      "start": 101.865,
+      "end": 104.893,
+      "text": "每个点都检查太阳有没有被挡住，"
+    },
+    {
+      "start": 104.893,
+      "end": 107.72,
+      "text": "再累计雾里的散射光和透光率。"
+    },
+    {
+      "start": 112,
+      "end": 115.639,
+      "text": "这层雾经过两次参考场景深度的模糊，"
+    },
+    {
+      "start": 115.639,
+      "end": 116.923,
+      "text": "再合回原画，"
+    },
+    {
+      "start": 116.923,
+      "end": 119.92,
+      "text": "尽量避免窗边的光糊到墙后面。"
+    },
+    {
+      "start": 122,
+      "end": 124.732,
+      "text": "表面的太阳阴影另用 PCSS："
+    },
+    {
+      "start": 124.732,
+      "end": 126.488,
+      "text": "先采样寻找遮挡物，"
+    },
+    {
+      "start": 126.488,
+      "end": 130.0,
+      "text": "再按遮挡距离控制阴影边缘的柔和程度。"
+    },
+    {
+      "start": 133,
+      "end": 138.665,
+      "text": "复刻版把体积光 shader 和太阳阴影规则分别接进 Godot。"
+    },
+    {
+      "start": 138.665,
+      "end": 141.875,
+      "text": "如果视口丢掉存放透光率的透明通道，"
+    },
+    {
+      "start": 141.875,
+      "end": 143.575,
+      "text": "雾层合成就会出错；"
+    },
+    {
+      "start": 143.575,
+      "end": 146.785,
+      "text": "对应处理是使用透明背景、关闭混合，"
+    },
+    {
+      "start": 146.785,
+      "end": 149.24,
+      "text": "并保留浮点颜色和透明通道。"
+    },
+    {
+      "start": 155,
+      "end": 157.678,
+      "text": "地上的倒影来自第二台相机："
+    },
+    {
+      "start": 157.678,
+      "end": 160.149,
+      "text": "原版把主相机沿地面镜像，"
+    },
+    {
+      "start": 160.149,
+      "end": 161.797,
+      "text": "再渲染一次场景。"
+    },
+    {
+      "start": 161.797,
+      "end": 163.857,
+      "text": "镜像相机使用斜裁剪，"
+    },
+    {
+      "start": 163.857,
+      "end": 166.535,
+      "text": "排除水面下不该出现的部分；"
+    },
+    {
+      "start": 166.535,
+      "end": 170.036,
+      "text": "反射图还会生成不同模糊程度的版本，"
+    },
+    {
+      "start": 170.036,
+      "end": 172.92,
+      "text": "供粗糙和积水的地面分别采样。"
+    },
+    {
+      "start": 184,
+      "end": 185.759,
+      "text": "搬到 Godot 时，"
+    },
+    {
+      "start": 185.759,
+      "end": 190.644,
+      "text": "斜裁剪让部分灯光和阴影计算用到的相机范围出了问题，"
+    },
+    {
+      "start": 190.644,
+      "end": 192.989,
+      "text": "一度出现报错和阴影异常。"
+    },
+    {
+      "start": 192.989,
+      "end": 195.333,
+      "text": "最后修改了引擎兼容路径："
+    },
+    {
+      "start": 195.333,
+      "end": 197.287,
+      "text": "实际绘制仍用斜裁剪，"
+    },
+    {
+      "start": 197.287,
+      "end": 201.0,
+      "text": "灯光范围计算使用另一套正常的参考投影。"
+    },
+    {
+      "start": 207,
+      "end": 209.597,
+      "text": "高保真复刻因此需要定制引擎；"
+    },
+    {
+      "start": 209.597,
+      "end": 213.308,
+      "text": "普通 Godot 也能做简化的镜像相机效果，"
+    },
+    {
+      "start": 213.308,
+      "end": 215.72,
+      "text": "但细节和成本需要另行权衡。"
+    },
+    {
+      "start": 225,
+      "end": 228.377,
+      "text": "原版把湿润程度作为一份共同状态，"
+    },
+    {
+      "start": 228.377,
+      "end": 232.808,
+      "text": "分别调整底色、粗糙度、细小凹凸和倒影权重。"
+    },
+    {
+      "start": 232.808,
+      "end": 234.919,
+      "text": "积水处的反射更清晰，"
+    },
+    {
+      "start": 234.919,
+      "end": 237.24,
+      "text": "只是潮湿的地方则更散。"
+    },
+    {
+      "start": 240,
+      "end": 242.972,
+      "text": "Godot 复刻也沿用这套规则，"
+    },
+    {
+      "start": 242.972,
+      "end": 245.746,
+      "text": "但部分雨珠的位置最初对不上。"
+    },
+    {
+      "start": 245.746,
+      "end": 248.718,
+      "text": "问题藏在生成噪声的浮点计算里："
+    },
+    {
+      "start": 248.718,
+      "end": 251.096,
+      "text": "编译器可能调整运算顺序，"
+    },
+    {
+      "start": 251.096,
+      "end": 254.86,
+      "text": "两套图形后端的中间舍入点也不完全相同，"
+    },
+    {
+      "start": 254.86,
+      "end": 257.04,
+      "text": "最后生成的图案就变了。"
+    },
+    {
+      "start": 258,
+      "end": 262.452,
+      "text": "修复方式是在关键中间值固定浮点精度和舍入点。"
+    },
+    {
+      "start": 262.452,
+      "end": 265.689,
+      "text": "四十八组受控输入重新比较后通过；"
+    },
+    {
+      "start": 265.689,
+      "end": 268.725,
+      "text": "这只能说明这组噪声计算对齐了，"
+    },
+    {
+      "start": 268.725,
+      "end": 271.76,
+      "text": "不代表所有地面画面都完全一致。"
+    },
+    {
+      "start": 290,
+      "end": 297.024,
+      "text": "原版的环境材质由 GPU 按配方生成颜色、包含粗糙度的属性图和高度图，"
+    },
+    {
+      "start": 297.024,
+      "end": 299.791,
+      "text": "再用高度差生成法线并缓存。"
+    },
+    {
+      "start": 299.791,
+      "end": 305.326,
+      "text": "袖口的织纹、缝线和雨珠则按手臂变形前的材料坐标生成，"
+    },
+    {
+      "start": 305.326,
+      "end": 307.88,
+      "text": "运动时细节会跟着表面走。"
+    },
+    {
+      "start": 317,
+      "end": 319.943,
+      "text": "复刻版移植了相应的材质规则，"
+    },
+    {
+      "start": 319.943,
+      "end": 322.466,
+      "text": "也使用从原版采集的贴图。"
+    },
+    {
+      "start": 322.466,
+      "end": 325.829,
+      "text": "远处的织纹细到一个像素装不下时，"
+    },
+    {
+      "start": 325.829,
+      "end": 327.301,
+      "text": "容易出现闪烁。"
+    },
+    {
+      "start": 327.301,
+      "end": 331.716,
+      "text": "独立 Godot 实验用屏幕导数判断细节大小，"
+    },
+    {
+      "start": 331.716,
+      "end": 333.187,
+      "text": "逐渐淡出织纹，"
+    },
+    {
+      "start": 333.187,
+      "end": 335.92,
+      "text": "同时用粗糙度保留平均高光。"
+    },
+    {
+      "start": 344,
+      "end": 346.662,
+      "text": "这样能减少远处的闪烁和波纹，"
+    },
+    {
+      "start": 346.662,
+      "end": 349.135,
+      "text": "也不需要真的给每根线建模。"
+    },
+    {
+      "start": 349.135,
+      "end": 351.417,
+      "text": "实验里的高光补偿是近似，"
+    },
+    {
+      "start": 351.417,
+      "end": 354.84,
+      "text": "不能当作丝袜光学或布料物理已经完成。"
+    },
+    {
+      "start": 355,
+      "end": 359.746,
+      "text": "原版利用材质的磨损遮罩、法线和光照表现枪身高光。"
+    },
+    {
+      "start": 359.746,
+      "end": 362.316,
+      "text": "Godot 移植相应规则后，"
+    },
+    {
+      "start": 362.316,
+      "end": 365.48,
+      "text": "固定机位的对照里仍少了一块高光。"
+    },
+    {
+      "start": 368,
+      "end": 372.227,
+      "text": "问题出在图形后端如何把三角形落到屏幕像素上："
+    },
+    {
+      "start": 372.227,
+      "end": 376.455,
+      "text": "WebGL 和 Vulkan 的屏幕方向处理不同，"
+    },
+    {
+      "start": 376.455,
+      "end": 380.682,
+      "text": "细小三角形在多重采样时覆盖哪些位置也会改变。"
+    },
+    {
+      "start": 380.682,
+      "end": 384.333,
+      "text": "复刻版通过定制引擎调整视口的光栅方向，"
+    },
+    {
+      "start": 384.333,
+      "end": 387.6,
+      "text": "并同步处理正反面、颜色和深度读取。"
+    },
+    {
+      "start": 403,
+      "end": 405.655,
+      "text": "在一个固定机位的武器画面里，"
+    },
+    {
+      "start": 405.655,
+      "end": 409.259,
+      "text": "平均颜色差从大约零点五六降到零点二三。"
+    },
+    {
+      "start": 409.259,
+      "end": 411.534,
+      "text": "这只是该画面的对比数字，"
+    },
+    {
+      "start": 411.534,
+      "end": 414.0,
+      "text": "不能当作整个游戏的还原率。"
+    },
+    {
+      "start": 415,
+      "end": 415.94,
+      "text": "换弹时，"
+    },
+    {
+      "start": 415.94,
+      "end": 419.698,
+      "text": "弹匣、枪和手臂不是各播各的动画。"
+    },
+    {
+      "start": 419.698,
+      "end": 423.457,
+      "text": "原版先更新枪根的惯性和弹匣轨迹，"
+    },
+    {
+      "start": 423.457,
+      "end": 427.686,
+      "text": "再根据握持目标求解肩膀、手肘和手腕，"
+    },
+    {
+      "start": 427.686,
+      "end": 429.8,
+      "text": "让手跟着弹匣移动。"
+    },
+    {
+      "start": 430,
+      "end": 433.973,
+      "text": "Godot 复刻把这些计算接到实时骨骼上，"
+    },
+    {
+      "start": 433.973,
+      "end": 437.549,
+      "text": "并保留手指弯曲和受冲击后的弹簧运动。"
+    },
+    {
+      "start": 437.549,
+      "end": 440.33,
+      "text": "手臂如果同时接受旧骨骼动画，"
+    },
+    {
+      "start": 440.33,
+      "end": 442.912,
+      "text": "实时求解结果就可能被覆盖；"
+    },
+    {
+      "start": 442.912,
+      "end": 445.296,
+      "text": "复刻版跳过这些手臂轨道，"
+    },
+    {
+      "start": 445.296,
+      "end": 447.68,
+      "text": "统一由实时求解写入骨骼。"
+    },
+    {
+      "start": 458,
+      "end": 461.535,
+      "text": "敌人的身体和脚步也随运行时状态更新。"
+    },
+    {
+      "start": 461.535,
+      "end": 464.284,
+      "text": "这些约束主要服务于动作表现，"
+    },
+    {
+      "start": 464.284,
+      "end": 466.64,
+      "text": "手感还需要实际游玩判断。"
+    },
+    {
+      "start": 470,
+      "end": 471.723,
+      "text": "从亮处走进屋里，"
+    },
+    {
+      "start": 471.723,
+      "end": 473.446,
+      "text": "画面会逐渐适应。"
+    },
+    {
+      "start": 473.446,
+      "end": 476.677,
+      "text": "原版在画面上取三十五个测光点，"
+    },
+    {
+      "start": 476.677,
+      "end": 478.185,
+      "text": "中央权重更高，"
+    },
+    {
+      "start": 478.185,
+      "end": 480.338,
+      "text": "再结合上一帧的亮度，"
+    },
+    {
+      "start": 480.338,
+      "end": 484.0,
+      "text": "用大约一点五秒的速度平滑调整曝光。"
+    },
+    {
+      "start": 488,
+      "end": 492.428,
+      "text": "泛光、横向光条和最终调色也有自己的先后顺序。"
+    },
+    {
+      "start": 492.428,
+      "end": 496.252,
+      "text": "Godot 复刻按对应顺序接回这些步骤，"
+    },
+    {
+      "start": 496.252,
+      "end": 498.466,
+      "text": "否则即使用了相近参数，"
+    },
+    {
+      "start": 498.466,
+      "end": 500.68,
+      "text": "亮部和颜色也可能不同。"
+    },
+    {
+      "start": 503,
+      "end": 506.261,
+      "text": "曝光历史的移植曾出现逐帧累积偏差："
+    },
+    {
+      "start": 506.261,
+      "end": 512.398,
+      "text": "当时 WebGL 参考和 Vulkan 后端对半精度数值的舍入结果不同。"
+    },
+    {
+      "start": 512.398,
+      "end": 515.85,
+      "text": "修复是在写入历史之前按原版方式舍入，"
+    },
+    {
+      "start": 515.85,
+      "end": 517.96,
+      "text": "避免小误差一帧帧积累。"
+    },
+    {
+      "start": 525,
+      "end": 528.4,
+      "text": "雨后小巷可以复用现有地面和集装箱，"
+    },
+    {
+      "start": 528.4,
+      "end": 531.6,
+      "text": "把潮湿状态、倒影和灯光分开调整，"
+    },
+    {
+      "start": 531.6,
+      "end": 533.4,
+      "text": "先确定颜色与反光，"
+    },
+    {
+      "start": 533.4,
+      "end": 534.4,
+      "text": "再补水珠。"
+    },
+    {
+      "start": 540,
+      "end": 544.589,
+      "text": "窄窗室内场景可以先确定窗、墙和灯光的位置，"
+    },
+    {
+      "start": 544.589,
+      "end": 546.556,
+      "text": "再加入受遮挡的雾，"
+    },
+    {
+      "start": 546.556,
+      "end": 548.96,
+      "text": "让光线的方向清晰可见。"
+    },
+    {
+      "start": 555,
+      "end": 558.168,
+      "text": "角色衣物需要让纹理跟着表面移动，"
+    },
+    {
+      "start": 558.168,
+      "end": 561.138,
+      "text": "并检查镜头远近变化时是否闪烁。"
+    },
+    {
+      "start": 561.138,
+      "end": 566.88,
+      "text": "丝袜这类薄层还需要处理皮肤透出、纱线方向、破洞和物理变形。"
+    },
+    {
+      "start": 570,
+      "end": 574.333,
+      "text": "每个例子的输入、目标和验证方式都整理为提示词，"
+    },
+    {
+      "start": 574.333,
+      "end": 575.84,
+      "text": "随项目资料提供。"
+    },
+    {
+      "start": 585,
+      "end": 588.962,
+      "text": "旧版室内对照曾出现一块高光差得很明显。"
+    },
+    {
+      "start": 588.962,
+      "end": 590.422,
+      "text": "继续排查发现，"
+    },
+    {
+      "start": 590.422,
+      "end": 594.384,
+      "text": "两边截图时的临时灯光状态没有完全对齐；"
+    },
+    {
+      "start": 594.384,
+      "end": 596.052,
+      "text": "固定灯光状态后，"
+    },
+    {
+      "start": 596.052,
+      "end": 597.72,
+      "text": "局部差异缩小了。"
+    },
+    {
+      "start": 602,
+      "end": 603.79,
+      "text": "这张图属于旧版本，"
+    },
+    {
+      "start": 603.79,
+      "end": 606.176,
+      "text": "不能直接说明现在的表现。"
+    },
+    {
+      "start": 606.176,
+      "end": 608.761,
+      "text": "当前版本还需要同条件重拍；"
+    },
+    {
+      "start": 608.761,
+      "end": 612.141,
+      "text": "复刻使用采集的原版资源和定制引擎，"
+    },
+    {
+      "start": 612.141,
+      "end": 615.72,
+      "text": "也不能保证每个像素和所有设备都一致。"
+    },
+    {
+      "start": 620,
+      "end": 624.685,
+      "text": "原版链接、复刻项目、素材来源和技术对照记录，"
+    },
+    {
+      "start": 624.685,
+      "end": 627.88,
+      "text": "都整理在视频说明和项目文档中。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "checks": 13,
+  "dry": [
+    -34.75,
+    0.0,
+    -27.75
+  ],
+  "events": [
+    {
+      "add": 0,
+      "frame": 37,
+      "kind": "step",
+      "lit": 0,
+      "speed": 0,
+      "surface": "concrete",
+      "water": false
+    },
+    {
+      "add": 0,
+      "frame": 57,
+      "kind": "step",
+      "lit": 0,
+      "speed": 0,
+      "surface": "concrete",
+      "water": false
+    },
+    {
+      "add": 15,
+      "frame": 118,
+      "kind": "land",
+      "lit": 7,
+      "speed": 6.64426374435425,
+      "surface": "water",
+      "water": true
+    },
+    {
+      "add": 0,
+      "frame": 183,
+      "kind": "land",
+      "lit": 6,
+      "speed": 10.9750032424927,
+      "surface": "concrete",
+      "water": false
+    }
+  ],
+  "failures": [
+    "missing actual wet step"
+  ],
+  "frames": 240,
+  "scope": "Actual Main/player physics and motion signals, ground resolver, actual FX counts, wet/dry jump-land and impact decal suppression. Navigable probes and controlled inputs/teleports; no original whole movement timeline or pixel comparison.",
+  "wet": [
+    -34.0,
+    0.0,
+    -5.25
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "video": "native-current-shooting.mp4",
+  "sha256": "58e466d851579059e64ead9bdc26b704147f81ffcb0e01fbc1292720cf87967b",
+  "width": 1280,
+  "height": 720,
+  "fps": 60,
+  "frames": 481,
+  "duration_seconds": 8.016667,
+  "audio_streams": 0,
+  "capture": "Actual Godot main scene via --write-movie and fixed 60fps, scripted rifle burst and smoke lifecycle",
+  "files_sha256": {
+    "scripts/navigation_hud.gd": "8afe1bb76c1a59ba8f6ae4e56fa0f5f546fe7fae4274af7212d149e3273cb7a6",
+    "scripts/radio_hud.gd": "920473e9725544826a9e0c0c073b679e636de35fe45c43a5e5e25781da33187d",
+    "scripts/game_ui.gd": "f03f3192b37804803729babc845ed4ff531f5dcaa66858a882dbf0f653459d32",
+    "scripts/objective_hud.gd": "31a685f3331f1fde1c0134726ea499991f4b9d50cb4a7841ca0e7e0f4536bcfe",
+    "scripts/shells.gd": "940af11217ed3d3342942566d483a82abf7c895be86a9c67711d97c9aee890db",
+    "tools/verify_tracer_chain_runtime.gd": "21391dd7897f9a7ff9435491fdd0e3c2f5a4b5d6cacfdca64caa1e2fb3f5f7f6"
+  },
+  "scope": "Current HUD/shell/FX presentation. Offline movie recording, not evidence of real-time performance or full-game visual equivalence."
+}

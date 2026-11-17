@@ -1,0 +1,53 @@
+{
+  "video": "native-raster-origin-shooting.mp4",
+  "sha256": "badcea1d0f65fc3d1187dab0cf0f6e2a05a09b2ccebd3e58566f0084743b5f38",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "60/1",
+        "nb_frames": "481"
+      }
+    ],
+    "format": {
+      "duration": "8.016667"
+    }
+  },
+  "engine": {
+    "binary": "<PROJECT_ROOT>/engine/.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64",
+    "sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+    "bytes": 80338024,
+    "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "patch_sha256": "819fa712cdd09f78b4fad085864a64d5aef7ef0b7e30e76dc24cdbca57b7ae5c",
+    "build_command": [
+      "<PROJECT_ROOT>/engine/.venv/bin/scons",
+      "platform=linuxbsd",
+      "target=template_debug",
+      "arch=x86_64",
+      "wayland=no",
+      "use_static_cpp=no",
+      "debug_symbols=no",
+      "lto=none",
+      "disable_path_overrides=no",
+      "import_env_vars=CCACHE_DIR",
+      "-j8"
+    ]
+  },
+  "checks": 87,
+  "shots": 13,
+  "controlled_focus_resumes": 1,
+  "files_sha256": {
+    "scripts/post_pipeline.gd": "d18f032e4fb5319ffca170f0c7d88d5a18fe9c657280704b8b1d8469c928fc29",
+    "scripts/reflection_hdr_bridge.gd": "52228cca5a47c6dd05322e0ed23f8feea69fed6d228a80155c5b13b11e07dd2f",
+    "scripts/planar_reflection.gd": "7eadb73900c340e0ad791a3ef76611fab78ca785fce45b38778b8f6d526fb02d",
+    "scripts/fx_showcase_runner.gd": "e02ce9e410d91061d2f58b29b423b36f1c3c25f4b798913426fda8aa5a38f988",
+    "shaders/source_raster_coords.gdshaderinc": "6d7443fec5af89e002c6fddbbf0d709f07b2fb8258de4823334eef851558e154",
+    "shaders/source_tangent_normal.gdshaderinc": "6c3151d2310ebfde3cde8d94b8a9f4bb0a733bb30bb8fcbfe41a7490c899a1a7",
+    "tools/verify_tracer_chain_runtime.gd": "1a32df667daefb6d359de93ba58ed082b9b568ba44a081692ae4ad9fe65f075f"
+  },
+  "scope": "Actual Main offline fixed60 movie, GPU shooting/FX smoke lifecycle; one desktop focus pause resumed only in scripted fixture. Not realtime performance, full-game parity, or human visual approval."
+}

@@ -1,0 +1,41 @@
+{
+  "changed_pixels": 402512,
+  "covered_pixels": 5542142,
+  "failures": [],
+  "maximum_depth_difference": 0.0000000596046447753906,
+  "outside_two_q24": 0,
+  "passes": [
+    {
+      "casters": {
+        "eligible": 148,
+        "mesh": 142,
+        "multimesh": 6,
+        "skin": 18,
+        "unsupported": [],
+        "visible": 135
+      },
+      "format": {
+        "calls": 4,
+        "format": 129
+      },
+      "source_depth_24": false
+    },
+    {
+      "casters": {
+        "eligible": 148,
+        "mesh": 142,
+        "multimesh": 6,
+        "skin": 18,
+        "unsupported": [],
+        "visible": 135
+      },
+      "format": {
+        "calls": 4,
+        "format": 128
+      },
+      "source_depth_24": true
+    }
+  ],
+  "pixels": 16777216,
+  "scope": "Actual fixed source148casters full4096R32F shadow producer D32vsD24 acrossall16M pixels,stationary same source skeletons. Twoq24 quantization bound only;not originalGL packedshadow wholemap equivalence or dynamicPCSS thresholds."
+}

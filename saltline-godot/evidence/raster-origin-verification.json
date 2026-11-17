@@ -1,0 +1,186 @@
+{
+  "failures": [],
+  "rows": [
+    {
+      "center_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "cull": "back",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cull": "front",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "cull": "disabled",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.5498046875,
+        0.0
+      ],
+      "cull": "back",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": true
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cull": "front",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": true
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.5498046875,
+        0.0
+      ],
+      "cull": "disabled",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        65,
+        37
+      ],
+      "transparent": true
+    },
+    {
+      "center_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "cull": "back",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cull": "front",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "cull": "disabled",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": false
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.5498046875,
+        0.0
+      ],
+      "cull": "back",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": true
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cull": "front",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": true
+    },
+    {
+      "center_rgb": [
+        0.0,
+        0.5498046875,
+        0.0
+      ],
+      "cull": "disabled",
+      "facing_ok": true,
+      "normalized_bytes_equal": true,
+      "size": [
+        67,
+        39
+      ],
+      "transparent": true
+    }
+  ],
+  "scope": "Forward+ MSAA4 shared-material opposite-origin viewports, cull/front-facing, per-scene shader flag, opaque/transparent and odd resize. Does not prove game post-processing or original scene parity."
+}

@@ -1,0 +1,12 @@
+{
+  "three": "180",
+  "levels": 13,
+  "exported_assets": [
+    {
+      "file": "saltline-dirt.rgba8"
+    },
+    {
+      "file": "saltline-bloom-reference.json"
+    }
+  ]
+}

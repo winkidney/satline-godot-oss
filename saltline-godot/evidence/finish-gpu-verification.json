@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "bias_bytes": 0.00000179320280343139,
+      "case": 0,
+      "channels_over_one_byte": 0,
+      "maximum_byte_error": 0.00000756978988647461,
+      "mean_absolute_byte_error": 0.00000179320280343139,
+      "noise": {},
+      "p95_byte_error": 0.00000631809234619141,
+      "parameters": {
+        "uDither": 0.0,
+        "uFxaa": 0.0,
+        "uGrain": 0.0,
+        "uSharpen": 0.0,
+        "uTime": 0.0
+      }
+    },
+    {
+      "bias_bytes": -0.0078105015456155,
+      "case": 1,
+      "channels_over_one_byte": 0,
+      "maximum_byte_error": 1.00000739097595,
+      "mean_absolute_byte_error": 0.0205097593534447,
+      "noise": {},
+      "p95_byte_error": 0.0000069737434387207,
+      "parameters": {
+        "uDither": 0.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.0,
+        "uSharpen": 0.0,
+        "uTime": 0.173
+      }
+    },
+    {
+      "bias_bytes": -0.000649258851353807,
+      "case": 2,
+      "channels_over_one_byte": 0,
+      "maximum_byte_error": 0.99999925494194,
+      "mean_absolute_byte_error": 0.000652822447136714,
+      "noise": {},
+      "p95_byte_error": 0.00000631809234619141,
+      "parameters": {
+        "uDither": 0.0,
+        "uFxaa": 0.0,
+        "uGrain": 0.0,
+        "uSharpen": 0.3,
+        "uTime": 0.346
+      }
+    },
+    {
+      "bias_bytes": -0.00699671469078567,
+      "case": 3,
+      "channels_over_one_byte": 0,
+      "maximum_byte_error": 1.00000739097595,
+      "mean_absolute_byte_error": 0.0196959391204625,
+      "noise": {},
+      "p95_byte_error": 0.00000703334808349609,
+      "parameters": {
+        "uDither": 0.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.0,
+        "uSharpen": 0.3,
+        "uTime": 0.519
+      }
+    },
+    {
+      "bias_bytes": -0.0273417705845986,
+      "case": 4,
+      "channels_over_one_byte": 12,
+      "maximum_byte_error": 5.00000548362732,
+      "mean_absolute_byte_error": 0.0504575475784653,
+      "noise": {
+        "analytical_bound_bytes": 8,
+        "native_max_bytes": 5.99999964237213,
+        "native_mean_bytes": -0.028157555893813,
+        "native_rms_bytes": 1.65698682976186,
+        "reference_max_bytes": 6.0,
+        "reference_mean_bytes": -0.0078125,
+        "reference_rms_bytes": 1.64767829080801
+      },
+      "p95_byte_error": 0.00000751018524169922,
+      "parameters": {
+        "uDither": 1.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.02,
+        "uSharpen": 0.3,
+        "uTime": 0.692
+      }
+    },
+    {
+      "bias_bytes": -0.0253886435002642,
+      "case": 5,
+      "channels_over_one_byte": 0,
+      "maximum_byte_error": 1.00000739097595,
+      "mean_absolute_byte_error": 0.035809128948434,
+      "noise": {
+        "analytical_bound_bytes": 2,
+        "native_max_bytes": 1.00000753998756,
+        "native_mean_bytes": -0.0154622413094785,
+        "native_rms_bytes": 0.50695037804023,
+        "reference_max_bytes": 1.0,
+        "reference_mean_bytes": 0.0029296875,
+        "reference_rms_bytes": 0.502921154357221
+      },
+      "p95_byte_error": 0.00000733137130737305,
+      "parameters": {
+        "uDither": 1.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.0,
+        "uSharpen": 0.3,
+        "uTime": 0.865
+      }
+    },
+    {
+      "bias_bytes": -0.0408508821185478,
+      "case": 6,
+      "channels_over_one_byte": 37,
+      "maximum_byte_error": 4.99999982491136,
+      "mean_absolute_byte_error": 0.0545265895885526,
+      "noise": {
+        "analytical_bound_bytes": 7,
+        "native_max_bytes": 5.00000730156898,
+        "native_mean_bytes": 0.0315755200722379,
+        "native_rms_bytes": 1.58319625448303,
+        "reference_max_bytes": 5.0,
+        "reference_mean_bytes": 0.0654296875,
+        "reference_rms_bytes": 1.59170620587888
+      },
+      "p95_byte_error": 0.00000733137130737305,
+      "parameters": {
+        "uDither": 0.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.02,
+        "uSharpen": 0.3,
+        "uTime": 1.038
+      }
+    },
+    {
+      "bias_bytes": -0.0208313527315719,
+      "case": 7,
+      "channels_over_one_byte": 45,
+      "maximum_byte_error": 5.0000067949295,
+      "mean_absolute_byte_error": 0.0712908567062793,
+      "noise": {
+        "analytical_bound_bytes": 8,
+        "native_max_bytes": 5.99999964237213,
+        "native_mean_bytes": -0.0185546901241196,
+        "native_rms_bytes": 1.65024457244621,
+        "reference_max_bytes": 6.0,
+        "reference_mean_bytes": -0.00472005208333333,
+        "reference_rms_bytes": 1.64515742977686
+      },
+      "p95_byte_error": 0.999994099140167,
+      "parameters": {
+        "uDither": 1.0,
+        "uFxaa": 1.0,
+        "uGrain": 0.02,
+        "uSharpen": 0.3,
+        "uTime": 1.211
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Actual original Three nk RGBA8 vs native2D RGBA8 at64x32. Cases0..3 suppress grain+dither to isolate FXAA/sharpen; threshold1 byte. Cases4..7 report original stochastic hash terms separately; native noise amplitude checked against source grain/dither analytical range plus quantization. Statistics and pixel errors retained, no cross-driver stochastic pixel-equivalence claim."
+}

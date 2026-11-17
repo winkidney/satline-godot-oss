@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "byte_maximum_error": [
+        0.999999701976776,
+        0.999999970197678,
+        0.999999970197678
+      ],
+      "case": 0,
+      "composite_maximum_error": 0.00358206033706665,
+      "depth_maximum_error": 0.000000476837158203125,
+      "half_size": [
+        32,
+        16
+      ],
+      "isolated_composite_maximum_error": 0.000981569290161133,
+      "ready": true,
+      "size": [
+        64.0,
+        32.0
+      ]
+    },
+    {
+      "byte_maximum_error": [
+        1.00000578165054,
+        0.999999344348907,
+        0.999999403953552
+      ],
+      "case": 1,
+      "composite_maximum_error": 0.00421416759490967,
+      "depth_maximum_error": 0.00006103515625,
+      "half_size": [
+        33,
+        17
+      ],
+      "isolated_composite_maximum_error": 0.0014183521270752,
+      "ready": true,
+      "size": [
+        65.0,
+        33.0
+      ]
+    },
+    {
+      "byte_maximum_error": [
+        0.999994039535522,
+        0.00000745058059692383,
+        0.00000745058059692383
+      ],
+      "case": 2,
+      "composite_maximum_error": 0.000961899757385254,
+      "depth_maximum_error": 0.00006103515625,
+      "half_size": [
+        9,
+        5
+      ],
+      "isolated_composite_maximum_error": 0.000961899757385254,
+      "ready": true,
+      "size": [
+        17.0,
+        9.0
+      ]
+    },
+    {
+      "byte_maximum_error": [
+        0.00000649690628051758,
+        0.00000399351119995117,
+        0.00000399351119995117
+      ],
+      "case": 3,
+      "composite_maximum_error": 0.000937461853027122,
+      "depth_maximum_error": 0.000000476837158203125,
+      "half_size": [
+        4,
+        4
+      ],
+      "isolated_composite_maximum_error": 0.000937461853027122,
+      "ready": true,
+      "size": [
+        8.0,
+        8.0
+      ]
+    }
+  ],
+  "failures": [],
+  "scope": "Actual originalq9 Float32 target vs nativeR32F compute depthhalf, even/odd exact texel selection and world<.05/weapon sentinel; originalAO12 and each7tap bilateral blur RGBA8/nearest vs native2D. Depth tolerance max1e-5/2e-5relative, AO/blur1byte permits separate8bit quantization. Includes original joint-bilateral full scene composite Float32 vs nativeRGBA16F, original lit attenuation/exposure/bypass. Composite gated with identical originalDepthHalf/AO8 inputs at max.002/.3percent; whole nativechain residual recorded separately because precedingRGBA8 pass can differ1byte. Controlled noMSAA inputs, not fullscene or MSAA4 equivalence."
+}

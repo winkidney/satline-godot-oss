@@ -1,0 +1,11 @@
+{
+  "checks": 6240,
+  "failures": [],
+  "gun_child_nodes": 26,
+  "maximum_transform_error": 0.0,
+  "scope": "Original exported fire frames for both guns, all mechanical descendants, ADS/sprint 0/1/mixed; local position and quaternion. Lightweight actual animation execution; no rendered image, root dynamics or IK proof.",
+  "source_fire_minus_ads_z": {
+    "pistol": 0.0277777779847383,
+    "rifle": 0.0391564778983593
+  }
+}

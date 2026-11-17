@@ -1,0 +1,10 @@
+{
+  "checks": 48640,
+  "failures": [],
+  "maximum_error": 0.00000000000000205391259555654,
+  "scope": "Literal original Fh.L with original Three math; both sides, reach/lean limits, degenerate targets/poles, wrist diagnostics, five local rotations and history displacement. Native double-array core; no finger/spring/bone writing/production/whole image proof.",
+  "solver_sha256": "409cd26a2a4552218bcc43c93be648542e537c7b634bbfb15a5f7c493f566771",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 1280,
+  "tolerance": 0.0000000001
+}

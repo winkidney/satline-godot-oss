@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "id": "763b0c80-a845-40c1-8fc4-52053f3a8e69",
+      "name": "pac9_anodised",
+      "kind": 0
+    },
+    {
+      "id": "0dcf0d99-d36d-45fa-9e3f-69d67507d7be",
+      "name": "pac9_phosphate",
+      "kind": 1
+    },
+    {
+      "id": "c3f9e159-a1c6-43de-91f5-8e46aa6d2c3a",
+      "name": "pac9_polymer",
+      "kind": 2
+    },
+    {
+      "id": "157ead0b-7c3c-45c1-8b6d-4c9fffe16b9e",
+      "name": "pac9_matte",
+      "kind": 4
+    },
+    {
+      "id": "e657e14a-f836-4296-8b76-f75712c05b35",
+      "name": "pac9_polymer_tan",
+      "kind": 2
+    },
+    {
+      "id": "028785e3-af2e-43bb-98d1-6c4e2e9cb49a",
+      "name": "pac4_nitride",
+      "kind": 3
+    }
+  ],
+  "helpers_sha256": "4d401fd29686db139e5c21cc1b20cd0df31430bab1ad62ec7f10fa9760529584",
+  "body_sha256": "5bcb9a65f2ca2024a09ef34c2b86816e932354ae092229936d4b1b77e2a61228"
+}

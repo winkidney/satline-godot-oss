@@ -1,0 +1,11 @@
+{
+  "weight": 0.25,
+  "raw": [
+    13312,
+    13312,
+    13312,
+    13312
+  ],
+  "samples": 4,
+  "scope": "Same WebGL renderer/context, CPU-NDC single triangle, constant output, no depth."
+}

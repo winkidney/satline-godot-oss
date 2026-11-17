@@ -1,0 +1,16 @@
+{
+  "asset_bindings": {
+    "mask_resolution": 512.0,
+    "material_instances": 78,
+    "quality": "low",
+    "texture_replacements": 76
+  },
+  "failures": [],
+  "gpu_mip_hashes": 76,
+  "gpu_rain_components": 20840,
+  "original_uv_bindings": 390,
+  "query_resolution": 512,
+  "rain_instances": 4760,
+  "scope": "Actual Main low cold assets: complete replaced texture GPU mip hashes, original literal low rain GPU attributes and initial RNG/timer, CPU mask binding and rendered frame. Not whole-original pixel parity, input playthrough or performance.",
+  "splash_instances": 450
+}

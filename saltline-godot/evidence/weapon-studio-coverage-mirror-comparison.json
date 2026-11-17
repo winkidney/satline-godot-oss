@@ -1,0 +1,18 @@
+{
+  "source": [
+    0.75,
+    0.25,
+    0.0
+  ],
+  "native_mirrored": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "quad_max_error": [
+    0.25,
+    0.25,
+    0.0
+  ],
+  "scope": "Temporary reflected camera and flipped readback, coverage only, not production rendering correction."
+}

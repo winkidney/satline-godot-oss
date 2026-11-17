@@ -1,0 +1,10 @@
+{
+  "comparisons": 120,
+  "failures": [],
+  "initial_marker_cases": 4,
+  "marker_reset_checks": 3,
+  "maximum_alpha_error": 0.000000462207296880734,
+  "maximum_gap_error": 0.0000333356931800921,
+  "scope": "Actual original CSS in Chrome; cross .1s ease/gap .06s linear, marker parent .15s ease and child .25s ease, exact interrupted/reversed animation sampling. Fixed projection inputs; no complete HUD pixel proof. Native actual NavigationHud.update_frame; projection and drawing unchanged except animated alpha/gap. Marker transition removal checked.",
+  "stages": 10
+}

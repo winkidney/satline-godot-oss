@@ -1,0 +1,6 @@
+{
+  "failures": [],
+  "frames": 240,
+  "metal_checks": 110,
+  "scope": "Actual Main-bound Player resolver at55 metal rectangle centers and wood contact override, followed by existing240-frame real wet-step/wet-land/dry-land and impact-decal routing regression. Static metal probes at height2, no entire original metal movement trajectory or pixels."
+}

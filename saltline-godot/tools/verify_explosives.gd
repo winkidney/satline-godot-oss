@@ -1,0 +1,33 @@
+extends SceneTree
+func _initialize()->void:
+ call_deferred("_verify")
+func _verify()->void:
+ var scene=SaltlineSourceScene.new();root.add_child(scene);scene.load_source()
+ var physics=SaltlinePhysics.new(scene.source.physics)
+ var player=SaltlinePlayer.new(scene.source.modules.player,physics)
+ var fx=SaltlineImpactEffects.new();root.add_child(fx);fx.setup(scene,scene.camera,physics)
+ var decals=SaltlineDecals.new(scene);var lights=SaltlineLightPool.new();root.add_child(lights)
+ var explosion=SaltlineExplosionEffects.new(fx,decals,lights)
+ var system=load("res://scripts/explosives.gd").new(scene,physics,explosion,player)
+ var failures=[];var total=system.items.size();var box_count=physics.boxes.size()
+ if total!=21 or system.alive_count()!=21:failures.append("all 21 source explosive assets bound")
+ for i in total:
+  if system.items[i].box.get("explosive_index",-1)!=i:failures.append("collision binding %d"%i)
+ system.damage_item(6,26,system.items[6].pos)
+ if system.items[6].hp!=24 or absf(system.items[6].fuse-1.6)>.0001:failures.append("first hit arms source fuse")
+ system.damage_item(6,26,system.items[6].pos)
+ if absf(system.items[6].fuse-.06)>.0001:failures.append("lethal hit shortens fuse")
+ system.update(.03)
+ if not system.items[6].alive:failures.append("fuse must wait")
+ system.update(.031)
+ if system.items[6].alive or physics.boxes.size()!=box_count-1:failures.append("blast removes object and collision")
+ system.reset()
+ if system.alive_count()!=total or physics.boxes.size()!=box_count:failures.append("reset restores all objects and collision")
+ system.damage_item(1,70,system.items[1].pos);system.update(.061)
+ if system.items[4].fuse<0:failures.append("nearby gas cylinders chain")
+ for i in 60:system.update(1.0/60)
+ if system.items[4].alive or system.blasts<3:failures.append("chain fuse detonates")
+ system.reset()
+ if system.alive_count()!=21 or physics.boxes.size()!=box_count:failures.append("chain reset")
+ var report={"failures":failures,"assets":total,"blasts_tested":system.blasts,"original_boxes":box_count,"restored_boxes":physics.boxes.size(),"checks":["all source assets and instance bindings","damage and arming","shortened lethal fuse","detonation and collider removal","chain reaction","full reset"],"scope":"state and physics tested headless; instance visibility verified separately on GPU"}
+ var file=FileAccess.open("res://evidence/explosives-verification.json",FileAccess.WRITE);file.store_string(JSON.stringify(report,"  "));file.close();print(JSON.stringify(report));quit(0 if failures.is_empty() else 1)

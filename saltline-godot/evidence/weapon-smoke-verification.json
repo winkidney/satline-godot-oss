@@ -1,0 +1,9 @@
+{
+  "checks": 335,
+  "failures": [],
+  "maximum_error": 0.00000000000000288657986402541,
+  "methods_sha256": "1cfcac3ce6eefa6140c6b513b28d35da9f192b5130f1c90c1ac1d02e510103c8",
+  "scope": "Literal original I5 O smoke block through heat decay; production smoke availability guard, rifle/pistol, strict timing/heat boundaries, ongoing expiration, reset preserving tick. Source reset smoke/heat assignments supplied; not full O or muzzle transform. Actual Native Weapon.update + smoke_requested callback/options.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 58
+}

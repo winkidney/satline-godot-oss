@@ -1,0 +1,50 @@
+{
+  "combat": {
+    "blasts": 4,
+    "hits": 36,
+    "kills": 16,
+    "shots": 164
+  },
+  "controlled_focus_resumes": 1,
+  "damage": [
+    {
+      "amount": 0.21239161491394,
+      "frame": 399,
+      "health": 99.7876083850861
+    },
+    {
+      "amount": 5.0,
+      "frame": 684,
+      "health": 95.0
+    },
+    {
+      "amount": 34.2268765889681,
+      "frame": 1932,
+      "health": 65.7731234110319
+    }
+  ],
+  "distance": 109.836671268567,
+  "failures": [],
+  "frames": 1999,
+  "health": 100.0,
+  "protected_frames": 0,
+  "scope": "Actual Main Standard Holdout, normal health/ammo/AI, automated navigation and aim/fire. No direct actor damage, teleport, invulnerability or wave advancement. Controlled simulation ticks and final GPU capture, not human balance or real-time performance acceptance.",
+  "start": [
+    -32.0,
+    0.0,
+    6.0
+  ],
+  "state": "playing",
+  "test_only_global_seed": 4207,
+  "waves": [
+    {
+      "count": 7,
+      "wave": 1
+    },
+    {
+      "count": 9,
+      "wave": 2
+    }
+  ],
+  "waves_cleared": 2
+}

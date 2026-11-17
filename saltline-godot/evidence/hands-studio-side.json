@@ -1,0 +1,16 @@
+{
+  "arm_groups": 2,
+  "blend": [
+    "open",
+    "fist",
+    "0.5"
+  ],
+  "failures": [],
+  "frames": 12,
+  "pose": "relaxed",
+  "scope": "Original TD static studio views with live Fh finger/trigger updates, world layer and original straight arm chain. FP grip and arbitrary hgun parameters pending; no full-frame original pixel parity claim.",
+  "studio_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, -0.0, 1.0), Z: (0.0, -1.0, -0.0), O: (0.0, 1.16, 0.0)]",
+  "trigger": 0.0,
+  "trigger_first": 0.0,
+  "view": "side"
+}

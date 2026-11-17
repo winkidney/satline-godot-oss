@@ -1,0 +1,752 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 1,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 2,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 3,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 4,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 5,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 6,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 7,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 8,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 9,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 10,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 11,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 12,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 13,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 14,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 15,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 16,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 17,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 18,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 19,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 20,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 21,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 22,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 23,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 24,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 25,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 26,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 27,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 28,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 29,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 30,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 31,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 32,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 33,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 34,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 35,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 36,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 37,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 38,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 39,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 40,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 41,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 42,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 43,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 44,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 45,
+      "maximum_error": 0.75
+    },
+    {
+      "case": 46,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 47,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 48,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 49,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 50,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 51,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 52,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 53,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 54,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 55,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 56,
+      "maximum_error": 0.72705078125
+    },
+    {
+      "case": 57,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 58,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 59,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 60,
+      "maximum_error": 0.779296875
+    },
+    {
+      "case": 61,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 62,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 63,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 64,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 65,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 66,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 67,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 68,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 69,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 70,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 71,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 72,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 73,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 74,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 75,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 76,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 77,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 78,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 79,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 80,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 81,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 82,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 83,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 84,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 85,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 86,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 87,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 88,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 89,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 90,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 91,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 92,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 93,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 94,
+      "maximum_error": 1.0
+    },
+    {
+      "case": 95,
+      "maximum_error": 1.0
+    }
+  ],
+  "channels": 1152,
+  "failures": [
+    {
+      "actual": 1.0,
+      "case": 0,
+      "channel": 3,
+      "error": 0.42138671875,
+      "expected": 0.57861328125,
+      "kind": 0.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.80078125,
+      "case": 0,
+      "channel": 0,
+      "error": 0.10107421875,
+      "expected": 0.69970703125,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.232421875,
+      "case": 0,
+      "channel": 1,
+      "error": 0.00146484375,
+      "expected": 0.23095703125,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 0,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.03466796875,
+      "case": 1,
+      "channel": 0,
+      "error": 0.00250244140625,
+      "expected": 0.03717041015625,
+      "kind": 1.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.03472900390625,
+      "case": 1,
+      "channel": 1,
+      "error": 0.00262451171875,
+      "expected": 0.037353515625,
+      "kind": 1.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.037017822265625,
+      "case": 1,
+      "channel": 2,
+      "error": 0.00299072265625,
+      "expected": 0.040008544921875,
+      "kind": 1.0,
+      "pixel": 0
+    },
+    {
+      "actual": 1.0,
+      "case": 1,
+      "channel": 3,
+      "error": 0.4462890625,
+      "expected": 0.5537109375,
+      "kind": 1.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.609375,
+      "case": 1,
+      "channel": 1,
+      "error": 0.01220703125,
+      "expected": 0.59716796875,
+      "kind": 1.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 1,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 1.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 2,
+      "channel": 3,
+      "error": 0.26708984375,
+      "expected": 0.73291015625,
+      "kind": 2.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.52783203125,
+      "case": 2,
+      "channel": 0,
+      "error": 0.001953125,
+      "expected": 0.52587890625,
+      "kind": 2.0,
+      "pixel": 2
+    },
+    {
+      "actual": -0.2421875,
+      "case": 2,
+      "channel": 2,
+      "error": 0.4580078125,
+      "expected": 0.2158203125,
+      "kind": 2.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 2,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 2.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.037078857421875,
+      "case": 3,
+      "channel": 2,
+      "error": 0.00128173828125,
+      "expected": 0.035797119140625,
+      "kind": 3.0,
+      "pixel": 0
+    },
+    {
+      "actual": 1.0,
+      "case": 3,
+      "channel": 3,
+      "error": 0.40380859375,
+      "expected": 0.59619140625,
+      "kind": 3.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.253173828125,
+      "case": 3,
+      "channel": 0,
+      "error": 0.0162353515625,
+      "expected": 0.2369384765625,
+      "kind": 3.0,
+      "pixel": 1
+    },
+    {
+      "actual": 0.451904296875,
+      "case": 3,
+      "channel": 0,
+      "error": 0.00146484375,
+      "expected": 0.450439453125,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.4140625,
+      "case": 3,
+      "channel": 1,
+      "error": 0.27685546875,
+      "expected": 0.69091796875,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": -0.22265625,
+      "case": 3,
+      "channel": 2,
+      "error": 0.2138671875,
+      "expected": -0.0087890625,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 3,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 4,
+      "channel": 3,
+      "error": 0.0380859375,
+      "expected": 0.9619140625,
+      "kind": 4.0,
+      "pixel": 0
+    },
+    {
+      "actual": -0.033203125,
+      "case": 4,
+      "channel": 2,
+      "error": 0.369140625,
+      "expected": 0.3359375,
+      "kind": 4.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 4,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 4.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 5,
+      "channel": 3,
+      "error": 0.562744140625,
+      "expected": 0.437255859375,
+      "kind": 0.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.412841796875,
+      "case": 5,
+      "channel": 0,
+      "error": 0.136474609375,
+      "expected": 0.54931640625,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.434814453125,
+      "case": 5,
+      "channel": 1,
+      "error": 0.0107421875,
+      "expected": 0.424072265625,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 5,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 0.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 6,
+      "channel": 3,
+      "error": 0.38134765625,
+      "expected": 0.61865234375,
+      "kind": 1.0,
+      "pixel": 0
+    },
+    {
+      "actual": 1.0,
+      "case": 6,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 1.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 7,
+      "channel": 3,
+      "error": 0.27099609375,
+      "expected": 0.72900390625,
+      "kind": 2.0,
+      "pixel": 0
+    },
+    {
+      "actual": 1.0,
+      "case": 7,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 2.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 8,
+      "channel": 3,
+      "error": 0.361328125,
+      "expected": 0.638671875,
+      "kind": 3.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.615234375,
+      "case": 8,
+      "channel": 0,
+      "error": 0.001953125,
+      "expected": 0.6171875,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 8,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 3.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.10284423828125,
+      "case": 9,
+      "channel": 0,
+      "error": 0.00128173828125,
+      "expected": 0.1015625,
+      "kind": 4.0,
+      "pixel": 0
+    },
+    {
+      "actual": 1.0,
+      "case": 9,
+      "channel": 3,
+      "error": 0.0263671875,
+      "expected": 0.9736328125,
+      "kind": 4.0,
+      "pixel": 0
+    },
+    {
+      "actual": 0.312255859375,
+      "case": 9,
+      "channel": 1,
+      "error": 0.095703125,
+      "expected": 0.407958984375,
+      "kind": 4.0,
+      "pixel": 2
+    },
+    {
+      "actual": 1.0,
+      "case": 9,
+      "channel": 3,
+      "error": 1.0,
+      "expected": 0.0,
+      "kind": 4.0,
+      "pixel": 2
+    },
+    {
+      "actual": 0.044921875,
+      "case": 10,
+      "channel": 0,
+      "error": 0.01678466796875,
+      "expected": 0.06170654296875,
+      "kind": 0.0,
+      "pixel": 0
+    }
+  ],
+  "scope": "Production mechanical weapon detail kernel vs independent original NVIDIA Three GLSL,96 positions/attributes/rain/pixelwidth; allfive kinds; three RGBA16F outputs include albedo/rough/metal/height/cavity and noise/drop diagnostics;abs.001 orrel.0015. Not bump derivative or actual vertex attribute proof."
+}

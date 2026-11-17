@@ -1,0 +1,51 @@
+{
+  "baseline_video_memory_bytes": 653598320,
+  "failures": [],
+  "format": "R32F",
+  "resolution": 4096,
+  "scope": "Actual originalprepared scene148casters including6MultiMesh and18skinned proxies, independent4096square sourcefrustum shadow pass, two create/render/dispose cycles. GPU memory counters include all engineattachments and caches, walltime includes readback/compiler, not steadyGPU timing. Nonemptydepth and eligibility tested, not entire original4096map pixelparity or highframe performance acceptance.",
+  "snapshots": [
+    {
+      "active_video_memory_bytes": 1313642032,
+      "added_video_memory_bytes": 660043712,
+      "after_cleanup_video_memory_bytes": 656630640,
+      "casters": {
+        "eligible": 148,
+        "mesh": 142,
+        "multimesh": 6,
+        "skin": 18,
+        "unsupported": [],
+        "visible": 135
+      },
+      "covered_samples": 86366,
+      "cycle": 0,
+      "draw_calls_last_update_frame": 150,
+      "maximum_depth": 1.0,
+      "minimum_depth": 0.181322693824768,
+      "primitives_last_update_frame": 960324,
+      "sampled": 262144,
+      "wall_time_ms_including_setup_shader_compile_readback": 560.376
+    },
+    {
+      "active_video_memory_bytes": 1313642032,
+      "added_video_memory_bytes": 660043712,
+      "after_cleanup_video_memory_bytes": 656630640,
+      "casters": {
+        "eligible": 148,
+        "mesh": 142,
+        "multimesh": 6,
+        "skin": 18,
+        "unsupported": [],
+        "visible": 135
+      },
+      "covered_samples": 86366,
+      "cycle": 1,
+      "draw_calls_last_update_frame": 150,
+      "maximum_depth": 1.0,
+      "minimum_depth": 0.181322693824768,
+      "primitives_last_update_frame": 960324,
+      "sampled": 262144,
+      "wall_time_ms_including_setup_shader_compile_readback": 144.86
+    }
+  ]
+}

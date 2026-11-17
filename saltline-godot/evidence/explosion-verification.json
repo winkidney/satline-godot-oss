@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "add": 27,
+      "debris": 15,
+      "lit": 41,
+      "size": 0.1
+    },
+    {
+      "add": 27,
+      "debris": 15,
+      "lit": 41,
+      "size": 0.4
+    },
+    {
+      "add": 53,
+      "debris": 19,
+      "lit": 49,
+      "size": 1.0
+    },
+    {
+      "add": 93,
+      "debris": 24,
+      "lit": 62,
+      "size": 1.9
+    },
+    {
+      "add": 139,
+      "debris": 37,
+      "lit": 88,
+      "size": 4.0
+    },
+    {
+      "add": 139,
+      "debris": 37,
+      "lit": 88,
+      "size": 6.0
+    }
+  ],
+  "failures": [],
+  "source": "Original active fx.explosion, lower/upper size clamp and initial emission counts"
+}

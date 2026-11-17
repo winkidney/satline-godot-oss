@@ -1,0 +1,56 @@
+{
+  "failures": [],
+  "frames": 300,
+  "samples": [
+    {
+      "frame": 34,
+      "pitch": 0.0,
+      "shots": 0,
+      "weapon": "rifle",
+      "yaw": -1.015
+    },
+    {
+      "frame": 38,
+      "pitch": 0.0,
+      "shots": 0,
+      "weapon": "rifle",
+      "yaw": -1.05
+    },
+    {
+      "frame": 60,
+      "pitch": -0.42,
+      "shots": 0,
+      "weapon": "rifle",
+      "yaw": -1.05
+    },
+    {
+      "frame": 120,
+      "pitch": -0.402904506676931,
+      "shots": 7,
+      "weapon": "rifle",
+      "yaw": -1.0505521484634
+    },
+    {
+      "frame": 170,
+      "pitch": -0.402904506676931,
+      "shots": 7,
+      "weapon": "pistol",
+      "yaw": -1.0505521484634
+    },
+    {
+      "frame": 210,
+      "pitch": -0.399545119515087,
+      "shots": 8,
+      "weapon": "pistol",
+      "yaw": -1.05065912142119
+    },
+    {
+      "frame": 270,
+      "pitch": -0.399545119515087,
+      "shots": 8,
+      "weapon": "rifle",
+      "yaw": -1.05065912142119
+    }
+  ],
+  "scope": "Actual Godot key events through Main: arrow/IJKL alias-rate/release behavior, mouse sensitivity/invert independence, Enter fire, physical numpad2 under logical Down, numpad Enter and numpad1, physical W under logical Z, focus-out notification clears held/look. Controlled native events; no physical hardware/layout/GUI focus acceptance."
+}

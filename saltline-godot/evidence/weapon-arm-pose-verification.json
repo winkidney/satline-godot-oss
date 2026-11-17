@@ -1,0 +1,10 @@
+{
+  "checks": 240240,
+  "failures": [],
+  "fh_sha256": "0aa7333a0191d4f17d5120cd6b4ed800c04821564bd242049eebb61f6c7bed83",
+  "maximum_error": 0.000000000000000555111512312578,
+  "scope": "Literal original Fh constructor/methods and finger helpers; real Three Bone hierarchy, mocked geometry/material/Skeleton bind only. Native pose/trigger/impulse/solve/update and all35 local bone p/q. Both sides, float32 finger/spring storage, dt clamp. No production writes/global hierarchy/whole image proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 840,
+  "tolerance": 0.0000000001
+}

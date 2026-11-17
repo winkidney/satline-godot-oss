@@ -1,0 +1,9 @@
+{
+  "checks": 29,
+  "failures": [
+    "segment overlap view"
+  ],
+  "panel_choices": 10,
+  "scope": "Actual Main panel tab/small/segmented/slider renderer wiring, original CSS dimensions/colors, adjacent1px border overlap, selected and slider GPU color samples, live tab action. Not whole layout/font pixel parity; sliders retain native range/input behavior.",
+  "sliders": 2
+}

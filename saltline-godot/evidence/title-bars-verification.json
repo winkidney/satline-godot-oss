@@ -1,0 +1,6 @@
+{
+  "failures": [],
+  "maximum_error": 0.00000141269169362523,
+  "samples": 7,
+  "scope": "Browser sampled original .7s cubic-bezier(.2,.7,.2,1) top-bar transform normalized by CSS height and 101% travel; native visibility at completion. No reversal-shortening, wall-clock scheduling or whole-frame pixel proof."
+}

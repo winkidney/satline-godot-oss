@@ -1,0 +1,18 @@
+{
+  "device": {
+    "quality": "high",
+    "renderer": "NVIDIA GeForce RTX 4070 SUPER",
+    "screen": [
+      3840,
+      2160
+    ],
+    "touch_points": 0,
+    "touch_points_known": false,
+    "user_agent": "Linux"
+  },
+  "cold_assets": {
+    "quality": "high",
+    "texture_replacements": 0
+  },
+  "scope": "Actual NVIDIA Forward+ Main native descriptor; other hardware classes are predicate fixture coverage, not device acceptance"
+}

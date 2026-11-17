@@ -1,0 +1,12 @@
+{
+  "backdrop_time": 5.99999999999999,
+  "fps": 30,
+  "frame_directory": "/tmp/saltline-backdrop-frames",
+  "frames": 180,
+  "scope": "Actual native Main rendering, fixed30Hz forced GPU frame readback; three inspection cameras and hidden HUD/viewmodel, title state so backdrop advances without gameplay. Not original camera parity or real-time performance.",
+  "takes": [
+    "boat",
+    "spreader",
+    "radar"
+  ]
+}

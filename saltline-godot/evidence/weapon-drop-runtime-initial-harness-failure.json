@@ -1,0 +1,127 @@
+{
+  "checks": 212,
+  "failures": [
+    {
+      "frame": 100,
+      "message": "death arms not hidden"
+    }
+  ],
+  "frames": 400,
+  "restores": 2,
+  "scope": "Actual Main two gun deaths/retries: world reparent/layers/bias variant/restored shader identity/arm hide and restore/no render-only advance. Separate original numerical kernels; no full source combined pixel proof.",
+  "snapshots": [
+    {
+      "active": true,
+      "bounces": 0,
+      "drop_time": 0.0333333333333333,
+      "frame": 20,
+      "gun": "rifle",
+      "position": [
+        -31.8339127347215,
+        1.58295306372175,
+        6.12269826115321
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 3,
+      "drop_time": 1.2,
+      "frame": 55,
+      "gun": "rifle",
+      "position": [
+        -31.4880000324539,
+        0.02405205379571,
+        6.53198163351202
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": false,
+      "bounces": 3,
+      "drop_time": -1.0,
+      "frame": 100,
+      "gun": "rifle",
+      "position": [
+        -31.4880000324539,
+        0.0240025916058858,
+        6.53198163351202
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": false,
+      "bounces": 3,
+      "drop_time": -1.0,
+      "frame": 161,
+      "gun": "rifle",
+      "position": [
+        -31.4880000324539,
+        0.0240025916058858,
+        6.53198163351202
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 0,
+      "drop_time": 0.0333333333333333,
+      "frame": 230,
+      "gun": "pistol",
+      "position": [
+        -31.7489990990476,
+        1.62242858920864,
+        6.09444500154949
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 3,
+      "drop_time": 1.53333333333333,
+      "frame": 275,
+      "gun": "pistol",
+      "position": [
+        -31.3522671210805,
+        0.0240025916058858,
+        6.36413780876758
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 3,
+      "drop_time": 2.7,
+      "frame": 310,
+      "gun": "pistol",
+      "position": [
+        -31.3522671210805,
+        0.0240025916058858,
+        6.36413780876758
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": false,
+      "bounces": 3,
+      "drop_time": -1.0,
+      "frame": 371,
+      "gun": "rifle",
+      "position": [
+        -31.3522671210805,
+        0.0240025916058858,
+        6.36413780876758
+      ],
+      "resting": true,
+      "sunk": false
+    }
+  ],
+  "starts": 2
+}

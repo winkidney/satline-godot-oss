@@ -1,0 +1,180 @@
+{
+  "files": {
+    "tools/run.py": "026848a50a2d7608d0f53222dc43fb0de223e93eeb87e910bd2b71ddd2f41efa",
+    "scripts/navigation.gd": "d5d600af3ad879dfe529f829b639ad057be49696706207372e05a50b857040d3",
+    "scripts/main.gd": "9f10d2b65720b9a8579cc329dae63c5287765566eab2da22d6c5ed929fc71553",
+    "scripts/post_pipeline.gd": "908f5bf7cdd5a438d7ac0a9c90f445f09fdb8c0ffbd3b5d4e272be74cb2411de",
+    "scripts/planar_reflection.gd": "c3ced611338de3747fc8fc3946adf6fb8378c89ab3a503e125699940102dfbaa",
+    "tools/verify_survival_mission_runtime.gd": "239b808c2ffed16688a79a6609baef5e2b3a4d78a1e1814cbd049a10a5ee08d8",
+    "tools/navigation_random_reference.cjs": "ae4de0739d5e03ffe39e730fd2b1620baf7a81bbf9497df6716941014fee09c1",
+    "tools/verify_navigation_random.gd": "cb0980b671951f3ef61e3b116a208f98b1fadc415203f31c4a5d5b25fe39fe0e",
+    "tools/verify_asset_inventory.py": "f223007d23941e2bbf1088338d1b67f449f95dc363acbc436f3593bb2a976006"
+  },
+  "launcher": {
+    "checks": 8,
+    "cases": [
+      {
+        "mode": "run",
+        "override": false
+      },
+      {
+        "mode": "run",
+        "override": false
+      },
+      {
+        "mode": "capture",
+        "override": false
+      },
+      {
+        "mode": "import",
+        "override": false
+      },
+      {
+        "mode": "run",
+        "override": true
+      },
+      {
+        "mode": "import",
+        "override": true
+      },
+      {
+        "error_propagation": "SHADER ERROR: fixture",
+        "exit": 0
+      },
+      {
+        "error_propagation": "fixture",
+        "exit": 2
+      }
+    ],
+    "failures": [],
+    "launcher_sha256": "026848a50a2d7608d0f53222dc43fb0de223e93eeb87e910bd2b71ddd2f41efa",
+    "scope": "Actual run.py executed from an isolated temporary tree; subprocess boundary mocked to check default full-game command, capture/import, explicit engine overrides and engine error propagation. Actual desktop launch is a separate check."
+  },
+  "editor_import": {
+    "engine": "4.7.2.stable.official.ed1daf0bf",
+    "exit_code": 0,
+    "log": "editor-import-clean.log",
+    "log_sha256": "235694bc44437291ac75fa7476e78e96bf870377240f051ed33c9db4fe66b057"
+  },
+  "desktop_launcher": {
+    "observed_command": "isolated template_debug --path saltline-godot --audio-driver Dummy --display-driver x11 -- --game",
+    "startup_scene_loaded": true,
+    "startup_errors": [],
+    "stop": "Intentional Ctrl-C after startup; tool reported130 and known process74001 was confirmed gone. Not a clean-exit/gameplay test."
+  },
+  "renderer_lifecycle": {
+    "cases": 8,
+    "reentry": {
+      "order": {
+        "events": [
+          "reflection",
+          "sun",
+          "world",
+          "weapon"
+        ],
+        "frame": 73
+      },
+      "ready": true
+    },
+    "failures": [],
+    "terminal_exit_code": null,
+    "note": "Report and clean completed log inspected after intentional turn interruption; original terminal handle was no longer available, no duplicate launch."
+  },
+  "navigation_shared_random": {
+    "checks": 9,
+    "draws": 136,
+    "failures": [],
+    "maximum_point_error": 0.0,
+    "navigation_sha256": "d5d600af3ad879dfe529f829b639ad057be49696706207372e05a50b857040d3",
+    "scope": "Actual original Main nav.randomPoint interleaved with actual fx.smoke and direct Math.random; permanent wrapper installed before bundle aliases capture it, tape enabled only after ready. Full original grid/collision; no source file edits. Native actual Navigation/ImpactEffects/Particles share one tape, including24-attempt fallback; normal grid/path construction consumes no random values. Default browser entropy values are not reproducible.",
+    "smoke_particles": 2
+  },
+  "survival": {
+    "combat": {
+      "blasts": 2,
+      "hits": 31,
+      "kills": 13,
+      "shots": 60
+    },
+    "completion_menu": "complete",
+    "controlled_focus_resumes": 1,
+    "cut": 3,
+    "damage_events": [],
+    "debrief": {
+      "accuracy": 0.516666666666667,
+      "kills": 13,
+      "rating": "Surgical",
+      "retries": 0,
+      "time": 47.7333333333332
+    },
+    "difficulty": "standard",
+    "distance": 146.935263400432,
+    "failures": [],
+    "frames": 1457,
+    "health": 100.0,
+    "legs": [
+      {
+        "done": true,
+        "leg": 0,
+        "position": [
+          -0.00479444209486246,
+          0.0,
+          6.32302856445312
+        ],
+        "reached_waypoint": 5,
+        "steps": 406,
+        "waypoints": 9
+      },
+      {
+        "done": true,
+        "leg": 1,
+        "position": [
+          -0.786281585693359,
+          0.0299999993294477,
+          -18.1092128753662
+        ],
+        "reached_waypoint": 6,
+        "steps": 427,
+        "waypoints": 8
+      },
+      {
+        "done": true,
+        "leg": 2,
+        "position": [
+          21.5250225067139,
+          0.0,
+          -1.1827644109726
+        ],
+        "reached_waypoint": 7,
+        "steps": 405,
+        "waypoints": 10
+      },
+      {
+        "done": true,
+        "leg": 3,
+        "position": [
+          27.9423847198486,
+          0.0,
+          17.9828281402588
+        ],
+        "reached_waypoint": 7,
+        "steps": 219,
+        "waypoints": 8
+      }
+    ],
+    "minimum_health": 100.0,
+    "protected_live_frames": 0,
+    "rifle_ammo": 30,
+    "rifle_reserve": 90.0,
+    "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Test-only global seed4207 and controlled resumes after desktop focus loss; production random stream and pause behavior unchanged. Not human play/balance acceptance.",
+    "shared_navigation_fx_random": true,
+    "start": [
+      -32.0,
+      0.0,
+      6.0
+    ],
+    "state": "complete",
+    "test_only_global_seed": 4207
+  },
+  "scope": "Source launcher/editor import and runtime dispatch compatibility, captured asset inventory, exact source nav/FX shared-random sample, one controlled Standard survival mission. This is a staged completion audit, not full-game pixel or all-parameter acceptance."
+}

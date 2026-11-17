@@ -1,0 +1,175 @@
+{
+  "rows": [
+    {
+      "case": "high",
+      "phase": "before-origin",
+      "mae_rgb8": 0.8610948350694444,
+      "p95": 4.0,
+      "p99": 11.0,
+      "max": 123.0,
+      "worst_pixel": [
+        483,
+        283
+      ],
+      "source_rgb": [
+        243.0,
+        232.0,
+        214.0
+      ],
+      "native_rgb": [
+        136.0,
+        127.0,
+        115.0
+      ]
+    },
+    {
+      "case": "high",
+      "phase": "source-origin",
+      "mae_rgb8": 0.62828125,
+      "p95": 3.0,
+      "p99": 7.0,
+      "max": 108.0,
+      "worst_pixel": [
+        440,
+        310
+      ],
+      "source_rgb": [
+        100.0,
+        97.0,
+        98.0
+      ],
+      "native_rgb": [
+        208.0,
+        186.0,
+        155.0
+      ]
+    },
+    {
+      "case": "high-harbor",
+      "phase": "before-origin",
+      "mae_rgb8": 1.1796976273148148,
+      "p95": 5.0,
+      "p99": 11.0,
+      "max": 115.0,
+      "worst_pixel": [
+        241,
+        90
+      ],
+      "source_rgb": [
+        222.0,
+        194.0,
+        186.0
+      ],
+      "native_rgb": [
+        126.0,
+        79.0,
+        126.0
+      ]
+    },
+    {
+      "case": "high-harbor",
+      "phase": "source-origin",
+      "mae_rgb8": 0.7815006510416667,
+      "p95": 3.0,
+      "p99": 8.0,
+      "max": 115.0,
+      "worst_pixel": [
+        279,
+        248
+      ],
+      "source_rgb": [
+        196.0,
+        166.0,
+        136.0
+      ],
+      "native_rgb": [
+        81.0,
+        75.0,
+        69.0
+      ]
+    },
+    {
+      "case": "high-interior",
+      "phase": "before-origin",
+      "mae_rgb8": 1.3583391203703703,
+      "p95": 5.0,
+      "p99": 14.0,
+      "max": 219.0,
+      "worst_pixel": [
+        861,
+        300
+      ],
+      "source_rgb": [
+        252.0,
+        247.0,
+        237.0
+      ],
+      "native_rgb": [
+        33.0,
+        32.0,
+        33.0
+      ]
+    },
+    {
+      "case": "high-interior",
+      "phase": "source-origin",
+      "mae_rgb8": 0.7807921006944445,
+      "p95": 4.0,
+      "p99": 10.0,
+      "max": 220.0,
+      "worst_pixel": [
+        861,
+        300
+      ],
+      "source_rgb": [
+        252.0,
+        247.0,
+        237.0
+      ],
+      "native_rgb": [
+        32.0,
+        32.0,
+        33.0
+      ]
+    }
+  ],
+  "scope": "Matched source fixed camera/time/manual exposure1, descriptive RGB8 scene comparison before/after engine raster origin; no acceptance threshold or attribution of all changes solely to raster direction.",
+  "engine": {
+    "binary": "<PROJECT_ROOT>/engine/.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64",
+    "sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+    "bytes": 80338024,
+    "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "patch_sha256": "819fa712cdd09f78b4fad085864a64d5aef7ef0b7e30e76dc24cdbca57b7ae5c",
+    "build_command": [
+      "<PROJECT_ROOT>/engine/.venv/bin/scons",
+      "platform=linuxbsd",
+      "target=template_debug",
+      "arch=x86_64",
+      "wayland=no",
+      "use_static_cpp=no",
+      "debug_symbols=no",
+      "lto=none",
+      "disable_path_overrides=no",
+      "import_env_vars=CCACHE_DIR",
+      "-j8"
+    ]
+  },
+  "files_sha256": {
+    "main-paired-high-source.png": "4b9e218a98f483fa6798eca17fd1f96183c595b36a642f9111dd969a9a23ccdc",
+    "main-paired-high-source.json": "ab13ac7d721baf94d8e255e34fd95d47edbf935a3d7237b05472e4d3046775c5",
+    "main-paired-high-native.png": "1b32d004aa9403d9bc7d9f80b09d49ce560e7ca3d5dcf5047d36f19285819807",
+    "main-paired-high-native.json": "bf1535250689aa3cc02668903e6d34477f53f91aad307afcb5950e4e3ec96366",
+    "main-paired-high-harbor-source.png": "32aec38e72cd2d06b63c8ae1519178e4ce8c1e88c66920109de049116b873c2f",
+    "main-paired-high-harbor-source.json": "2ee316c69e72cfe24dc13095baa435c007c32e9e35d083446c84fb19562c43d3",
+    "main-paired-high-harbor-native.png": "1e442935d9775eee2eaeb525ea9b74a737bb90e4afdb4d13b451c3218ef24ad0",
+    "main-paired-high-harbor-native.json": "2efec855bae1707425af68a4bd06ceaf7eca180231a9f1e9c9d8e419226f304e",
+    "main-paired-high-interior-source.png": "7c3e6069c2199b9963e2e9bd43859449e6c8203e980be26c9f5eaad55beb9957",
+    "main-paired-high-interior-source.json": "b2c9b88e0478623d834376ebea1c124e7846f47890cf4b32e43f37442ae8b785",
+    "main-paired-high-interior-native.png": "d3f3de8ca70be180678ba0aaede4bf44cc839db9cf365fd258e365c19d723878",
+    "main-paired-high-interior-native.json": "e3ef6cf7bf7e238ddd106f7b172f5da16d4f6100033016bba8a184414853e75f",
+    "main-paired-high-interior-spec-matched-source.png": "1231fbdc7c5f00f337b44941957cb710e03ce99f4c58a7bfe2ebf08ac9f2c33f",
+    "main-paired-high-interior-spec-matched-source.json": "02e9c2f429a26376b1fd5aa56c7879cdaa92112a18fef03f33a6b7a88bb9410f",
+    "main-paired-high-interior-spec-matched-native.png": "c2beb849bacb4b167412d7c4a679cb89034ca14c506681d8504e7440bc4b97ad",
+    "main-paired-high-interior-spec-matched-native.json": "b07a23728a67a44d479e2c8531751f748bad1c01294bba9a6ee12fd92f528bc3"
+  }
+}

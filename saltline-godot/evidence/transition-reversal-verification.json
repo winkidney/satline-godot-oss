@@ -1,0 +1,8 @@
+{
+  "bar_checks": 15,
+  "bar_maximum_error": 0.0000011559240653547,
+  "checks": 432,
+  "failures": [],
+  "maximum_error": 0.00258565187454218,
+  "scope": "Original button CSS property values/easing in Chrome. Hover/active selectors mapped to equivalent probe classes for deterministic interruption; paused CSS animations seek to exact elapsed milliseconds before each state change. Not OS pointer event delivery."
+}

@@ -1,0 +1,485 @@
+{
+  "scope": "Literal original menu template/CSS, bundled local fonts; static title DOM without game runtime.",
+  "rows": [
+    {
+      "width": 1280,
+      "height": 720,
+      "boxes": {
+        ".m-legend": {
+          "x": 528.0625,
+          "y": 527.40625,
+          "width": 694.34375,
+          "height": 117,
+          "font": "16px"
+        },
+        ".m-title-main": {
+          "x": 70.390625,
+          "y": 46.75,
+          "width": 425.671875,
+          "height": 597.65625,
+          "font": "16px"
+        },
+        ".m-eyebrow": {
+          "x": 70.390625,
+          "y": 46.75,
+          "width": 425.671875,
+          "height": 43.59375,
+          "font": "13px"
+        },
+        ".m-word": {
+          "x": 63.453125,
+          "y": 104.734375,
+          "width": 462.359375,
+          "height": 158.71875,
+          "font": "198.4px"
+        },
+        ".m-premise": {
+          "x": 70.390625,
+          "y": 279.28125,
+          "width": 425.671875,
+          "height": 68.59375,
+          "font": "19.84px"
+        },
+        ".m-actions": {
+          "x": 70.390625,
+          "y": 369.46875,
+          "width": 425.671875,
+          "height": 108,
+          "font": "16px"
+        },
+        ".m-pick": {
+          "x": 70.390625,
+          "y": 493.296875,
+          "width": 425.671875,
+          "height": 99.390625,
+          "font": "16px"
+        },
+        ".m-note": {
+          "x": 70.390625,
+          "y": 611.40625,
+          "width": 343.1875,
+          "height": 33,
+          "font": "11px"
+        }
+      },
+      "picks": [
+        {
+          "text": "Mode",
+          "x": 0,
+          "y": 11.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Mission",
+          "x": 83.046875,
+          "y": 0,
+          "width": 171.8125,
+          "height": 34
+        },
+        {
+          "text": "Holdout",
+          "x": 253.859375,
+          "y": 0,
+          "width": 171.8125,
+          "height": 34
+        },
+        {
+          "text": "Difficulty",
+          "x": 0,
+          "y": 53.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Standard",
+          "x": 83.046875,
+          "y": 42,
+          "width": 114.875,
+          "height": 34
+        },
+        {
+          "text": "Hard",
+          "x": 196.921875,
+          "y": 42,
+          "width": 114.875,
+          "height": 34
+        },
+        {
+          "text": "Brutal",
+          "x": 310.796875,
+          "y": 42,
+          "width": 114.875,
+          "height": 34
+        },
+        {
+          "text": "Cut three relays and reach the boat. About five minutes.",
+          "x": 0,
+          "y": 84,
+          "width": 425.671875,
+          "height": 15.390625
+        }
+      ]
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "boxes": {
+        ".m-legend": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "16px"
+        },
+        ".m-title-main": {
+          "x": 52.796875,
+          "y": 53.78125,
+          "width": 864.015625,
+          "height": 429.53125,
+          "font": "16px"
+        },
+        ".m-eyebrow": {
+          "x": 52.796875,
+          "y": 53.78125,
+          "width": 864.015625,
+          "height": 22,
+          "font": "13px"
+        },
+        ".m-word": {
+          "x": 47.59375,
+          "y": 86.578125,
+          "width": 891.53125,
+          "height": 119.03125,
+          "font": "148.8px"
+        },
+        ".m-premise": {
+          "x": 52.796875,
+          "y": 217.609375,
+          "width": 680,
+          "height": 39.09375,
+          "font": "17px"
+        },
+        ".m-actions": {
+          "x": 52.796875,
+          "y": 272.890625,
+          "width": 864.015625,
+          "height": 52,
+          "font": "16px"
+        },
+        ".m-pick": {
+          "x": 52.796875,
+          "y": 336.890625,
+          "width": 430,
+          "height": 99.390625,
+          "font": "16px"
+        },
+        ".m-note": {
+          "x": 52.796875,
+          "y": 450.3125,
+          "width": 343.1875,
+          "height": 33,
+          "font": "11px"
+        }
+      },
+      "picks": [
+        {
+          "text": "Mode",
+          "x": 0,
+          "y": 11.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Mission",
+          "x": 83.046875,
+          "y": 0,
+          "width": 173.96875,
+          "height": 34
+        },
+        {
+          "text": "Holdout",
+          "x": 256.015625,
+          "y": 0,
+          "width": 173.984375,
+          "height": 34
+        },
+        {
+          "text": "Difficulty",
+          "x": 0,
+          "y": 53.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Standard",
+          "x": 83.046875,
+          "y": 42,
+          "width": 116.3125,
+          "height": 34
+        },
+        {
+          "text": "Hard",
+          "x": 198.359375,
+          "y": 42,
+          "width": 116.328125,
+          "height": 34
+        },
+        {
+          "text": "Brutal",
+          "x": 313.6875,
+          "y": 42,
+          "width": 116.3125,
+          "height": 34
+        },
+        {
+          "text": "Cut three relays and reach the boat. About five minutes.",
+          "x": 0,
+          "y": 84,
+          "width": 430,
+          "height": 15.390625
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "boxes": {
+        ".m-legend": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "16px"
+        },
+        ".m-title-main": {
+          "x": 16,
+          "y": -68.875,
+          "width": 608,
+          "height": 391.078125,
+          "font": "16px"
+        },
+        ".m-eyebrow": {
+          "x": 16,
+          "y": -68.875,
+          "width": 608,
+          "height": 22,
+          "font": "11px"
+        },
+        ".m-word": {
+          "x": 13.484375,
+          "y": -38.875,
+          "width": 621.3125,
+          "height": 57.59375,
+          "font": "72px"
+        },
+        ".m-premise": {
+          "x": 16,
+          "y": 28.71875,
+          "width": 608,
+          "height": 33.09375,
+          "font": "17px"
+        },
+        ".m-actions": {
+          "x": 16,
+          "y": 73.8125,
+          "width": 608,
+          "height": 94,
+          "font": "16px"
+        },
+        ".m-pick": {
+          "x": 16,
+          "y": 179.8125,
+          "width": 430,
+          "height": 99.390625,
+          "font": "16px"
+        },
+        ".m-note": {
+          "x": 16,
+          "y": 289.203125,
+          "width": 343.1875,
+          "height": 33,
+          "font": "11px"
+        }
+      },
+      "picks": [
+        {
+          "text": "Mode",
+          "x": 0,
+          "y": 11.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Mission",
+          "x": 83.046875,
+          "y": 0,
+          "width": 173.96875,
+          "height": 34
+        },
+        {
+          "text": "Holdout",
+          "x": 256.015625,
+          "y": 0,
+          "width": 173.984375,
+          "height": 34
+        },
+        {
+          "text": "Difficulty",
+          "x": 0,
+          "y": 53.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Standard",
+          "x": 83.046875,
+          "y": 42,
+          "width": 116.3125,
+          "height": 34
+        },
+        {
+          "text": "Hard",
+          "x": 198.359375,
+          "y": 42,
+          "width": 116.328125,
+          "height": 34
+        },
+        {
+          "text": "Brutal",
+          "x": 313.6875,
+          "y": 42,
+          "width": 116.3125,
+          "height": 34
+        },
+        {
+          "text": "Cut three relays and reach the boat. About five minutes.",
+          "x": 0,
+          "y": 84,
+          "width": 430,
+          "height": 15.390625
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "boxes": {
+        ".m-legend": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "font": "16px"
+        },
+        ".m-title-main": {
+          "x": 16,
+          "y": 14.40625,
+          "width": 288,
+          "height": 493.96875,
+          "font": "16px"
+        },
+        ".m-eyebrow": {
+          "x": 16,
+          "y": 14.40625,
+          "width": 288,
+          "height": 41.1875,
+          "font": "11px"
+        },
+        ".m-word": {
+          "x": 13.765625,
+          "y": 66.953125,
+          "width": 299.828125,
+          "height": 51.1875,
+          "font": "64px"
+        },
+        ".m-premise": {
+          "x": 16,
+          "y": 130.625,
+          "width": 288,
+          "height": 61.1875,
+          "font": "17px"
+        },
+        ".m-actions": {
+          "x": 16,
+          "y": 208.84375,
+          "width": 288,
+          "height": 108,
+          "font": "16px"
+        },
+        ".m-pick": {
+          "x": 16,
+          "y": 329.328125,
+          "width": 288,
+          "height": 114.78125,
+          "font": "16px"
+        },
+        ".m-note": {
+          "x": 16,
+          "y": 458.875,
+          "width": 288,
+          "height": 49.5,
+          "font": "11px"
+        }
+      },
+      "picks": [
+        {
+          "text": "Mode",
+          "x": 0,
+          "y": 11.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Mission",
+          "x": 83.046875,
+          "y": 0,
+          "width": 102.96875,
+          "height": 34
+        },
+        {
+          "text": "Holdout",
+          "x": 185.015625,
+          "y": 0,
+          "width": 102.984375,
+          "height": 34
+        },
+        {
+          "text": "Difficulty",
+          "x": 0,
+          "y": 53.5,
+          "width": 69.046875,
+          "height": 11
+        },
+        {
+          "text": "Standard",
+          "x": 83.046875,
+          "y": 42,
+          "width": 68.984375,
+          "height": 34
+        },
+        {
+          "text": "Hard",
+          "x": 151.03125,
+          "y": 42,
+          "width": 68.984375,
+          "height": 34
+        },
+        {
+          "text": "Brutal",
+          "x": 219.015625,
+          "y": 42,
+          "width": 68.984375,
+          "height": 34
+        },
+        {
+          "text": "Cut three relays and reach the boat. About five minutes.",
+          "x": 0,
+          "y": 84,
+          "width": 288,
+          "height": 30.78125
+        }
+      ]
+    }
+  ]
+}

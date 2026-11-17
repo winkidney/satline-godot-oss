@@ -1,0 +1,40 @@
+{
+  "checks": 8,
+  "cases": [
+    {
+      "mode": "run",
+      "override": false
+    },
+    {
+      "mode": "run",
+      "override": false
+    },
+    {
+      "mode": "capture",
+      "override": false
+    },
+    {
+      "mode": "import",
+      "override": false
+    },
+    {
+      "mode": "run",
+      "override": true
+    },
+    {
+      "mode": "import",
+      "override": true
+    },
+    {
+      "error_propagation": "SHADER ERROR: fixture",
+      "exit": 0
+    },
+    {
+      "error_propagation": "fixture",
+      "exit": 2
+    }
+  ],
+  "failures": [],
+  "launcher_sha256": "026848a50a2d7608d0f53222dc43fb0de223e93eeb87e910bd2b71ddd2f41efa",
+  "scope": "Actual run.py executed from an isolated temporary tree; subprocess boundary mocked to check default full-game command, capture/import, explicit engine overrides and engine error propagation. Actual desktop launch is a separate check."
+}

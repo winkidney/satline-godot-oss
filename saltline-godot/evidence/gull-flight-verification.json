@@ -1,0 +1,7 @@
+{
+  "comparisons": 58800,
+  "failures": [],
+  "frames": 1200,
+  "maximum_error": 0.0000235525479208576,
+  "scope": "Original Gull v movement/body/rotor phase; controlled box planes and perception, modes, damage wobble, ceiling and fixed hover"
+}

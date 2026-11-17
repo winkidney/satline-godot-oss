@@ -1,0 +1,71 @@
+{
+  "clocks": [
+    {
+      "expected_time": 0.05,
+      "maximum_error": 0.0,
+      "render_dt": 0.1,
+      "state": "playing"
+    },
+    {
+      "expected_time": 0.05,
+      "maximum_error": 0.0,
+      "render_dt": 0.04,
+      "state": "paused"
+    },
+    {
+      "expected_time": 0.05,
+      "maximum_error": 0.0,
+      "render_dt": 0.2,
+      "state": "paused"
+    }
+  ],
+  "failures": [],
+  "objects": [
+    {
+      "attributes_exact": true,
+      "changed_pixels": 78700,
+      "custom_aabb": "[P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]",
+      "dynamic": true,
+      "id": "b64bdc53-358a-4ced-9aee-497d21458c72",
+      "maximum_rgb_difference": 13.9664916992188,
+      "mode": 1,
+      "name": "",
+      "occupied_pixels": 78700,
+      "times": [
+        0.75,
+        0.0750000011175871
+      ]
+    },
+    {
+      "attributes_exact": true,
+      "changed_pixels": 4489,
+      "custom_aabb": "[P: (-0.275865, 5.198233, -38.2679), S: (93.02399, 41.41946, 103.1508)]",
+      "dynamic": true,
+      "id": "ad39e462-8683-4f55-820f-e849d85f05b9",
+      "maximum_rgb_difference": 0.639892578125,
+      "mode": 2,
+      "name": "gulls",
+      "occupied_pixels": 4489,
+      "times": [
+        0.05,
+        0.4
+      ]
+    },
+    {
+      "attributes_exact": true,
+      "changed_pixels": 78698,
+      "custom_aabb": "[P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]",
+      "dynamic": true,
+      "id": "daa737f2-f5ce-4104-9eb6-0d44845bf2bc",
+      "maximum_rgb_difference": 3.5968017578125,
+      "mode": 1,
+      "name": "backdrop-lamps",
+      "occupied_pixels": 78698,
+      "times": [
+        2.59999990463257,
+        1.55999994277954
+      ]
+    }
+  ],
+  "scope": "Actual three original geometry/attributes andproduction Basic shader in isolated orthographic views. Full GPU custom-channel byte audit, orbit analytic AABB checkedagainst96 original vertices/times, visible motion/blink contributions. Actual Main independent backdrop clock with paused freeze and .05dt cap. Not full original perspective/bloom composition or alltime empirical culling proof."
+}

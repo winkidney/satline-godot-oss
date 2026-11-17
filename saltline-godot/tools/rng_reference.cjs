@@ -1,0 +1,3 @@
+const fs=require('fs');const root=__dirname+'/..';const source=fs.readFileSync(root+'/../artifact-rendering-study/source/extracted/bundle-1.js','utf8');const start=source.indexOf('function su(n = 1337)');const end=source.indexOf('\n  var Hn =',start);const create=eval('('+source.slice(start,end).trim()+')');
+const cases=[0,1337,4207,4294967295].map(seed=>{const rng=create(seed);const first=Array.from({length:128},()=>Math.floor(rng()*4294967296));const child=rng.fork();return {seed,first,child:Array.from({length:128},()=>Math.floor(child()*4294967296)),parent:Array.from({length:32},()=>Math.floor(rng()*4294967296))}});
+fs.writeFileSync(root+'/evidence/rng-source-fixtures.json',JSON.stringify(cases));console.log('Original su RNG: 4 seeds and fork streams');

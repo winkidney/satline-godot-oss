@@ -1,0 +1,27 @@
+{
+  "backdrop_part": "all",
+  "explicit_room_materials": 0,
+  "failures": [],
+  "frames": 12,
+  "frozen": true,
+  "hdr": {
+    "file": "res://evidence/backdrop-showcase-native.rgb16f",
+    "format": 14,
+    "height": 720,
+    "row_order": "top-to-bottom",
+    "width": 1280
+  },
+  "motion_time": 0.05,
+  "nodes": 34,
+  "render_options": {
+    "auto_exposure": true,
+    "camera": "[X: (0.633238, 0.0, 0.773957), Y: (-0.198271, 0.96663, 0.162222), Z: (-0.74813, -0.256178, 0.612107), O: (0.0, 1.7, 27.0)]",
+    "exposure": 1.0,
+    "fov": 74.0
+  },
+  "scope": "Original scene showcase geometry, common80m concrete floor, stub environment and live source animation. No whole-image parity or original texture hash claim.",
+  "shadow_casters": 20,
+  "showcase": "backdrop",
+  "warehouse_lights": 0,
+  "world_time": 0.05
+}

@@ -1,0 +1,10 @@
+[    1896ms] [LOG] [boot] render 728ms @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:85842
+[    5068ms] [LOG] [boot] level 3166ms @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:85842
+[    5395ms] [LOG] [boot] backdrop 322ms @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:85842
+[    6035ms] [LOG] [boot] ground 634ms @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:85842
+[    6194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8793/favicon.ico:1
+[    6496ms] [LOG] [weapon] PAC-9 Longshore: 42662 tris, 10 meshes (flash only while firing, hidden while holstered) @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:79084
+[    6496ms] [LOG] [weapon] PAC-4 Bosun: 14072 tris, 12 meshes (flash only while firing, hidden while holstered) @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:79084
+[    6496ms] [LOG] [weapon] arms: 2 x 13724 tris, 2 draw calls, shared by both weapons @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:79087
+[    6497ms] [LOG] [boot] weapon 302ms @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:85842
+[    9695ms] [LOG] [render] interior probe assigned to 22 material(s) @ http://127.0.0.1:8793/output/playwright/ground-instrumented.js:37244

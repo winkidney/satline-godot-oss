@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40",
+      "maximum": 6,
+      "channels_above_one": 19363,
+      "legacy_clamped_max_byte_difference": 17,
+      "legacy_clamped_channels_over_one_lsb": 7249
+    },
+    {
+      "id": "e44868bb-2bd3-41d6-978b-02a02fedbdf3",
+      "maximum": 355.5,
+      "channels_above_one": 2130,
+      "legacy_clamped_max_byte_difference": 253,
+      "legacy_clamped_channels_over_one_lsb": 67535
+    }
+  ],
+  "frame": 3,
+  "time": 0.05,
+  "scope": "New HDR readbacks finite and unbounded, compared after clamp/UNORM8 quantization to historical export; capture only,not native PMREM lighting integration."
+}

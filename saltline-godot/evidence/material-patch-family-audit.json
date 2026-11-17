@@ -1,0 +1,2533 @@
+{
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "families": {
+    "arm": [
+      {
+        "id": "483b3971-c57e-4c47-9259-5b8371d1c6cf",
+        "name": "saltline_arm",
+        "objects": [
+          {
+            "id": "cb35d305-7262-46af-89ff-3180013a7197",
+            "name": "arm-mesh-right"
+          },
+          {
+            "id": "20228bdb-bd52-4c39-b32b-6cce3732423c",
+            "name": "arm-mesh-left"
+          }
+        ]
+      }
+    ],
+    "pac_detail": [
+      {
+        "id": "763b0c80-a845-40c1-8fc4-52053f3a8e69",
+        "name": "pac9_anodised",
+        "objects": [
+          {
+            "id": "b761d3bf-4f92-4dd0-8789-91b46396761c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0dcf0d99-d36d-45fa-9e3f-69d67507d7be",
+        "name": "pac9_phosphate",
+        "objects": [
+          {
+            "id": "011ef7cb-e33a-4efd-a2cf-b934a063bd44",
+            "name": ""
+          },
+          {
+            "id": "45e9e907-f174-4b7a-8d42-691f1c7f2d5e",
+            "name": ""
+          },
+          {
+            "id": "a3f00446-b9d7-4617-b16c-a61ffea720e9",
+            "name": ""
+          },
+          {
+            "id": "fc7c3715-aedc-4c41-ad12-61a990d98fbd",
+            "name": ""
+          },
+          {
+            "id": "2c8962dd-008c-4c93-954a-7a688aa0bad5",
+            "name": ""
+          },
+          {
+            "id": "316d55f2-bafb-4771-9d18-38081ae61eba",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c3f9e159-a1c6-43de-91f5-8e46aa6d2c3a",
+        "name": "pac9_polymer",
+        "objects": [
+          {
+            "id": "8dce8cc0-5d17-412b-87ac-3713da6c7c98",
+            "name": ""
+          },
+          {
+            "id": "f797c69c-758d-4c8c-834c-d0eb1c77099c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "157ead0b-7c3c-45c1-8b6d-4c9fffe16b9e",
+        "name": "pac9_matte",
+        "objects": [
+          {
+            "id": "0a586350-e83c-4929-ac29-c1fe577e6461",
+            "name": ""
+          },
+          {
+            "id": "7f2e118b-dcdb-4aa2-80ee-8cd7c2cb9c23",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e657e14a-f836-4296-8b76-f75712c05b35",
+        "name": "pac9_polymer_tan",
+        "objects": [
+          {
+            "id": "1d3695f4-797f-48c4-9d71-2cb83c5d0fb7",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "028785e3-af2e-43bb-98d1-6c4e2e9cb49a",
+        "name": "pac4_nitride",
+        "objects": [
+          {
+            "id": "1283d4b6-d9f6-4ae4-beba-b5b35cd955d9",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "macro_wet": [
+      {
+        "id": "4ca5763e-eed4-448e-a1ae-19a500a53c8e",
+        "name": "brass",
+        "objects": [
+          {
+            "id": "01f07e3e-d98b-4ed9-975d-569ae21a47e3",
+            "name": ""
+          },
+          {
+            "id": "bc350031-8d08-4939-beec-8b269228bc37",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9a718504-abbf-412a-a453-71f5b09ffcfc",
+        "name": "paint_green",
+        "objects": [
+          {
+            "id": "21b35d3f-0fa1-4394-971f-83ec4514d8df",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "26065526-e492-47ad-9d0b-1ef36343e1c8",
+        "name": "steel_galv",
+        "objects": [
+          {
+            "id": "99fd30a3-3568-4dca-9872-d7f866d0bd40",
+            "name": ""
+          },
+          {
+            "id": "015f2ef3-44a3-44cd-ba76-9f5a2997f777",
+            "name": ""
+          },
+          {
+            "id": "805b25fe-9a6f-4443-8690-9904f08289eb",
+            "name": ""
+          },
+          {
+            "id": "031dce4e-1573-411d-8c78-6054b79136b4",
+            "name": ""
+          },
+          {
+            "id": "6a26d6d0-4e9f-46c1-bdcc-1b3a0b091f51",
+            "name": ""
+          },
+          {
+            "id": "dd5bbf13-2692-49af-a0f5-488ae8d269e7",
+            "name": ""
+          },
+          {
+            "id": "7ccafa2b-a0e5-488c-a6ee-a120410a57c2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "416bc995-88d4-4b6d-bbb8-be7681fa72d5",
+        "name": "paint_grey",
+        "objects": [
+          {
+            "id": "20d80c36-31b4-43ff-aad1-5cb94908d730",
+            "name": ""
+          },
+          {
+            "id": "b52ec665-8d00-4196-bc7f-580bda57ae2d",
+            "name": ""
+          },
+          {
+            "id": "a5e06efc-1598-41f0-9de8-ce6226dcaa24",
+            "name": ""
+          },
+          {
+            "id": "60bc9bcc-aa48-4585-a5f8-f588ffe5759b",
+            "name": ""
+          },
+          {
+            "id": "fcf25dec-4970-4c8b-ac1b-f81ec8048e9a",
+            "name": ""
+          },
+          {
+            "id": "35dfccd8-eb21-4bd0-bc69-217cafad3bbe",
+            "name": ""
+          },
+          {
+            "id": "f302920a-4d47-44fd-9be3-bd78a37bc4e2",
+            "name": ""
+          },
+          {
+            "id": "3ea2e976-65da-492a-9e8f-97d2dd8fed53",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7fbeac4e-ca16-47e7-8764-27d9422d9799",
+        "name": "paint_orange",
+        "objects": [
+          {
+            "id": "6ddd0cb4-6c04-4f82-9998-16172e8f754c",
+            "name": ""
+          },
+          {
+            "id": "febf1457-b3b6-447e-a4cc-8027e9558093",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "8229090a-c699-4bb3-90ca-71e8b3186840",
+        "name": "paint_white",
+        "objects": [
+          {
+            "id": "58a908d6-c365-4af4-8589-fe8adedb65b0",
+            "name": ""
+          },
+          {
+            "id": "d2458962-e1e6-4f61-8994-2fd63e2a7803",
+            "name": ""
+          },
+          {
+            "id": "7f7dcf4f-a6d4-49d1-bdac-a7c164fcff1b",
+            "name": ""
+          },
+          {
+            "id": "0025c490-0cc9-4bf9-b770-d6e808d64a68",
+            "name": ""
+          },
+          {
+            "id": "8552b223-6a17-4af7-a5cd-f0909cf299c5",
+            "name": ""
+          },
+          {
+            "id": "cecb89a6-fde2-4b47-a9b7-52499857ba80",
+            "name": ""
+          },
+          {
+            "id": "ffc5dbcf-ecd6-4c61-bd91-be9181fe8d96",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0570273e-04c8-443b-b549-c7fa45966ebe",
+        "name": "steel_dark",
+        "objects": [
+          {
+            "id": "4d4fb33c-422b-4db6-8f2b-4c9136486d3b",
+            "name": ""
+          },
+          {
+            "id": "a5aeb2d9-6496-489b-874d-fe8efd5092e2",
+            "name": ""
+          },
+          {
+            "id": "b1d109dd-3419-4424-b1b2-b0f68afed95d",
+            "name": ""
+          },
+          {
+            "id": "2e53571e-f1a4-4f9b-bb59-d3e61933be04",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7b93b4bb-1e9d-49a5-9d91-06a893236f92",
+        "name": "aluminium",
+        "objects": [
+          {
+            "id": "b3946288-89b5-409d-91eb-627a2791a511",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7b63c981-7751-494a-93ad-8c06625954f0",
+        "name": "brass",
+        "objects": [
+          {
+            "id": "bf82bd99-907c-4382-81f3-8488a1d04fcf",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "a47031e6-d97c-462c-961c-009acff906bc",
+        "name": "paint_red",
+        "objects": [
+          {
+            "id": "aa2ff95c-e35f-4a89-9413-9663a68282ef",
+            "name": ""
+          },
+          {
+            "id": "cbf2e8ce-b29f-4643-9dbb-e712a1b7f2f8",
+            "name": ""
+          },
+          {
+            "id": "1cadad5d-d326-4d17-8f8d-a26ab140c1b0",
+            "name": ""
+          },
+          {
+            "id": "0904ccc7-4e1a-4703-bd97-9b441abfaa29",
+            "name": ""
+          },
+          {
+            "id": "eda544c7-a74a-4f9c-bf9d-971cceaa372c",
+            "name": ""
+          },
+          {
+            "id": "a6d26b13-2bc4-4c45-9f7e-3f4d4206fbed",
+            "name": ""
+          },
+          {
+            "id": "e7e8ce24-4bd3-4230-9359-6577760f32a1",
+            "name": ""
+          },
+          {
+            "id": "563a97d5-9388-4859-a07a-9f2f15f0f2eb",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "78a14a40-8f39-4b10-be4c-9994502b6b45",
+        "name": "rubber",
+        "objects": [
+          {
+            "id": "3d64b5d9-7fff-4c5e-9cf6-48249a5a3d86",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "5f5068ba-d984-41d3-8ebe-33499c97e099",
+        "name": "paint_blue",
+        "objects": [
+          {
+            "id": "f186c877-bc1b-4f56-90ea-bf57623a2fe3",
+            "name": ""
+          },
+          {
+            "id": "2bcb8b96-6047-479f-85d4-23b3c8f3e7e0",
+            "name": ""
+          },
+          {
+            "id": "ae41ca35-809c-4f56-956e-327c9b001fe5",
+            "name": ""
+          },
+          {
+            "id": "25161b07-0af6-4fda-b1cf-5f027f9d642d",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "d8da69af-7e59-4bf1-9ad2-93b45764b182",
+        "name": "wood_pallet",
+        "objects": [
+          {
+            "id": "48cd573c-25a0-47ed-b258-b4d56b5a2aff",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4ed6421c-716d-440e-9968-7da9cc1c1ed3",
+        "name": "paint_teal",
+        "objects": [
+          {
+            "id": "8eda9598-3e07-496b-ab95-4e9bdac9bad0",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "12835f2a-5145-4094-b42d-40f14c569b11",
+        "name": "paint_yellow",
+        "objects": [
+          {
+            "id": "cb8b9a26-890c-4541-a922-e838f12a5634",
+            "name": ""
+          },
+          {
+            "id": "c35ba148-c389-48d8-a48c-595ed92d8a47",
+            "name": ""
+          },
+          {
+            "id": "d0634400-6982-45bb-96b7-8e53b4f1f96a",
+            "name": ""
+          },
+          {
+            "id": "205ffd45-af48-48dc-81e4-5f258af1f431",
+            "name": ""
+          },
+          {
+            "id": "0d5bbcf6-f887-40d8-ae7f-fe4cff49a771",
+            "name": ""
+          },
+          {
+            "id": "fa582e43-b44b-4474-b37a-ebb9cb70fb1e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9277982e-7814-4ac3-99c2-914a31df1dc4",
+        "name": "diamond_plate",
+        "objects": [
+          {
+            "id": "8c992919-4620-4efa-b8be-9c2f67e7b2d8",
+            "name": ""
+          },
+          {
+            "id": "1c5609fc-0fc2-420a-a870-8e1be9858209",
+            "name": ""
+          },
+          {
+            "id": "c7786f54-f3f0-429e-935e-ada5000b1379",
+            "name": ""
+          },
+          {
+            "id": "e3168de7-a3d3-4d35-ad39-8dbef3fd1c37",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "374e6eb8-4e3b-493a-9a42-09961e73f9c3",
+        "name": "glove_fabric",
+        "objects": [
+          {
+            "id": "570e8369-d8df-4043-b28e-682516166bf4",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "04af3dc7-493b-4bfc-843a-c49924fe4b28",
+        "name": "wood_dark",
+        "objects": [
+          {
+            "id": "b13bf5ab-40ad-48ee-962e-615be43edb03",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "b752ca85-a034-4d23-80d4-154ab80c567a",
+        "name": "concrete",
+        "objects": [
+          {
+            "id": "5dfeee22-f3fa-40b6-9f7f-1202fd0686e5",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0c6f2e15-3f20-477e-8827-5be24110b784",
+        "name": "steel_rust",
+        "objects": [
+          {
+            "id": "6545a67c-fe19-4cda-8cf2-b1aeae6162d7",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1ab89bf2-3cc2-41a1-997e-dca0c3e0fd22",
+        "name": "steel_worn",
+        "objects": [
+          {
+            "id": "17b5adc3-87f9-4389-8d98-99496166387c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f7e9d785-d532-4cfa-901e-e38023257118",
+        "name": "plastic_grey",
+        "objects": [
+          {
+            "id": "d66e434e-a52a-4ee0-8a7a-3127ee72502a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "8eeae0ab-2b4b-43a2-912a-f62e8a209816",
+        "name": "plastic_red",
+        "objects": [
+          {
+            "id": "3f02d4c1-8087-4519-a85c-b5f7d0885c1e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "27cba117-c165-479a-a285-cc16a5f6e35c",
+        "name": "polymer_black",
+        "objects": [
+          {
+            "id": "d8a4a108-61ef-4ae4-88da-f8d1993cab4f",
+            "name": ""
+          },
+          {
+            "id": "0d57b5be-c1b2-4a8e-b2f3-dc5881a1ce38",
+            "name": ""
+          },
+          {
+            "id": "27a64925-f475-4943-91e9-d3929396cb39",
+            "name": ""
+          },
+          {
+            "id": "bde6c54a-a65e-480d-a8c0-10a17fa6c776",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0947a24f-3dcc-4e1e-87ce-104c74995a4e",
+        "name": "tire",
+        "objects": [
+          {
+            "id": "81d51f74-8d08-4b4b-bfc2-4a96d09f40b2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "17e74971-3efa-483c-8a73-a457646e5e39",
+        "name": "hazard_stripes",
+        "objects": [
+          {
+            "id": "2272acaa-3469-42aa-85e4-21f2cf13edb0",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0c469ac2-bbef-448d-8ece-07c2b5480613",
+        "name": "steel_bare",
+        "objects": [
+          {
+            "id": "62a5c147-aec0-40b9-9c4e-871c6d89b4ca",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "38150b7a-4d9c-44fe-bb15-ebe6042c9503",
+        "name": "tarp",
+        "objects": [
+          {
+            "id": "c9c06de1-4b6d-4640-a1ec-3b067314592b",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7c261312-f5f5-4c8a-946a-1bbab3f0df2a",
+        "name": "rope",
+        "objects": [
+          {
+            "id": "2d7b092b-b8fa-4475-9957-4ee47f8426e9",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4498165d-7c11-4988-b85d-1518ade4d5d0",
+        "name": "plastic_red",
+        "objects": [
+          {
+            "id": "e02d68de-988e-407a-91a2-02af7fd74f82",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "d0a90dba-b4d5-4022-b520-ea425d17e4c3",
+        "name": "plastic_grey",
+        "objects": [
+          {
+            "id": "1aff3034-7ecf-4762-8300-5c9d021e10fa",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4c87babc-42d8-4e72-b271-4a6a4ebd6b1a",
+        "name": "cardboard",
+        "objects": [
+          {
+            "id": "743b1cf9-70f7-493a-89dd-f6f9b7ae8b07",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "bffcedd0-b6dc-41f9-bdad-e208908e4fc3",
+        "name": "polymer_tan",
+        "objects": [
+          {
+            "id": "b97350bd-5c9f-433b-b97f-1c5a9061ae8c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "73c4f3d7-25f7-46b6-ad1e-52a595a1b391",
+        "name": "chainlink",
+        "objects": [
+          {
+            "id": "f79a3948-c5fc-49a4-bc62-b3d88804d891",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "2b09df04-7be6-4bf8-8b87-496d488a5f35",
+        "name": "plastic_grey",
+        "objects": [
+          {
+            "id": "ca736137-520d-4678-9b60-972c3e437c73",
+            "name": ""
+          },
+          {
+            "id": "b13407d4-9279-4bd9-8509-9f5f37e766bc",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "26942a29-17af-48a5-89a7-02a20d9c35b0",
+        "name": "plastic_blue",
+        "objects": [
+          {
+            "id": "5700222c-383c-432a-aad3-bf2aeaf8295c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "ae58458d-15b1-4221-99a3-99fd37569658",
+        "name": "chainlink",
+        "objects": [
+          {
+            "id": "d6772eb8-3dde-4828-8ca4-71457224ccfe",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "116ccfcb-a503-47d6-b51f-df1327099309",
+        "name": "glass",
+        "objects": [
+          {
+            "id": "bd52bf5a-4ffc-4c81-b06c-b2c701dc2f0e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1e72b4ef-b64d-47c0-9a9a-65c1d3da2ca4",
+        "name": "floor_epoxy",
+        "objects": [
+          {
+            "id": "acc28d44-5a25-401f-9070-0a84ee0e79b0",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "95f2e749-c1b5-4587-bcb8-57041f4a199c",
+        "name": "floor_epoxy",
+        "objects": [
+          {
+            "id": "0eec8a83-d9a4-443e-869f-5bb2e3130882",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "037eb5ce-a565-42b2-a2f6-87e1e9778fe2",
+        "name": "concrete_painted",
+        "objects": [
+          {
+            "id": "ca9d056e-c86d-4d76-8e5b-37ef3cefea74",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "955973b9-ddde-47a0-8874-a3e25b6192d0",
+        "name": "corrugated_roof",
+        "objects": [
+          {
+            "id": "e0da08b6-53b0-4347-a86c-98221fa9b1f6",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "b7e177e2-f9a5-4dc3-b221-3bfd13343d32",
+        "name": "corrugated_roof",
+        "objects": [
+          {
+            "id": "d9fa505f-e6e0-411b-a117-6e97dea78b4a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "42a545d9-b10e-457e-8244-5e032dc53f2c",
+        "name": "paint_grey",
+        "objects": [
+          {
+            "id": "cc201d36-66dc-428d-87d6-44d534fd2c0a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c2c7dff1-86f9-456d-9df6-d19e639bdbe3",
+        "name": "steel_galv",
+        "objects": [
+          {
+            "id": "a5217759-cb4e-4c3f-bf78-33931d134bb9",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "005d0fea-4389-4e1f-a93a-d8b502c201f9",
+        "name": "steel_dark",
+        "objects": [
+          {
+            "id": "f68dd4e9-e91a-41e4-967a-7ff6d9470ac8",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "2602ffab-b8bc-45b1-8a99-a3f75bbd5dda",
+        "name": "aluminium",
+        "objects": [
+          {
+            "id": "eac43601-3d20-43b7-bfde-6c31453b83d8",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f57bf196-10bc-4266-974b-0ed4f5f5a265",
+        "name": "diamond_plate",
+        "objects": [
+          {
+            "id": "9bb1bc08-7cb8-401e-9478-ffcb64a9086f",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "8a792997-656a-45da-b325-5589f2a99f79",
+        "name": "armor_white",
+        "objects": [
+          {
+            "id": "ce904792-898c-4649-af83-6e0e69066281",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "cfb86e42-d110-46e6-a183-bd0b1aee07cc",
+        "name": "plastic_grey",
+        "objects": [
+          {
+            "id": "36dd8020-2d11-4729-946b-aea4a8d04512",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0abec71f-efe0-4a35-8c67-76113a5b4152",
+        "name": "glass",
+        "objects": [
+          {
+            "id": "f98dde64-2dd5-4092-ad30-a81ca1da44c3",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "76d91067-4f7d-4873-afff-9448518adb7d",
+        "name": "rubber",
+        "objects": [
+          {
+            "id": "c8526bdc-059b-44a0-a6d6-4a1fcfa579fb",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "20c19ca8-cc49-4e00-b991-1fc7c15822d1",
+        "name": "paint_teal",
+        "objects": [
+          {
+            "id": "3a2d802c-4fc8-4316-869d-c98c57c755ae",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "2d5efbe3-410f-4400-9af3-57153c5e9f6d",
+        "name": "paint_red",
+        "objects": [
+          {
+            "id": "7813ec29-b218-4350-9b1d-4aeba9d0b243",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "44148581-772a-43bd-b9d0-751544e3089b",
+        "name": "wood_pallet",
+        "objects": [
+          {
+            "id": "b245bd2a-93c9-4e10-a8bd-c9b011812c5a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0360374d-d376-4cf8-8e80-2caa1fea414b",
+        "name": "wood_dark",
+        "objects": [
+          {
+            "id": "851bc92f-ee1b-4396-a9df-6ea6f1f67264",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "fbd375ea-7499-4864-b4fc-677852f9d689",
+        "name": "paint_yellow",
+        "objects": [
+          {
+            "id": "5e012cbc-2bbe-43d7-91c9-124bd779b81d",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e0f13ae5-d76f-4097-812f-82bfe5622839",
+        "name": "cardboard",
+        "objects": [
+          {
+            "id": "367759c9-fecb-4339-9dc8-e3c9b8fe9d85",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "262a95fa-de4e-4234-b088-1f4ee3b4cd45",
+        "name": "paint_green",
+        "objects": [
+          {
+            "id": "9b21f290-8672-4752-bf2a-4f7747232ce8",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7a9e2b06-ce01-48b5-b0b0-88ed41f8cb90",
+        "name": "steel_worn",
+        "objects": [
+          {
+            "id": "32422ab4-2bbc-45d5-a4fb-3d3c664d964f",
+            "name": ""
+          },
+          {
+            "id": "74ddf5f5-28c5-4a30-a38a-abffe5afa53b",
+            "name": ""
+          },
+          {
+            "id": "e9580f1a-d1bf-4a62-899b-b2cd646ca981",
+            "name": ""
+          },
+          {
+            "id": "9f6b81bd-bbe8-4a13-ae5d-ab0637314451",
+            "name": ""
+          },
+          {
+            "id": "45c6fa8a-052c-4edf-8690-ac71e1296495",
+            "name": ""
+          },
+          {
+            "id": "e5df862a-d0a6-402d-b879-6cf866fbc071",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "908c99d5-2d4b-44f1-9b38-fde25f930164",
+        "name": "steel_bare",
+        "objects": [
+          {
+            "id": "863a6588-d5df-4dbe-b165-2873a2c5229f",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9f400533-5264-4e04-87db-648120065b4e",
+        "name": "glass_dirty",
+        "objects": [
+          {
+            "id": "8ded3af6-1d9b-4a1d-a47c-d1dfd4e7c332",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "147dbc79-7477-4b22-8939-a55376973ee7",
+        "name": "glove_fabric",
+        "objects": [
+          {
+            "id": "09d778df-53d0-428b-b20b-402f873792bd",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1099c834-2cdd-4609-abd1-5c5c475c75b9",
+        "name": "concrete_dirty",
+        "objects": [
+          {
+            "id": "5ffcebc0-72a3-48e0-a138-12700fe08335",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "3e950d96-32ef-4063-a666-6ee6445ee59b",
+        "name": "steel_dark",
+        "objects": [
+          {
+            "id": "1a7fccb2-49b7-49e5-a0c1-b9a14325b554",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "a37e2adc-25b5-43bd-b30f-ce03c1ca2b9b",
+        "name": "steel_dark",
+        "objects": [
+          {
+            "id": "fbe2c102-0dbe-4ee2-9019-865da458feb3",
+            "name": ""
+          },
+          {
+            "id": "c3658834-1fa6-4a26-8609-30d4ce3a68bd",
+            "name": ""
+          },
+          {
+            "id": "52882b87-66ec-46eb-8112-288b061fbf6d",
+            "name": ""
+          },
+          {
+            "id": "a53d0a57-cea5-40d4-b627-ac522eb66a67",
+            "name": ""
+          },
+          {
+            "id": "cfae5cad-a0f9-4576-9084-5731c2820a8b",
+            "name": ""
+          },
+          {
+            "id": "745d2c42-11c8-4423-a5df-27ac88533290",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "52eedf7f-96c4-4411-be40-38bb4f1d80d5",
+        "name": "steel_galv",
+        "objects": [
+          {
+            "id": "8460317e-6dd0-466a-a0a1-40c467a55c92",
+            "name": ""
+          },
+          {
+            "id": "ee3b68ac-6e51-4250-9c30-31cda30a3a6c",
+            "name": ""
+          },
+          {
+            "id": "7c88e8a1-d8df-49b7-ad36-4456d7237d8b",
+            "name": ""
+          },
+          {
+            "id": "ca0065a5-13cd-4cc4-b352-b240e854e3f6",
+            "name": ""
+          },
+          {
+            "id": "35aa56ec-0aa0-4589-a588-612fc5f59ca0",
+            "name": ""
+          },
+          {
+            "id": "6b058a30-12ff-454a-a2b7-84bb9681bce6",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0a9d4117-3ba6-4e10-b801-2a6e095f2780",
+        "name": "aluminium",
+        "objects": [
+          {
+            "id": "e6260eb7-6f3c-4d02-8624-0cdfb46ba624",
+            "name": ""
+          },
+          {
+            "id": "518213a0-4434-4386-afa6-76af46bb51a5",
+            "name": ""
+          },
+          {
+            "id": "b7d4318d-c003-431d-9ad7-f0eb52e686ee",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "631b974e-cda9-4db0-aa0d-112c44015084",
+        "name": "polymer_black",
+        "objects": [
+          {
+            "id": "0de96a78-2467-4bbe-ad5b-71bad1d8d662",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "fcf8d0ca-084b-4ce5-9cdd-a790f2c1ba23",
+        "name": "glass",
+        "objects": [
+          {
+            "id": "d53cf1de-0b6a-42b6-9744-0efbcce72a48",
+            "name": ""
+          },
+          {
+            "id": "30e2ccb0-80cc-4478-9f86-81c028565f88",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "298f0c69-4aa3-4d47-8cbe-1ada249bad74",
+        "name": "rope",
+        "objects": [
+          {
+            "id": "601b745c-04f8-4887-ad07-217b55c036f6",
+            "name": ""
+          },
+          {
+            "id": "9714c000-c5b4-466c-a3e6-732ae5b0d357",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "67f5f932-08f7-4ab1-b0e2-8133e3622706",
+        "name": "hazard_stripes",
+        "objects": [
+          {
+            "id": "d414b4b2-fc7e-4917-90cd-3a1fd3a26886",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "348b96db-9a5d-44d3-8080-5615033f922f",
+        "name": "hull_red",
+        "objects": [
+          {
+            "id": "97d4bb61-1463-46db-a50f-8bb576f4cf5e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4f77b624-3904-44f9-95ae-6b1c91be16c1",
+        "name": "hull_paint",
+        "objects": [
+          {
+            "id": "712fc79d-9607-43a7-a8e6-5041eae3104d",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1750a0af-75cd-4a3a-be95-0c07a8474b01",
+        "name": "rubber",
+        "objects": [
+          {
+            "id": "48c17db0-c07f-440a-bc10-18bdb727c7d2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "052f67ea-1afd-42f0-965a-cc83b651e524",
+        "name": "brass",
+        "objects": [
+          {
+            "id": "81c63c39-45e9-40a8-b686-3e3017da6566",
+            "name": "fx_shells"
+          }
+        ]
+      },
+      {
+        "id": "707fda2b-b6ca-4dbe-abb2-8c5c986ae688",
+        "name": "armor_white",
+        "objects": [
+          {
+            "id": "f2b0d73f-56c5-4da9-a8fd-b6ee3f5c3f92",
+            "name": ""
+          },
+          {
+            "id": "73609fcd-636d-4fad-8a38-869920bc073e",
+            "name": ""
+          },
+          {
+            "id": "f639d771-2644-4670-8669-0803d7d9e57e",
+            "name": ""
+          },
+          {
+            "id": "f622bc11-1002-457d-9755-00effdd94d69",
+            "name": ""
+          },
+          {
+            "id": "7957668b-e168-4ec6-bcf4-f8efa4eb3e98",
+            "name": ""
+          },
+          {
+            "id": "94166492-75ca-4480-81b1-0da095384264",
+            "name": ""
+          },
+          {
+            "id": "244f3062-dd8c-4948-a02d-22398978737f",
+            "name": ""
+          },
+          {
+            "id": "6762a163-17dd-482e-a9b7-12ffa63bc344",
+            "name": ""
+          },
+          {
+            "id": "584bedc4-40da-4d92-ba9e-b2f9bed62847",
+            "name": ""
+          },
+          {
+            "id": "e8a84925-68ce-445f-97f5-1fc709ed8da4",
+            "name": ""
+          },
+          {
+            "id": "c4f47a04-27f7-42c0-bdfe-acdebc10a189",
+            "name": ""
+          },
+          {
+            "id": "4b4d2061-34f4-4eef-88c9-ff23c1fc5552",
+            "name": ""
+          },
+          {
+            "id": "462bfff8-1029-4142-abba-70aedebc10d2",
+            "name": ""
+          },
+          {
+            "id": "a2742f18-c15e-4d71-b37b-87a51a6c8117",
+            "name": ""
+          },
+          {
+            "id": "417038a3-f9a7-4045-b755-da02871094bf",
+            "name": ""
+          },
+          {
+            "id": "2f8b08c5-30f5-4ab5-8729-76c8c434abeb",
+            "name": ""
+          },
+          {
+            "id": "3e04e8ad-1a00-43a9-a1ec-151b4b0ba06e",
+            "name": ""
+          },
+          {
+            "id": "2cd78c12-9cf1-4ca4-99b8-60c895913c53",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7f7d225b-a414-4b4a-8d9e-82af81543912",
+        "name": "gunmetal",
+        "objects": [
+          {
+            "id": "f2b0d73f-56c5-4da9-a8fd-b6ee3f5c3f92",
+            "name": ""
+          },
+          {
+            "id": "73609fcd-636d-4fad-8a38-869920bc073e",
+            "name": ""
+          },
+          {
+            "id": "f639d771-2644-4670-8669-0803d7d9e57e",
+            "name": ""
+          },
+          {
+            "id": "f622bc11-1002-457d-9755-00effdd94d69",
+            "name": ""
+          },
+          {
+            "id": "7957668b-e168-4ec6-bcf4-f8efa4eb3e98",
+            "name": ""
+          },
+          {
+            "id": "94166492-75ca-4480-81b1-0da095384264",
+            "name": ""
+          },
+          {
+            "id": "244f3062-dd8c-4948-a02d-22398978737f",
+            "name": ""
+          },
+          {
+            "id": "6762a163-17dd-482e-a9b7-12ffa63bc344",
+            "name": ""
+          },
+          {
+            "id": "584bedc4-40da-4d92-ba9e-b2f9bed62847",
+            "name": ""
+          },
+          {
+            "id": "e8a84925-68ce-445f-97f5-1fc709ed8da4",
+            "name": ""
+          },
+          {
+            "id": "c4f47a04-27f7-42c0-bdfe-acdebc10a189",
+            "name": ""
+          },
+          {
+            "id": "4b4d2061-34f4-4eef-88c9-ff23c1fc5552",
+            "name": ""
+          },
+          {
+            "id": "462bfff8-1029-4142-abba-70aedebc10d2",
+            "name": ""
+          },
+          {
+            "id": "a2742f18-c15e-4d71-b37b-87a51a6c8117",
+            "name": ""
+          },
+          {
+            "id": "417038a3-f9a7-4045-b755-da02871094bf",
+            "name": ""
+          },
+          {
+            "id": "2f8b08c5-30f5-4ab5-8729-76c8c434abeb",
+            "name": ""
+          },
+          {
+            "id": "3e04e8ad-1a00-43a9-a1ec-151b4b0ba06e",
+            "name": ""
+          },
+          {
+            "id": "2cd78c12-9cf1-4ca4-99b8-60c895913c53",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "markings": [
+      {
+        "id": "1f35ff0a-2a7c-4d04-a2ef-c088ea8b8a8d",
+        "name": "weapon_markings",
+        "objects": [
+          {
+            "id": "6ca41558-8785-49c4-8763-bcace44ff4c4",
+            "name": ""
+          },
+          {
+            "id": "de6f4a8d-c0a7-4dee-9b6f-3c4e4545d03e",
+            "name": ""
+          },
+          {
+            "id": "526c8f88-14fa-4a26-a5b9-8245f1579911",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "standard_unmodified": [
+      {
+        "id": "94a4cd10-9307-4780-9e78-0f26f1d82bcf",
+        "name": "pac4_tritium",
+        "objects": [
+          {
+            "id": "2cb17305-72dd-407a-bd4b-7b0b3f2e69ea",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1b148cb5-cf27-4e1f-bb4b-555b80c09014",
+        "name": "decal_logo_a",
+        "objects": [
+          {
+            "id": "2484d30b-c6cf-4811-8033-16d8cae53633",
+            "name": ""
+          },
+          {
+            "id": "27fc8315-eeb0-4637-9ef7-f50d7841fa3e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "cefe8a2b-29ba-476a-8ba7-51d8c4434c59",
+        "name": "decal_csc_plate",
+        "objects": [
+          {
+            "id": "663494fc-11cd-47e1-9c98-6ef0e7c5ed83",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "8cae0eca-e3ce-434a-bb7d-c5c8a6059eec",
+        "name": "label_atlas",
+        "objects": [
+          {
+            "id": "1bb637be-8515-41fd-8032-f530d20f9df2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "18ba6a43-4a1e-49db-a6e5-e9a3b58f48eb",
+        "name": "decal_rust_run",
+        "objects": [
+          {
+            "id": "9e2a37d5-66c0-4cef-833d-0e6aa03367ae",
+            "name": ""
+          },
+          {
+            "id": "62074bdc-e0dd-403c-a3de-bf3165cfbf24",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "81ed6990-c139-4266-aeb0-109893bad590",
+        "name": "decal_grime_streak",
+        "objects": [
+          {
+            "id": "aab80b89-a35d-4bc0-8097-17e5fe66edf5",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1f5ae384-16b1-4b5e-9553-9ec92a7b01ff",
+        "name": "decal_logo_c",
+        "objects": [
+          {
+            "id": "b6e7d295-e920-40db-a165-97711687543b",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "ca9ac44e-4037-4857-9a0c-135235ea371b",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "a1ee8470-1529-4488-a017-3df7e70781f9",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4d463d2f-5a34-4c67-a936-c1613d7b5148",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "510f0d24-ab19-4d6a-972f-6daddf292759",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "eb29ba07-37ef-41c2-a3b9-cbc0598470e1",
+        "name": "decal_hazard_voltage",
+        "objects": [
+          {
+            "id": "8159d561-7a38-46f9-9eed-dcd46d1b1bd5",
+            "name": ""
+          },
+          {
+            "id": "cd6eb793-6f58-4ce6-bcaa-18fbe523a1de",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "d0991eaf-7984-4bb0-b13a-31fa44224508",
+        "name": "decal_logo_b",
+        "objects": [
+          {
+            "id": "1084510e-631a-422e-96a4-0028e4f1f017",
+            "name": ""
+          },
+          {
+            "id": "2eb31ad7-9cb1-45c6-98f6-89d7a9b37ae2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "351e0260-da2a-47bb-8549-efc82f28588f",
+        "name": "decal_logo_d",
+        "objects": [
+          {
+            "id": "2833e2ea-bb39-439e-8c81-0d29c679036c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "3cb2825a-d45d-4083-adf6-3113abf1bd89",
+        "name": "decal_arrow",
+        "objects": [
+          {
+            "id": "1cd4fca8-4cf1-4b6b-a217-7974adaa3f41",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "ce2236c3-77e5-4014-bb74-a3a9b22f2b51",
+        "name": "decal_caution_stripes",
+        "objects": [
+          {
+            "id": "355024ae-5e43-4748-94c6-9eb5628d693c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "63596d33-3b58-4316-9fa3-e81d0ba367a5",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "104937c8-6dca-4c9d-b329-da22fa044e4e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e0fdc24c-e4e7-453c-acf6-937fcec44051",
+        "name": "decal_hazard_flammable",
+        "objects": [
+          {
+            "id": "32ca311f-fb85-4ce9-a4c3-bae058140ff8",
+            "name": ""
+          },
+          {
+            "id": "0abf8aef-c710-41fa-8835-3e8407a6fc0d",
+            "name": ""
+          },
+          {
+            "id": "dd7fe77b-4eae-467b-bda5-cd08b2e67eb3",
+            "name": ""
+          },
+          {
+            "id": "0e665bab-d6fe-476c-bb09-a5ca5141f0f3",
+            "name": ""
+          },
+          {
+            "id": "736a0d76-234e-438a-ad1a-e4ceb2b2944d",
+            "name": ""
+          },
+          {
+            "id": "6df41c8f-3cd6-48ed-9927-ec27c61126db",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "26f5ee76-4ca7-4b48-95ae-dc9c3b15fa6b",
+        "name": "decal_hazard_general",
+        "objects": [
+          {
+            "id": "37bfef22-cf68-48c7-9207-a288d7e4a065",
+            "name": ""
+          },
+          {
+            "id": "758ace1c-5a1b-4ede-9261-c90450f05c7c",
+            "name": ""
+          },
+          {
+            "id": "e54adcf7-68b8-4439-86d3-82b64305e2b8",
+            "name": ""
+          },
+          {
+            "id": "885e58ee-9595-4a56-92d5-38337757a293",
+            "name": ""
+          },
+          {
+            "id": "cf7168d4-d105-4b07-8f24-935b50168cba",
+            "name": ""
+          },
+          {
+            "id": "0e22ae2c-c594-4db7-8e1d-96d23835107a",
+            "name": ""
+          },
+          {
+            "id": "33e8e714-e6b1-4d0c-a360-a7d5191c70bc",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "d19e90ab-daba-4e68-9864-bd23939b1127",
+        "name": "decal_numbers_0_9",
+        "objects": [
+          {
+            "id": "13ce4126-1dd4-44b4-9074-6eac8fc919eb",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "994995f2-9c91-45c9-b591-7ba483ef4f0a",
+        "name": "decal_leak_stain",
+        "objects": [
+          {
+            "id": "f0bb2d13-b3b8-4f43-878f-71477e534f3a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "8b58da04-d656-4c15-a35b-e0d1d8ca2339",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "fb818072-64c5-467a-b1e0-fb0c5d8701c6",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f2fcbc40-e46a-4839-a637-268fd85596c3",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "9e8d4ebd-4c1d-41af-a2a2-8cc1685ddbe7",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "88bb2807-687f-4f7b-8b95-8499a7c4055b",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "f4707ec6-9493-4f51-9105-3b03b3b1f3f7",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c74268bc-51ae-465a-a9ed-3682b7992bff",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "807ad53a-80ac-4da0-84b2-9c252a811f46",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "605c5933-3f3c-49a6-924c-b10345946a3d",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "607861ac-8c29-4913-8d7d-d1153ad91d50",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "98dceb24-4b8b-4027-a045-dd5652395bbd",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "cf620c9d-73c2-409a-83f8-3165ec69a388",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "6d522dc7-c6cd-4237-bfd3-b7a9d3055c52",
+        "name": "decal_scorch",
+        "objects": [
+          {
+            "id": "d8edb3f4-d96e-4eee-a9f8-6bef415d7e73",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "6c86fead-c23f-4500-b18f-451d815d19fd",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "34840969-21bf-4aa3-97d4-3f5c87d800f0",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "a0fec3c8-f860-440e-9ca0-0e14d0e765e1",
+        "name": "decal_berth4",
+        "objects": [
+          {
+            "id": "764c1a0e-af0c-474f-ad3b-de8608e724df",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "485c88b1-52fe-4956-915d-afcb89cec2ce",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "02c2ed95-13ca-48a1-915a-770deed2c685",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c8e6c859-7b0c-46dc-9224-4f26c41ce807",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "41b342b4-013b-43c7-bfab-478295a8e735",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "6828b6b5-1529-4095-89b8-9adbfd8205cb",
+        "name": "decal_no_entry",
+        "objects": [
+          {
+            "id": "cd4960f6-4609-4aa4-a8b9-7bd5d131efcc",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "eaf5180c-4280-4415-bc6a-c0304d47f4b7",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "c51d86b3-e5be-4b3c-b6e5-889b3c5146a3",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "66b70d49-155a-4f3b-aacd-9445735d7113",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "1b5a3399-96df-43fc-b04b-d052e412b9e1",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "645f78a3-9137-42ed-8dda-12f5d4ddf6c8",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "848f8042-a31e-4c6c-99fe-75e8f9dbc5a9",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "93952ed3-326e-4c56-892f-cc696d77552a",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "5222a1dc-ac55-427f-94e4-1778034ad331",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "2267629e-89ef-47a1-a044-f9a5a46fa66a",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "2ba796a7-2376-4d0f-9964-d5f1be3206b4",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "df7c7a2e-0aa6-4887-9588-5be80f57c46e",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "68c089f8-7881-4ce1-af2e-1bf076fea451",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "bb11b243-9bfe-4eec-83b4-3f041230f9c9",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "3faf905b-b7e9-4ec4-a323-07491334baa8",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "87b81730-086f-40bb-a59a-0810cf4b7a6f",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "b41490eb-3ec9-425f-b99c-b5d6c76e8c18",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "caf7b081-1d93-458a-a75f-552f83b35036",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "3ede1c38-96b3-4f74-976b-665dd621b9b4",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9af50c7d-e412-46e4-81f1-0ba5f36fbd55",
+        "name": "decal_oil_stain",
+        "objects": [
+          {
+            "id": "0a155ae1-b188-4aff-a515-a99c881ec802",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "b3336132-d593-4bcb-98ec-fcb27d2e6a24",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "8d7ba969-7848-43bb-83f9-73f88afaf001",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "00d0911f-4575-4c93-93d9-8f738217c684",
+        "name": "label",
+        "objects": [
+          {
+            "id": "eb6598be-48c5-4728-aad2-2a4ad114488d",
+            "name": ""
+          },
+          {
+            "id": "6367db80-c0b0-4526-b000-dd76804835b0",
+            "name": ""
+          },
+          {
+            "id": "9d2623d8-d068-4708-88ac-e5bf4eca354f",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "93100d46-a5d2-4680-8677-ebef1a2ce91c",
+        "name": "label",
+        "objects": [
+          {
+            "id": "4b31defb-7633-495d-86e7-27c74410ec2e",
+            "name": ""
+          },
+          {
+            "id": "30d8dfc1-93a8-4451-b2b9-f9b39e466df0",
+            "name": ""
+          },
+          {
+            "id": "32f779ac-bc4c-43c4-9c72-217fdb49f061",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4c0d7d36-f79a-4bc4-b0c4-59dfd08bef9e",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "49bce78c-9272-40b2-9d63-b84ccd7d5ff0",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "de851c22-3fd4-4284-bbb6-9571ed959c0c",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "40f9fd22-538e-4335-aab9-d6b64a0ddeba",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1b3bbb73-80c9-4e29-a821-38048d1d8c99",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "6226a7cd-288b-4130-9254-e0901788f9ed",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9679ee48-d1bd-4488-9d5d-540c49b87c5a",
+        "name": "label",
+        "objects": [
+          {
+            "id": "ec022ba7-a743-4943-bd02-893383936ec4",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "93dd57f1-62a2-41dd-9dfb-e9a5fd42527b",
+        "name": "label",
+        "objects": [
+          {
+            "id": "af20ce04-9eb0-4e06-b8e2-b3991e73a404",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "05c33286-f0e8-49d8-831b-35cf7eca645f",
+        "name": "",
+        "objects": [
+          {
+            "id": "5e3e35a2-2e38-4c23-8253-a890347f6a98",
+            "name": "quaySkirt"
+          }
+        ]
+      },
+      {
+        "id": "fe8eb87b-7667-49e7-bc1d-f7ddc8160ebb",
+        "name": "fx_decals",
+        "objects": [
+          {
+            "id": "c01e4f9c-bdc9-4834-8df3-fab81630aa23",
+            "name": "fx_decals"
+          }
+        ]
+      },
+      {
+        "id": "73c7548e-8cbf-45c1-8b48-20f32f8f990a",
+        "name": "fx_debris",
+        "objects": [
+          {
+            "id": "69675b0d-4151-490d-b71b-5d637641b9f6",
+            "name": "fx_debris"
+          }
+        ]
+      },
+      {
+        "id": "b884a678-aab4-47f6-b305-6dda68c75631",
+        "name": "label",
+        "objects": [
+          {
+            "id": "c569d974-087f-4a69-aa75-fe029635b015",
+            "name": ""
+          },
+          {
+            "id": "c10d1bef-297f-4393-b854-6a834df87242",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "47b2b25a-2c07-4d18-a691-c80990897d4e",
+        "name": "label",
+        "objects": [
+          {
+            "id": "26deffcb-05a8-4346-85f8-8b6a4ce3d723",
+            "name": ""
+          },
+          {
+            "id": "74288dcf-eae0-4416-ba02-fdff41902975",
+            "name": ""
+          },
+          {
+            "id": "77be55e2-a62e-43cf-aada-ef285cf0e2b5",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "86df77d3-1e32-4f0a-9be5-186fea02fb77",
+        "name": "label",
+        "objects": [
+          {
+            "id": "ef5e7ee8-9a82-4535-814f-1ac49c888e59",
+            "name": ""
+          },
+          {
+            "id": "5018c606-43bf-452e-80c3-87df9c4d404f",
+            "name": ""
+          },
+          {
+            "id": "eafbc155-fb95-4841-a660-07f486a54cad",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0b0267be-93a0-4b44-a5ae-0b6ca52e3af5",
+        "name": "label",
+        "objects": [
+          {
+            "id": "68a2c342-cf9e-489a-acc2-839d1883825a",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c09295ea-d448-43ec-b198-79a0bcce8406",
+        "name": "label",
+        "objects": [
+          {
+            "id": "d63f9de7-e2bf-44ef-bcb1-eefb15026f02",
+            "name": ""
+          },
+          {
+            "id": "e14e684d-357e-4e11-be98-677308e49186",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "ab2603f4-26a2-487b-9e84-61de2e8b528f",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "f2b0d73f-56c5-4da9-a8fd-b6ee3f5c3f92",
+            "name": ""
+          },
+          {
+            "id": "73609fcd-636d-4fad-8a38-869920bc073e",
+            "name": ""
+          },
+          {
+            "id": "f639d771-2644-4670-8669-0803d7d9e57e",
+            "name": ""
+          },
+          {
+            "id": "f622bc11-1002-457d-9755-00effdd94d69",
+            "name": ""
+          },
+          {
+            "id": "7957668b-e168-4ec6-bcf4-f8efa4eb3e98",
+            "name": ""
+          },
+          {
+            "id": "94166492-75ca-4480-81b1-0da095384264",
+            "name": ""
+          },
+          {
+            "id": "244f3062-dd8c-4948-a02d-22398978737f",
+            "name": ""
+          },
+          {
+            "id": "6762a163-17dd-482e-a9b7-12ffa63bc344",
+            "name": ""
+          },
+          {
+            "id": "584bedc4-40da-4d92-ba9e-b2f9bed62847",
+            "name": ""
+          },
+          {
+            "id": "e8a84925-68ce-445f-97f5-1fc709ed8da4",
+            "name": ""
+          },
+          {
+            "id": "c4f47a04-27f7-42c0-bdfe-acdebc10a189",
+            "name": ""
+          },
+          {
+            "id": "4b4d2061-34f4-4eef-88c9-ff23c1fc5552",
+            "name": ""
+          },
+          {
+            "id": "462bfff8-1029-4142-abba-70aedebc10d2",
+            "name": ""
+          },
+          {
+            "id": "a2742f18-c15e-4d71-b37b-87a51a6c8117",
+            "name": ""
+          },
+          {
+            "id": "417038a3-f9a7-4045-b755-da02871094bf",
+            "name": ""
+          },
+          {
+            "id": "2f8b08c5-30f5-4ab5-8729-76c8c434abeb",
+            "name": ""
+          },
+          {
+            "id": "3e04e8ad-1a00-43a9-a1ec-151b4b0ba06e",
+            "name": ""
+          },
+          {
+            "id": "2cd78c12-9cf1-4ca4-99b8-60c895913c53",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "840e3b88-fe54-4281-8f6f-12b4ab4c2cb3",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "f2b0d73f-56c5-4da9-a8fd-b6ee3f5c3f92",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "358c8777-27a6-4ba6-9fa1-8f65f3f84dfb",
+        "name": "label",
+        "objects": [
+          {
+            "id": "09af4e7a-4a88-4dec-9495-b7f7393b5ed5",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e626e819-d417-41ca-9266-444c9c56208f",
+        "name": "",
+        "objects": [
+          {
+            "id": "5a38c87d-a5bd-49cc-8f50-15a1f7188cbf",
+            "name": ""
+          },
+          {
+            "id": "b6887929-1595-45ed-a12e-b71f8a4f26e5",
+            "name": ""
+          },
+          {
+            "id": "d50f3d41-08f6-40f9-9728-75abeca3acba",
+            "name": ""
+          },
+          {
+            "id": "b8dd31d3-f929-48b6-8a95-ea08310d1157",
+            "name": ""
+          },
+          {
+            "id": "6ae0a234-7d03-4c4a-aa6f-685f402c8dd3",
+            "name": ""
+          },
+          {
+            "id": "1a61d8d9-e92a-474e-9fe8-e5e172ca2422",
+            "name": ""
+          },
+          {
+            "id": "d812d921-3ebb-4906-8b91-0a8883673df2",
+            "name": ""
+          },
+          {
+            "id": "26cc1309-628f-4229-8c7a-743132fb44b6",
+            "name": ""
+          },
+          {
+            "id": "d41b2120-56cc-449a-8032-dd54a805aa46",
+            "name": ""
+          },
+          {
+            "id": "ec4722f6-3525-4a62-bfce-ca7a6d353991",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "56087488-fe37-4906-ba26-6463903f295c",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "73609fcd-636d-4fad-8a38-869920bc073e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "23010188-46c6-4eb1-aca4-2fb4996eb926",
+        "name": "label",
+        "objects": [
+          {
+            "id": "08057062-39d0-4c27-ac67-e74f07d3328c",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "d8d8908e-3c42-4b9e-9e36-0edef9b86860",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "f639d771-2644-4670-8669-0803d7d9e57e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7f397c2b-2543-40eb-9b4b-a5ffa2428681",
+        "name": "label",
+        "objects": [
+          {
+            "id": "c489cd5e-4661-47ce-82c6-0251f965159d",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "2ae585af-7c53-4e15-bb56-b8cf17c9af78",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "f622bc11-1002-457d-9755-00effdd94d69",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7a3dd962-7512-4e3f-acbc-d09ea52b8b28",
+        "name": "label",
+        "objects": [
+          {
+            "id": "795c012f-87ee-4979-ad2b-631de8c9b567",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "1e8e2ce3-03d4-437f-abc9-9f8c294d0a0f",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "7957668b-e168-4ec6-bcf4-f8efa4eb3e98",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0ee99462-8a8a-48ba-bef8-acd04fda39dc",
+        "name": "label",
+        "objects": [
+          {
+            "id": "1c46c2ed-747c-4966-a0aa-b868ea3638cd",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e725fecc-be8c-4166-a1a1-899430e2c68d",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "94166492-75ca-4480-81b1-0da095384264",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "212d347d-a0b2-42c8-8697-a83c575c4c25",
+        "name": "label",
+        "objects": [
+          {
+            "id": "b61ca204-21af-499d-9817-52ff76cd8bd3",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0e362b81-0095-4df1-8f82-028abe3dd41b",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "244f3062-dd8c-4948-a02d-22398978737f",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "ee0ba6cc-e217-4cd0-a7c3-030ceaedbd49",
+        "name": "label",
+        "objects": [
+          {
+            "id": "bdc96ddc-554e-4a7e-87b1-a47e3e35bb29",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f1c32637-1a20-4ded-98ca-babdc04eaabd",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "6762a163-17dd-482e-a9b7-12ffa63bc344",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0aa33de0-6960-4f00-b151-c999a259ed4f",
+        "name": "label",
+        "objects": [
+          {
+            "id": "7406c45a-3d6e-46dc-9510-6b4f8ce17915",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "07163dcf-42c1-4992-9c18-73c7bb5b9092",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "584bedc4-40da-4d92-ba9e-b2f9bed62847",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "5f6900e4-e3a8-4009-a12e-a8757d1549de",
+        "name": "label",
+        "objects": [
+          {
+            "id": "9a45461c-60bd-4b50-90ad-49067ee91909",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "93cb7828-6577-4a5f-82c2-74ec83f62500",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "e8a84925-68ce-445f-97f5-1fc709ed8da4",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0bf79ba4-8288-4634-a59f-a309cc54871f",
+        "name": "label",
+        "objects": [
+          {
+            "id": "aed94643-58ba-433f-9832-67a5b687ec99",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7dbeaf5f-1bcf-44aa-a151-7e890d392665",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "c4f47a04-27f7-42c0-bdfe-acdebc10a189",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "0ae0233f-ebb8-48f8-956e-ccb677b09134",
+        "name": "label",
+        "objects": [
+          {
+            "id": "da8fb608-75a1-4f7a-99ea-099f3d2e5267",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c23989dd-006d-4d91-a8b9-98118a31b903",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "4b4d2061-34f4-4eef-88c9-ff23c1fc5552",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "25825404-0d94-4110-84ed-4ff7a43f44ef",
+        "name": "label",
+        "objects": [
+          {
+            "id": "86bca823-c48e-4e8e-a69d-2247c8916844",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "024fd3e0-ae50-4ab9-80cf-8f5b6e1ac3f9",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "462bfff8-1029-4142-abba-70aedebc10d2",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f1639d20-4b10-45aa-a230-258196d500b5",
+        "name": "label",
+        "objects": [
+          {
+            "id": "3d5a920a-a453-4022-aaa0-17375fc879cf",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "703ce4a1-c1ba-4f22-80cd-0bc9767846c6",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "a2742f18-c15e-4d71-b37b-87a51a6c8117",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "9abba104-06c9-450a-97fc-794e77c72ebf",
+        "name": "label",
+        "objects": [
+          {
+            "id": "a5ab801c-62a2-4608-bfaf-d438d2503a83",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e181108a-0a5b-4cad-97b1-48f20026c9de",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "417038a3-f9a7-4045-b755-da02871094bf",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "86d65f88-0cf9-48cb-8ae6-f7897cb26c43",
+        "name": "label",
+        "objects": [
+          {
+            "id": "e6f26348-6be7-43f3-98de-60164b8eb479",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "bdf50507-a774-4537-9a34-a1d210996f67",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "2f8b08c5-30f5-4ab5-8729-76c8c434abeb",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "7db1795c-512c-41cf-a254-2ab4a6abe91b",
+        "name": "label",
+        "objects": [
+          {
+            "id": "ada247cc-66ef-411e-b220-4dbe3d256a6f",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "e9f5a6b6-69ce-4ba5-bc36-57e67ea2a8f7",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "3e04e8ad-1a00-43a9-a1ec-151b4b0ba06e",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "f45761a1-c574-4e2b-aca5-ddbf987cf830",
+        "name": "label",
+        "objects": [
+          {
+            "id": "005c2e3b-3c4b-4df3-a34a-02b93e619728",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "c9ca2fae-9865-4d66-96be-a81e3a9021c5",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "2cd78c12-9cf1-4ca4-99b8-60c895913c53",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "4e4e36bc-b58f-4b85-843c-f8b017b1bf07",
+        "name": "label",
+        "objects": [
+          {
+            "id": "62cab94a-1d39-4b3b-88a0-0a41e1ba1279",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "id": "52a0e43d-43ac-4056-96f8-da4a025fd6d6",
+        "name": "emissive",
+        "objects": [
+          {
+            "id": "5461277e-4312-4221-b9c2-43af39030aec",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "blink": [
+      {
+        "id": "db871cda-c173-49c9-b20a-06fee33ee052",
+        "name": "",
+        "objects": [
+          {
+            "id": "b64bdc53-358a-4ced-9aee-497d21458c72",
+            "name": ""
+          },
+          {
+            "id": "daa737f2-f5ce-4104-9eb6-0d44845bf2bc",
+            "name": "backdrop-lamps"
+          }
+        ]
+      }
+    ],
+    "orbit_gulls": [
+      {
+        "id": "b1d2c132-8922-40ea-a1e1-254f6e855e22",
+        "name": "",
+        "objects": [
+          {
+            "id": "ad39e462-8683-4f55-820f-e849d85f05b9",
+            "name": "gulls"
+          }
+        ]
+      }
+    ],
+    "ground": [
+      {
+        "id": "252ce777-ae19-4385-8837-390017a079a4",
+        "name": "apron_wet",
+        "objects": [
+          {
+            "id": "62af5632-10fa-41db-93e4-0d6b899504a9",
+            "name": "apron"
+          }
+        ]
+      }
+    ],
+    "sea": [
+      {
+        "id": "0066994d-de85-4ef1-bc61-07a02c23657f",
+        "name": "sea",
+        "objects": [
+          {
+            "id": "b7bbc842-ab5d-46a7-af1b-8e491392b8b7",
+            "name": "sea"
+          }
+        ]
+      }
+    ]
+  },
+  "missing_vertex_patches": [],
+  "note": "All captured onBeforeCompile families now have source translations, including blink/aOrbit/aPar. Full original visual alignment is not implied. 48 polygonOffset materials still await hardware integration.",
+  "implemented_vertex_patches": [
+    "blink",
+    "orbit_gulls"
+  ]
+}

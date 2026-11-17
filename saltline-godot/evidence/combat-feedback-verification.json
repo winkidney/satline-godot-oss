@@ -1,0 +1,7 @@
+{
+  "comparisons": 10396,
+  "failures": [],
+  "frames": 600,
+  "maximum_error": 0.000000000000000444089209850063,
+  "scope": "Actual original HUD event callbacks and arc/feed update loops; four-slot damage replacement, angle/opacity quantization, max4 feeds, same-frame weak kill annotation, pause freeze, expiry/reset. Browser animation pixel/easing comparison separate."
+}

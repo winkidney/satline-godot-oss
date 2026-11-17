@@ -1,0 +1,20 @@
+{
+  "casters": {
+    "eligible": 4,
+    "mesh": 4,
+    "multimesh": 0,
+    "skin": 0,
+    "unsupported": [],
+    "visible": 4
+  },
+  "covered_pixels": 453,
+  "depth_mismatches": 0,
+  "failures": [],
+  "format": 8,
+  "maximum_depth_error": 0.0000000894069671630859,
+  "maximum_projection_error": 0.000000362560911071341,
+  "pixels": 4096,
+  "projection_points": 256,
+  "resolution": 64.0,
+  "scope": "Actual original Three shadowMap RGBA8 packed/decode vs native independent caster World3D depth+R32F export, original nonsquare fixedZM projection on64square. Tests defaultshadowSide inversion, front/back/double and asymmetricalphaTest map. CPU world-to-shadow256points separately. No source scene skin/instance/4096map or update cadence proof."
+}

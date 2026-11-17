@@ -1,0 +1,23 @@
+{
+  "binary": "engine/.build/godot-ed1daf0bf/bin/godot.linuxbsd.template_debug.x86_64",
+  "sha256": "0985bdcaac9a8c0a2fbecf55a4b0d63166a36d310172bc19cf9ac79b82d292a7",
+  "bytes": 80329832,
+  "version": "4.7.2.stable.saltline_oblique.custom_build",
+  "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "patch_sha256": "596ff66f5816a7c65ba237339c2ffcc5b4b8859f313b771b9f42ee35a8dc2dee",
+  "build_command": [
+    "scons",
+    "platform=linuxbsd",
+    "target=template_debug",
+    "arch=x86_64",
+    "wayland=no",
+    "use_static_cpp=no",
+    "debug_symbols=no",
+    "lto=none",
+    "disable_path_overrides=no",
+    "-j8"
+  ],
+  "initial_build_seconds": 302.81,
+  "path_override_rebuild_seconds": 33.45,
+  "note": "Engine hash self-report is unknown for tar source; immutable commit/archive/patch/file/binary hashes recorded separately. Not a completed whole-game acceptance."
+}

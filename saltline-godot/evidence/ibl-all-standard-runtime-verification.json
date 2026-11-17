@@ -1,0 +1,20 @@
+{
+  "all_standard": true,
+  "changed_hdr_samples": 47894,
+  "explicit_room_materials": 22,
+  "failures": [],
+  "materials": 138,
+  "maximum_rgb_difference": 5.2625732421875,
+  "original_objects": 254,
+  "scope": "Actual source scene all138 Standard/254nodes including ground sea arms,environment/viewtag/AO-presence and strict boundary audit,off/on rawHDR contribution;not full image parity or local-direct replacement.",
+  "service": {
+    "materials": 139,
+    "objects": 254,
+    "radiance_enabled": true,
+    "view_fill": 1.16038934363948,
+    "view_room": false,
+    "viewmodels": 21
+  },
+  "sum_rgb_difference": 7999.95270317793,
+  "viewmodels": 21
+}

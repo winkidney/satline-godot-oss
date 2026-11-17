@@ -1,0 +1,25 @@
+{
+  "differences": {
+    "near": 3.979039320256561e-13,
+    "far": 2.5579538487363607e-13,
+    "left": 2.1316282072803006e-14,
+    "right": 2.1316282072803006e-14,
+    "top": 4.263256414560601e-14,
+    "bottom": 2.842170943040401e-14,
+    "world": 1.4210854715202004e-13,
+    "projection": 1.3322676295501878e-15,
+    "shadow_matrix": 4.996003610813204e-16
+  },
+  "source_map_size": [
+    4096,
+    4096
+  ],
+  "native_map_size": [
+    4096,
+    4096
+  ],
+  "source_bias": -0.00012,
+  "source_normal_bias": 0.02,
+  "native_casters": 3,
+  "scope": "Actual original showcase shadow matrices/frustum vs native runtime selected source config. Native Camera3D rectangle mapping and depth pixels have separate tests; this is config identity only."
+}

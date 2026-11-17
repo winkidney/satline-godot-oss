@@ -1,0 +1,24 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "nodes": 729,
+  "geometries": 276,
+  "materials": 195,
+  "textures": 132,
+  "attribute_buffers": 954,
+  "attribute_bytes": 112488744,
+  "index_entries": 3237042,
+  "triangles": 1079014,
+  "base_rgba_bytes": 159864320,
+  "mip_bytes_each_row_contract": 211748784,
+  "modules": [
+    "level",
+    "backdrop",
+    "weapon",
+    "enemies",
+    "player",
+    "game",
+    "explosives"
+  ],
+  "failures": [],
+  "scope": "Current captured Main node/material metadata unchanged in preparation, all attribute lengths/references and complete triangle winding correspondence;132 decoded PNGs equal captured RGBA8 with declared row orientation; both prepared mip representations validate their recorded hashes. Source HTML identity is checked. Does not recapture original browser geometry, prove the historical RGBA8 readback recovers original HDR, cover separate catalogs or prove shader/runtime pixel parity."
+}

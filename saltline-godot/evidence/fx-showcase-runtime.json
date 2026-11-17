@@ -1,0 +1,15 @@
+{
+  "camera": [
+    0.300000011920929,
+    1.60000002384186,
+    7.19999980926514
+  ],
+  "current_camera": "/root/Saltline/@SubViewport@1369/source_0f9081ee",
+  "explosions": 1,
+  "failures": [],
+  "frames": 360,
+  "impacts": 47,
+  "scope": "Actual Main effects adapter on existing level, fixed60Hz, frozen AI; KP meshes, ground and collision isolated; native runtime screenshot, not source pixel parity.",
+  "shells": 28,
+  "tracers": 60
+}

@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "changed_pixels": 0,
+      "lit_pixels": 8712,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "mode": "omni"
+    },
+    {
+      "changed_pixels": 0,
+      "lit_pixels": 8036,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "mode": "spot"
+    },
+    {
+      "changed_pixels": 0,
+      "lit_pixels": 8329,
+      "maximum_error": 0.0,
+      "mean_error": 0.0,
+      "mode": "sun"
+    },
+    {
+      "changed_pixels": 434,
+      "lit_pixels": 7972,
+      "maximum_error": 0.796078443527222,
+      "mean_error": 0.00234901581217173,
+      "mode": "sun_shadow"
+    }
+  ],
+  "failures": [
+    "sun_shadow: oblique projection changes lighting"
+  ],
+  "normal_near_far": [
+    0.0799999982118607,
+    900.265991210938
+  ],
+  "oblique_near_far": [
+    10.147047996521,
+    -2.70120072364807
+  ],
+  "scope": "Native Forward+ XR reflected above-plane PBR world at depths0..40, compare same reflected pose normalGL vs sourceoblique projection. Separate omni,spot,sun,4split-shadow; all geometry above plane, no post. Difference threshold2/255. Diagnostic transport acceptance, not original lighting parity.",
+  "shadow_darkened_pixels": 434
+}

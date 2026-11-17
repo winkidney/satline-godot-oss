@@ -1,0 +1,77 @@
+{
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "literal_Vw_sha256": "2d7aacac0688824cb16e45e7b68cc3eeaf102325721ebd9459b8ce6e905f73dd",
+  "cases": [
+    {
+      "quality": "test",
+      "scale": 0.4,
+      "seed": 1278876144,
+      "drops": 3600,
+      "splashes": 360,
+      "calls": 16881,
+      "state": 471801493,
+      "thunder_timer": 36.56744647002779,
+      "files": {
+        "rain": "fixtures/rain-init-test-rain.bin",
+        "splash": "fixtures/rain-init-test-splash.bin"
+      }
+    },
+    {
+      "quality": "low",
+      "scale": 0.5,
+      "seed": 1278876144,
+      "drops": 4500,
+      "splashes": 450,
+      "calls": 20841,
+      "state": 3567625325,
+      "thunder_timer": 46.70368686481379,
+      "files": {
+        "rain": "fixtures/rain-init-low-rain.bin",
+        "splash": "fixtures/rain-init-low-splash.bin"
+      }
+    },
+    {
+      "quality": "medium",
+      "scale": 0.8,
+      "seed": 1278876144,
+      "drops": 7200,
+      "splashes": 720,
+      "calls": 32721,
+      "state": 4265162229,
+      "thunder_timer": 37.86250868276693,
+      "files": {
+        "rain": "fixtures/rain-init-medium-rain.bin",
+        "splash": "fixtures/rain-init-medium-splash.bin"
+      }
+    },
+    {
+      "quality": "high",
+      "scale": 1,
+      "seed": 1278876144,
+      "drops": 9000,
+      "splashes": 900,
+      "calls": 40641,
+      "state": 1866875301,
+      "thunder_timer": 31.229654591763392,
+      "files": {
+        "rain": "fixtures/rain-init-high-rain.bin",
+        "splash": "fixtures/rain-init-high-splash.bin"
+      }
+    },
+    {
+      "quality": "ultra",
+      "scale": 1,
+      "seed": 1278876144,
+      "drops": 9000,
+      "splashes": 900,
+      "calls": 40641,
+      "state": 1866875301,
+      "thunder_timer": 31.229654591763392,
+      "files": {
+        "rain": "fixtures/rain-init-ultra-rain.bin",
+        "splash": "fixtures/rain-init-ultra-splash.bin"
+      }
+    }
+  ],
+  "scope": "Original literal Vw and su, original Gw counts and initial timer. Constructor arrays, not whole-game cold-quality proof."
+}

@@ -1,0 +1,47 @@
+{
+  "files": {
+    "project.godot": "cf47eb9cbfb9433233e39ba8cfbc6a492b8bbca5fae2c514f2f246beb8d9d37d",
+    "scripts/objective_hud.gd": "359f8d333eaaaae846247e353cd336446402171b6bceb932707b5dfbdaaa8b83",
+    "scripts/navigation_hud.gd": "0d9b610bc5c41c3d410a66ed2d98de5b0f0eaaa5992d88b8b2771e08e5344595",
+    "scripts/status_hud.gd": "99113330833c1e55d435dcc35c150c649564a6da7379bf790c3db6550921fd0a",
+    "tools/responsive_hud_reference.cjs": "54b47651cf3c9e50846d878a6890ecc0ae1d2571da94b60adec0ca7bc141fb2e",
+    "tools/verify_responsive_hud.gd": "9fec5def89dd7977305f4961f61a9630255dfbc00223e05175cdd181ef2f35f8",
+    "assets/export/fixtures/responsive-hud-reference.json": "ca9f05faed2df76f2c022402339908407fc68f086648a9ac4d7a7883eb03a5f7"
+  },
+  "launches": {
+    "responsive": {
+      "exit_code": 0,
+      "sha256": "c1b757451cb3a1299941c4985aed564e6450e3760b8ac80224f248e5b4ca2a2f"
+    },
+    "objective_hud": {
+      "exit_code": 0,
+      "sha256": "f1814b82628be19b91580724f59988dc19ff70e28980b2e931ded4bdc3a891fe"
+    },
+    "objective_typing": {
+      "exit_code": 0,
+      "sha256": "e15e4988df00a7eacdaac9446706d12c5381866b4fbe6f78b7fff0101a284fb8"
+    },
+    "status_hud": {
+      "exit_code": 0,
+      "sha256": "fddec108fdc948f32aee8aa83946b8e526574783462b49e8b32814c68891011c"
+    },
+    "navigation_transition": {
+      "exit_code": 0,
+      "sha256": "766c60e68e741d5747d6f6f0ecc3bf4da3bbcebdf4aaedf1d350bc694b40b2ce"
+    }
+  },
+  "cases": 8,
+  "failures": [],
+  "regressions": {
+    "objective_reset_checks": 12,
+    "objective_typing_checks": 260,
+    "status_fields": 9600,
+    "navigation_transition_fields": 120
+  },
+  "captures": {
+    "main": "responsive-hud-main-360-touch.png"
+  },
+  "scope": "Production HUD draw methods, actual Main mission/weapon and production stretch configuration. Four widths desktop/touch vs original CSS objective top/font/wrap/relay row, heading visibility, ammo font and breakpoint movements. Final capture uses actual GameUI after removing observers. Not whole-image pixels or HiDPI.",
+  "first_capture_correction": "Observer Controls originally drew behind post CanvasLayer. Final fixture puts observers above UI, then removes them and captures actual GameUI. No production compositor change.",
+  "bundle_status": "Source fix after r12; runtime package not rebuilt"
+}

@@ -1,0 +1,25 @@
+<!doctype html><meta charset="utf-8"><title>Original Saltline compositor GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const ao=await(await fetch('../../artifact-rendering-study/source/shaders/35619-ao.glsl')).text(),sv=await(await fetch('../../artifact-rendering-study/source/shaders/35625-sv.glsl')).text();
+ const tk=(await(await fetch('../../artifact-rendering-study/source/shaders/35891-tk.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const renderer=new T.WebGLRenderer({antialias:false});renderer.setSize(16,16);document.body.append(renderer.domElement);const world=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));world.add(quad);
+
+ renderer.autoClear=false;const gl=renderer.getContext();const width=16,height=16,pixel=[8,8];
+ const depth=new T.DepthTexture(width,height,T.UnsignedIntType);depth.minFilter=depth.magFilter=T.NearestFilter;
+ const target=new T.WebGLRenderTarget(width,height,{type:T.HalfFloatType,depthBuffer:true,depthTexture:depth,samples:4,minFilter:T.LinearFilter,magFilter:T.LinearFilter});
+ const make=(d,color)=>new T.ShaderMaterial({uniforms:{uDepth:{value:d},uColor:{value:new T.Vector3(...color)}},vertexShader:'uniform float uDepth;void main(){gl_Position=vec4(position.xy,uDepth*2.0-1.0,1.0);}',fragmentShader:'uniform vec3 uColor;void main(){gl_FragColor=vec4(uColor,1.0);}',depthTest:true,depthWrite:true});
+ const worldScene=new T.Scene();worldScene.add(new T.Mesh(new T.PlaneGeometry(2,2),make(.8,[0,0,0])));
+ const weaponScene=new T.Scene(),geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.BufferAttribute(new Float32Array(18),3));const weaponMesh=new T.Mesh(geometry,make(.4,[1,0,0]));weaponMesh.frustumCulled=false;weaponMesh.material.side=T.DoubleSide;weaponScene.add(weaponMesh);
+ const copyScene=new T.Scene(),copyQuad=new T.Mesh(new T.PlaneGeometry(2,2));copyScene.add(copyQuad);const copyMaterial=new T.ShaderMaterial({uniforms:{tSrc:{value:null},uDepth:{value:0}},vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.0,1.0);}',fragmentShader:'varying vec2 vUv;uniform sampler2D tSrc;uniform float uDepth;void main(){vec4 c=texture2D(tSrc,vUv);gl_FragColor=uDepth>.5?vec4(c.r,0.0,0.0,1.0):c;}',depthTest:false,depthWrite:false});copyQuad.material=copyMaterial;const copyTarget=new T.WebGLRenderTarget(width,height,{type:T.FloatType,depthBuffer:false});const buffer=new Float32Array(4);
+ const read=(texture,isDepth)=>{copyMaterial.uniforms.tSrc.value=texture;copyMaterial.uniforms.uDepth.value=isDepth?1:0;renderer.setRenderTarget(copyTarget);renderer.render(copyScene,camera);renderer.readRenderTargetPixels(copyTarget,pixel[0],pixel[1],1,1,buffer);return buffer[0]};
+ const cases=[];
+ for(const axis of ['x','y','diag','anti','slope'])for(let step=0;step<=32;step++){
+  const fraction=-.1+step*1.2/32,edge=2*(pixel[axis==='y'?1:0]+fraction)/16-1,centerY=2*pixel[1]/16-1,slope=axis==='diag'?1:axis==='anti'?-1:axis==='slope'?.37:0;
+  let v;if(axis==='y')v=[-1,-1,0,1,-1,0,1,edge,0,-1,-1,0,1,edge,0,-1,edge,0];else{const bottom=edge+slope*(-1-centerY),top=edge+slope*(1-centerY);v=[-1,-1,0,bottom,-1,0,top,1,0,-1,-1,0,top,1,0,-1,1,0]}
+  geometry.attributes.position.array.set(v);geometry.attributes.position.needsUpdate=true;
+  renderer.setRenderTarget(target);gl.depthRange(0,1);renderer.setClearColor(0,1);renderer.clear(true,true,false);renderer.render(worldScene,camera);gl.depthRange(0,.05);renderer.render(weaponScene,camera);gl.depthRange(0,1);renderer.setRenderTarget(null);
+  const resolved=read(depth,true),coverage=read(target.texture,false);cases.push({axis,fraction,coverage,depth:resolved,meanPrediction:.8*(1-coverage)+.02*coverage,minPrediction:coverage>0?.02:.8,maxPrediction:coverage<1?.8:.02});
+ }
+ const debug=gl.getExtension('WEBGL_debug_renderer_info');return {three:T.REVISION,renderer:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),width,height,pixel,samples:target.samples,maxSamples:gl.getParameter(gl.MAX_SAMPLES),subpixelBits:gl.getParameter(gl.SUBPIXEL_BITS),multisampledRenderToTexture:renderer.extensions.has('WEBGL_multisampled_render_to_texture'),depthType:'UnsignedIntType DEPTH_COMPONENT24',cases,scope:'Actual original Three r180 HalfFloat+UnsignedIntDepth MSAA4 target, world .8 then weapon glDepthRange0..05 applied to .4 => .02; opaque quad edge sweeps and actual resolved depth sampled in Float32 GPU target, coverage from resolved color.'};
+})();</script>

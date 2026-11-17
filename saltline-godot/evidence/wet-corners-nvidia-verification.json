@@ -1,0 +1,89 @@
+{
+  "corners": [
+    {
+      "error": 0.0,
+      "native": 0.72021484375,
+      "point": [
+        114.0,
+        91.0,
+        -48.0
+      ],
+      "reference": 0.72021484375
+    },
+    {
+      "error": 0.0,
+      "native": 0.51416015625,
+      "point": [
+        115.0,
+        91.0,
+        -48.0
+      ],
+      "reference": 0.51416015625
+    },
+    {
+      "error": 0.0,
+      "native": 0.88525390625,
+      "point": [
+        114.0,
+        92.0,
+        -48.0
+      ],
+      "reference": 0.88525390625
+    },
+    {
+      "error": 0.0,
+      "native": 0.9619140625,
+      "point": [
+        115.0,
+        92.0,
+        -48.0
+      ],
+      "reference": 0.9619140625
+    },
+    {
+      "error": 0.0,
+      "native": 0.36181640625,
+      "point": [
+        114.0,
+        91.0,
+        -47.0
+      ],
+      "reference": 0.36181640625
+    },
+    {
+      "error": 0.0,
+      "native": 0.736328125,
+      "point": [
+        115.0,
+        91.0,
+        -47.0
+      ],
+      "reference": 0.736328125
+    },
+    {
+      "error": 0.0,
+      "native": 0.94140625,
+      "point": [
+        114.0,
+        92.0,
+        -47.0
+      ],
+      "reference": 0.94140625
+    },
+    {
+      "error": 0.0,
+      "native": 0.4150390625,
+      "point": [
+        115.0,
+        92.0,
+        -47.0
+      ],
+      "reference": 0.4150390625
+    }
+  ],
+  "scope": "Independent original NVIDIA GL vs production hash at exact integer first-layer corners. Compiler-context diagnostic, not full inline-noise acceptance.",
+  "source_fixture": "assets/export/fixtures/wet-corners-nvidia-gl.json",
+  "source_fixture_sha256": "84e08eda369783d0fafc72964f23c42e4e0a646da818ad855e566763a9b33d8b",
+  "all_corners_equal": true,
+  "production_shader_sha256": "17db21d8351744aec8ebb1d742b810f18826d04a67f0df3f37ca2f44fd1934c1"
+}

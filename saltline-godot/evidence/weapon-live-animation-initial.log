@@ -1,0 +1,273 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+ERROR: Condition "p_name.is_empty()" is true.
+   at: set_name (scene/main/node.cpp:1441)
+   GDScript backtrace (most recent call first):
+       [0] make_scene (res://tools/verify_weapon_live_animation.gd:14)
+       [1] _initialize (res://tools/verify_weapon_live_animation.gd:33)
+{"cases":16,"checks":33092,"failures":[],"maximum_transform_error":0.000000353882967374375,"repeated_live_updates":48,"scope":"Real animation code on exported104-node hierarchy and70 Skeleton3D bone slots; source clip baseline vs live root, one rigid arm-group delta, no accumulated transform, key/target/inactive root retained, no extra holster, frozen/reset writer guard. Synthetic live target, no original IK or GPU skin-image proof."}

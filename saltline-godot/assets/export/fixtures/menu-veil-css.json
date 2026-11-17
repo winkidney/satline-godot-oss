@@ -1,0 +1,212 @@
+{
+  "cases": [
+    {
+      "screen": "title",
+      "alpha": 0,
+      "index": 0,
+      "file": "menu-veil-title-0-source.png"
+    },
+    {
+      "screen": "title",
+      "alpha": 0.35,
+      "index": 1,
+      "file": "menu-veil-title-1-source.png"
+    },
+    {
+      "screen": "title",
+      "alpha": 0.8,
+      "index": 2,
+      "file": "menu-veil-title-2-source.png"
+    },
+    {
+      "screen": "title",
+      "alpha": 1,
+      "index": 3,
+      "file": "menu-veil-title-3-source.png"
+    },
+    {
+      "screen": "paused",
+      "alpha": 0,
+      "index": 0,
+      "file": "menu-veil-paused-0-source.png"
+    },
+    {
+      "screen": "paused",
+      "alpha": 0.35,
+      "index": 1,
+      "file": "menu-veil-paused-1-source.png"
+    },
+    {
+      "screen": "paused",
+      "alpha": 0.8,
+      "index": 2,
+      "file": "menu-veil-paused-2-source.png"
+    },
+    {
+      "screen": "paused",
+      "alpha": 1,
+      "index": 3,
+      "file": "menu-veil-paused-3-source.png"
+    },
+    {
+      "screen": "dead",
+      "alpha": 0,
+      "index": 0,
+      "file": "menu-veil-dead-0-source.png"
+    },
+    {
+      "screen": "dead",
+      "alpha": 0.35,
+      "index": 1,
+      "file": "menu-veil-dead-1-source.png"
+    },
+    {
+      "screen": "dead",
+      "alpha": 0.8,
+      "index": 2,
+      "file": "menu-veil-dead-2-source.png"
+    },
+    {
+      "screen": "dead",
+      "alpha": 1,
+      "index": 3,
+      "file": "menu-veil-dead-3-source.png"
+    },
+    {
+      "screen": "none",
+      "alpha": 0,
+      "index": 0,
+      "file": "menu-veil-none-0-source.png"
+    },
+    {
+      "screen": "none",
+      "alpha": 0.35,
+      "index": 1,
+      "file": "menu-veil-none-1-source.png"
+    },
+    {
+      "screen": "none",
+      "alpha": 0.8,
+      "index": 2,
+      "file": "menu-veil-none-2-source.png"
+    },
+    {
+      "screen": "none",
+      "alpha": 1,
+      "index": 3,
+      "file": "menu-veil-none-3-source.png"
+    }
+  ],
+  "stages": [
+    {
+      "screen": "none",
+      "elapsed": 120,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 1
+        },
+        {
+          "ms": 60,
+          "alpha": 0.872087
+        },
+        {
+          "ms": 120,
+          "alpha": 0.613739
+        }
+      ]
+    },
+    {
+      "screen": "paused",
+      "elapsed": 60,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 0.613739
+        },
+        {
+          "ms": 30,
+          "alpha": 0.689647
+        },
+        {
+          "ms": 60,
+          "alpha": 0.820009
+        }
+      ]
+    },
+    {
+      "screen": "none",
+      "elapsed": 30,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 0.820009
+        },
+        {
+          "ms": 15,
+          "alpha": 0.802431
+        },
+        {
+          "ms": 30,
+          "alpha": 0.772582
+        }
+      ]
+    },
+    {
+      "screen": "dead",
+      "elapsed": 15,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 0.772582
+        },
+        {
+          "ms": 7.5,
+          "alpha": 0.783816
+        },
+        {
+          "ms": 15,
+          "alpha": 0.806634
+        }
+      ]
+    },
+    {
+      "screen": "complete",
+      "elapsed": 10,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 0.806634
+        },
+        {
+          "ms": 5,
+          "alpha": 0.827363
+        },
+        {
+          "ms": 10,
+          "alpha": 0.850051
+        }
+      ]
+    },
+    {
+      "screen": "none",
+      "elapsed": 500,
+      "samples": [
+        {
+          "ms": 0,
+          "alpha": 0.850051
+        },
+        {
+          "ms": 250,
+          "alpha": 0.104529
+        },
+        {
+          "ms": 500,
+          "alpha": 0
+        }
+      ]
+    }
+  ],
+  "css_sha256": "10991647f67f27c0687c2c2e505a872649c0e9df3e5490b258414731686341ef",
+  "scope": "Original m-veil authored CSS over white at four diagnostic opacity values, plus deterministic menu-open interruption trace. No game/world content or physical input."
+}

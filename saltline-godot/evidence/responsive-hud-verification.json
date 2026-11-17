@@ -1,0 +1,230 @@
+{
+  "cases": [
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 56,
+        "text": "01",
+        "y": 644.0
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 590.0
+      },
+      "headings": 0,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 655.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH",
+        "THE EXTRACTION BOAT"
+      ],
+      "objective_y": 78.0,
+      "touch": false,
+      "width": 360.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 44,
+        "text": "01",
+        "y": 128.6
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 90.0
+      },
+      "headings": 0,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 161.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH",
+        "THE EXTRACTION BOAT"
+      ],
+      "objective_y": 78.0,
+      "touch": true,
+      "width": 360.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 56,
+        "text": "01",
+        "y": 644.0
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 590.0
+      },
+      "headings": 0,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 655.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+      ],
+      "objective_y": 78.0,
+      "touch": false,
+      "width": 760.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 44,
+        "text": "01",
+        "y": 128.6
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 90.0
+      },
+      "headings": 0,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 161.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE EXTRACTION BOAT"
+      ],
+      "objective_y": 78.0,
+      "touch": true,
+      "width": 760.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 76,
+        "text": "01",
+        "y": 644.0
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 574.0
+      },
+      "headings": 1,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 655.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "objective_y": 16.0,
+      "touch": false,
+      "width": 761.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 44,
+        "text": "01",
+        "y": 114.6
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 76.0
+      },
+      "headings": 1,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 139.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "objective_y": 16.0,
+      "touch": true,
+      "width": 761.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 76,
+        "text": "01",
+        "y": 644.0
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 574.0
+      },
+      "headings": 1,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 655.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "objective_y": 16.0,
+      "touch": false,
+      "width": 1280.0
+    },
+    {
+      "ammo": {
+        "ammo": true,
+        "pixels": 44,
+        "text": "01",
+        "y": 114.6
+      },
+      "cue": {
+        "ammo": false,
+        "pixels": 12,
+        "text": "LOW AMMO",
+        "y": 76.0
+      },
+      "headings": 1,
+      "health": {
+        "ammo": false,
+        "pixels": 11,
+        "text": "VITALS",
+        "y": 139.0
+      },
+      "objective_lines": [
+        "CUT THE RELAYS AND REACH THE",
+        "EXTRACTION BOAT"
+      ],
+      "objective_y": 16.0,
+      "touch": true,
+      "width": 1280.0
+    }
+  ],
+  "controlled_focus_resumes": 0,
+  "failures": [],
+  "main_capture": "responsive-hud-main-360-touch.png",
+  "scope": "Production HUD draw methods, actual Main mission/weapon and production stretch configuration. Four widths desktop/touch vs original CSS objective top/font/wrap/relay row, heading visibility, ammo font and breakpoint movements. Final capture uses actual GameUI after removing observers. Not whole-image pixels or HiDPI."
+}

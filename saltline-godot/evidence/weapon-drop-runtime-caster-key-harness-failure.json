@@ -1,0 +1,243 @@
+{
+  "checks": 282,
+  "failures": [
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 21,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 22,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 23,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 24,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 24,
+      "message": "dropped mesh not registered in source sun pass"
+    },
+    {
+      "frame": 24,
+      "message": "dropped mesh not registered in source sun pass"
+    }
+  ],
+  "frames": 400,
+  "restores": 2,
+  "scope": "Actual Main two gun deaths/retries: world reparent/layers/bias variant/restored shader identity/arm hide and restore/no render-only advance. Separate original numerical kernels; no full source combined pixel proof.",
+  "snapshots": [
+    {
+      "active": true,
+      "bounces": 0,
+      "drop_time": 0.0166666666666667,
+      "frame": 20,
+      "gun": "rifle",
+      "position": [
+        -31.8475027372197,
+        1.57600730172666,
+        6.10030939433004
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 1,
+      "drop_time": 0.6,
+      "frame": 55,
+      "gun": "rifle",
+      "position": [
+        -31.5665425720475,
+        0.158642945628894,
+        6.4525850634609
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 3,
+      "drop_time": 1.35,
+      "frame": 100,
+      "gun": "rifle",
+      "position": [
+        -31.4988400264815,
+        0.0240034983020307,
+        6.53747239802856
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": false,
+      "bounces": 3,
+      "drop_time": -1.0,
+      "frame": 161,
+      "gun": "rifle",
+      "position": [
+        -31.4988400264815,
+        0.0240025916058858,
+        6.53747239802856
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 0,
+      "drop_time": 0.0166666666666667,
+      "frame": 230,
+      "gun": "pistol",
+      "position": [
+        -31.7705484759823,
+        1.62400229157923,
+        6.07788335286405
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 1,
+      "drop_time": 0.766666666666667,
+      "frame": 275,
+      "gun": "pistol",
+      "position": [
+        -31.3872182947069,
+        0.11249359409684,
+        6.31063220550612
+      ],
+      "resting": false,
+      "sunk": false
+    },
+    {
+      "active": true,
+      "bounces": 3,
+      "drop_time": 1.35,
+      "frame": 310,
+      "gun": "pistol",
+      "position": [
+        -31.3599567688196,
+        0.0240034983020307,
+        6.32718474736556
+      ],
+      "resting": true,
+      "sunk": false
+    },
+    {
+      "active": false,
+      "bounces": 3,
+      "drop_time": -1.0,
+      "frame": 371,
+      "gun": "rifle",
+      "position": [
+        -31.3599567688196,
+        0.0240025916058858,
+        6.32718474736556
+      ],
+      "resting": true,
+      "sunk": false
+    }
+  ],
+  "starts": 2
+}

@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 1,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 2,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 3,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 4,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 5,
+      "maximum_error": 0.000030517578125
+    },
+    {
+      "case": 6,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 7,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 8,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 9,
+      "maximum_error": 0.000030517578125
+    },
+    {
+      "case": 10,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 11,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 12,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 13,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 14,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 15,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 16,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 17,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 18,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 19,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 20,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 21,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 22,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 23,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 24,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 25,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 26,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 27,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 28,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 29,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 30,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 31,
+      "maximum_error": 0.000244140625
+    }
+  ],
+  "channels": 98304,
+  "failures": [],
+  "scope": "Actual spatial QuadMesh/Camera3D with Vulkan projection and fragment derivatives,production tangent helper vs32 original Three derivative cases;constant planar gradients/interior pixels. Does not cover source mesh interpolation or texture filtering."
+}

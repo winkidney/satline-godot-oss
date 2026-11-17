@@ -1,0 +1,96 @@
+{
+  "entry_scene": "res://scenes/boot.tscn",
+  "failures": [],
+  "profile": "reduced",
+  "scope": "Actual project startup scene, visible GPU boot snapshots, real asset milestones, Main disabled during initialization, ready after depth producer, source stage labels/weights, CSS layout/durations, pointer release, 700ms removal and actual title. No artificial policy override; reduced run requires private Portal1 fixture.",
+  "stages": [
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Raising the terminal",
+      "progress": 0.0,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Waking the renderer",
+      "progress": 0.04,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Mixing paint, rust and rain",
+      "progress": 0.12,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Stacking containers",
+      "progress": 0.34,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Raising the cranes",
+      "progress": 0.5,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Flooding the apron",
+      "progress": 0.58,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Loading tracers and smoke",
+      "progress": 0.66,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Checking the rifle",
+      "progress": 0.74,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Waking the Harbormaster",
+      "progress": 0.82,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Waiting for first light",
+      "progress": 0.92,
+      "subtitle_y": 371.5
+    },
+    {
+      "bar_width": 252.0,
+      "bar_y": 400.5,
+      "mark_pixels": 40.0,
+      "message": "Ready",
+      "progress": 1.0,
+      "subtitle_y": 371.5
+    }
+  ]
+}

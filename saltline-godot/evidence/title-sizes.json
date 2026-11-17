@@ -1,0 +1,120 @@
+{
+  "failures": [],
+  "pick_checks": 128,
+  "pick_maximum_error": 0.01873779296875,
+  "samples": [
+    {
+      "buttons": {
+        "controls": [
+          70.4000015258789,
+          431.440002441406,
+          128.0,
+          46.0
+        ],
+        "deploy": [
+          70.4000015258789,
+          369.440002441406,
+          168.0,
+          52.0
+        ],
+        "settings": [
+          248.399993896484,
+          369.440002441406,
+          123.0,
+          46.0
+        ]
+      },
+      "eyebrow_height": 43.6,
+      "font": 198.4,
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "buttons": {
+        "controls": [
+          363.799987792969,
+          272.859985351562,
+          128.0,
+          46.0000152587891
+        ],
+        "deploy": [
+          52.7999992370605,
+          272.859985351562,
+          168.0,
+          52.0000152587891
+        ],
+        "settings": [
+          230.800003051758,
+          272.859985351562,
+          123.0,
+          46.0000152587891
+        ]
+      },
+      "eyebrow_height": 22.0,
+      "font": 148.8,
+      "window": [
+        960,
+        540
+      ]
+    },
+    {
+      "buttons": {
+        "controls": [
+          325.0,
+          127.799995422363,
+          299.0,
+          40.0
+        ],
+        "deploy": [
+          16.0,
+          73.7999954223633,
+          608.0,
+          44.0
+        ],
+        "settings": [
+          16.0,
+          127.799995422363,
+          299.0,
+          40.0
+        ]
+      },
+      "eyebrow_height": 22.0,
+      "font": 72.0,
+      "window": [
+        640,
+        360
+      ]
+    },
+    {
+      "buttons": {
+        "controls": [
+          165.0,
+          270.795989990234,
+          139.0,
+          46.0
+        ],
+        "deploy": [
+          16.0,
+          208.796005249023,
+          288.0,
+          52.0
+        ],
+        "settings": [
+          16.0,
+          270.795989990234,
+          139.0,
+          46.0
+        ]
+      },
+      "eyebrow_height": 41.2,
+      "font": 64.0,
+      "window": [
+        320,
+        568
+      ]
+    }
+  ],
+  "scope": "Actual title four window sizes, source DOM eyebrow/premise heights, fractional title font, legend and eight pick-cell rectangles/origin; physical action bounds and capture sizes. Fixed mission/hard fixture. No full source pixels, all text bounds, HiDPI or live input acceptance."
+}

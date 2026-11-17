@@ -1,0 +1,7 @@
+{
+  "capacity": 6,
+  "checks": 98,
+  "cycles": 8,
+  "failures": [],
+  "scope": "Actual Main session reset, five simultaneous fire reservations, saturated flashes, expiry, retained scan slot identity and disposal; no claim of whole-frame visual equivalence."
+}

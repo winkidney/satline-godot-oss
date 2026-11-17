@@ -1,0 +1,84 @@
+{
+  "failures": [],
+  "samples": [
+    {
+      "logical": [
+        1280.0,
+        720.0
+      ],
+      "mouse": {
+        "dx": 0.021,
+        "dy": -0.0105
+      },
+      "stick_29px": [
+        0.0,
+        0.5
+      ],
+      "stick_58px": [
+        0.0,
+        1.0
+      ],
+      "window": [
+        1280,
+        720
+      ],
+      "world": [
+        1280,
+        720
+      ]
+    },
+    {
+      "logical": [
+        640.0,
+        360.0
+      ],
+      "mouse": {
+        "dx": 0.021,
+        "dy": -0.0105
+      },
+      "stick_29px": [
+        0.0,
+        0.5
+      ],
+      "stick_58px": [
+        0.0,
+        1.0
+      ],
+      "window": [
+        640,
+        360
+      ],
+      "world": [
+        640,
+        360
+      ]
+    },
+    {
+      "logical": [
+        360.0,
+        720.0
+      ],
+      "mouse": {
+        "dx": 0.021,
+        "dy": -0.0105
+      },
+      "stick_29px": [
+        0.0,
+        0.5
+      ],
+      "stick_58px": [
+        0.0,
+        1.0
+      ],
+      "window": [
+        360,
+        720
+      ],
+      "world": [
+        360,
+        720
+      ]
+    }
+  ],
+  "scope": "Actual Main under production project stretch configuration, no fixture content-scale override. Root.push_input(event,false) supplies physical window mouse/touch coordinates through viewport conversion. Verifies CSS-pixel viewport and render size, identical mouse and 29/58px stick movement in three window shapes. DPR1 only, not all HUD responsive rules or physical hardware acceptance."
+}

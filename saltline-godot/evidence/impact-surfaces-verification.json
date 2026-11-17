@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "add": 0,
+      "debris": 3,
+      "lit": 5,
+      "surface": "rubber"
+    },
+    {
+      "add": 0,
+      "debris": 3,
+      "lit": 5,
+      "surface": "dirt"
+    },
+    {
+      "add": 12,
+      "debris": 4,
+      "lit": 1,
+      "surface": "glass"
+    }
+  ],
+  "failures": [],
+  "source": "Active impact material branches, lines 59345-59470"
+}

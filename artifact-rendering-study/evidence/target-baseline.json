@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-14",
+  "target": "../stocking-lab",
+  "head": "4521f1534a838629ff339f9db406e42d57ee4372",
+  "note": "Read-only static file snapshot; HEAD alone does not describe uncommitted work. No runtime validation. Target sources are not copied into this archive.",
+  "files": {
+    "project.godot": {
+      "sha256": "ac6e0e5bb254dcd972c8b1ef9287afe8dc388880442040a7e0f0544058b8d160",
+      "bytes": 498
+    },
+    "scripts/character_rendering.gd": {
+      "sha256": "0ae7a32c6dbdae353b5487ad2525733464062dec11cd8236f11c444ab75c4920",
+      "bytes": 6915
+    },
+    "scripts/fabric_appearance.gd": {
+      "sha256": "92073765a239d05d49b79ded1183171fd3dea3cd307379e5ee15cd9487e27b05",
+      "bytes": 2106
+    },
+    "scripts/post_processing.gd": {
+      "sha256": "624c2b6f13838ec4af315607a93bc47bb6433e3149bcb3b1ab3bf94033516446",
+      "bytes": 2332
+    },
+    "scripts/rebuild.gd": {
+      "sha256": "b9446a6243a915f27880b7c4827a1b25684a98d289c0f58685f8a46cd194b61e",
+      "bytes": 29800
+    },
+    "shaders/fabric_optics.gdshaderinc": {
+      "sha256": "af405d63e6b8cca7da776072df106b094a289a9f14006ed6cf6c587571ec636d",
+      "bytes": 768
+    },
+    "shaders/fabric_vertex.gdshaderinc": {
+      "sha256": "f9bb00b3f767cd52bf6d2f301a36c1401e9338afa7db3aa2f270d152b8d90d04",
+      "bytes": 4697
+    },
+    "shaders/hosiery_depth.gdshader": {
+      "sha256": "d638c8c66930b27e9d3682910d4392085e17a1f4224ebf9a3273ff5e1211414d",
+      "bytes": 709
+    },
+    "shaders/hosiery_layer.gdshader": {
+      "sha256": "927f5282108667403f3fb50dd03a3764b907cd0389cd6cd7ac8e401651ee8650",
+      "bytes": 99
+    },
+    "shaders/hosiery_shadow.gdshader": {
+      "sha256": "75367250504cbcbbd4a2777ef9e6288a6f89ec0fde5af7b7eaea0274c5e398cd",
+      "bytes": 744
+    },
+    "shaders/nylon_body.gdshaderinc": {
+      "sha256": "40e20c9472115f883ae73d6fcc8fb6310d52e8a739548922f3fa9b6e2662ed01",
+      "bytes": 10223
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "frames": 780,
+  "history": [
+    {
+      "frame": 90,
+      "state": "intro"
+    },
+    {
+      "frame": 210,
+      "state": "playing"
+    },
+    {
+      "frame": 210,
+      "state": "paused"
+    },
+    {
+      "frame": 250,
+      "state": "playing"
+    },
+    {
+      "frame": 280,
+      "state": "dead"
+    },
+    {
+      "frame": 390,
+      "state": "intro"
+    },
+    {
+      "frame": 455,
+      "state": "playing"
+    },
+    {
+      "frame": 560,
+      "state": "paused"
+    },
+    {
+      "frame": 600,
+      "state": "intro"
+    },
+    {
+      "frame": 665,
+      "state": "playing"
+    }
+  ],
+  "menu": "none",
+  "pause_frozen": true,
+  "radio_lines": [
+    {
+      "frame": 143,
+      "text": "Breacher, this is Control. The Harbormaster holds the berth. Cut its three uplinks — yard, shed, quay."
+    }
+  ],
+  "radio_visible": false,
+  "resets": [
+    {
+      "alive": true,
+      "ammo": 30,
+      "boxes": 595,
+      "debris": 0,
+      "decals": 0,
+      "emitters": 0,
+      "enemies": 5,
+      "explosives": 21,
+      "frame": 90,
+      "health": 100.0,
+      "particles": 0,
+      "radio_active": false,
+      "radio_queue": 0,
+      "reserve": 150.0,
+      "retries": 0,
+      "shells": 0,
+      "weapon": "rifle"
+    },
+    {
+      "alive": true,
+      "ammo": 30,
+      "boxes": 595,
+      "debris": 0,
+      "decals": 0,
+      "emitters": 0,
+      "enemies": 5,
+      "explosives": 21,
+      "frame": 390,
+      "health": 100.0,
+      "particles": 0,
+      "radio_active": false,
+      "radio_queue": 0,
+      "reserve": 150.0,
+      "retries": 1,
+      "shells": 0,
+      "weapon": "rifle"
+    },
+    {
+      "alive": true,
+      "ammo": 30,
+      "boxes": 595,
+      "debris": 0,
+      "decals": 0,
+      "emitters": 0,
+      "enemies": 5,
+      "explosives": 21,
+      "frame": 600,
+      "health": 100.0,
+      "particles": 0,
+      "radio_active": false,
+      "radio_queue": 0,
+      "reserve": 150.0,
+      "retries": 2,
+      "shells": 0,
+      "weapon": "rifle"
+    }
+  ],
+  "retries": 2,
+  "scope": "native title/intro/pause/death/retry/restart through UI button signals, actual dirty-state resets; automated inputs, full original HUD/settings and visual calibration pending",
+  "state": "playing",
+  "world_clock_samples": [
+    {
+      "frame": 215,
+      "global": 3.61666666766666,
+      "material": 3.53333333433333,
+      "rain": 3.53333333433333
+    },
+    {
+      "frame": 245,
+      "global": 4.11666666766666,
+      "material": 3.53333333433333,
+      "rain": 3.53333333433333
+    },
+    {
+      "frame": 251,
+      "global": 4.21666666766666,
+      "material": 3.55000000099999,
+      "rain": 3.55000000099999
+    }
+  ]
+}

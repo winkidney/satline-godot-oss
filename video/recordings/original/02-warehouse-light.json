@@ -1,0 +1,325 @@
+{
+  "name": "02-warehouse-light",
+  "seconds": 60.001599999964235,
+  "frames": 3498,
+  "samples": [
+    {
+      "seconds": 1.0000999999642373,
+      "frames": 58,
+      "state": "playing"
+    },
+    {
+      "seconds": 2.0000999999642373,
+      "frames": 117,
+      "state": "playing"
+    },
+    {
+      "seconds": 3.0000999999642373,
+      "frames": 175,
+      "state": "playing"
+    },
+    {
+      "seconds": 4.003,
+      "frames": 234,
+      "state": "playing"
+    },
+    {
+      "seconds": 5.002399999976158,
+      "frames": 292,
+      "state": "playing"
+    },
+    {
+      "seconds": 6.000699999988079,
+      "frames": 350,
+      "state": "playing"
+    },
+    {
+      "seconds": 7,
+      "frames": 408,
+      "state": "playing"
+    },
+    {
+      "seconds": 8.000099999964236,
+      "frames": 466,
+      "state": "playing"
+    },
+    {
+      "seconds": 9.0005,
+      "frames": 525,
+      "state": "playing"
+    },
+    {
+      "seconds": 10.000199999988078,
+      "frames": 583,
+      "state": "playing"
+    },
+    {
+      "seconds": 11.000099999964236,
+      "frames": 641,
+      "state": "playing"
+    },
+    {
+      "seconds": 12.000099999964236,
+      "frames": 699,
+      "state": "playing"
+    },
+    {
+      "seconds": 13.000099999964236,
+      "frames": 757,
+      "state": "playing"
+    },
+    {
+      "seconds": 14.000099999964236,
+      "frames": 816,
+      "state": "playing"
+    },
+    {
+      "seconds": 15.000099999964236,
+      "frames": 874,
+      "state": "playing"
+    },
+    {
+      "seconds": 16.004,
+      "frames": 933,
+      "state": "playing"
+    },
+    {
+      "seconds": 17.000099999964238,
+      "frames": 991,
+      "state": "playing"
+    },
+    {
+      "seconds": 18.000099999964238,
+      "frames": 1049,
+      "state": "playing"
+    },
+    {
+      "seconds": 19.000099999964238,
+      "frames": 1107,
+      "state": "playing"
+    },
+    {
+      "seconds": 20.00219999998808,
+      "frames": 1166,
+      "state": "playing"
+    },
+    {
+      "seconds": 21,
+      "frames": 1224,
+      "state": "playing"
+    },
+    {
+      "seconds": 22.000099999964238,
+      "frames": 1282,
+      "state": "playing"
+    },
+    {
+      "seconds": 23.000099999964238,
+      "frames": 1341,
+      "state": "playing"
+    },
+    {
+      "seconds": 24.000099999964238,
+      "frames": 1399,
+      "state": "playing"
+    },
+    {
+      "seconds": 25.000099999964238,
+      "frames": 1457,
+      "state": "playing"
+    },
+    {
+      "seconds": 26.000099999964238,
+      "frames": 1515,
+      "state": "playing"
+    },
+    {
+      "seconds": 27.000099999964238,
+      "frames": 1574,
+      "state": "playing"
+    },
+    {
+      "seconds": 28.000099999964238,
+      "frames": 1632,
+      "state": "playing"
+    },
+    {
+      "seconds": 29.00169999998808,
+      "frames": 1691,
+      "state": "playing"
+    },
+    {
+      "seconds": 30.000099999964238,
+      "frames": 1749,
+      "state": "playing"
+    },
+    {
+      "seconds": 31.001800000011922,
+      "frames": 1808,
+      "state": "playing"
+    },
+    {
+      "seconds": 32.000099999964235,
+      "frames": 1865,
+      "state": "playing"
+    },
+    {
+      "seconds": 33.000099999964235,
+      "frames": 1924,
+      "state": "playing"
+    },
+    {
+      "seconds": 34.000099999964235,
+      "frames": 1982,
+      "state": "playing"
+    },
+    {
+      "seconds": 35.000099999964235,
+      "frames": 2040,
+      "state": "playing"
+    },
+    {
+      "seconds": 36.000099999964235,
+      "frames": 2099,
+      "state": "playing"
+    },
+    {
+      "seconds": 37.000099999964235,
+      "frames": 2157,
+      "state": "playing"
+    },
+    {
+      "seconds": 38.000099999964235,
+      "frames": 2215,
+      "state": "playing"
+    },
+    {
+      "seconds": 39.00209999996424,
+      "frames": 2274,
+      "state": "playing"
+    },
+    {
+      "seconds": 40,
+      "frames": 2332,
+      "state": "playing"
+    },
+    {
+      "seconds": 41.000099999964235,
+      "frames": 2390,
+      "state": "playing"
+    },
+    {
+      "seconds": 42.000099999964235,
+      "frames": 2448,
+      "state": "playing"
+    },
+    {
+      "seconds": 43.000099999964235,
+      "frames": 2506,
+      "state": "playing"
+    },
+    {
+      "seconds": 44.000099999964235,
+      "frames": 2565,
+      "state": "playing"
+    },
+    {
+      "seconds": 45.000099999964235,
+      "frames": 2623,
+      "state": "playing"
+    },
+    {
+      "seconds": 46.000099999964235,
+      "frames": 2681,
+      "state": "playing"
+    },
+    {
+      "seconds": 47.00119999998808,
+      "frames": 2740,
+      "state": "playing"
+    },
+    {
+      "seconds": 48.000099999964235,
+      "frames": 2798,
+      "state": "playing"
+    },
+    {
+      "seconds": 49.00189999997616,
+      "frames": 2857,
+      "state": "playing"
+    },
+    {
+      "seconds": 50.000099999964235,
+      "frames": 2915,
+      "state": "playing"
+    },
+    {
+      "seconds": 51.000099999964235,
+      "frames": 2973,
+      "state": "playing"
+    },
+    {
+      "seconds": 52.000899999976156,
+      "frames": 3032,
+      "state": "playing"
+    },
+    {
+      "seconds": 53.000099999964235,
+      "frames": 3090,
+      "state": "playing"
+    },
+    {
+      "seconds": 54.000099999964235,
+      "frames": 3148,
+      "state": "playing"
+    },
+    {
+      "seconds": 55.00209999996424,
+      "frames": 3207,
+      "state": "playing"
+    },
+    {
+      "seconds": 56.000099999964235,
+      "frames": 3265,
+      "state": "playing"
+    },
+    {
+      "seconds": 57.0005,
+      "frames": 3323,
+      "state": "playing"
+    },
+    {
+      "seconds": 58.00059999996424,
+      "frames": 3381,
+      "state": "playing"
+    },
+    {
+      "seconds": 59.000099999964235,
+      "frames": 3439,
+      "state": "playing"
+    },
+    {
+      "seconds": 60.000099999964235,
+      "frames": 3498,
+      "state": "playing"
+    }
+  ],
+  "stats": {
+    "calls": 412,
+    "tris": 2043914,
+    "geos": 275,
+    "tex": 158,
+    "programs": 136,
+    "res": [
+      1920,
+      1080
+    ],
+    "scale": 1,
+    "advanced": true,
+    "softShadows": true,
+    "fps": 58.3,
+    "state": "playing"
+  },
+  "fatal": null,
+  "errors": []
+}

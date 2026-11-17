@@ -1,0 +1,76 @@
+{
+  "channels": 4308,
+  "dirt_errors": [],
+  "dirt_maximum_byte_error": 0.00000756978988647461,
+  "dirt_samples": 1504,
+  "failures": [],
+  "levels": [
+    {
+      "failures": 0,
+      "maximum_error": 0.0146160125732386,
+      "pass": "down0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00300407409667969,
+      "pass": "down1"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00278711318969727,
+      "pass": "down2"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00240039825439453,
+      "pass": "down3"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00251197814941406,
+      "pass": "down4"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00335550308227539,
+      "pass": "down5"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00444269180297852,
+      "pass": "up4"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00497913360595703,
+      "pass": "up3"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00497579574584961,
+      "pass": "up2"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00536918640136719,
+      "pass": "up1"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.0137081146240234,
+      "pass": "up0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00157666206359863,
+      "pass": "streak0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00159621238708496,
+      "pass": "streak1"
+    }
+  ],
+  "maximum_error": 0.0146160125732386,
+  "scope": "Actual original Three Float32 j9/K9/J9 vs native HDR RGBA16F, six down/five up/two streak; nonuniform64x32 HDR gradient and radiance300 point. Tolerance max(.004,.6percent radiance) permits accumulated half-float quantization. Static dirt compared separately against original RGBA8 at 1504 sampled pixels, source-baked texture byte tolerance0.01. Procedural GPU residual retained in dirt-procedural-diagnostic.json."
+}

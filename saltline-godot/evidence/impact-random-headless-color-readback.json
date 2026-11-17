@@ -1,0 +1,251 @@
+{
+  "cases": 64,
+  "checks": 353470,
+  "draws": 56727,
+  "failures": [
+    {
+      "actual": 0.0,
+      "error": 0.178801119327545,
+      "expected": 0.178801119327545,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.187741175293922,
+      "expected": 0.187741175293922,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.205621287226677,
+      "expected": 0.205621287226677,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.188928097486496,
+      "expected": 0.188928097486496,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.19837449491024,
+      "expected": 0.19837449491024,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.21726730465889,
+      "expected": 0.21726730465889,
+      "label": "metal/2.0/false/0.0/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.178801119327545,
+      "expected": 0.178801119327545,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.187741175293922,
+      "expected": 0.187741175293922,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.205621287226677,
+      "expected": 0.205621287226677,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.188928097486496,
+      "expected": 0.188928097486496,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.19837449491024,
+      "expected": 0.19837449491024,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.21726730465889,
+      "expected": 0.21726730465889,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.501228153705597,
+      "expected": 0.501228153705597,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.16707606613636,
+      "expected": 0.16707606613636,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.04176901653409,
+      "expected": 0.04176901653409,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.531609058380127,
+      "expected": 0.531609058380127,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.17720302939415,
+      "expected": 0.17720302939415,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.0443007573485374,
+      "expected": 0.0443007573485374,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.561989963054657,
+      "expected": 0.561989963054657,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.187329992651939,
+      "expected": 0.187329992651939,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.0468324981629848,
+      "expected": 0.0468324981629848,
+      "label": "metal/2.0/false/0.05/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.178801119327545,
+      "expected": 0.178801119327545,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.187741175293922,
+      "expected": 0.187741175293922,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.205621287226677,
+      "expected": 0.205621287226677,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.188928097486496,
+      "expected": 0.188928097486496,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.19837449491024,
+      "expected": 0.19837449491024,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.21726730465889,
+      "expected": 0.21726730465889,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.501228153705597,
+      "expected": 0.501228153705597,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.16707606613636,
+      "expected": 0.16707606613636,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.04176901653409,
+      "expected": 0.04176901653409,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.531609058380127,
+      "expected": 0.531609058380127,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.17720302939415,
+      "expected": 0.17720302939415,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.0443007573485374,
+      "expected": 0.0443007573485374,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.561989963054657,
+      "expected": 0.561989963054657,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.187329992651939,
+      "expected": 0.187329992651939,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.0468324981629848,
+      "expected": 0.0468324981629848,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.199234530329704,
+      "expected": 0.199234530329704,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.209196254611015,
+      "expected": 0.209196254611015,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.229119703173637,
+      "expected": 0.229119703173637,
+      "label": "metal/2.0/false/0.09/debris/color"
+    },
+    {
+      "actual": 0.0,
+      "error": 0.209361493587494,
+      "expected": 0.209361493587494,
+      "label": "metal/2.0/false/0.09/debris/color"
+    }
+  ],
+  "maximum_error": 0.850841879844666,
+  "methods_sha256": "ef64dc9256df30ab0ba47c7c88989e11863bad5c2ea51a2ea19e5a3516c822db",
+  "scope": "Original A and helpers plus literal jg.add; 8 materials, near/far, 2/80 capacity, 6 clock samples including strict .09 threshold. Actual native debris, particles and light requests. Cross-metal/enemy light throttle, zero/tiny normal and direction fallbacks, debris RGB; controlled shade1/.2, no decal random consumer, puddle, actual shadow query, motion or pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

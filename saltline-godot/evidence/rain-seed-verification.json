@@ -1,0 +1,8 @@
+{
+  "failures": [],
+  "float_components": 40640,
+  "maximum_error": 0.0,
+  "rain_instances": 9260,
+  "scope": "All original exported aSeed float32 components vs native MultiMesh INSTANCE_CUSTOM storage, including negative eave seed; GPU negative branch verified separately. No reseeding.",
+  "splash_instances": 900
+}

@@ -1,0 +1,115 @@
+{
+  "failures": [],
+  "maximum_error": 0.000000194262981409454,
+  "samples": [
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 0.0,
+      "on": true
+    },
+    {
+      "alpha": 0.0265631638467312,
+      "expected": 0.0265632,
+      "ms": 15.0,
+      "on": true
+    },
+    {
+      "alpha": 0.0740266814827919,
+      "expected": 0.0740267,
+      "ms": 30.0,
+      "on": true
+    },
+    {
+      "alpha": 0.0740266814827919,
+      "expected": 0.0740267,
+      "ms": 0.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0250183194875717,
+      "expected": 0.0250183,
+      "ms": 10.0,
+      "on": false
+    },
+    {
+      "alpha": 0.00239593861624599,
+      "expected": 0.00239594,
+      "ms": 20.0,
+      "on": false
+    },
+    {
+      "alpha": 0.00239593861624599,
+      "expected": 0.00239594,
+      "ms": 0.0,
+      "on": true
+    },
+    {
+      "alpha": 0.00911504123359919,
+      "expected": 0.00911504,
+      "ms": 5.0,
+      "on": true
+    },
+    {
+      "alpha": 0.0179341398179531,
+      "expected": 0.0179341,
+      "ms": 10.0,
+      "on": true
+    },
+    {
+      "alpha": 0.0179341398179531,
+      "expected": 0.0179341,
+      "ms": 0.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 20.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 40.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 0.0,
+      "on": true
+    },
+    {
+      "alpha": 0.117986805737019,
+      "expected": 0.117987,
+      "ms": 40.0,
+      "on": true
+    },
+    {
+      "alpha": 0.360478192567825,
+      "expected": 0.360478,
+      "ms": 80.0,
+      "on": true
+    },
+    {
+      "alpha": 0.360478192567825,
+      "expected": 0.360478,
+      "ms": 0.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 300.0,
+      "on": false
+    },
+    {
+      "alpha": 0.0,
+      "expected": 0.0,
+      "ms": 600.0,
+      "on": false
+    }
+  ],
+  "scope": "Actual Main GameUI parent HUD opacity vs original Chrome six-interruption trace; logical HUD gate separately controls announcement timers and panel suppression. Controlled state assignment, not actual pause button input or whole frame parity."
+}

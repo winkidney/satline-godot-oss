@@ -1,0 +1,19 @@
+{
+  "changed_hdr_samples": 47065,
+  "explicit_room_materials": 22,
+  "failures": [],
+  "materials": 135,
+  "maximum_rgb_difference": 2.106689453125,
+  "original_objects": 250,
+  "scope": "Actual frozen source scene defaultgenericIBL,independent135/22 material binding and source-node viewtag audit,AO presence andstrict interior boundaries,off/on rawHDR contribution. Dedicated ground/sea/arms and native-light replacement not covered.",
+  "service": {
+    "materials": 136,
+    "objects": 250,
+    "radiance_enabled": true,
+    "view_fill": 1.16038934363948,
+    "view_room": false,
+    "viewmodels": 19
+  },
+  "sum_rgb_difference": 6787.81306856871,
+  "viewmodels": 19
+}

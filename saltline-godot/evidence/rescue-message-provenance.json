@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "runtime_exit_code": 0,
+  "files": {
+    "scripts/main.gd": "39b63f9c42d9a174ad4658fe1e0932c2babcef01f36f227e3299d54b6d310ce7",
+    "scripts/player.gd": "4fce46f5bc1c339fa6d5ec10fd3d38c6ac57dfdee1385dbcb28751e32ad9337a",
+    "scripts/mission.gd": "f48bf92c4a592c7ec52208423d2934b89d2d8d3dc9b2f73335fec7cdc77552d9",
+    "scripts/game_ui.gd": "1eb35cf532ba38fef4ee270c5d496e616aaa8915c4eec989df7c3de0db548de7",
+    "tools/verify_rescue_message.gd": "9164e3ce7363bc21335a712d1226ddd8e2dc6d26b9176dd368413705493eac33"
+  },
+  "verification": "rescue-message-verification.json",
+  "source": "bundle-1.js:85478-85479",
+  "first_fixture_correction": "Initial test placed player below solid land, so collision restored floor before rescue. Final uses actual sea x32 and real player.update/collision; all three cases pass.",
+  "bundle_status": "Source fix after r11; r11 unchanged"
+}

@@ -1,0 +1,48 @@
+{
+  "captures": [
+    {
+      "path": "res://evidence/navigation-transition-runtime-00.png",
+      "sample": {
+        "cross_alpha": 1.0,
+        "gap": 4.74999999834108,
+        "marker_alpha": 0.78,
+        "marks_alpha": 1.0
+      }
+    },
+    {
+      "path": "res://evidence/navigation-transition-runtime-03.png",
+      "sample": {
+        "cross_alpha": 0.814543462207297,
+        "gap": 9.5,
+        "marker_alpha": 0.726914068442814,
+        "marks_alpha": 0.905203693647882
+      }
+    },
+    {
+      "path": "res://evidence/navigation-transition-runtime-05.png",
+      "sample": {
+        "cross_alpha": 0.627111191022724,
+        "gap": 9.5,
+        "marker_alpha": 0.649865382016626,
+        "marks_alpha": 0.823800262417782
+      }
+    },
+    {
+      "path": "res://evidence/navigation-transition-runtime-06.png",
+      "sample": {
+        "cross_alpha": 1.0,
+        "gap": 28.5,
+        "marker_alpha": 0.761835774078578,
+        "marks_alpha": 1.0
+      }
+    }
+  ],
+  "comparisons": 120,
+  "failures": [],
+  "game_ui_sha256": "1eb35cf532ba38fef4ee270c5d496e616aaa8915c4eec989df7c3de0db548de7",
+  "maximum_alpha_error": 0.000000462207296880734,
+  "maximum_gap_error": 0.0000333356931800921,
+  "navigation_sha256": "736c73ec9a0f292b30d7409c8d457843966d8ca28c8288d4736513500911b808",
+  "scope": "Actual Main/GameUI/NavigationHud calls against original Chrome CSS samples and4 real GPU captures, controlled gameplay data and CSS-initial fixture state. Full HUD pixels, physical ADS input and world gameplay remain separate.",
+  "stages": 10
+}

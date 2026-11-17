@@ -1,0 +1,420 @@
+{
+  "regions": {
+    "concrete": [
+      480,
+      380,
+      550,
+      435
+    ],
+    "metal": [
+      610,
+      385,
+      670,
+      435
+    ],
+    "wood": [
+      747,
+      412,
+      785,
+      440
+    ]
+  },
+  "modes": {
+    "hdr-albedo": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.1666131615638733,
+          0.1599031239748001,
+          0.13831007480621338
+        ],
+        "native_mean_rgb": [
+          0.16701658070087433,
+          0.1603003591299057,
+          0.13865290582180023
+        ],
+        "mae": 0.0024354506749659777,
+        "p95": 0.0078125,
+        "max": 0.0311279296875,
+        "relative_energy_error": 0.0024600911419838667
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.0315137542784214,
+          0.05034686625003815,
+          0.09743544459342957
+        ],
+        "native_mean_rgb": [
+          0.03148220479488373,
+          0.05030370131134987,
+          0.09736271947622299
+        ],
+        "mae": 0.0006512756226584315,
+        "p95": 0.0020751953125,
+        "max": 0.02630615234375,
+        "relative_energy_error": -0.0008223452605307102
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.1578320413827896,
+          0.12226400524377823,
+          0.08590211719274521
+        ],
+        "native_mean_rgb": [
+          0.15724164247512817,
+          0.12180311232805252,
+          0.0854705274105072
+        ],
+        "mae": 0.003474027616903186,
+        "p95": 0.0108642578125,
+        "max": 0.0274658203125,
+        "relative_energy_error": -0.004051609430462122
+      }
+    },
+    "hdr-normal": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.49819818139076233,
+          0.5091903209686279,
+          0.9994372725486755
+        ],
+        "native_mean_rgb": [
+          0.49806705117225647,
+          0.5090599060058594,
+          0.9994588494300842
+        ],
+        "mae": 0.0004886405658908188,
+        "p95": 0.00146484375,
+        "max": 0.013671875,
+        "relative_energy_error": -0.0001195760487462394,
+        "angle_mean_degrees": 0.14153121411800385,
+        "angle_p95_degrees": 0.5054569840431213,
+        "angle_max_degrees": 1.5779316425323486
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.4980030953884125,
+          0.5090606808662415,
+          0.9995110630989075
+        ],
+        "native_mean_rgb": [
+          0.49787548184394836,
+          0.5089004039764404,
+          0.99951171875
+        ],
+        "mae": 0.00023611111100763083,
+        "p95": 0.00146484375,
+        "max": 0.01171875,
+        "relative_energy_error": -0.00014311709674075246,
+        "angle_mean_degrees": 0.07041217386722565,
+        "angle_p95_degrees": 0.22559680044651031,
+        "angle_max_degrees": 1.3558076620101929
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.4979174733161926,
+          0.5091589689254761,
+          0.9994433522224426
+        ],
+        "native_mean_rgb": [
+          0.4977146089076996,
+          0.5089939832687378,
+          0.99948650598526
+        ],
+        "mae": 0.00177774450276047,
+        "p95": 0.008654785342514515,
+        "max": 0.023681640625,
+        "relative_energy_error": -0.00016183548723347485,
+        "angle_mean_degrees": 0.5575010776519775,
+        "angle_p95_degrees": 1.39993417263031,
+        "angle_max_degrees": 2.7157723903656006
+      }
+    },
+    "hdr-roughness": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.6775817275047302,
+          0.6775817275047302,
+          0.6775817275047302
+        ],
+        "native_mean_rgb": [
+          0.6651747226715088,
+          0.6651747226715088,
+          0.6651747226715088
+        ],
+        "mae": 0.017799943685531616,
+        "p95": 0.060546875,
+        "max": 0.2060546875,
+        "relative_energy_error": -0.01831088773906231
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.44938793778419495,
+          0.44938793778419495,
+          0.44938793778419495
+        ],
+        "native_mean_rgb": [
+          0.44882306456565857,
+          0.44882306456565857,
+          0.44882306456565857
+        ],
+        "mae": 0.004456624388694763,
+        "p95": 0.0126953125,
+        "max": 0.076171875,
+        "relative_energy_error": -0.001256983494386077
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.6722086071968079,
+          0.6722086071968079,
+          0.6722086071968079
+        ],
+        "native_mean_rgb": [
+          0.6685034036636353,
+          0.6685034036636353,
+          0.6685034036636353
+        ],
+        "mae": 0.009798666462302208,
+        "p95": 0.05419921875,
+        "max": 0.1142578125,
+        "relative_energy_error": -0.005511984694749117
+      }
+    },
+    "hdr-orm": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.981954038143158,
+          0.8111945986747742,
+          0.0
+        ],
+        "native_mean_rgb": [
+          0.9817690849304199,
+          0.8110435009002686,
+          0.0
+        ],
+        "mae": 0.0015190831618383527,
+        "p95": 0.0068359375,
+        "max": 0.0302734375,
+        "relative_energy_error": -0.0001873750879894942
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.995682954788208,
+          0.5879555940628052,
+          0.0024862366262823343
+        ],
+        "native_mean_rgb": [
+          0.9956052899360657,
+          0.5876429080963135,
+          0.002539357403293252
+        ],
+        "mae": 0.002403920516371727,
+        "p95": 0.011128997430205345,
+        "max": 0.09619140625,
+        "relative_energy_error": -0.000212620769161731
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.9899094700813293,
+          0.8572915196418762,
+          0.0
+        ],
+        "native_mean_rgb": [
+          0.9900379776954651,
+          0.8572112321853638,
+          0.0
+        ],
+        "mae": 0.0018960670568048954,
+        "p95": 0.00830078125,
+        "max": 0.0390625,
+        "relative_energy_error": 2.6039910153485835e-05
+      }
+    },
+    "hdr-normal-length": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.9981314539909363,
+          0.9981314539909363,
+          0.9981314539909363
+        ],
+        "native_mean_rgb": [
+          0.9980665445327759,
+          0.9980665445327759,
+          0.9980665445327759
+        ],
+        "mae": 0.0004007710958831012,
+        "p95": 0.001953125,
+        "max": 0.00439453125,
+        "relative_energy_error": -6.509068771265447e-05
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.9996837377548218,
+          0.9996837377548218,
+          0.9996837377548218
+        ],
+        "native_mean_rgb": [
+          0.9996611475944519,
+          0.9996611475944519,
+          0.9996611475944519
+        ],
+        "mae": 0.00011149088823003694,
+        "p95": 0.0009765625,
+        "max": 0.00390625,
+        "relative_energy_error": -2.2656930013909005e-05
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.9803352355957031,
+          0.9803352355957031,
+          0.9803352355957031
+        ],
+        "native_mean_rgb": [
+          0.9796624183654785,
+          0.9796624183654785,
+          0.9796624183654785
+        ],
+        "mae": 0.0018714388133957982,
+        "p95": 0.0048828125,
+        "max": 0.01318359375,
+        "relative_energy_error": -0.0006863134331069887
+      }
+    },
+    "hdr-macro": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.7203249335289001,
+          0.70253586769104,
+          0.35127606987953186
+        ],
+        "native_mean_rgb": [
+          0.7201897501945496,
+          0.6232731938362122,
+          0.35553058981895447
+        ],
+        "mae": 0.032519806176424026,
+        "p95": 0.25501710176467896,
+        "max": 0.46875,
+        "relative_energy_error": -0.042354874312877655
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.2103695422410965,
+          0.533559262752533,
+          0.5154441595077515
+        ],
+        "native_mean_rgb": [
+          0.21021968126296997,
+          0.533744752407074,
+          0.5172160863876343
+        ],
+        "mae": 0.0007709282799623907,
+        "p95": 0.003173828125,
+        "max": 0.0859375,
+        "relative_energy_error": 0.0014352703001350164
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.5067869424819946,
+          0.40555837750434875,
+          0.42832568287849426
+        ],
+        "native_mean_rgb": [
+          0.5067386627197266,
+          0.4167867600917816,
+          0.44019150733947754
+        ],
+        "mae": 0.010188243351876736,
+        "p95": 0.04443359375,
+        "max": 0.252685546875,
+        "relative_energy_error": 0.017189890146255493
+      }
+    }
+  },
+  "inputs": [
+    {
+      "metadata": "fx-showcase-source-hdr-albedo-manual.json",
+      "binary": "fx-showcase-source-hdr-albedo-manual.world.bin",
+      "sha256": "8f7cbc32ad171f038544e3edae5481deb2110ce874ebd53af2e8dbb62b6d94e6",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-albedo.json",
+      "binary": "fx-showcase-native-hdr-albedo.world.bin",
+      "sha256": "316a4d599dc0c265f4bca216e8b1da0c02866cc2a85e1ab601854db5d36fafd3",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-hdr-normal-manual.json",
+      "binary": "fx-showcase-source-hdr-normal-manual.world.bin",
+      "sha256": "f628a47bdecee95e23daeea463f7772df0edf38403437b1c96824be40e1b7c76",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-normal.json",
+      "binary": "fx-showcase-native-hdr-normal.world.bin",
+      "sha256": "a1fcd3a64a05dcead9dd59f9e8f3b03cfbc40520bf37cd549f472d3d3cf58f03",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-hdr-roughness-manual.json",
+      "binary": "fx-showcase-source-hdr-roughness-manual.world.bin",
+      "sha256": "01aa28197fe949c6763eb0be8181e214528b5ebeb1cc65845dd6f7a9a26c4890",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-roughness.json",
+      "binary": "fx-showcase-native-hdr-roughness.world.bin",
+      "sha256": "099021b1dc53bdf0ec5a8fc576a9d80482148b20307d4039264905ac34335bf8",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-hdr-orm-manual.json",
+      "binary": "fx-showcase-source-hdr-orm-manual.world.bin",
+      "sha256": "754ff98553b4fa6a5e32a14ac126cff51b595278d33366f2741ec85cfafaa7a6",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-orm.json",
+      "binary": "fx-showcase-native-hdr-orm.world.bin",
+      "sha256": "2cee65176aff74f08f86598c3734a26b18d87e2abd98891f280f6dcf1cdc4eeb",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-hdr-normal-length-manual.json",
+      "binary": "fx-showcase-source-hdr-normal-length-manual.world.bin",
+      "sha256": "498893e33fe3090691786d1cfdbd241b5608115706dbf95f609c69e7349f73ee",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-normal-length.json",
+      "binary": "fx-showcase-native-hdr-normal-length.world.bin",
+      "sha256": "56a90735236539fb99bd29a07a06113b409fa82ade4dec219868d25162b8fcb3",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-hdr-macro-manual.json",
+      "binary": "fx-showcase-source-hdr-macro-manual.world.bin",
+      "sha256": "a315503122983c34ea52653a0198a6838fd367a181d404f000f81d1699b2085c",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-hdr-macro.json",
+      "binary": "fx-showcase-native-hdr-macro.world.bin",
+      "sha256": "13aa5e8bf487067a5c1b42846f4f80a67f73d5298fa84ec236549c62f69a4850",
+      "channels": 3,
+      "snapshot_draws": 1403
+    }
+  ],
+  "scope": "Actual linear HDR world buffers, board interior rectangles. Not postprocess RGB or exact separated object masks. Shared tape and frozen age; local point lights and particle batches disabled."
+}

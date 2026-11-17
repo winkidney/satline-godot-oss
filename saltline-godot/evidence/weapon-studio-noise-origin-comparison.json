@@ -1,0 +1,19 @@
+{
+  "source": [
+    0.5732421875,
+    0.324951171875,
+    0.0
+  ],
+  "native": [
+    0.5732421875,
+    0.324951171875,
+    0.0
+  ],
+  "target_exact": true,
+  "quad_max_error": [
+    0.0,
+    0.0,
+    7.152557373046875e-07
+  ],
+  "scope": "Actual weapon studio HDR with production engine origin and ordinary noise diagnostic, no per-shader projection/front-facing rewrite."
+}

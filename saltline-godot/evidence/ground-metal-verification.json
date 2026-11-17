@@ -1,0 +1,10 @@
+{
+  "checks": 25957,
+  "failures": [],
+  "instrumented_response_sha256": "5ec83ad2c8dbb5599b6175649a649155cd7bf66d17c7b46e4ecf32546917e5a3",
+  "metal_points": 2889,
+  "points": 12978,
+  "rects": 55,
+  "scope": "Original live uw.k and level.groundSurfaceAt, default4207/high, 55 baked rects. Grid and exact/epsilon rectangle edges, f64 lossless coordinates/bounds. No other seeds or player movement/pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

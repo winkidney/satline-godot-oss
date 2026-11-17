@@ -1,0 +1,300 @@
+{
+  "name": "01-outdoor-action",
+  "seconds": 55.0015,
+  "frames": 3189,
+  "samples": [
+    {
+      "seconds": 1,
+      "frames": 58,
+      "state": "playing"
+    },
+    {
+      "seconds": 2.0035,
+      "frames": 117,
+      "state": "playing"
+    },
+    {
+      "seconds": 3.000100000023842,
+      "frames": 175,
+      "state": "playing"
+    },
+    {
+      "seconds": 4.000100000023842,
+      "frames": 233,
+      "state": "playing"
+    },
+    {
+      "seconds": 5.0033000000119205,
+      "frames": 292,
+      "state": "playing"
+    },
+    {
+      "seconds": 6.000100000023842,
+      "frames": 350,
+      "state": "playing"
+    },
+    {
+      "seconds": 7.007100000023842,
+      "frames": 409,
+      "state": "playing"
+    },
+    {
+      "seconds": 8.000100000023842,
+      "frames": 467,
+      "state": "playing"
+    },
+    {
+      "seconds": 9.000100000023842,
+      "frames": 525,
+      "state": "playing"
+    },
+    {
+      "seconds": 10.000899999976157,
+      "frames": 584,
+      "state": "playing"
+    },
+    {
+      "seconds": 11.000100000023842,
+      "frames": 642,
+      "state": "playing"
+    },
+    {
+      "seconds": 12,
+      "frames": 701,
+      "state": "playing"
+    },
+    {
+      "seconds": 13.000399999976159,
+      "frames": 751,
+      "state": "playing"
+    },
+    {
+      "seconds": 14.000100000023842,
+      "frames": 809,
+      "state": "playing"
+    },
+    {
+      "seconds": 15.0005,
+      "frames": 868,
+      "state": "playing"
+    },
+    {
+      "seconds": 16.000100000023842,
+      "frames": 926,
+      "state": "playing"
+    },
+    {
+      "seconds": 17.0025,
+      "frames": 985,
+      "state": "playing"
+    },
+    {
+      "seconds": 18.000100000023842,
+      "frames": 1043,
+      "state": "playing"
+    },
+    {
+      "seconds": 19.000100000023842,
+      "frames": 1101,
+      "state": "playing"
+    },
+    {
+      "seconds": 20,
+      "frames": 1160,
+      "state": "playing"
+    },
+    {
+      "seconds": 21.0035,
+      "frames": 1219,
+      "state": "playing"
+    },
+    {
+      "seconds": 22.00060000002384,
+      "frames": 1277,
+      "state": "playing"
+    },
+    {
+      "seconds": 23.00319999998808,
+      "frames": 1336,
+      "state": "playing"
+    },
+    {
+      "seconds": 24.000100000023842,
+      "frames": 1394,
+      "state": "playing"
+    },
+    {
+      "seconds": 25.000100000023842,
+      "frames": 1452,
+      "state": "playing"
+    },
+    {
+      "seconds": 26,
+      "frames": 1495,
+      "state": "playing"
+    },
+    {
+      "seconds": 27,
+      "frames": 1555,
+      "state": "playing"
+    },
+    {
+      "seconds": 28.0225,
+      "frames": 1615,
+      "state": "playing"
+    },
+    {
+      "seconds": 29.02069999998808,
+      "frames": 1673,
+      "state": "playing"
+    },
+    {
+      "seconds": 30,
+      "frames": 1730,
+      "state": "playing"
+    },
+    {
+      "seconds": 31.000100000023842,
+      "frames": 1788,
+      "state": "playing"
+    },
+    {
+      "seconds": 32.003899999976156,
+      "frames": 1847,
+      "state": "playing"
+    },
+    {
+      "seconds": 33,
+      "frames": 1905,
+      "state": "playing"
+    },
+    {
+      "seconds": 34.00039999997616,
+      "frames": 1964,
+      "state": "playing"
+    },
+    {
+      "seconds": 35.00010000002384,
+      "frames": 2022,
+      "state": "playing"
+    },
+    {
+      "seconds": 36,
+      "frames": 2080,
+      "state": "playing"
+    },
+    {
+      "seconds": 37.00010000002384,
+      "frames": 2138,
+      "state": "playing"
+    },
+    {
+      "seconds": 38,
+      "frames": 2197,
+      "state": "playing"
+    },
+    {
+      "seconds": 39.00010000002384,
+      "frames": 2255,
+      "state": "playing"
+    },
+    {
+      "seconds": 40,
+      "frames": 2314,
+      "state": "playing"
+    },
+    {
+      "seconds": 41,
+      "frames": 2372,
+      "state": "playing"
+    },
+    {
+      "seconds": 42.00010000002384,
+      "frames": 2430,
+      "state": "playing"
+    },
+    {
+      "seconds": 43.00160000002384,
+      "frames": 2489,
+      "state": "playing"
+    },
+    {
+      "seconds": 44,
+      "frames": 2547,
+      "state": "playing"
+    },
+    {
+      "seconds": 45.00010000002384,
+      "frames": 2605,
+      "state": "playing"
+    },
+    {
+      "seconds": 46.00010000002384,
+      "frames": 2664,
+      "state": "playing"
+    },
+    {
+      "seconds": 47.00010000002384,
+      "frames": 2722,
+      "state": "playing"
+    },
+    {
+      "seconds": 48.002100000023844,
+      "frames": 2781,
+      "state": "playing"
+    },
+    {
+      "seconds": 49.00010000002384,
+      "frames": 2839,
+      "state": "playing"
+    },
+    {
+      "seconds": 50,
+      "frames": 2897,
+      "state": "playing"
+    },
+    {
+      "seconds": 51.00169999998808,
+      "frames": 2956,
+      "state": "playing"
+    },
+    {
+      "seconds": 52,
+      "frames": 3014,
+      "state": "playing"
+    },
+    {
+      "seconds": 53.00010000002384,
+      "frames": 3072,
+      "state": "playing"
+    },
+    {
+      "seconds": 54,
+      "frames": 3131,
+      "state": "playing"
+    },
+    {
+      "seconds": 55,
+      "frames": 3189,
+      "state": "playing"
+    }
+  ],
+  "stats": {
+    "calls": 592,
+    "tris": 3075318,
+    "geos": 275,
+    "tex": 158,
+    "programs": 136,
+    "res": [
+      1920,
+      1080
+    ],
+    "scale": 1,
+    "advanced": true,
+    "softShadows": true,
+    "fps": 58.7,
+    "state": "playing"
+  },
+  "fatal": null,
+  "errors": []
+}

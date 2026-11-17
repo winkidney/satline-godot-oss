@@ -1,0 +1,11 @@
+{
+  "cases": 2,
+  "checks": 28426,
+  "draws": 5331,
+  "failures": [],
+  "maximum_error": 0.000000476837158203125,
+  "methods_sha256": "0b939540b9e594e5bff26529b724a46e0d832a99ec435414dfadf1f8082d2aa3",
+  "scope": "Original G/oe/M/u1 steam, embers, smolder and unknown kinds; shared24 pool, overflow, position/stop/reuse, strict ttl/accumulator, clear and lit/add2/256 saturation. Particle generation states only, no motion/pixel, fire or drip.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps_per_case": 51
+}

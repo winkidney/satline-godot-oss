@@ -1,0 +1,133 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "runner_sha256": "0e36949f7f0814221979becaf2803b35db4b246e0dcec242fed1f825dff83993",
+  "reference_sha256": "e49f5dc21c9eff205964112fc894a62d9c81a0e166c0bb53dc4eb2b54f85d22f",
+  "variants": [
+    {
+      "part": "both",
+      "actors": 2,
+      "bone_count": 33,
+      "maximum_group_matrix_error": 1.09303804118888e-07,
+      "maximum_local_bone_error": 9.65987033960114e-07,
+      "maximum_world_bone_error": 8.66730663684478e-07,
+      "maximum_light_errors": {
+        "color": 8.34465027077513e-08,
+        "intensity": 0.0,
+        "position": 6.6640019724673e-08,
+        "range": 0.0
+      },
+      "rgb8_descriptive": {
+        "mae": 1.4328208188657408,
+        "p95": 9.0,
+        "p99": 13.0,
+        "max": 220.0
+      },
+      "runtime_report_sha256": "f01b57d3d11e9109d04af126d5fdc8523950f0b22cf55aa32efb7eaea2e8cf35"
+    },
+    {
+      "part": "gull",
+      "actors": 1,
+      "bone_count": 13,
+      "maximum_group_matrix_error": 6.96192005156249e-08,
+      "maximum_local_bone_error": 1.47041463960385e-06,
+      "maximum_world_bone_error": 1.61385593117069e-06,
+      "maximum_light_errors": {
+        "color": 8.34465027077513e-08,
+        "intensity": 0.0,
+        "position": 2.38418579101562e-07,
+        "range": 0.0
+      },
+      "rgb8_descriptive": {
+        "mae": 1.3741229021990742,
+        "p95": 8.0,
+        "p99": 12.0,
+        "max": 33.0
+      },
+      "runtime_report_sha256": "50cf48fdbe300ac5f748bf37c3bc00d4105206edc47ba7fee3dfe6e11b893352"
+    },
+    {
+      "part": "hound",
+      "actors": 1,
+      "bone_count": 20,
+      "maximum_group_matrix_error": 4.23915478275916e-08,
+      "maximum_local_bone_error": 1.24201509854593e-07,
+      "maximum_world_bone_error": 1.06982280367873e-07,
+      "maximum_light_errors": {
+        "color": 8.34465027077513e-08,
+        "intensity": 0.0,
+        "position": 0.0,
+        "range": 0.0
+      },
+      "rgb8_descriptive": {
+        "mae": 1.4093406394675927,
+        "p95": 9.0,
+        "p99": 13.0,
+        "max": 158.0
+      },
+      "runtime_report_sha256": "4bebfd9e251f5b992d4f8bf3c723c9d8374bd83055338eeb164871c94ce5ab5b"
+    },
+    {
+      "part": "fight-controlled",
+      "actors": 5,
+      "bone_count": 86,
+      "maximum_group_matrix_error": 2.67324316638451e-06,
+      "maximum_local_bone_error": 1.23402012139895e-05,
+      "maximum_world_bone_error": 1.14491574282338e-05,
+      "maximum_light_errors": {
+        "color": 8.34465027077513e-08,
+        "intensity": 0.0,
+        "position": 1.71926080838603e-06,
+        "range": 1.90734863458886e-07
+      },
+      "rgb8_descriptive": {
+        "mae": 0.9753779658564815,
+        "p95": 6.0,
+        "p99": 11.0,
+        "max": 154.0
+      },
+      "runtime_report_sha256": "966e4d0e3543cbafbebea42268a3283ea047b870c89a051fe75cc9e1dce5f9b3"
+    },
+    {
+      "part": "dead",
+      "actors": 3,
+      "bone_count": 53,
+      "maximum_group_matrix_error": 6.21944083789572e-07,
+      "maximum_local_bone_error": 2.35758950757614e-06,
+      "maximum_world_bone_error": 1.78038173637152e-06,
+      "maximum_light_errors": {
+        "color": 8.34465027077513e-08,
+        "intensity": 1.11022302462516e-16,
+        "position": 1.91019876183418e-06,
+        "range": 0.0
+      },
+      "rgb8_descriptive": {
+        "mae": 1.7338425925925927,
+        "p95": 9.0,
+        "p99": 17.0,
+        "max": 162.0
+      },
+      "runtime_report_sha256": "cc409bcd916ed29b681333150ea8c82747eba1be0b4d5ad838977e00955d36a3"
+    }
+  ],
+  "controlled_fight_final_report": "enemies-fight-light-hashed.json",
+  "controlled_fight_final_report_sha256": "991aa306b13d1f439fa4a8d610c926e4664632e27b31e3066c3eaec4bcb6870a",
+  "live": {
+    "report": "enemies-live-bootstrap.json",
+    "prewarm_end_time": 2.6,
+    "final_enemy_time": 2.95024911111111,
+    "unmeasured_errors": null
+  },
+  "fight_before_after_rgb8": {
+    "before": {
+      "mae": 3.05723560474537,
+      "p95": 10.0,
+      "p99": 79.0
+    },
+    "after": {
+      "mae": 0.8527434172453704,
+      "p95": 5.0,
+      "p99": 10.0
+    }
+  },
+  "scope": "Five original frozen prewarm endpoints: root/local/world bone matrices and all6 pool-light position/intensity/linear-color/range. Runtime limits1e-4 pose/position,1e-6 energy,1e-5 color/range. Fixed showcase warmup camera at origin and3 global bootstrap updates. Live bootstrap advances unfrozen enemies; non-comparisons are null. Does not prove full trajectories, all FX rendering, full pixel parity or Main gameplay. Changes are source-only after r8."
+}

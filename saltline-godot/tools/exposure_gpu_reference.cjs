@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8800/saltline-godot/tools/exposure_reference.html');const result=await page.evaluate(async()=>await window.ready);return {exports:[{name:'saltline-exposure-reference.json',base64:btoa(unescape(encodeURIComponent(JSON.stringify(result))))}],samples:result.samples.length,three:result.three};}

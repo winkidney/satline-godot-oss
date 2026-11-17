@@ -1,0 +1,183 @@
+{
+  "checks": 25,
+  "enabled_source_materials": 1,
+  "failures": [
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    },
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    },
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    },
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    },
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    },
+    {
+      "control": "disabled path did not expose oct16 error",
+      "mode": 0,
+      "value": 0.0
+    }
+  ],
+  "samples": [
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    }
+  ],
+  "scope": "Actual source material binding and actual decal CUSTOM2 mesh. Production Standard/alpha vertex retained, fragment replaced with amplified local/world/sun-offset diagnostics; exact-normal on plus off control. HDR target16x16; not full original shaded pixels."
+}

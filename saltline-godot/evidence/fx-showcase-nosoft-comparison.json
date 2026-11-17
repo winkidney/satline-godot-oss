@@ -1,0 +1,5 @@
+{
+  "full_mae": 0.0025344456358932462,
+  "effect_mae": 0.01520098765432099,
+  "scope": "Soft particles disabled in both originals/native as diagnostic only; no production behavior removed."
+}

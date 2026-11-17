@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8805/saltline-godot/tools/local_light_reference.html');const result=await page.evaluate(async()=>await window.ready);return {exports:[{name:'saltline-local-light-reference.json',base64:btoa(unescape(encodeURIComponent(JSON.stringify(result))))}],cases:result.cases.length};}

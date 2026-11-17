@@ -1,0 +1,19 @@
+{
+  "cold_start_asset_quality": "high",
+  "failures": [],
+  "frames": 6,
+  "gpu_texture_hash_checks": 3,
+  "lighting_ready": 4,
+  "materials": 1,
+  "names": [
+    "concrete"
+  ],
+  "nodes": 4,
+  "prop_names": [],
+  "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+  "shadow_casters": 3,
+  "textures": 3,
+  "vertex_color_mesh_checks": 0,
+  "wet_materials": 0,
+  "wet_override": null
+}

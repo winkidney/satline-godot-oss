@@ -1,0 +1,59 @@
+<!doctype html><meta charset="utf-8"><title>Source NVIDIA polygon offset diagnostic</title>
+<script>
+window.ready = (async () => {
+  const src = await (await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text();
+  const T = eval(src.slice(0, src.indexOf('  var Kn = {')) + 'return ut;})()');
+  const renderer = new T.WebGLRenderer({ antialias: false });
+  renderer.debug.onShaderError = (gl, p, vs, fs) => { throw Error(gl.getShaderInfoLog(vs) + gl.getShaderInfoLog(fs) + gl.getProgramInfoLog(p)); };
+  const gl = renderer.getContext(), size = 32, debug = gl.getExtension('WEBGL_debug_renderer_info');
+  if (!gl.getExtension('EXT_color_buffer_float')) throw Error('RGBA32F render target unsupported');
+  renderer.setSize(size, size);
+  const depth = new T.DepthTexture(size, size, T.UnsignedIntType);
+  depth.format = T.DepthFormat;
+  depth.minFilter = depth.magFilter = T.NearestFilter;
+  const target = new T.WebGLRenderTarget(size, size, { type: T.HalfFloatType, depthBuffer: true, stencilBuffer: false, depthTexture: depth, samples: 0 });
+  const readTarget = new T.WebGLRenderTarget(size, size, { type: T.FloatType, depthBuffer: false, stencilBuffer: false, minFilter: T.NearestFilter, magFilter: T.NearestFilter });
+  const material = new T.RawShaderMaterial({ glslVersion: T.GLSL3, uniforms: { uDepth: { value: .5 }, uSlope: { value: new T.Vector2() } },
+    vertexShader: 'precision highp float; in vec3 position; uniform float uDepth; uniform vec2 uSlope; void main(){float d=uDepth+dot(position.xy,uSlope);gl_Position=vec4(position.xy,2.0*d-1.0,1.0);}',
+    fragmentShader: 'precision highp float; out vec4 color; void main(){color=vec4(1.0);}',
+    side: T.DoubleSide, depthTest: true, depthWrite: true, blending: T.NoBlending, toneMapped: false });
+  const scene = new T.Scene(), camera = new T.Camera(), quad = new T.Mesh(new T.PlaneGeometry(2, 2), material);
+  quad.frustumCulled = false; scene.add(quad);
+  const copyScene = new T.Scene(), copy = new T.Mesh(new T.PlaneGeometry(2, 2), new T.RawShaderMaterial({ glslVersion: T.GLSL3, uniforms: { uDepth: { value: depth } },
+    vertexShader: 'precision highp float; in vec3 position; void main(){gl_Position=vec4(position.xy,0.0,1.0);}',
+    fragmentShader: 'precision highp float; precision highp sampler2D; uniform sampler2D uDepth; out vec4 color; void main(){float d=texelFetch(uDepth,ivec2(gl_FragCoord.xy),0).r;color=vec4(d,d,d,1.0);}',
+    depthTest: false, depthWrite: false, blending: T.NoBlending, toneMapped: false }));
+  copy.frustumCulled = false; copyScene.add(copy);
+  const points = [[3,5],[11,7],[23,9],[7,19],[17,21],[27,25],[15,16],[16,15]];
+  let attachment;
+  function capture(d, slope, range, enabled, factor, units) {
+    material.uniforms.uDepth.value = d; material.uniforms.uSlope.value.set(...slope);
+    material.polygonOffset = enabled; material.polygonOffsetFactor = factor; material.polygonOffsetUnits = units;
+    renderer.setRenderTarget(target); gl.depthRange(0, range); renderer.clear(); renderer.render(scene, camera);
+    if (!attachment) attachment = { depthBits: gl.getParameter(gl.DEPTH_BITS), framebufferDepthSize: gl.getFramebufferAttachmentParameter(gl.FRAMEBUFFER, gl.DEPTH_ATTACHMENT, gl.FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE), framebufferComplete: gl.checkFramebufferStatus(gl.FRAMEBUFFER) === gl.FRAMEBUFFER_COMPLETE, samples: gl.getParameter(gl.SAMPLES), depthTextureType: depth.type, depthTextureFormat: depth.format };
+    const actualRange = Array.from(gl.getParameter(gl.DEPTH_RANGE));
+    renderer.setRenderTarget(readTarget); gl.depthRange(0, 1); renderer.render(copyScene, camera);
+    const pixels = new Float32Array(size * size * 4);
+    renderer.readRenderTargetPixels(readTarget, 0, 0, size, size, pixels);
+    const values = points.map(([x,y]) => pixels[(y*size+x)*4]);
+    const bits = new Uint32Array(new Float32Array(values).buffer);
+    const error = gl.getError(); if (error) throw Error('GL error '+error);
+    return { values, bits: Array.from(bits), actualRange };
+  }
+  const cases = [];
+  for (const range of [1, .05]) for (const d of [.001,.01,.1,.25,.5,.75,.99]) {
+    const amplitude = Math.min(.08, .2 * Math.min(d, 1-d));
+    const slopes = [[0,0],[amplitude,0],[0,amplitude],[amplitude,amplitude*.5]];
+    for (let shape=0; shape<slopes.length; shape++) {
+      const slope=slopes[shape], baseline=capture(d,slope,range,false,0,0);
+      const settings=shape===0 ? Array.from({length:9},(_,i)=>[0,i-4]) : [[0,-4],[0,-2],[0,2],[0,4],[-2,0],[-3,0],[-4,0],[-2,-2],[-3,-3],[-4,-4]];
+      for (const [factor,units] of settings) {
+        const biased=capture(d,slope,range,true,factor,units);
+        cases.push({depth:d,shape,slope,range,factor,units,baseline,biased,delta:biased.values.map((v,i)=>v-baseline.values[i]),analyticSlope:Math.max(...slope.map(Math.abs))*2/size*range});
+      }
+    }
+  }
+  target.dispose(); readTarget.dispose(); material.dispose(); copy.material.dispose();
+  return { schema: 1, purpose: 'Hardware polygonOffset diagnostic; controlled depthWrite=true, not a production material replacement', source: 'Original bundled Three r'+T.REVISION, backend: debug ? gl.getParameter(debug.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER), vendor: debug ? gl.getParameter(debug.UNMASKED_VENDOR_WEBGL) : gl.getParameter(gl.VENDOR), version: gl.getParameter(gl.VERSION), attachment, width:size,height:size,origin:'bottom-left',points,readback:'DepthTexture nearest texelFetch to RGBA32F, Float32Array',cases };
+})();
+</script>

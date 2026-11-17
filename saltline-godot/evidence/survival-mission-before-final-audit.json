@@ -1,0 +1,84 @@
+{
+  "combat": {
+    "blasts": 4,
+    "hits": 31,
+    "kills": 13,
+    "shots": 60
+  },
+  "completion_menu": "complete",
+  "cut": 3,
+  "damage_events": [],
+  "debrief": {
+    "accuracy": 0.516666666666667,
+    "kills": 13,
+    "rating": "Surgical",
+    "retries": 0,
+    "time": 47.8999999999998
+  },
+  "difficulty": "standard",
+  "distance": 146.889940741938,
+  "failures": [],
+  "frames": 1462,
+  "health": 100.0,
+  "legs": [
+    {
+      "done": true,
+      "leg": 0,
+      "position": [
+        0.0316400192677975,
+        0.0,
+        6.31275129318237
+      ],
+      "reached_waypoint": 5,
+      "steps": 413,
+      "waypoints": 9
+    },
+    {
+      "done": true,
+      "leg": 1,
+      "position": [
+        -0.797062635421753,
+        0.0299999993294477,
+        -18.0669860839844
+      ],
+      "reached_waypoint": 6,
+      "steps": 426,
+      "waypoints": 8
+    },
+    {
+      "done": true,
+      "leg": 2,
+      "position": [
+        21.5673370361328,
+        0.0,
+        -1.24622642993927
+      ],
+      "reached_waypoint": 7,
+      "steps": 404,
+      "waypoints": 10
+    },
+    {
+      "done": true,
+      "leg": 3,
+      "position": [
+        27.9423828125,
+        0.0,
+        17.9827842712402
+      ],
+      "reached_waypoint": 7,
+      "steps": 219,
+      "waypoints": 8
+    }
+  ],
+  "minimum_health": 100.0,
+  "protected_live_frames": 0,
+  "rifle_ammo": 30,
+  "rifle_reserve": 90.0,
+  "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Not human play/balance acceptance.",
+  "start": [
+    -32.0,
+    0.0,
+    6.0
+  ],
+  "state": "complete"
+}

@@ -1,0 +1,7 @@
+{
+  "failures": [],
+  "fields": 3300,
+  "frames": 300,
+  "maximum_error": 0.00000000000000177635683940025,
+  "scope": "Actual original relay setState/update; live pulse, cutting flicker/spinner, cut fade and spring hinge, reset and dt cap"
+}

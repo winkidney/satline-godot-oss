@@ -1,0 +1,56 @@
+{
+  "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "source_archive_sha256": "f4fda09a2c5307a719f2879fab4d4bbce16ee64a0e20dfb9f59061a901670a86",
+  "patch_sha256": "cb86dd61338593418e7dcce1947e4ed01c9e84bb43069c1e9ebc71dce66e2fa1",
+  "files": [
+    "servers/rendering/renderer_scene_render.h",
+    "servers/rendering/renderer_scene_render.cpp",
+    "servers/rendering/renderer_scene_cull.cpp",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h",
+    "servers/rendering/renderer_rd/renderer_scene_render_rd.cpp",
+    "servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp",
+    "version.py",
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h",
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp",
+    "servers/rendering/shader_types.cpp",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp"
+  ],
+  "scope": "Private mono-oblique reference projection plus sceneD24S8 preference andfour staticForward+ hardwarepolygonbias modes. Engine optiondefaultfalse,project opted-intrue;not generalXR/multiview orcross-driver bit equivalence.",
+  "build_dependencies": {
+    "scons": "4.11.1",
+    "zstandard": "0.25.0"
+  },
+  "patched_file_sha256": {
+    "servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp": "db6295f50b882cc2fced72cf89f3cb3d86de40012819d717da902c199f0c9cf7",
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp": "78f084e2e6ee6b50b86e7002ffa5598664b6a32946408164bc1ab83631d018fc",
+    "servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h": "d1250701daa1f4806fa5668d47d6ec860412774fe2a68e2ae1bb62412d95c9bd",
+    "servers/rendering/renderer_rd/renderer_scene_render_rd.cpp": "046cf2dc378fb6ca92a14ce5c82aac219f01bfc8f3b2b7940ff0d3a6126e2f00",
+    "servers/rendering/renderer_rd/shaders/forward_clustered/scene_forward_clustered_inc.glsl": "bf8c46c0d00edf14c5116082931cab4be11f7dd79b58171174628996018224f8",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp": "12e69eb0d8413cbe4e612f7c21b1d9d09a620bb609288dd24b8cbcf4b98cd144",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h": "8ae0c4b3290d5fb0974fed61926115bc78fb0570417e564b557ecb4d58113794",
+    "servers/rendering/renderer_scene_cull.cpp": "020053d82a40e57f3957b4388adb0b777a8d7c6360a537d4cb513ffb6e0d7e3f",
+    "servers/rendering/renderer_scene_render.cpp": "ffa950eec02ae782fc5528e12549a1a988aa0425eebc9ff69531e26da5118268",
+    "servers/rendering/renderer_scene_render.h": "2361f2612c2454130225583c020bca7f0a9617f40e2f3acd08b8ae44fc7c6db4",
+    "servers/rendering/shader_compiler.cpp": "2d9f713cf47b83253afe208fd75f6cc50d3a16248032a5b7842f314293218eb2",
+    "servers/rendering/shader_compiler.h": "ae87d0f182106f6a97474d14ed010463490ac84f44a082d339f13bd732154db1",
+    "servers/rendering/shader_language.cpp": "156d439273fb476b7a148620bbcd69d35573046d5be8e7c46f28e679ea35c7b2",
+    "servers/rendering/shader_language.h": "a718d860766ec1b68adb7db417393fb90d71e9710865caaed5ab56fa6e8be33f",
+    "servers/rendering/shader_types.cpp": "a73bc84c816eec8b4a616abca62cc2425fda98f477c0a48fb006e1afe20fc348",
+    "version.py": "bc549019cbc3bd24cceddeb7e5cf2d73aeab7f11d60b53ff9ff2991f98cb2b9c"
+  },
+  "build_command": [
+    "scons",
+    "platform=linuxbsd",
+    "target=template_debug",
+    "arch=x86_64",
+    "wayland=no",
+    "use_static_cpp=no",
+    "debug_symbols=no",
+    "lto=none",
+    "disable_path_overrides=no",
+    "-j8"
+  ],
+  "build_state": "built anddefaultproject enabled. Fresharchive patch11 SHA checks;50Forward+ bias,32transparency,48materials75meshes,mapped;four actualD24attachments,sun/AO/volume/planar/lifecycle and780gameflow pass. Fulloriginalpixel/weaponrangequantization/crossdriver scope remains.",
+  "source_archive_url": "https://codeload.github.com/godotengine/godot/tar.gz/ed1daf0bf",
+  "patch_file": "patches/0002-saltline-render-fixed4.patch"
+}

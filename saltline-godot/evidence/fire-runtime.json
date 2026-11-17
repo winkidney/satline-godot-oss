@@ -1,0 +1,19 @@
+{
+  "failures": [],
+  "frames": 240,
+  "samples": [
+    {
+      "add": 27,
+      "frame": 60,
+      "intensity": 7.58729567184615,
+      "lit": 3
+    },
+    {
+      "add": 55,
+      "frame": 120,
+      "intensity": 16.5051600369056,
+      "lit": 7
+    }
+  ],
+  "scope": "Actual Main production FX/render pipeline, fire particles and persistent light shader data; TTL/reuse/clear, original non-following light position. Paired on/off light captures hold FX simulation and world dt fixed. No source browser pixels, real performance or drip proof."
+}

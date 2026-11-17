@@ -1,0 +1,19 @@
+{
+  "regeneration_idempotent": {
+    "ground": true,
+    "sea": true,
+    "arms": true
+  },
+  "direct_all_present": true,
+  "ground_planar_present": true,
+  "sha256": {
+    "ground": "349184fb699ce56c7d7598ce1cbf0fc1de67d0bd20a04d4ab3fc2afffe741f71",
+    "sea": "f81f6ed8ee560b59fa667c6abe6d5d6595df9de9a3e7f8c76b39066bc3328b33",
+    "arms": "54a0da22bf7fba96a4102862ce0591f44dbfa17999cca54c30b73b31537d3e52"
+  },
+  "reinjection_idempotent": {
+    "ground": true,
+    "sea": true,
+    "arms": true
+  }
+}

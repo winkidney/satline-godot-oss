@@ -1,0 +1,1 @@
+async(page)=>await page.evaluate(()=>({ready:__ready,step:__step,errors:__errors,weapon:__G.weapon.current,arms:Object.keys(__G.weapon.arms),debug:Object.keys(__G.weapon.debug),camera:__G.camera.uuid}))

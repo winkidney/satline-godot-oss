@@ -1,0 +1,5 @@
+{
+  "checks": 16,
+  "failures": [],
+  "scope": "Actual native input accumulator and player look, source mouse gain/spike/ADS/sign/wrap/wheel cooldown; Main parse only. Native wheel notch units differ from browser pixel deltaY; no real OS pointer event acceptance proof."
+}

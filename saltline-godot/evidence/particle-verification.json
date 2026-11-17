@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "drag and wind",
+    "gravity",
+    "turbulence",
+    "bounce",
+    "kill on floor",
+    "stop on floor",
+    "sorted output",
+    "three color ramps",
+    "fade in/out",
+    "size easing",
+    "rotation",
+    "capacity and lifetime"
+  ],
+  "failures": [],
+  "fields_compared": 3376,
+  "frames": 92,
+  "max_field_error": 0.0000015923922696004
+}

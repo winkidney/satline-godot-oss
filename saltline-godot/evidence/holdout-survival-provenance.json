@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-16",
+  "runtime_exit_code": 0,
+  "log": "/tmp/saltline-holdout-survival-final.log",
+  "files": {
+    "tools/verify_holdout_survival.gd": "2484221914e2aa12c0721098f489cded26ef1708100906b92b1e42e6eafb61a9",
+    "scripts/main.gd": "9ae12a5d46367c00a51447f530831dd9dca87020d6388e998252000b6f3a9e61",
+    "scripts/mission.gd": "f48bf92c4a592c7ec52208423d2934b89d2d8d3dc9b2f73335fec7cdc77552d9",
+    "scripts/game_flow.gd": "9ac8110651252769356ab514d987348a8da2ba8067b3475385e032c9c3a31fd6",
+    "scripts/combat.gd": "4186592d22fd4b638148e96ec5886b857780681adb0c59be7957a4d02f4c85ea"
+  },
+  "report": "holdout-survival.json",
+  "capture": "holdout-survival.png",
+  "production_changes": false,
+  "capture_settle": "60 render updates after controlled gameplay, simulation stopped; final UI fade settled"
+}

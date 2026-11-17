@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-11-14T16:02:14.367001+00:00",
+  "original_hash_unchanged": true,
+  "original_capture_states": 36,
+  "godot_capture_states": 42,
+  "original_dynamic_webp_lossless_checked": true,
+  "numeric_ranges": {
+    "numeric-depthHalf.bin": {
+      "min": 0.009999999776482582,
+      "max": 899.8077392578125,
+      "values": 230400
+    },
+    "numeric-volA.bin": {
+      "min": 0.0,
+      "max": 2.099609375,
+      "values": 921600
+    },
+    "numeric-adapt.bin": {
+      "min": 0.0,
+      "max": 1.0,
+      "values": 4
+    },
+    "numeric-fabric-height-packed.bin": {
+      "min": 0,
+      "max": 255,
+      "values": 262144
+    }
+  },
+  "local_links_checked": 291,
+  "source_anchors_checked": 123,
+  "godot_capture_hashes_checked": 43,
+  "godot_final_log_clean": true,
+  "limitations": [
+    "No complete game QA",
+    "No end-to-end frame budget acceptance",
+    "Godot is teaching approximation, not visual parity"
+  ],
+  "errors": []
+}

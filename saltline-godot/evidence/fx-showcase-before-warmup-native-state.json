@@ -1,0 +1,265 @@
+{
+  "add": 53,
+  "auto_exposure": true,
+  "explosions": 1,
+  "exposure": 1.0,
+  "fov": 74.0,
+  "frames": 3,
+  "frozen": true,
+  "impacts": 0,
+  "lights": [
+    {
+      "busy": true,
+      "color": [
+        1.0,
+        0.886274516582489,
+        0.690196096897125
+      ],
+      "intensity": 144.0,
+      "linear_radiance": [
+        144.0,
+        109.515529632568,
+        62.518120765686
+      ],
+      "ttl": 0.03
+    },
+    {
+      "busy": true,
+      "color": [
+        1.0,
+        0.541176497936249,
+        0.18823529779911
+      ],
+      "intensity": 58.6666666666667,
+      "linear_radiance": [
+        58.6666666666667,
+        14.9102559089661,
+        1.73400088151296
+      ],
+      "ttl": 0.4
+    },
+    {
+      "busy": false,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.0,
+      "linear_radiance": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ttl": 0.0
+    },
+    {
+      "busy": false,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.0,
+      "linear_radiance": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ttl": 0.0
+    },
+    {
+      "busy": false,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.0,
+      "linear_radiance": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ttl": 0.0
+    },
+    {
+      "busy": false,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.0,
+      "linear_radiance": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ttl": 0.0
+    }
+  ],
+  "lit": 55,
+  "mode": "explosion",
+  "scope": "Standalone native showcase runtime; source rendering parity remains under investigation.",
+  "shells": 0,
+  "snapshot_draws": 1403,
+  "surfaces": [
+    {
+      "local_active": true,
+      "name": "concrete",
+      "sun_active": true,
+      "uniforms": {
+        "base_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "interior": 1.0,
+        "macro_params": [
+          0.219999998807907,
+          0.119999997317791,
+          0.349999994039536,
+          0.349999994039536
+        ],
+        "metallic_value": 1.0,
+        "roughness_value": 1.0,
+        "source_ibl_explicit_intensity": 1.0,
+        "source_ibl_explicit_room": false,
+        "source_ibl_ready": true,
+        "source_ibl_view_fill": 1.15315083507389,
+        "source_ibl_view_room": false,
+        "source_local_ready": true,
+        "source_sun_ready": true,
+        "source_uv_scale": [
+          1.0,
+          1.0
+        ],
+        "wet_params": [
+          0.419999986886978,
+          0.379999995231628,
+          0.5,
+          0.0
+        ],
+        "wetness": 1.0
+      }
+    },
+    {
+      "local_active": true,
+      "name": "paint_blue",
+      "sun_active": true,
+      "uniforms": {
+        "base_color": [
+          0.0137020833790302,
+          0.0497065670788288,
+          0.132868319749832
+        ],
+        "interior": 1.0,
+        "macro_params": [
+          0.200000002980232,
+          0.159999996423721,
+          0.400000005960464,
+          0.449999988079071
+        ],
+        "metallic_value": 1.0,
+        "roughness_value": 1.0,
+        "source_ibl_explicit_intensity": 1.0,
+        "source_ibl_explicit_room": false,
+        "source_ibl_ready": true,
+        "source_ibl_view_fill": 1.15315083507389,
+        "source_ibl_view_room": false,
+        "source_local_ready": true,
+        "source_sun_ready": true,
+        "source_uv_scale": [
+          1.0,
+          1.0
+        ],
+        "wet_params": [
+          0.0500000007450581,
+          0.620000004768372,
+          0.649999976158142,
+          0.699999988079071
+        ],
+        "wetness": 1.0
+      }
+    },
+    {
+      "local_active": true,
+      "name": "wood_pallet",
+      "sun_active": true,
+      "uniforms": {
+        "base_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "interior": 1.0,
+        "macro_params": [
+          0.200000002980232,
+          0.100000001490116,
+          0.899999976158142,
+          0.400000005960464
+        ],
+        "metallic_value": 1.0,
+        "roughness_value": 1.0,
+        "source_ibl_explicit_intensity": 1.0,
+        "source_ibl_explicit_room": false,
+        "source_ibl_ready": true,
+        "source_ibl_view_fill": 1.15315083507389,
+        "source_ibl_view_room": false,
+        "source_local_ready": true,
+        "source_sun_ready": true,
+        "source_uv_scale": [
+          1.0,
+          1.0
+        ],
+        "wet_params": [
+          0.400000005960464,
+          0.5,
+          0.600000023841858,
+          0.0
+        ],
+        "wetness": 1.0
+      }
+    },
+    {
+      "local_active": true,
+      "name": "ShowcaseGround",
+      "sun_active": true,
+      "uniforms": {
+        "base_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "interior": 1.0,
+        "macro_params": [
+          0.219999998807907,
+          0.119999997317791,
+          0.349999994039536,
+          0.349999994039536
+        ],
+        "metallic_value": 1.0,
+        "roughness_value": 1.0,
+        "source_ibl_explicit_intensity": 1.0,
+        "source_ibl_explicit_room": false,
+        "source_ibl_ready": true,
+        "source_ibl_view_fill": 1.15315083507389,
+        "source_ibl_view_room": false,
+        "source_local_ready": true,
+        "source_sun_ready": true,
+        "source_uv_scale": [
+          1.0,
+          1.0
+        ],
+        "wet_params": [
+          0.419999986886978,
+          0.379999995231628,
+          0.5,
+          0.0
+        ],
+        "wetness": 1.0
+      }
+    }
+  ]
+}

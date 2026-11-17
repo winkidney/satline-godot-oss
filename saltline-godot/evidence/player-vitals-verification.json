@@ -1,0 +1,9 @@
+{
+  "deaths": 1,
+  "failures": [],
+  "fields": 9015,
+  "frames": 600,
+  "hits": 3,
+  "maximum_error": 0.00000380330924087957,
+  "scope": "Actual original damage/heal/W and dead N/Z/Q; controlled flat collision; living frames isolate regen and post pulses"
+}

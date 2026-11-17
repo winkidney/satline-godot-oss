@@ -1,0 +1,1 @@
+async(page)=>{await page.goto('http://127.0.0.1:8801/saltline-godot/tools/finish_reference.html');const result=await page.evaluate(async()=>await window.ready);return {exports:[{name:'saltline-finish-reference.json',base64:btoa(unescape(encodeURIComponent(JSON.stringify(result))))}],cases:result.cases.length,three:result.three};}

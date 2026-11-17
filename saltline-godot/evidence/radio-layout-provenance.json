@@ -1,0 +1,18 @@
+{
+  "files": {
+    "project.godot": "cf47eb9cbfb9433233e39ba8cfbc6a492b8bbca5fae2c514f2f246beb8d9d37d",
+    "scripts/radio_hud.gd": "8029ce40291bb30f33f6752467c70f77e6b73b520f5f5c001f0183b033bc96ab",
+    "tools/radio_layout_reference.cjs": "6459755df6ff76e4bdbbd9905a73094fc0fdce0804e95cdb831f0a6b814ce896",
+    "tools/verify_radio_layout.gd": "6972665e2b0aa339cac72175f7e93f460fad0c52c88cad0aa47a4fb4b154eb5e",
+    "assets/export/fixtures/radio-layout-reference.json": "bd2d17dde29d584769c3062f163ef935cf0c0b20396a798f1f7e192b2b12c019"
+  },
+  "runtime_exit_code": 0,
+  "log_sha256": "c5c97066523d9808a4b3b15e751316b8d3e30398ddfaff54b0feb9b3691f6e97",
+  "cases": 10,
+  "failures": [],
+  "source": "Original HTML CSS lines164-167,193,340-350, actual Chrome and original bundled font",
+  "resolution": "Each soft-wrapped inline clone fragment reserves left padding; final word also reserves right padding. Full 8px+8px background remains on every line, overflow aligns to parent start. No increased error tolerance.",
+  "scope": "Actual RadioHud draw calls and screenshots:360/760/761/1280, desktop/touch, plus final-fragment boundary. Font size, letter spacing, line height and exact sample line strings match original CSS. No whole-image pixel or all-text-wrap proof.",
+  "previous_failed_report": "radio-layout-wrap-residual.json",
+  "bundle_status": "Source fix after r12; current runtime package remains r12"
+}

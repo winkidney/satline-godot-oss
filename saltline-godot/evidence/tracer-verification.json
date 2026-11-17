@@ -1,0 +1,7 @@
+{
+  "failures": [],
+  "max_quad_field_error": 0.000000715255737304688,
+  "random_alignment": "First sample only; subsequent motion and all three output quads compared with original source",
+  "short_tracer_min_frames": 2,
+  "source_frames": 12
+}

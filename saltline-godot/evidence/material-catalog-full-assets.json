@@ -1,0 +1,14 @@
+{
+  "requested_count": 48,
+  "nodes": 175,
+  "material_variants": 85,
+  "geometries": 34,
+  "textures": 115,
+  "mip_bytes": 155964376,
+  "asset_failures": [],
+  "log_errors": [],
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "manifest_sha256": "eb5dc599e79cb19e5b3b593875067d8852d72e27b633db761169b8e5a89b579c",
+  "orphan_texture_files": [],
+  "removed_superseded_export_files": 230
+}

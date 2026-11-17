@@ -1,0 +1,136 @@
+{
+  "checks": 25836,
+  "draws": 155,
+  "failures": [
+    {
+      "actual": 1.10675293207169,
+      "error": 0.0131481303834846,
+      "expected": 1.11990106245517,
+      "path": "8/result"
+    },
+    {
+      "actual": 8,
+      "error": 1.0,
+      "expected": 9.0,
+      "path": "8/calls"
+    },
+    {
+      "actual": 8,
+      "error": 2.0,
+      "expected": 10.0,
+      "path": "9/calls"
+    },
+    {
+      "actual": 8,
+      "error": 2.0,
+      "expected": 10.0,
+      "path": "10/calls"
+    },
+    {
+      "actual": 9,
+      "error": 2.0,
+      "expected": 11.0,
+      "path": "11/calls"
+    },
+    {
+      "actual": 12,
+      "error": 2.0,
+      "expected": 14.0,
+      "path": "12/calls"
+    },
+    {
+      "actual": -0.843750834465027,
+      "error": 0.0771850178805221,
+      "expected": -0.920935852345549,
+      "path": "12/sky/direction/0"
+    },
+    {
+      "actual": 0.511217057704926,
+      "error": 0.129542619774217,
+      "expected": 0.381674437930709,
+      "path": "12/sky/direction/1"
+    },
+    {
+      "actual": 0.163528800010681,
+      "error": 0.242280176473919,
+      "expected": -0.0787513764632383,
+      "path": "12/sky/direction/2"
+    },
+    {
+      "actual": 12,
+      "error": 2.0,
+      "expected": 14.0,
+      "path": "13/calls"
+    },
+    {
+      "actual": -0.843750834465027,
+      "error": 0.0771850178805221,
+      "expected": -0.920935852345549,
+      "path": "13/sky/direction/0"
+    },
+    {
+      "actual": 0.511217057704926,
+      "error": 0.129542619774217,
+      "expected": 0.381674437930709,
+      "path": "13/sky/direction/1"
+    },
+    {
+      "actual": 0.163528800010681,
+      "error": 0.242280176473919,
+      "expected": -0.0787513764632383,
+      "path": "13/sky/direction/2"
+    },
+    {
+      "actual": 13,
+      "error": 2.0,
+      "expected": 15.0,
+      "path": "14/calls"
+    },
+    {
+      "actual": 20.978307723999,
+      "error": 53.2200870513916,
+      "expected": 74.1983947753906,
+      "path": "14/pools/a/1/seed"
+    },
+    {
+      "actual": -0.843750834465027,
+      "error": 0.0771850178805221,
+      "expected": -0.920935852345549,
+      "path": "14/sky/direction/0"
+    },
+    {
+      "actual": 0.511217057704926,
+      "error": 0.129542619774217,
+      "expected": 0.381674437930709,
+      "path": "14/sky/direction/1"
+    },
+    {
+      "actual": 0.163528800010681,
+      "error": 0.242280176473919,
+      "expected": -0.0787513764632383,
+      "path": "14/sky/direction/2"
+    },
+    {
+      "actual": 13,
+      "error": 2.0,
+      "expected": 15.0,
+      "path": "15/calls"
+    },
+    {
+      "actual": 20.978307723999,
+      "error": 53.2200870513916,
+      "expected": 74.1983947753906,
+      "path": "15/pools/a/1/seed"
+    },
+    "shared tape draw count"
+  ],
+  "maximum_error": 93.1354057788849,
+  "methods_sha256": "24e56cb52f1ae33fa505c1dd899a6dac3a8a1d800b5a886efd03cd7635f7ba41",
+  "scope": "Literal original u1 particle emit/clear and render thunder callback share one injected Math.random tape. Interleaved pools, saturation, clear, explicit seed overrides and scalar/range mappings. No browser entropy equivalence or complete FX event sequence proof. Native shared service, actual particle and sky APIs; 4096 entropy samples checked finite [0,1), not statistical/browser entropy equivalence.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 196,
+  "tolerance": {
+    "scalar": 0.0000000001,
+    "sky_direction": 0.0000001
+  }
+}

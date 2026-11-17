@@ -1,0 +1,16 @@
+{
+  "failures": [],
+  "results": [
+    {
+      "shader": "rain",
+      "sha256": "53fc60d056ecda61dd227593839b09b43575a51169e3bbbfd5aca70a8feb18b7",
+      "fragment_match": true
+    },
+    {
+      "shader": "rain_splash",
+      "sha256": "1b41b6bf6f3677a4f10e868c28f5cebc7475a7516e6536634f0bad7b9d18500b",
+      "fragment_match": true
+    }
+  ],
+  "scope": "Original rain and crown-splash fragment equations preserved after output API rename; instance seed path/additive/depth modes checked. Full vertex physics validated separately by GPU probes; not final color parity."
+}

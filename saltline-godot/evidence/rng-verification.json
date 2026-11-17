@@ -1,0 +1,7 @@
+{
+  "comparison": "exact unsigned 32-bit output equality, no tolerance",
+  "failures": [],
+  "samples": 1152,
+  "seeds": 4,
+  "source": "Original active su Mulberry32 and fork"
+}

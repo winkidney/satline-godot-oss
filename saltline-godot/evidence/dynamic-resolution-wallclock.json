@@ -1,0 +1,24 @@
+{
+  "changes": [],
+  "elapsed_seconds": 8.372425,
+  "failures": [],
+  "last_frame_ms": 6.902,
+  "measured_samples": 1119,
+  "observed_frames": 1119,
+  "quality": "high",
+  "render_size": [
+    1280,
+    720
+  ],
+  "scope": "Engine-driven Main update and physics with real Time.get_ticks_usec frame intervals, --dynres=1 override for script harness. Title scene, at least eight seconds of wall-clock observation, not performance target or gameplay benchmark.",
+  "state": {
+    "acc": 117.328,
+    "enabled": true,
+    "floorHits": 0,
+    "n": 17,
+    "scale": 1.0,
+    "settle": -4.461509,
+    "upDelay": 4.0,
+    "upWait": -3.961509
+  }
+}

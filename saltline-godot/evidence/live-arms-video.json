@@ -1,0 +1,60 @@
+{
+  "file": "native-live-arms.mp4",
+  "sha256": "eef5845f8488fda58b549583e7814663a4dffda47f5f4a9661473c2632f2a15c",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "60/1",
+        "nb_frames": "600"
+      }
+    ],
+    "format": {
+      "duration": "10.000000",
+      "size": "21004339"
+    }
+  },
+  "capture": {
+    "engine": {
+      "build": "custom_build",
+      "hash": "unknown",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable.saltline_oblique_source_bias",
+      "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+      "timestamp": 0
+    },
+    "fps": 60,
+    "frames": 600,
+    "hardware_bias": {
+      "reason": "supported",
+      "requested": true,
+      "supported": true
+    },
+    "scope": "Actual current source Main with six PAC detail patches, original lighting/IBL/post andreal weapon ADS/fire/reload/switch. Automated stationary warehouse preview, no enemies/audio. Fixed MovieMaker fps is not performance evidence.",
+    "seconds": 10.0,
+    "source_depth_24": true,
+    "weapon": "pistol",
+    "wetness": 0.357160179236513
+  },
+  "source_hashes": {
+    "scripts/weapon.gd": "ad11bd6201988833f76d8a2d42ee34d535c71ff8247ce45ae8a70a384e93160e",
+    "scripts/weapon_animation.gd": "34d6fae364b468347ce79865a05a37caf3e2ea3d50b3edbd74f68ee68d0b0838",
+    "scripts/weapon_arms.gd": "5c3db495b2fa730a9effc5aaa56ae4c538bcf5084e1e67a444bea59d0b975c23",
+    "scripts/weapon_arm_targets.gd": "430d6b5202fdf9bf0e0fde4b761e6bb452da9d01d19d984b2235eaf1d257ef47",
+    "scripts/weapon_arm_blend.gd": "4cf651c5428f24dd241eb439336a91789a9481825cd9cfc142924a201fce1abb",
+    "scripts/weapon_arm_ik.gd": "c206f345011433e66a6ac087f60b7d719338371bd13e2b10cc0a3864cf0b45c9",
+    "scripts/weapon_arm_pose.gd": "46ff282a28e71df548c9325fcb2003df7727f430ae4a9e2c5f2ef92800f908e2",
+    "scripts/weapon_reload_hand.gd": "fa8d00e81bc4deab95616457a9e80bb16e194e20415e801d3f57104e26c287ef",
+    "scripts/weapon_reload_motion.gd": "e2c980cdc4caee7bb56a21558ca812ee7260ca075c663023db5ab07562990629",
+    "scripts/main.gd": "da5eb72f59157c17af6b01cb62938268119a86b2230bc29c838ef92e2e06afa0"
+  },
+  "scope": "Actual current Godot live normal armTargets/vS/Fh/70-bone pipeline with realtime magazines/mechanical parts. Fixed MovieMaker60fps; no performance, source whole-image equivalence or death-drop proof. Final encode explicitly keeps600 game frames and strips audio."
+}

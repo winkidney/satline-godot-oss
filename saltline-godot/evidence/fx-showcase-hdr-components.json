@@ -1,0 +1,339 @@
+{
+  "regions": {
+    "concrete": [
+      480,
+      380,
+      550,
+      435
+    ],
+    "metal": [
+      610,
+      385,
+      670,
+      435
+    ],
+    "wood": [
+      747,
+      412,
+      785,
+      440
+    ]
+  },
+  "modes": {
+    "direct-diffuse": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.15618997812271118,
+          0.10792601853609085,
+          0.054455406963825226
+        ],
+        "native_mean_rgb": [
+          0.1564261019229889,
+          0.10809648782014847,
+          0.05454138666391373
+        ],
+        "mae": 0.001752229523845017,
+        "p95": 0.006103515625,
+        "max": 0.02978515625,
+        "relative_energy_error": 0.0015460990834981203
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.029368853196501732,
+          0.033872172236442566,
+          0.03826647624373436
+        ],
+        "native_mean_rgb": [
+          0.02931693010032177,
+          0.03380970284342766,
+          0.03819667175412178
+        ],
+        "mae": 0.00042007066076621413,
+        "p95": 0.001312255859375,
+        "max": 0.02142333984375,
+        "relative_energy_error": -0.0018144312780350447
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.14771351218223572,
+          0.08239597082138062,
+          0.033772554248571396
+        ],
+        "native_mean_rgb": [
+          0.1469738632440567,
+          0.0819832906126976,
+          0.033562496304512024
+        ],
+        "mae": 0.002583283931016922,
+        "p95": 0.00859985314309597,
+        "max": 0.0272216796875,
+        "relative_energy_error": -0.005162849556654692
+      }
+    },
+    "direct-specular": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.013882124796509743,
+          0.009995093569159508,
+          0.005830699577927589
+        ],
+        "native_mean_rgb": [
+          0.013444952666759491,
+          0.009680226445198059,
+          0.005647012498229742
+        ],
+        "mae": 0.0004571425961330533,
+        "p95": 0.001739501953125,
+        "max": 0.008258819580078125,
+        "relative_energy_error": -0.03149767965078354
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.00826324988156557,
+          0.00593848992139101,
+          0.0034679556265473366
+        ],
+        "native_mean_rgb": [
+          0.008212743327021599,
+          0.005904963705688715,
+          0.0034496444277465343
+        ],
+        "mae": 0.00015467866614926606,
+        "p95": 0.000518798828125,
+        "max": 0.00426483154296875,
+        "relative_energy_error": -0.005792087875306606
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.0291688684374094,
+          0.0210003312677145,
+          0.012250861153006554
+        ],
+        "native_mean_rgb": [
+          0.029097363352775574,
+          0.02094898372888565,
+          0.012220880948007107
+        ],
+        "mae": 0.00041129416786134243,
+        "p95": 0.0011817931663244963,
+        "max": 0.002593994140625,
+        "relative_energy_error": -0.002448412124067545
+      }
+    },
+    "indirect-diffuse": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.07253718376159668,
+          0.05539055913686752,
+          0.0450868159532547
+        ],
+        "native_mean_rgb": [
+          0.07261323928833008,
+          0.05545955151319504,
+          0.045148611068725586
+        ],
+        "mae": 0.0009845036547631025,
+        "p95": 0.003173828125,
+        "max": 0.01434326171875,
+        "relative_energy_error": 0.001195588381960988
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.013639482669532299,
+          0.017447907477617264,
+          0.0318249836564064
+        ],
+        "native_mean_rgb": [
+          0.01362811028957367,
+          0.01742478832602501,
+          0.03178184852004051
+        ],
+        "mae": 0.00023498365771956742,
+        "p95": 0.000762939453125,
+        "max": 0.0080413818359375,
+        "relative_energy_error": -0.0012339003151282668
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.06892874091863632,
+          0.042494021356105804,
+          0.028098544105887413
+        ],
+        "native_mean_rgb": [
+          0.06862585991621017,
+          0.04231356829404831,
+          0.027950681746006012
+        ],
+        "mae": 0.0013843837659806013,
+        "p95": 0.0044387816451489925,
+        "max": 0.013427734375,
+        "relative_energy_error": -0.0045239743776619434
+      }
+    },
+    "indirect-specular": {
+      "concrete": {
+        "source_mean_rgb": [
+          0.010025772266089916,
+          0.008783388882875443,
+          0.009145018644630909
+        ],
+        "native_mean_rgb": [
+          0.010099229402840137,
+          0.008895237930119038,
+          0.009302430786192417
+        ],
+        "mae": 0.00018698093481361866,
+        "p95": 0.00067138671875,
+        "max": 0.0025634765625,
+        "relative_energy_error": 0.01226003561168909
+      },
+      "metal": {
+        "source_mean_rgb": [
+          0.015256169252097607,
+          0.013244270347058773,
+          0.013707700185477734
+        ],
+        "native_mean_rgb": [
+          0.015233459882438183,
+          0.013232283294200897,
+          0.01370270550251007
+        ],
+        "mae": 0.00010168329754378647,
+        "p95": 0.00031280517578125,
+        "max": 0.0048675537109375,
+        "relative_energy_error": -0.0009403661242686212
+      },
+      "wood": {
+        "source_mean_rgb": [
+          0.014529550448060036,
+          0.011133079417049885,
+          0.010080872103571892
+        ],
+        "native_mean_rgb": [
+          0.014642349444329739,
+          0.011218084953725338,
+          0.0101552689447999
+        ],
+        "mae": 0.000277362676570192,
+        "p95": 0.0011478423839434981,
+        "max": 0.0033111572265625,
+        "relative_energy_error": 0.007615434471517801
+      }
+    }
+  },
+  "inputs": [
+    {
+      "metadata": "fx-showcase-source-direct-diffuse-manual.json",
+      "binary": "fx-showcase-source-direct-diffuse-manual.world.bin",
+      "sha256": "6411b083c8bfa6cb772a4afd76f92cd447d3a8eb297bb115a92a30a2db72044a",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-direct-diffuse.json",
+      "binary": "fx-showcase-native-direct-diffuse.world.bin",
+      "sha256": "f10ff91947a9cf14857f6413e533735ae083b836d8175b43026926be0405c1d8",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-direct-specular-manual.json",
+      "binary": "fx-showcase-source-direct-specular-manual.world.bin",
+      "sha256": "5ce05a5e7153eff78decf873787a8e705a78a04b2d162845630094e19d7f87b3",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-direct-specular.json",
+      "binary": "fx-showcase-native-direct-specular.world.bin",
+      "sha256": "69f40158a59c7c2d75840c11ce7d1ef1c0326c8743038f3c636093ab14924a0c",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-indirect-diffuse-manual.json",
+      "binary": "fx-showcase-source-indirect-diffuse-manual.world.bin",
+      "sha256": "691da6b9ed41bbec2cb908a8fb63c19be42a916404e7bc52d9d24bb33bbc4d6f",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-indirect-diffuse.json",
+      "binary": "fx-showcase-native-indirect-diffuse.world.bin",
+      "sha256": "642120e06f3a7d87fdb46b83aeee41899aaeb35f2873f2ae1203aea677fd5c39",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-indirect-specular-manual.json",
+      "binary": "fx-showcase-source-indirect-specular-manual.world.bin",
+      "sha256": "ae2d2de188d6900b1cf20ccbb62cf13db4f417f1140780b702c72d6ff0ac08e1",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-indirect-specular.json",
+      "binary": "fx-showcase-native-indirect-specular.world.bin",
+      "sha256": "c7a7a76b2a8be9d4880147f9b6b4200b418bdc772ccbf1901c3a50930bb7bba3",
+      "channels": 3,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-source-beauty-manual.json",
+      "binary": "fx-showcase-source-beauty-manual.world.bin",
+      "sha256": "2df625d6fa1746ef328eeccf3f6cf4f8df87fa6e0868eff7d02583b3d7c1dbdf",
+      "channels": 4,
+      "snapshot_draws": 1403
+    },
+    {
+      "metadata": "fx-showcase-native-beauty.json",
+      "binary": "fx-showcase-native-beauty.world.bin",
+      "sha256": "668e9011ab4b9a757f30062b895eef725e8463f0a1427ed25387a205904c215b",
+      "channels": 3,
+      "snapshot_draws": 1403
+    }
+  ],
+  "scope": "Actual linear HDR world buffers, board interior rectangles. Not postprocess RGB or exact separated object masks. Shared tape and frozen age; local point lights and particle batches disabled.",
+  "reconstruction": {
+    "source": {
+      "concrete": {
+        "mae": 3.992443816969171e-05,
+        "max": 0.00020599365234375,
+        "beauty_mean": 0.1830834001302719,
+        "sum_mean": 0.1830826848745346
+      },
+      "metal": {
+        "mae": 1.4940579603717197e-05,
+        "max": 9.1552734375e-05,
+        "beauty_mean": 0.07476621121168137,
+        "sum_mean": 0.07476590573787689
+      },
+      "wood": {
+        "mae": 3.63041581294965e-05,
+        "max": 0.00020599365234375,
+        "beauty_mean": 0.16718848049640656,
+        "sum_mean": 0.16718895733356476
+      }
+    },
+    "native": {
+      "concrete": {
+        "mae": 3.985144940088503e-05,
+        "max": 0.0002288818359375,
+        "beauty_mean": 0.18311819434165955,
+        "sum_mean": 0.18311814963817596
+      },
+      "metal": {
+        "mae": 1.4615641703130677e-05,
+        "max": 7.62939453125e-05,
+        "beauty_mean": 0.07463134080171585,
+        "sum_mean": 0.07463128864765167
+      },
+      "wood": {
+        "mae": 3.6214525607647374e-05,
+        "max": 0.0001983642578125,
+        "beauty_mean": 0.16656291484832764,
+        "sum_mean": 0.1665642410516739
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "checks": 134612,
+  "draws": 525,
+  "failures": [
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "0.0/normal/2"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "0.0/normal/5"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "0.0/normal/8"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "0.0/normal/11"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/2"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/5"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/8"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/11"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/14"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/17"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/20"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "1.0/normal/23"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/2"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/5"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/8"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/11"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/14"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/17"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/20"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "2.0/normal/23"
+    },
+    {
+      "actual": 0.380998849868774,
+      "error": 0.00000154972076416016,
+      "expected": 0.381000399589539,
+      "label": "2.0/normal/24"
+    },
+    {
+      "actual": 0.88901287317276,
+      "error": 0.0000119805335998535,
+      "expected": 0.88900089263916,
+      "label": "2.0/normal/25"
+    },
+    {
+      "actual": -0.253960430622101,
+      "error": 0.0000398159027099609,
+      "expected": -0.254000246524811,
+      "label": "2.0/normal/26"
+    },
+    {
+      "actual": 0.380998849868774,
+      "error": 0.00000154972076416016,
+      "expected": 0.381000399589539,
+      "label": "2.0/normal/27"
+    },
+    {
+      "actual": 0.88901287317276,
+      "error": 0.0000119805335998535,
+      "expected": 0.88900089263916,
+      "label": "2.0/normal/28"
+    },
+    {
+      "actual": -0.253960430622101,
+      "error": 0.0000398159027099609,
+      "expected": -0.254000246524811,
+      "label": "2.0/normal/29"
+    },
+    {
+      "actual": 0.380998849868774,
+      "error": 0.00000154972076416016,
+      "expected": 0.381000399589539,
+      "label": "2.0/normal/30"
+    },
+    {
+      "actual": 0.88901287317276,
+      "error": 0.0000119805335998535,
+      "expected": 0.88900089263916,
+      "label": "2.0/normal/31"
+    },
+    {
+      "actual": -0.253960430622101,
+      "error": 0.0000398159027099609,
+      "expected": -0.254000246524811,
+      "label": "2.0/normal/32"
+    },
+    {
+      "actual": 0.380998849868774,
+      "error": 0.00000154972076416016,
+      "expected": 0.381000399589539,
+      "label": "2.0/normal/33"
+    },
+    {
+      "actual": 0.88901287317276,
+      "error": 0.0000119805335998535,
+      "expected": 0.88900089263916,
+      "label": "2.0/normal/34"
+    },
+    {
+      "actual": -0.253960430622101,
+      "error": 0.0000398159027099609,
+      "expected": -0.254000246524811,
+      "label": "2.0/normal/35"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/2"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/5"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/8"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/11"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/14"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/17"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/20"
+    },
+    {
+      "actual": -0.0000152590218931437,
+      "error": 0.0000152590218931437,
+      "expected": 0.0,
+      "label": "3.0/normal/23"
+    }
+  ],
+  "maximum_error": 1.0,
+  "methods_sha256": "1ef81e2082911bc12584c1c8238bf9e0f392f650036b03df9b8a4f7cccf908b5",
+  "scope": "Literal original Jg.add/clear and Yw UV function.175 emissions/160 ring, 7 kinds incl unknown, negative/default size, 5 normals incl zero/tiny, alpha fade; actual Native mesh vertex/normal/UV/custom color buffers. No shaded pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 176
+}

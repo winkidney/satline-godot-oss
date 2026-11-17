@@ -1,0 +1,19 @@
+### Result
+{"rows":[{"seconds":0,"alpha":0,"spacing":19,"pixels":38},{"seconds":0.05,"alpha":0.183824,"spacing":17.1838,"pixels":38},{"seconds":0.1,"alpha":0.367647,"spacing":15.3676,"pixels":38},{"seconds":0.272,"alpha":1,"spacing":9.12,"pixels":38},{"seconds":0.3,"alpha":0.910784,"spacing":9.12,"pixels":38},{"seconds":0.476,"alpha":0.35,"spacing":9.12,"pixels":38},{"seconds":0.6,"alpha":0.745098,"spacing":9.12,"pixels":38},{"seconds":0.68,"alpha":1,"spacing":9.12,"pixels":38},{"seconds":1,"alpha":1,"spacing":9.12,"pixels":38},{"seconds":2.788,"alpha":1,"spacing":9.12,"pixels":38},{"seconds":3,"alpha":0.653595,"spacing":9.12,"pixels":38},{"seconds":3.399,"alpha":0.00163399,"spacing":9.12,"pixels":38},{"seconds":3.4,"alpha":0,"spacing":9.12,"pixels":38},{"seconds":4,"alpha":0,"spacing":9.12,"pixels":38}],"scope":"Original unchanged stylesheet warn keyframes sampled through browser Animation.currentTime; no font pixel comparison"}
+### Ran Playwright code
+```js
+await (async(page)=>{
+ await page.setViewportSize({width:1280,height:720});
+ return await page.evaluate(async()=>{
+  const warning=document.createElement('div');warning.className='h-warn on';warning.textContent='Machines inbound';document.querySelector('#app').appendChild(warning);
+  await new Promise(requestAnimationFrame);
+  const animation=warning.getAnimations().find(a=>a.animationName==='warn');if(!animation)throw Error('warn animation missing');animation.pause();
+  const rows=[];
+  for(const seconds of [0,.05,.1,.272,.3,.476,.6,.68,1,2.788,3,3.399,3.4,4]){
+   animation.currentTime=seconds*1000;const style=getComputedStyle(warning);rows.push({seconds,alpha:Number(style.opacity),spacing:Number.parseFloat(style.letterSpacing),pixels:Number.parseFloat(style.fontSize)});
+  }
+  return {rows,scope:'Original unchanged stylesheet warn keyframes sampled through browser Animation.currentTime; no font pixel comparison'};
+ });
+}
+)(page);
+```

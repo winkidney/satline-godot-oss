@@ -1,0 +1,10 @@
+{
+  "cases": 21,
+  "checks": 12429,
+  "draws": 6485,
+  "failures": [],
+  "maximum_error": 0.00000190734863636521,
+  "methods_sha256": "d4b9f63758d7b19bb9f13cd70cd823404630d1ecfcce5b4faea7815dffe3e479",
+  "scope": "Original go/T/_/w/u1, emission state only; 3 emission counts, 7 capacities, repeat saturation then clear; same tape across cases. No motion/pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

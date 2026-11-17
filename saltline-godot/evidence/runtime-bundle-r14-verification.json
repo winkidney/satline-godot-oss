@@ -1,0 +1,699 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r14",
+  "engine_sha256": "639baccce7c7c63638da889fba58b3797316b09be1df9da0bd49c839af1a5788",
+  "manifest_sha256": "3917009f1a219ad457b58ad618bb4322301dec640a880c35d215f473a5cafcbf",
+  "file_count": 5563,
+  "total_bytes": 3074713094,
+  "manifest_mismatches": [],
+  "launches": {
+    "cards": {
+      "exit_code": 0,
+      "errors": [],
+      "sha256": "223c972e773802020b1402cf2d5c702130ceafd8263cf0bacca98a5b5c825263"
+    },
+    "motion": {
+      "exit_code": 0,
+      "errors": [],
+      "sha256": "bfd0f24cd466cd5d5cf228808cbdc380986b27c6bd51f5a112572edfd9d0b1b4"
+    },
+    "survival": {
+      "exit_code": 0,
+      "errors": [],
+      "sha256": "73012087eec6cae310daadc3a59323728f0242c13b18b14fa69c6897ba38b6c1"
+    }
+  },
+  "cards": {
+    "cases": [
+      {
+        "actions": [
+          {
+            "rect": [
+              452.0,
+              315.089965820312,
+              376.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RESUME"
+          },
+          {
+            "rect": [
+              452.0,
+              377.089965820312,
+              376.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "SETTINGS"
+          },
+          {
+            "rect": [
+              452.0,
+              433.089965820312,
+              376.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "CONTROLS"
+          },
+          {
+            "rect": [
+              452.0,
+              489.089965820312,
+              376.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "RESTART MISSION"
+          }
+        ],
+        "card": [
+          425.0,
+          160.089981079102,
+          430.0,
+          399.820068359375
+        ],
+        "heading_pixels": 62.0,
+        "mode": "mission",
+        "screen": "paused",
+        "window": [
+          1280.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              452.0,
+              425.339996337891,
+              376.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          425.0,
+          218.339996337891,
+          430.0,
+          283.320007324219
+        ],
+        "heading_pixels": 62.0,
+        "mode": "mission",
+        "screen": "dead",
+        "window": [
+          1280.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              452.0,
+              476.839965820312,
+              376.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          425.0,
+          166.839965820312,
+          430.0,
+          386.320068359375
+        ],
+        "heading_pixels": 62.0,
+        "mode": "holdout",
+        "screen": "dead",
+        "window": [
+          1280.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              452.0,
+              478.880004882812,
+              376.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "REDEPLOY"
+          }
+        ],
+        "card": [
+          425.0,
+          164.880004882812,
+          430.0,
+          390.239990234375
+        ],
+        "heading_pixels": 44.0,
+        "mode": "mission",
+        "screen": "complete",
+        "window": [
+          1280.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              37.0,
+              305.549987792969,
+              286.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RESUME"
+          },
+          {
+            "rect": [
+              37.0,
+              367.549987792969,
+              286.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "SETTINGS"
+          },
+          {
+            "rect": [
+              37.0,
+              423.549987792969,
+              286.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "CONTROLS"
+          },
+          {
+            "rect": [
+              37.0,
+              479.549987792969,
+              286.0,
+              46.0
+            ],
+            "scroll": 0,
+            "text": "RESTART MISSION"
+          }
+        ],
+        "card": [
+          16.0,
+          173.549987792969,
+          328.0,
+          372.900024414062
+        ],
+        "heading_pixels": 40.0,
+        "mode": "mission",
+        "screen": "paused",
+        "window": [
+          360.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              37.0,
+              415.799987792969,
+              286.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          16.0,
+          231.799987792969,
+          328.0,
+          256.400024414062
+        ],
+        "heading_pixels": 40.0,
+        "mode": "mission",
+        "screen": "dead",
+        "window": [
+          360.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              37.0,
+              467.300048828125,
+              286.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          16.0,
+          180.300033569336,
+          328.0,
+          359.39990234375
+        ],
+        "heading_pixels": 40.0,
+        "mode": "holdout",
+        "screen": "dead",
+        "window": [
+          360.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              37.0,
+              473.487182617188,
+              286.0,
+              52.0
+            ],
+            "scroll": 0,
+            "text": "REDEPLOY"
+          }
+        ],
+        "card": [
+          16.0,
+          174.487197875977,
+          328.0,
+          371.025634765625
+        ],
+        "heading_pixels": 30.96,
+        "mode": "mission",
+        "screen": "complete",
+        "window": [
+          360.0,
+          720.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              134.721984863281,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "RESUME"
+          },
+          {
+            "rect": [
+              126.0,
+              184.721984863281,
+              388.0,
+              40.0
+            ],
+            "scroll": 0,
+            "text": "SETTINGS"
+          },
+          {
+            "rect": [
+              126.0,
+              230.721984863281,
+              388.0,
+              40.0
+            ],
+            "scroll": 0,
+            "text": "CONTROLS"
+          },
+          {
+            "rect": [
+              126.0,
+              276.721984863281,
+              388.0,
+              40.0
+            ],
+            "scroll": 0,
+            "text": "RESTART MISSION"
+          }
+        ],
+        "card": [
+          105.0,
+          26.7219848632812,
+          430.0,
+          306.556030273438
+        ],
+        "heading_pixels": 39.6,
+        "mode": "mission",
+        "screen": "paused",
+        "window": [
+          640.0,
+          360.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              223.971984863281,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          105.0,
+          75.9719924926758,
+          430.0,
+          208.056030273438
+        ],
+        "heading_pixels": 39.6,
+        "mode": "mission",
+        "screen": "dead",
+        "window": [
+          640.0,
+          360.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              266.471984863281,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          105.0,
+          33.4719848632812,
+          430.0,
+          293.056030273438
+        ],
+        "heading_pixels": 39.6,
+        "mode": "holdout",
+        "screen": "dead",
+        "window": [
+          640.0,
+          360.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              275.279998779297,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "REDEPLOY"
+          }
+        ],
+        "card": [
+          105.0,
+          24.2799987792969,
+          430.0,
+          311.440002441406
+        ],
+        "heading_pixels": 44.0,
+        "mode": "mission",
+        "screen": "complete",
+        "window": [
+          640.0,
+          360.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              112.0,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "RESUME"
+          },
+          {
+            "rect": [
+              126.0,
+              162.0,
+              388.0,
+              40.0
+            ],
+            "scroll": 0,
+            "text": "SETTINGS"
+          },
+          {
+            "rect": [
+              126.0,
+              187.0,
+              388.0,
+              40.0
+            ],
+            "scroll": 21,
+            "text": "CONTROLS"
+          },
+          {
+            "rect": [
+              126.0,
+              187.0,
+              388.0,
+              40.0
+            ],
+            "scroll": 67,
+            "text": "RESTART MISSION"
+          }
+        ],
+        "card": [
+          105.0,
+          12.0,
+          430.0,
+          216.0
+        ],
+        "heading_pixels": 30.0,
+        "mode": "mission",
+        "screen": "paused",
+        "window": [
+          640.0,
+          240.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              159.100006103516,
+              388.0,
+              44.0
+            ],
+            "scroll": 0,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          105.0,
+          20.1000061035156,
+          430.0,
+          199.799987792969
+        ],
+        "heading_pixels": 30.0,
+        "mode": "mission",
+        "screen": "dead",
+        "window": [
+          640.0,
+          240.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              183.0,
+              388.0,
+              44.0
+            ],
+            "scroll": 53,
+            "text": "RETRY"
+          }
+        ],
+        "card": [
+          105.0,
+          12.0,
+          430.0,
+          216.0
+        ],
+        "heading_pixels": 30.0,
+        "mode": "holdout",
+        "screen": "dead",
+        "window": [
+          640.0,
+          240.0
+        ]
+      },
+      {
+        "actions": [
+          {
+            "rect": [
+              126.0,
+              183.0,
+              388.0,
+              44.0
+            ],
+            "scroll": 80,
+            "text": "REDEPLOY"
+          }
+        ],
+        "card": [
+          105.0,
+          12.0,
+          430.0,
+          216.0
+        ],
+        "heading_pixels": 44.0,
+        "mode": "mission",
+        "screen": "complete",
+        "window": [
+          640.0,
+          240.0
+        ]
+      }
+    ],
+    "failures": [],
+    "scope": "Actual Main GameUI pause/death/complete cards vs original DOM/CSS across four window sizes, mission/holdout rows, typography, button sizes, viewport containment and focus-follow scrolling. Return-to-title action identity and settings signal after card reuse. No fixture scale override. Not full raster text parity or HiDPI.",
+    "scroll_cases": 3
+  },
+  "motion": {
+    "checks": 56,
+    "failures": [],
+    "platform_value": 0,
+    "profiles": [
+      {
+        "cue_alpha": 0.349999994039536,
+        "feed_duration": 0.5,
+        "hit": [
+          1,
+          1.01277862115688
+        ],
+        "reduced": false
+      },
+      {
+        "cue_alpha": 1.0,
+        "feed_duration": 1e-05,
+        "hit": [
+          1,
+          1.01277862115688
+        ],
+        "reduced": true
+      }
+    ],
+    "scope": "Actual GameUI platform wiring and production CSS helpers/components. Both preference responses injected only at policy boundary because Linux backend may return unsupported. Original Chrome CSS dual profiles/live-switch reference, pseudo-element/root exemptions, actual urgent-cue draw and objective GPU color, unchanged lifetimes/typing/WAAPI. No claim of a real OS reduced preference on unsupported backend."
+  },
+  "survival": {
+    "combat": {
+      "blasts": 2,
+      "hits": 31,
+      "kills": 13,
+      "shots": 60
+    },
+    "completion_menu": "complete",
+    "controlled_focus_resumes": 0,
+    "cut": 3,
+    "damage_events": [],
+    "debrief": {
+      "accuracy": 0.516666666666667,
+      "kills": 13,
+      "rating": "Surgical",
+      "retries": 0,
+      "time": 47.7333333333332
+    },
+    "difficulty": "standard",
+    "distance": 146.935263400432,
+    "failures": [],
+    "frames": 1457,
+    "health": 100.0,
+    "legs": [
+      {
+        "done": true,
+        "leg": 0,
+        "position": [
+          -0.00479444209486246,
+          0.0,
+          6.32302856445312
+        ],
+        "reached_waypoint": 5,
+        "steps": 406,
+        "waypoints": 9
+      },
+      {
+        "done": true,
+        "leg": 1,
+        "position": [
+          -0.786281585693359,
+          0.0299999993294477,
+          -18.1092128753662
+        ],
+        "reached_waypoint": 6,
+        "steps": 427,
+        "waypoints": 8
+      },
+      {
+        "done": true,
+        "leg": 2,
+        "position": [
+          21.5250225067139,
+          0.0,
+          -1.1827644109726
+        ],
+        "reached_waypoint": 7,
+        "steps": 405,
+        "waypoints": 10
+      },
+      {
+        "done": true,
+        "leg": 3,
+        "position": [
+          27.9423847198486,
+          0.0,
+          17.9828281402588
+        ],
+        "reached_waypoint": 7,
+        "steps": 219,
+        "waypoints": 8
+      }
+    ],
+    "minimum_health": 100.0,
+    "protected_live_frames": 0,
+    "rifle_ammo": 30,
+    "rifle_reserve": 90.0,
+    "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Test-only global seed4207 and controlled resumes after desktop focus loss; production random stream and pause behavior unchanged. Not human play/balance acceptance.",
+    "shared_navigation_fx_random": true,
+    "start": [
+      -32.0,
+      0.0,
+      6.0
+    ],
+    "state": "complete",
+    "test_only_global_seed": 4207
+  },
+  "scope": "Three actual NVIDIA GPU launches from cwd /tmp and isolated XDG; production modules/assets and new engine loaded from bundle. 16 card cases with scroll/resize/title actions, 56 motion checks and actual host Portal value0, normal Standard mission from spawn to completion. All original manifest files rehashed after runs. Not whole-image pixels, Wayland or boot UI acceptance.",
+  "remaining": "Original HTML #boot progress/ready/fade UI is not yet implemented; native startup currently enters Main directly."
+}

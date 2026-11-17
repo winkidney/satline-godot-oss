@@ -1,0 +1,14 @@
+{
+  "cases": 2,
+  "failures": [],
+  "matrix_tolerance": 0.000002,
+  "maximum_matrix_error": 0.00000037375165661685,
+  "maximum_state_error": 0.0000000000000113242748511766,
+  "reference_D_sha256": "dd28a8747963c75e7086a1f37855f9bdd495f8928054e12cdc08dc82ea25a023",
+  "reference_recoil_sha256": "4437779e70f04044ec9a483eaede0a2581a60734fec477418a1849de78cbdd94",
+  "reference_source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "scalar_comparisons": 186072,
+  "scope": "Literal original D and original bundled Three math. Two independent rig trajectories from exported debug.S plus explicit coefficient setup. Literal original rifle/pistol recoil methods at48 fire steps, synthetic external wants/reload/inspect/events and fixed RNG. Directed negative-half rounding, hard sway clamps, null look/vel/tuning and unavailable ray paths; not original O or production integration. Native scalar history/springs and float32 final Transform3D, per-step wall/RNG consumption. No production root/recoil/reload/IK cutover proof.",
+  "state_tolerance": 0.00000001,
+  "steps": 1200
+}

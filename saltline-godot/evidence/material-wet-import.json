@@ -1,0 +1,26 @@
+{
+  "failures": [],
+  "scope": "Production source material importer preserves exported shared wet scalar, including non-default finite values. Texture/shading GPU behavior checked separately.",
+  "values": [
+    {
+      "native": 0.0,
+      "source": 0.0
+    },
+    {
+      "native": 0.35,
+      "source": 0.35
+    },
+    {
+      "native": 1.0,
+      "source": 1.0
+    },
+    {
+      "native": -0.5,
+      "source": -0.5
+    },
+    {
+      "native": 2.0,
+      "source": 2.0
+    }
+  ]
+}

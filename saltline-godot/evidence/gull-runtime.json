@@ -1,0 +1,32 @@
+{
+  "active": 0,
+  "alive": 0,
+  "attack_states": [
+    "idle",
+    "tele",
+    "burst"
+  ],
+  "bolt_hits": 3,
+  "bolt_requests": 3,
+  "bolt_world_hits": 0,
+  "bolts_emitted": 3,
+  "combat_stats": {
+    "hits": 1,
+    "kills": 1,
+    "shots": 1
+  },
+  "crashes": 1,
+  "enemy_muzzle_flashes": 3,
+  "frames": 600,
+  "lost_rotor": 1,
+  "max_scan_energy": 26.0,
+  "max_visible_bolts": 1,
+  "native_skeletons": 20,
+  "player_health": 70.0,
+  "pool_gulls": 10,
+  "pool_hounds": 8,
+  "scan_energy": 0.000000000000288166834709265,
+  "scan_hit_samples": 52,
+  "scan_samples": 52,
+  "scope": "native Gull flight/gimbal/rotors/attack requests, controlled ray damage, rotor loss/crash explosion and pool retirement, real source bolts/player damage and shared scan light and enemy muzzle flash; full missions and remaining rendering pending"
+}

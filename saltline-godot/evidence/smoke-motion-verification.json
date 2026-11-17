@@ -1,0 +1,8 @@
+{
+  "checks": 192611,
+  "draws": 996,
+  "failures": [],
+  "maximum_error": 0.000000476837158203125,
+  "scope": "Literal I/ph/M/u1 smoke generation and motion, 2/64 saturation, age expiry, sorting, interleaved re-emission, clear; no pixels.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

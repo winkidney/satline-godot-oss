@@ -1,0 +1,10 @@
+{
+  "checks": 5848,
+  "failure_count": 0,
+  "failures": [],
+  "maximum_error": 0.000000000000000111022302462516,
+  "methods_sha256": "53aae4cb8a0bc679e1a00bf3b3528d79ddffa32fa40724e003eab73002029d21",
+  "scope": "Literal original input re/X/v, deadzones/buttons/menu repeat/context/sprint/look and original GameFlow B aim assist with controlled enemy/occlusion callbacks. No actual controller or native menu/physics parity claim.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 136
+}

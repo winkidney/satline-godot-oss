@@ -1,0 +1,11 @@
+{
+  "checks": 12,
+  "failures": [],
+  "frozen_clocks": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "scope": "Actual Main focus notification handler: title unaffected, playing/intro pause, held and queued input cleared, mission/enemy/weapon/weather clocks frozen, focus-in stays paused and real Resume works. Notification injected; not OS window-switch event delivery or backdrop-clock acceptance."
+}

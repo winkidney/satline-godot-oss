@@ -1,0 +1,60 @@
+{
+  "failures": [],
+  "scope": "Actual Main capture callback retained; injected first native touch, Deploy/Pause/Resume/Retry and physical mouse click in touch mode; desktop comparison and paused hint min-height from original CSS. No physical touchscreen.",
+  "snapshots": [
+    {
+      "action": "touch deploy",
+      "mouse_mode": 0,
+      "state": "playing",
+      "touch": true
+    },
+    {
+      "action": "touch pause",
+      "mouse_mode": 0,
+      "state": "paused",
+      "touch": true
+    },
+    {
+      "action": "touch resume",
+      "mouse_mode": 0,
+      "state": "playing",
+      "touch": true
+    },
+    {
+      "action": "touch retry",
+      "mouse_mode": 0,
+      "state": "intro",
+      "touch": true
+    },
+    {
+      "action": "touch physical mouse click",
+      "mouse_mode": 0,
+      "state": "intro",
+      "touch": true
+    },
+    {
+      "action": "desktop deploy",
+      "mouse_mode": 2,
+      "state": "playing",
+      "touch": false
+    },
+    {
+      "action": "desktop pause",
+      "mouse_mode": 0,
+      "state": "paused",
+      "touch": false
+    },
+    {
+      "action": "desktop resume",
+      "mouse_mode": 2,
+      "state": "playing",
+      "touch": false
+    },
+    {
+      "action": "desktop retry",
+      "mouse_mode": 2,
+      "state": "intro",
+      "touch": false
+    }
+  ]
+}

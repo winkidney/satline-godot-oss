@@ -1,0 +1,8 @@
+{
+  "arrived": true,
+  "failures": [],
+  "frames": 720,
+  "max_field_error": 0.0000313470317268028,
+  "replans": 5,
+  "source": "Original path follower and exact movement block; real nav/rays and active wreck"
+}

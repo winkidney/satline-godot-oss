@@ -1,0 +1,10 @@
+
+void surf(vec2 uv){
+  float chip, stain, run; paintDmg(uv, 1.4, chip, stain, run);
+  float shade = 1.0, baseR = 0.5;
+  ${a_}
+  float s = fract((uv.x + uv.y) * 5.0);
+  float yel = smoothstep(0.244, 0.256, abs(s - 0.5) + (fbm(uv, vec2(80.0), 2, 41.0) - 0.5) * 0.02);
+  vec3 pc = mix(L(0.1, 0.1, 0.11), L(0.86, 0.66, 0.1), yel);
+  emit(nt + pc * ta, 1.0, h, ao, r, m);
+}

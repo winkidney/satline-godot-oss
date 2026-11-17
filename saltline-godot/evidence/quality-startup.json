@@ -1,0 +1,13 @@
+{
+  "failures": [],
+  "frames": 40,
+  "scope": "Cold auto/high startup at physical 960x540, isolated settings via --flow-preview; not hardware-based automatic preset selection.",
+  "window_size": [
+    960,
+    540
+  ],
+  "world_size": [
+    960,
+    540
+  ]
+}

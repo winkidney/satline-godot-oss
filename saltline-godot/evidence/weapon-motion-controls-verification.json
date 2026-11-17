@@ -1,0 +1,31 @@
+{
+  "cases": 2,
+  "comparisons": 211164,
+  "coverage": {
+    "pistol": {
+      "ads_wanted": 188.0,
+      "dead_steps": 10.0,
+      "dry_events": 14.0,
+      "inspect_frames": 0.0,
+      "nonzero_windows": 0.0,
+      "sprint_wanted": 130.0
+    },
+    "rifle": {
+      "ads_wanted": 188.0,
+      "dead_steps": 10.0,
+      "dry_events": 14.0,
+      "inspect_frames": 210.0,
+      "nonzero_windows": 203.0,
+      "sprint_wanted": 130.0
+    }
+  },
+  "failures": [],
+  "maximum_error": 0.000000000000014210854715202,
+  "original_O_sha256": "b833679d09edc6afee4f91ad924ba93bd0161d98546394a6fe0be62cb2d969a3",
+  "production_steps": 4900,
+  "scope": "Literal target/inspect/finger blocks640 steps plus production Weapon controls compared against literal full O4900 steps with empty ammo/reserve. Original parts/flash/drop/D are mocks; drop assumed already active. Only selected control/logical fields and dry events checked. Explicit same exported initial clock in production test; no complete O/RNG/root/drop/IK proof.",
+  "segments_sha256": "68eb2754c9a4869bc647cd6827f296073c789964c7a2b712ebb6b6df03be39eb",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 640,
+  "tolerance": 0.000000000001
+}

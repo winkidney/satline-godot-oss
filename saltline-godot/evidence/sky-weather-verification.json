@@ -1,0 +1,7 @@
+{
+  "comparisons": 3000,
+  "failures": [],
+  "frames": 500,
+  "maximum_error": 0.0000000333988862122325,
+  "scope": "Original actual render thunder callback plus flash expression; controlled Math.random draws, retrigger, zero/default/negative/clamped intensity, direction normalization and .9s decay boundary. Full post thunder not included."
+}

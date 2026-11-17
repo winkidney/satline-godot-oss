@@ -1,0 +1,81 @@
+{
+  "ammo_before": 30,
+  "checks": 12,
+  "combat": {
+    "hits": 5,
+    "kills": 1,
+    "shots": 32
+  },
+  "failures": [],
+  "first_target_killed": true,
+  "frames": 1170,
+  "minimum_health": 0.0,
+  "player_damage_events": [
+    {
+      "amount": 8.0,
+      "frame": 194,
+      "health": 92.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 208,
+      "health": 84.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 222,
+      "health": 76.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 396,
+      "health": 68.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 403,
+      "health": 60.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 410,
+      "health": 52.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 424,
+      "health": 44.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 656,
+      "health": 36.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 670,
+      "health": 28.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 677,
+      "health": 20.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 684,
+      "health": 12.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 863,
+      "health": 4.0
+    },
+    {
+      "amount": 8.0,
+      "frame": 870,
+      "health": 0.0
+    }
+  ],
+  "scope": "Actual Main from source player spawn, controlled original hound spawns, normal weapon fire/rays/AI damage, vulnerable player death, delayed death menu and actual retry button. Automated aiming/stationary movement; not human combat or full mission balance acceptance."
+}

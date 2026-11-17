@@ -1,0 +1,11 @@
+{
+  "failures": [],
+  "gpu_mip_hashes": 76,
+  "gpu_rain_components": 40640,
+  "original_uv_bindings": 390,
+  "quality": "ultra",
+  "rain_instances": 9260,
+  "render_quality": "ultra",
+  "scope": "Actual Main selected cold quality, original-font browser texture hashes and UV bindings, original literal rain data and RNG/timer. Eight rendered GPU frames; not complete pixel parity or performance.",
+  "splash_instances": 900
+}

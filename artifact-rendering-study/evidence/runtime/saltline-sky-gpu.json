@@ -1,0 +1,10 @@
+{
+  "cases": 96,
+  "three": "180",
+  "scope": "Actual original exported sky fragment shader in original Three r180, original RGBA noise readback, Float32 render-target readback; analytic direction/time/env/flash samples, not final post color.",
+  "exported_assets": [
+    {
+      "file": "saltline-sky-reference.json"
+    }
+  ]
+}

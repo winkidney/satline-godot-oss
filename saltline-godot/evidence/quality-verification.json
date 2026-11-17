@@ -1,0 +1,8 @@
+{
+  "checks": 295,
+  "failures": [],
+  "methods_sha256": "cf8c96e91ef958b12d000d1c97486417f7a9b75fd143429a4fc2f9cf34813d02",
+  "resolution_cases": 240,
+  "scope": "Original five presets and actual original render.resize method, viewport/DPR/DRS scale and pixel cap. Native runtime currently DPR=1 and DRS=1; no adaptive controller assertion.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

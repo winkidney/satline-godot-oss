@@ -1,0 +1,17 @@
+{
+  "cases": 546,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "attachment": {
+    "depthBits": 24,
+    "framebufferDepthSize": 24,
+    "framebufferComplete": true,
+    "samples": 0,
+    "depthTextureType": 1014,
+    "depthTextureFormat": 1026
+  },
+  "exported_assets": [
+    {
+      "file": "polygon-offset-gl-reference.json"
+    }
+  ]
+}

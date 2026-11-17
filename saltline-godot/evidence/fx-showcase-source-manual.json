@@ -1,0 +1,599 @@
+{
+  "errors": [],
+  "state": {
+    "render": {
+      "exposure": 0.7,
+      "autoExposure": false,
+      "environmentIntensity": 2
+    },
+    "fov": 74,
+    "near": 0.08,
+    "far": 900,
+    "projection": [
+      0.7464627121614806,
+      0,
+      0,
+      0,
+      0,
+      1.3270448216204098,
+      0,
+      0,
+      0,
+      0,
+      -1.0001777935816518,
+      -1,
+      0,
+      0,
+      -0.16001422348653213,
+      0
+    ],
+    "snapshot_draws": 1403,
+    "params": {
+      "q": "high",
+      "shot": "1",
+      "noaudio": "1",
+      "step": "1",
+      "dt": "0.016666666666666666",
+      "show": "fx",
+      "fxshow": "explosion",
+      "fxsize": "1.2"
+    },
+    "time": {
+      "t": 0.09999999999999999,
+      "dt": 0.016666666666666666,
+      "frame": 6,
+      "real": 3.302400000035763
+    },
+    "camera": [
+      0,
+      2,
+      12.5
+    ],
+    "ground_stub": true,
+    "backdrop_stub": true,
+    "nodes": [
+      {
+        "name": "viewmodel-key",
+        "type": "DirectionalLight",
+        "visible": true,
+        "position": [
+          -0.55,
+          0.75,
+          0.6
+        ],
+        "intensity": 0.9,
+        "color": [
+          0.78,
+          0.86,
+          1
+        ],
+        "userData": {}
+      },
+      {
+        "name": "sky",
+        "type": "Mesh",
+        "visible": true,
+        "material": "saltline-sky",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "sun",
+        "type": "DirectionalLight",
+        "visible": true,
+        "position": [
+          181.26947229749686,
+          60.91706470189607,
+          65.22510407256709
+        ],
+        "intensity": 9,
+        "color": [
+          1,
+          0.72,
+          0.42
+        ],
+        "userData": {}
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0.65,
+          3.5
+        ],
+        "intensity": 144.00000000000006,
+        "color": [
+          1,
+          0.76052450467022,
+          0.43415363616478553
+        ],
+        "distance": 20.799999999999997,
+        "userData": {
+          "busy": true,
+          "ttl": 0.03000000000000001,
+          "dur": 0.08,
+          "peak": 384,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0.65,
+          3.5
+        ],
+        "intensity": 58.66666666666667,
+        "color": [
+          1,
+          0.2541520943200296,
+          0.02955683443236377
+        ],
+        "distance": 15.2,
+        "userData": {
+          "busy": true,
+          "ttl": 0.4,
+          "dur": 0.45,
+          "peak": 66,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "intensity": 0,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "distance": 12,
+        "userData": {
+          "busy": false,
+          "ttl": 0,
+          "dur": 0,
+          "peak": 0,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "intensity": 0,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "distance": 12,
+        "userData": {
+          "busy": false,
+          "ttl": 0,
+          "dur": 0,
+          "peak": 0,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "intensity": 0,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "distance": 12,
+        "userData": {
+          "busy": false,
+          "ttl": 0,
+          "dur": 0,
+          "peak": 0,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "PointLight",
+        "visible": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "intensity": 0,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "distance": 12,
+        "userData": {
+          "busy": false,
+          "ttl": 0,
+          "dur": 0,
+          "peak": 0,
+          "persistent": false
+        }
+      },
+      {
+        "name": "",
+        "type": "Mesh",
+        "visible": true,
+        "material": "concrete",
+        "material_state": {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "roughness": 1,
+          "metalness": 1,
+          "vertexColors": false,
+          "sl": {
+            "uSlWet": {
+              "value": 1
+            },
+            "uSlWetP": {
+              "value": {
+                "x": 0.42,
+                "y": 0.38,
+                "z": 0.5,
+                "w": 0
+              }
+            },
+            "uSlMacro": {
+              "value": {
+                "x": 0.22,
+                "y": 0.12,
+                "z": 0.35,
+                "w": 0.35
+              }
+            },
+            "uSlUv": {
+              "value": {
+                "x": 1,
+                "y": 1,
+                "z": 1024
+              }
+            },
+            "uSlX": {
+              "value": {
+                "x": 1,
+                "y": 0
+              }
+            }
+          },
+          "envMapIntensity": 1
+        },
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fx_decals",
+        "type": "Mesh",
+        "visible": true,
+        "material": "fx_decals",
+        "material_state": {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "roughness": 1,
+          "metalness": 1,
+          "vertexColors": true,
+          "envMapIntensity": 1
+        },
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fx_debris",
+        "type": "Mesh",
+        "visible": true,
+        "material": "fx_debris",
+        "material_state": {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "roughness": 0.82,
+          "metalness": 0.05,
+          "vertexColors": false,
+          "envMapIntensity": 1
+        },
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fx_shells",
+        "type": "Mesh",
+        "visible": false,
+        "material": "brass",
+        "material_state": {
+          "color": [
+            0.5394794890033748,
+            0.3231432091022285,
+            0.059511238155621766
+          ],
+          "roughness": 0.9,
+          "metalness": 1,
+          "vertexColors": false,
+          "sl": {
+            "uSlWet": {
+              "value": 1
+            },
+            "uSlWetP": {
+              "value": {
+                "x": 0,
+                "y": 0.7,
+                "z": 0.55,
+                "w": 0.5
+              }
+            },
+            "uSlMacro": {
+              "value": {
+                "x": 0.1,
+                "y": 0.08,
+                "z": 20,
+                "w": 0
+              }
+            },
+            "uSlUv": {
+              "value": {
+                "x": 1,
+                "y": 1,
+                "z": 512
+              }
+            },
+            "uSlX": {
+              "value": {
+                "x": 1,
+                "y": 0
+              }
+            }
+          },
+          "envMapIntensity": 1
+        },
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fx_lit",
+        "type": "Mesh",
+        "visible": true,
+        "material": "fx_lit",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fx_add",
+        "type": "Mesh",
+        "visible": true,
+        "material": "fx_add",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "",
+        "type": "Mesh",
+        "visible": true,
+        "material": "concrete",
+        "material_state": {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "roughness": 1,
+          "metalness": 1,
+          "vertexColors": false,
+          "sl": {
+            "uSlWet": {
+              "value": 1
+            },
+            "uSlWetP": {
+              "value": {
+                "x": 0.42,
+                "y": 0.38,
+                "z": 0.5,
+                "w": 0
+              }
+            },
+            "uSlMacro": {
+              "value": {
+                "x": 0.22,
+                "y": 0.12,
+                "z": 0.35,
+                "w": 0.35
+              }
+            },
+            "uSlUv": {
+              "value": {
+                "x": 1,
+                "y": 1,
+                "z": 1024
+              }
+            },
+            "uSlX": {
+              "value": {
+                "x": 1,
+                "y": 0
+              }
+            }
+          },
+          "envMapIntensity": 1
+        },
+        "position": [
+          -3.2,
+          1.1,
+          0
+        ]
+      },
+      {
+        "name": "",
+        "type": "Mesh",
+        "visible": true,
+        "material": "paint_blue",
+        "material_state": {
+          "color": [
+            0.013702083043526807,
+            0.04970656597728775,
+            0.13286832154414627
+          ],
+          "roughness": 1,
+          "metalness": 1,
+          "vertexColors": false,
+          "sl": {
+            "uSlWet": {
+              "value": 1
+            },
+            "uSlWetP": {
+              "value": {
+                "x": 0.05,
+                "y": 0.62,
+                "z": 0.65,
+                "w": 0.7
+              }
+            },
+            "uSlMacro": {
+              "value": {
+                "x": 0.2,
+                "y": 0.16,
+                "z": 0.4,
+                "w": 0.45
+              }
+            },
+            "uSlUv": {
+              "value": {
+                "x": 1,
+                "y": 1,
+                "z": 1024
+              }
+            },
+            "uSlX": {
+              "value": {
+                "x": 1,
+                "y": 0
+              }
+            }
+          },
+          "envMapIntensity": 1
+        },
+        "position": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "",
+        "type": "Mesh",
+        "visible": true,
+        "material": "wood_pallet",
+        "material_state": {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "roughness": 1,
+          "metalness": 1,
+          "vertexColors": false,
+          "sl": {
+            "uSlWet": {
+              "value": 1
+            },
+            "uSlWetP": {
+              "value": {
+                "x": 0.4,
+                "y": 0.5,
+                "z": 0.6,
+                "w": 0
+              }
+            },
+            "uSlMacro": {
+              "value": {
+                "x": 0.2,
+                "y": 0.1,
+                "z": 0.9,
+                "w": 0.4
+              }
+            },
+            "uSlUv": {
+              "value": {
+                "x": 1,
+                "y": 1,
+                "z": 512
+              }
+            },
+            "uSlX": {
+              "value": {
+                "x": 1,
+                "y": 0
+              }
+            }
+          },
+          "envMapIntensity": 1
+        },
+        "position": [
+          3.2,
+          0.6,
+          0
+        ]
+      }
+    ],
+    "stats": {
+      "lit": 55,
+      "add": 53,
+      "tracers": 0,
+      "debris": 20,
+      "drawCalls": 5
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "input": "saltline.original.html",
+  "input_bytes": 3552524,
+  "input_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "method": "Python HTMLParser and base64 only; no application execution",
+  "scripts": [
+    {
+      "attributes": {
+        "type": "application/octet-stream",
+        "id": "legacy-v8"
+      },
+      "html_line": 378,
+      "file": "legacy-v8.html",
+      "role": "embedded legacy HTML; menu may switch to it; not initial executable script",
+      "bytes": 1424625,
+      "sha256": "fefca4b1cfbc6f15474f349af6e3c5e56ada5114b802b5b57394d92f8fe54c5f"
+    },
+    {
+      "attributes": {},
+      "html_line": 379,
+      "file": "bundle-1.raw.js",
+      "role": "executable script",
+      "bytes": 1618001,
+      "sha256": "e2c5eab93a7862e8da036975ccffbb2a437bffe053b92f1162bdbcf46d5c099b"
+    }
+  ],
+  "html_resource_references": [
+    {
+      "tag": "link",
+      "attribute": "href",
+      "url": "https://fonts.googleapis.com"
+    },
+    {
+      "tag": "link",
+      "attribute": "href",
+      "url": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=IBM+Plex+Mono:wght@400;500&family=Barlow+Condensed:wght@400;500;600&display=swap"
+    }
+  ],
+  "limitations": "HTML references do not enumerate runtime requests or prove offline operation."
+}

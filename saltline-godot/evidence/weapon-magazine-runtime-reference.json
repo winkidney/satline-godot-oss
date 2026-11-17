@@ -1,0 +1,10 @@
+{
+  "rows": 281,
+  "matrix_channels": 4496,
+  "maximum_error": 2.748394861262077e-7,
+  "tolerance": 0.000002,
+  "failures": [],
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "reload_sha256": "e3cb26df295a6439bfff3b1e12d59e0b29b2045f33ed7eac71aefa2113fc0491",
+  "scope": "Actual GPU Main local magazine matrices replayed through literal original reload closures/methods using recorded old local root orientation. Original holds source inputs; no native expected, no full source image/IK proof."
+}

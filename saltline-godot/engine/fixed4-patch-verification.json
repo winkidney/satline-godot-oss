@@ -1,0 +1,6 @@
+{
+  "files": 16,
+  "patch_sha256": "cb86dd61338593418e7dcce1947e4ed01c9e84bb43069c1e9ebc71dce66e2fa1",
+  "failures": [],
+  "scope": "Fresh pinned archive file subset, patch dry-run/apply, all patched file hashes."
+}

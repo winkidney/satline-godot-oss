@@ -1,0 +1,142 @@
+[
+  {
+    "name": "fx_lit",
+    "level": 0,
+    "width": 512,
+    "height": 256,
+    "file": "fx_lit-0.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 1,
+    "width": 256,
+    "height": 128,
+    "file": "fx_lit-1.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 2,
+    "width": 128,
+    "height": 64,
+    "file": "fx_lit-2.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 3,
+    "width": 64,
+    "height": 32,
+    "file": "fx_lit-3.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 4,
+    "width": 32,
+    "height": 16,
+    "file": "fx_lit-4.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 5,
+    "width": 16,
+    "height": 8,
+    "file": "fx_lit-5.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 6,
+    "width": 8,
+    "height": 4,
+    "file": "fx_lit-6.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 7,
+    "width": 4,
+    "height": 2,
+    "file": "fx_lit-7.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 8,
+    "width": 2,
+    "height": 1,
+    "file": "fx_lit-8.rgba"
+  },
+  {
+    "name": "fx_lit",
+    "level": 9,
+    "width": 1,
+    "height": 1,
+    "file": "fx_lit-9.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 0,
+    "width": 512,
+    "height": 256,
+    "file": "fx_add-0.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 1,
+    "width": 256,
+    "height": 128,
+    "file": "fx_add-1.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 2,
+    "width": 128,
+    "height": 64,
+    "file": "fx_add-2.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 3,
+    "width": 64,
+    "height": 32,
+    "file": "fx_add-3.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 4,
+    "width": 32,
+    "height": 16,
+    "file": "fx_add-4.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 5,
+    "width": 16,
+    "height": 8,
+    "file": "fx_add-5.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 6,
+    "width": 8,
+    "height": 4,
+    "file": "fx_add-6.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 7,
+    "width": 4,
+    "height": 2,
+    "file": "fx_add-7.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 8,
+    "width": 2,
+    "height": 1,
+    "file": "fx_add-8.rgba"
+  },
+  {
+    "name": "fx_add",
+    "level": 9,
+    "width": 1,
+    "height": 1,
+    "file": "fx_add-9.rgba"
+  }
+]

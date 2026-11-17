@@ -1,0 +1,164 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "profiles": [
+    {
+      "reduced": false,
+      "transitions": {
+        "hud": [
+          0.35
+        ],
+        "veil": [
+          0.5
+        ],
+        "bars": [
+          0.7
+        ],
+        "button": [
+          0.12,
+          0.12,
+          0.12
+        ],
+        "cross": [
+          0.1
+        ],
+        "health": [
+          0.6
+        ],
+        "feed": [
+          0.5
+        ],
+        "radio": [
+          0.3
+        ],
+        "location": [
+          0.5
+        ],
+        "boot": [
+          0.6
+        ],
+        "boot_progress": [
+          0.25
+        ],
+        "stick": [
+          0.12
+        ],
+        "toggle": [
+          0.12,
+          0.12
+        ]
+      },
+      "location_duration": 1.1,
+      "samples": [
+        {
+          "seconds": 0.1,
+          "warning_alpha": 0.367647,
+          "warning_spacing_em": 0.40441052631578944,
+          "cue_alpha": 1
+        },
+        {
+          "seconds": 0.4,
+          "warning_alpha": 0.592157,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 0.35
+        },
+        {
+          "seconds": 1,
+          "warning_alpha": 1,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 1
+        },
+        {
+          "seconds": 3.3,
+          "warning_alpha": 0.163399,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 0.35
+        }
+      ]
+    },
+    {
+      "reduced": true,
+      "transitions": {
+        "hud": [
+          0.35
+        ],
+        "veil": [
+          0.00001
+        ],
+        "bars": [
+          0.00001
+        ],
+        "button": [
+          0.00001
+        ],
+        "cross": [
+          0.00001
+        ],
+        "health": [
+          0.00001
+        ],
+        "feed": [
+          0.00001
+        ],
+        "radio": [
+          0.00001
+        ],
+        "location": [
+          0.00001
+        ],
+        "boot": [
+          0.00001
+        ],
+        "boot_progress": [
+          0.25
+        ],
+        "stick": [
+          0.12
+        ],
+        "toggle": [
+          0.12,
+          0.12
+        ]
+      },
+      "location_duration": 0.00001,
+      "samples": [
+        {
+          "seconds": 0.1,
+          "warning_alpha": 1,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 1
+        },
+        {
+          "seconds": 0.4,
+          "warning_alpha": 1,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 1
+        },
+        {
+          "seconds": 1,
+          "warning_alpha": 1,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 1
+        },
+        {
+          "seconds": 3.3,
+          "warning_alpha": 1,
+          "warning_spacing_em": 0.24,
+          "cue_alpha": 1
+        }
+      ]
+    }
+  ],
+  "live_switch": {
+    "before": {
+      "duration_ms": 500,
+      "opacity": 0.295244
+    },
+    "during": {
+      "duration_ms": 500,
+      "opacity": 0.295244
+    },
+    "reversed": {
+      "duration_ms": 0.0029524433426788067
+    }
+  }
+}

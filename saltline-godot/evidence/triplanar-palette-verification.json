@@ -1,0 +1,14 @@
+{
+  "atlas_size": [
+    4,
+    290
+  ],
+  "changed_target_texels": 42,
+  "changed_unrelated_texels": 0,
+  "failures": [],
+  "initial_maximum_error": 0.000000149011611938477,
+  "runtime_maximum_error": 0.0,
+  "scope": "GPU-read RGBA32F palette initial18actor/290slots against original exported Three attached skin matrices; one skeleton root mutation first-renderframe update vs native currentposes, unrelated actor slots unchanged. Diagnostic readback only; not full finalnormal image or all animation parity.",
+  "source_matrices": 290,
+  "source_meshes": 18
+}

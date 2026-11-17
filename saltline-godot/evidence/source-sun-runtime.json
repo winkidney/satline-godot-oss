@@ -1,0 +1,66 @@
+{
+  "differences": [
+    {
+      "changed_samples": 14863,
+      "from": 0,
+      "sum_rgb_difference": 6274.3231678009,
+      "to": 1
+    },
+    {
+      "changed_samples": 13933,
+      "from": 1,
+      "sum_rgb_difference": 26064.4794540405,
+      "to": 2
+    }
+  ],
+  "failures": [],
+  "frames": 360,
+  "scope": "Frozen actual source scene, first120 source directsunoff (migration retained), next120 originalsun+PCSS, last120 diagnosticreceiveshadowoff. Generic Standard only, other light/IBL and nonmigrated surfaces retained. Original node materialtypes/receiveShadow independently audited, no native sun on migrated objects.",
+  "snapshots": [
+    {
+      "expected_migrated_source_nodes": 254,
+      "expected_receivers": 243,
+      "flag_failures": [],
+      "frame": 100,
+      "radiance_enabled": false,
+      "service": {
+        "migrated": 254,
+        "native": 50,
+        "nonreceivers": 11,
+        "receivers": 243
+      },
+      "shadow_ready": true,
+      "shadows_enabled": true
+    },
+    {
+      "expected_migrated_source_nodes": 254,
+      "expected_receivers": 243,
+      "flag_failures": [],
+      "frame": 220,
+      "radiance_enabled": true,
+      "service": {
+        "migrated": 254,
+        "native": 50,
+        "nonreceivers": 11,
+        "receivers": 243
+      },
+      "shadow_ready": true,
+      "shadows_enabled": true
+    },
+    {
+      "expected_migrated_source_nodes": 254,
+      "expected_receivers": 0,
+      "flag_failures": [],
+      "frame": 340,
+      "radiance_enabled": true,
+      "service": {
+        "migrated": 254,
+        "native": 50,
+        "nonreceivers": 11,
+        "receivers": 243
+      },
+      "shadow_ready": true,
+      "shadows_enabled": false
+    }
+  ]
+}

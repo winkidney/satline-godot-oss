@@ -1,0 +1,57 @@
+{
+  "part": "boat",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "source_time": 0.05,
+  "camera": {
+    "position": [
+      19.5,
+      1.7,
+      11.5
+    ],
+    "quaternion": [
+      0.0306021445256392,
+      0.8961335046487674,
+      0.06257034923490375,
+      -0.43828438483816834
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "nodes": [
+    {
+      "id": "b13407d4-9279-4bd9-8509-9f5f37e766bc",
+      "cast_shadow": true,
+      "maximum_matrix_error": 7.401250792793412e-11
+    },
+    {
+      "id": "0de96a78-2467-4bbe-ad5b-71bad1d8d662",
+      "cast_shadow": true,
+      "maximum_matrix_error": 7.401250792793412e-11
+    },
+    {
+      "id": "ca0065a5-13cd-4cc4-b352-b240e854e3f6",
+      "cast_shadow": true,
+      "maximum_matrix_error": 7.401250792793412e-11
+    },
+    {
+      "id": "febf1457-b3b6-447e-a4cc-8027e9558093",
+      "cast_shadow": true,
+      "maximum_matrix_error": 7.401250792793412e-11
+    },
+    {
+      "id": "d53cf1de-0b6a-42b6-9744-0efbcce72a48",
+      "cast_shadow": false,
+      "maximum_matrix_error": 7.401250792793412e-11
+    },
+    {
+      "id": "b64bdc53-358a-4ced-9aee-497d21458c72",
+      "cast_shadow": false,
+      "maximum_matrix_error": 7.401250792793412e-11
+    }
+  ],
+  "extras": [],
+  "casters": 4,
+  "original_meshes": 6,
+  "errors": []
+}

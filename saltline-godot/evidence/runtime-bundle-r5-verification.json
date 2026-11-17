@@ -1,0 +1,109 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r5",
+  "manifest_files": 4383,
+  "bytes": 2609368156,
+  "engine_sha256": "9babcf87a5bae54b005c9000ca1c5dfe6827e74f831b333eece269e96421b64a",
+  "integrity_failures": [],
+  "logs": {
+    "integration": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "precedence": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "controls": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "boot": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "ultra": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "toggle": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    }
+  },
+  "reports": {
+    "integration": {
+      "backdrop_bindings": [
+        "boat",
+        "spreader",
+        "hull",
+        "radar"
+      ],
+      "executable": "<PROJECT_ROOT>/output/linux-runtime-20261116-r5/engine/godot",
+      "failures": [],
+      "project_path": "<PROJECT_ROOT>/output/linux-runtime-20261116-r5/",
+      "quality": "low",
+      "query_resolution": 512,
+      "rain_instances": 4760,
+      "scope": "Packaged actual Main low startup, injected focus-loss pause, backdrop/rain freeze and actual Resume button, GPU capture. Not OS focus delivery, whole pixel parity, full mission or performance.",
+      "splash_instances": 450
+    },
+    "precedence": {
+      "case": "r5",
+      "expected": "low",
+      "failures": [],
+      "initial_render_quality": "low",
+      "menu_render_quality": "medium",
+      "rain_instances": 4760,
+      "saved": "ultra",
+      "scope": "Actual Main isolated saved settings, explicit cold-quality priority and runtime quality signal. Menu signal tests apply behavior, not pointer click delivery.",
+      "source_quality": "low"
+    },
+    "controls": {
+      "content_height": 958.0,
+      "content_width": 390.0,
+      "failures": [],
+      "focusable_controls": 3,
+      "scope": "Actual Main rich controls pane, three focusable header controls, injected Tab/ShiftTab/Escape and mouse wheel delivery, scroll-end GPU capture. Not whole browser layout or physical device test.",
+      "source_rows": 30,
+      "wheel_scroll": 313
+    },
+    "toggle": {
+      "active_thumb_pixel": [
+        1.0,
+        0.701960802078247,
+        0.278431385755539
+      ],
+      "failures": [],
+      "final_invert_y": true,
+      "mouse_keyboard_pad": true,
+      "scope": "Actual Main settings toggle: injected native mouse click and Space key, controller navigation/accept methods, live invertY setting, completed visual state and one GPU thumb color. Not physical controller or full-panel pixel parity."
+    },
+    "ultra": {
+      "cold_start_asset_quality": "ultra",
+      "failures": [],
+      "frames": 12,
+      "gpu_texture_hash_checks": 6,
+      "lighting_ready": 4,
+      "materials": 2,
+      "names": [
+        "asphalt",
+        "concrete"
+      ],
+      "nodes": 4,
+      "prop_names": [],
+      "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+      "shadow_casters": 3,
+      "textures": 6,
+      "vertex_color_mesh_checks": 0,
+      "wet_materials": 0,
+      "wet_override": null
+    }
+  },
+  "scope": "Relocatable Linux development bundle from /tmp, isolated user data, pinned bundled engine. Six terminal-success GPU launches: default boot, low pause/resume, saved-quality precedence, rich controls wheel/focus, Ultra hero six mip hashes, invert toggle pointer/key/pad. External verification scripts load package res:// resources only. Not full visual fidelity, PCK production release or other-device qualification."
+}

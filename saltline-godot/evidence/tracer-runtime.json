@@ -1,0 +1,19 @@
+{
+  "current": "pistol",
+  "flashes": 14,
+  "fps": 30,
+  "frames": 300,
+  "native_skeletons": 20,
+  "shell_bounces": 44,
+  "shells": 14,
+  "shells_settled": 14,
+  "shots": 14,
+  "slots": "{ \"rifle\": { \"ammo\": 30, \"reserve\": 137.0, \"mag_size\": 30 }, \"pistol\": { \"ammo\": 15, \"reserve\": inf, \"mag_size\": 15 } }",
+  "tracers": 14,
+  "viewmodel_fov": 54.0,
+  "world_fov": 74.0,
+  "runtime_errors": [],
+  "recording_complete": true,
+  "tracer_probe": "tracer-probe.png: side-on three-layer tracer visually inspected",
+  "decal_probe": "impact-probe.png: six real container surface hits visually inspected"
+}

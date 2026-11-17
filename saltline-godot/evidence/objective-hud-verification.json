@@ -1,0 +1,5 @@
+{
+  "checks": 12,
+  "failures": [],
+  "scope": "Ten original-browser observed typewriter states; actual GameUI HUD reset and holdout score grouping. No CSS pixel equality assertion."
+}

@@ -1,0 +1,7 @@
+{
+  "checks": 335,
+  "failures": [],
+  "observation_sha256": "edd6c9e29581ac63b7a9547666db002d2284d42f5ea580fabc08969f2aa39408",
+  "scope": "Normal title/noaudio/default4207 post-build root and four child streams from cold-browser observation, independently replayed through original su. Asset construction draws already baked; Math.random FX is independent, not represented here. Native post-build seed/state/call counters and first64 raw uint32 outputs for5 streams; avoids decimal JSON float parse equality artifacts.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

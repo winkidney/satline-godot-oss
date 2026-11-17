@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 1,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 2,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 3,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 4,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 5,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 6,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 7,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 8,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 9,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 12,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 13,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 14,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 15,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 16,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 17,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 18,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 19,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 20,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 21,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 22,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 23,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 24,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 25,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 26,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 27,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 28,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 29,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 30,
+      "maximum_error": 0.0
+    },
+    {
+      "case": 31,
+      "maximum_error": 0.0
+    }
+  ],
+  "channels": 98304,
+  "failures": [],
+  "scope": "Actual spatial QuadMesh/Camera3D with Vulkan projection and fragment derivatives,production weaponBump vs32 literal original Three height-gradient/face/mirror cases;constant planar gradients andinterior pixels. Does not cover source mesh perspective interpolation or procedural heights."
+}

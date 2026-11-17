@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "native": "ground-catalog.png",
+      "mae_rgb8": 23.631592881944446,
+      "p95": 43.0,
+      "p99": 49.0,
+      "max": 121.0
+    },
+    {
+      "native": "ground-catalog-paired.png",
+      "mae_rgb8": 23.621984230324074,
+      "p95": 43.0,
+      "p99": 48.0,
+      "max": 101.0
+    },
+    {
+      "native": "ground-catalog-auto.png",
+      "mae_rgb8": 1.471571903935185,
+      "p95": 7.0,
+      "p99": 18.0,
+      "max": 95.0
+    }
+  ],
+  "scope": "Descriptive whole-image ground showcase RGB8. Initial12frame/manual1,3frame/manual1 and3frame/defaultauto captures differ in time/exposure history; not a controlled single-variable renderer acceptance or full pixel parity claim."
+}

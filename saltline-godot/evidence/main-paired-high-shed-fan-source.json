@@ -1,0 +1,440 @@
+{
+  "lights": [
+    {
+      "name": "viewmodel-key",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 0.49500000000000005,
+      "color": [
+        0.78,
+        0.86,
+        1
+      ],
+      "position": [
+        7.4,
+        8.77,
+        -20.05
+      ],
+      "layers": 2
+    },
+    {
+      "name": "sun",
+      "type": "DirectionalLight",
+      "visible": true,
+      "intensity": 9,
+      "color": [
+        1,
+        0.72,
+        0.42
+      ],
+      "position": [
+        181.26947229749686,
+        60.91706470189607,
+        65.22510407256709
+      ],
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 2.571503640922013,
+      "color": [
+        1,
+        0.9,
+        0.75
+      ],
+      "position": [
+        9.3081003048589,
+        4.069101196164989,
+        -11.326372170822886
+      ],
+      "distance": 9,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 0,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "distance": 12,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        -8.5,
+        5.75,
+        -15.4
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        2.6,
+        5.75,
+        -15.4
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        -3.5,
+        5.75,
+        -23.6
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    },
+    {
+      "name": "",
+      "type": "PointLight",
+      "visible": true,
+      "intensity": 34,
+      "color": [
+        1,
+        0.55201140150344,
+        0.2541520943200296
+      ],
+      "position": [
+        8.6,
+        5.75,
+        -23.6
+      ],
+      "distance": 13,
+      "decay": 2,
+      "layers": 3
+    }
+  ],
+  "no_points": false,
+  "no_sun": false,
+  "rays": [
+    {
+      "pixel": [
+        856,
+        298
+      ],
+      "hits": [
+        {
+          "ordinal": 191,
+          "name": "",
+          "material": "paint_grey",
+          "distance": 4.004915154795935,
+          "point": [
+            11.62399959564209,
+            8.49031814866042,
+            -17.861472256279818
+          ],
+          "uv": [
+            -2.5573646354223314,
+            -0.06387996215124608
+          ]
+        },
+        {
+          "ordinal": 190,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.276772328940625,
+          "point": [
+            11.869999885559082,
+            8.522243759541507,
+            -17.75024754740377
+          ],
+          "uv": [
+            17.750247547403767,
+            8.522243759541507
+          ]
+        },
+        {
+          "ordinal": 189,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.44253933552987,
+          "point": [
+            12.020000457763672,
+            8.541710646762494,
+            -17.68242742418227
+          ],
+          "uv": [
+            17.68242742418227,
+            8.541710646762493
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        850,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 191,
+          "name": "",
+          "material": "paint_grey",
+          "distance": 3.984748697086626,
+          "point": [
+            11.62399959564209,
+            8.475146595477826,
+            -17.906986915827595
+          ],
+          "uv": [
+            -2.5967489328447027,
+            -0.09127775966953222
+          ]
+        },
+        {
+          "ordinal": 190,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.255236954289643,
+          "point": [
+            11.869999885559082,
+            8.506042347943394,
+            -17.798851782198106
+          ],
+          "uv": [
+            17.798851782198106,
+            8.506042347943394
+          ]
+        },
+        {
+          "ordinal": 189,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.420169253226224,
+          "point": [
+            12.020000457763672,
+            8.524881271060478,
+            -17.73291555128831
+          ],
+          "uv": [
+            17.73291555128831,
+            8.524881271060478
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        860,
+        300
+      ],
+      "hits": [
+        {
+          "ordinal": 191,
+          "name": "",
+          "material": "paint_grey",
+          "distance": 4.015676954991993,
+          "point": [
+            11.62399959564209,
+            8.475146595477826,
+            -17.831129149914627
+          ],
+          "uv": [
+            -2.5239736093883445,
+            -0.06987323184569524
+          ]
+        },
+        {
+          "ordinal": 190,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.288264649628858,
+          "point": [
+            11.869999885559082,
+            8.506042347943394,
+            -17.717844724207545
+          ],
+          "uv": [
+            17.717844724207545,
+            8.506042347943394
+          ]
+        },
+        {
+          "ordinal": 189,
+          "name": "",
+          "material": "corrugated_roof",
+          "distance": 4.4544770967168565,
+          "point": [
+            12.020000457763672,
+            8.524881271060478,
+            -17.648768672778235
+          ],
+          "uv": [
+            17.64876867277824,
+            8.524881271060478
+          ]
+        }
+      ]
+    }
+  ],
+  "time": {
+    "t": 0.05,
+    "dt": 0.016666666666666666,
+    "frame": 3,
+    "real": 3.869899999976158
+  },
+  "camera": {
+    "position": [
+      8,
+      8.02,
+      -19.5
+    ],
+    "quaternion": [
+      0,
+      -0.7071067811865475,
+      0,
+      0.7071067811865476
+    ],
+    "fov": 74,
+    "near": 0.08,
+    "far": 900
+  },
+  "quality": {
+    "name": "high",
+    "scale": 1,
+    "msaa": 4,
+    "shadow": 4096,
+    "tex": 1024,
+    "volSteps": 24,
+    "ao": true,
+    "planar": 0.5,
+    "bloom": true,
+    "motionBlur": true,
+    "rain": 1
+  },
+  "view_fill": 1.160389342482713,
+  "fade": 0,
+  "exposure": 1,
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "hdr": {
+    "width": 1280,
+    "height": 720,
+    "file": "main-paired-high-shed-fan-source.world.rgba16f",
+    "row_order": "bottom-to-top"
+  },
+  "surface_diagnostic": "",
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "errors": [],
+  "scope": "Actual original Main fixed camera and source time, manual exposure1, weapon/HUD hidden,12 zero-dt renders to warm render passes. Diagnostic paired scene, not normal gameplay."
+}

@@ -1,0 +1,25 @@
+{
+  "pairs": {
+    "native": {
+      "mae255": 10.774652416087964,
+      "changed_pixels": 920566,
+      "sha256": [
+        "99521504a037ce816136ba7cee508f4a22f0fcd212f7fb3f6e15e23f4c32b5f9",
+        "daa1855b4a825207c883bed3700e172347df96158b37b813acadccc6cf4bee97"
+      ]
+    },
+    "original": {
+      "mae255": 10.80715675636574,
+      "changed_pixels": 920585,
+      "sha256": [
+        "b42a6678e79a2feb42f5f62928ff633e0f3bdc61654e1b20bcc98248eff1f9c4",
+        "2f9b90c2ba7f0ff957df30f6e16becb0eb36190d0af94039e6cd762973613417"
+      ]
+    }
+  },
+  "scope": "Display RGB dry/wet response and independent original query screenshots; no source/native pixel acceptance threshold.",
+  "native_log_errors": {
+    "0": [],
+    "1": []
+  }
+}

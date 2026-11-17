@@ -1,0 +1,15 @@
+{
+  "failures": [],
+  "phase": "write",
+  "pid": 3875122,
+  "scope": "Actual Main/UI _select saves seven non-audio settings to isolated res evidence file; separate process loads through setup, quality/mode/difficulty apply. No user settings overwrite or physical GUI slider persistence proof.",
+  "settings": {
+    "difficulty": "brutal",
+    "fov": 87.0,
+    "invertY": true,
+    "mode": "holdout",
+    "quality": "low",
+    "sens": 1.85,
+    "view": 3
+  }
+}

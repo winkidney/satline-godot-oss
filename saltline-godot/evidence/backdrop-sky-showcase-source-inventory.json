@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "name": "",
+      "geometry": {
+        "attributes": {
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 136296,
+            "normalized": false,
+            "sha256": "8a84b3a751634686b8e17a1eb80b8432eba9f90b621ee09e9e913b4ceadc6a4e"
+          },
+          "normal": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 136296,
+            "normalized": false,
+            "sha256": "6b200e251de18122fd35214314be382eea4412b3a1030cf681d6b891cd30dcae"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 136296,
+            "normalized": false,
+            "sha256": "c51bad19b73d7d18877f26395124f7534114fceab07e6e495136d0ae06cd8f75"
+          },
+          "uv": {
+            "dtype": "Float32Array",
+            "itemSize": 2,
+            "count": 136296,
+            "normalized": false,
+            "sha256": "8765ebdac004eacf60316e51d41260b6617d49cd18388d92ca3be1dd13252a0e"
+          }
+        },
+        "index": null,
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "paint_white",
+          "env_map": false,
+          "env_intensity": 1
+        }
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false
+    },
+    {
+      "name": "gulls",
+      "geometry": {
+        "attributes": {
+          "aOrbit": {
+            "dtype": "Float32Array",
+            "itemSize": 4,
+            "count": 72,
+            "normalized": false,
+            "sha256": "c2305186870950dcb4998eeef76e2f952fc317d97db9739b72c5cb91eb5069eb"
+          },
+          "aPar": {
+            "dtype": "Float32Array",
+            "itemSize": 4,
+            "count": 72,
+            "normalized": false,
+            "sha256": "58dda526e7da1a9befffea7e1be800c3a0386046af5e2444411a5186d5ad7e95"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 72,
+            "normalized": false,
+            "sha256": "8b8a17e576a03ad2f04979b35ac71ccd0f3dd8e9a6372d3541ad546fb3710214"
+          }
+        },
+        "index": null,
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "",
+          "env_map": false
+        }
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false
+    },
+    {
+      "name": "backdrop-lamps",
+      "geometry": {
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "db406f19a7de3a621c4d3dd8999ca1b281cb3916abf19a8c334a3aab49504c39"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "087afaf8094361af0a90569f285fca6c5ccff87291aad60718eaddfe3531c803"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "2f7a9073cc20dbcd116a7cdb13214a7508400d8e8cac49b434864fca363e67d9"
+          }
+        },
+        "index": null,
+        "groups": []
+      },
+      "materials": [
+        {
+          "name": "",
+          "env_map": false
+        }
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "exported_blink_geometry": {
+        "id": "backdrop-sky-blink-2",
+        "attributes": {
+          "blink": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "db406f19a7de3a621c4d3dd8999ca1b281cb3916abf19a8c334a3aab49504c39",
+            "file": "showcase/backdrop-sky/blink-db406f19a7de3a621c4d3dd8999ca1b281cb3916abf19a8c334a3aab49504c39.bin"
+          },
+          "color": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "087afaf8094361af0a90569f285fca6c5ccff87291aad60718eaddfe3531c803",
+            "file": "showcase/backdrop-sky/color-087afaf8094361af0a90569f285fca6c5ccff87291aad60718eaddfe3531c803.bin"
+          },
+          "position": {
+            "dtype": "Float32Array",
+            "itemSize": 3,
+            "count": 3276,
+            "normalized": false,
+            "sha256": "2f7a9073cc20dbcd116a7cdb13214a7508400d8e8cac49b434864fca363e67d9",
+            "file": "showcase/backdrop-sky/position-2f7a9073cc20dbcd116a7cdb13214a7508400d8e8cac49b434864fca363e67d9.bin"
+          }
+        },
+        "groups": [],
+        "index": null,
+        "godot_index": "res://assets/export/showcase/backdrop-sky/indices-2.bin"
+      }
+    }
+  ],
+  "geometries": 3,
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "scope": "Actual original backdrop geometry attributes/index/world matrices/material environment flags; common floor/global lights separately captured. Backdrop blink buffers also retained for exact selected-lamp reconstruction."
+}

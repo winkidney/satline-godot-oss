@@ -1,0 +1,623 @@
+{
+  "source": "../extracted/bundle-1.js",
+  "method": "AST extraction of GLSL-like template literals after the Three.js library",
+  "limitations": "Some files are patch fragments, not standalone shaders. .glsl.template preserves JavaScript interpolation without evaluating it. Ordinary strings are not extracted. No compile or render validation.",
+  "shaders": [
+    {
+      "file": "35303-tv.glsl",
+      "source_line": 35303,
+      "end_line": 35308,
+      "interpolated": false,
+      "bytes": 480,
+      "sha256": "b58e82bf1bfa4c1ff2ff4e21030a570238eafa8788f44c67486ce89d0b85bf16"
+    },
+    {
+      "file": "35309-nv.glsl",
+      "source_line": 35309,
+      "end_line": 35319,
+      "interpolated": false,
+      "bytes": 451,
+      "sha256": "6601c464b7807a910060d925da6ae8de2630981667f993a55dc36fc34a0a5dad"
+    },
+    {
+      "file": "35346-H9.glsl.template",
+      "source_line": 35346,
+      "end_line": 35434,
+      "interpolated": true,
+      "bytes": 4436,
+      "sha256": "f551f225006af086a3fc1efea25e32cbf18dd6735e4968f8dc2de7f09e602233"
+    },
+    {
+      "file": "35435-O9.glsl",
+      "source_line": 35435,
+      "end_line": 35437,
+      "interpolated": false,
+      "bytes": 141,
+      "sha256": "1a7e4fbf2938ae820856ede598608735bcdfffa8d2df1b6eaa9e7eb45f54f064"
+    },
+    {
+      "file": "35554-l.glsl.template",
+      "source_line": 35554,
+      "end_line": 35607,
+      "interpolated": true,
+      "bytes": 2691,
+      "sha256": "0e734e5d7f4bc834b96d0059d34bdc7898c605398cddb04a21907d803477da1d"
+    },
+    {
+      "file": "35619-ao.glsl",
+      "source_line": 35619,
+      "end_line": 35624,
+      "interpolated": false,
+      "bytes": 309,
+      "sha256": "84c33f77e1debfad31cb3737105a97bb59b29b911e68ab5338a7d67a5ed77285"
+    },
+    {
+      "file": "35625-sv.glsl",
+      "source_line": 35625,
+      "end_line": 35628,
+      "interpolated": false,
+      "bytes": 232,
+      "sha256": "df2a8ac041129fca4b9ac94765a12f6bdf47cbb02bba1e4867a686f462035d46"
+    },
+    {
+      "file": "35629-G9.glsl.template",
+      "source_line": 35629,
+      "end_line": 35631,
+      "interpolated": true,
+      "bytes": 113,
+      "sha256": "a3316b855f1edf0df1e4037c451427f601031b946c26ce5eecb23a92bb86da1e"
+    },
+    {
+      "file": "35632-q9.glsl.template",
+      "source_line": 35632,
+      "end_line": 35640,
+      "interpolated": true,
+      "bytes": 419,
+      "sha256": "ee4313bbc3ad56e3b94dc107e9fe8389e25b5181a6491273f40f8ff05b18f83b"
+    },
+    {
+      "file": "35641-X9.glsl.template",
+      "source_line": 35641,
+      "end_line": 35673,
+      "interpolated": true,
+      "bytes": 1648,
+      "sha256": "1bc23ae7d4cf1c52bc01381ca57ab7ba811734fc5507a885638b00595b11ac2a"
+    },
+    {
+      "file": "35674-Y9.glsl.template",
+      "source_line": 35674,
+      "end_line": 35730,
+      "interpolated": true,
+      "bytes": 2895,
+      "sha256": "f0a588fb91aa4344655acadce2f20c8acb7a3c43f63e2a4bed5444cce494618e"
+    },
+    {
+      "file": "35731-QM.glsl.template",
+      "source_line": 35731,
+      "end_line": 35744,
+      "interpolated": true,
+      "bytes": 523,
+      "sha256": "8cba3873975b110e46c9d93c4f84cd24e3ee3d3b771c1483ba619d7b9034e284"
+    },
+    {
+      "file": "35745-$9.glsl.template",
+      "source_line": 35745,
+      "end_line": 35777,
+      "interpolated": true,
+      "bytes": 1513,
+      "sha256": "4f1421b2b9675edaa5131152a7e1b8c3c314bf19a56ae02579923cabdb9407a8"
+    },
+    {
+      "file": "35778-Z9.glsl.template",
+      "source_line": 35778,
+      "end_line": 35799,
+      "interpolated": true,
+      "bytes": 917,
+      "sha256": "8f382bf418d93e3239b177c62629bfb6c697f8dc9ae2236dc0239732e8fffaaa"
+    },
+    {
+      "file": "35800-j9.glsl.template",
+      "source_line": 35800,
+      "end_line": 35819,
+      "interpolated": true,
+      "bytes": 1212,
+      "sha256": "f2ec98cccde34478abfaf731e9137cff701a09288569fdadec929fb27358922b"
+    },
+    {
+      "file": "35820-K9.glsl.template",
+      "source_line": 35820,
+      "end_line": 35829,
+      "interpolated": true,
+      "bytes": 590,
+      "sha256": "0254110db54370a8e12ccfb4c5673a8c42ea04f88563376990efc239f4fe4437"
+    },
+    {
+      "file": "35830-J9.glsl.template",
+      "source_line": 35830,
+      "end_line": 35843,
+      "interpolated": true,
+      "bytes": 432,
+      "sha256": "2afabb7328884c5fa15f7fa384d7d41c84fc5de4e72ce95e148eeff752f7741f"
+    },
+    {
+      "file": "35844-Q9.glsl.template",
+      "source_line": 35844,
+      "end_line": 35870,
+      "interpolated": true,
+      "bytes": 1185,
+      "sha256": "20444e439e9e02cecdd6f88c813b461cbc721245f741c5ad5f21ae615ed786fe"
+    },
+    {
+      "file": "35871-ek.glsl.template",
+      "source_line": 35871,
+      "end_line": 35890,
+      "interpolated": true,
+      "bytes": 817,
+      "sha256": "860774d560719c66c770caa7a8b90c0aefc89ce70a567b8da455c16b59c0df6f"
+    },
+    {
+      "file": "35891-tk.glsl.template",
+      "source_line": 35891,
+      "end_line": 35997,
+      "interpolated": true,
+      "bytes": 6086,
+      "sha256": "55f9e5af764a4e279c327dcd2256ab36398265a087e9eb05413a60558f9b755a"
+    },
+    {
+      "file": "35998-nk.glsl.template",
+      "source_line": 35998,
+      "end_line": 36028,
+      "interpolated": true,
+      "bytes": 1917,
+      "sha256": "26106e90c2dc427d8d688bd30db8bdb5c64ed445ace421a6023db090176c9217"
+    },
+    {
+      "file": "37394-s_.glsl",
+      "source_line": 37394,
+      "end_line": 37396,
+      "interpolated": false,
+      "bytes": 121,
+      "sha256": "67c5194467f573e15f6f31a1d5024b0da0b6acb5b6f05c0959dac9b623503eff"
+    },
+    {
+      "file": "37397-o_.glsl",
+      "source_line": 37397,
+      "end_line": 37483,
+      "interpolated": false,
+      "bytes": 5317,
+      "sha256": "3b9e0881eaf7491351955961dc7ce0a91ad646ffe6526ba54a82d1d1c5ffdadd"
+    },
+    {
+      "file": "37487-fragment.glsl",
+      "source_line": 37487,
+      "end_line": 37512,
+      "interpolated": false,
+      "bytes": 1678,
+      "sha256": "357267d1102a174255c3ebb66901700011b1e4aae78e0a5b5dd6e7ab55c0908f"
+    },
+    {
+      "file": "37513-fragment.glsl",
+      "source_line": 37513,
+      "end_line": 37540,
+      "interpolated": false,
+      "bytes": 2443,
+      "sha256": "b955d35a6ef574f1b93b7865741bc0ceda0cb2f016b87768f367965ba21fd9b3"
+    },
+    {
+      "file": "37541-fragment.glsl",
+      "source_line": 37541,
+      "end_line": 37558,
+      "interpolated": false,
+      "bytes": 1386,
+      "sha256": "bedc0c7adbc265f1d0a5eea2b65ea1edb3d3c322b60d34699d57f9ca8ca23cfc"
+    },
+    {
+      "file": "37559-fragment.glsl",
+      "source_line": 37559,
+      "end_line": 37582,
+      "interpolated": false,
+      "bytes": 2208,
+      "sha256": "6b2a01ac7b74210e0dc577244c25c923562dffca6cb39cb55c7edec8e6cc52c5"
+    },
+    {
+      "file": "37612-fragment.glsl.template",
+      "source_line": 37612,
+      "end_line": 37618,
+      "interpolated": true,
+      "bytes": 158,
+      "sha256": "182e91567a7b351ddd16755209710dcf6b6aa4f7dfe727e3f09414666a3542a9"
+    },
+    {
+      "file": "37619-fragment.glsl.template",
+      "source_line": 37619,
+      "end_line": 37628,
+      "interpolated": true,
+      "bytes": 368,
+      "sha256": "45b9f299e8bf4244e53c1fa5525ffc9eb4e2786751215bb6f0a8dceb8daabb09"
+    },
+    {
+      "file": "37629-fragment.glsl",
+      "source_line": 37629,
+      "end_line": 37659,
+      "interpolated": false,
+      "bytes": 1947,
+      "sha256": "472280d5895327be319d3a99b5ecf623b65de59f7020dad02813eb3f105d3096"
+    },
+    {
+      "file": "37660-fragment.glsl",
+      "source_line": 37660,
+      "end_line": 37675,
+      "interpolated": false,
+      "bytes": 1000,
+      "sha256": "f0ab052b1b5915f1f9636c36fae2fd8c261b9e2fcc6b1a21a712968cec070200"
+    },
+    {
+      "file": "37676-fragment.glsl",
+      "source_line": 37676,
+      "end_line": 37690,
+      "interpolated": false,
+      "bytes": 1018,
+      "sha256": "bb0ed8a6ae8560908c8ddf78c01944ae7ac64b329a39bb96733d0e48fb4feeb2"
+    },
+    {
+      "file": "37691-fragment.glsl",
+      "source_line": 37691,
+      "end_line": 37702,
+      "interpolated": false,
+      "bytes": 708,
+      "sha256": "5dc3b305e9c65527f7322d051201666669125ed600cdc4e60f06446230851e72"
+    },
+    {
+      "file": "37703-fragment.glsl",
+      "source_line": 37703,
+      "end_line": 37727,
+      "interpolated": false,
+      "bytes": 1763,
+      "sha256": "dce8ebc8d7c28b8393c35e811bab43c02cb98a965d54e409035c386aacd4fb58"
+    },
+    {
+      "file": "37728-fragment.glsl",
+      "source_line": 37728,
+      "end_line": 37745,
+      "interpolated": false,
+      "bytes": 1326,
+      "sha256": "c38aedf6302848c8ae3ff690c275e17daabc203205edeb79200167b48f73e5c1"
+    },
+    {
+      "file": "37746-fragment.glsl",
+      "source_line": 37746,
+      "end_line": 37769,
+      "interpolated": false,
+      "bytes": 1763,
+      "sha256": "a05fd763b21d71fa2a7db0ace5a81ab7baa43deb4c51a5bdba26c8f859b80626"
+    },
+    {
+      "file": "37770-fragment.glsl",
+      "source_line": 37770,
+      "end_line": 37785,
+      "interpolated": false,
+      "bytes": 1005,
+      "sha256": "63ec3e259c22f6d993991cc4fcc19180c1b8a9e4841dd4c19d69487667180c43"
+    },
+    {
+      "file": "37786-fragment.glsl",
+      "source_line": 37786,
+      "end_line": 37800,
+      "interpolated": false,
+      "bytes": 1032,
+      "sha256": "a38bd499d1342d07b970f0316342b94e362ff16cfcd4dd872adf6fe72dd70fc1"
+    },
+    {
+      "file": "37801-fragment.glsl",
+      "source_line": 37801,
+      "end_line": 37813,
+      "interpolated": false,
+      "bytes": 768,
+      "sha256": "2a4a1f9226821d2af9ecd4c10d157672e9e51bf3226d515347873c06f17a0818"
+    },
+    {
+      "file": "37814-fragment.glsl",
+      "source_line": 37814,
+      "end_line": 37824,
+      "interpolated": false,
+      "bytes": 593,
+      "sha256": "4b0d260a058a6cec113346c433b96897614d0c67e1039944d71f0da213b59fd4"
+    },
+    {
+      "file": "37825-fragment.glsl",
+      "source_line": 37825,
+      "end_line": 37835,
+      "interpolated": false,
+      "bytes": 596,
+      "sha256": "97b45f367506b156fb45301d75c0c280a903c9d351879fcb32390376fc8e17d1"
+    },
+    {
+      "file": "37836-fragment.glsl",
+      "source_line": 37836,
+      "end_line": 37851,
+      "interpolated": false,
+      "bytes": 971,
+      "sha256": "a8b00b5a29297bbf3759b52e93f6e3b422b47f9454937130e0b72e9be0b747af"
+    },
+    {
+      "file": "37852-fragment.glsl",
+      "source_line": 37852,
+      "end_line": 37873,
+      "interpolated": false,
+      "bytes": 1691,
+      "sha256": "ba73bf4ed3b3cd11254716aa955cffa1e2ebb47b9f0520f4b7c2de4b1977a9f8"
+    },
+    {
+      "file": "37874-fragment.glsl",
+      "source_line": 37874,
+      "end_line": 37886,
+      "interpolated": false,
+      "bytes": 820,
+      "sha256": "6695a908e8fdc84801158ee87a4748358885d04e51e8d60ae1812a4f1a5c7d0a"
+    },
+    {
+      "file": "37887-fragment.glsl",
+      "source_line": 37887,
+      "end_line": 37902,
+      "interpolated": false,
+      "bytes": 1118,
+      "sha256": "bf3e4194a701cf34fe39c43c14f234ba10d44a717f3ed0708083d27d23a98fab"
+    },
+    {
+      "file": "37903-fragment.glsl",
+      "source_line": 37903,
+      "end_line": 37914,
+      "interpolated": false,
+      "bytes": 1007,
+      "sha256": "39cb4edc97fa3af99750166b810e138ca4db56f7b2421db2d94996a297ccbbd3"
+    },
+    {
+      "file": "37915-fragment.glsl",
+      "source_line": 37915,
+      "end_line": 37924,
+      "interpolated": false,
+      "bytes": 583,
+      "sha256": "aaef1956ae211092f894f73f684a07fbe5fd70a59831cd8bcaf632709cc3e33d"
+    },
+    {
+      "file": "37925-fragment.glsl",
+      "source_line": 37925,
+      "end_line": 37940,
+      "interpolated": false,
+      "bytes": 1148,
+      "sha256": "53a5beece8cc7c742900bbb1f2ed5259d83fa6e9c5526b8547703af178a39022"
+    },
+    {
+      "file": "37941-fragment.glsl",
+      "source_line": 37941,
+      "end_line": 37956,
+      "interpolated": false,
+      "bytes": 1044,
+      "sha256": "75d8c4eae78ed84ed6810a9352bbad5e4065f809069ff8edf57a23a0b849e5c0"
+    },
+    {
+      "file": "37957-fragment.glsl",
+      "source_line": 37957,
+      "end_line": 37961,
+      "interpolated": false,
+      "bytes": 209,
+      "sha256": "e2cb8e21affa661f77a730cf8dfa931f74c5128f382a29d6a7981e78bab6bd9f"
+    },
+    {
+      "file": "37962-l_.glsl",
+      "source_line": 37962,
+      "end_line": 37973,
+      "interpolated": false,
+      "bytes": 615,
+      "sha256": "da8eb9cbc6b5fa803951afc33e25161e1526e7d78ba8f143c62709624829e458"
+    },
+    {
+      "file": "37974-c_.glsl",
+      "source_line": 37974,
+      "end_line": 37977,
+      "interpolated": false,
+      "bytes": 177,
+      "sha256": "4c18d31f911b2cf4f85244a6e297f7f0a2b2da4c97d9d79ea35c263a28b4864e"
+    },
+    {
+      "file": "39343-hk.glsl",
+      "source_line": 39343,
+      "end_line": 39348,
+      "interpolated": false,
+      "bytes": 111,
+      "sha256": "b0fdb43fd30af64de0cb34086c0d308fe40a66a8e7fd90b5f97156702848b3d2"
+    },
+    {
+      "file": "39368-pk.glsl",
+      "source_line": 39368,
+      "end_line": 39383,
+      "interpolated": false,
+      "bytes": 1036,
+      "sha256": "21892c90585a5054ee06806ee657456afcd5c908c485ca14c86c46c31ca018a0"
+    },
+    {
+      "file": "55897-TP.glsl",
+      "source_line": 55897,
+      "end_line": 55937,
+      "interpolated": false,
+      "bytes": 2548,
+      "sha256": "1587b16db58361a19f531ad38fe9d717c6548c8ddfafdc08978066ab6607f07a"
+    },
+    {
+      "file": "56304-IP.glsl",
+      "source_line": 56304,
+      "end_line": 56308,
+      "interpolated": false,
+      "bytes": 206,
+      "sha256": "2a66e0b357ecd5cdf3d167ab91f2a37b40af1057a3575a58f881c796304c7c0b"
+    },
+    {
+      "file": "56492-Ww.glsl",
+      "source_line": 56492,
+      "end_line": 56499,
+      "interpolated": false,
+      "bytes": 319,
+      "sha256": "f3c076a852d44774429ac9af730ebb67dbe63a01e011e8b24541e10355e7fc82"
+    },
+    {
+      "file": "56500-LP.glsl.template",
+      "source_line": 56500,
+      "end_line": 56540,
+      "interpolated": true,
+      "bytes": 1979,
+      "sha256": "325bdf6860ed4296362c6099c1abe8c7e6cc56f1a1e8ccb3f4bd1233751e472b"
+    },
+    {
+      "file": "56541-FP.glsl",
+      "source_line": 56541,
+      "end_line": 56547,
+      "interpolated": false,
+      "bytes": 220,
+      "sha256": "044d2e60db017849dfdd30ccc5bce2c152c6b24d7f95057ed8a1b63480d7275c"
+    },
+    {
+      "file": "56548-NP.glsl.template",
+      "source_line": 56548,
+      "end_line": 56580,
+      "interpolated": true,
+      "bytes": 1836,
+      "sha256": "59b9928476b57449d08be06e695814a29c9e6342e104ad9599c213d703e9651e"
+    },
+    {
+      "file": "56581-UP.glsl",
+      "source_line": 56581,
+      "end_line": 56593,
+      "interpolated": false,
+      "bytes": 730,
+      "sha256": "2d640dc97d4ab9c97e882a1d3b2f54735836470fd3338cc31b4020fa5b558728"
+    },
+    {
+      "file": "57585-OP.glsl",
+      "source_line": 57585,
+      "end_line": 57636,
+      "interpolated": false,
+      "bytes": 2335,
+      "sha256": "6a4b64bd07847df536900d4d1a9c65a18a8a1911337963c0d5177d4f7bc5fd4b"
+    },
+    {
+      "file": "57637-Jw.glsl",
+      "source_line": 57637,
+      "end_line": 57659,
+      "interpolated": false,
+      "bytes": 539,
+      "sha256": "92b6c9b3803fc849931fe0383ad741eabd472acea6879e7673db728ca9d16e0e"
+    },
+    {
+      "file": "57662-fragment.glsl",
+      "source_line": 57662,
+      "end_line": 57695,
+      "interpolated": false,
+      "bytes": 2056,
+      "sha256": "509c5fbea9f30f9b87335f3f2317b61edf9064733d1d7f8b46293e7e1b514b5f"
+    },
+    {
+      "file": "57698-fragment.glsl",
+      "source_line": 57698,
+      "end_line": 57706,
+      "interpolated": false,
+      "bytes": 224,
+      "sha256": "dd1e2fbcc616355cc4740d5abd4d50cd0606a39ed40e3bde2ddeb403570e58a1"
+    },
+    {
+      "file": "70034-bE.glsl",
+      "source_line": 70034,
+      "end_line": 70037,
+      "interpolated": false,
+      "bytes": 288,
+      "sha256": "96a6432ae4bc95167c47a0522d767436c0fd0847c11b8a9a59554ea779ebb6ab"
+    },
+    {
+      "file": "70173-fragment.glsl",
+      "source_line": 70173,
+      "end_line": 70183,
+      "interpolated": false,
+      "bytes": 629,
+      "sha256": "57642ce3588407e89d6588e9badf926575e4423ec102d065d0c5f5c066196cb7"
+    },
+    {
+      "file": "70184-fragment.glsl",
+      "source_line": 70184,
+      "end_line": 70230,
+      "interpolated": false,
+      "bytes": 3799,
+      "sha256": "d145706d15ba0384a7610c538675115b8590075cb4d9aa423aa16df9086d08e1"
+    },
+    {
+      "file": "70310-fragment.glsl",
+      "source_line": 70310,
+      "end_line": 70311,
+      "interpolated": false,
+      "bytes": 179,
+      "sha256": "eec625ca875021ab1d9c28e6d103c26149333230ae9279b0fb516e33a3db9517"
+    },
+    {
+      "file": "70312-fragment.glsl",
+      "source_line": 70312,
+      "end_line": 70342,
+      "interpolated": false,
+      "bytes": 1973,
+      "sha256": "543702c2f1cd2ab0116517c5a9e916a020967066184a5d92587febc86be47da0"
+    },
+    {
+      "file": "70382-fragment.glsl",
+      "source_line": 70382,
+      "end_line": 70394,
+      "interpolated": false,
+      "bytes": 1164,
+      "sha256": "3ef32878160303834fb257a27213aa4f894ef19c338f1eb901d565ac91b11719"
+    },
+    {
+      "file": "70501-fragment.glsl",
+      "source_line": 70501,
+      "end_line": 70502,
+      "interpolated": false,
+      "bytes": 119,
+      "sha256": "eecc3b9e73956bd8b0001700d31df9bd9263f6bda9ace8f435107fc066d5be99"
+    },
+    {
+      "file": "75164-MD.glsl.template",
+      "source_line": 75164,
+      "end_line": 75281,
+      "interpolated": true,
+      "bytes": 10707,
+      "sha256": "3b640b5962b35b9af47d7478603986e920697ddd4be12e46d45218472515e8d5"
+    },
+    {
+      "file": "75295-fragment.glsl",
+      "source_line": 75295,
+      "end_line": 75296,
+      "interpolated": false,
+      "bytes": 127,
+      "sha256": "45811ce637e53d4ceca817c1e066964bc26631ff4cc293342ab15fe6d9690e2b"
+    },
+    {
+      "file": "75306-fragment.glsl",
+      "source_line": 75306,
+      "end_line": 75308,
+      "interpolated": false,
+      "bytes": 107,
+      "sha256": "008459ed8cad0cec7898e31a1c975ca69990953e2bf5b47a5a8550177eb02d82"
+    },
+    {
+      "file": "82956-fragment.glsl",
+      "source_line": 82956,
+      "end_line": 82969,
+      "interpolated": false,
+      "bytes": 529,
+      "sha256": "4caabd317afcb3ebb375158162f899216bccd5b07d8e7c76328d520c48223df7"
+    },
+    {
+      "file": "82970-fragment.glsl",
+      "source_line": 82970,
+      "end_line": 82979,
+      "interpolated": false,
+      "bytes": 426,
+      "sha256": "3839ce9fe0bcc89b761918386a23593a617b9efe0b59acc7698859f06328d358"
+    }
+  ]
+}

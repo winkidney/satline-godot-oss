@@ -1,0 +1,22 @@
+{
+  "case": "backdrop",
+  "failures": [],
+  "stages": [
+    {
+      "message": "Waking the renderer",
+      "progress": 0.04
+    },
+    {
+      "message": "Mixing paint, rust and rain",
+      "progress": 0.12
+    },
+    {
+      "message": "Waiting for first light",
+      "progress": 0.92
+    },
+    {
+      "message": "Ready",
+      "progress": 1.0
+    }
+  ]
+}

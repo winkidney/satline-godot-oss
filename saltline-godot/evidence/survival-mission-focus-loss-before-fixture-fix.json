@@ -1,0 +1,44 @@
+{
+  "combat": {
+    "hits": 0,
+    "kills": 0,
+    "shots": 0
+  },
+  "completion_menu": "paused",
+  "cut": 0,
+  "damage_events": [],
+  "debrief": {},
+  "difficulty": "standard",
+  "distance": 24.7401718422771,
+  "failures": [
+    "movement stalled leg 0",
+    "mission not completed by walking"
+  ],
+  "frames": 3600,
+  "health": 100.0,
+  "legs": [
+    {
+      "done": false,
+      "leg": 0,
+      "position": [
+        -12.3988761901855,
+        0.0,
+        16.2455005645752
+      ],
+      "reached_waypoint": 3,
+      "steps": 3600,
+      "waypoints": 9
+    }
+  ],
+  "minimum_health": 100.0,
+  "protected_live_frames": 0,
+  "rifle_ammo": 30,
+  "rifle_reserve": 150.0,
+  "scope": "Actual Main from original spawn with normal player movement/capsule collision and keyboard E holds. Original Standard difficulty and patrols, automated navigation/aim/fire with normal health/ammo/AI, no invulnerability, teleports, direct damage or direct relay cuts. Not human play/balance acceptance.",
+  "start": [
+    -32.0,
+    0.0,
+    6.0
+  ],
+  "state": "paused"
+}

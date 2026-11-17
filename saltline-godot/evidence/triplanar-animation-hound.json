@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "--hound-actor-preview"
+  ],
+  "changed_samples": 14,
+  "failures": [],
+  "maximum_error": 0.0,
+  "samples": 15,
+  "scope": "150 actual actor-preview frames; GPU palette read every10 frames vs current Skeleton poses across18 meshes. Does not establish full final-image normal parity."
+}

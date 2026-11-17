@@ -1,0 +1,199 @@
+{
+  "failures": [
+    "both guns not exercised"
+  ],
+  "frames": 220,
+  "scope": "Actual full GPU Main._weapon_fired via signal wrapper. Per-shot 18/17 weapon RNG draws, single flash/light and old root unchanged before sampled animation. No original full-world image/impact comparison or live D/IK proof.",
+  "shots": [
+    {
+      "camera_recoil": 0.00503974117527157,
+      "flash_delta": 1,
+      "frame": 10,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 1.86232584392466
+    },
+    {
+      "camera_recoil": 0.00947269517383259,
+      "flash_delta": 1,
+      "frame": 12,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 3.52576554460265
+    },
+    {
+      "camera_recoil": 0.0123320385342711,
+      "flash_delta": 1,
+      "frame": 15,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 5.12218554951064
+    },
+    {
+      "camera_recoil": 0.0165266516281241,
+      "flash_delta": 1,
+      "frame": 17,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 6.4525249140691
+    },
+    {
+      "camera_recoil": 0.0198866594193845,
+      "flash_delta": 1,
+      "frame": 20,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 8.05256722842157
+    },
+    {
+      "camera_recoil": 0.023928891414955,
+      "flash_delta": 1,
+      "frame": 22,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 9.55033703868091
+    },
+    {
+      "camera_recoil": 0.0264420651636784,
+      "flash_delta": 1,
+      "frame": 25,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 10.8882826823071
+    },
+    {
+      "camera_recoil": 0.0303563521294565,
+      "flash_delta": 1,
+      "frame": 27,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 12.5263962735962
+    },
+    {
+      "camera_recoil": 0.032233954016123,
+      "flash_delta": 1,
+      "frame": 30,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 14.0621716278959
+    },
+    {
+      "camera_recoil": 0.0337344423614165,
+      "flash_delta": 1,
+      "frame": 32,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 15.4910732424986
+    },
+    {
+      "camera_recoil": 0.0320000178568908,
+      "flash_delta": 1,
+      "frame": 35,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 16.9357129180692
+    },
+    {
+      "camera_recoil": 0.0338975302706151,
+      "flash_delta": 1,
+      "frame": 37,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 18.3682973130215
+    },
+    {
+      "camera_recoil": 0.0319586909186626,
+      "flash_delta": 1,
+      "frame": 40,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 19.7385819735546
+    },
+    {
+      "camera_recoil": 0.0338875477365278,
+      "flash_delta": 1,
+      "frame": 42,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 21.4093423109204
+    },
+    {
+      "camera_recoil": 0.0321230711352142,
+      "flash_delta": 1,
+      "frame": 45,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 22.9541369860601
+    },
+    {
+      "camera_recoil": 0.0336182414730138,
+      "flash_delta": 1,
+      "frame": 47,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 24.4738119716272
+    },
+    {
+      "camera_recoil": 0.00413975084287487,
+      "flash_delta": 1,
+      "frame": 130,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 1.84835336078703
+    },
+    {
+      "camera_recoil": 0.0048122596662763,
+      "flash_delta": 1,
+      "frame": 145,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 4.15950047966279
+    },
+    {
+      "camera_recoil": 0.00458637540588793,
+      "flash_delta": 1,
+      "frame": 160,
+      "gun": "rifle",
+      "light_delta": 1,
+      "old_root_unchanged": true,
+      "random_delta": 18,
+      "root_impulse": 6.2841001236923
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+const fs=require('fs'),text=fs.readFileSync('artifact-rendering-study/source/extracted/bundle-1.js','utf8');
+class Vec{constructor(x=0,y=0,z=0){this.set(x,y,z)}set(x,y,z){this.x=x;this.y=y;this.z=z;return this}copy(v){return this.set(v.x,v.y,v.z)}multiplyScalar(v){this.x*=v;this.y*=v;this.z*=v;return this}normalize(){return this.multiplyScalar(1/(Math.hypot(this.x,this.y,this.z)||1))}toJSON(){return [this.x,this.y,this.z]}}
+const at=text.indexOf('function su(n = 1337)'),o=eval('('+text.slice(at,text.indexOf('\n  var Hn =',at)).trim()+')')(9001);
+const begin=text.indexOf('function jS(n, e, t, i)'),extract=(a,b)=>{let i=text.indexOf(a,begin);return text.slice(i,text.indexOf(b,i)).trim()};
+const input={pos:[-2,.1,3],headPos:[-1.8,1.1,3.4],yaw:.7,speed:3,prevSpeed:3,yawRate:0,crouch:.05,hp:170,alive:true,active:true,hasToken:true,es:'burst',dieT:0,vy:0,dieRoll:0,diePitch:0,sw:0,sink:0,wreck:false,smokeT:0,hpitch:0,hyaw:.1,tpitch:-.1,sY:{x:0,v:0},sP:{x:0,v:0},sR:{x:0,v:0},sL:{x:0,v:0},feet:[0,1,2,3].map(i=>({p:[-2+(i%2?-.27:.27),.2,3+(i<2?.37:-.42)],slide:[0,0,0]}))};
+const g=JSON.parse(JSON.stringify(input));for(const key of ['pos','headPos'])g[key]=new Vec(...g[key]);for(const foot of g.feet)for(const key of ['p','slide'])foot[key]=new Vec(...foot[key]);
+const b=g.feet;let events=[],effects=[],poseCount=0,retired=0,killed=0,lens=[0,0,0];
+const _s=new Vec(),Gh=new Vec(),Qy=new Vec(0,1,0),Yn={stand:.72,side:[1,-1,1,-1],fore:[1,1,-1,-1]};
+const l={beacon:{scale:{setScalar:()=>{}}}},r={color:{setRGB:(...v)=>lens=v}},n={provoke:()=>{},releaseToken:()=>g.hasToken=false,addWreck:()=>killed++,retire:()=>{retired++;g.active=false}},I=()=>poseCount++;
+const ll=(s,t,k,d,dt)=>{s.v+=((t-s.x)*k-s.v*d)*dt;s.x+=s.v*dt};
+const s={fx:{sparks:(p,d,count)=>effects.push({kind:'sparks',position:p.toJSON(),options:{normal:d.toJSON(),count}}),debris:(p,options)=>effects.push({kind:'debris',position:p.toJSON(),options}),dust:(p)=>effects.push({kind:'crash',position:p.toJSON(),options:{speed:5}}),smoke:(p,options)=>effects.push({kind:'smoke',position:p.toJSON(),options})},events:{emit:()=>{}}};
+const L=eval('('+extract('function L(k) {','function U(k) {')+')');let uStart=text.indexOf('function U(k) {',begin);const U=eval('('+text.slice(uStart,text.indexOf('\n    return g;',uStart)).trim()+')');
+function snapshot(){let row={poseCount,retired,killed,lens:[...lens]};for(const k of ['hp','pos','alive','active','hasToken','es','dieT','vy','dieRoll','diePitch','sw','sink','wreck','smokeT','speed','hpitch','hyaw','tpitch','sY','sP','sR','sL','feet'])row[k]=g[k];return JSON.parse(JSON.stringify(row))}
+const damageStart=text.indexOf('damage(k, C, A, F) {',begin),damageEnd=text.indexOf('_activate(k, C = {})',damageStart);
+const damage=eval('(function '+text.slice(damageStart,damageEnd).trim().replace(/,\s*$/,'')+')');
+const damageCases=[{amount:15,part:'body',direction:[1,0,0]},{amount:30,part:'weak',direction:[0,0,1]},{amount:200,part:'body',direction:[.5,0,-.5]}],damageResults=[];for(const c of damageCases)damageResults.push(damage(c.amount,g.headPos,new Vec(...c.direction),c.part));
+const death=snapshot(),frames=[];for(let frame=0;frame<930&&g.active;frame++){if(frame===720)g.sink=.001;U(1/60);frames.push(snapshot())}
+fs.writeFileSync('saltline-godot/assets/export/fixtures/hound-life-reference.json',JSON.stringify({input,damageCases,damageResults,death,frames,effects,nextRandom:o(),scope:'Actual original L/U, source RNG, controlled pose callback; includes crash, smoke/spark RNG, stable wreck and sink retirement'}));console.log({frames:frames.length,effects:effects.length,retired,killed,poseCount});

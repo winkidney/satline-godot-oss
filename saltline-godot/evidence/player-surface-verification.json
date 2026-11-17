@@ -1,0 +1,7 @@
+{
+  "checks": 1140,
+  "failures": [],
+  "methods_sha256": "adde250ada8e3795f26be808bbea4809f287d36f9683c1efaea490c60bfb7812",
+  "scope": "Literal original player H using literal uw.k and level.groundSurfaceAt, original validated puddle query. Positions quantized to native Vector3 before original evaluation; surface priority only, not whole movement precision proof. Actual Native Player.event_surface and bound ground resolver.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

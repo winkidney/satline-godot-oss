@@ -1,0 +1,6 @@
+{
+  "checks": 260,
+  "failures": [],
+  "frames": 130,
+  "scope": "Original typewriter update block vs production objective HUD, zero dt, large dt and objective reset; no layout/pixel proof."
+}

@@ -1,0 +1,16 @@
+{
+  "cases": 34,
+  "failures": [],
+  "native": {
+    "quality": "high",
+    "renderer": "",
+    "screen": [
+      0,
+      0
+    ],
+    "touch_points": 0,
+    "touch_points_known": false,
+    "user_agent": "Linux"
+  },
+  "scope": "Literal UM predicate comparison with supplied device descriptors, native adapter separately reports unknown desktop maxTouchPoints."
+}

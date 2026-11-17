@@ -1,0 +1,687 @@
+--- a/drivers/gles3/storage/material_storage.cpp
++++ b/drivers/gles3/storage/material_storage.cpp
+@@ -1299,6 +1299,7 @@
+ 
+ 		actions.renames["FRAGCOORD"] = "gl_FragCoord";
+ 		actions.renames["FRONT_FACING"] = "gl_FrontFacing";
++		actions.renames["SOURCE_RASTER_Y_UP"] = "false";
+ 		actions.renames["NORMAL_MAP"] = "normal_map";
+ 		actions.renames["NORMAL_MAP_DEPTH"] = "normal_map_depth";
+ 		actions.renames["BENT_NORMAL_MAP"] = "bent_normal_map";
+--- a/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp
++++ b/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp
+@@ -414,6 +414,7 @@
+ 			}
+ 		}
+ 
++		pipeline_key.source_raster_y_up = p_params->source_raster_y_up;
+ 		pipeline_key.primitive_type = surf->primitive;
+ 
+ 		RID xforms_uniform_set = surf->owner->transforms_uniform_set;
+@@ -933,8 +934,8 @@
+ 	uint32_t lightmap_captures_used = 0;
+ 
+ 	Plane near_plane = Plane(-p_render_data->scene_data->cam_transform.basis.get_column(Vector3::AXIS_Z), p_render_data->scene_data->cam_transform.origin);
+-	near_plane.d += p_render_data->scene_data->cam_projection.get_z_near();
+-	float z_max = p_render_data->scene_data->cam_projection.get_z_far() - p_render_data->scene_data->cam_projection.get_z_near();
++	near_plane.d += p_render_data->scene_data->get_reference_projection().get_z_near();
++	float z_max = p_render_data->scene_data->get_reference_projection().get_z_far() - p_render_data->scene_data->get_reference_projection().get_z_near();
+ 
+ 	RenderList *rl = &render_list[p_render_list];
+ 	_update_dirty_geometry_instances();
+@@ -1649,7 +1650,7 @@
+ 		// This only works as we don't filter our cluster by depth buffer.
+ 		// If we ever make this optimization we should make it optional and only use it in mono.
+ 		// What we win by filtering out a few lights, we loose by having to do the work double for stereo.
+-		current_cluster_builder->begin(p_render_data->scene_data->cam_transform, p_render_data->scene_data->cam_projection, !p_render_data->reflection_probe.is_valid());
++		current_cluster_builder->begin(p_render_data->scene_data->cam_transform, p_render_data->scene_data->get_reference_projection(), p_render_data->scene_data->flip_y);
+ 	}
+ 
+ 	bool using_shadows = true;
+@@ -2138,6 +2139,7 @@
+ 
+ 		bool finish_depth = using_ssao || using_ssil || using_sdfgi || using_voxelgi || ce_pre_opaque_resolved_depth || ce_post_opaque_resolved_depth;
+ 		RenderListParameters render_list_params(render_list[RENDER_LIST_OPAQUE].elements.ptr(), render_list[RENDER_LIST_OPAQUE].element_info.ptr(), render_list[RENDER_LIST_OPAQUE].elements.size(), reverse_cull, depth_pass_mode, 0, rb_data.is_null(), p_render_data->directional_light_soft_shadows, rp_uniform_set, get_debug_draw_mode() == RSE::VIEWPORT_DEBUG_DRAW_WIREFRAME, Vector2(), p_render_data->scene_data->lod_distance_multiplier, p_render_data->scene_data->screen_mesh_lod_threshold, p_render_data->scene_data->view_count, 0, base_specialization);
++		render_list_params.source_raster_y_up = p_render_data->scene_data->source_raster_y_up;
+ 		_render_list_with_draw_list(&render_list_params, depth_framebuffer, RD::DrawFlags(needs_pre_resolve ? RD::DRAW_DEFAULT_ALL : RD::DRAW_CLEAR_ALL), depth_pass_clear, 0.0f, 0u, p_render_data->render_region);
+ 
+ 		RD::get_singleton()->draw_command_end_label();
+@@ -2221,6 +2223,7 @@
+ 			uint32_t opaque_color_pass_flags = using_motion_pass ? (color_pass_flags & ~uint32_t(COLOR_PASS_FLAG_MOTION_VECTORS)) : color_pass_flags;
+ 			RID opaque_framebuffer = using_motion_pass ? rb_data->get_color_pass_fb(opaque_color_pass_flags) : color_framebuffer;
+ 			RenderListParameters render_list_params(render_list[RENDER_LIST_OPAQUE].elements.ptr(), render_list[RENDER_LIST_OPAQUE].element_info.ptr(), render_list[RENDER_LIST_OPAQUE].elements.size(), reverse_cull, PASS_MODE_COLOR, opaque_color_pass_flags, rb_data.is_null(), p_render_data->directional_light_soft_shadows, rp_uniform_set, get_debug_draw_mode() == RSE::VIEWPORT_DEBUG_DRAW_WIREFRAME, Vector2(), p_render_data->scene_data->lod_distance_multiplier, p_render_data->scene_data->screen_mesh_lod_threshold, p_render_data->scene_data->view_count, 0, base_specialization);
++			render_list_params.source_raster_y_up = p_render_data->scene_data->source_raster_y_up;
+ 			_render_list_with_draw_list(&render_list_params, opaque_framebuffer, RD::DrawFlags(load_color ? RD::DRAW_DEFAULT_ALL : RD::DRAW_CLEAR_COLOR_ALL) | (depth_pre_pass ? RD::DRAW_DEFAULT_ALL : RD::DRAW_CLEAR_DEPTH), c, 0.0f, 0u, p_render_data->render_region);
+ 		}
+ 
+@@ -2247,6 +2250,7 @@
+ 			rp_uniform_set = _setup_render_pass_uniform_set(RENDER_LIST_MOTION, p_render_data, radiance_texture, samplers, opaque_pass_uniform_buffer_index, true);
+ 
+ 			RenderListParameters render_list_params(render_list[RENDER_LIST_MOTION].elements.ptr(), render_list[RENDER_LIST_MOTION].element_info.ptr(), render_list[RENDER_LIST_MOTION].elements.size(), reverse_cull, PASS_MODE_COLOR, color_pass_flags, rb_data.is_null(), p_render_data->directional_light_soft_shadows, rp_uniform_set, get_debug_draw_mode() == RSE::VIEWPORT_DEBUG_DRAW_WIREFRAME, Vector2(), p_render_data->scene_data->lod_distance_multiplier, p_render_data->scene_data->screen_mesh_lod_threshold, p_render_data->scene_data->view_count, 0, base_specialization);
++			render_list_params.source_raster_y_up = p_render_data->scene_data->source_raster_y_up;
+ 			_render_list_with_draw_list(&render_list_params, color_framebuffer);
+ 
+ 			RD::get_singleton()->draw_command_end_label();
+@@ -2423,6 +2427,7 @@
+ 
+ 		RID alpha_framebuffer = rb_data.is_valid() ? rb_data->get_color_pass_fb(transparent_color_pass_flags) : color_only_framebuffer;
+ 		RenderListParameters render_list_params(render_list[RENDER_LIST_ALPHA].elements.ptr(), render_list[RENDER_LIST_ALPHA].element_info.ptr(), render_list[RENDER_LIST_ALPHA].elements.size(), reverse_cull, PASS_MODE_COLOR, transparent_color_pass_flags, rb_data.is_null(), p_render_data->directional_light_soft_shadows, rp_uniform_set, get_debug_draw_mode() == RSE::VIEWPORT_DEBUG_DRAW_WIREFRAME, Vector2(), p_render_data->scene_data->lod_distance_multiplier, p_render_data->scene_data->screen_mesh_lod_threshold, p_render_data->scene_data->view_count, 0, base_specialization);
++		render_list_params.source_raster_y_up = p_render_data->scene_data->source_raster_y_up;
+ 		_render_list_with_draw_list(&render_list_params, alpha_framebuffer, RD::DRAW_DEFAULT_ALL, Vector<Color>(), 0.0f, 0u, p_render_data->render_region);
+ 	}
+ 
+@@ -3601,6 +3606,10 @@
+ 	}
+ 
+ 	p_samplers.append_uniforms(uniforms, 12);
++	// Fixed4 source texture samplers: independent of viewport anisotropy, bias0.
++	uniforms.push_back(RD::Uniform(RD::UNIFORM_TYPE_SAMPLER, 37, RendererRD::MaterialStorage::get_singleton()->sampler_rd_get_default(RSE::CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC, RSE::CANVAS_ITEM_TEXTURE_REPEAT_DISABLED)));
++	uniforms.push_back(RD::Uniform(RD::UNIFORM_TYPE_SAMPLER, 38, RendererRD::MaterialStorage::get_singleton()->sampler_rd_get_default(RSE::CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC, RSE::CANVAS_ITEM_TEXTURE_REPEAT_ENABLED)));
++
+ 
+ 	{
+ 		RD::Uniform u;
+@@ -3936,6 +3945,10 @@
+ 	}
+ 
+ 	p_samplers.append_uniforms(uniforms, 12);
++	// Fixed4 source texture samplers: independent of viewport anisotropy, bias0.
++	uniforms.push_back(RD::Uniform(RD::UNIFORM_TYPE_SAMPLER, 37, RendererRD::MaterialStorage::get_singleton()->sampler_rd_get_default(RSE::CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC, RSE::CANVAS_ITEM_TEXTURE_REPEAT_DISABLED)));
++	uniforms.push_back(RD::Uniform(RD::UNIFORM_TYPE_SAMPLER, 38, RendererRD::MaterialStorage::get_singleton()->sampler_rd_get_default(RSE::CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC, RSE::CANVAS_ITEM_TEXTURE_REPEAT_ENABLED)));
++
+ 
+ 	// actual sdfgi stuff
+ 
+--- a/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.h
++++ b/servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.h
+@@ -224,6 +224,7 @@
+ 		RenderElementInfo *element_info = nullptr;
+ 		int element_count = 0;
+ 		bool reverse_cull = false;
++		bool source_raster_y_up = false;
+ 		PassMode pass_mode = PASS_MODE_COLOR;
+ 		uint32_t color_pass_flags = 0;
+ 		bool no_gi = false;
+--- a/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp
++++ b/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.cpp
+@@ -56,6 +56,7 @@
+ 	depth_test_disabledi = 0;
+ 	depth_test_invertedi = 0;
+ 	alpha_antialiasing_mode = ALPHA_ANTIALIASING_OFF;
++	source_polygon_offset = SOURCE_OFFSET_NONE;
+ 	int cull_modei = RSE::CULL_MODE_BACK;
+ 
+ 	uses_point_size = false;
+@@ -109,6 +110,10 @@
+ 	actions.render_mode_values["depth_draw_never"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_DISABLED);
+ 	actions.render_mode_values["depth_draw_opaque"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_OPAQUE);
+ 	actions.render_mode_values["depth_draw_always"] = Pair<int *, int>(&depth_drawi, DEPTH_DRAW_ALWAYS);
++	actions.render_mode_values["saltline_bias_world_2"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_2);
++	actions.render_mode_values["saltline_bias_world_3"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_3);
++	actions.render_mode_values["saltline_bias_world_4"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WORLD_4);
++	actions.render_mode_values["saltline_bias_weapon_3"] = Pair<int *, int>(&source_polygon_offset, SOURCE_OFFSET_WEAPON_3);
+ 
+ 	actions.render_mode_values["depth_test_disabled"] = Pair<int *, int>(&depth_test_disabledi, 1);
+ 	actions.render_mode_values["depth_test_inverted"] = Pair<int *, int>(&depth_test_invertedi, 1);
+@@ -426,7 +431,17 @@
+ 
+ 	RD::PipelineRasterizationState raster_state;
+ 	raster_state.cull_mode = p_pipeline_key.cull_mode;
++	raster_state.front_face = p_pipeline_key.source_raster_y_up ? RD::POLYGON_FRONT_FACE_COUNTER_CLOCKWISE : RD::POLYGON_FRONT_FACE_CLOCKWISE;
+ 	raster_state.wireframe = wireframe || p_pipeline_key.wireframe;
++	if (source_polygon_offset != SOURCE_OFFSET_NONE) {
++		// Original negative GL coefficients move toward the viewer. Vulkan uses
++		// reverse Z. The independent weapon viewport expands source range .05
++		// back to 1, so only its constant term needs the factor of twenty.
++		raster_state.depth_bias_enabled = true;
++		const float factor = source_polygon_offset == SOURCE_OFFSET_WORLD_2 ? 2.0f : source_polygon_offset == SOURCE_OFFSET_WORLD_4 ? 4.0f : 3.0f;
++		raster_state.depth_bias_slope_factor = factor;
++		raster_state.depth_bias_constant_factor = source_polygon_offset == SOURCE_OFFSET_WEAPON_3 ? 60.0f : factor;
++	}
+ 
+ 	RD::PipelineMultisampleState multisample_state;
+ 	multisample_state.sample_count = RD::get_singleton()->framebuffer_format_get_texture_samples(p_pipeline_key.framebuffer_format_id, 0);
+@@ -702,6 +717,7 @@
+ 	{
+ 		//shader compiler
+ 		ShaderCompiler::DefaultIdentifierActions actions;
++		actions.supports_fixed_aniso4 = true;
+ 
+ 		actions.renames["MODEL_MATRIX"] = "read_model_matrix";
+ 		actions.renames["MODEL_NORMAL_MATRIX"] = "model_normal_matrix";
+@@ -742,6 +758,7 @@
+ 		actions.renames["CLIP_SPACE_FAR"] = "SHADER_SPACE_FAR";
+ 		actions.renames["IN_SHADOW_PASS"] = "bool(scene_data_block.data.flags & SCENE_DATA_FLAGS_IN_SHADOW_PASS)";
+ 		actions.renames["VIEWPORT_SIZE"] = "read_viewport_size";
++		actions.renames["SOURCE_RASTER_Y_UP"] = "bool(scene_data_block.data.flags & SCENE_DATA_FLAGS_SOURCE_RASTER_Y_UP)";
+ 
+ 		actions.renames["FRAGCOORD"] = "gl_FragCoord";
+ 		actions.renames["FRONT_FACING"] = "gl_FrontFacing";
+--- a/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h
++++ b/servers/rendering/renderer_rd/forward_clustered/scene_shader_forward_clustered.h
+@@ -198,6 +198,7 @@
+ 			ShaderSpecialization shader_specialization = {};
+ 			uint32_t wireframe = false;
+ 			uint32_t ubershader = false;
++			uint32_t source_raster_y_up = false;
+ 
+ 			uint32_t hash() const {
+ 				uint32_t h = hash_murmur3_one_64(vertex_format_id);
+@@ -211,6 +212,7 @@
+ 				h = hash_murmur3_one_32(shader_specialization.packed_2, h);
+ 				h = hash_murmur3_one_32(wireframe, h);
+ 				h = hash_murmur3_one_32(ubershader, h);
++				h = hash_murmur3_one_32(source_raster_y_up, h);
+ 				return hash_fmix32(h);
+ 			}
+ 		};
+@@ -232,6 +234,9 @@
+ 
+ 		DepthDraw depth_draw = DEPTH_DRAW_OPAQUE;
+ 		DepthTest depth_test = DEPTH_TEST_ENABLED;
++		// Private Saltline raster modes. All coefficients are reverse-Z signs.
++		enum SourcePolygonOffset { SOURCE_OFFSET_NONE, SOURCE_OFFSET_WORLD_2, SOURCE_OFFSET_WORLD_3, SOURCE_OFFSET_WORLD_4, SOURCE_OFFSET_WEAPON_3 };
++		int source_polygon_offset = SOURCE_OFFSET_NONE;
+ 
+ 		int blend_mode = BLEND_MODE_MIX;
+ 		int depth_test_disabledi = 0;
+@@ -297,7 +302,7 @@
+ 
+ 		_FORCE_INLINE_ bool uses_shared_shadow_material() const {
+ 			bool backface_culling = cull_mode == RSE::CULL_MODE_BACK;
+-			return !uses_particle_trails && !writes_modelview_or_projection && !uses_vertex && !uses_position && !uses_discard && !uses_depth_prepass_alpha && !uses_alpha_clip && !uses_alpha_antialiasing && backface_culling && !uses_point_size && !uses_world_coordinates && !wireframe && !uses_z_clip_scale && !stencil_enabled;
++			return source_polygon_offset == SOURCE_OFFSET_NONE && !uses_particle_trails && !writes_modelview_or_projection && !uses_vertex && !uses_position && !uses_discard && !uses_depth_prepass_alpha && !uses_alpha_clip && !uses_alpha_antialiasing && backface_culling && !uses_point_size && !uses_world_coordinates && !wireframe && !uses_z_clip_scale && !stencil_enabled;
+ 		}
+ 
+ 		virtual void set_code(const String &p_Code);
+--- a/servers/rendering/renderer_rd/forward_mobile/scene_shader_forward_mobile.cpp
++++ b/servers/rendering/renderer_rd/forward_mobile/scene_shader_forward_mobile.cpp
+@@ -685,6 +685,7 @@
+ 
+ 		actions.renames["FRAGCOORD"] = "gl_FragCoord";
+ 		actions.renames["FRONT_FACING"] = "gl_FrontFacing";
++		actions.renames["SOURCE_RASTER_Y_UP"] = "false";
+ 		actions.renames["NORMAL_MAP"] = "normal_map_highp";
+ 		actions.renames["NORMAL_MAP_DEPTH"] = "normal_map_depth_highp";
+ 		actions.renames["BENT_NORMAL_MAP"] = "bent_normal_map_highp";
+--- a/servers/rendering/renderer_rd/renderer_scene_render_rd.cpp
++++ b/servers/rendering/renderer_rd/renderer_scene_render_rd.cpp
+@@ -1371,12 +1371,15 @@
+ 		// Our first camera is used by default
+ 		scene_data.cam_transform = p_camera_data->main_transform;
+ 		scene_data.cam_projection = p_camera_data->main_projection;
++		scene_data.has_reference_projection = p_camera_data->has_reference_projection;
++		scene_data.reference_projection = p_camera_data->get_reference_projection();
+ 		scene_data.cam_orthogonal = p_camera_data->is_orthogonal;
+ 		scene_data.camera_visible_layers = p_camera_data->visible_layers;
+ 		scene_data.taa_jitter = p_camera_data->taa_jitter;
+ 		scene_data.taa_frame_count = p_camera_data->taa_frame_count;
+ 		scene_data.main_cam_transform = p_camera_data->main_transform;
+-		scene_data.flip_y = !p_reflection_probe.is_valid();
++		scene_data.source_raster_y_up = rb->get_source_raster_y_up();
++		scene_data.flip_y = !p_reflection_probe.is_valid() && !scene_data.source_raster_y_up;
+ 
+ 		scene_data.view_count = p_camera_data->view_count;
+ 		for (uint32_t v = 0; v < p_camera_data->view_count; v++) {
+@@ -1392,11 +1395,11 @@
+ 			scene_data.prev_view_projection[v] = p_prev_camera_data->view_projection[v];
+ 		}
+ 
+-		scene_data.z_near = p_camera_data->main_projection.get_z_near();
+-		scene_data.z_far = p_camera_data->main_projection.get_z_far();
++		scene_data.z_near = p_camera_data->get_reference_projection().get_z_near();
++		scene_data.z_far = p_camera_data->get_reference_projection().get_z_far();
+ 
+ 		// this should be the same for all cameras..
+-		const float lod_distance_multiplier = p_camera_data->main_projection.get_lod_multiplier();
++		const float lod_distance_multiplier = p_camera_data->get_reference_projection().get_lod_multiplier();
+ 
+ 		// Also, take into account resolution scaling for the multiplier, since we have more leeway with quality
+ 		// degradation visibility. Conversely, allow upwards scaling, too, for increased mesh detail at high res.
+--- a/servers/rendering/renderer_rd/shaders/forward_clustered/scene_forward_clustered_inc.glsl
++++ b/servers/rendering/renderer_rd/shaders/forward_clustered/scene_forward_clustered_inc.glsl
+@@ -511,3 +511,7 @@
+ transforms;
+ 
+ /* Set 3 User Material */
++
++// Saltline private source4x samplers; existing binding0..36 remain unchanged.
++layout(set = 1, binding = 37) uniform sampler SAMPLER_SALTLINE_LINEAR_MIPMAP_ANISO4_CLAMP;
++layout(set = 1, binding = 38) uniform sampler SAMPLER_SALTLINE_LINEAR_MIPMAP_ANISO4_REPEAT;
+--- a/servers/rendering/renderer_rd/shaders/scene_data_inc.glsl
++++ b/servers/rendering/renderer_rd/shaders/scene_data_inc.glsl
+@@ -11,6 +11,7 @@
+ #define SCENE_DATA_FLAGS_USE_UV2_MATERIAL (1 << 5)
+ #define SCENE_DATA_FLAGS_USE_PANCAKE_SHADOWS (1 << 6)
+ #define SCENE_DATA_FLAGS_IN_SHADOW_PASS (1 << 7)
++#define SCENE_DATA_FLAGS_SOURCE_RASTER_Y_UP (1 << 8)
+ 
+ struct SceneData {
+ 	mat4 projection_matrix;
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp
+@@ -31,6 +31,7 @@
+ #include "render_scene_buffers_rd.h"
+ #include "render_scene_buffers_rd.compat.inc"
+ 
++#include "core/config/project_settings.h"
+ #include "core/object/class_db.h"
+ #include "servers/rendering/renderer_rd/storage_rd/texture_storage.h"
+ #include "servers/rendering/rendering_device_binds.h"
+@@ -163,6 +164,7 @@
+ 	view_count = p_config->get_view_count();
+ 
+ 	scaling_3d_mode = p_config->get_scaling_3d_mode();
++	source_raster_y_up = p_config->get_source_raster_y_up();
+ 	msaa_3d = p_config->get_msaa_3d();
+ 	screen_space_aa = p_config->get_screen_space_aa();
+ 
+@@ -812,9 +814,10 @@
+ 		// Use R32 for resolve on Forward+ (p_storage == true), or if we don't support depth resolve.
+ 		return RD::DATA_FORMAT_R32_SFLOAT;
+ 	} else {
++		const bool prefer_float_depth = p_storage && !bool(ProjectSettings::get_singleton()->get_setting("rendering/saltline/source_depth_24", false));
+ 		const RenderingDeviceCommons::DataFormat preferred_formats[2] = {
+-			p_storage ? RD::DATA_FORMAT_D32_SFLOAT_S8_UINT : RD::DATA_FORMAT_D24_UNORM_S8_UINT,
+-			p_storage ? RD::DATA_FORMAT_D24_UNORM_S8_UINT : RD::DATA_FORMAT_D32_SFLOAT_S8_UINT
++			prefer_float_depth ? RD::DATA_FORMAT_D32_SFLOAT_S8_UINT : RD::DATA_FORMAT_D24_UNORM_S8_UINT,
++			prefer_float_depth ? RD::DATA_FORMAT_D24_UNORM_S8_UINT : RD::DATA_FORMAT_D32_SFLOAT_S8_UINT
+ 		};
+ 
+ 		return RD::get_singleton()->texture_is_format_supported_for_usage(preferred_formats[0], get_depth_usage_bits(p_resolve, p_msaa, p_storage)) ? preferred_formats[0] : preferred_formats[1];
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.h
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.h
+@@ -92,6 +92,7 @@
+ #endif
+ 
+ 	// Aliasing settings
++	bool source_raster_y_up = false;
+ 	RSE::ViewportMSAA msaa_3d = RSE::VIEWPORT_MSAA_DISABLED;
+ 	RSE::ViewportScreenSpaceAA screen_space_aa = RSE::VIEWPORT_SCREEN_SPACE_AA_DISABLED;
+ 	bool use_taa = false;
+@@ -240,7 +241,8 @@
+ 	_FORCE_INLINE_ Size2i get_target_size() const { return target_size; }
+ 	_FORCE_INLINE_ RSE::ViewportScaling3DMode get_scaling_3d_mode() const { return scaling_3d_mode; }
+ 	_FORCE_INLINE_ float get_fsr_sharpness() const { return fsr_sharpness; }
+-	_FORCE_INLINE_ RSE::ViewportMSAA get_msaa_3d() const { return msaa_3d; }
++	_FORCE_INLINE_ bool get_source_raster_y_up() const { return source_raster_y_up; }
++	RSE::ViewportMSAA get_msaa_3d() const { return msaa_3d; }
+ 	_FORCE_INLINE_ RD::TextureSamples get_texture_samples() const { return texture_samples; }
+ 	_FORCE_INLINE_ RSE::ViewportScreenSpaceAA get_screen_space_aa() const { return screen_space_aa; }
+ 	_FORCE_INLINE_ bool get_use_taa() const { return use_taa; }
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.cpp
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.cpp
+@@ -118,7 +118,7 @@
+ 	ubo.z_far = z_far;
+ 	ubo.z_near = z_near;
+ 
+-	ubo.flags = 0;
++	ubo.flags = source_raster_y_up ? SCENE_DATA_FLAGS_SOURCE_RASTER_Y_UP : 0;
+ 
+ 	ubo.flags |= p_pancake_shadows ? SCENE_DATA_FLAGS_USE_PANCAKE_SHADOWS : 0;
+ 
+@@ -267,7 +267,7 @@
+ 		memcpy(&prev_ubo, &ubo, sizeof(UBO));
+ 
+ 		Projection prev_correction;
+-		prev_correction.set_depth_correction(true);
++		prev_correction.set_depth_correction(flip_y);
+ 		prev_correction.add_jitter_offset(prev_taa_jitter);
+ 		Projection prev_projection = prev_correction * prev_cam_projection;
+ 
+--- a/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h
++++ b/servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h
+@@ -44,11 +44,15 @@
+ 
+ 	Transform3D cam_transform;
+ 	Projection cam_projection;
++	bool has_reference_projection = false;
++	Projection reference_projection;
++	const Projection &get_reference_projection() const { return has_reference_projection ? reference_projection : cam_projection; }
+ 	Vector2 taa_jitter;
+ 	float taa_frame_count = 0.0f;
+ 	uint32_t camera_visible_layers;
+ 	bool cam_orthogonal = false;
+ 	bool flip_y = false;
++	bool source_raster_y_up = false;
+ 
+ 	// For billboards to cast correct shadows.
+ 	Transform3D main_cam_transform;
+@@ -111,6 +115,7 @@
+ 		SCENE_DATA_FLAGS_USE_UV2_MATERIAL = 1 << 5,
+ 		SCENE_DATA_FLAGS_USE_PANCAKE_SHADOWS = 1 << 6,
+ 		SCENE_DATA_FLAGS_IN_SHADOW_PASS = 1 << 7, // Only used by Forward+ renderer.
++		SCENE_DATA_FLAGS_SOURCE_RASTER_Y_UP = 1 << 8,
+ 		SCENE_DATA_FLAGS_MAX
+ 	};
+ 
+--- a/servers/rendering/renderer_scene_cull.cpp
++++ b/servers/rendering/renderer_scene_cull.cpp
+@@ -2765,6 +2765,19 @@
+ 
+ 		if (view_count == 1) {
+ 			camera_data.set_camera(transforms[0], projections[0], false, camera->vaspect, jitter, p_jitter_phase_count, camera->visible_layers);
++			// This private mono protocol is canonical perspective before its oblique depth row.
++			// Preserve the exact XY/off-center projection; camera near/far are its reference.
++			if (p_xr_interface->get_name() == StringName("SaltlinePlanarProjectionProbe")) {
++				Projection reference = projections[0];
++				const real_t n = camera->znear;
++				const real_t f = camera->zfar;
++				reference[0][2] = 0;
++				reference[1][2] = 0;
++				reference[2][2] = -(f + n) / (f - n);
++				reference[3][2] = -2 * f * n / (f - n);
++				camera_data.reference_projection = reference;
++				camera_data.has_reference_projection = true;
++			}
+ 		} else if (view_count == 2) {
+ 			camera_data.set_multiview_camera(view_count, transforms, projections, false, camera->vaspect, camera->visible_layers);
+ 		} else {
+@@ -3298,7 +3311,7 @@
+ 	Instance *render_reflection_probe = instance_owner.get_or_null(p_reflection_probe); //if null, not rendering to it
+ 
+ 	// Prepare the light - camera volume culling system.
+-	light_culler->prepare_camera(p_camera_data->main_transform, p_camera_data->main_projection);
++	light_culler->prepare_camera(p_camera_data->main_transform, p_camera_data->get_reference_projection());
+ 
+ 	Scenario *scenario = scenario_owner.get_or_null(p_scenario);
+ 	Vector3 camera_position = p_camera_data->main_transform.origin;
+@@ -3384,7 +3397,7 @@
+ 		RSG::light_storage->set_directional_shadow_count(lights_with_shadow.size());
+ 
+ 		for (int i = 0; i < lights_with_shadow.size(); i++) {
+-			_light_instance_setup_directional_shadow(i, lights_with_shadow[i], p_camera_data->main_transform, p_camera_data->main_projection, p_camera_data->is_orthogonal, p_camera_data->vaspect);
++			_light_instance_setup_directional_shadow(i, lights_with_shadow[i], p_camera_data->main_transform, p_camera_data->get_reference_projection(), p_camera_data->is_orthogonal, p_camera_data->vaspect);
+ 		}
+ 	}
+ 
+@@ -3511,11 +3524,11 @@
+ 			{ //compute coverage
+ 
+ 				Transform3D cam_xf = p_camera_data->main_transform;
+-				float zn = p_camera_data->main_projection.get_z_near();
++				float zn = p_camera_data->get_reference_projection().get_z_near();
+ 				Plane p(-cam_xf.basis.get_column(2), cam_xf.origin + cam_xf.basis.get_column(2) * -zn); //camera near plane
+ 
+ 				// near plane half width and height
+-				Vector2 vp_half_extents = p_camera_data->main_projection.get_viewport_half_extents();
++				Vector2 vp_half_extents = p_camera_data->get_reference_projection().get_viewport_half_extents();
+ 
+ 				switch (RSG::light_storage->light_get_type(ins->base)) {
+ 					case RSE::LIGHT_OMNI: {
+@@ -3632,7 +3645,7 @@
+ 			if (redraw && max_shadows_used < MAX_UPDATE_SHADOWS) {
+ 				//must redraw!
+ 				RENDER_TIMESTAMP("> Render Light3D " + itos(i));
+-				if (_light_instance_update_shadow(ins, p_camera_data->main_transform, p_camera_data->main_projection, p_camera_data->is_orthogonal, p_camera_data->vaspect, p_shadow_atlas, scenario, p_screen_mesh_lod_threshold, p_visible_layers)) {
++				if (_light_instance_update_shadow(ins, p_camera_data->main_transform, p_camera_data->get_reference_projection(), p_camera_data->is_orthogonal, p_camera_data->vaspect, p_shadow_atlas, scenario, p_screen_mesh_lod_threshold, p_visible_layers)) {
+ 					light->make_shadow_dirty();
+ 				}
+ 				RENDER_TIMESTAMP("< Render Light3D " + itos(i));
+--- a/servers/rendering/renderer_scene_render.cpp
++++ b/servers/rendering/renderer_scene_render.cpp
+@@ -36,6 +36,7 @@
+ // CameraData
+ 
+ void RendererSceneRender::CameraData::set_camera(const Transform3D p_transform, const Projection p_projection, bool p_is_orthogonal, bool p_vaspect, const Vector2 &p_taa_jitter, float p_taa_frame_count, uint32_t p_visible_layers) {
++	has_reference_projection = false;
+ 	view_count = 1;
+ 	is_orthogonal = p_is_orthogonal;
+ 	vaspect = p_vaspect;
+@@ -54,6 +55,7 @@
+ 	ERR_FAIL_COND_MSG(p_view_count != 2, "Incorrect view count for stereoscopic view");
+ 
+ 	visible_layers = p_visible_layers;
++	has_reference_projection = false;
+ 	view_count = p_view_count;
+ 	is_orthogonal = p_is_orthogonal;
+ 	vaspect = p_vaspect;
+--- a/servers/rendering/renderer_scene_render.h
++++ b/servers/rendering/renderer_scene_render.h
+@@ -312,6 +312,10 @@
+ 		// Main/center projection
+ 		Transform3D main_transform;
+ 		Projection main_projection;
++		// Saltline mono oblique: finite reference for light bounds, never for drawing.
++		bool has_reference_projection = false;
++		Projection reference_projection;
++		const Projection &get_reference_projection() const { return has_reference_projection ? reference_projection : main_projection; }
+ 
+ 		Transform3D view_offset[RendererSceneRender::MAX_RENDER_VIEWS];
+ 		Projection view_projection[RendererSceneRender::MAX_RENDER_VIEWS];
+--- a/servers/rendering/renderer_viewport.cpp
++++ b/servers/rendering/renderer_viewport.cpp
+@@ -294,6 +294,7 @@
+ 			rb_config.set_fsr_sharpness(p_viewport->fsr_sharpness);
+ 			rb_config.set_texture_mipmap_bias(texture_mipmap_bias);
+ 			rb_config.set_anisotropic_filtering_level(p_viewport->anisotropic_filtering_level);
++			rb_config.set_source_raster_y_up(p_viewport->source_raster_y_up);
+ 			rb_config.set_use_taa(use_taa);
+ 			rb_config.set_use_debanding(p_viewport->use_debanding);
+ 
+@@ -1443,6 +1444,18 @@
+ 	_configure_3d_render_buffers(viewport);
+ }
+ 
++void RendererViewport::viewport_set_source_raster_y_up(RID p_viewport, bool p_enabled) {
++	Viewport *viewport = viewport_owner.get_or_null(p_viewport);
++	ERR_FAIL_NULL(viewport);
++	if (viewport->source_raster_y_up == p_enabled) {
++		return;
++	}
++	ERR_FAIL_COND_MSG(p_enabled && OS::get_singleton()->get_current_rendering_method() != "forward_plus", "Source raster origin requires Forward+.");
++	// Fixed before first rendering; changing an active viewport would invalidate history.
++	ERR_FAIL_COND_MSG(viewport->render_buffers.is_valid(), "Set source raster origin before the viewport first renders.");
++	viewport->source_raster_y_up = p_enabled;
++}
++
+ void RendererViewport::viewport_set_use_taa(RID p_viewport, bool p_use_taa) {
+ 	Viewport *viewport = viewport_owner.get_or_null(p_viewport);
+ 	ERR_FAIL_NULL(viewport);
+--- a/servers/rendering/renderer_viewport.h
++++ b/servers/rendering/renderer_viewport.h
+@@ -66,6 +66,7 @@
+ 		RID render_target;
+ 		RID render_target_texture;
+ 		Ref<RenderSceneBuffers> render_buffers;
++		bool source_raster_y_up = false;
+ 
+ 		RSE::ViewportMSAA msaa_2d = RSE::VIEWPORT_MSAA_DISABLED;
+ 		RSE::ViewportMSAA msaa_3d = RSE::VIEWPORT_MSAA_DISABLED;
+@@ -241,6 +242,7 @@
+ 	void viewport_set_update_mode(RID p_viewport, RSE::ViewportUpdateMode p_mode);
+ 	RSE::ViewportUpdateMode viewport_get_update_mode(RID p_viewport) const;
+ 	void viewport_set_vflip(RID p_viewport, bool p_enable);
++	void viewport_set_source_raster_y_up(RID p_viewport, bool p_enabled);
+ 
+ 	void viewport_set_clear_mode(RID p_viewport, RSE::ViewportClearMode p_clear_mode);
+ 
+--- a/servers/rendering/rendering_server.cpp
++++ b/servers/rendering/rendering_server.cpp
+@@ -2868,6 +2868,7 @@
+ 	ClassDB::bind_method(D_METHOD("viewport_get_update_mode", "viewport"), &RenderingServer::viewport_get_update_mode);
+ 	ClassDB::bind_method(D_METHOD("viewport_set_clear_mode", "viewport", "clear_mode"), &RenderingServer::viewport_set_clear_mode);
+ 	ClassDB::bind_method(D_METHOD("viewport_get_render_target", "viewport"), &RenderingServer::viewport_get_render_target);
++	ClassDB::bind_method(D_METHOD("viewport_set_source_raster_y_up", "viewport", "enable"), &RenderingServer::viewport_set_source_raster_y_up);
+ 	ClassDB::bind_method(D_METHOD("viewport_get_texture", "viewport"), &RenderingServer::viewport_get_texture);
+ 	ClassDB::bind_method(D_METHOD("viewport_set_disable_3d", "viewport", "disable"), &RenderingServer::viewport_set_disable_3d);
+ 	ClassDB::bind_method(D_METHOD("viewport_set_disable_2d", "viewport", "disable"), &RenderingServer::viewport_set_disable_2d);
+--- a/servers/rendering/rendering_server.h
++++ b/servers/rendering/rendering_server.h
+@@ -559,6 +559,7 @@
+ 	virtual void viewport_set_clear_mode(RID p_viewport, RSE::ViewportClearMode p_clear_mode) = 0;
+ 
+ 	virtual RID viewport_get_render_target(RID p_viewport) const = 0;
++	virtual void viewport_set_source_raster_y_up(RID p_viewport, bool p_enabled) = 0;
+ 	virtual RID viewport_get_texture(RID p_viewport) const = 0;
+ 
+ 	virtual void viewport_set_environment_mode(RID p_viewport, RSE::ViewportEnvironmentMode p_mode) = 0;
+--- a/servers/rendering/rendering_server_default.h
++++ b/servers/rendering/rendering_server_default.h
+@@ -756,6 +756,7 @@
+ 	FUNC1RC(RSE::ViewportUpdateMode, viewport_get_update_mode, RID)
+ 
+ 	FUNC1RC(RID, viewport_get_render_target, RID)
++	FUNC2(viewport_set_source_raster_y_up, RID, bool)
+ 	FUNC1RC(RID, viewport_get_texture, RID)
+ 
+ 	FUNC2(viewport_set_disable_2d, RID, bool)
+--- a/servers/rendering/shader_compiler.cpp
++++ b/servers/rendering/shader_compiler.cpp
+@@ -284,6 +284,9 @@
+ 		ERR_FAIL_COND_V(actions.default_repeat == ShaderLanguage::REPEAT_DEFAULT, String());
+ 		p_repeat = actions.default_repeat;
+ 	}
++	if (p_filter == ShaderLanguage::FILTER_LINEAR_MIPMAP_ANISOTROPIC_4) {
++		return p_repeat == ShaderLanguage::REPEAT_ENABLE ? "SAMPLER_SALTLINE_LINEAR_MIPMAP_ANISO4_REPEAT" : "SAMPLER_SALTLINE_LINEAR_MIPMAP_ANISO4_CLAMP";
++	}
+ 	constexpr const char *name_mapping[] = {
+ 		"SAMPLER_NEAREST_CLAMP",
+ 		"SAMPLER_LINEAR_CLAMP",
+@@ -1632,6 +1635,11 @@
+ 		return err;
+ 	}
+ 
++	if (!actions.supports_fixed_aniso4) {
++		for (const KeyValue<StringName, SL::ShaderNode::Uniform> &uniform : parser.get_shader()->uniforms) {
++			ERR_FAIL_COND_V_MSG(uniform.value.filter == SL::FILTER_LINEAR_MIPMAP_ANISOTROPIC_4, ERR_UNAVAILABLE, "filter_linear_mipmap_anisotropic_4 requires Saltline Forward+.");
++		}
++	}
+ 	r_gen_code.defines.clear();
+ 	r_gen_code.code.clear();
+ 	for (int i = 0; i < STAGE_MAX; i++) {
+--- a/servers/rendering/shader_compiler.h
++++ b/servers/rendering/shader_compiler.h
+@@ -93,6 +93,7 @@
+ 	};
+ 
+ 	struct DefaultIdentifierActions {
++		bool supports_fixed_aniso4 = false;
+ 		HashMap<StringName, String> renames;
+ 		HashMap<StringName, String> render_mode_defines;
+ 		HashMap<StringName, String> usage_defines;
+--- a/servers/rendering/shader_language.cpp
++++ b/servers/rendering/shader_language.cpp
+@@ -232,6 +232,7 @@
+ 	"FILTER_LINEAR_MIPMAP",
+ 	"FILTER_NEAREST_MIPMAP_ANISOTROPIC",
+ 	"FILTER_LINEAR_MIPMAP_ANISOTROPIC",
++	"FILTER_LINEAR_MIPMAP_ANISOTROPIC_4",
+ 	"REPEAT_ENABLE",
+ 	"REPEAT_DISABLE",
+ 	"SHADER_TYPE",
+@@ -409,6 +410,7 @@
+ 	{ TK_FILTER_LINEAR_MIPMAP, "filter_linear_mipmap", CF_UNSPECIFIED, {}, {} },
+ 	{ TK_FILTER_NEAREST_MIPMAP_ANISOTROPIC, "filter_nearest_mipmap_anisotropic", CF_UNSPECIFIED, {}, {} },
+ 	{ TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC, "filter_linear_mipmap_anisotropic", CF_UNSPECIFIED, {}, {} },
++	{ TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC_4, "filter_linear_mipmap_anisotropic_4", CF_UNSPECIFIED, {}, {} },
+ 	{ TK_REPEAT_ENABLE, "repeat_enable", CF_UNSPECIFIED, {}, {} },
+ 	{ TK_REPEAT_DISABLE, "repeat_disable", CF_UNSPECIFIED, {}, {} },
+ 
+@@ -1282,6 +1284,9 @@
+ 		} break;
+ 		case FILTER_NEAREST_MIPMAP_ANISOTROPIC: {
+ 			result = "filter_nearest_mipmap_anisotropic";
++		} break;
++		case FILTER_LINEAR_MIPMAP_ANISOTROPIC_4: {
++			result = "filter_linear_mipmap_anisotropic_4";
+ 		} break;
+ 		case FILTER_LINEAR_MIPMAP_ANISOTROPIC: {
+ 			result = "filter_linear_mipmap_anisotropic";
+@@ -9852,7 +9857,7 @@
+ 							if (uniform.array_size > 0) {
+ 								static Vector<int> supported_hints = {
+ 									TK_HINT_SOURCE_COLOR, TK_HINT_COLOR_CONVERSION_DISABLED, TK_REPEAT_DISABLE, TK_REPEAT_ENABLE,
+-									TK_FILTER_LINEAR, TK_FILTER_LINEAR_MIPMAP, TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC,
++									TK_FILTER_LINEAR, TK_FILTER_LINEAR_MIPMAP, TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC, TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC_4,
+ 									TK_FILTER_NEAREST, TK_FILTER_NEAREST_MIPMAP, TK_FILTER_NEAREST_MIPMAP_ANISOTROPIC
+ 								};
+ 								if (!supported_hints.has(tk.type)) {
+@@ -10134,6 +10139,9 @@
+ 								case TK_FILTER_NEAREST_MIPMAP_ANISOTROPIC: {
+ 									new_filter = FILTER_NEAREST_MIPMAP_ANISOTROPIC;
+ 								} break;
++								case TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC_4: {
++									new_filter = FILTER_LINEAR_MIPMAP_ANISOTROPIC_4;
++								} break;
+ 								case TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC: {
+ 									new_filter = FILTER_LINEAR_MIPMAP_ANISOTROPIC;
+ 								} break;
+@@ -12133,6 +12141,7 @@
+ 					options.push_back("filter_linear");
+ 					options.push_back("filter_linear_mipmap");
+ 					options.push_back("filter_linear_mipmap_anisotropic");
++					options.push_back("filter_linear_mipmap_anisotropic_4");
+ 					options.push_back("filter_nearest");
+ 					options.push_back("filter_nearest_mipmap");
+ 					options.push_back("filter_nearest_mipmap_anisotropic");
+--- a/servers/rendering/shader_language.h
++++ b/servers/rendering/shader_language.h
+@@ -193,6 +193,7 @@
+ 		TK_FILTER_LINEAR_MIPMAP,
+ 		TK_FILTER_NEAREST_MIPMAP_ANISOTROPIC,
+ 		TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC,
++		TK_FILTER_LINEAR_MIPMAP_ANISOTROPIC_4,
+ 		TK_REPEAT_ENABLE,
+ 		TK_REPEAT_DISABLE,
+ 		TK_SHADER_TYPE,
+@@ -339,6 +340,7 @@
+ 		FILTER_NEAREST_MIPMAP_ANISOTROPIC,
+ 		FILTER_LINEAR_MIPMAP_ANISOTROPIC,
+ 		FILTER_DEFAULT,
++		FILTER_LINEAR_MIPMAP_ANISOTROPIC_4, // Private Forward+ fixed4; preserve DEFAULT=6.
+ 	};
+ 
+ 	enum TextureRepeat {
+--- a/servers/rendering/shader_types.cpp
++++ b/servers/rendering/shader_types.cpp
+@@ -81,6 +81,7 @@
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["global"].built_ins["TIME"] = constt(ShaderLanguage::TYPE_FLOAT);
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["global"].built_ins["EXPOSURE"] = constt(ShaderLanguage::TYPE_FLOAT);
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["global"].built_ins["IN_SHADOW_PASS"] = constt(ShaderLanguage::TYPE_BOOL);
++	shader_modes[RSE::SHADER_SPATIAL].functions["global"].built_ins["SOURCE_RASTER_Y_UP"] = constt(ShaderLanguage::TYPE_BOOL);
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["constants"].built_ins["PI"] = constvt(ShaderLanguage::TYPE_FLOAT, { pi_scalar });
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["constants"].built_ins["TAU"] = constvt(ShaderLanguage::TYPE_FLOAT, { tau_scalar });
+ 	shader_modes[RSE::SHADER_SPATIAL].functions["constants"].built_ins["E"] = constvt(ShaderLanguage::TYPE_FLOAT, { e_scalar });
+@@ -237,6 +238,10 @@
+ 	{
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("blend"), "mix", "add", "sub", "mul", "premul_alpha" });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_draw"), "opaque", "always", "never" });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_2") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_3") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_world_4") });
++		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("saltline_bias_weapon_3") });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_prepass_alpha") });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("depth_test"), { "default", "disabled", "inverted" } });
+ 		shader_modes[RSE::SHADER_SPATIAL].modes.push_back({ PNAME("sss_mode_skin") });
+--- a/servers/rendering/storage/render_scene_buffers.h
++++ b/servers/rendering/storage/render_scene_buffers.h
+@@ -50,6 +50,7 @@
+ 
+ 	float fsr_sharpness = 0.0;
+ 	float texture_mipmap_bias = 0.0;
++	bool source_raster_y_up = false;
+ 	bool use_taa = false;
+ 	bool use_debanding = false;
+ 
+@@ -87,6 +88,9 @@
+ 	RSE::ViewportAnisotropicFiltering get_anisotropic_filtering_level() const { return anisotropic_filtering_level; }
+ 	void set_anisotropic_filtering_level(RSE::ViewportAnisotropicFiltering p_anisotropic_filtering_level) { anisotropic_filtering_level = p_anisotropic_filtering_level; }
+ 
++	bool get_source_raster_y_up() const { return source_raster_y_up; }
++	void set_source_raster_y_up(bool p_enabled) { source_raster_y_up = p_enabled; }
++
+ 	bool get_use_taa() const { return use_taa; }
+ 	void set_use_taa(bool p_use_taa) { use_taa = p_use_taa; }
+ 
+--- a/version.py
++++ b/version.py
+@@ -3,7 +3,7 @@
+ major = 4
+ minor = 7
+ patch = 2
+-status = "stable"
++status = "stable.saltline_oblique_source_bias"
+ module_config = ""
+ website = "https://godotengine.org"
+ docs = "4.7"

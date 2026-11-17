@@ -1,0 +1,10 @@
+{
+  "checks": 184,
+  "draws": 32,
+  "failures": [],
+  "maximum_error": 0.0000000000000000277555756156289,
+  "methods_sha256": "c2cc46cb75d953ad24ae21d2612bb4a03617aa70b73bf1b928d34ad65c0715ff",
+  "scope": "Literal original M and u1; capacity3, rejection, clear, fixed/random frame; all post-emit random calls conditional on success.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 20
+}

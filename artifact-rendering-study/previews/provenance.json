@@ -1,0 +1,30 @@
+{
+  "godot-microdetail.mp4": {
+    "codec": "H.264",
+    "size": [
+      1280,
+      800
+    ],
+    "source_directory": "../godot/captures",
+    "source_prefix": "motion-",
+    "source_frames": 12,
+    "frame_duration_ms": 120,
+    "repeats": 3,
+    "source": "Godot GPU step captures, not realtime FPS recording",
+    "sha256": "abc9e5b22bea2f114e117e8c2e48977cba9f32f4fd64ded4b7ea241f9504c5ad"
+  },
+  "godot-reflection.mp4": {
+    "codec": "H.264",
+    "size": [
+      1280,
+      800
+    ],
+    "source_directory": "../godot/captures",
+    "source_prefix": "reflection-motion-",
+    "source_frames": 16,
+    "frame_duration_ms": 120,
+    "repeats": 3,
+    "source": "Godot GPU step captures, not realtime FPS recording",
+    "sha256": "023c8a3d880cd05633008be5ec7e4ff74742db9669c0c1d3622d0b278b663b48"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "failures": [],
+  "frames": 470,
+  "scope": "Actual Main default startup plus existing470-frame normal arms/mechanical/magazine GPU path. Kernel and browser cold-bootstrap proof separate; no global FX/AI RNG equivalence.",
+  "startup": {
+    "mode": "canonical",
+    "seed_mode": "shared_stream",
+    "weapon_seed": 3554171070,
+    "world_seed": 4207
+  },
+  "startup_checks": 3
+}

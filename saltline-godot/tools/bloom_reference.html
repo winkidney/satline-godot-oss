@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8"><title>Original Saltline compositor GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const ao=await(await fetch('../../artifact-rendering-study/source/shaders/35619-ao.glsl')).text(),sv=await(await fetch('../../artifact-rendering-study/source/shaders/35625-sv.glsl')).text();
+ const tk=(await(await fetch('../../artifact-rendering-study/source/shaders/35891-tk.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const renderer=new T.WebGLRenderer({antialias:false});renderer.setSize(16,16);document.body.append(renderer.domElement);const world=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));world.add(quad);
+
+ const code=async(name)=>(await(await fetch('../../artifact-rendering-study/source/shaders/'+name)).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const vertex='varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.0,1.0);}';
+ const render=(fragment,uniforms,w,h)=>{quad.material=new T.ShaderMaterial({uniforms,vertexShader:vertex,fragmentShader:fragment,depthTest:false,depthWrite:false});const rt=new T.WebGLRenderTarget(w,h,{type:T.FloatType,depthBuffer:false,minFilter:T.LinearFilter,magFilter:T.LinearFilter});renderer.setRenderTarget(rt);renderer.render(world,camera);const color=new Float32Array(w*h*4);renderer.readRenderTargetPixels(rt,0,0,w,h,color);return {rt,record:{width:w,height:h,color:Array.from(color)}}};
+ const width=64,height=32,input=new Float32Array(width*height*4);
+ for(let y=0;y<height;y++)for(let x=0;x<width;x++){const k=(y*width+x)*4;input[k]=x/63*4;input[k+1]=y/31*2;input[k+2]=(x+y)%5*.2;input[k+3]=1;if(x===32&&y===16){input[k]=300;input[k+1]=150;input[k+2]=50}}
+ const texture=new T.DataTexture(input,width,height,T.RGBAFormat,T.FloatType);texture.minFilter=texture.magFilter=T.LinearFilter;texture.needsUpdate=true;
+ const downCode=await code('35800-j9.glsl.template'),upCode=await code('35820-K9.glsl.template'),streakCode=await code('35830-J9.glsl.template');
+ const down=[],up=[],streak=[];let previous=texture,pw=width,ph=height;
+ for(let i=0;i<6;i++){const w=i===0?Math.max(4,Math.ceil(pw/2)):Math.max(2,pw>>1),h=i===0?Math.max(4,Math.ceil(ph/2)):Math.max(2,ph>>1);const pass=render(downCode,{tSrc:{value:previous},uTexel:{value:new T.Vector2(1/pw,1/ph)},uFirst:{value:i===0?1:0}},w,h);down.push(pass);previous=pass.rt.texture;pw=w;ph=h}
+ for(let i=4;i>=0;i--){const high=down[i];const pass=render(upCode,{tLow:{value:previous},tHigh:{value:high.rt.texture},uTexel:{value:new T.Vector2(1/pw,1/ph)},uMix:{value:.62}},high.record.width,high.record.height);up[i]=pass;previous=pass.rt.texture;pw=pass.record.width;ph=pass.record.height}
+ const adapt=new T.DataTexture(new Float32Array([.12,0,0,1]),1,1,T.RGBAFormat,T.FloatType);adapt.needsUpdate=true;previous=down[2].rt.texture;pw=down[2].record.width;ph=down[2].record.height;
+ for(let i=0;i<2;i++){const pass=render(streakCode,{tSrc:{value:previous},tAdapt:{value:adapt},uDir:{value:new T.Vector2((i===0?1.5:5)/pw,0)},uThreshold:{value:i===0?2.2:0},uExposure:{value:1},uKey:{value:.12},uMinE:{value:.6},uMaxE:{value:2},uAuto:{value:0}},pw,ph);streak.push(pass);previous=pass.rt.texture}
+
+ const scene=await(await fetch('../assets/prepared/scene.json')).json();const sky=scene.materials.find(m=>m.name==='saltline-sky');const noiseRecord=scene.textures.find(t=>t.id===sky.uniforms.tNoise.value.$texture);const noiseBytes=new Uint8Array(await(await fetch('../assets/export/'+noiseRecord.file)).arrayBuffer());
+ const noise=new T.DataTexture(noiseBytes,256,256,T.RGBAFormat,T.UnsignedByteType);noise.minFilter=noise.magFilter=T.LinearFilter;noise.wrapS=noise.wrapT=T.RepeatWrapping;noise.needsUpdate=true;
+ const tv=await(await fetch('../../artifact-rendering-study/source/shaders/35303-tv.glsl')).text();
+ const dirtCode=(await code('35871-ek.glsl.template')).replace('${tv}',tv);quad.material=new T.ShaderMaterial({uniforms:{tNoise:{value:noise},uAspect:{value:16/9}},vertexShader:vertex,fragmentShader:dirtCode,depthTest:false,depthWrite:false});
+ const dirtTarget=new T.WebGLRenderTarget(512,288,{type:T.UnsignedByteType,depthBuffer:false});renderer.setRenderTarget(dirtTarget);renderer.render(world,camera);const dirtPixels=new Uint8Array(512*288*4);renderer.readRenderTargetPixels(dirtTarget,0,0,512,288,dirtPixels);const samples=[];
+ for(let y=0;y<288;y+=9)for(let x=0;x<512;x+=11){const offset=(y*512+x)*4;samples.push({x,y,color:Array.from(dirtPixels.slice(offset,offset+3))})}
+ const dirt={width:512,height:288,noiseFile:noiseRecord.file,samples,pixels:Array.from(dirtPixels)};
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {three:T.REVISION,renderer:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),width,height,dirt,input:Array.from(input),down:down.map(p=>p.record),up:up.map(p=>p.record),streak:streak.map(p=>p.record),scope:'Actual original j9/K9/J9 shaders, nonuniform HDR gradient plus radiance300 point; six down, five up, two streak passes in Three Float32.'};
+})();</script>

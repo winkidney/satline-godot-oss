@@ -1,0 +1,11 @@
+{
+  "cases": 4,
+  "checks": 124020,
+  "draws": 30034,
+  "failures": [],
+  "maximum_error": 0.000000119209289550781,
+  "methods_sha256": "8ebbc3c90c0e84123e4556752cb11e9b832f4b88df9372dbfecd4f4c20c6349b",
+  "scope": "Original G/oe/M/u1/W and actual renderer lightPool v for fire/steam, particle2/256 and light0/2 capacities; shared24 overflow, exact RNG, secondary smoke/embers, point-light acquisition/flicker/static position/release/reuse. Generation and light states, no motion/pixels or drip.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps_per_case": 51
+}

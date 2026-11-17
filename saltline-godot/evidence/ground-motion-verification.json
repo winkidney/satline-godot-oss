@@ -1,0 +1,10 @@
+{
+  "cases": 2,
+  "checks": 12750,
+  "draws": 1818,
+  "failures": [],
+  "maximum_error": 0.000000238418579101562,
+  "methods_sha256": "7104cfd14f62ea8a427f37af702ee0e3f7c9ad9c308e9d236ea8a417abcd102b",
+  "scope": "Literal original player:step/land callbacks with original splash/puff helpers and original validated mask query. Walk/sprint, payload/fallback positions, water priority, land speed5 strict threshold, y clamp, roof puddle behavior and pool2/256. Generated particles only, no movement timeline or pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

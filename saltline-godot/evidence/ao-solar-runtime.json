@@ -1,0 +1,159 @@
+{
+  "failures": [],
+  "frames": 480,
+  "scope": "Actual native source sky and source scene world/weapon depth, originalQ9 visibility smoothing and tk flare gain. Controlled camera at open sea and original warehouse, then rotates away/back. Diagnostic camera movement; not manual gameplay or originalMSAA edge visual parity.",
+  "snapshots": [
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 45,
+      "front": true,
+      "meter": 0.39111328125,
+      "sun_on": 1.0,
+      "uv": [
+        0.541305720806122,
+        0.500935971736908
+      ],
+      "visibility": 1.0,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 100,
+      "front": true,
+      "meter": 0.39111328125,
+      "sun_on": 1.0,
+      "uv": [
+        0.449310451745987,
+        0.501407504081726
+      ],
+      "visibility": 1.0,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        -11.0,
+        1.67999994754791,
+        -23.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 160,
+      "front": true,
+      "meter": 0.28076171875,
+      "sun_on": 1.0,
+      "uv": [
+        0.5,
+        0.499999970197678
+      ],
+      "visibility": 0.00386428833007812,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        -11.0,
+        1.67999994754791,
+        -23.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 220,
+      "front": true,
+      "meter": 0.1845703125,
+      "sun_on": 1.0,
+      "uv": [
+        0.5,
+        0.499999970197678
+      ],
+      "visibility": 0.00000095367431640625,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 280,
+      "front": true,
+      "meter": 0.2196044921875,
+      "sun_on": 0.336702028910319,
+      "uv": [
+        1.09949469566345,
+        0.638499855995178
+      ],
+      "visibility": 0.830078125,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 340,
+      "front": false,
+      "meter": 0.17822265625,
+      "sun_on": 0.0,
+      "uv": [
+        0.264315992593765,
+        0.14803272485733
+      ],
+      "visibility": 0.000204324722290039,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 400,
+      "front": true,
+      "meter": 0.2445068359375,
+      "sun_on": 1.0,
+      "uv": [
+        0.5,
+        0.499999970197678
+      ],
+      "visibility": 0.99609375,
+      "weapon_ready": true,
+      "world_ready": true
+    },
+    {
+      "camera": [
+        60.0,
+        3.0,
+        25.0
+      ],
+      "flare_gain": 0.16,
+      "frame": 460,
+      "front": true,
+      "meter": 0.316650390625,
+      "sun_on": 1.0,
+      "uv": [
+        0.5,
+        0.499999970197678
+      ],
+      "visibility": 0.99853515625,
+      "weapon_ready": true,
+      "world_ready": true
+    }
+  ]
+}

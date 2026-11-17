@@ -1,0 +1,56 @@
+{
+  "alive_enemies": 5,
+  "checks": 14,
+  "debrief": {
+    "accuracy": null,
+    "kills": 0,
+    "rating": "Clean",
+    "retries": 0,
+    "time": 11.6666666666668
+  },
+  "events": [
+    {
+      "event": "cut",
+      "frame": 195,
+      "id": "relay_a",
+      "index": 1,
+      "total": 3
+    },
+    {
+      "event": "cut",
+      "frame": 405,
+      "id": "relay_b",
+      "index": 2,
+      "total": 3
+    },
+    {
+      "event": "cut",
+      "frame": 625,
+      "id": "relay_c",
+      "index": 3,
+      "total": 3
+    },
+    {
+      "event": "all",
+      "frame": 625
+    },
+    {
+      "event": "state",
+      "frame": 700,
+      "value": "complete"
+    },
+    {
+      "event": "state",
+      "frame": 960,
+      "value": "intro"
+    },
+    {
+      "event": "state",
+      "frame": 1025,
+      "value": "playing"
+    }
+  ],
+  "failures": [],
+  "frames": 1100,
+  "scope": "Actual Main/GameFlow/UI: early extraction blocked, three physical E holds, live waves, extraction objective/marker, actual boat completion, delayed debrief and redeploy. Teleported starting poses and invulnerability; not from-spawn navigation or human play acceptance."
+}

@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "maximum_error": 0.0,
+      "mode": 0
+    },
+    {
+      "maximum_error": 0.0,
+      "mode": 1
+    },
+    {
+      "maximum_error": 0.000039219856262207,
+      "mode": 2
+    }
+  ],
+  "failures": [],
+  "scope": "Actual MeshInstance3D Skeleton3D skin compute plus spatial vertex shader: original bone index2/weight1 accessible, VERTEX/NORMAL already posed, CUSTOM1/2 retain rest inputs.64HDR target, interior3136samples eachmode. Onebone rigidrotation+translation, not original18actor axis parity."
+}

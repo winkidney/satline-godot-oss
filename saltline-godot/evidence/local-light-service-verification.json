@@ -1,0 +1,50 @@
+{
+  "contribution": {
+    "changed": 42774,
+    "maximum_rgb_difference": 26.1347961425781
+  },
+  "draw_native_energies": [
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0
+  ],
+  "failures": [],
+  "migrated": {
+    "migrated": 254,
+    "native": 50
+  },
+  "native_energy_1000": {
+    "changed": 0,
+    "maximum_rgb_difference": 0.0
+  },
+  "native_weapon_energy_1000": {
+    "changed": 0,
+    "maximum_rgb_difference": 0.0
+  },
+  "reentry": {
+    "changed": 0,
+    "maximum_rgb_difference": 0.0
+  },
+  "scope": "Actual source Main 254+ objects original point/key direct on/off HDR samples in world and weapon passes; native lights energy1000 set after Main with actual draw energies recorded; source/native fallback off/on masks and reentry. Shared world geometry layer3 key visibility toggle tests current camera mask selection. Numerical coupled BRDF fixture and full visual parity remain separate gates.",
+  "shared_key_weapon": {
+    "changed": 29047,
+    "maximum_rgb_difference": 2.2359619140625
+  },
+  "shared_key_world": {
+    "changed": 0,
+    "maximum_rgb_difference": 0.0
+  },
+  "shared_layer3_objects": 231,
+  "weapon_contribution": {
+    "changed": 5682,
+    "maximum_rgb_difference": 0.591339111328125
+  }
+}

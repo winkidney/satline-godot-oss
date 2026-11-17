@@ -1,0 +1,199 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 1,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 2,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 3,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 4,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 5,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 6,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 7,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 8,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 9,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 10,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 11,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 12,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 13,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 14,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 15,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 16,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 17,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 18,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 19,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 20,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 21,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 22,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 23,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 24,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 25,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 26,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 27,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 28,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 29,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 30,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 31,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 32,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 33,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 34,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 35,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 36,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 37,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 38,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 39,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 40,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 41,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 42,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 43,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 44,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 45,
+      "maximum_error": 0.00048828125
+    },
+    {
+      "case": 46,
+      "maximum_error": 0.000244140625
+    },
+    {
+      "case": 47,
+      "maximum_error": 0.00048828125
+    }
+  ],
+  "channels": 768,
+  "failures": [],
+  "scope": "Original mk wet saturation/darkening plus gk roughness vs production helpers;48 macro/wet/bead states, absolute.001. Noise preparation and normal-map roughness correction excluded."
+}

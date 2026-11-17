@@ -1,0 +1,5 @@
+{
+  "source_face614_weight": 0.25,
+  "native_mirror_face614_weight": 0.0,
+  "scope": "Temporary Y-reflected camera plus readback flip; flat614 mask. Does not prove actual projection/sample locations changed as intended."
+}

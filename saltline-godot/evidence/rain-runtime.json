@@ -1,0 +1,74 @@
+{
+  "frames": 600,
+  "level": 0.0535591149073098,
+  "rain_instances": 9260,
+  "scope": "Original exported rain/eave/splash seeds and shaders; native controller/camera wrapping, roof boxes/skylights and rain fade. Global source fork RNG/thunder-to-sky/lens wetness pending.",
+  "seed_transfer": {
+    "float_components": 40640,
+    "maximum_error": 0.0
+  },
+  "snapshots": [
+    {
+      "camera": [
+        -24.0,
+        1.67999994754791,
+        6.0
+      ],
+      "drip": 1,
+      "frame": 90,
+      "level": 0.6,
+      "pixel_width": 0.00209320569472998,
+      "time": 1.550000001
+    },
+    {
+      "camera": [
+        -24.0,
+        0.649999976158142,
+        6.0
+      ],
+      "drip": 1,
+      "frame": 155,
+      "level": 0.6,
+      "pixel_width": 0.00209320569472998,
+      "time": 2.63333333433333
+    },
+    {
+      "camera": [
+        -13.0,
+        1.39999997615814,
+        -15.0
+      ],
+      "drip": 1,
+      "frame": 240,
+      "level": 0.6,
+      "pixel_width": 0.00209320569472998,
+      "time": 4.05000000099999
+    },
+    {
+      "camera": [
+        -2.0,
+        2.0,
+        -9.0
+      ],
+      "drip": 1,
+      "frame": 390,
+      "level": 0.6,
+      "pixel_width": 0.00209320569472998,
+      "time": 6.55000000099998
+    },
+    {
+      "camera": [
+        -2.0,
+        2.0,
+        -9.0
+      ],
+      "drip": 1,
+      "frame": 590,
+      "level": 0.0612532064802307,
+      "pixel_width": 0.00209320569472998,
+      "time": 9.8833333343334
+    }
+  ],
+  "splash_instances": 900,
+  "time": 10.0500000010001
+}

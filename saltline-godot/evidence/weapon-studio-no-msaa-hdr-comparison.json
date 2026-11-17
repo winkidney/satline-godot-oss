@@ -1,0 +1,23 @@
+{
+  "channels": [
+    "dLo",
+    "dMid",
+    "dRun"
+  ],
+  "source": [
+    0.61962890625,
+    0.3212890625,
+    0.0
+  ],
+  "native": [
+    0.61962890625,
+    0.3212890625,
+    0.0
+  ],
+  "quad_max_error": [
+    0.0,
+    0.0,
+    7.152557373046875e-07
+  ],
+  "scope": "Only MSAA disabled on both original setQuality and native world/weapon port, original source same camera/time/material diagnostic; descriptive comparison."
+}

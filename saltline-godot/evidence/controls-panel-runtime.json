@@ -1,0 +1,8 @@
+{
+  "content_height": 958.0,
+  "failures": [],
+  "focusable_controls": 3,
+  "scope": "Actual Main rich controls pane, three focusable header controls, injected Tab/ShiftTab/Escape and mouse wheel delivery, scroll-end GPU capture. Not whole browser layout or physical device test.",
+  "source_rows": 30,
+  "wheel_scroll": 313
+}

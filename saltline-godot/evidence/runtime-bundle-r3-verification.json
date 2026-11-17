@@ -1,0 +1,24 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r3",
+  "manifest_files": 3882,
+  "bytes": 2077489213,
+  "integrity_failures": [],
+  "logs": {
+    "main": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "decals": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    },
+    "props": {
+      "source_scene_loaded": true,
+      "errors": [],
+      "terminal_exit_code": 0
+    }
+  },
+  "scope": "Linux development bundle launched from /tmp with isolated user data. Six-frame title boot plus real GPU decal and prop selection probes. Not release export, all-device support or complete visual fidelity."
+}

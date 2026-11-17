@@ -1,0 +1,8 @@
+{
+  "source": "artifact-rendering-study/source/extracted/bundle-1.js",
+  "sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "literal_sha256": "835ac3c8dd002bbd139a9b1082a2401cba977c4054027d9769badfcbe045c6a2",
+  "table": "JE(Ey()) final di and nn.frame",
+  "consumer": "TD",
+  "note": "Original bundled Three math and literal fitting code on CPU; no Godot values used"
+}

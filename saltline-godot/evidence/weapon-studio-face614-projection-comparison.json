@@ -1,0 +1,13 @@
+{
+  "native_weight": [
+    0.25,
+    0.0,
+    0.0
+  ],
+  "source_weight": [
+    0.25,
+    0,
+    0
+  ],
+  "scope": "Actual full workbench geometry, temporary shader PROJECTION_MATRIX Y inversion, facing/cull inversion, readback flip. Postprocess/depth reconstruction not corrected; coverage HDR only."
+}

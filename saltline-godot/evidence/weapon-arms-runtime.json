@@ -1,0 +1,8 @@
+{
+  "failures": [],
+  "frames": 470,
+  "proxy_bone_checks": 32900,
+  "scope": "Actual Main live vS/Fh normal pipeline writes all70 source proxy and Skeleton3D bones once per game tick; group identity/no sample overwrite. Separate literal source kernel proofs; no full source combined image/death-drop proof.",
+  "skeleton_bone_checks": 32900,
+  "steps": 470
+}

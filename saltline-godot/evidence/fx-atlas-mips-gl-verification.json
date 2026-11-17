@@ -1,0 +1,147 @@
+{
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "levels": [
+    {
+      "name": "fx_lit",
+      "level": 0,
+      "bytes": 524288,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 1,
+      "bytes": 131072,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 2,
+      "bytes": 32768,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 3,
+      "bytes": 8192,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 4,
+      "bytes": 2048,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 5,
+      "bytes": 512,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 6,
+      "bytes": 128,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 7,
+      "bytes": 32,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 8,
+      "bytes": 8,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_lit",
+      "level": 9,
+      "bytes": 4,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 0,
+      "bytes": 524288,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 1,
+      "bytes": 131072,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 2,
+      "bytes": 32768,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 3,
+      "bytes": 8192,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 4,
+      "bytes": 2048,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 5,
+      "bytes": 512,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 6,
+      "bytes": 128,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 7,
+      "bytes": 32,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 8,
+      "bytes": 8,
+      "max_error": 0,
+      "different_bytes": 0
+    },
+    {
+      "name": "fx_add",
+      "level": 9,
+      "bytes": 4,
+      "max_error": 0,
+      "different_bytes": 0
+    }
+  ],
+  "different_bytes": 0,
+  "max_error": 0
+}

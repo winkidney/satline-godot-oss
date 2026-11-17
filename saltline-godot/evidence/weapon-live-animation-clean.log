@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+{"cases":22,"checks":45500,"failures":[],"maximum_transform_error":0.000000353882967374375,"repeated_live_updates":66,"scope":"Real animation code on exported104-node hierarchy and70 Skeleton3D bone slots; source clip baseline vs live root, one rigid arm-group delta, no accumulated transform, key/target/inactive root retained, no extra holster, frozen/reset writer guard. Synthetic live target, no original IK or GPU skin-image proof."}

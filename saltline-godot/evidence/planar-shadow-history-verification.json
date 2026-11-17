@@ -1,0 +1,178 @@
+{
+  "distinguished_update_frames": 4,
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique",
+    "string": "4.7.2-stable.saltline_oblique (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "frames": [
+    {
+      "current_vs_previous": {
+        "covered_pixels": 216,
+        "maximum_error": 0.5,
+        "mismatches": 216
+      },
+      "frame": 0,
+      "offset": 0.0,
+      "reflection_vs_previous": {
+        "covered_pixels": 0,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": true,
+      "world_vs_current": {
+        "covered_pixels": 216,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 216,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "frame": 1,
+      "offset": 0.12,
+      "reflection_vs_previous": {
+        "covered_pixels": 216,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": false,
+      "world_vs_current": {
+        "covered_pixels": 216,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.5,
+        "mismatches": 378
+      },
+      "frame": 2,
+      "offset": -0.08,
+      "reflection_vs_previous": {
+        "covered_pixels": 216,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": true,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "frame": 3,
+      "offset": 0.2,
+      "reflection_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": false,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.5,
+        "mismatches": 468
+      },
+      "frame": 4,
+      "offset": 0.04,
+      "reflection_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": true,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "frame": 5,
+      "offset": -0.12,
+      "reflection_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": false,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.5,
+        "mismatches": 216
+      },
+      "frame": 6,
+      "offset": 0.09,
+      "reflection_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": true,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    },
+    {
+      "current_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "frame": 7,
+      "offset": -0.03,
+      "reflection_vs_previous": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      },
+      "updated": false,
+      "world_vs_current": {
+        "covered_pixels": 234,
+        "maximum_error": 0.0,
+        "mismatches": 0
+      }
+    }
+  ],
+  "scope": "Actual sourceSunShadowPass128 R32F, nonperiodic moving original caster proxy, actual 3D fragment samples shared shadow texture in reflection HDR before sun update and main HDR after. Explicit reflection child-of-sun viewport dependency. Full128x128 scalar comparisons tolerance.001 accounts RGBA16F storage. Original every-other-frame cadence, includes initial clear. Diagnostic fullscreen depth display, not PCSS final image or fullscene animation parity."
+}

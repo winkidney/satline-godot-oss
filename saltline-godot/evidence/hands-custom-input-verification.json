@@ -1,0 +1,6 @@
+{
+  "comparisons": 28,
+  "maximum": 3.329443765132112e-8,
+  "passed": true,
+  "scope": "Actual Main runner report part anchors and basis quaternions against original bundled Three TD equations; not full IK or pixels"
+}

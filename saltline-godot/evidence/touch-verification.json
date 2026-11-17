@@ -1,0 +1,9 @@
+{
+  "checks": 438,
+  "failures": [],
+  "maximum_error": 0.000000000000000256739074444567,
+  "methods_sha256": "77afaf29728ae8ab9e998cbc79bff53d99b9be2b51faaa5dba688100c4cd4ffc",
+  "scope": "Literal original gE touch DOM event handlers with stub DOM and navigator; movement, look, sprint, button holds/edges, ADS toggle, fire drag, ownership and blur. No native routing or touch hardware acceptance.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 73
+}

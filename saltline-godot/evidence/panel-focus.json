@@ -1,0 +1,5 @@
+{
+  "failures": [],
+  "frames": 50,
+  "scope": "Actual Main GUI focus with injected Tab/ShiftTab/Escape; dialog entry, wrap, close, prior focus restoration. Direct slider pad_adjust/select exercises live sensitivity/FOV readouts and note. No physical keyboard or pixel parity."
+}

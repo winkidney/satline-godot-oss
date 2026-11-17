@@ -1,0 +1,7 @@
+{
+  "cases": 10,
+  "checks": 100564,
+  "failures": [],
+  "maximum_error": 0.000000463505976711076,
+  "scope": "Literal KP C scheduling, callbacks recorded synchronously with no effect RNG/physics; 600 steps x10, modes/hold/fixed size, zero and large dt. Full scene integration pending."
+}

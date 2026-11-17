@@ -1,0 +1,13 @@
+{
+  "mode": "normal",
+  "roi": [
+    640,
+    340,
+    680,
+    380
+  ],
+  "mae_rgb8": 1.3670833333333334,
+  "p95": 6.0,
+  "max": 43.0,
+  "scope": "Tone-mapped view-space normal diagnostic in weapon-body ROI; includes geometry edges and postprocess."
+}

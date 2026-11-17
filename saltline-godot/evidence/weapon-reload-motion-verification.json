@@ -1,0 +1,11 @@
+{
+  "cases": 12,
+  "comparisons": 453273,
+  "failures": [],
+  "maximum_error": 0.00000000000000221350715534641,
+  "scope": "Original literal state-bearing reload prefix and suffix with original event f/h; geometry/arms-target middle is intentionally omitted. Dense240Hz/boundaries/coarse duplicate and backward timestamps, both guns and empty/tactical; no production integration or parts/IK proof. Native root targets/impulses, once-only flags/events, arm impulse count. Ammo transfer remains weapon logic; no actual arm or part transforms tested.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "state_segments_sha256": "29929b9aebe2fafd0865084ea09a4e162a754d3ac1f4cb2f058953059d5757b3",
+  "steps": 2625,
+  "tolerance": 0.000000000001
+}

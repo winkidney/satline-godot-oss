@@ -1,0 +1,11 @@
+{
+  "comparisons": 81228,
+  "effects": 71,
+  "failures": [],
+  "frames": 912,
+  "killed": 1,
+  "maximum_error": 0.00000182910444923579,
+  "pose_updates": 132,
+  "retired": 1,
+  "scope": "Actual original L/U, source RNG, controlled pose callback; includes crash, smoke/spark RNG, stable wreck and sink retirement"
+}

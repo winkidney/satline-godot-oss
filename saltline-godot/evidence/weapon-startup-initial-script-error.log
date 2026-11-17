@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+SCRIPT ERROR: Cannot call method 'reference' on a null value.
+   at: state (res://scripts/weapon_startup.gd:5)
+   GDScript backtrace (most recent call first):
+       [0] state (res://scripts/weapon_startup.gd:5)
+       [1] _init (res://scripts/weapon.gd:56)
+       [2] _initialize (res://tools/verify_weapon_startup.gd:16)
+SCRIPT ERROR: Invalid access to property or key 't' on a base object of type 'Dictionary'.
+   at: SaltlineWeapon._init (res://scripts/weapon.gd:63)
+   GDScript backtrace (most recent call first):
+       [0] _init (res://scripts/weapon.gd:63)
+       [1] _initialize (res://tools/verify_weapon_startup.gd:16)
+SCRIPT ERROR: Invalid access to property or key 'state' on a base object of type 'bool'.
+   at: _initialize (res://tools/verify_weapon_startup.gd:17)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tools/verify_weapon_startup.gd:17)

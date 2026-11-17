@@ -1,0 +1,56 @@
+{
+  "backend": {
+    "vendor": "Google Inc. (NVIDIA Corporation)",
+    "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "records": [
+    {
+      "id": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40",
+      "runtime_id": "b519cd8b-90c4-448d-b9ac-5f64c8b40900",
+      "width": 768,
+      "height": 1024,
+      "maximum": 6,
+      "channels_above_one": 19326,
+      "file": "30c27fd2-4d7a-42ce-8e91-2cd36adb3c40.rgba32f",
+      "rowOrder": "bottom-to-top",
+      "format": "RGBA32F",
+      "sourceTextureType": 1016,
+      "colorSpace": "srgb-linear",
+      "sha256": "fd13d68f22081e25f073394f91a835acbc5bd8a58dd073f3f390bba828a12e9f",
+      "legacy_clamped_max_byte_difference": 1,
+      "legacy_clamped_channels_over_one_lsb": 0
+    },
+    {
+      "id": "e44868bb-2bd3-41d6-978b-02a02fedbdf3",
+      "runtime_id": "7db3207d-0b93-43f8-aec5-a0be86ee412b",
+      "width": 384,
+      "height": 512,
+      "maximum": 382.25,
+      "channels_above_one": 2003,
+      "file": "e44868bb-2bd3-41d6-978b-02a02fedbdf3.rgba32f",
+      "rowOrder": "bottom-to-top",
+      "format": "RGBA32F",
+      "sourceTextureType": 1016,
+      "colorSpace": "srgb-linear",
+      "sha256": "3a15e203389b7c62d213d9f909a48d1bea8dfd17346828ccdffb0401332ee530",
+      "legacy_clamped_max_byte_difference": 1,
+      "legacy_clamped_channels_over_one_lsb": 0
+    }
+  ],
+  "params": {
+    "q": "high",
+    "shot": "1",
+    "noaudio": "1",
+    "step": "1",
+    "dt": "0.016666667"
+  },
+  "frame": 3,
+  "time": 0.050000001,
+  "three": "180",
+  "scope": "Original active HTML boot original capture URL high shot1 noaudio1 dt.016666667 step3; PMREM sampled via texelFetch into RGBA32F without encoding/clamping; UUID mapped to existing export by unique name/dimensions.",
+  "source_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "native_ibl_integrated": false,
+  "historical_clamped_rgba8_agreement_within_one_lsb": true,
+  "preferred_for_native_ibl": true
+}

@@ -1,0 +1,7 @@
+{
+  "checks": 60,
+  "failures": [],
+  "maximum_color_error": 0.0034000658988953,
+  "maximum_shift_error": 0.00000307351316131133,
+  "scope": "Production toggle process against original Chrome pseudo-element transform/background through four interrupted transitions. Injected clock, not native pointer delivery or font pixels."
+}

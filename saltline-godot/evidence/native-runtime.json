@@ -1,0 +1,122 @@
+{
+  "adapter": "NVIDIA GeForce RTX 4070 SUPER",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "image_size": [
+    1280,
+    720
+  ],
+  "materials": 195,
+  "meshes": 292,
+  "native_skeletons": 20,
+  "native_skin_meshes": 30,
+  "nodes": 729,
+  "pending_shaders": [
+    {
+      "id": "fce6cd56-3237-4bcd-af66-86f908942da2",
+      "name": "",
+      "uniforms": [
+        "uBright",
+        "uSun",
+        "uSunCol",
+        "uZen",
+        "uHor",
+        "uTilt",
+        "uEnv"
+      ]
+    },
+    {
+      "id": "0c4ecf1e-8376-473f-bfdc-ec19ecc5a41c",
+      "name": "saltline-sky",
+      "uniforms": [
+        "tNoise",
+        "uTime",
+        "uEnv",
+        "uFlash",
+        "uFlashDir",
+        "uSunDir",
+        "uZen",
+        "uHor",
+        "uHorAway",
+        "uSunCol"
+      ]
+    },
+    {
+      "id": "5cec14c9-90f3-4fa5-9621-0c729062ff24",
+      "name": "",
+      "uniforms": [
+        "uTime",
+        "uRain",
+        "uBoxMin",
+        "uBoxMax",
+        "uSunDir",
+        "uSunCol",
+        "uAmb",
+        "uSky",
+        "uPix",
+        "uDrip",
+        "uVel",
+        "uBox"
+      ]
+    },
+    {
+      "id": "01ca0a88-4e03-45c7-bc17-3e40d6ea1551",
+      "name": "",
+      "uniforms": [
+        "uTime",
+        "uRain",
+        "uBoxMin",
+        "uBoxMax",
+        "uSunDir",
+        "uSunCol",
+        "uAmb",
+        "uMask",
+        "uMaskRect"
+      ]
+    },
+    {
+      "id": "34559a15-d7f9-4fa2-8956-d228e9cc6353",
+      "name": "fx_lit",
+      "uniforms": [
+        "uTex",
+        "uAtlas",
+        "uPx",
+        "uDepth",
+        "uRes",
+        "uNearFar",
+        "uSoft",
+        "uSun",
+        "uSunDir",
+        "uAmbLo",
+        "uAmbHi"
+      ]
+    },
+    {
+      "id": "1a738049-2610-449b-adb3-ac8779c53cd0",
+      "name": "fx_add",
+      "uniforms": [
+        "uTex",
+        "uAtlas",
+        "uPx",
+        "uDepth",
+        "uRes",
+        "uNearFar",
+        "uSoft"
+      ]
+    }
+  ],
+  "skin_reference_max_error_m": 0.0000012468096883822,
+  "skin_reference_vertices_checked": 732,
+  "source_skin_reference_meshes": 30,
+  "stage": "native asset integration, not full replica",
+  "textures": 127
+}

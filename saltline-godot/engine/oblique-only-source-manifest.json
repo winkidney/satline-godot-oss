@@ -1,0 +1,42 @@
+{
+  "source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "source_archive_sha256": "f4fda09a2c5307a719f2879fab4d4bbce16ee64a0e20dfb9f59061a901670a86",
+  "patch_sha256": "596ff66f5816a7c65ba237339c2ffcc5b4b8859f313b771b9f42ee35a8dc2dee",
+  "files": [
+    "servers/rendering/renderer_scene_render.h",
+    "servers/rendering/renderer_scene_render.cpp",
+    "servers/rendering/renderer_scene_cull.cpp",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h",
+    "servers/rendering/renderer_rd/renderer_scene_render_rd.cpp",
+    "servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp",
+    "version.py"
+  ],
+  "scope": "Private named mono XR source-perspective reference projection; actual oblique geometry/draw projection preserved. Not generalXR/multiview arbitraryprojection support. Unverified until built and GPU tested.",
+  "build_dependencies": {
+    "scons": "4.11.1",
+    "zstandard": "0.25.0"
+  },
+  "patched_file_sha256": {
+    "servers/rendering/renderer_scene_render.h": "2361f2612c2454130225583c020bca7f0a9617f40e2f3acd08b8ae44fc7c6db4",
+    "servers/rendering/renderer_scene_render.cpp": "ffa950eec02ae782fc5528e12549a1a988aa0425eebc9ff69531e26da5118268",
+    "servers/rendering/renderer_scene_cull.cpp": "020053d82a40e57f3957b4388adb0b777a8d7c6360a537d4cb513ffb6e0d7e3f",
+    "servers/rendering/renderer_rd/storage_rd/render_scene_data_rd.h": "8ae0c4b3290d5fb0974fed61926115bc78fb0570417e564b557ecb4d58113794",
+    "servers/rendering/renderer_rd/renderer_scene_render_rd.cpp": "046cf2dc378fb6ca92a14ce5c82aac219f01bfc8f3b2b7940ff0d3a6126e2f00",
+    "servers/rendering/renderer_rd/forward_clustered/render_forward_clustered.cpp": "b4fe90c864aea7ed3a2a15ab684aae9087edc20099234c85323f2c4dd0ad7a20",
+    "version.py": "3f22eaac2348a19b4b287b04f08674a43117bc91883debeea05fa333a8dc261d"
+  },
+  "build_command": [
+    "scons",
+    "platform=linuxbsd",
+    "target=template_debug",
+    "arch=x86_64",
+    "wayland=no",
+    "use_static_cpp=no",
+    "debug_symbols=no",
+    "lto=none",
+    "disable_path_overrides=no",
+    "-j8"
+  ],
+  "build_state": "built; mono lighting/static scene/lifecycle and controlled128 GPU previous-shadow history passed; fullscene dynamicPCSS/performance pending",
+  "source_archive_url": "https://codeload.github.com/godotengine/godot/tar.gz/ed1daf0bf"
+}

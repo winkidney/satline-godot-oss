@@ -1,0 +1,851 @@
+{
+  "purpose": "Diagnostic evidence for raster depth bias selection; no production shader or tolerance changes",
+  "reference": "assets/export/fixtures/polygon-offset-reference.json",
+  "reference_sha256": "41c7a04d8e1c39a1c97591982a978767f877a6a138c77b8dcbc6bdc6732f7131",
+  "probe_sha256": "3b18ce43ab19325306aced74f684903d5df7b3733a18a9f79f6f1d7b009e825a",
+  "backend": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2, OpenGL ES 3.2)",
+  "attachment": {
+    "depthBits": 24,
+    "framebufferDepthSize": 24,
+    "framebufferComplete": true,
+    "samples": 0,
+    "depthTextureType": 1014,
+    "depthTextureFormat": 1026
+  },
+  "case_count": 546,
+  "sample_count": 4368,
+  "inferred_r": 1.1920928955078125e-07,
+  "inferred_r_in_q24": 2.0,
+  "maximum_residual_from_factor_m_plus_units_r": 5.960464477539063e-08,
+  "maximum_residual_in_q24": 1.0,
+  "offset_enabled_zero_matches_disabled": true,
+  "flat_profiles": [
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.001,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.01,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.1,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": -4,
+      "delta_q24": -8.25
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": -3,
+      "delta_q24": -6.25
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": -2,
+      "delta_q24": -4.25
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": -1,
+      "delta_q24": -2.25
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.25,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": -4,
+      "delta_q24": -8.5
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": -3,
+      "delta_q24": -6.5
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": -2,
+      "delta_q24": -4.5
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": -1,
+      "delta_q24": -2.5
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": 1,
+      "delta_q24": 1.0
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": 2,
+      "delta_q24": 3.0
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": 3,
+      "delta_q24": 5.0
+    },
+    {
+      "range": 1,
+      "depth": 0.5,
+      "units": 4,
+      "delta_q24": 7.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.75,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 1,
+      "depth": 0.99,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.001,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.01,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.1,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.25,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.5,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.75,
+      "units": 4,
+      "delta_q24": 8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": -4,
+      "delta_q24": -8.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": -3,
+      "delta_q24": -6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": -2,
+      "delta_q24": -4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": -1,
+      "delta_q24": -2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": 0,
+      "delta_q24": 0.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": 1,
+      "delta_q24": 2.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": 2,
+      "delta_q24": 4.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": 3,
+      "delta_q24": 6.0
+    },
+    {
+      "range": 0.05,
+      "depth": 0.99,
+      "units": 4,
+      "delta_q24": 8.0
+    }
+  ],
+  "limitations": [
+    "Single-sample controlled depth-writing geometry only; original offset materials disable depth writes.",
+    "The residual is measured evidence, not a new fidelity tolerance or a claim of exact unquantized depth.",
+    "D24 sampling converts UNORM to float32; .25/.5 exponent crossings include observable quantization/rounding effects.",
+    "The baseline and biased GL draw share identical vertex math. Absolute GL/native depth comparison additionally requires matching clip transformations.",
+    "MSAA, reverse-Z, oblique projection, independent weapon quantization and actual decal visibility require follow-up GPU tests."
+  ],
+  "paired_public_rd_d24": {
+    "source": "evidence/rd-polygon-offset-probe.json",
+    "source_sha256": "23e1df7c4b5ffeb2f004381541093b34a7651bac5fdf90024948416f018fe03f",
+    "profiles_compared": 63,
+    "delta_mismatches": 0,
+    "maximum_delta_error": 0.0,
+    "absolute_depth_mismatches": [
+      {
+        "depth": 0.1,
+        "units": -4,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": -3,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": -2,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": -1,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": 0,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": 1,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": 2,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": 3,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      },
+      {
+        "depth": 0.1,
+        "units": 4,
+        "delta_error": 0.0,
+        "absolute_depth_bits_equal": false
+      }
+    ],
+    "interpretation": "All 63 offset deltas match exactly. Nine absolute depths at nominal .1 differ by one q24 because GL constructs 2*d-1 before viewport mapping; native probe writes d directly. This does not establish reverse-Z equivalence."
+  }
+}

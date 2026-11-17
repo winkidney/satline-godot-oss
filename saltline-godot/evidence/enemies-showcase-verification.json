@@ -1,0 +1,173 @@
+{
+  "source_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "variants": [
+    {
+      "part": "both",
+      "actors": 2,
+      "enemy_time": 2.6,
+      "start_time": 2.6,
+      "controlled_pose": true,
+      "maximum_position_error": 1.19209289550781e-07,
+      "maximum_local_bone_error": 9.65987033960114e-07,
+      "nav_replay": {
+        "calls": 0,
+        "enabled": false,
+        "maximum_origin_error": 0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "rgb8_descriptive": {
+        "mae": 1.4328208188657408,
+        "p95": 9.0,
+        "p99": 13.0,
+        "max": 220.0
+      },
+      "runtime_report_sha256": "6b62d137a2aa6d6c2d3511dccf9f7e0c7920bdbc4188c2f1a2b72e50504335d2"
+    },
+    {
+      "part": "gull",
+      "actors": 1,
+      "enemy_time": 1.2,
+      "start_time": 1.2,
+      "controlled_pose": true,
+      "maximum_position_error": 2.08250061639603e-09,
+      "maximum_local_bone_error": 1.47041463960385e-06,
+      "nav_replay": {
+        "calls": 0,
+        "enabled": false,
+        "maximum_origin_error": 0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "rgb8_descriptive": {
+        "mae": 1.3741229021990742,
+        "p95": 8.0,
+        "p99": 12.0,
+        "max": 33.0
+      },
+      "runtime_report_sha256": "96cbb1a46072a561f6133b6837037d3fdd3c7bf488392a2c7708222acc211556"
+    },
+    {
+      "part": "hound",
+      "actors": 1,
+      "enemy_time": 1.25,
+      "start_time": 1.25,
+      "controlled_pose": true,
+      "maximum_position_error": 0.0,
+      "maximum_local_bone_error": 1.24201509854593e-07,
+      "nav_replay": {
+        "calls": 0,
+        "enabled": false,
+        "maximum_origin_error": 0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "rgb8_descriptive": {
+        "mae": 1.4093406394675927,
+        "p95": 9.0,
+        "p99": 13.0,
+        "max": 158.0
+      },
+      "runtime_report_sha256": "b12c4e50068d7e8c0863a5d82136196dc4066e0dcbe346c17d1554431ab4157c"
+    },
+    {
+      "part": "fight-controlled",
+      "actors": 5,
+      "enemy_time": 6.99999999999998,
+      "start_time": 6.99999999999998,
+      "controlled_pose": true,
+      "maximum_position_error": 1.98045336219366e-06,
+      "maximum_local_bone_error": 1.23402012139895e-05,
+      "nav_replay": {
+        "calls": 35,
+        "enabled": true,
+        "maximum_origin_error": 0.0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "rgb8_descriptive": {
+        "mae": 3.0519990596064814,
+        "p95": 10.0,
+        "p99": 78.0,
+        "max": 194.0
+      },
+      "runtime_report_sha256": "62981c1275b58427f909c25d3e7e3d254e02e94c73eed8e237d8c60a55516f21"
+    },
+    {
+      "part": "dead",
+      "actors": 3,
+      "enemy_time": 2.75,
+      "start_time": 2.75,
+      "controlled_pose": true,
+      "maximum_position_error": 7.15255737304688e-07,
+      "maximum_local_bone_error": 2.35758950757614e-06,
+      "nav_replay": {
+        "calls": 0,
+        "enabled": false,
+        "maximum_origin_error": 0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "rgb8_descriptive": {
+        "mae": 1.8653501157407408,
+        "p95": 9.0,
+        "p99": 18.0,
+        "max": 178.0
+      },
+      "runtime_report_sha256": "7ad15023986329fd950ab09e4df473273330a11601642fa2dea0f67906e3308d"
+    },
+    {
+      "part": "live",
+      "actors": 2,
+      "enemy_time": 2.84280766666666,
+      "start_time": 2.6,
+      "controlled_pose": false,
+      "maximum_position_error": 0.0,
+      "maximum_local_bone_error": 0.0,
+      "nav_replay": {
+        "calls": 0,
+        "enabled": false,
+        "maximum_origin_error": 0
+      },
+      "player": {
+        "alive": true,
+        "health": 100.0,
+        "invulnerable": true
+      },
+      "failures": [],
+      "runtime_report_sha256": "032065d9f1f999dec50d7eb794a4a5ecf597752be3c8b2561f2141845792bd10"
+    }
+  ],
+  "pose_tolerance": 0.0001,
+  "files": {
+    "scripts/enemies_showcase_runner.gd": "c8315ace4290df4c9c13fe50a6e046c9f2a260529d26785c98ca88a732fe1343",
+    "tools/enemy_showcase_nav_replay.gd": "78294d56470b658ed41f4e572ab39b8f5a02a9d1917ad769f45e4a95a50faec2",
+    "tools/capture_main_paired.cjs": "6e7ea1aa5859ae45be18a4fc5b553a03852039b320944d40906b2a2fde54eee4",
+    "assets/export/enemies-showcase-reference.json": "75f56699c23e2839b9e4d4da6dc0272550f8b463d3047315c6e112166e19ed27"
+  },
+  "initial_failures": [
+    "First runner referenced nonexistent behavior.covers; terminated exit130 and corrected to cover_points.",
+    "First fight reused Main Hard tuning and uncontrolled navigation randomness, resulting position error10.0189m. Preserved enemies-fight-native.json; no parity pass claimed."
+  ],
+  "scope": "Actual original KD scenarios and source primitive/bone capture; existing native actor pools reset to original untouched constructor state, baseline tuning, stub damage-free player, original spawn/death/prewarm. Five frozen poses validated; fight uses recorded actual nav.randomPoint output, source HTML modified only in served response with separate instrumented hash, immutable source unchanged. Default gameplay retains random navigation. Twelve-frame live clock checked; no full-image parity, arbitrary seed/options, long-session or realtime performance claim."
+}

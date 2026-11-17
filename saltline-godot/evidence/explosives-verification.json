@@ -1,0 +1,16 @@
+{
+  "assets": 21,
+  "blasts_tested": 3,
+  "checks": [
+    "all source assets and instance bindings",
+    "damage and arming",
+    "shortened lethal fuse",
+    "detonation and collider removal",
+    "chain reaction",
+    "full reset"
+  ],
+  "failures": [],
+  "original_boxes": 595,
+  "restored_boxes": 595,
+  "scope": "state and physics tested headless; instance visibility verified separately on GPU"
+}

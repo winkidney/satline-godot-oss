@@ -1,0 +1,35 @@
+{
+  "attachments": {
+    "reflection": {
+      "calls": 119,
+      "format": 128
+    },
+    "sun": {
+      "calls": 120,
+      "format": 128
+    },
+    "weapon": {
+      "calls": 240,
+      "format": 128
+    },
+    "world": {
+      "calls": 240,
+      "format": 128
+    }
+  },
+  "engine": {
+    "build": "custom_build",
+    "hash": "unknown",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable.saltline_oblique_source_bias",
+    "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "preview": "planar-preview",
+  "scope": "Actual full scene world/weapon/sun/reflection depth attachment formats duringthe named existing preview. Feature-specific assertions are inits runtime report; this audit doesnot replace them.",
+  "source_depth_24": true
+}

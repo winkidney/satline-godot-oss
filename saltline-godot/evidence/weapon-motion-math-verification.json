@@ -1,0 +1,10 @@
+{
+  "failures": [],
+  "maximum_noise_error": 0.0000000198929228645284,
+  "maximum_position_error": 0.00000000000000599520433297585,
+  "maximum_velocity_error": 0.000000000000135003119794419,
+  "noise_cases": 128,
+  "scope": "Native CPU double math vs literaloriginal JS,criticalthreshold/overrides/impulses/resets;position1e-10 velocity1e-9 noise3e-8; observed libm/JS sine hash difference bounded separately. No full rootmotion/IK or gameplay integration proof.",
+  "steps": 4320,
+  "trajectories": 24
+}

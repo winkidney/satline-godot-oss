@@ -1,0 +1,28 @@
+{
+  "draws": 144,
+  "failures": [],
+  "frames": 215,
+  "samples": [
+    {
+      "frame": 1,
+      "particles": 12,
+      "quads": 12
+    },
+    {
+      "frame": 30,
+      "particles": 12,
+      "quads": 12
+    },
+    {
+      "frame": 90,
+      "particles": 12,
+      "quads": 12
+    },
+    {
+      "frame": 210,
+      "particles": 0,
+      "quads": 0
+    }
+  ],
+  "scope": "Actual Main smoke/puff/lit pool/renderer, three source CSS colors, 12 puffs, seeded tape, fixed 60Hz, AI and gameplay frozen. Screenshots are native runtime evidence, not source pixel parity or measured realtime performance."
+}

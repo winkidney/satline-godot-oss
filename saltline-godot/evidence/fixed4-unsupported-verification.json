@@ -1,0 +1,4 @@
+{
+  "rejected": true,
+  "scope": "Actual GLES compatibility shader compile rejects private hint with explicit capability diagnostic; pixel-control probe is expected to fail for unsupported shader."
+}

@@ -1,0 +1,19 @@
+{
+  "failures": [],
+  "frames": 12,
+  "gpu_texture_hash_checks": 6,
+  "lighting_ready": 7,
+  "materials": 2,
+  "names": [
+    "brick",
+    "concrete"
+  ],
+  "nodes": 7,
+  "prop_names": [],
+  "scope": "Original catalog materials, original mesh geometry/transforms and raw GPU mipchains in actual Main lighting. Full original pixel parity, query filtering and generated option variants remain open.",
+  "shadow_casters": 6,
+  "textures": 6,
+  "vertex_color_mesh_checks": 0,
+  "wet_materials": 2,
+  "wet_override": 1.0
+}

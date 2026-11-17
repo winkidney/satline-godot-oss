@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "artifact_url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "authoritative_sample": "source/saltline.original.html",
+  "sample_origin": "User supplied local download: Saltline (Copy).html",
+  "sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "bytes": 3552524,
+  "remote_content_parity_verified": false,
+  "platform_shell_saved": true,
+  "api_game_retrieval": "Cloudflare security verification; game content not obtained",
+  "local_game_execution": true,
+  "godot_project_execution": true,
+  "gpu_bake": true,
+  "game_screenshots": true,
+  "browser_visit": "Before local source was supplied: security-verification shell only; session closed",
+  "constraint": "User explicitly authorized runtime and selected standalone Godot experiments",
+  "analysis_method": [
+    "source read",
+    "HTML/base64 extraction",
+    "Prettier 3.5.3 formatting",
+    "Babel AST parse, no eval",
+    "official documentation research"
+  ],
+  "original_file_unchanged": true,
+  "target_project_modified": false,
+  "initial_phase": {
+    "method": "static only; runtime deferred at that time"
+  },
+  "current_evidence": "runtime/"
+}

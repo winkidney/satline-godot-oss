@@ -1,0 +1,7 @@
+{
+  "full_mae": 0.002726274566539579,
+  "effect_region_mae": 0.01368296296296296,
+  "ground_mae": 0.001380488703417875,
+  "max": 0.19607843137254904,
+  "scope": "Particle render batches hidden in both with exposure.7/autooff; simulation and point lights retained, debris remains visible. Diagnostic only."
+}

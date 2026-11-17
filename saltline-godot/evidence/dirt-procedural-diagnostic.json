@@ -1,0 +1,198 @@
+{
+  "channels": 4308,
+  "dirt_errors": [
+    {
+      "actual": 115.000000745058,
+      "channel": 0,
+      "expected": 118.0,
+      "x": 297.0,
+      "y": 9.0
+    },
+    {
+      "actual": 87.0000024139881,
+      "channel": 0,
+      "expected": 84.0,
+      "x": 88.0,
+      "y": 18.0
+    },
+    {
+      "actual": 84.000002592802,
+      "channel": 1,
+      "expected": 80.0,
+      "x": 88.0,
+      "y": 18.0
+    },
+    {
+      "actual": 78.0000029504299,
+      "channel": 2,
+      "expected": 75.0,
+      "x": 88.0,
+      "y": 18.0
+    },
+    {
+      "actual": 72.0000033080578,
+      "channel": 0,
+      "expected": 75.0,
+      "x": 110.0,
+      "y": 90.0
+    },
+    {
+      "actual": 69.0000034868717,
+      "channel": 1,
+      "expected": 72.0,
+      "x": 110.0,
+      "y": 90.0
+    },
+    {
+      "actual": 65.0000037252903,
+      "channel": 2,
+      "expected": 68.0,
+      "x": 110.0,
+      "y": 90.0
+    },
+    {
+      "actual": 38.0000015348196,
+      "channel": 0,
+      "expected": 61.0,
+      "x": 121.0,
+      "y": 90.0
+    },
+    {
+      "actual": 36.0000016540289,
+      "channel": 1,
+      "expected": 58.0,
+      "x": 121.0,
+      "y": 90.0
+    },
+    {
+      "actual": 34.0000017732382,
+      "channel": 2,
+      "expected": 55.0,
+      "x": 121.0,
+      "y": 90.0
+    },
+    {
+      "actual": 61.0000001639128,
+      "channel": 0,
+      "expected": 64.0,
+      "x": 110.0,
+      "y": 99.0
+    },
+    {
+      "actual": 20.0000007078052,
+      "channel": 0,
+      "expected": 25.0,
+      "x": 88.0,
+      "y": 162.0
+    },
+    {
+      "actual": 19.0000007674098,
+      "channel": 1,
+      "expected": 24.0,
+      "x": 88.0,
+      "y": 162.0
+    },
+    {
+      "actual": 18.0000008270144,
+      "channel": 2,
+      "expected": 22.0,
+      "x": 88.0,
+      "y": 162.0
+    },
+    {
+      "actual": 121.00000038743,
+      "channel": 0,
+      "expected": 118.0,
+      "x": 220.0,
+      "y": 234.0
+    },
+    {
+      "actual": 116.000000685453,
+      "channel": 1,
+      "expected": 113.0,
+      "x": 220.0,
+      "y": 234.0
+    },
+    {
+      "actual": 109.000001102686,
+      "channel": 2,
+      "expected": 106.0,
+      "x": 220.0,
+      "y": 234.0
+    }
+  ],
+  "dirt_maximum_byte_error": 22.9999984651804,
+  "dirt_samples": 1504,
+  "failures": [
+    "dirt mismatch"
+  ],
+  "levels": [
+    {
+      "failures": 0,
+      "maximum_error": 0.0146160125732386,
+      "pass": "down0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00300407409667969,
+      "pass": "down1"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00278711318969727,
+      "pass": "down2"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00240039825439453,
+      "pass": "down3"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00251197814941406,
+      "pass": "down4"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00335550308227539,
+      "pass": "down5"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00444269180297852,
+      "pass": "up4"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00497913360595703,
+      "pass": "up3"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00497579574584961,
+      "pass": "up2"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00536918640136719,
+      "pass": "up1"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.0137081146240234,
+      "pass": "up0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00157666206359863,
+      "pass": "streak0"
+    },
+    {
+      "failures": 0,
+      "maximum_error": 0.00159621238708496,
+      "pass": "streak1"
+    }
+  ],
+  "maximum_error": 0.0146160125732386,
+  "scope": "Actual original Three Float32 j9/K9/J9 vs native HDR RGBA16F, six down/five up/two streak; nonuniform64x32 HDR gradient and radiance300 point. Tolerance max(.004,.6percent radiance) permits accumulated half-float quantization. Static dirt compared separately against original RGBA8 at 1504 sampled pixels, byte tolerance2.01."
+}

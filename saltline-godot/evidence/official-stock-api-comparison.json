@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-16",
+  "binaries": [
+    {
+      "camera_set_frustum": true,
+      "camera_set_xr_projections": false,
+      "version": {
+        "build": "official",
+        "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+        "hex": 263938,
+        "major": 4,
+        "minor": 7,
+        "patch": 2,
+        "status": "stable",
+        "string": "4.7.2-stable (official)",
+        "timestamp": 0
+      },
+      "viewport_source_raster_y_up": false,
+      "label": "official",
+      "sha256": "8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+      "exit_code": 0
+    },
+    {
+      "camera_set_frustum": true,
+      "camera_set_xr_projections": false,
+      "version": {
+        "build": "custom_build",
+        "hash": "unknown",
+        "hex": 263938,
+        "major": 4,
+        "minor": 7,
+        "patch": 2,
+        "status": "stable.saltline_oblique_source_bias",
+        "string": "4.7.2-stable.saltline_oblique_source_bias (custom_build)",
+        "timestamp": 0
+      },
+      "viewport_source_raster_y_up": true,
+      "label": "custom",
+      "sha256": "bb476c9fd4cbf588904f38de2633b58cf962c3e30225dca8f009bf414bf1e70e",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Actual installed official4.7.2 and project-pinned custom4.7.2 in isolated empty headless projects; ClassDB method presence only. This does not test complete stock project compatibility, shader hints, 4.8 beta, GPU output or equivalence of alternatives.",
+  "initial_custom_probe": "First empty temporary project lacked template global script cache and logged an error; added empty cache, final probe reran clean."
+}

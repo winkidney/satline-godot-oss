@@ -1,0 +1,46 @@
+{
+  "active_enemies": 11,
+  "alive_enemies": 11,
+  "cut": 3,
+  "debrief": {
+    "accuracy": null,
+    "kills": 0,
+    "rating": "Clean",
+    "retries": 0,
+    "time": 11.3500000000001
+  },
+  "events": [
+    {
+      "frame": 145,
+      "id": "relay_a",
+      "index": 1,
+      "total": 3
+    },
+    {
+      "frame": 365,
+      "id": "relay_b",
+      "index": 2,
+      "total": 3
+    },
+    {
+      "frame": 585,
+      "id": "relay_c",
+      "index": 3,
+      "total": 3
+    }
+  ],
+  "frames": 780,
+  "gull_bolts": 24,
+  "muzzle_flashes": 24,
+  "queue": 18,
+  "relay_door_angles": [
+    1.32009963606018,
+    1.32009963606018,
+    1.3191517109441
+  ],
+  "relays": 3,
+  "scope": "native mission relay interactions, real waves/enemies, extraction and relay animation; automated teleport/hold input and invulnerability, full original UI/intro/reset still pending",
+  "state": "complete",
+  "runtime_log_errors": 0,
+  "exit_resource_leaks": 0
+}

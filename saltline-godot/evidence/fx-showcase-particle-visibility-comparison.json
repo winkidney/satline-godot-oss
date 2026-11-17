@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "case": "noparticles",
+      "full_mae": 0.002726274566539579,
+      "effect_region_mae": 0.01368296296296296,
+      "ground_mae": 0.001380488703417875
+    },
+    {
+      "case": "particles-current",
+      "full_mae": 0.0028133283405954975,
+      "effect_region_mae": 0.01528557734204793,
+      "ground_mae": 0.0013880345789109294
+    }
+  ],
+  "scope": "Matched manual exposure.7 and sourceGLES/nativeVulkan, particle visibility A/B; simulation/lights retained. ROI contains boards and debris, not particle-only pixels."
+}

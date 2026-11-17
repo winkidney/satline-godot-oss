@@ -1,0 +1,12 @@
+{
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "original_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb",
+  "instrumented_sha256": "7b00f3bf1dbb5e6dd3a3a0f3ef9c464a1da774d64ecd816b39ed71a2c0e15e93",
+  "changes": [
+    "su metadata counters and parent id; same arithmetic/fork call",
+    "weapon parent state before fork",
+    "raw S before constructor events",
+    "S and RNG just before I5 return"
+  ],
+  "no_simulation_changes_intended": true
+}

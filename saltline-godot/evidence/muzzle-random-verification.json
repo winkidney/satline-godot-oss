@@ -1,0 +1,10 @@
+{
+  "cases": 21,
+  "checks": 13149,
+  "draws": 1812,
+  "failures": [],
+  "maximum_error": 0.0000019073486328125,
+  "methods_sha256": "290c8355d54cefb7bd33aa6b5f7ccc3fbad0848a7084b33efa1a9fb814c414e0",
+  "scope": "Original go/M/_/w/H/u1, emission state only; 3 scales, 7 capacities, repeat saturation then clear; same tape across cases. No motion/pixel proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

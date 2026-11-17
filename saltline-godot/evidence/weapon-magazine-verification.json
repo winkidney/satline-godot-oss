@@ -1,0 +1,12 @@
+{
+  "cases": 4,
+  "failures": [],
+  "lifecycle_channels": 128,
+  "matrix_channels": 20544,
+  "maximum_error": 0.000000290990324798308,
+  "reload_sha256": "e3cb26df295a6439bfff3b1e12d59e0b29b2045f33ed7eac71aefa2113fc0491",
+  "scope": "Literal original reload methods and transform-construction closures, raw exported holds p/q as source inputs. Only hand pose placeholders are mocked; no native result used for expected. Magazine local transforms across dense120Hz/boundaries/root rotations and ge/de reset; not source full IK. Native float32 magazine Transform3D only; production renderer/controller wiring separately verified.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 1284,
+  "tolerance": 0.000002
+}

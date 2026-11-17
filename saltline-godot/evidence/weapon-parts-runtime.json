@@ -1,0 +1,429 @@
+{
+  "failures": [],
+  "frames": 470,
+  "hold_checks": 25,
+  "node_checks": 2820,
+  "scope": "Actual Main/Weapon/Parts/View GPU path: empty pistol sustained hold, empty reload release, rifle yS0 closure and reload full-pull/return; actual pinned node positions. No full source image, hand/magazine trajectory or IK proof.",
+  "snapshots": [
+    {
+      "frame": 50,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.393469340287367,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": false,
+        "slide": 0.0277777777777778,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 0.0166666666666667
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 55,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.0322979302560348,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": false,
+        "slide": 0.036,
+        "stop_pitch": -0.06,
+        "stop_weight": 1.0,
+        "time": 0.1
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 70,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.0000178634804127377,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": false,
+        "slide": 0.036,
+        "stop_pitch": -0.06,
+        "stop_weight": 1.0,
+        "time": 0.35
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 109,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.0000000000000607048906307871,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.036,
+        "stop_pitch": -0.06,
+        "stop_weight": 1.0,
+        "time": 1.0
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 148,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.00000000000000000000020629147632,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.036,
+        "stop_pitch": -0.06,
+        "stop_weight": 1.0,
+        "time": 1.65
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 175,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.02,
+        "barrel_z": 0.0025,
+        "finger": 0.00000000000000000000000000028282,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0274285714285722,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.1
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 177,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.00000000000000000000000000010404,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.13333333333333
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 200,
+      "gun": "pistol",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.51666666666666
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 9.28333333333335
+      }
+    },
+    {
+      "frame": 270,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.393469340287367,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": false,
+        "slide": 0.0391564764846609,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 0.0166666666666667
+      }
+    },
+    {
+      "frame": 280,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0026511755606214,
+        "locked": true,
+        "override": 0.0,
+        "round_visible": false,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 0.183333333333333
+      }
+    },
+    {
+      "frame": 402,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.00000000000000000000000000000854,
+        "locked": true,
+        "override": 0.076411116191624,
+        "round_visible": true,
+        "slide": 0.00473748920388069,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.21666666666666
+      }
+    },
+    {
+      "frame": 408,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.00000000000000000000000000000043,
+        "locked": false,
+        "override": 1.0,
+        "round_visible": true,
+        "slide": 0.062,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.31666666666666
+      }
+    },
+    {
+      "frame": 418,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.619047619047696,
+        "round_visible": true,
+        "slide": 0.0383809523809571,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.48333333333333
+      }
+    },
+    {
+      "frame": 420,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.51666666666666
+      }
+    },
+    {
+      "frame": 460,
+      "gun": "rifle",
+      "pistol": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 2.94999999999999
+      },
+      "rifle": {
+        "barrel_pitch": 0.0,
+        "barrel_z": 0.0,
+        "finger": 0.0,
+        "locked": false,
+        "override": 0.0,
+        "round_visible": true,
+        "slide": 0.0,
+        "stop_pitch": 0.0,
+        "stop_weight": 0.0,
+        "time": 3.18333333333333
+      }
+    }
+  ]
+}

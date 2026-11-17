@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.saltline_oblique_source_bias.custom_build - https://godotengine.org
+
+{"checks":40205,"draws":89,"failures":[],"maximum_error":0.0000000000000035527136788005,"methods_sha256":"d9d9a752ff00d0938171e0b0557174d5b0ff5242351b5d19ae0c49cd0ac6d9d3","scope":"Original Kg methods and quaternion conversion; flat metal floor, ring overwrite, XYZ to ZXY history, clear/reuse, bounce and fade. Includes production matrix construction, no GPU pixels or whole-world collision parity.","source_sha256":"756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8","steps":607}

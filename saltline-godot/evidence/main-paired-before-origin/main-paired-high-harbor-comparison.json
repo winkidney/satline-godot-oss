@@ -1,0 +1,25 @@
+{
+  "regions": {
+    "full": {
+      "rect": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "mae_rgb8": 1.1796976273148148,
+      "p50": 0.0,
+      "p95": 5.0,
+      "p99": 11.0,
+      "max": 115.0,
+      "signed_bias_rgb8": [
+        -0.06964409722222223,
+        -0.05974175347222222,
+        -0.07364149305555556
+      ]
+    }
+  },
+  "source_png_sha256": "32aec38e72cd2d06b63c8ae1519178e4ce8c1e88c66920109de049116b873c2f",
+  "native_png_sha256": "3d061165d9bc760c86c51781252ba31d14445891af071ff1c44d53584b1758f9",
+  "scope": "Descriptive display RGB8 comparison at identical source camera/time and manual exposure1. No acceptance threshold or whole-render parity claim; dynamic grain, rasterization, rain and texture details may differ."
+}

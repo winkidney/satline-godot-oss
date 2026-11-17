@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>Original Saltline compositor GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const ao=await(await fetch('../../artifact-rendering-study/source/shaders/35619-ao.glsl')).text(),sv=await(await fetch('../../artifact-rendering-study/source/shaders/35625-sv.glsl')).text();
+ const tk=(await(await fetch('../../artifact-rendering-study/source/shaders/35891-tk.glsl.template')).text()).replace('${ao}',ao).replace('${sv}',sv);
+ const renderer=new T.WebGLRenderer({antialias:false});renderer.setSize(16,16);document.body.append(renderer.domElement);const world=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));world.add(quad);
+
+
+ const code=(await(await fetch('../../artifact-rendering-study/source/shaders/35844-Q9.glsl.template')).text()).replace('${ao}',ao);
+ const initial=new T.DataTexture(new Float32Array([0,0,0,1]),1,1,T.RGBAFormat,T.FloatType);initial.needsUpdate=true;
+ const depth=new T.DataTexture(new Float32Array([1,0,0,1]),1,1,T.RGBAFormat,T.FloatType);depth.needsUpdate=true;
+ const uniforms={tPrev:{value:initial},tLum:{value:null},tDepth:{value:depth},uSunUv:{value:new T.Vector2(.5,.5)},uSunOn:{value:0},uRate:{value:1},uVisRate:{value:1},uAspect:{value:16/9}};
+ quad.material=new T.ShaderMaterial({uniforms,vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.0,1.0);}',fragmentShader:code,depthTest:false,depthWrite:false});
+ const targets=[0,1].map(()=>new T.WebGLRenderTarget(1,1,{type:T.HalfFloatType,depthBuffer:false,minFilter:T.NearestFilter,magFilter:T.NearestFilter}));const samples=[];const pixels=new Uint16Array(4);
+ for(let index=0;index<180;index++){
+  const value=[.001,.01,.1,1,4,80][Math.floor(index/30)%6],dt=[1/60,1/30,.1][index%3],fast=index%47===0,rate=index<2?1:fast?.6:1-Math.exp(-dt/1.5);
+  const input=new T.DataTexture(new Float32Array([value,value,value,1]),1,1,T.RGBAFormat,T.FloatType);input.needsUpdate=true;uniforms.tLum.value=input;uniforms.uRate.value=rate;const output=targets[index%2];renderer.setRenderTarget(output);renderer.render(world,camera);renderer.readRenderTargetPixels(output,0,0,1,1,pixels);samples.push({frame:index,value,dt,fast,rate,actual:T.DataUtils.fromHalfFloat(pixels[0])});uniforms.tPrev.value=output.texture;
+ }
+
+ const spatial=[];
+ for(let index=0;index<64;index++){
+  const width=20,height=12,input=new Float32Array(width*height*4),depthWidth=128,depthHeight=64,depthInput=new Float32Array(depthWidth*depthHeight*4);
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){const k=(y*width+x)*4;const bright=(index%4===0?x<width/2:index%4===1?x>7&&x<13&&y>3&&y<9:index%4===2?x<4&&y<4:(x+y)%3===0)?(index%7+1)*2:.003;input[k]=bright;input[k+1]=bright*(.15+index%5*.25);input[k+2]=bright*(x+1)/20;input[k+3]=1}
+  for(let y=0;y<depthHeight;y++)for(let x=0;x<depthWidth;x++){const k=(y*depthWidth+x)*4;depthInput[k]=index%3===0?(x<64?1:.3):index%3===1?(y<32?.999995:.99998):((x+y)%2?1:0);depthInput[k+3]=1}
+  const texture=(data,w,h,linear)=>{const t=new T.DataTexture(data,w,h,T.RGBAFormat,T.FloatType);t.minFilter=t.magFilter=linear?T.LinearFilter:T.NearestFilter;t.needsUpdate=true;return t};
+  const previous=[.002+index*.017,(index%5)/4,0,1],rate=[0,1,.6,1-Math.exp(-(1/60)/1.5)][index%4],visRate=[0,1,.1,.7][index%4],sunUv=[[.5,.5],[.499,.51],[-.006,.5],[1.005,.5],[.5,-.002],[.5,1.002],[.25,.3],[.75,.7]][index%8],sunOn=index%7===0?.3:1,aspect=index%2?16/9:4/3;
+  uniforms.tPrev.value=texture(new Float32Array(previous),1,1,false);uniforms.tLum.value=texture(input,width,height,true);uniforms.tDepth.value=texture(depthInput,depthWidth,depthHeight,false);uniforms.uRate.value=rate;uniforms.uVisRate.value=visRate;uniforms.uSunUv.value.set(...sunUv);uniforms.uSunOn.value=sunOn;uniforms.uAspect.value=aspect;
+  renderer.setRenderTarget(targets[0]);renderer.render(world,camera);renderer.readRenderTargetPixels(targets[0],0,0,1,1,pixels);spatial.push({width,height,input:Array.from(input),depthWidth,depthHeight,depthInput:Array.from(depthInput),previous,rate,visRate,sunUv,sunOn,aspect,color:[T.DataUtils.fromHalfFloat(pixels[0]),T.DataUtils.fromHalfFloat(pixels[1])]});
+ }
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {three:T.REVISION,renderer:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),samples,spatial,scope:'Original Q9 and original HalfFloat 1x1 pingpong targets, actual GPU temporal output, dark/bright variable dt and fast .6.'};
+})();</script>

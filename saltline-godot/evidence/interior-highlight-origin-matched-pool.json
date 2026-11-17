@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "phase": "before-origin",
+      "target_source_hdr": [
+        4.62109375,
+        4.5390625,
+        4.10546875
+      ],
+      "target_native_hdr": [
+        4.6015625,
+        4.51953125,
+        4.09375
+      ],
+      "roi": [
+        835,
+        282,
+        878,
+        318
+      ],
+      "roi_hdr_mae": 0.02735964908977709,
+      "roi_display_mae": 3.3290267011197243
+    },
+    {
+      "phase": "source-origin",
+      "target_source_hdr": [
+        4.62109375,
+        4.5390625,
+        4.10546875
+      ],
+      "target_native_hdr": [
+        4.6015625,
+        4.51953125,
+        4.09375
+      ],
+      "roi": [
+        835,
+        282,
+        878,
+        318
+      ],
+      "roi_hdr_mae": 0.022415496171496224,
+      "roi_display_mae": 2.7002583979328167
+    }
+  ],
+  "scope": "Actual matched six transient pool lights and direct-specular wall diagnostic, original RGBA16F/native RGBH canonical rows. Descriptive residual, not ordinary-game history synchronization proof."
+}

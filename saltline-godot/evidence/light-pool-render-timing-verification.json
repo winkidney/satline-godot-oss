@@ -1,0 +1,37 @@
+{
+  "failures": [],
+  "persistent_source_intensity": 42.0,
+  "phases": [
+    {
+      "phase": "four_physics_ticks",
+      "source_intensity": 100.0,
+      "ttl": 1.0,
+      "updates": 0
+    },
+    {
+      "native_energy": 30.2394390106201,
+      "phase": "playing",
+      "render_dt": 0.1,
+      "source_intensity": 95.0,
+      "ttl": 0.95,
+      "updates": 1
+    },
+    {
+      "native_energy": 28.6478900909424,
+      "phase": "paused",
+      "render_dt": 0.1,
+      "source_intensity": 90.0,
+      "ttl": 0.9,
+      "updates": 1
+    },
+    {
+      "native_energy": 28.0112705230713,
+      "phase": "paused",
+      "render_dt": 0.02,
+      "source_intensity": 88.0,
+      "ttl": 0.88,
+      "updates": 1
+    }
+  ],
+  "scope": "Actual Main game_tick vs render_process paths:4 physics ticks do not decay pool;each playing/paused render decays exactlyonce with original .05dt cap;source values andnative /PI remain separate. Persistent energy retained. Not customlocal BRDF or full flashvisual parity."
+}

@@ -1,0 +1,10 @@
+{
+  "cases": 480,
+  "failures": [],
+  "hits": 362,
+  "maximum_error": 0.000402617151848972,
+  "numeric_tolerance": 0.001,
+  "precision_note": "Vector3 inputs are float32; near-parallel axis rays amplify rounding, all hit and part decisions must match",
+  "scope": "Original KS/ZS/Hound _raycast, normalized rays, constrained range and prior nearest hit",
+  "weak": 103
+}

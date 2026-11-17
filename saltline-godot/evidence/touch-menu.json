@@ -1,0 +1,7 @@
+{
+  "failures": [],
+  "frames": 240,
+  "scope": "Actual native GUI via ScreenTouch and Godot emulated mouse: title Settings, Close, Deploy, intro/playing and no leaked fire. Desktop injected events, not physical touchscreen or all settings interactions.",
+  "state": "playing",
+  "touch": true
+}

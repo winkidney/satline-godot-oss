@@ -1,0 +1,4147 @@
+{
+  "backend": "NVIDIA GeForce RTX 4070 SUPER",
+  "cases": [
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "product_x",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "product_x",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 1140732723,
+      "bytes": [
+        51,
+        51,
+        254,
+        67
+      ],
+      "case": "case2_grain",
+      "mode": "product_x",
+      "value": 508.399993896484
+    },
+    {
+      "bits": 1140732723,
+      "bytes": [
+        51,
+        51,
+        254,
+        67
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "product_x",
+      "value": 508.399993896484
+    },
+    {
+      "bits": 3315002982,
+      "bytes": [
+        102,
+        238,
+        150,
+        197
+      ],
+      "case": "case0_grain",
+      "mode": "product_x",
+      "value": -4829.7998046875
+    },
+    {
+      "bits": 1161733734,
+      "bytes": [
+        102,
+        166,
+        62,
+        69
+      ],
+      "case": "case3_grain",
+      "mode": "product_x",
+      "value": 3050.39990234375
+    },
+    {
+      "bits": 3315002982,
+      "bytes": [
+        102,
+        238,
+        150,
+        197
+      ],
+      "case": "case4_grain",
+      "mode": "product_x",
+      "value": -4829.7998046875
+    },
+    {
+      "bits": 3284051558,
+      "bytes": [
+        102,
+        166,
+        190,
+        195
+      ],
+      "case": "case0_lo000",
+      "mode": "product_x",
+      "value": -381.299987792969
+    },
+    {
+      "bits": 3279827763,
+      "bytes": [
+        51,
+        51,
+        126,
+        195
+      ],
+      "case": "case0_lo100",
+      "mode": "product_x",
+      "value": -254.199996948242
+    },
+    {
+      "bits": 3284051558,
+      "bytes": [
+        102,
+        166,
+        190,
+        195
+      ],
+      "case": "case0_lo010",
+      "mode": "product_x",
+      "value": -381.299987792969
+    },
+    {
+      "bits": 3279827763,
+      "bytes": [
+        51,
+        51,
+        126,
+        195
+      ],
+      "case": "case0_lo110",
+      "mode": "product_x",
+      "value": -254.199996948242
+    },
+    {
+      "bits": 3284051558,
+      "bytes": [
+        102,
+        166,
+        190,
+        195
+      ],
+      "case": "case0_lo001",
+      "mode": "product_x",
+      "value": -381.299987792969
+    },
+    {
+      "bits": 3279827763,
+      "bytes": [
+        51,
+        51,
+        126,
+        195
+      ],
+      "case": "case0_lo101",
+      "mode": "product_x",
+      "value": -254.199996948242
+    },
+    {
+      "bits": 3284051558,
+      "bytes": [
+        102,
+        166,
+        190,
+        195
+      ],
+      "case": "case0_lo011",
+      "mode": "product_x",
+      "value": -381.299987792969
+    },
+    {
+      "bits": 3279827763,
+      "bytes": [
+        51,
+        51,
+        126,
+        195
+      ],
+      "case": "case0_lo111",
+      "mode": "product_x",
+      "value": -254.199996948242
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "product_y",
+      "value": 0.0
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "unit_x",
+      "mode": "product_y",
+      "value": 0.0
+    },
+    {
+      "bits": 3310766900,
+      "bytes": [
+        52,
+        75,
+        86,
+        197
+      ],
+      "case": "case2_grain",
+      "mode": "product_y",
+      "value": -3428.7001953125
+    },
+    {
+      "bits": 3310766900,
+      "bytes": [
+        52,
+        75,
+        86,
+        197
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "product_y",
+      "value": -3428.7001953125
+    },
+    {
+      "bits": 3336251905,
+      "bytes": [
+        1,
+        42,
+        219,
+        198
+      ],
+      "case": "case0_grain",
+      "mode": "product_y",
+      "value": -28053.001953125
+    },
+    {
+      "bits": 1175272756,
+      "bytes": [
+        52,
+        61,
+        13,
+        70
+      ],
+      "case": "case3_grain",
+      "mode": "product_y",
+      "value": 9039.30078125
+    },
+    {
+      "bits": 1185416858,
+      "bytes": [
+        154,
+        6,
+        168,
+        70
+      ],
+      "case": "case4_grain",
+      "mode": "product_y",
+      "value": 21507.30078125
+    },
+    {
+      "bits": 3301101568,
+      "bytes": [
+        0,
+        208,
+        194,
+        196
+      ],
+      "case": "case0_lo000",
+      "mode": "product_y",
+      "value": -1558.5
+    },
+    {
+      "bits": 3301101568,
+      "bytes": [
+        0,
+        208,
+        194,
+        196
+      ],
+      "case": "case0_lo100",
+      "mode": "product_y",
+      "value": -1558.5
+    },
+    {
+      "bits": 3298548122,
+      "bytes": [
+        154,
+        217,
+        155,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "product_y",
+      "value": -1246.80004882812
+    },
+    {
+      "bits": 3298548122,
+      "bytes": [
+        154,
+        217,
+        155,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "product_y",
+      "value": -1246.80004882812
+    },
+    {
+      "bits": 3301101568,
+      "bytes": [
+        0,
+        208,
+        194,
+        196
+      ],
+      "case": "case0_lo001",
+      "mode": "product_y",
+      "value": -1558.5
+    },
+    {
+      "bits": 3301101568,
+      "bytes": [
+        0,
+        208,
+        194,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "product_y",
+      "value": -1558.5
+    },
+    {
+      "bits": 3298548122,
+      "bytes": [
+        154,
+        217,
+        155,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "product_y",
+      "value": -1246.80004882812
+    },
+    {
+      "bits": 3298548122,
+      "bytes": [
+        154,
+        217,
+        155,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "product_y",
+      "value": -1246.80004882812
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "product_z",
+      "value": 0.0
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "unit_x",
+      "mode": "product_z",
+      "value": 0.0
+    },
+    {
+      "bits": 3339265280,
+      "bytes": [
+        0,
+        37,
+        9,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "product_z",
+      "value": -35109.0
+    },
+    {
+      "bits": 3339265280,
+      "bytes": [
+        0,
+        37,
+        9,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "product_z",
+      "value": -35109.0
+    },
+    {
+      "bits": 3339705113,
+      "bytes": [
+        25,
+        219,
+        15,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "product_z",
+      "value": -36827.09765625
+    },
+    {
+      "bits": 3339035801,
+      "bytes": [
+        153,
+        164,
+        5,
+        199
+      ],
+      "case": "case3_grain",
+      "mode": "product_z",
+      "value": -34212.59765625
+    },
+    {
+      "bits": 3338806323,
+      "bytes": [
+        51,
+        36,
+        2,
+        199
+      ],
+      "case": "case4_grain",
+      "mode": "product_z",
+      "value": -33316.19921875
+    },
+    {
+      "bits": 3281348198,
+      "bytes": [
+        102,
+        102,
+        149,
+        195
+      ],
+      "case": "case0_lo000",
+      "mode": "product_z",
+      "value": -298.799987792969
+    },
+    {
+      "bits": 3281348198,
+      "bytes": [
+        102,
+        102,
+        149,
+        195
+      ],
+      "case": "case0_lo100",
+      "mode": "product_z",
+      "value": -298.799987792969
+    },
+    {
+      "bits": 3281348198,
+      "bytes": [
+        102,
+        102,
+        149,
+        195
+      ],
+      "case": "case0_lo010",
+      "mode": "product_z",
+      "value": -298.799987792969
+    },
+    {
+      "bits": 3281348198,
+      "bytes": [
+        102,
+        102,
+        149,
+        195
+      ],
+      "case": "case0_lo110",
+      "mode": "product_z",
+      "value": -298.799987792969
+    },
+    {
+      "bits": 3277855129,
+      "bytes": [
+        153,
+        25,
+        96,
+        195
+      ],
+      "case": "case0_lo001",
+      "mode": "product_z",
+      "value": -224.099990844727
+    },
+    {
+      "bits": 3277855129,
+      "bytes": [
+        153,
+        25,
+        96,
+        195
+      ],
+      "case": "case0_lo101",
+      "mode": "product_z",
+      "value": -224.099990844727
+    },
+    {
+      "bits": 3277855129,
+      "bytes": [
+        153,
+        25,
+        96,
+        195
+      ],
+      "case": "case0_lo011",
+      "mode": "product_z",
+      "value": -224.099990844727
+    },
+    {
+      "bits": 3277855129,
+      "bytes": [
+        153,
+        25,
+        96,
+        195
+      ],
+      "case": "case0_lo111",
+      "mode": "product_z",
+      "value": -224.099990844727
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "dot_literal",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "dot_literal",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "dot_literal",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "dot_literal",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3347588851,
+      "bytes": [
+        243,
+        38,
+        136,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "dot_literal",
+      "value": -69709.8984375
+    },
+    {
+      "bits": 3333215691,
+      "bytes": [
+        203,
+        213,
+        172,
+        198
+      ],
+      "case": "case3_grain",
+      "mode": "dot_literal",
+      "value": -22122.896484375
+    },
+    {
+      "bits": 3330407782,
+      "bytes": [
+        102,
+        253,
+        129,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "dot_literal",
+      "value": -16638.69921875
+    },
+    {
+      "bits": 3305892250,
+      "bytes": [
+        154,
+        233,
+        11,
+        197
+      ],
+      "case": "case0_lo000",
+      "mode": "dot_literal",
+      "value": -2238.60009765625
+    },
+    {
+      "bits": 3305371648,
+      "bytes": [
+        0,
+        248,
+        3,
+        197
+      ],
+      "case": "case0_lo100",
+      "mode": "dot_literal",
+      "value": -2111.5
+    },
+    {
+      "bits": 3304119502,
+      "bytes": [
+        206,
+        220,
+        240,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "dot_literal",
+      "value": -1926.90014648438
+    },
+    {
+      "bits": 3303078298,
+      "bytes": [
+        154,
+        249,
+        224,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "dot_literal",
+      "value": -1799.80004882812
+    },
+    {
+      "bits": 3305586279,
+      "bytes": [
+        103,
+        62,
+        7,
+        197
+      ],
+      "case": "case0_lo001",
+      "mode": "dot_literal",
+      "value": -2163.90014648438
+    },
+    {
+      "bits": 3305019801,
+      "bytes": [
+        153,
+        153,
+        254,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "dot_literal",
+      "value": -2036.79992675781
+    },
+    {
+      "bits": 3303507559,
+      "bytes": [
+        103,
+        134,
+        231,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "dot_literal",
+      "value": -1852.20007324219
+    },
+    {
+      "bits": 3302466355,
+      "bytes": [
+        51,
+        163,
+        215,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "dot_literal",
+      "value": -1725.09997558594
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "dot_guarded",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "dot_guarded",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "dot_guarded",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "dot_guarded",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3347588851,
+      "bytes": [
+        243,
+        38,
+        136,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "dot_guarded",
+      "value": -69709.8984375
+    },
+    {
+      "bits": 3333215691,
+      "bytes": [
+        203,
+        213,
+        172,
+        198
+      ],
+      "case": "case3_grain",
+      "mode": "dot_guarded",
+      "value": -22122.896484375
+    },
+    {
+      "bits": 3330407782,
+      "bytes": [
+        102,
+        253,
+        129,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "dot_guarded",
+      "value": -16638.69921875
+    },
+    {
+      "bits": 3305892250,
+      "bytes": [
+        154,
+        233,
+        11,
+        197
+      ],
+      "case": "case0_lo000",
+      "mode": "dot_guarded",
+      "value": -2238.60009765625
+    },
+    {
+      "bits": 3305371648,
+      "bytes": [
+        0,
+        248,
+        3,
+        197
+      ],
+      "case": "case0_lo100",
+      "mode": "dot_guarded",
+      "value": -2111.5
+    },
+    {
+      "bits": 3304119502,
+      "bytes": [
+        206,
+        220,
+        240,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "dot_guarded",
+      "value": -1926.90014648438
+    },
+    {
+      "bits": 3303078298,
+      "bytes": [
+        154,
+        249,
+        224,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "dot_guarded",
+      "value": -1799.80004882812
+    },
+    {
+      "bits": 3305586279,
+      "bytes": [
+        103,
+        62,
+        7,
+        197
+      ],
+      "case": "case0_lo001",
+      "mode": "dot_guarded",
+      "value": -2163.90014648438
+    },
+    {
+      "bits": 3305019801,
+      "bytes": [
+        153,
+        153,
+        254,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "dot_guarded",
+      "value": -2036.79992675781
+    },
+    {
+      "bits": 3303507559,
+      "bytes": [
+        103,
+        134,
+        231,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "dot_guarded",
+      "value": -1852.20007324219
+    },
+    {
+      "bits": 3302466355,
+      "bytes": [
+        51,
+        163,
+        215,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "dot_guarded",
+      "value": -1725.09997558594
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "dot_left",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "dot_left",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "dot_left",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "dot_left",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3347588851,
+      "bytes": [
+        243,
+        38,
+        136,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "dot_left",
+      "value": -69709.8984375
+    },
+    {
+      "bits": 3333215691,
+      "bytes": [
+        203,
+        213,
+        172,
+        198
+      ],
+      "case": "case3_grain",
+      "mode": "dot_left",
+      "value": -22122.896484375
+    },
+    {
+      "bits": 3330407782,
+      "bytes": [
+        102,
+        253,
+        129,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "dot_left",
+      "value": -16638.69921875
+    },
+    {
+      "bits": 3305892250,
+      "bytes": [
+        154,
+        233,
+        11,
+        197
+      ],
+      "case": "case0_lo000",
+      "mode": "dot_left",
+      "value": -2238.60009765625
+    },
+    {
+      "bits": 3305371648,
+      "bytes": [
+        0,
+        248,
+        3,
+        197
+      ],
+      "case": "case0_lo100",
+      "mode": "dot_left",
+      "value": -2111.5
+    },
+    {
+      "bits": 3304119502,
+      "bytes": [
+        206,
+        220,
+        240,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "dot_left",
+      "value": -1926.90014648438
+    },
+    {
+      "bits": 3303078298,
+      "bytes": [
+        154,
+        249,
+        224,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "dot_left",
+      "value": -1799.80004882812
+    },
+    {
+      "bits": 3305586279,
+      "bytes": [
+        103,
+        62,
+        7,
+        197
+      ],
+      "case": "case0_lo001",
+      "mode": "dot_left",
+      "value": -2163.90014648438
+    },
+    {
+      "bits": 3305019801,
+      "bytes": [
+        153,
+        153,
+        254,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "dot_left",
+      "value": -2036.79992675781
+    },
+    {
+      "bits": 3303507559,
+      "bytes": [
+        103,
+        134,
+        231,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "dot_left",
+      "value": -1852.20007324219
+    },
+    {
+      "bits": 3302466355,
+      "bytes": [
+        51,
+        163,
+        215,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "dot_left",
+      "value": -1725.09997558594
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "dot_right",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "dot_right",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "dot_right",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3340012877,
+      "bytes": [
+        77,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "dot_right",
+      "value": -38029.30078125
+    },
+    {
+      "bits": 3347588851,
+      "bytes": [
+        243,
+        38,
+        136,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "dot_right",
+      "value": -69709.8984375
+    },
+    {
+      "bits": 3333215691,
+      "bytes": [
+        203,
+        213,
+        172,
+        198
+      ],
+      "case": "case3_grain",
+      "mode": "dot_right",
+      "value": -22122.896484375
+    },
+    {
+      "bits": 3330407782,
+      "bytes": [
+        102,
+        253,
+        129,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "dot_right",
+      "value": -16638.69921875
+    },
+    {
+      "bits": 3305892250,
+      "bytes": [
+        154,
+        233,
+        11,
+        197
+      ],
+      "case": "case0_lo000",
+      "mode": "dot_right",
+      "value": -2238.60009765625
+    },
+    {
+      "bits": 3305371648,
+      "bytes": [
+        0,
+        248,
+        3,
+        197
+      ],
+      "case": "case0_lo100",
+      "mode": "dot_right",
+      "value": -2111.5
+    },
+    {
+      "bits": 3304119502,
+      "bytes": [
+        206,
+        220,
+        240,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "dot_right",
+      "value": -1926.90014648438
+    },
+    {
+      "bits": 3303078298,
+      "bytes": [
+        154,
+        249,
+        224,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "dot_right",
+      "value": -1799.80004882812
+    },
+    {
+      "bits": 3305586278,
+      "bytes": [
+        102,
+        62,
+        7,
+        197
+      ],
+      "case": "case0_lo001",
+      "mode": "dot_right",
+      "value": -2163.89990234375
+    },
+    {
+      "bits": 3305019801,
+      "bytes": [
+        153,
+        153,
+        254,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "dot_right",
+      "value": -2036.79992675781
+    },
+    {
+      "bits": 3303507558,
+      "bytes": [
+        102,
+        134,
+        231,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "dot_right",
+      "value": -1852.19995117188
+    },
+    {
+      "bits": 3302466355,
+      "bytes": [
+        51,
+        163,
+        215,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "dot_right",
+      "value": -1725.09997558594
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "sin_literal_dot",
+      "value": 0.0
+    },
+    {
+      "bits": 1065201667,
+      "bytes": [
+        3,
+        176,
+        125,
+        63
+      ],
+      "case": "unit_x",
+      "mode": "sin_literal_dot",
+      "value": 0.990966975688934
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "sin_literal_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "sin_literal_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1063468123,
+      "bytes": [
+        91,
+        60,
+        99,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "sin_literal_dot",
+      "value": 0.887639701366425
+    },
+    {
+      "bits": 1045193823,
+      "bytes": [
+        95,
+        100,
+        76,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "sin_literal_dot",
+      "value": 0.199601635336876
+    },
+    {
+      "bits": 3208369048,
+      "bytes": [
+        152,
+        211,
+        59,
+        191
+      ],
+      "case": "case4_grain",
+      "mode": "sin_literal_dot",
+      "value": -0.733697414398193
+    },
+    {
+      "bits": 3212450088,
+      "bytes": [
+        40,
+        25,
+        122,
+        191
+      ],
+      "case": "case0_lo000",
+      "mode": "sin_literal_dot",
+      "value": -0.976946353912354
+    },
+    {
+      "bits": 3199162783,
+      "bytes": [
+        159,
+        89,
+        175,
+        190
+      ],
+      "case": "case0_lo100",
+      "mode": "sin_literal_dot",
+      "value": -0.342480629682541
+    },
+    {
+      "bits": 1063556027,
+      "bytes": [
+        187,
+        147,
+        100,
+        63
+      ],
+      "case": "case0_lo010",
+      "mode": "sin_literal_dot",
+      "value": 0.89287918806076
+    },
+    {
+      "bits": 3198629212,
+      "bytes": [
+        92,
+        53,
+        167,
+        190
+      ],
+      "case": "case0_lo110",
+      "mode": "sin_literal_dot",
+      "value": -0.326578974723816
+    },
+    {
+      "bits": 3206310358,
+      "bytes": [
+        214,
+        105,
+        28,
+        191
+      ],
+      "case": "case0_lo001",
+      "mode": "sin_literal_dot",
+      "value": -0.610989928245544
+    },
+    {
+      "bits": 3210593430,
+      "bytes": [
+        150,
+        196,
+        93,
+        191
+      ],
+      "case": "case0_lo101",
+      "mode": "sin_literal_dot",
+      "value": -0.866280913352966
+    },
+    {
+      "bits": 1064907364,
+      "bytes": [
+        100,
+        50,
+        121,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "sin_literal_dot",
+      "value": 0.973425149917603
+    },
+    {
+      "bits": 1052179379,
+      "bytes": [
+        179,
+        251,
+        182,
+        62
+      ],
+      "case": "case0_lo111",
+      "mode": "sin_literal_dot",
+      "value": 0.357389062643051
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "sin_guarded_dot",
+      "value": 0.0
+    },
+    {
+      "bits": 1065201667,
+      "bytes": [
+        3,
+        176,
+        125,
+        63
+      ],
+      "case": "unit_x",
+      "mode": "sin_guarded_dot",
+      "value": 0.990966975688934
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "sin_guarded_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "sin_guarded_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1063468123,
+      "bytes": [
+        91,
+        60,
+        99,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "sin_guarded_dot",
+      "value": 0.887639701366425
+    },
+    {
+      "bits": 1045193823,
+      "bytes": [
+        95,
+        100,
+        76,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "sin_guarded_dot",
+      "value": 0.199601635336876
+    },
+    {
+      "bits": 3208369048,
+      "bytes": [
+        152,
+        211,
+        59,
+        191
+      ],
+      "case": "case4_grain",
+      "mode": "sin_guarded_dot",
+      "value": -0.733697414398193
+    },
+    {
+      "bits": 3212450088,
+      "bytes": [
+        40,
+        25,
+        122,
+        191
+      ],
+      "case": "case0_lo000",
+      "mode": "sin_guarded_dot",
+      "value": -0.976946353912354
+    },
+    {
+      "bits": 3199162783,
+      "bytes": [
+        159,
+        89,
+        175,
+        190
+      ],
+      "case": "case0_lo100",
+      "mode": "sin_guarded_dot",
+      "value": -0.342480629682541
+    },
+    {
+      "bits": 1063556027,
+      "bytes": [
+        187,
+        147,
+        100,
+        63
+      ],
+      "case": "case0_lo010",
+      "mode": "sin_guarded_dot",
+      "value": 0.89287918806076
+    },
+    {
+      "bits": 3198629212,
+      "bytes": [
+        92,
+        53,
+        167,
+        190
+      ],
+      "case": "case0_lo110",
+      "mode": "sin_guarded_dot",
+      "value": -0.326578974723816
+    },
+    {
+      "bits": 3206310358,
+      "bytes": [
+        214,
+        105,
+        28,
+        191
+      ],
+      "case": "case0_lo001",
+      "mode": "sin_guarded_dot",
+      "value": -0.610989928245544
+    },
+    {
+      "bits": 3210593430,
+      "bytes": [
+        150,
+        196,
+        93,
+        191
+      ],
+      "case": "case0_lo101",
+      "mode": "sin_guarded_dot",
+      "value": -0.866280913352966
+    },
+    {
+      "bits": 1064907364,
+      "bytes": [
+        100,
+        50,
+        121,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "sin_guarded_dot",
+      "value": 0.973425149917603
+    },
+    {
+      "bits": 1052179379,
+      "bytes": [
+        179,
+        251,
+        182,
+        62
+      ],
+      "case": "case0_lo111",
+      "mode": "sin_guarded_dot",
+      "value": 0.357389062643051
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "sin_left_dot",
+      "value": 0.0
+    },
+    {
+      "bits": 1065201667,
+      "bytes": [
+        3,
+        176,
+        125,
+        63
+      ],
+      "case": "unit_x",
+      "mode": "sin_left_dot",
+      "value": 0.990966975688934
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "sin_left_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "sin_left_dot",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1063468123,
+      "bytes": [
+        91,
+        60,
+        99,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "sin_left_dot",
+      "value": 0.887639701366425
+    },
+    {
+      "bits": 1045193823,
+      "bytes": [
+        95,
+        100,
+        76,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "sin_left_dot",
+      "value": 0.199601635336876
+    },
+    {
+      "bits": 3208369048,
+      "bytes": [
+        152,
+        211,
+        59,
+        191
+      ],
+      "case": "case4_grain",
+      "mode": "sin_left_dot",
+      "value": -0.733697414398193
+    },
+    {
+      "bits": 3212450088,
+      "bytes": [
+        40,
+        25,
+        122,
+        191
+      ],
+      "case": "case0_lo000",
+      "mode": "sin_left_dot",
+      "value": -0.976946353912354
+    },
+    {
+      "bits": 3199162783,
+      "bytes": [
+        159,
+        89,
+        175,
+        190
+      ],
+      "case": "case0_lo100",
+      "mode": "sin_left_dot",
+      "value": -0.342480629682541
+    },
+    {
+      "bits": 1063556027,
+      "bytes": [
+        187,
+        147,
+        100,
+        63
+      ],
+      "case": "case0_lo010",
+      "mode": "sin_left_dot",
+      "value": 0.89287918806076
+    },
+    {
+      "bits": 3198629212,
+      "bytes": [
+        92,
+        53,
+        167,
+        190
+      ],
+      "case": "case0_lo110",
+      "mode": "sin_left_dot",
+      "value": -0.326578974723816
+    },
+    {
+      "bits": 3206310358,
+      "bytes": [
+        214,
+        105,
+        28,
+        191
+      ],
+      "case": "case0_lo001",
+      "mode": "sin_left_dot",
+      "value": -0.610989928245544
+    },
+    {
+      "bits": 3210593430,
+      "bytes": [
+        150,
+        196,
+        93,
+        191
+      ],
+      "case": "case0_lo101",
+      "mode": "sin_left_dot",
+      "value": -0.866280913352966
+    },
+    {
+      "bits": 1064907364,
+      "bytes": [
+        100,
+        50,
+        121,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "sin_left_dot",
+      "value": 0.973425149917603
+    },
+    {
+      "bits": 1052179379,
+      "bytes": [
+        179,
+        251,
+        182,
+        62
+      ],
+      "case": "case0_lo111",
+      "mode": "sin_left_dot",
+      "value": 0.357389062643051
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "sin_uniform",
+      "value": 0.0
+    },
+    {
+      "bits": 1065201667,
+      "bytes": [
+        3,
+        176,
+        125,
+        63
+      ],
+      "case": "unit_x",
+      "mode": "sin_uniform",
+      "value": 0.990966975688934
+    },
+    {
+      "bits": 1050712805,
+      "bytes": [
+        229,
+        154,
+        160,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "sin_uniform",
+      "value": 0.313681751489639
+    },
+    {
+      "bits": 1050615005,
+      "bytes": [
+        221,
+        28,
+        159,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "sin_uniform",
+      "value": 0.310767084360123
+    },
+    {
+      "bits": 1063468123,
+      "bytes": [
+        91,
+        60,
+        99,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "sin_uniform",
+      "value": 0.887639701366425
+    },
+    {
+      "bits": 1045193823,
+      "bytes": [
+        95,
+        100,
+        76,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "sin_uniform",
+      "value": 0.199601635336876
+    },
+    {
+      "bits": 3208369048,
+      "bytes": [
+        152,
+        211,
+        59,
+        191
+      ],
+      "case": "case4_grain",
+      "mode": "sin_uniform",
+      "value": -0.733697414398193
+    },
+    {
+      "bits": 3212450088,
+      "bytes": [
+        40,
+        25,
+        122,
+        191
+      ],
+      "case": "case0_lo000",
+      "mode": "sin_uniform",
+      "value": -0.976946353912354
+    },
+    {
+      "bits": 3199162783,
+      "bytes": [
+        159,
+        89,
+        175,
+        190
+      ],
+      "case": "case0_lo100",
+      "mode": "sin_uniform",
+      "value": -0.342480629682541
+    },
+    {
+      "bits": 1063554578,
+      "bytes": [
+        18,
+        142,
+        100,
+        63
+      ],
+      "case": "case0_lo010",
+      "mode": "sin_uniform",
+      "value": 0.892792820930481
+    },
+    {
+      "bits": 3198629212,
+      "bytes": [
+        92,
+        53,
+        167,
+        190
+      ],
+      "case": "case0_lo110",
+      "mode": "sin_uniform",
+      "value": -0.326578974723816
+    },
+    {
+      "bits": 3206310358,
+      "bytes": [
+        214,
+        105,
+        28,
+        191
+      ],
+      "case": "case0_lo001",
+      "mode": "sin_uniform",
+      "value": -0.610989928245544
+    },
+    {
+      "bits": 3210595037,
+      "bytes": [
+        221,
+        202,
+        93,
+        191
+      ],
+      "case": "case0_lo101",
+      "mode": "sin_uniform",
+      "value": -0.86637669801712
+    },
+    {
+      "bits": 1064907364,
+      "bytes": [
+        100,
+        50,
+        121,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "sin_uniform",
+      "value": 0.973425149917603
+    },
+    {
+      "bits": 1052179379,
+      "bytes": [
+        179,
+        251,
+        182,
+        62
+      ],
+      "case": "case0_lo111",
+      "mode": "sin_uniform",
+      "value": 0.357389062643051
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "product_literal",
+      "value": 0.0
+    },
+    {
+      "bits": 1193894726,
+      "bytes": [
+        70,
+        99,
+        41,
+        71
+      ],
+      "case": "unit_x",
+      "mode": "product_literal",
+      "value": 43363.2734375
+    },
+    {
+      "bits": 1180072200,
+      "bytes": [
+        8,
+        121,
+        86,
+        70
+      ],
+      "case": "case2_grain",
+      "mode": "product_literal",
+      "value": 13726.2578125
+    },
+    {
+      "bits": 1180072200,
+      "bytes": [
+        8,
+        121,
+        86,
+        70
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "product_literal",
+      "value": 13726.2578125
+    },
+    {
+      "bits": 1192737235,
+      "bytes": [
+        211,
+        185,
+        23,
+        71
+      ],
+      "case": "case0_grain",
+      "mode": "product_literal",
+      "value": 38841.82421875
+    },
+    {
+      "bits": 1174960412,
+      "bytes": [
+        28,
+        121,
+        8,
+        70
+      ],
+      "case": "case3_grain",
+      "mode": "product_literal",
+      "value": 8734.27734375
+    },
+    {
+      "bits": 3338326801,
+      "bytes": [
+        17,
+        211,
+        250,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "product_literal",
+      "value": -32105.533203125
+    },
+    {
+      "bits": 3341221313,
+      "bytes": [
+        193,
+        253,
+        38,
+        199
+      ],
+      "case": "case0_lo000",
+      "mode": "product_literal",
+      "value": -42749.75390625
+    },
+    {
+      "bits": 3328846290,
+      "bytes": [
+        210,
+        41,
+        106,
+        198
+      ],
+      "case": "case0_lo100",
+      "mode": "product_literal",
+      "value": -14986.455078125
+    },
+    {
+      "bits": 1192795929,
+      "bytes": [
+        25,
+        159,
+        24,
+        71
+      ],
+      "case": "case0_lo010",
+      "mode": "product_literal",
+      "value": 39071.09765625
+    },
+    {
+      "bits": 3328133756,
+      "bytes": [
+        124,
+        74,
+        95,
+        198
+      ],
+      "case": "case0_lo110",
+      "mode": "product_literal",
+      "value": -14290.62109375
+    },
+    {
+      "bits": 3335577616,
+      "bytes": [
+        16,
+        224,
+        208,
+        198
+      ],
+      "case": "case0_lo001",
+      "mode": "product_literal",
+      "value": -26736.03125
+    },
+    {
+      "bits": 3339981618,
+      "bytes": [
+        50,
+        19,
+        20,
+        199
+      ],
+      "case": "case0_lo101",
+      "mode": "product_literal",
+      "value": -37907.1953125
+    },
+    {
+      "bits": 1193698220,
+      "bytes": [
+        172,
+        99,
+        38,
+        71
+      ],
+      "case": "case0_lo011",
+      "mode": "product_literal",
+      "value": 42595.671875
+    },
+    {
+      "bits": 1182030670,
+      "bytes": [
+        78,
+        91,
+        116,
+        70
+      ],
+      "case": "case0_lo111",
+      "mode": "product_literal",
+      "value": 15638.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "product_fullguard",
+      "value": 0.0
+    },
+    {
+      "bits": 1193894726,
+      "bytes": [
+        70,
+        99,
+        41,
+        71
+      ],
+      "case": "unit_x",
+      "mode": "product_fullguard",
+      "value": 43363.2734375
+    },
+    {
+      "bits": 1180072200,
+      "bytes": [
+        8,
+        121,
+        86,
+        70
+      ],
+      "case": "case2_grain",
+      "mode": "product_fullguard",
+      "value": 13726.2578125
+    },
+    {
+      "bits": 1180072200,
+      "bytes": [
+        8,
+        121,
+        86,
+        70
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "product_fullguard",
+      "value": 13726.2578125
+    },
+    {
+      "bits": 1192737235,
+      "bytes": [
+        211,
+        185,
+        23,
+        71
+      ],
+      "case": "case0_grain",
+      "mode": "product_fullguard",
+      "value": 38841.82421875
+    },
+    {
+      "bits": 1174960412,
+      "bytes": [
+        28,
+        121,
+        8,
+        70
+      ],
+      "case": "case3_grain",
+      "mode": "product_fullguard",
+      "value": 8734.27734375
+    },
+    {
+      "bits": 3338326801,
+      "bytes": [
+        17,
+        211,
+        250,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "product_fullguard",
+      "value": -32105.533203125
+    },
+    {
+      "bits": 3341221313,
+      "bytes": [
+        193,
+        253,
+        38,
+        199
+      ],
+      "case": "case0_lo000",
+      "mode": "product_fullguard",
+      "value": -42749.75390625
+    },
+    {
+      "bits": 3328846290,
+      "bytes": [
+        210,
+        41,
+        106,
+        198
+      ],
+      "case": "case0_lo100",
+      "mode": "product_fullguard",
+      "value": -14986.455078125
+    },
+    {
+      "bits": 1192795929,
+      "bytes": [
+        25,
+        159,
+        24,
+        71
+      ],
+      "case": "case0_lo010",
+      "mode": "product_fullguard",
+      "value": 39071.09765625
+    },
+    {
+      "bits": 3328133756,
+      "bytes": [
+        124,
+        74,
+        95,
+        198
+      ],
+      "case": "case0_lo110",
+      "mode": "product_fullguard",
+      "value": -14290.62109375
+    },
+    {
+      "bits": 3335577616,
+      "bytes": [
+        16,
+        224,
+        208,
+        198
+      ],
+      "case": "case0_lo001",
+      "mode": "product_fullguard",
+      "value": -26736.03125
+    },
+    {
+      "bits": 3339981618,
+      "bytes": [
+        50,
+        19,
+        20,
+        199
+      ],
+      "case": "case0_lo101",
+      "mode": "product_fullguard",
+      "value": -37907.1953125
+    },
+    {
+      "bits": 1193698220,
+      "bytes": [
+        172,
+        99,
+        38,
+        71
+      ],
+      "case": "case0_lo011",
+      "mode": "product_fullguard",
+      "value": 42595.671875
+    },
+    {
+      "bits": 1182030670,
+      "bytes": [
+        78,
+        91,
+        116,
+        70
+      ],
+      "case": "case0_lo111",
+      "mode": "product_fullguard",
+      "value": 15638.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_literal",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_literal",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "hash_literal",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_literal",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_literal",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1049493504,
+      "bytes": [
+        0,
+        0,
+        142,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_literal",
+      "value": 0.27734375
+    },
+    {
+      "bits": 1055850496,
+      "bytes": [
+        0,
+        0,
+        239,
+        62
+      ],
+      "case": "case4_grain",
+      "mode": "hash_literal",
+      "value": 0.466796875
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_literal",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_literal",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1036517376,
+      "bytes": [
+        0,
+        0,
+        200,
+        61
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_literal",
+      "value": 0.09765625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_literal",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1064828928,
+      "bytes": [
+        0,
+        0,
+        120,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_literal",
+      "value": 0.96875
+    },
+    {
+      "bits": 1062076416,
+      "bytes": [
+        0,
+        0,
+        78,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_literal",
+      "value": 0.8046875
+    },
+    {
+      "bits": 1059848192,
+      "bytes": [
+        0,
+        0,
+        44,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_literal",
+      "value": 0.671875
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_literal",
+      "value": 0.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_fullguard",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_fullguard",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "hash_fullguard",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_fullguard",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_fullguard",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1049493504,
+      "bytes": [
+        0,
+        0,
+        142,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_fullguard",
+      "value": 0.27734375
+    },
+    {
+      "bits": 1055850496,
+      "bytes": [
+        0,
+        0,
+        239,
+        62
+      ],
+      "case": "case4_grain",
+      "mode": "hash_fullguard",
+      "value": 0.466796875
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_fullguard",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_fullguard",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1036517376,
+      "bytes": [
+        0,
+        0,
+        200,
+        61
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_fullguard",
+      "value": 0.09765625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_fullguard",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1064828928,
+      "bytes": [
+        0,
+        0,
+        120,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_fullguard",
+      "value": 0.96875
+    },
+    {
+      "bits": 1062076416,
+      "bytes": [
+        0,
+        0,
+        78,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_fullguard",
+      "value": 0.8046875
+    },
+    {
+      "bits": 1059848192,
+      "bytes": [
+        0,
+        0,
+        44,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_fullguard",
+      "value": 0.671875
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_fullguard",
+      "value": 0.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_left",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_left",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "hash_left",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_left",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_left",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1049493504,
+      "bytes": [
+        0,
+        0,
+        142,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_left",
+      "value": 0.27734375
+    },
+    {
+      "bits": 1055850496,
+      "bytes": [
+        0,
+        0,
+        239,
+        62
+      ],
+      "case": "case4_grain",
+      "mode": "hash_left",
+      "value": 0.466796875
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_left",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_left",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1036517376,
+      "bytes": [
+        0,
+        0,
+        200,
+        61
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_left",
+      "value": 0.09765625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_left",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1064828928,
+      "bytes": [
+        0,
+        0,
+        120,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_left",
+      "value": 0.96875
+    },
+    {
+      "bits": 1062076416,
+      "bytes": [
+        0,
+        0,
+        78,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_left",
+      "value": 0.8046875
+    },
+    {
+      "bits": 1059848192,
+      "bytes": [
+        0,
+        0,
+        44,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_left",
+      "value": 0.671875
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_left",
+      "value": 0.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_right",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_right",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "hash_right",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_right",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_right",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1049493504,
+      "bytes": [
+        0,
+        0,
+        142,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_right",
+      "value": 0.27734375
+    },
+    {
+      "bits": 1055850496,
+      "bytes": [
+        0,
+        0,
+        239,
+        62
+      ],
+      "case": "case4_grain",
+      "mode": "hash_right",
+      "value": 0.466796875
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_right",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_right",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1036517376,
+      "bytes": [
+        0,
+        0,
+        200,
+        61
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_right",
+      "value": 0.09765625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_right",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1060110336,
+      "bytes": [
+        0,
+        0,
+        48,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_right",
+      "value": 0.6875
+    },
+    {
+      "bits": 1062076416,
+      "bytes": [
+        0,
+        0,
+        78,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_right",
+      "value": 0.8046875
+    },
+    {
+      "bits": 1058537472,
+      "bytes": [
+        0,
+        0,
+        24,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_right",
+      "value": 0.59375
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_right",
+      "value": 0.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_uniform_sin",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_uniform_sin",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1048838144,
+      "bytes": [
+        0,
+        0,
+        132,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "hash_uniform_sin",
+      "value": 0.2578125
+    },
+    {
+      "bits": 1060585472,
+      "bytes": [
+        0,
+        64,
+        55,
+        63
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_uniform_sin",
+      "value": 0.7158203125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_uniform_sin",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1049493504,
+      "bytes": [
+        0,
+        0,
+        142,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_uniform_sin",
+      "value": 0.27734375
+    },
+    {
+      "bits": 1055850496,
+      "bytes": [
+        0,
+        0,
+        239,
+        62
+      ],
+      "case": "case4_grain",
+      "mode": "hash_uniform_sin",
+      "value": 0.466796875
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_uniform_sin",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_uniform_sin",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1050804224,
+      "bytes": [
+        0,
+        0,
+        162,
+        62
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_uniform_sin",
+      "value": 0.31640625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_uniform_sin",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1064828928,
+      "bytes": [
+        0,
+        0,
+        120,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_uniform_sin",
+      "value": 0.96875
+    },
+    {
+      "bits": 1058865152,
+      "bytes": [
+        0,
+        0,
+        29,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_uniform_sin",
+      "value": 0.61328125
+    },
+    {
+      "bits": 1059848192,
+      "bytes": [
+        0,
+        0,
+        44,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_uniform_sin",
+      "value": 0.671875
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_uniform_sin",
+      "value": 0.826171875
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "cycles_after_dot",
+      "value": 0.0
+    },
+    {
+      "bits": 1101124648,
+      "bytes": [
+        40,
+        212,
+        161,
+        65
+      ],
+      "case": "unit_x",
+      "mode": "cycles_after_dot",
+      "value": 20.2285919189453
+    },
+    {
+      "bits": 3317507176,
+      "bytes": [
+        104,
+        36,
+        189,
+        197
+      ],
+      "case": "case2_grain",
+      "mode": "cycles_after_dot",
+      "value": -6052.55078125
+    },
+    {
+      "bits": 3317507176,
+      "bytes": [
+        104,
+        36,
+        189,
+        197
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "cycles_after_dot",
+      "value": -6052.55078125
+    },
+    {
+      "bits": 3324861107,
+      "bytes": [
+        179,
+        90,
+        45,
+        198
+      ],
+      "case": "case0_grain",
+      "mode": "cycles_after_dot",
+      "value": -11094.6748046875
+    },
+    {
+      "bits": 3311144830,
+      "bytes": [
+        126,
+        15,
+        92,
+        197
+      ],
+      "case": "case3_grain",
+      "mode": "cycles_after_dot",
+      "value": -3520.96826171875
+    },
+    {
+      "bits": 3307569689,
+      "bytes": [
+        25,
+        130,
+        37,
+        197
+      ],
+      "case": "case4_grain",
+      "mode": "cycles_after_dot",
+      "value": -2648.13110351562
+    },
+    {
+      "bits": 3283231843,
+      "bytes": [
+        99,
+        36,
+        178,
+        195
+      ],
+      "case": "case0_lo000",
+      "mode": "cycles_after_dot",
+      "value": -356.284271240234
+    },
+    {
+      "bits": 3282568991,
+      "bytes": [
+        31,
+        7,
+        168,
+        195
+      ],
+      "case": "case0_lo100",
+      "mode": "cycles_after_dot",
+      "value": -336.055633544922
+    },
+    {
+      "bits": 3281606268,
+      "bytes": [
+        124,
+        86,
+        153,
+        195
+      ],
+      "case": "case0_lo010",
+      "mode": "cycles_after_dot",
+      "value": -306.675659179688
+    },
+    {
+      "bits": 3280943417,
+      "bytes": [
+        57,
+        57,
+        143,
+        195
+      ],
+      "case": "case0_lo110",
+      "mode": "cycles_after_dot",
+      "value": -286.447052001953
+    },
+    {
+      "bits": 3282842268,
+      "bytes": [
+        156,
+        50,
+        172,
+        195
+      ],
+      "case": "case0_lo001",
+      "mode": "cycles_after_dot",
+      "value": -344.395385742188
+    },
+    {
+      "bits": 3282179417,
+      "bytes": [
+        89,
+        21,
+        162,
+        195
+      ],
+      "case": "case0_lo101",
+      "mode": "cycles_after_dot",
+      "value": -324.166778564453
+    },
+    {
+      "bits": 3281216693,
+      "bytes": [
+        181,
+        100,
+        147,
+        195
+      ],
+      "case": "case0_lo011",
+      "mode": "cycles_after_dot",
+      "value": -294.786773681641
+    },
+    {
+      "bits": 3280553842,
+      "bytes": [
+        114,
+        71,
+        137,
+        195
+      ],
+      "case": "case0_lo111",
+      "mode": "cycles_after_dot",
+      "value": -274.558166503906
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "cycles_scaled_dot",
+      "value": 0.0
+    },
+    {
+      "bits": 1101124648,
+      "bytes": [
+        40,
+        212,
+        161,
+        65
+      ],
+      "case": "unit_x",
+      "mode": "cycles_scaled_dot",
+      "value": 20.2285919189453
+    },
+    {
+      "bits": 3317507176,
+      "bytes": [
+        104,
+        36,
+        189,
+        197
+      ],
+      "case": "case2_grain",
+      "mode": "cycles_scaled_dot",
+      "value": -6052.55078125
+    },
+    {
+      "bits": 3317507176,
+      "bytes": [
+        104,
+        36,
+        189,
+        197
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "cycles_scaled_dot",
+      "value": -6052.55078125
+    },
+    {
+      "bits": 3324861107,
+      "bytes": [
+        179,
+        90,
+        45,
+        198
+      ],
+      "case": "case0_grain",
+      "mode": "cycles_scaled_dot",
+      "value": -11094.6748046875
+    },
+    {
+      "bits": 3311144830,
+      "bytes": [
+        126,
+        15,
+        92,
+        197
+      ],
+      "case": "case3_grain",
+      "mode": "cycles_scaled_dot",
+      "value": -3520.96826171875
+    },
+    {
+      "bits": 3307569688,
+      "bytes": [
+        24,
+        130,
+        37,
+        197
+      ],
+      "case": "case4_grain",
+      "mode": "cycles_scaled_dot",
+      "value": -2648.130859375
+    },
+    {
+      "bits": 3283231842,
+      "bytes": [
+        98,
+        36,
+        178,
+        195
+      ],
+      "case": "case0_lo000",
+      "mode": "cycles_scaled_dot",
+      "value": -356.284240722656
+    },
+    {
+      "bits": 3282568992,
+      "bytes": [
+        32,
+        7,
+        168,
+        195
+      ],
+      "case": "case0_lo100",
+      "mode": "cycles_scaled_dot",
+      "value": -336.0556640625
+    },
+    {
+      "bits": 3281606268,
+      "bytes": [
+        124,
+        86,
+        153,
+        195
+      ],
+      "case": "case0_lo010",
+      "mode": "cycles_scaled_dot",
+      "value": -306.675659179688
+    },
+    {
+      "bits": 3280943417,
+      "bytes": [
+        57,
+        57,
+        143,
+        195
+      ],
+      "case": "case0_lo110",
+      "mode": "cycles_scaled_dot",
+      "value": -286.447052001953
+    },
+    {
+      "bits": 3282842268,
+      "bytes": [
+        156,
+        50,
+        172,
+        195
+      ],
+      "case": "case0_lo001",
+      "mode": "cycles_scaled_dot",
+      "value": -344.395385742188
+    },
+    {
+      "bits": 3282179418,
+      "bytes": [
+        90,
+        21,
+        162,
+        195
+      ],
+      "case": "case0_lo101",
+      "mode": "cycles_scaled_dot",
+      "value": -324.166809082031
+    },
+    {
+      "bits": 3281216694,
+      "bytes": [
+        182,
+        100,
+        147,
+        195
+      ],
+      "case": "case0_lo011",
+      "mode": "cycles_scaled_dot",
+      "value": -294.786804199219
+    },
+    {
+      "bits": 3280553843,
+      "bytes": [
+        115,
+        71,
+        137,
+        195
+      ],
+      "case": "case0_lo111",
+      "mode": "cycles_scaled_dot",
+      "value": -274.558197021484
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "dot_fma_xyz",
+      "value": 0.0
+    },
+    {
+      "bits": 1123955507,
+      "bytes": [
+        51,
+        51,
+        254,
+        66
+      ],
+      "case": "unit_x",
+      "mode": "dot_fma_xyz",
+      "value": 127.099998474121
+    },
+    {
+      "bits": 3340012876,
+      "bytes": [
+        76,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_grain",
+      "mode": "dot_fma_xyz",
+      "value": -38029.296875
+    },
+    {
+      "bits": 3340012876,
+      "bytes": [
+        76,
+        141,
+        20,
+        199
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "dot_fma_xyz",
+      "value": -38029.296875
+    },
+    {
+      "bits": 3347588851,
+      "bytes": [
+        243,
+        38,
+        136,
+        199
+      ],
+      "case": "case0_grain",
+      "mode": "dot_fma_xyz",
+      "value": -69709.8984375
+    },
+    {
+      "bits": 3333215692,
+      "bytes": [
+        204,
+        213,
+        172,
+        198
+      ],
+      "case": "case3_grain",
+      "mode": "dot_fma_xyz",
+      "value": -22122.8984375
+    },
+    {
+      "bits": 3330407781,
+      "bytes": [
+        101,
+        253,
+        129,
+        198
+      ],
+      "case": "case4_grain",
+      "mode": "dot_fma_xyz",
+      "value": -16638.697265625
+    },
+    {
+      "bits": 3305892250,
+      "bytes": [
+        154,
+        233,
+        11,
+        197
+      ],
+      "case": "case0_lo000",
+      "mode": "dot_fma_xyz",
+      "value": -2238.60009765625
+    },
+    {
+      "bits": 3305371648,
+      "bytes": [
+        0,
+        248,
+        3,
+        197
+      ],
+      "case": "case0_lo100",
+      "mode": "dot_fma_xyz",
+      "value": -2111.5
+    },
+    {
+      "bits": 3304119502,
+      "bytes": [
+        206,
+        220,
+        240,
+        196
+      ],
+      "case": "case0_lo010",
+      "mode": "dot_fma_xyz",
+      "value": -1926.90014648438
+    },
+    {
+      "bits": 3303078298,
+      "bytes": [
+        154,
+        249,
+        224,
+        196
+      ],
+      "case": "case0_lo110",
+      "mode": "dot_fma_xyz",
+      "value": -1799.80004882812
+    },
+    {
+      "bits": 3305586279,
+      "bytes": [
+        103,
+        62,
+        7,
+        197
+      ],
+      "case": "case0_lo001",
+      "mode": "dot_fma_xyz",
+      "value": -2163.90014648438
+    },
+    {
+      "bits": 3305019802,
+      "bytes": [
+        154,
+        153,
+        254,
+        196
+      ],
+      "case": "case0_lo101",
+      "mode": "dot_fma_xyz",
+      "value": -2036.80004882812
+    },
+    {
+      "bits": 3303507559,
+      "bytes": [
+        103,
+        134,
+        231,
+        196
+      ],
+      "case": "case0_lo011",
+      "mode": "dot_fma_xyz",
+      "value": -1852.20007324219
+    },
+    {
+      "bits": 3302466355,
+      "bytes": [
+        51,
+        163,
+        215,
+        196
+      ],
+      "case": "case0_lo111",
+      "mode": "dot_fma_xyz",
+      "value": -1725.09997558594
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "sin_fma_xyz",
+      "value": 0.0
+    },
+    {
+      "bits": 1065201667,
+      "bytes": [
+        3,
+        176,
+        125,
+        63
+      ],
+      "case": "unit_x",
+      "mode": "sin_fma_xyz",
+      "value": 0.990966975688934
+    },
+    {
+      "bits": 1050615005,
+      "bytes": [
+        221,
+        28,
+        159,
+        62
+      ],
+      "case": "case2_grain",
+      "mode": "sin_fma_xyz",
+      "value": 0.310767084360123
+    },
+    {
+      "bits": 1050615005,
+      "bytes": [
+        221,
+        28,
+        159,
+        62
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "sin_fma_xyz",
+      "value": 0.310767084360123
+    },
+    {
+      "bits": 1063468123,
+      "bytes": [
+        91,
+        60,
+        99,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "sin_fma_xyz",
+      "value": 0.887639701366425
+    },
+    {
+      "bits": 1045092932,
+      "bytes": [
+        68,
+        218,
+        74,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "sin_fma_xyz",
+      "value": 0.198098242282867
+    },
+    {
+      "bits": 3208334017,
+      "bytes": [
+        193,
+        74,
+        59,
+        191
+      ],
+      "case": "case4_grain",
+      "mode": "sin_fma_xyz",
+      "value": -0.731609404087067
+    },
+    {
+      "bits": 3212450088,
+      "bytes": [
+        40,
+        25,
+        122,
+        191
+      ],
+      "case": "case0_lo000",
+      "mode": "sin_fma_xyz",
+      "value": -0.976946353912354
+    },
+    {
+      "bits": 3199162783,
+      "bytes": [
+        159,
+        89,
+        175,
+        190
+      ],
+      "case": "case0_lo100",
+      "mode": "sin_fma_xyz",
+      "value": -0.342480629682541
+    },
+    {
+      "bits": 1063556027,
+      "bytes": [
+        187,
+        147,
+        100,
+        63
+      ],
+      "case": "case0_lo010",
+      "mode": "sin_fma_xyz",
+      "value": 0.89287918806076
+    },
+    {
+      "bits": 3198629212,
+      "bytes": [
+        92,
+        53,
+        167,
+        190
+      ],
+      "case": "case0_lo110",
+      "mode": "sin_fma_xyz",
+      "value": -0.326578974723816
+    },
+    {
+      "bits": 3206310358,
+      "bytes": [
+        214,
+        105,
+        28,
+        191
+      ],
+      "case": "case0_lo001",
+      "mode": "sin_fma_xyz",
+      "value": -0.610989928245544
+    },
+    {
+      "bits": 3210595037,
+      "bytes": [
+        221,
+        202,
+        93,
+        191
+      ],
+      "case": "case0_lo101",
+      "mode": "sin_fma_xyz",
+      "value": -0.86637669801712
+    },
+    {
+      "bits": 1064907364,
+      "bytes": [
+        100,
+        50,
+        121,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "sin_fma_xyz",
+      "value": 0.973425149917603
+    },
+    {
+      "bits": 1052179379,
+      "bytes": [
+        179,
+        251,
+        182,
+        62
+      ],
+      "case": "case0_lo111",
+      "mode": "sin_fma_xyz",
+      "value": 0.357389062643051
+    },
+    {
+      "bits": 0,
+      "bytes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "case": "zero",
+      "mode": "hash_fma_xyz",
+      "value": 0.0
+    },
+    {
+      "bits": 1049362432,
+      "bytes": [
+        0,
+        0,
+        140,
+        62
+      ],
+      "case": "unit_x",
+      "mode": "hash_fma_xyz",
+      "value": 0.2734375
+    },
+    {
+      "bits": 1060585472,
+      "bytes": [
+        0,
+        64,
+        55,
+        63
+      ],
+      "case": "case2_grain",
+      "mode": "hash_fma_xyz",
+      "value": 0.7158203125
+    },
+    {
+      "bits": 1060585472,
+      "bytes": [
+        0,
+        64,
+        55,
+        63
+      ],
+      "case": "case2_alternate_angle",
+      "mode": "hash_fma_xyz",
+      "value": 0.7158203125
+    },
+    {
+      "bits": 1062404096,
+      "bytes": [
+        0,
+        0,
+        83,
+        63
+      ],
+      "case": "case0_grain",
+      "mode": "hash_fma_xyz",
+      "value": 0.82421875
+    },
+    {
+      "bits": 1056669696,
+      "bytes": [
+        0,
+        128,
+        251,
+        62
+      ],
+      "case": "case3_grain",
+      "mode": "hash_fma_xyz",
+      "value": 0.4912109375
+    },
+    {
+      "bits": 1062600704,
+      "bytes": [
+        0,
+        0,
+        86,
+        63
+      ],
+      "case": "case4_grain",
+      "mode": "hash_fma_xyz",
+      "value": 0.8359375
+    },
+    {
+      "bits": 1048313856,
+      "bytes": [
+        0,
+        0,
+        124,
+        62
+      ],
+      "case": "case0_lo000",
+      "mode": "hash_fma_xyz",
+      "value": 0.24609375
+    },
+    {
+      "bits": 1057718272,
+      "bytes": [
+        0,
+        128,
+        11,
+        63
+      ],
+      "case": "case0_lo100",
+      "mode": "hash_fma_xyz",
+      "value": 0.544921875
+    },
+    {
+      "bits": 1036517376,
+      "bytes": [
+        0,
+        0,
+        200,
+        61
+      ],
+      "case": "case0_lo010",
+      "mode": "hash_fma_xyz",
+      "value": 0.09765625
+    },
+    {
+      "bits": 1052901376,
+      "bytes": [
+        0,
+        0,
+        194,
+        62
+      ],
+      "case": "case0_lo110",
+      "mode": "hash_fma_xyz",
+      "value": 0.37890625
+    },
+    {
+      "bits": 1064828928,
+      "bytes": [
+        0,
+        0,
+        120,
+        63
+      ],
+      "case": "case0_lo001",
+      "mode": "hash_fma_xyz",
+      "value": 0.96875
+    },
+    {
+      "bits": 1058865152,
+      "bytes": [
+        0,
+        0,
+        29,
+        63
+      ],
+      "case": "case0_lo101",
+      "mode": "hash_fma_xyz",
+      "value": 0.61328125
+    },
+    {
+      "bits": 1059848192,
+      "bytes": [
+        0,
+        0,
+        44,
+        63
+      ],
+      "case": "case0_lo011",
+      "mode": "hash_fma_xyz",
+      "value": 0.671875
+    },
+    {
+      "bits": 1062436864,
+      "bytes": [
+        0,
+        128,
+        83,
+        63
+      ],
+      "case": "case0_lo111",
+      "mode": "hash_fma_xyz",
+      "value": 0.826171875
+    }
+  ],
+  "schema": 1,
+  "scope": "Independent diagnostic dot/sin/multiply/fract and runtime-zero-guard variants; exact float32 bytes in two RGBA16F pixels. No production edits."
+}

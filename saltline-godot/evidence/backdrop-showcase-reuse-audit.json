@@ -1,0 +1,32 @@
+[
+  {
+    "part": "all",
+    "matched": 32,
+    "exact_extra_meshes": 2,
+    "errors": []
+  },
+  {
+    "part": "crane",
+    "matched": 14,
+    "exact_extra_meshes": 2,
+    "errors": []
+  },
+  {
+    "part": "ship",
+    "matched": 10,
+    "exact_extra_meshes": 2,
+    "errors": []
+  },
+  {
+    "part": "boat",
+    "matched": 6,
+    "exact_extra_meshes": 0,
+    "errors": []
+  },
+  {
+    "part": "sky",
+    "matched": 2,
+    "exact_extra_meshes": 1,
+    "errors": []
+  }
+]

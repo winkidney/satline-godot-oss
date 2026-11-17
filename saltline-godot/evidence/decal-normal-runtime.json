@@ -1,0 +1,152 @@
+{
+  "checks": 31,
+  "enabled_source_materials": 1,
+  "failures": [],
+  "samples": [
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.25
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.65234375
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0009765625
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.68798828125
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": false,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.000030517578125
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.25
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.65234375
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.00030517578125
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 0,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": false,
+      "mode": 0,
+      "scaled_error": 0.68798828125
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 1,
+      "scaled_error": 0.0
+    },
+    {
+      "alpha": true,
+      "exact": true,
+      "mode": 2,
+      "scaled_error": 0.000030517578125
+    }
+  ],
+  "scope": "Actual source material binding and actual decal CUSTOM2 mesh. Production Standard/alpha vertex retained, fragment replaced with amplified local/world/sun-offset diagnostics; exact-normal on plus off control. HDR target16x16; not full original shaded pixels."
+}

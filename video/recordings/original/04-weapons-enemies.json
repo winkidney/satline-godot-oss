@@ -1,0 +1,320 @@
+{
+  "name": "04-weapons-enemies",
+  "seconds": 60.003899999976156,
+  "frames": 3502,
+  "samples": [
+    {
+      "seconds": 1.0000999999642373,
+      "frames": 58,
+      "state": "playing"
+    },
+    {
+      "seconds": 2.002199999988079,
+      "frames": 117,
+      "state": "playing"
+    },
+    {
+      "seconds": 3,
+      "frames": 175,
+      "state": "playing"
+    },
+    {
+      "seconds": 4,
+      "frames": 233,
+      "state": "playing"
+    },
+    {
+      "seconds": 5.000099999964237,
+      "frames": 292,
+      "state": "playing"
+    },
+    {
+      "seconds": 6.000099999964237,
+      "frames": 350,
+      "state": "playing"
+    },
+    {
+      "seconds": 7.019899999976158,
+      "frames": 410,
+      "state": "playing"
+    },
+    {
+      "seconds": 8,
+      "frames": 467,
+      "state": "playing"
+    },
+    {
+      "seconds": 9.000099999964236,
+      "frames": 525,
+      "state": "playing"
+    },
+    {
+      "seconds": 10,
+      "frames": 583,
+      "state": "playing"
+    },
+    {
+      "seconds": 11,
+      "frames": 641,
+      "state": "playing"
+    },
+    {
+      "seconds": 12,
+      "frames": 700,
+      "state": "playing"
+    },
+    {
+      "seconds": 13.000099999964236,
+      "frames": 758,
+      "state": "playing"
+    },
+    {
+      "seconds": 14.002399999976157,
+      "frames": 817,
+      "state": "playing"
+    },
+    {
+      "seconds": 15.000099999964236,
+      "frames": 875,
+      "state": "playing"
+    },
+    {
+      "seconds": 16.000099999964238,
+      "frames": 933,
+      "state": "playing"
+    },
+    {
+      "seconds": 17.001800000011922,
+      "frames": 992,
+      "state": "playing"
+    },
+    {
+      "seconds": 18.0005,
+      "frames": 1050,
+      "state": "playing"
+    },
+    {
+      "seconds": 19.000099999964238,
+      "frames": 1108,
+      "state": "playing"
+    },
+    {
+      "seconds": 20.001099999964236,
+      "frames": 1167,
+      "state": "playing"
+    },
+    {
+      "seconds": 21,
+      "frames": 1225,
+      "state": "playing"
+    },
+    {
+      "seconds": 22.00089999997616,
+      "frames": 1284,
+      "state": "playing"
+    },
+    {
+      "seconds": 23.000300000011922,
+      "frames": 1342,
+      "state": "playing"
+    },
+    {
+      "seconds": 24.000099999964238,
+      "frames": 1400,
+      "state": "playing"
+    },
+    {
+      "seconds": 25,
+      "frames": 1459,
+      "state": "playing"
+    },
+    {
+      "seconds": 26,
+      "frames": 1517,
+      "state": "playing"
+    },
+    {
+      "seconds": 27,
+      "frames": 1575,
+      "state": "playing"
+    },
+    {
+      "seconds": 28.00219999998808,
+      "frames": 1634,
+      "state": "playing"
+    },
+    {
+      "seconds": 29,
+      "frames": 1692,
+      "state": "playing"
+    },
+    {
+      "seconds": 30.00280000001192,
+      "frames": 1751,
+      "state": "playing"
+    },
+    {
+      "seconds": 31.000099999964238,
+      "frames": 1809,
+      "state": "playing"
+    },
+    {
+      "seconds": 32,
+      "frames": 1867,
+      "state": "playing"
+    },
+    {
+      "seconds": 33,
+      "frames": 1925,
+      "state": "playing"
+    },
+    {
+      "seconds": 34.000099999964235,
+      "frames": 1984,
+      "state": "playing"
+    },
+    {
+      "seconds": 35.000099999964235,
+      "frames": 2042,
+      "state": "playing"
+    },
+    {
+      "seconds": 36.00430000001192,
+      "frames": 2101,
+      "state": "playing"
+    },
+    {
+      "seconds": 37.000099999964235,
+      "frames": 2159,
+      "state": "playing"
+    },
+    {
+      "seconds": 38.004,
+      "frames": 2218,
+      "state": "playing"
+    },
+    {
+      "seconds": 39.000099999964235,
+      "frames": 2276,
+      "state": "playing"
+    },
+    {
+      "seconds": 40.000099999964235,
+      "frames": 2335,
+      "state": "playing"
+    },
+    {
+      "seconds": 41.000099999964235,
+      "frames": 2393,
+      "state": "playing"
+    },
+    {
+      "seconds": 42.00119999998808,
+      "frames": 2452,
+      "state": "playing"
+    },
+    {
+      "seconds": 43,
+      "frames": 2510,
+      "state": "playing"
+    },
+    {
+      "seconds": 44.00319999998808,
+      "frames": 2569,
+      "state": "playing"
+    },
+    {
+      "seconds": 45.00059999996424,
+      "frames": 2627,
+      "state": "playing"
+    },
+    {
+      "seconds": 46.000099999964235,
+      "frames": 2685,
+      "state": "playing"
+    },
+    {
+      "seconds": 47.00269999998808,
+      "frames": 2744,
+      "state": "playing"
+    },
+    {
+      "seconds": 48.000099999964235,
+      "frames": 2802,
+      "state": "playing"
+    },
+    {
+      "seconds": 49,
+      "frames": 2861,
+      "state": "playing"
+    },
+    {
+      "seconds": 50,
+      "frames": 2919,
+      "state": "playing"
+    },
+    {
+      "seconds": 51.000099999964235,
+      "frames": 2977,
+      "state": "playing"
+    },
+    {
+      "seconds": 52.000099999964235,
+      "frames": 3035,
+      "state": "playing"
+    },
+    {
+      "seconds": 53.000099999964235,
+      "frames": 3094,
+      "state": "playing"
+    },
+    {
+      "seconds": 54.000099999964235,
+      "frames": 3152,
+      "state": "playing"
+    },
+    {
+      "seconds": 55,
+      "frames": 3210,
+      "state": "playing"
+    },
+    {
+      "seconds": 56.003,
+      "frames": 3269,
+      "state": "playing"
+    },
+    {
+      "seconds": 57.000099999964235,
+      "frames": 3327,
+      "state": "playing"
+    },
+    {
+      "seconds": 58,
+      "frames": 3385,
+      "state": "playing"
+    },
+    {
+      "seconds": 59,
+      "frames": 3443,
+      "state": "playing"
+    }
+  ],
+  "stats": {
+    "calls": 588,
+    "tris": 3040774,
+    "geos": 275,
+    "tex": 158,
+    "programs": 136,
+    "res": [
+      1920,
+      1080
+    ],
+    "scale": 1,
+    "advanced": true,
+    "softShadows": true,
+    "fps": 58.1,
+    "state": "playing"
+  },
+  "fatal": null,
+  "errors": []
+}

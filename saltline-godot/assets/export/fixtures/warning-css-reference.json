@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "seconds": 0,
+      "alpha": 0,
+      "spacing": 19,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.05,
+      "alpha": 0.183824,
+      "spacing": 17.1838,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.1,
+      "alpha": 0.367647,
+      "spacing": 15.3676,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.272,
+      "alpha": 1,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.3,
+      "alpha": 0.910784,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.476,
+      "alpha": 0.35,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.6,
+      "alpha": 0.745098,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 0.68,
+      "alpha": 1,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 1,
+      "alpha": 1,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 2.788,
+      "alpha": 1,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 3,
+      "alpha": 0.653595,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 3.399,
+      "alpha": 0.00163399,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 3.4,
+      "alpha": 0,
+      "spacing": 9.12,
+      "pixels": 38
+    },
+    {
+      "seconds": 4,
+      "alpha": 0,
+      "spacing": 9.12,
+      "pixels": 38
+    }
+  ],
+  "scope": "Original unchanged stylesheet warn keyframes sampled through browser Animation.currentTime; no font pixel comparison",
+  "source_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "runtime_exit_code": 0,
+  "runtime_log": "/tmp/saltline-session-light-lifecycle.log",
+  "verification": "session-light-lifecycle-verification.json",
+  "files": {
+    "tools/verify_session_light_lifecycle.gd": "5f403d5e6266f312a8e1be7a29c08c331b0cc8cdff398473d321029b69c36238",
+    "scripts/session.gd": "9e2fc7c9450ee6464ca30f4cd60e59916d902e08d32ff801e530e9b62f09a77d",
+    "scripts/light_pool.gd": "b2e24c3dc378a0a241ba605b8d1ea175e057c32d36582e79b91d0222c9b76ca4",
+    "scripts/gull_scan_light.gd": "cf63551a863d6288cbec1f66d1f8d5c31e7b63960c3acb43198d361e92259b7e",
+    "scripts/explosion_effects.gd": "a869e974c21f6b3c6986f53853d2a6920223b00e724ab12622abf560d877475c"
+  },
+  "production_changes": false,
+  "result": "98 checks, 8 actual Main reset cycles, no failures; scan reservation survives retry and cannot be stolen by saturated flashes; fire reservations released; scan disposal releases final reservation"
+}

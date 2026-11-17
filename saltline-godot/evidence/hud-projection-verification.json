@@ -1,0 +1,12 @@
+{
+  "cases": 640,
+  "comparisons": 22770,
+  "dim": 13,
+  "failures": [],
+  "markers": 2560,
+  "maximum_heading_error": 0.000000000000056843418860808,
+  "maximum_pixel_error": 0.0,
+  "near": 44,
+  "offscreen": 2358,
+  "scope": "Actual original HUD compass/marker/crosshair block using original Three r180 projection vs native float32 transforms; pixel rounding tolerance 1, classifications exact; varied FOV, pitch, roll, aspect, ADS and sprint"
+}

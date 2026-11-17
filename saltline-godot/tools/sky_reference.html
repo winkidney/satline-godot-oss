@@ -1,0 +1,26 @@
+<!doctype html><meta charset="utf-8"><title>Saltline original sky GPU reference</title><script>
+window.ready=(async()=>{
+ const source=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text();
+ const T=eval(source.slice(0,source.indexOf('  var Kn = {'))+'return ut;})()');
+ const scene=await(await fetch('../assets/prepared/scene.json')).json();const record=scene.materials.find(m=>m.name==='saltline-sky');
+ const noiseRecord=scene.textures.find(t=>t.id===record.uniforms.tNoise.value.$texture);
+ const bytes=new Uint8Array(await(await fetch('../assets/export/'+noiseRecord.file)).arrayBuffer());
+ const noise=new T.DataTexture(bytes,256,256,T.RGBAFormat,T.UnsignedByteType);noise.wrapS=noise.wrapT=T.RepeatWrapping;noise.magFilter=noise.minFilter=T.LinearFilter;noise.generateMipmaps=false;noise.needsUpdate=true;
+ const uniforms={};for(const [key,item]of Object.entries(record.uniforms)){const v=item.value;uniforms[key]={value:key==='tNoise'?noise:Array.isArray(v)?new T.Vector3(...v):v}}
+ uniforms.probeDirection={value:new T.Vector3()};
+ const material=new T.ShaderMaterial({uniforms,vertexShader:'uniform vec3 probeDirection;varying vec3 vDir;void main(){vDir=probeDirection;gl_Position=vec4(position.xy,0.0,1.0);}',fragmentShader:record.fragmentShader,depthTest:false,depthWrite:false});
+ const renderer=new T.WebGLRenderer({antialias:false,preserveDrawingBuffer:true});renderer.setSize(1,1);document.body.append(renderer.domElement);
+ const target=new T.WebGLRenderTarget(1,1,{type:T.FloatType,format:T.RGBAFormat,depthBuffer:false,stencilBuffer:false});
+ const world=new T.Scene();world.add(new T.Mesh(new T.PlaneGeometry(2,2),material));const camera=new T.Camera();const pixels=new Float32Array(4),cases=[];
+ for(let i=0;i<96;i++){
+  const az=i*Math.PI*.61803398875,el=-.3+(i%12)/11*1.7;
+  const direction=new T.Vector3(Math.cos(az)*Math.cos(el),Math.sin(el),Math.sin(az)*Math.cos(el)).normalize();
+  if(i===0)direction.copy(uniforms.uSunDir.value);
+  const time=[0,.05,10,30][i%4],env=i%7===0?1:0,flash=i%3===0?.19:0;
+  uniforms.probeDirection.value.copy(direction);uniforms.uTime.value=time;uniforms.uEnv.value=env;uniforms.uFlash.value=flash;
+  renderer.setRenderTarget(target);renderer.render(world,camera);renderer.readRenderTargetPixels(target,0,0,1,1,pixels);
+  cases.push({direction:direction.toArray(),time,env,flash,color:Array.from(pixels.slice(0,3))});
+ }
+ const gl=renderer.getContext();const debug=gl.getExtension('WEBGL_debug_renderer_info');const result={three:T.REVISION,cases,renderer:gl.getParameter(gl.RENDERER),unmaskedRenderer:debug?gl.getParameter(debug.UNMASKED_RENDERER_WEBGL):null,scope:'Actual original exported sky fragment shader in original Three r180, original RGBA noise readback, Float32 render-target readback; analytic direction/time/env/flash samples, not final post color.'};
+ renderer.dispose();target.dispose();material.dispose();noise.dispose();return result;
+})();</script>

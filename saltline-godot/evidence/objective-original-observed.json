@@ -1,0 +1,57 @@
+{
+  "source": "Local original ground-instrumented.html; original sT HUD methods untouched",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "method": "__G.hud.show(true); for each row: setObjective(text), update(dt), read .h-obj-t.textContent",
+  "rows": [
+    [
+      "",
+      0,
+      ""
+    ],
+    [
+      "Cut the three uplink relays",
+      0,
+      ""
+    ],
+    [
+      "Cut the three uplink relays",
+      0.01,
+      ""
+    ],
+    [
+      "Cut the three uplink relays",
+      0.02,
+      "C"
+    ],
+    [
+      "Cut the three uplink relays",
+      0.1,
+      "Cut t"
+    ],
+    [
+      "Cut the three uplink relays",
+      1,
+      "Cut the three uplink relays"
+    ],
+    [
+      "Get to the boat",
+      0.05,
+      "Ge"
+    ],
+    [
+      "Get to the boat",
+      0.05,
+      "Get "
+    ],
+    [
+      "",
+      0,
+      ""
+    ],
+    [
+      "Get to the boat",
+      0.1,
+      "Get "
+    ]
+  ]
+}

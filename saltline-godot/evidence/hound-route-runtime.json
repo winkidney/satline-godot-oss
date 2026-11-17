@@ -1,0 +1,16 @@
+{
+  "arrived": true,
+  "fps": 60,
+  "frames": 720,
+  "native_skeletons": 20,
+  "position": [
+    -24.4255924224854,
+    0.0,
+    6.01138782501221
+  ],
+  "replans": 5,
+  "scope": "controlled movement with native world-foot stepping and IK, not full AI",
+  "steps": 16,
+  "runtime_errors": [],
+  "recording_complete": true
+}

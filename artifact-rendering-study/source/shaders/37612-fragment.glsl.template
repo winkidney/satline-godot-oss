@@ -1,0 +1,7 @@
+
+void surf(vec2 uv){
+  float chip, stain, run; paintDmg(uv, uP.x, chip, stain, run);
+  float shade = 0.8, baseR = 0.40;
+  ${a_}
+  emit(nt, ta, h, ao, r, m);
+}

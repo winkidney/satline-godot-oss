@@ -1,0 +1,7 @@
+{
+  "comparisons": 1200,
+  "failures": [],
+  "frames": 600,
+  "maximum_error": 0.000000000000000111022302462516,
+  "scope": "Actual original ME onBeforeRender callback: peak environment history, zero intensity fallback, target clamp and per-render 0.12 smoothing. Native full world indoor adaptation input remains pending."
+}

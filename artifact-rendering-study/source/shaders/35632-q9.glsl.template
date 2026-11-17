@@ -1,0 +1,9 @@
+${ao}
+uniform sampler2D tDepth; uniform float uNear, uFar;
+void main(){
+  // exact texel fetch: sampling at a texel corner would pick rows unpredictably and band the AO on grazing floors
+  ivec2 p = min(ivec2(gl_FragCoord.xy) * 2, textureSize(tDepth, 0) - 1);
+  float d = texelFetch(tDepth, p, 0).r;
+  float z = d < ${sg} ? 0.01 : (uNear * uFar) / (uFar - d * (uFar - uNear));
+  gl_FragColor = vec4(z, 0.0, 0.0, 1.0);
+}

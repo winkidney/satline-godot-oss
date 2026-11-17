@@ -1,0 +1,33 @@
+{
+  "failures": [],
+  "frames": 240,
+  "scope": "Actual native sourceAO enabled vs disabled in frozen original warehouse view, zero dt/time freezes scene and film grain, existingGodotSSAO disabled. Original per-sample combine/sample0 plus nativeMSAA locations; crossbackend edges explicitly differ. Controlled camera and no enemies, not gameplay acceptance.",
+  "snapshots": [
+    {
+      "combined_ready": true,
+      "combined_sample": 0,
+      "darkened_samples": 0,
+      "enabled": false,
+      "frame": 100,
+      "half_ready": true,
+      "mean_luminance_ratio": 1.0,
+      "minimum_ao": 0.0,
+      "ssao_enabled": false,
+      "weapon_samples": 4,
+      "world_samples": 4
+    },
+    {
+      "combined_ready": true,
+      "combined_sample": 0,
+      "darkened_samples": 5888,
+      "enabled": true,
+      "frame": 220,
+      "half_ready": true,
+      "mean_luminance_ratio": 0.848048960443666,
+      "minimum_ao": 0.0,
+      "ssao_enabled": false,
+      "weapon_samples": 4,
+      "world_samples": 4
+    }
+  ]
+}

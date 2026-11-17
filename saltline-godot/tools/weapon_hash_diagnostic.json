@@ -1,0 +1,237 @@
+{
+  "common": "uniform vec3 uP;uniform float uAngle;uniform uint uGuard;float rg(float x){return uintBitsToFloat(floatBitsToUint(x)+uGuard);}vec3 rgv(vec3 x){return uintBitsToFloat(floatBitsToUint(x)+uvec3(uGuard));}float leftDot(vec3 p){vec3 m=rgv(p*vec3(127.1,311.7,74.7));return rg(rg(m.x+m.y)+m.z);}float rightDot(vec3 p){vec3 m=rgv(p*vec3(127.1,311.7,74.7));return rg(m.x+rg(m.y+m.z));}",
+  "cases": [
+    {
+      "name": "zero",
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "angle": 0
+    },
+    {
+      "name": "unit_x",
+      "point": [
+        1,
+        0,
+        0
+      ],
+      "angle": 127.0999984741211
+    },
+    {
+      "name": "case2_grain",
+      "point": [
+        4,
+        -11,
+        -470
+      ],
+      "angle": -38029.30078125
+    },
+    {
+      "name": "case2_alternate_angle",
+      "point": [
+        4,
+        -11,
+        -470
+      ],
+      "angle": -38029.296875
+    },
+    {
+      "name": "case0_grain",
+      "point": [
+        -38,
+        -90,
+        -493
+      ],
+      "angle": -69709.8984375
+    },
+    {
+      "name": "case3_grain",
+      "point": [
+        24,
+        29,
+        -458
+      ],
+      "angle": -22122.896484375
+    },
+    {
+      "name": "case4_grain",
+      "point": [
+        -38,
+        69,
+        -446
+      ],
+      "angle": -16638.69921875
+    },
+    {
+      "name": "case0_lo000",
+      "point": [
+        -3,
+        -5,
+        -4
+      ],
+      "angle": -2238.60009765625
+    },
+    {
+      "name": "case0_lo100",
+      "point": [
+        -2,
+        -5,
+        -4
+      ],
+      "angle": -2111.5
+    },
+    {
+      "name": "case0_lo010",
+      "point": [
+        -3,
+        -4,
+        -4
+      ],
+      "angle": -1926.9000244140625
+    },
+    {
+      "name": "case0_lo110",
+      "point": [
+        -2,
+        -4,
+        -4
+      ],
+      "angle": -1799.800048828125
+    },
+    {
+      "name": "case0_lo001",
+      "point": [
+        -3,
+        -5,
+        -3
+      ],
+      "angle": -2163.900146484375
+    },
+    {
+      "name": "case0_lo101",
+      "point": [
+        -2,
+        -5,
+        -3
+      ],
+      "angle": -2036.800048828125
+    },
+    {
+      "name": "case0_lo011",
+      "point": [
+        -3,
+        -4,
+        -3
+      ],
+      "angle": -1852.2000732421875
+    },
+    {
+      "name": "case0_lo111",
+      "point": [
+        -2,
+        -4,
+        -3
+      ],
+      "angle": -1725.10009765625
+    }
+  ],
+  "modes": [
+    {
+      "name": "product_x",
+      "expression": "uP.x*127.1"
+    },
+    {
+      "name": "product_y",
+      "expression": "uP.y*311.7"
+    },
+    {
+      "name": "product_z",
+      "expression": "uP.z*74.7"
+    },
+    {
+      "name": "dot_literal",
+      "expression": "dot(uP,vec3(127.1,311.7,74.7))"
+    },
+    {
+      "name": "dot_guarded",
+      "expression": "rg(dot(rgv(uP),vec3(127.1,311.7,74.7)))"
+    },
+    {
+      "name": "dot_left",
+      "expression": "leftDot(uP)"
+    },
+    {
+      "name": "dot_right",
+      "expression": "rightDot(uP)"
+    },
+    {
+      "name": "sin_literal_dot",
+      "expression": "sin(dot(uP,vec3(127.1,311.7,74.7)))"
+    },
+    {
+      "name": "sin_guarded_dot",
+      "expression": "sin(rg(dot(rgv(uP),vec3(127.1,311.7,74.7))))"
+    },
+    {
+      "name": "sin_left_dot",
+      "expression": "sin(leftDot(uP))"
+    },
+    {
+      "name": "sin_uniform",
+      "expression": "sin(uAngle)"
+    },
+    {
+      "name": "product_literal",
+      "expression": "sin(dot(uP,vec3(127.1,311.7,74.7)))*43758.5453"
+    },
+    {
+      "name": "product_fullguard",
+      "expression": "rg(rg(sin(rg(dot(rgv(uP),vec3(127.1,311.7,74.7)))))*43758.5453)"
+    },
+    {
+      "name": "hash_literal",
+      "expression": "fract(sin(dot(uP,vec3(127.1,311.7,74.7)))*43758.5453)"
+    },
+    {
+      "name": "hash_fullguard",
+      "expression": "fract(rg(rg(sin(rg(dot(rgv(uP),vec3(127.1,311.7,74.7)))))*43758.5453))"
+    },
+    {
+      "name": "hash_left",
+      "expression": "fract(rg(rg(sin(leftDot(uP)))*43758.5453))"
+    },
+    {
+      "name": "hash_right",
+      "expression": "fract(rg(rg(sin(rightDot(uP)))*43758.5453))"
+    },
+    {
+      "name": "hash_uniform_sin",
+      "expression": "fract(rg(rg(sin(uAngle))*43758.5453))"
+    },
+    {
+      "name": "cycles_after_dot",
+      "expression": "rg(rg(dot(uP,vec3(127.1,311.7,74.7)))*0.15915494309189535)"
+    },
+    {
+      "name": "cycles_scaled_dot",
+      "expression": "dot(uP,vec3(127.1,311.7,74.7)*0.15915494309189535)"
+    },
+    {
+      "name": "dot_fma_xyz",
+      "expression": "fma(uP.z,74.7,fma(uP.y,311.7,rg(uP.x*127.1)))",
+      "native_only": true
+    },
+    {
+      "name": "sin_fma_xyz",
+      "expression": "sin(rg(fma(uP.z,74.7,fma(uP.y,311.7,rg(uP.x*127.1)))))",
+      "native_only": true
+    },
+    {
+      "name": "hash_fma_xyz",
+      "expression": "fract(rg(rg(sin(rg(fma(uP.z,74.7,fma(uP.y,311.7,rg(uP.x*127.1))))))*43758.5453))",
+      "native_only": true
+    }
+  ]
+}

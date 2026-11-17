@@ -1,0 +1,39 @@
+{
+  "failures": [],
+  "frames": 300,
+  "samples": [
+    {
+      "active": 2,
+      "add_emitted": 7,
+      "add_live": 7,
+      "frame": 60,
+      "lit_emitted": 13,
+      "lit_live": 13
+    },
+    {
+      "active": 2,
+      "add_emitted": 15,
+      "add_live": 15,
+      "frame": 120,
+      "lit_emitted": 26,
+      "lit_live": 26
+    },
+    {
+      "active": 1,
+      "add_emitted": 23,
+      "add_live": 17,
+      "frame": 180,
+      "lit_emitted": 39,
+      "lit_live": 35
+    },
+    {
+      "active": 0,
+      "add_emitted": 23,
+      "add_live": 8,
+      "frame": 240,
+      "lit_emitted": 45,
+      "lit_live": 26
+    }
+  ],
+  "scope": "Actual Main FX _advance_effects and renderer with public steam/embers APIs, move, TTL, stop and clear. Gameplay physics/AI frozen, not a source whole-game timeline, exact pixels or fire/drip acceptance."
+}

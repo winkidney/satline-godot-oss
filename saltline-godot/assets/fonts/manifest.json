@@ -1,0 +1,69 @@
+{
+  "css_source": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=IBM+Plex+Mono:wght@400;500&family=Barlow+Condensed:wght@400;500;600&display=swap",
+  "fonts": [
+    {
+      "family": "Barlow Condensed",
+      "weight": 400,
+      "file": "barlow-condensed-400.ttf",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTx3L3I-JCGChYJ8VI-L6OO_au7B2xY.ttf",
+      "sha256": "c82d65280835cb3cd1b499863cf68cae8c6193c45ffae9495d28d01f749a9ae2",
+      "bytes": 80968
+    },
+    {
+      "family": "Barlow Condensed",
+      "weight": 500,
+      "file": "barlow-condensed-500.ttf",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4-Lw_3E.ttf",
+      "sha256": "cc9fb2539cf27df48255982e896d28f544483537cdb41f9fabd741af8992d719",
+      "bytes": 81448
+    },
+    {
+      "family": "Barlow Condensed",
+      "weight": 600,
+      "file": "barlow-condensed-600.ttf",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf",
+      "sha256": "0d85af813fc3ed87db0c6265515689b2eef5cbaf7aab17922528dfc95a2cd73f",
+      "bytes": 86636
+    },
+    {
+      "family": "Big Shoulders Display",
+      "weight": 500,
+      "file": "big-shoulders-display-500.ttf",
+      "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0Ydb07JF4.ttf",
+      "sha256": "a9b588db952ce332791924195f09d10805aea45d78ffef316b70f2b0194f5e9e",
+      "bytes": 68592
+    },
+    {
+      "family": "Big Shoulders Display",
+      "weight": 700,
+      "file": "big-shoulders-display-700.ttf",
+      "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF4.ttf",
+      "sha256": "677d6cfbd0e22c58948e917b53bfbaf14324280aebda4b156cc41e3649ee1d81",
+      "bytes": 68456
+    },
+    {
+      "family": "Big Shoulders Display",
+      "weight": 900,
+      "file": "big-shoulders-display-900.ttf",
+      "source": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8JF4.ttf",
+      "sha256": "23ce8d950bbbc0f13fbe3fc11047ec0c2babddd95243de26c85c855ede537c30",
+      "bytes": 68720
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": 400,
+      "file": "ibm-plex-mono-400.ttf",
+      "source": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F63fjptAgt5VM-kVkqdyU8n5ig.ttf",
+      "sha256": "5cbc4288c3489acb668caf9bb59fcab8767f961575ad74c1366c40bc43a8cde3",
+      "bytes": 128692
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": 500,
+      "file": "ibm-plex-mono-500.ttf",
+      "source": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lc.ttf",
+      "sha256": "249a8ba4a836742e86a7465dcfa30ea433a8c50b5d1ec7eaeecab28403409760",
+      "bytes": 129796
+    }
+  ]
+}

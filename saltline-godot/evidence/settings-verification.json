@@ -1,0 +1,8 @@
+{
+  "cases": 31,
+  "checks": 217,
+  "failures": [],
+  "methods_sha256": "ed0b45700dad54eaf02dc81a42f03ab22ebd6304b1ea0a864e76ed892552a8cd",
+  "scope": "Original iL settings loader, strict enum types, finite numbers/clamps, JS truthiness, invalid JSON and missing values. Volume excluded by task scope; no disk integration.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8"
+}

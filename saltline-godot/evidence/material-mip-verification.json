@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "actual": 0.0,
+      "error": 0.0,
+      "expected": 0.0,
+      "lod": 0.0
+    },
+    {
+      "actual": 0.2158203125,
+      "error": 0.287109375,
+      "expected": 0.5029296875,
+      "lod": 1.0
+    },
+    {
+      "actual": 0.2158203125,
+      "error": 0.287109375,
+      "expected": 0.5029296875,
+      "lod": 2.0
+    }
+  ],
+  "failures": [
+    1.0,
+    2.0
+  ],
+  "scope": "Original Three SRGB RGBA8 glGenerateMipmap checker vs current Image.generate_mipmaps native encodedRGBA8 path;explicit textureLod. Diagnostic,not full assets."
+}

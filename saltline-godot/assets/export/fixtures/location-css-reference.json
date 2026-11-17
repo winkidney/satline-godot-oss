@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "seconds": 0,
+      "clip": "inset(0px 100% 0px 0px)",
+      "reveal": 0.0
+    },
+    {
+      "seconds": 0.001,
+      "clip": "inset(0px 100% 0px 0px)",
+      "reveal": 0.0
+    },
+    {
+      "seconds": 0.02,
+      "clip": "inset(0px 100% 0px 0px)",
+      "reveal": 0.0
+    },
+    {
+      "seconds": 0.039,
+      "clip": "inset(0px 100% 0px 0px)",
+      "reveal": 0.0
+    },
+    {
+      "seconds": 0.04,
+      "clip": "inset(0px 96.3571% 0px 0px)",
+      "reveal": 0.036428999999999934
+    },
+    {
+      "seconds": 0.1,
+      "clip": "inset(0px 92.7143% 0px 0px)",
+      "reveal": 0.07285700000000006
+    },
+    {
+      "seconds": 0.25,
+      "clip": "inset(0px 78.1429% 0px 0px)",
+      "reveal": 0.21857100000000007
+    },
+    {
+      "seconds": 0.5,
+      "clip": "inset(0px 56.2857% 0px 0px)",
+      "reveal": 0.43714300000000006
+    },
+    {
+      "seconds": 0.55,
+      "clip": "inset(0px 49% 0px 0px)",
+      "reveal": 0.51
+    },
+    {
+      "seconds": 0.7,
+      "clip": "inset(0px 38.0714% 0px 0px)",
+      "reveal": 0.619286
+    },
+    {
+      "seconds": 1,
+      "clip": "inset(0px 8.92857% 0px 0px)",
+      "reveal": 0.9107143
+    },
+    {
+      "seconds": 1.099,
+      "clip": "inset(0px 1.64286% 0px 0px)",
+      "reveal": 0.9835714
+    },
+    {
+      "seconds": 1.1,
+      "clip": "inset(0px -2% 0px 0px)",
+      "reveal": 1.02
+    },
+    {
+      "seconds": 1.2,
+      "clip": "inset(0px -2% 0px 0px)",
+      "reveal": 1.02
+    }
+  ],
+  "scope": "Exact original CSS locin animation sampled through browser Web Animations; no game logic or font-layout assertion",
+  "source_html_sha256": "b83fc642f3696c21a9efbf36c29bd9c0c7e1e9725fe215d4a043fa4a10bccbeb"
+}

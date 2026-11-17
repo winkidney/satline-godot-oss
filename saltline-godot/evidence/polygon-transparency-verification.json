@@ -1,0 +1,680 @@
+{
+  "bindings": [
+    {
+      "id": "1f35ff0a-2a7c-4d04-a2ef-c088ea8b8a8d",
+      "mode": "saltline_bias_weapon_3",
+      "name": "weapon_markings"
+    },
+    {
+      "id": "1b148cb5-cf27-4e1f-bb4b-555b80c09014",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_logo_a"
+    },
+    {
+      "id": "cefe8a2b-29ba-476a-8ba7-51d8c4434c59",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_csc_plate"
+    },
+    {
+      "id": "8cae0eca-e3ce-434a-bb7d-c5c8a6059eec",
+      "mode": "saltline_bias_world_2",
+      "name": "label_atlas"
+    },
+    {
+      "id": "18ba6a43-4a1e-49db-a6e5-e9a3b58f48eb",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_rust_run"
+    },
+    {
+      "id": "81ed6990-c139-4266-aeb0-109893bad590",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_grime_streak"
+    },
+    {
+      "id": "1f5ae384-16b1-4b5e-9553-9ec92a7b01ff",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_logo_c"
+    },
+    {
+      "id": "eb29ba07-37ef-41c2-a3b9-cbc0598470e1",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_hazard_voltage"
+    },
+    {
+      "id": "d0991eaf-7984-4bb0-b13a-31fa44224508",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_logo_b"
+    },
+    {
+      "id": "351e0260-da2a-47bb-8549-efc82f28588f",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_logo_d"
+    },
+    {
+      "id": "3cb2825a-d45d-4083-adf6-3113abf1bd89",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_arrow"
+    },
+    {
+      "id": "ce2236c3-77e5-4014-bb74-a3a9b22f2b51",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_caution_stripes"
+    },
+    {
+      "id": "e0fdc24c-e4e7-453c-acf6-937fcec44051",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_hazard_flammable"
+    },
+    {
+      "id": "26f5ee76-4ca7-4b48-95ae-dc9c3b15fa6b",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_hazard_general"
+    },
+    {
+      "id": "d19e90ab-daba-4e68-9864-bd23939b1127",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_numbers_0_9"
+    },
+    {
+      "id": "994995f2-9c91-45c9-b591-7ba483ef4f0a",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_leak_stain"
+    },
+    {
+      "id": "6d522dc7-c6cd-4237-bfd3-b7a9d3055c52",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_scorch"
+    },
+    {
+      "id": "a0fec3c8-f860-440e-9ca0-0e14d0e765e1",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_berth4"
+    },
+    {
+      "id": "6828b6b5-1529-4095-89b8-9adbfd8205cb",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_no_entry"
+    },
+    {
+      "id": "9af50c7d-e412-46e4-81f1-0ba5f36fbd55",
+      "mode": "saltline_bias_world_2",
+      "name": "decal_oil_stain"
+    },
+    {
+      "id": "00d0911f-4575-4c93-93d9-8f738217c684",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "93100d46-a5d2-4680-8677-ebef1a2ce91c",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "9679ee48-d1bd-4488-9d5d-540c49b87c5a",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "93dd57f1-62a2-41dd-9dfb-e9a5fd42527b",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "fe8eb87b-7667-49e7-bc1d-f7ddc8160ebb",
+      "mode": "saltline_bias_world_4",
+      "name": "fx_decals"
+    },
+    {
+      "id": "b884a678-aab4-47f6-b305-6dda68c75631",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "47b2b25a-2c07-4d18-a691-c80990897d4e",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "86df77d3-1e32-4f0a-9be5-186fea02fb77",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "0b0267be-93a0-4b44-a5ae-0b6ca52e3af5",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "c09295ea-d448-43ec-b198-79a0bcce8406",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "358c8777-27a6-4ba6-9fa1-8f65f3f84dfb",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "23010188-46c6-4eb1-aca4-2fb4996eb926",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "7f397c2b-2543-40eb-9b4b-a5ffa2428681",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "7a3dd962-7512-4e3f-acbc-d09ea52b8b28",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "0ee99462-8a8a-48ba-bef8-acd04fda39dc",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "212d347d-a0b2-42c8-8697-a83c575c4c25",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "ee0ba6cc-e217-4cd0-a7c3-030ceaedbd49",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "0aa33de0-6960-4f00-b151-c999a259ed4f",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "5f6900e4-e3a8-4009-a12e-a8757d1549de",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "0bf79ba4-8288-4634-a59f-a309cc54871f",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "0ae0233f-ebb8-48f8-956e-ccb677b09134",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "25825404-0d94-4110-84ed-4ff7a43f44ef",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "f1639d20-4b10-45aa-a230-258196d500b5",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "9abba104-06c9-450a-97fc-794e77c72ebf",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "86d65f88-0cf9-48cb-8ae6-f7897cb26c43",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "7db1795c-512c-41cf-a254-2ab4a6abe91b",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "f45761a1-c574-4e2b-aca5-ddbf987cf830",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    },
+    {
+      "id": "4e4e36bc-b58f-4b85-843c-f8b017b1bf07",
+      "mode": "saltline_bias_world_2",
+      "name": "label"
+    }
+  ],
+  "failures": [],
+  "profiles": [
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 2.0,
+      "mode": "",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 0,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 2.0,
+      "mode": "",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 2.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 16.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": true,
+      "depth_delta": 0.0,
+      "expected_visible": true,
+      "gap_q24": 64.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_world_2",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_world_4",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "actual_visible": false,
+      "depth_delta": 0.0,
+      "expected_visible": false,
+      "gap_q24": 256.0,
+      "mode": "saltline_bias_weapon_3",
+      "msaa": 2,
+      "rgb": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "scope": "Actual Forward+ transparent green alpha.5 overblue receiver,0/4xMSAA,fourbehindgaps verifies visibility/alpha/depthWrite=false. All195 loader mapping:48original offset materials/75meshes. Original decal/markings geometry+texture+productionshader additionally tested behindsame-geometry receiver,4xMSAA,only bias toggled withsame uniforms. Not full source perspective composite orweapon sharedworld depth-range quantization.",
+  "source_cases": [
+    {
+      "changed_hdr_pixels": 5,
+      "material": "1b148cb5-cf27-4e1f-bb4b-555b80c09014",
+      "maximum_rgb_difference": 0.0499267578125,
+      "mesh": "2484d30b-c6cf-4811-8033-16d8cae53633"
+    },
+    {
+      "changed_hdr_pixels": 368,
+      "material": "1f35ff0a-2a7c-4d04-a2ef-c088ea8b8a8d",
+      "maximum_rgb_difference": 0.65380859375,
+      "mesh": "6ca41558-8785-49c4-8763-bcace44ff4c4"
+    }
+  ],
+  "source_materials": 48,
+  "source_objects": 75
+}

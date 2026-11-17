@@ -1,0 +1,79 @@
+{
+  "checks": 432,
+  "failures": [
+    {
+      "actual": 0.596626996994019,
+      "component": 3,
+      "expected": 0.56,
+      "index": 1,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "actual": 0.690762341022491,
+      "component": 3,
+      "expected": 0.61,
+      "index": 1,
+      "ms": 10.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "actual": 0.795278012752533,
+      "component": 3,
+      "expected": 0.714,
+      "index": 1,
+      "ms": 20.0,
+      "primary": false,
+      "state": "probe-hover probe-active"
+    },
+    {
+      "actual": 0.795278012752533,
+      "component": 3,
+      "expected": 0.56,
+      "index": 1,
+      "ms": 0.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "actual": 0.856422483921051,
+      "component": 3,
+      "expected": 0.592,
+      "index": 1,
+      "ms": 7.5,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "actual": 0.902401566505432,
+      "component": 3,
+      "expected": 0.66,
+      "index": 1,
+      "ms": 15.0,
+      "primary": false,
+      "state": "probe-hover"
+    },
+    {
+      "actual": 0.902401566505432,
+      "component": 3,
+      "expected": 0.66,
+      "index": 1,
+      "ms": 0.0,
+      "primary": false,
+      "state": ""
+    },
+    {
+      "actual": 0.474666446447372,
+      "component": 3,
+      "expected": 0.42,
+      "index": 1,
+      "ms": 60.0,
+      "primary": false,
+      "state": ""
+    }
+  ],
+  "maximum_error": 0.264422483921051,
+  "scope": "Original button CSS property values/easing in Chrome. Hover/active selectors mapped to equivalent probe classes for deterministic interruption; paused CSS animations seek to exact elapsed milliseconds before each state change. Not OS pointer event delivery."
+}

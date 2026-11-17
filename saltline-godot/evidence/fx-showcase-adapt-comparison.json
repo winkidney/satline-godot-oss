@@ -1,0 +1,208 @@
+{
+  "source_events": [
+    {
+      "frame": 4,
+      "rate": 0.6,
+      "visRate": 1,
+      "output": [
+        0.281005859375,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": 5,
+      "rate": 0.6,
+      "visRate": 1,
+      "output": [
+        0.297607421875,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": 6,
+      "rate": 0.6,
+      "visRate": 1,
+      "output": [
+        0.294189453125,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "native_frame_post_draw_events": [
+    {
+      "frame": 0,
+      "history": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.1607666015625,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 1.0,
+      "tick_count": 1,
+      "visRate": 1.0,
+      "warmup": true
+    },
+    {
+      "frame": 0,
+      "history": [
+        0.1607666015625,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 1.0,
+      "tick_count": 2,
+      "visRate": 1.0,
+      "warmup": true
+    },
+    {
+      "frame": 0,
+      "history": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.6,
+      "tick_count": 3,
+      "visRate": 1.0,
+      "warmup": true
+    },
+    {
+      "frame": 0,
+      "history": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.6,
+      "tick_count": 3,
+      "visRate": 1.0,
+      "warmup": false
+    },
+    {
+      "frame": 1,
+      "history": [
+        0.2186279296875,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.2822265625,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.6,
+      "tick_count": 4,
+      "visRate": 1.0,
+      "warmup": false
+    },
+    {
+      "frame": 2,
+      "history": [
+        0.2822265625,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.298828125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.6,
+      "tick_count": 5,
+      "visRate": 1.0,
+      "warmup": false
+    },
+    {
+      "frame": 3,
+      "history": [
+        0.298828125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.29541015625,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.6,
+      "tick_count": 6,
+      "visRate": 1.0,
+      "warmup": false
+    }
+  ],
+  "paired_snapshot_frames": [
+    {
+      "source_frame": 4,
+      "native_frame": 1,
+      "source_lum": 0.281005859375,
+      "native_lum": 0.2822265625,
+      "lum_error": 0.001220703125,
+      "source_auto_multiplier": 0.6,
+      "native_auto_multiplier": 0.6,
+      "source_rate": 0.6,
+      "native_rate": 0.6
+    },
+    {
+      "source_frame": 5,
+      "native_frame": 2,
+      "source_lum": 0.297607421875,
+      "native_lum": 0.298828125,
+      "lum_error": 0.001220703125,
+      "source_auto_multiplier": 0.6,
+      "native_auto_multiplier": 0.6,
+      "source_rate": 0.6,
+      "native_rate": 0.6
+    },
+    {
+      "source_frame": 6,
+      "native_frame": 3,
+      "source_lum": 0.294189453125,
+      "native_lum": 0.29541015625,
+      "lum_error": 0.001220703125,
+      "source_auto_multiplier": 0.6,
+      "native_auto_multiplier": 0.6,
+      "source_rate": 0.6,
+      "native_rate": 0.6
+    }
+  ],
+  "scope": "Original actual Q9 draw outputs vs native post-draw viewport pixels; native extra unchanged callback does not prove an extra Q9 pass. Source initial3 outputs not instrumented. Remaining metering input differences unresolved."
+}

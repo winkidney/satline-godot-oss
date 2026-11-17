@@ -1,0 +1,50 @@
+{
+  "files": {
+    "scripts/game_ui.gd": "99fa53c71ed8934bf6fe5349667859e9360316d4700f54beed2f47833833c9af",
+    "scripts/title_layout.gd": "03acec48fda23532b27936e3efd75cfd8e05b0cc0e71209a22a4b6aecbe1d13c",
+    "scripts/result_card_content.gd": "1a2067c827590dd71f43a31851b36712883e6d4b80ff61d2e2892ccdb9404839",
+    "tools/card_layout_reference.cjs": "632a189a852d5cb8809a06313fd39703e10d2ce70a7a3ecd90e1102f62e63a47",
+    "tools/verify_card_layout.gd": "5daf1be3043669bf514f0ca597f92836e5bf2e1f761a7ff69e8323202e3dea93",
+    "assets/export/fixtures/card-layout-reference.json": "a09dd66469d93bf91efe0e9fcf2db3d823e5dc9b7914a8e5f2dd41d38c41b5b6"
+  },
+  "launches": {
+    "card_layout": {
+      "exit_code": 0,
+      "sha256": "223c972e773802020b1402cf2d5c702130ceafd8263cf0bacca98a5b5c825263"
+    },
+    "result_buttons": {
+      "exit_code": 0,
+      "sha256": "d4340a3af2a551a8fac656cd8b3a57cc91cc4c9ee701c0e9b5f48b4fa07d2e73"
+    },
+    "title_sizes": {
+      "exit_code": 0,
+      "sha256": "056294aab2c3fba2f5db7a8c6fb372cc3e2e8ec855d080a86147719e85c30506"
+    }
+  },
+  "cases": 16,
+  "scroll_cases": 3,
+  "maximum_card_rectangle_error_px": 0.025634765625,
+  "live_resize_windows": [
+    [
+      360,
+      720
+    ],
+    [
+      640,
+      240
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "title_return_and_settings_action": true,
+  "actual_resume_after_resize": true,
+  "regressions": {
+    "result_button_hover_actions": 6,
+    "title_pick_fields": 128
+  },
+  "scope": "Actual Main GameUI pause/death/complete cards vs original DOM/CSS across four window sizes, mission/holdout rows, typography, button sizes, viewport containment and focus-follow scrolling. Return-to-title action identity and settings signal after card reuse. No fixture scale override. Not full raster text parity or HiDPI.",
+  "initial_findings": "First test exposed title-layout aliasing of Settings/Controls to pause-card nodes, later freed after card replacement. Fixed stable title references and restored active title button dictionary entries. Original CSS fixture initially lacked data-mode; corrected before final comparison. Original heading/rating margin collapse and hidden trailing mission statistics border now respected.",
+  "bundle_status": "Source fix after r13; runtime package not rebuilt"
+}

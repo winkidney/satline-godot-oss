@@ -1,0 +1,31 @@
+{
+  "cached_getter_calls": 6000,
+  "failures": [],
+  "initial": 0,
+  "main_wiring": true,
+  "reads_after": [
+    "(uint32 1,)\n"
+  ],
+  "reads_before": [
+    "(uint32 1,)\n"
+  ],
+  "samples": [
+    {
+      "signal": 1,
+      "value": 1
+    },
+    {
+      "signal": 0,
+      "value": 0
+    },
+    {
+      "signal": 17,
+      "value": 0
+    },
+    {
+      "signal": 1,
+      "value": 1
+    }
+  ],
+  "scope": "Actual X11 engine API against private DBus portal mock. Initial normal/reduced/unsupported, notifications, unknown uint normalization, malformed/unrelated signal rejection and no per-query/signal DBus reads. Initial0 also checks actual Main startup and GameUI live updates without policy injection. Host desktop settings untouched."
+}

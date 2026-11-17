@@ -1,0 +1,559 @@
+{
+  "cases": [
+    {
+      "actions": [
+        {
+          "rect": [
+            452.0,
+            315.089965820312,
+            376.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RESUME"
+        },
+        {
+          "rect": [
+            452.0,
+            377.089965820312,
+            376.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "SETTINGS"
+        },
+        {
+          "rect": [
+            452.0,
+            433.089965820312,
+            376.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "CONTROLS"
+        },
+        {
+          "rect": [
+            452.0,
+            489.089965820312,
+            376.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "RESTART MISSION"
+        }
+      ],
+      "card": [
+        425.0,
+        160.089981079102,
+        430.0,
+        399.820068359375
+      ],
+      "heading_pixels": 62.0,
+      "mode": "mission",
+      "screen": "paused",
+      "window": [
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            452.0,
+            425.339996337891,
+            376.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        425.0,
+        218.339996337891,
+        430.0,
+        283.320007324219
+      ],
+      "heading_pixels": 62.0,
+      "mode": "mission",
+      "screen": "dead",
+      "window": [
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            452.0,
+            476.839965820312,
+            376.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        425.0,
+        166.839965820312,
+        430.0,
+        386.320068359375
+      ],
+      "heading_pixels": 62.0,
+      "mode": "holdout",
+      "screen": "dead",
+      "window": [
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            452.0,
+            478.880004882812,
+            376.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "REDEPLOY"
+        }
+      ],
+      "card": [
+        425.0,
+        164.880004882812,
+        430.0,
+        390.239990234375
+      ],
+      "heading_pixels": 44.0,
+      "mode": "mission",
+      "screen": "complete",
+      "window": [
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            37.0,
+            305.549987792969,
+            286.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RESUME"
+        },
+        {
+          "rect": [
+            37.0,
+            367.549987792969,
+            286.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "SETTINGS"
+        },
+        {
+          "rect": [
+            37.0,
+            423.549987792969,
+            286.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "CONTROLS"
+        },
+        {
+          "rect": [
+            37.0,
+            479.549987792969,
+            286.0,
+            46.0
+          ],
+          "scroll": 0,
+          "text": "RESTART MISSION"
+        }
+      ],
+      "card": [
+        16.0,
+        173.549987792969,
+        328.0,
+        372.900024414062
+      ],
+      "heading_pixels": 40.0,
+      "mode": "mission",
+      "screen": "paused",
+      "window": [
+        360.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            37.0,
+            415.799987792969,
+            286.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        16.0,
+        231.799987792969,
+        328.0,
+        256.400024414062
+      ],
+      "heading_pixels": 40.0,
+      "mode": "mission",
+      "screen": "dead",
+      "window": [
+        360.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            37.0,
+            467.300048828125,
+            286.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        16.0,
+        180.300033569336,
+        328.0,
+        359.39990234375
+      ],
+      "heading_pixels": 40.0,
+      "mode": "holdout",
+      "screen": "dead",
+      "window": [
+        360.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            37.0,
+            473.487182617188,
+            286.0,
+            52.0
+          ],
+          "scroll": 0,
+          "text": "REDEPLOY"
+        }
+      ],
+      "card": [
+        16.0,
+        174.487197875977,
+        328.0,
+        371.025634765625
+      ],
+      "heading_pixels": 30.96,
+      "mode": "mission",
+      "screen": "complete",
+      "window": [
+        360.0,
+        720.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            134.721984863281,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "RESUME"
+        },
+        {
+          "rect": [
+            126.0,
+            184.721984863281,
+            388.0,
+            40.0
+          ],
+          "scroll": 0,
+          "text": "SETTINGS"
+        },
+        {
+          "rect": [
+            126.0,
+            230.721984863281,
+            388.0,
+            40.0
+          ],
+          "scroll": 0,
+          "text": "CONTROLS"
+        },
+        {
+          "rect": [
+            126.0,
+            276.721984863281,
+            388.0,
+            40.0
+          ],
+          "scroll": 0,
+          "text": "RESTART MISSION"
+        }
+      ],
+      "card": [
+        105.0,
+        26.7219848632812,
+        430.0,
+        306.556030273438
+      ],
+      "heading_pixels": 39.6,
+      "mode": "mission",
+      "screen": "paused",
+      "window": [
+        640.0,
+        360.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            223.971984863281,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        105.0,
+        75.9719924926758,
+        430.0,
+        208.056030273438
+      ],
+      "heading_pixels": 39.6,
+      "mode": "mission",
+      "screen": "dead",
+      "window": [
+        640.0,
+        360.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            266.471984863281,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        105.0,
+        33.4719848632812,
+        430.0,
+        293.056030273438
+      ],
+      "heading_pixels": 39.6,
+      "mode": "holdout",
+      "screen": "dead",
+      "window": [
+        640.0,
+        360.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            275.279998779297,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "REDEPLOY"
+        }
+      ],
+      "card": [
+        105.0,
+        24.2799987792969,
+        430.0,
+        311.440002441406
+      ],
+      "heading_pixels": 44.0,
+      "mode": "mission",
+      "screen": "complete",
+      "window": [
+        640.0,
+        360.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            112.0,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "RESUME"
+        },
+        {
+          "rect": [
+            126.0,
+            162.0,
+            388.0,
+            40.0
+          ],
+          "scroll": 0,
+          "text": "SETTINGS"
+        },
+        {
+          "rect": [
+            126.0,
+            187.0,
+            388.0,
+            40.0
+          ],
+          "scroll": 21,
+          "text": "CONTROLS"
+        },
+        {
+          "rect": [
+            126.0,
+            187.0,
+            388.0,
+            40.0
+          ],
+          "scroll": 67,
+          "text": "RESTART MISSION"
+        }
+      ],
+      "card": [
+        105.0,
+        12.0,
+        430.0,
+        216.0
+      ],
+      "heading_pixels": 30.0,
+      "mode": "mission",
+      "screen": "paused",
+      "window": [
+        640.0,
+        240.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            159.100006103516,
+            388.0,
+            44.0
+          ],
+          "scroll": 0,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        105.0,
+        20.1000061035156,
+        430.0,
+        199.799987792969
+      ],
+      "heading_pixels": 30.0,
+      "mode": "mission",
+      "screen": "dead",
+      "window": [
+        640.0,
+        240.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            183.0,
+            388.0,
+            44.0
+          ],
+          "scroll": 53,
+          "text": "RETRY"
+        }
+      ],
+      "card": [
+        105.0,
+        12.0,
+        430.0,
+        216.0
+      ],
+      "heading_pixels": 30.0,
+      "mode": "holdout",
+      "screen": "dead",
+      "window": [
+        640.0,
+        240.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "rect": [
+            126.0,
+            183.0,
+            388.0,
+            44.0
+          ],
+          "scroll": 80,
+          "text": "REDEPLOY"
+        }
+      ],
+      "card": [
+        105.0,
+        12.0,
+        430.0,
+        216.0
+      ],
+      "heading_pixels": 44.0,
+      "mode": "mission",
+      "screen": "complete",
+      "window": [
+        640.0,
+        240.0
+      ]
+    }
+  ],
+  "failures": [],
+  "scope": "Actual Main GameUI pause/death/complete cards vs original DOM/CSS across four window sizes, mission/holdout rows, typography, button sizes, viewport containment and focus-follow scrolling. Return-to-title action identity and settings signal after card reuse. No fixture scale override. Not full raster text parity or HiDPI.",
+  "scroll_cases": 3
+}

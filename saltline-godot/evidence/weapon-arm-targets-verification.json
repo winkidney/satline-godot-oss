@@ -1,0 +1,10 @@
+{
+  "checks": 48960,
+  "failures": [],
+  "maximum_error": 0.0000000778834025050301,
+  "methods_sha256": "e4cf74b9c294ac67f24066cdf57c249e4027736e2c9cca76c6456c97e3d56a02",
+  "scope": "Literal original armTargets/snapArms with original exported holds and source config. Explicit synthetic state/finger/stop/left-target inputs. No reload-left trajectory, vS history, Fh IK, production integration or whole image proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "steps": 720,
+  "tolerance": 0.000002
+}

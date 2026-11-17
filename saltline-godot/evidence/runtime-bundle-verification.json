@@ -1,0 +1,9 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r2",
+  "files_checked": 3355,
+  "bytes": 1405506769,
+  "manifest_failures": [],
+  "startup_loaded_scene": true,
+  "log_errors": [],
+  "scope": "Independent development runtime bundle, full file checksum verification and six-frame Forward+ startup/normal exit. Not release export, other-device compatibility, full gameplay, or performance acceptance."
+}

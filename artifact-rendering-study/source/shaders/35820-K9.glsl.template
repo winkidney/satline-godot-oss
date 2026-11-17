@@ -1,0 +1,10 @@
+${ao}
+uniform sampler2D tLow, tHigh; uniform vec2 uTexel; uniform float uMix;
+void main(){
+  vec2 o = uTexel;
+  vec3 t = texture2D(tLow, vUv).rgb * 4.0;
+  t += (texture2D(tLow, vUv + vec2(o.x, 0.0)).rgb + texture2D(tLow, vUv - vec2(o.x, 0.0)).rgb + texture2D(tLow, vUv + vec2(0.0, o.y)).rgb + texture2D(tLow, vUv - vec2(0.0, o.y)).rgb) * 2.0;
+  t += texture2D(tLow, vUv + o).rgb + texture2D(tLow, vUv - o).rgb + texture2D(tLow, vUv + vec2(o.x, -o.y)).rgb + texture2D(tLow, vUv + vec2(-o.x, o.y)).rgb;
+  t *= 1.0 / 16.0;
+  gl_FragColor = vec4(mix(texture2D(tHigh, vUv).rgb, t, uMix), 1.0);
+}

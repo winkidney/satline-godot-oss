@@ -1,0 +1,21 @@
+{
+  "comparisons": 15552,
+  "coverage": {
+    "ads_one": 23.0,
+    "ads_zero": 25.0,
+    "equip": 24.0,
+    "reset": 24.0,
+    "snap": 48.0,
+    "sprint_one": 6.0,
+    "sprint_zero": 42.0,
+    "stance_one": 16.0,
+    "stance_zero": 32.0
+  },
+  "failures": [],
+  "lifecycle_sha256": "8fc340daf17cfc13acc5cd9c41f38bce8c2eb3f96e8a533de6e8dbe35483529f",
+  "maximum_error": 0.0,
+  "operations": 96,
+  "scope": "Literal original equip/reset/snap and helpers, one shared S over96 operations with explicitly dirty springs/history. Pure state only: mock nodes/arms/drop/slots side effects are not validated, no production cutover.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "tolerance": 0.000000000001
+}

@@ -1,0 +1,197 @@
+{
+  "files": {
+    "project.godot": "cf47eb9cbfb9433233e39ba8cfbc6a492b8bbca5fae2c514f2f246beb8d9d37d",
+    "scripts/radio_hud.gd": "318faa0319f84f402cd0f58376b59b4b9efe5653d591e42dd521d78cf0c0c8f5",
+    "tools/radio_layout_reference.cjs": "d0398e76cc667f63cea6b7abe6d858f58930f6f02f8d3ccda78ccb9000e771ac",
+    "tools/verify_radio_layout.gd": "ecfd9b0ed3a544eef2827eee4d3f9ebd76bf5e1712a0ef948e47439a0b5b372b",
+    "tools/verify_window_coordinates.gd": "1e1db89d7c813905fd0bf689522dbc35c0fc9d47d3dbaf70286650f5e4dff158"
+  },
+  "launches": {
+    "window": {
+      "exit_code": 0,
+      "sha256": "2a4bc0da2147b664de99714c3a4666ba6d288e752864464ed9848add83f117f9"
+    },
+    "title": {
+      "exit_code": 0,
+      "sha256": "056294aab2c3fba2f5db7a8c6fb372cc3e2e8ec855d080a86147719e85c30506"
+    },
+    "panel": {
+      "exit_code": 0,
+      "sha256": "a8290578c88ea3e101b30268173579f8be51d0a0ad17f92bbd4ef2fad9b5e1b7"
+    }
+  },
+  "window": {
+    "failures": [],
+    "samples": [
+      {
+        "logical": [
+          1280.0,
+          720.0
+        ],
+        "mouse": {
+          "dx": 0.021,
+          "dy": -0.0105
+        },
+        "stick_29px": [
+          0.0,
+          0.5
+        ],
+        "stick_58px": [
+          0.0,
+          1.0
+        ],
+        "window": [
+          1280,
+          720
+        ],
+        "world": [
+          1280,
+          720
+        ]
+      },
+      {
+        "logical": [
+          640.0,
+          360.0
+        ],
+        "mouse": {
+          "dx": 0.021,
+          "dy": -0.0105
+        },
+        "stick_29px": [
+          0.0,
+          0.5
+        ],
+        "stick_58px": [
+          0.0,
+          1.0
+        ],
+        "window": [
+          640,
+          360
+        ],
+        "world": [
+          640,
+          360
+        ]
+      },
+      {
+        "logical": [
+          360.0,
+          720.0
+        ],
+        "mouse": {
+          "dx": 0.021,
+          "dy": -0.0105
+        },
+        "stick_29px": [
+          0.0,
+          0.5
+        ],
+        "stick_58px": [
+          0.0,
+          1.0
+        ],
+        "window": [
+          360,
+          720
+        ],
+        "world": [
+          360,
+          720
+        ]
+      }
+    ],
+    "scope": "Actual Main under production project stretch configuration, no fixture content-scale override. Root.push_input(event,false) supplies physical window mouse/touch coordinates through viewport conversion. Verifies CSS-pixel viewport and render size, identical mouse and 29/58px stick movement in three window shapes. DPR1 only, not all HUD responsive rules or physical hardware acceptance."
+  },
+  "title_pick_checks": 128,
+  "title_maximum_error": 0.01873779296875,
+  "panel_samples": [
+    {
+      "before": 0,
+      "drawer_position": [
+        840.0,
+        0.0
+      ],
+      "drawer_size": [
+        440.0,
+        720.0
+      ],
+      "logical": [
+        1280.0,
+        720.0
+      ],
+      "scroll": 0,
+      "window": [
+        1280,
+        720
+      ]
+    },
+    {
+      "before": 20,
+      "drawer_position": [
+        520.0,
+        0.0
+      ],
+      "drawer_size": [
+        440.0,
+        540.0
+      ],
+      "logical": [
+        960.0,
+        540.0
+      ],
+      "scroll": 95,
+      "window": [
+        960,
+        540
+      ]
+    },
+    {
+      "before": 200,
+      "drawer_position": [
+        200.0,
+        0.0
+      ],
+      "drawer_size": [
+        440.0,
+        360.0
+      ],
+      "logical": [
+        640.0,
+        360.0
+      ],
+      "scroll": 275,
+      "window": [
+        640,
+        360
+      ]
+    },
+    {
+      "before": 0,
+      "drawer_position": [
+        0.0,
+        0.0
+      ],
+      "drawer_size": [
+        320.0,
+        568.0
+      ],
+      "logical": [
+        320.0,
+        568.0
+      ],
+      "scroll": 67,
+      "window": [
+        320,
+        568
+      ]
+    }
+  ],
+  "radio_pending": [
+    "line wrapping 360.0 touch=false: [\"Control to Saltline. Cross the berth, cut the three\", \"relays and reach the extraction boat. Stay clear\", \"of the water.\"]",
+    "line wrapping 360.0 touch=true: [\"Control to Saltline. Cross the berth, cut the three\", \"relays and reach the extraction boat. Stay clear\", \"of the water.\"]"
+  ],
+  "scope": "Production stretch disabled fixes CSS-pixel viewport and input coordinates. Title/panel/window GPU tests pass. Radio 17/19 typography now follows actual viewport; 360px line wrapping remains an explicit failed check. Other responsive HUD rules and HiDPI still require audit. Not a full completion claim.",
+  "bundle_status": "Source changes after r12, no new runtime package yet"
+}

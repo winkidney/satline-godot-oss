@@ -1,0 +1,177 @@
+{
+  "bundle": "saltline-godot/output/linux-runtime-20261116-r16",
+  "file_count": 5566,
+  "total_bytes": 3074723888,
+  "engine_sha256": "639baccce7c7c63638da889fba58b3797316b09be1df9da0bd49c839af1a5788",
+  "manifest_mismatches": [],
+  "production_sha256": {
+    "scripts/main.gd": "69ba880027f28ef061c88cd67da1db79614c41282904d111778ea197b0c9f0df",
+    "scripts/game_ui.gd": "88e74bc9ae5c601da907555dd7af94e860f3d8496f1d269a5387c7973b821d65",
+    "scripts/result_card_content.gd": "6f87ac47d00950892df5b2d837e75c9967041c15e238affcb3f957d063d5bae0",
+    "scripts/boot.gd": "1ed15b67d712892af82b5c2ac4ec6c85995e82656ef259732b1a6ce1cbeeb3eb",
+    "project.godot": "2734856486acf786404eb5774d22812ef6163c94450faebda9d9162a8270351b"
+  },
+  "terminal_exit_codes": {
+    "touch_capture": 0,
+    "boot": 0
+  },
+  "reports": {
+    "touch-capture-verification.json": {
+      "failures": [],
+      "scope": "Actual Main capture callback retained; injected first native touch, Deploy/Pause/Resume/Retry and physical mouse click in touch mode; desktop comparison and paused hint min-height from original CSS. No physical touchscreen.",
+      "snapshots": [
+        {
+          "action": "touch deploy",
+          "mouse_mode": 0,
+          "state": "playing",
+          "touch": true
+        },
+        {
+          "action": "touch pause",
+          "mouse_mode": 0,
+          "state": "paused",
+          "touch": true
+        },
+        {
+          "action": "touch resume",
+          "mouse_mode": 0,
+          "state": "playing",
+          "touch": true
+        },
+        {
+          "action": "touch retry",
+          "mouse_mode": 0,
+          "state": "intro",
+          "touch": true
+        },
+        {
+          "action": "touch physical mouse click",
+          "mouse_mode": 0,
+          "state": "intro",
+          "touch": true
+        },
+        {
+          "action": "desktop deploy",
+          "mouse_mode": 2,
+          "state": "playing",
+          "touch": false
+        },
+        {
+          "action": "desktop pause",
+          "mouse_mode": 0,
+          "state": "paused",
+          "touch": false
+        },
+        {
+          "action": "desktop resume",
+          "mouse_mode": 2,
+          "state": "playing",
+          "touch": false
+        },
+        {
+          "action": "desktop retry",
+          "mouse_mode": 2,
+          "state": "intro",
+          "touch": false
+        }
+      ]
+    },
+    "boot-normal-runtime.json": {
+      "entry_scene": "res://scenes/boot.tscn",
+      "failures": [],
+      "profile": "normal",
+      "scope": "Actual project startup scene, visible GPU boot snapshots, real asset milestones, Main disabled during initialization, ready after depth producer, source stage labels/weights, CSS layout/durations, pointer release, 700ms removal and actual title. No artificial policy override; reduced run requires private Portal1 fixture.",
+      "stages": [
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Raising the terminal",
+          "progress": 0.0,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Waking the renderer",
+          "progress": 0.04,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Mixing paint, rust and rain",
+          "progress": 0.12,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Stacking containers",
+          "progress": 0.34,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Raising the cranes",
+          "progress": 0.5,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Flooding the apron",
+          "progress": 0.58,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Loading tracers and smoke",
+          "progress": 0.66,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Checking the rifle",
+          "progress": 0.74,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Waking the Harbormaster",
+          "progress": 0.82,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Waiting for first light",
+          "progress": 0.92,
+          "subtitle_y": 399.5
+        },
+        {
+          "bar_width": 320.0,
+          "bar_y": 428.5,
+          "mark_pixels": 96.0,
+          "message": "Ready",
+          "progress": 1.0,
+          "subtitle_y": 399.5
+        }
+      ]
+    }
+  },
+  "scope": "Packaged production engine/assets/scripts from cwd /tmp with isolated XDG. External test drivers only. Full manifest size/SHA verification passed after launch; no engine ERROR/WARNING. No new full-mission, physical touchscreen, Wayland or HiDPI claim."
+}

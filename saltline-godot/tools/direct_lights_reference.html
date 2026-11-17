@@ -1,0 +1,27 @@
+<!doctype html><meta charset="utf-8"><script>
+window.ready=(async()=>{
+ const text=await(await fetch('../../artifact-rendering-study/source/extracted/bundle-1.js')).text(),T=eval(text.slice(0,text.indexOf('  var Kn = {'))+'return ut;})()');
+ const read=async f=>(await(await fetch('../assets/export/fixtures/'+f)).text()),raw=await read('source-sun-brdf.glsl'),local=await read('source-local-lights-original.glsl');
+ const renderer=new T.WebGLRenderer();renderer.debug.onShaderError=(gl,p,vs,fs)=>{throw Error(gl.getShaderInfoLog(fs)||gl.getProgramInfoLog(p));};renderer.setSize(2,1);
+ const scene=new T.Scene(),camera=new T.Camera(),quad=new T.Mesh(new T.PlaneGeometry(2,2));scene.add(quad);const target=new T.WebGLRenderTarget(2,1,{type:T.HalfFloatType,depthBuffer:false}),cases=[];
+ const wrapper=`uniform sampler2D uLights;uniform mat4 uViewMatrix;uniform float uMask,uSun,uMetal,uRough,uWet,uClamp,uGlitter;uniform vec3 uPosition,uBase,uView;
+ vec4 cell(float col,float row){return texture2D(uLights,vec2((col+.5)/4.0,(row+.5)/11.0));}
+ bool visible(float row){vec4 state=cell(3.0,row);return state.g>.5&&mod(floor(state.r/uMask),2.0)>0.5;}
+ void main(){vec3 normal=vec3(0,1,0),view=normalize(uView);PhysicalMaterial material;material.diffuseColor=uBase*(1.0-uMetal);material.roughness=min(max(uRough,.0525),1.0);material.specularColor=mix(mix(vec3(.04),uBase,uMetal),vec3(.075),uWet);material.specularF90=1.0;
+ ReflectedLight reflected;reflected.directDiffuse=vec3(0);reflected.directSpecular=vec3(0);reflected.indirectDiffuse=vec3(0);reflected.indirectSpecular=vec3(0);
+ for(int i=0;i<10;i++){float row=float(i);if(visible(row)){vec4 p=cell(0.0,row),c=cell(1.0,row);PointLight point;point.position=(uViewMatrix*vec4(p.xyz,1.0)).xyz;point.color=c.rgb;point.distance=p.a;point.decay=c.a;IncidentLight light;getPointLightInfo(point,(uViewMatrix*vec4(uPosition,1.0)).xyz,light);if(light.visible)RE_Direct_Physical(light,vec3(0),normal,view,normal,material,reflected);}}
+ if(uSun>.5){IncidentLight sun;sun.direction=normalize((uViewMatrix*vec4(.9163473614874841,.22508532350948027,.33112552036283543,0)).xyz);sun.color=vec3(1,.72,.42)*9.0;sun.visible=true;RE_Direct_Physical(sun,vec3(0),normal,view,normal,material,reflected);}
+ if(visible(10.0)){IncidentLight key;key.direction=normalize((uViewMatrix*vec4(cell(2.0,10.0).xyz,0)).xyz);key.color=cell(1.0,10.0).rgb;key.visible=true;RE_Direct_Physical(key,vec3(0),normal,view,normal,material,reflected);}
+ vec3 spec=reflected.directSpecular;if(uClamp>.5)spec=min(spec,vec3(40))*uGlitter;gl_FragColor=vec4(gl_FragCoord.x<1.0?reflected.directDiffuse:spec,1);}`;
+ for(let i=0;i<72;i++){
+  const atlas=[];for(let row=0;row<11;row++){
+   const power=row===0?[0,2,200,20000][i%4]:row<6?3+row:row<10?34:i%2?.495:.9;
+   const position=row===0?[.3,.21,-.4]:[Math.sin(row)*3,1+row*.25,Math.cos(row)*3];const color=row===10?[.78,.86,1]:[1,.55+row*.02,.25+row*.03];const dir=new T.Vector3(-.65,.85,1).normalize();
+   atlas.push(...position,row<10?[0,4,13][i%3]:0,...color.map(c=>c*power),row<10?2:0,...(row===10?dir.toArray():[0,0,0]),row===10?1:0,row===10?2:3,(row+i)%7===0?0:1,power,0);
+  }
+  const values={uMask:i%2?2:1,uSun:i%3?1:0,uMetal:[0,.35,1][Math.floor(i/4)%3],uRough:[0,.0525,.12,.4,.9,1][Math.floor(i/12)],uWet:i%5===0?1:0,uClamp:i%3===0?0:1,uGlitter:i%3===2?.3:1};const vectors={uPosition:[.3,.2,-.4],uBase:[.45,.21,.07],uView:i%5===0?[0,1,0]:[.3,.7,1]};const matrix=new T.Matrix4().makeRotationY(i%2?.7:0);const tex=new T.DataTexture(new Float32Array(atlas),4,11,T.RGBAFormat,T.FloatType);tex.needsUpdate=true;tex.minFilter=tex.magFilter=T.NearestFilter;
+  const uniforms={uLights:{value:tex},uViewMatrix:{value:matrix}};for(const[k,v]of Object.entries(values))uniforms[k]={value:v};for(const[k,v]of Object.entries(vectors))uniforms[k]={value:new T.Vector3(...v)};
+  quad.material=new T.ShaderMaterial({uniforms,vertexShader:'void main(){gl_Position=vec4(position.xy,0,1);}',fragmentShader:raw+'\n'+local+'\n'+wrapper,depthTest:false,depthWrite:false,blending:T.NoBlending});renderer.setRenderTarget(target);renderer.render(scene,camera);const pixels=new Uint16Array(8);renderer.readRenderTargetPixels(target,0,0,2,1,pixels);cases.push({values,vectors,matrix:matrix.elements,atlas:Array.from(new Float32Array(atlas)),pixels:Array.from(pixels,T.DataUtils.fromHalfFloat)});quad.material.dispose();tex.dispose();
+ }
+ const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');return {cases,backend:gl.getParameter(debug.UNMASKED_RENDERER_WEBGL),scope:'Literal original PointInfo + Physical BRDF, ten ordered points then sun then key. Independent shader wrapper; mask1/2, visibility, source intensity, yaw, rough/metal/wetF0, once-totalSpec clamp40 then glitter. PCSS disabled, derivative geometry roughness0.'};
+})();</script>

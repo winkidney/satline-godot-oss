@@ -1,0 +1,6 @@
+{
+  "failures": [],
+  "material": "0066994d-de85-4ef1-bc61-07a02c23657f",
+  "shader_sha256": "4e91ffb98e81df38498ce15c2afaa647a4af0e5fb264760892e41debb6fd7e44",
+  "scope": "Original exported vertex displacement and full surface block unchanged except Godot API/sampler rename. Lighting bridge, IBL occlusion and haze integration are separate from source parity."
+}

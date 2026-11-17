@@ -1,0 +1,11 @@
+{
+  "case": "explicit-ultra",
+  "expected": "ultra",
+  "failures": [],
+  "initial_render_quality": "ultra",
+  "menu_render_quality": "medium",
+  "rain_instances": 9260,
+  "saved": "low",
+  "scope": "Actual Main isolated saved settings, explicit cold-quality priority and runtime quality signal. Menu signal tests apply behavior, not pointer click delivery.",
+  "source_quality": "ultra"
+}

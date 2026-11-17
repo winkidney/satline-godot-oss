@@ -1,0 +1,21 @@
+{
+  "failures": [],
+  "frames": 480,
+  "scope": "Native repeated camera trajectory, first240 motion off, next240 on, full AO/volume/bloom enabled. Diagnostic trajectory, not full original visual parity.",
+  "snapshots": [
+    {
+      "changed_samples": 0,
+      "enabled": false,
+      "frame": 120,
+      "maximum_rgb_difference": 0.0,
+      "shutter": 0.0
+    },
+    {
+      "changed_samples": 27117,
+      "enabled": true,
+      "frame": 360,
+      "maximum_rgb_difference": 2.51025390625,
+      "shutter": 0.315789473684211
+    }
+  ]
+}

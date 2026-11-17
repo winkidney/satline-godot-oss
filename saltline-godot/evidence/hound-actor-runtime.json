@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "alive": false,
+  "body_height": -0.505,
+  "die_time": 8.01666666666664,
+  "frames": 900,
+  "impacts": 2,
+  "particles": 4,
+  "player_intersections": 6,
+  "scope": "native Hound actor: AI decision/movement/pose, observed shot rays, scripted damage and persistent wreck; player damage and full combat are pending",
+  "shots": 10,
+  "states": [
+    "move",
+    "aim",
+    "tele",
+    "burst",
+    "cool"
+  ],
+  "steps": 12,
+  "wreck": true,
+  "runtime_log_errors": 0,
+  "exit_resource_leaks": 0
+}

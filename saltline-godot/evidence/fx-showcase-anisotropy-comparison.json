@@ -1,0 +1,7 @@
+{
+  "native_enum": 3,
+  "native_samples": 8,
+  "full_mae": 0.002486058630628177,
+  "effect_mae": 0.014387741466957153,
+  "scope": "Source program materials live anisotropy8 vs native viewport8; other source per-texture levels may differ."
+}

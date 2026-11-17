@@ -1,0 +1,191 @@
+{
+  "checks": 37800,
+  "failures": [
+    {
+      "actual": 0.211306437849998,
+      "channel": 0,
+      "error": 0.0000312274474398022,
+      "expected": 0.211337665297438,
+      "field": "q",
+      "side": "r",
+      "step": 35
+    },
+    {
+      "actual": 0.205771788954735,
+      "channel": 1,
+      "error": 0.0000984057013942441,
+      "expected": 0.205870194656129,
+      "field": "q",
+      "side": "r",
+      "step": 35
+    },
+    {
+      "actual": 0.146435156464577,
+      "channel": 2,
+      "error": 0.0000483108060873316,
+      "expected": 0.146386845658489,
+      "field": "q",
+      "side": "r",
+      "step": 35
+    },
+    {
+      "actual": 0.944226920604706,
+      "channel": 3,
+      "error": 0.0000210396671673774,
+      "expected": 0.944205880937538,
+      "field": "q",
+      "side": "r",
+      "step": 35
+    },
+    {
+      "actual": 0.214657083153725,
+      "channel": 0,
+      "error": 0.0000108708375795574,
+      "expected": 0.214667953991304,
+      "field": "q",
+      "side": "l",
+      "step": 35
+    },
+    {
+      "actual": -0.182026833295822,
+      "channel": 1,
+      "error": 0.000100598304976635,
+      "expected": -0.181926234990846,
+      "field": "q",
+      "side": "l",
+      "step": 35
+    },
+    {
+      "actual": 0.0609999746084213,
+      "channel": 2,
+      "error": 0.0000527652379697235,
+      "expected": 0.0609472093704516,
+      "field": "q",
+      "side": "l",
+      "step": 35
+    },
+    {
+      "actual": 0.957636535167694,
+      "channel": 3,
+      "error": 0.0000199545096835063,
+      "expected": 0.957656489677378,
+      "field": "q",
+      "side": "l",
+      "step": 35
+    },
+    {
+      "actual": 0.212285697460175,
+      "channel": 0,
+      "error": 0.000091579529789193,
+      "expected": 0.212377276989964,
+      "field": "q",
+      "side": "r",
+      "step": 36
+    },
+    {
+      "actual": 0.200696289539337,
+      "channel": 1,
+      "error": 0.0000967452503920774,
+      "expected": 0.200793034789729,
+      "field": "q",
+      "side": "r",
+      "step": 36
+    },
+    {
+      "actual": 0.149313926696777,
+      "channel": 2,
+      "error": 0.0000372644438068337,
+      "expected": 0.149276662252971,
+      "field": "q",
+      "side": "r",
+      "step": 36
+    },
+    {
+      "actual": 0.944648802280426,
+      "channel": 3,
+      "error": 0.000035374731954807,
+      "expected": 0.944613427548471,
+      "field": "q",
+      "side": "r",
+      "step": 36
+    },
+    {
+      "actual": 0.216658100485802,
+      "channel": 0,
+      "error": 0.0000712806468768368,
+      "expected": 0.216729381132679,
+      "field": "q",
+      "side": "l",
+      "step": 36
+    },
+    {
+      "actual": -0.186977088451385,
+      "channel": 1,
+      "error": 0.000104218996607008,
+      "expected": -0.186872869454778,
+      "field": "q",
+      "side": "l",
+      "step": 36
+    },
+    {
+      "actual": 0.0630747601389885,
+      "channel": 2,
+      "error": 0.0000660593118703562,
+      "expected": 0.0630087008271181,
+      "field": "q",
+      "side": "l",
+      "step": 36
+    },
+    {
+      "actual": 0.956096529960632,
+      "channel": 3,
+      "error": 0.00000849023101068269,
+      "expected": 0.956105020191643,
+      "field": "q",
+      "side": "l",
+      "step": 36
+    },
+    {
+      "actual": 0.212773770093918,
+      "channel": 0,
+      "error": 0.000506039794457902,
+      "expected": 0.213279809888376,
+      "field": "q",
+      "side": "r",
+      "step": 37
+    },
+    {
+      "actual": 0.19539849460125,
+      "channel": 1,
+      "error": 0.000305936551413255,
+      "expected": 0.195704431152663,
+      "field": "q",
+      "side": "r",
+      "step": 37
+    },
+    {
+      "actual": 0.152217254042625,
+      "channel": 2,
+      "error": 0.0000791252373333329,
+      "expected": 0.152138128805292,
+      "field": "q",
+      "side": "r",
+      "step": 37
+    },
+    {
+      "actual": 0.945186138153076,
+      "channel": 3,
+      "error": 0.000164716128784215,
+      "expected": 0.945021422024292,
+      "field": "q",
+      "side": "r",
+      "step": 37
+    }
+  ],
+  "maximum_error": 0.133460336367384,
+  "scope": "Literal original vS normal update/blend/snap/attach, original Three math, mocked Fh receivers capture solver inputs. Synthetic gun-local targets/root; no Fh IK, production integration, death-drop or whole image proof.",
+  "source_sha256": "756bd2b539d1466bd5ab2da1836d6c39dd3ff8a3ba2afc0b02fd9f7fb3cb04c8",
+  "stage_sha256": "59a932b2961067045edcd0f59231361e3910a3c443ff87589c607f981e6a608d",
+  "steps": 540,
+  "tolerance": 0.000002
+}

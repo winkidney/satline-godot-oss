@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "format": 14,
+      "weight": 0.0,
+      "y_sign": -1.0
+    },
+    {
+      "format": 14,
+      "weight": 0.25,
+      "y_sign": 1.0
+    }
+  ],
+  "scope": "Forward+ direct POSITION CPU NDC single triangle, MSAA4, no depth; opposite sign read at mirrored row. Not full source vertex transformation proof."
+}
