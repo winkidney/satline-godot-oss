@@ -59,7 +59,7 @@ python3 video/tools/check_quay_flicker.py "$SATLINE_QUAY_SCRATCH/quay.mp4"
 
 ## 成片
 
-[当前成片](../video/final.mp4)为 619.867 秒、H.264 1920×1080、60 fps、37,192 帧，AAC 48 kHz 立体声；完整音视频解码通过。此前的[版本 5 成片](../video/archive/previous-cut-before-v6.mp4)为 647.533 秒，[第二版成片](../video/archive/previous-cut-before-v5.mp4)为 541.77 秒，初版成片为 640 秒。输出编码帧数不代表原版或复刻录制时始终达到 60 fps。当前成片的截图、音频与颜色验证见[验证记录](validation.md)；二维码目标仓库尚未公开。
+[当前成片](../video/final.mp4)为 619.867 秒、H.264 1920×1080、60 fps、37,192 帧，AAC 48 kHz 立体声；完整音视频解码通过。此前的[版本 5 成片](../video/archive/previous-cut-before-v6.mp4)为 647.533 秒，[第二版成片](../video/archive/previous-cut-before-v5.mp4)为 541.77 秒，初版成片为 640 秒。输出编码帧数不代表原版或复刻录制时始终达到 60 fps。当前成片的截图、音频与颜色验证见[验证记录](validation.md)；二维码指向 GitHub 项目首页，片尾的“项目待公开”是制作时的标记。
 
 码头修复后，影片中 5 处海面镜头均换成新录素材，修复前成片保留在 `video/archive/previous-cut-before-v5-revision-03.mp4`。新素材使用固定步进，其他录屏保持各自原有的采集条件；版本 6 旁白的更新情况见[配音研究](tts-naturalness.md)。
 

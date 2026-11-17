@@ -14,4 +14,4 @@
 
 This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio
 
-公开发布前，逐项核实原作者授权、字体许可、声音许可与参考图使用范围，并确定本项目有权再许可部分的协议。不得将未知授权素材统一标为 MIT。
+原作者授权、字体许可、声音许可与参考图使用范围，以及本项目有权再许可部分的协议，仍需逐项核实。不得将未知授权素材统一标为 MIT。
