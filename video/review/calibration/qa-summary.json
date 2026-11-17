@@ -74,5 +74,6 @@
     "Separate captures are not time synchronized.",
     "Ground and hands use fixed-state offline bakes.",
     "FX, dynamic water, source AO response and sky remain approximate."
-  ]
+  ],
+  "baseline_commit_filtered": "aa48833590c8fdfe97df4fbf3bf08fb1fb6f3d8d"
 }

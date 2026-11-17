@@ -1,5 +1,7 @@
 # 剪辑工程
 
+GitHub 精简版本保留剪辑脚本、时间线和制作配方；录屏、成片、音乐音频和图像素材保留在本机，不包含私有旁白。没有这些素材时不能直接导出完整影片。
+
 这是 1920×1080、60 fps 的视频制作工程。当前成片使用 `src/film-plan.json`、`scripts/render_film.py` 和 `../recordings/showcases/` 的十类调试场景；原版、定制复刻、官方内建分别采集，画面标注来源和非同步操作。官方内建视频逐帧固定步进输出，其编码帧率不是实时性能。具体录制条件见[实录记录](../../docs/recording-evidence.md)。
 
 当前导出需要 FFmpeg（含 libass 和 H.264 NVENC）、Pillow、NumPy、Fontconfig 和 `Noto Sans CJK SC`，以及本片授权生成的私有旁白。`python3 scripts/render_film.py --prepare-only` 生成实际时间线、分镜、字幕与图形，去掉参数输出完整成片；旧成片及字幕会先保存在 `../archive/`，不会覆盖已有不同内容的同名备份。旁白及参考音频不随项目公开，没有授权旁白时不能重建带配音成片。
